@@ -1,0 +1,33 @@
+---
+ name: "GAD-7 Screener"
+ options: &options
+   - name: 'Not at all'
+     value: 0
+   - name: 'Several days'
+     value: 1
+   - name: 'More than half the days'
+     value: 2
+   - name: 'Nearly every day'
+     value: 3
+ questions:
+   - order: 1
+     question: "Feeling nervous, anxious, or on edge"
+     options: *options
+   - order: 2
+     question: "Not being able to stop or control worrying"
+     options: *options
+   - order: 3
+     question: "Worrying too much about different things"
+     options: *options
+   - order: 4
+     question: "Trouble relaxing"
+     options: *options
+   - order: 5
+     question: "Being so restless that it is hard to sit still"
+     options: *options
+   - order: 6
+     question: "Becoming easily annoyed or irritable"
+     options: *options
+   - order: 7
+     question: "Feeling afraid, as if something awful might happen "
+     options: *options
