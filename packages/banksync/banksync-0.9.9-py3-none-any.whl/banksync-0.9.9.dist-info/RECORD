@@ -1,0 +1,10 @@
+banksync/__init__.py,sha256=3_q2hUGlym1aWIl85JujgH8xuI8ZsYFYkFpZf_NFA4A,30
+banksync/banksync.py,sha256=17QUZKAtkT9LZm0nZ_BaI0SvV8Ss6jQteK5Boiz5UZ0,41943
+banksync/banksync_common.py,sha256=EXksIV1ChCte3Hi5jgS1TDCXGScghlV4nBalA3QOEuk,14890
+banksync-0.9.9.data/scripts/bank,sha256=NtczRoQrMwn2sERLUgdTPfAf022tyKJ8F0O4ux2BxCI,233
+banksync-0.9.9.data/scripts/banksync,sha256=NtczRoQrMwn2sERLUgdTPfAf022tyKJ8F0O4ux2BxCI,233
+banksync-0.9.9.dist-info/LICENSE.txt,sha256=yGYU2kWkZBaRXsMOg9Wj8RBYe60s1-RT3giNcZyupXs,1504
+banksync-0.9.9.dist-info/METADATA,sha256=aGW2J7B39hWG2-wqA5zP2BLaqaz982s6GGr6Jp60kP8,15409
+banksync-0.9.9.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+banksync-0.9.9.dist-info/top_level.txt,sha256=59xlNaMoJtW3bioryK2i2_M84hfY1U_yXqDx8LLKvRo,9
+banksync-0.9.9.dist-info/RECORD,,
