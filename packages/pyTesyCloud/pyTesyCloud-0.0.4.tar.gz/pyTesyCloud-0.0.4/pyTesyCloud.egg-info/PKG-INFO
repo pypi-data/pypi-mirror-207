@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pyTesyCloud
+Version: 0.0.4
+Summary: Library for Tesy smart home devices. Based on StyraHem/pyTesy
+Home-page: https://github.com/strainu/pyTesyCloud
+Author: Strainu
+Author-email: pypi@strainu.ro
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+![PyPI](https://img.shields.io/pypi/v/pyTesyCloud.svg?color=green&style=for-the-badge)
+
+# pyTesyCloud
+
+Library for Tesy smart home devices. Connects through the mytesy portal.
+
+Based on the StyraHem/pyTesy library for water heaters.
+
+# Support devices
+- Water heater
+- electric heater

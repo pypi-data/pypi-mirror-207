@@ -1,0 +1,7 @@
+README.md
+setup.py
+pyTesyCloud.egg-info/PKG-INFO
+pyTesyCloud.egg-info/SOURCES.txt
+pyTesyCloud.egg-info/dependency_links.txt
+pyTesyCloud.egg-info/top_level.txt
+pytesycloud/__init__.py
