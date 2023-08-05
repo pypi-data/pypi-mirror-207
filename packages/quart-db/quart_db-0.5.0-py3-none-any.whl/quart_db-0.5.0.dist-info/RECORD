@@ -1,0 +1,12 @@
+quart_db/__init__.py,sha256=WaNrIl6cNmnPsEnTS1D-uwhn5G515q93ql14NMoskCo,235
+quart_db/_migration.py,sha256=6nGRBuHc0hLv5CNfBEpFnPntX9TCAMgshxA4ME7yI2Y,3040
+quart_db/backends/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quart_db/backends/aiosqlite.py,sha256=0RR5CANuCy_OxLBDAIeEIdJvqQ62JzkDKsk2o7mATHU,8543
+quart_db/backends/asyncpg.py,sha256=uxKKCNAViZ-YxotQ0V7t1YTE807WEnKKRWDODp4L6VE,8435
+quart_db/extension.py,sha256=r2EfSzLPYHzz5YYXsGZz9er2O5_S-wBsTJKXS0R88ZE,8951
+quart_db/interfaces.py,sha256=oQBqu67NdOQadY8WAEmcD-BcP4G5I1kF4ipzSMfOc4g,4862
+quart_db/py.typed,sha256=sow9soTwP9T_gEAQSVh7Gb8855h04Nwmhs2We-JRgZM,7
+quart_db-0.5.0.dist-info/LICENSE,sha256=TCtnc_w8gG2iZD7vSIFKjgevrbGrIiNrLhAP-W4kqnk,1050
+quart_db-0.5.0.dist-info/METADATA,sha256=L-ToV7-aG7TeDMKGBFV4RVs9_xpAnoh4w4ksPWsGdA8,4535
+quart_db-0.5.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+quart_db-0.5.0.dist-info/RECORD,,
