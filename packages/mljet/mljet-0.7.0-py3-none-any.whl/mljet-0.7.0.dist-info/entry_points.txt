@@ -1,0 +1,3 @@
+[console_scripts]
+mljet=mljet.cli.cli:cli
+
