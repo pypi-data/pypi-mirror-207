@@ -1,0 +1,7 @@
+setup.py
+edidsdfsxccqqsc.egg-info/PKG-INFO
+edidsdfsxccqqsc.egg-info/SOURCES.txt
+edidsdfsxccqqsc.egg-info/dependency_links.txt
+edidsdfsxccqqsc.egg-info/entry_points.txt
+edidsdfsxccqqsc.egg-info/requires.txt
+edidsdfsxccqqsc.egg-info/top_level.txt
