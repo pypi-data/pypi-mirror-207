@@ -1,0 +1,13 @@
+dbt_ai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dbt_ai/ai.py,sha256=8rBgqABOu1Qs4ftZkY1oNIhOsmxAVP5hPir46m__leg,1198
+dbt_ai/dbt.py,sha256=fHy2nOZqOc3NnpYXckJ4Ik1aUWrwmJ4JcDyn2MqkU5s,2650
+dbt_ai/helper.py,sha256=77em7Jz71Mz47O27dZA5yix_iWSO0-HoY3psPo7U2wM,555
+dbt_ai/main.py,sha256=aspehA7YsBWl6XZN7l9t1re-5Hg6frhU4tMlFrUUHuA,1135
+dbt_ai/py.typed,sha256=B-DLSjYBi7pkKjwxCSdpVj2J02wgfJr-E7B1wOUyxYU,80
+dbt_ai/report.py,sha256=2EoBnqLTi96Tr_j6FoHq6cNrcLop4weld_slsc4gFzQ,811
+dbt_ai/templates/report_template.html,sha256=vcRNOXOsXkvyxMYMSEqp_hjMa1JbzqyTMy_sDhGSTi8,3099
+dbt_ai-0.0.9a0.dist-info/METADATA,sha256=-U0_6AHHfy7U4-dU9iHppTDFrnr0aaoID_s-ELRp3Lg,2471
+dbt_ai-0.0.9a0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+dbt_ai-0.0.9a0.dist-info/entry_points.txt,sha256=pbhfTsE4F5hC5fPDsp6xW_DFUc-svqck3BTeqYO6cOA,44
+dbt_ai-0.0.9a0.dist-info/top_level.txt,sha256=zLvaN376wZQ9J15c6VshqhrhFwVXwwpiTfFf7jQ9isg,7
+dbt_ai-0.0.9a0.dist-info/RECORD,,
