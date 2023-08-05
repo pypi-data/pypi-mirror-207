@@ -1,0 +1,6 @@
+requests
+colorama
+psutil
+RobloxPyApi3Update
+enums
+pyautogui
