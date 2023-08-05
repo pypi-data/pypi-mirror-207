@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: getdefgw
+Version: 0.0.2
+Summary: get default gateway device / IP
+Home-page: https://github.com/yaroslaff/getdefgw
+Author: Yaroslav Polyakov
+Author-email: yaroslaff@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+
+# defgw
+Get default gateway interface / IP (for Linux)
+
+Parses/decodes /proc/net/route and prints def gw information
+
+## Install
+~~~
+pip3 install getdefgw
+~~~
+
+## Usage
+~~~
+$ getdefgw 
+192.168.100.245
+
+$ getdefgw --dev
+wlp8s0
+~~~
+
