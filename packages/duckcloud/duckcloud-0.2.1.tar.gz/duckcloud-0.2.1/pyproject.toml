@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "duckcloud"
+version = "0.2.1"
+description = "A small wrapper for duckcloud."
+authors = ["BadPythonCoder <goaway@lol.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7" # another one of my notorious evil lies!
+requests = "^2.30.0"
+python-socketio = "^5.8.0"
+websocket-client = "^1.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
