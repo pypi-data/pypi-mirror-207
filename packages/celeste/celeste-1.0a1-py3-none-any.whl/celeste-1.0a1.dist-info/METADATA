@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: celeste
+Version: 1.0a1
+Summary: The celeste.
+Home-page: http://gqylpy.com
+Author: 竹永康
+Author-email: <gqylpy@outlook.com>
+Project-URL: Source, https://github.com/gqylpy/celeste
+Description-Content-Type: text/markdown
+
+[<img alt="LOGO" src="http://www.gqylpy.com/static/img/favicon.ico" height="21" width="21"/>](http://www.gqylpy.com)
+[![Release](https://img.shields.io/github/release/gqylpy/celeste.svg?style=flat-square")](https://github.com/gqylpy/celeste/releases/latest)
+
+# celeste
+
+> The celeste.
