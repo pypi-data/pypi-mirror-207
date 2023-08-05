@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+swd/__init__.py
+swd/swd.py
+swd.egg-info/PKG-INFO
+swd.egg-info/SOURCES.txt
+swd.egg-info/dependency_links.txt
+swd.egg-info/requires.txt
+swd.egg-info/top_level.txt
