@@ -1,0 +1,3 @@
+[console_scripts]
+instld = installed.__main__:start
+
