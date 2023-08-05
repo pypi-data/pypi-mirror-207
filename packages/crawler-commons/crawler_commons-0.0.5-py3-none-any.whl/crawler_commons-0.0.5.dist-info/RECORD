@@ -1,0 +1,8 @@
+crawapi/__init__.py,sha256=PIBKyMqdGqzIeoCYUkfPVT8P5qe555tF4bld7lB3gPw,2634
+crawlutils/__init__.py,sha256=dm_atb9h6JdpRx94Kn6kSdXWOPGvLlRCrDaDzTPL3ts,2535
+crawlutils/text_utils.py,sha256=yn6mxDeG6v8f7OAuYX7A3QbDp7s3M4HDGmga24yGWEc,1556
+crawler_commons-0.0.5.dist-info/LICENSE,sha256=jRd4eUPYzowxnlW6d6rf-t-f-AIBSSmv8Qq6QZbhMAc,1081
+crawler_commons-0.0.5.dist-info/METADATA,sha256=gPzdz0QeafXPJfIcfrEVEeUvfx9Eq4jhFF63VIIh29g,399
+crawler_commons-0.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+crawler_commons-0.0.5.dist-info/top_level.txt,sha256=FaVLUMX5DnrPDtaC1IAYsQLHxsxsj0tjYhTWsEbCDtg,19
+crawler_commons-0.0.5.dist-info/RECORD,,
