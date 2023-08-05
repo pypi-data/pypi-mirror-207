@@ -1,0 +1,6 @@
+duckcloud/__init__.py,sha256=sKQtuW7_9nYGb6yY3SI88fJJCPn6hmHoJ4F0s0rQrtY,1526
+duckcloud/Session.py,sha256=pSoemH5C-EgRQVM0H62ZHvSzw6uxvZhBZNDVUJrqxeY,462
+duckcloud/VM.py,sha256=RnY44z5OCvb69h9T6V7mXYYxpACNYbzwi3itYnEePnQ,3347
+duckcloud-0.2.0.dist-info/METADATA,sha256=GJYAdOVYcHA-G8BjHo-d90dj6R2UVUTdANs9vRfW-wk,769
+duckcloud-0.2.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+duckcloud-0.2.0.dist-info/RECORD,,
