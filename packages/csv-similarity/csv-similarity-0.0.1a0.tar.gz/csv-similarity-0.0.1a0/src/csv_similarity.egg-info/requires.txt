@@ -1,0 +1,10 @@
+jieba
+numpy
+strsimpy
+quick-csv
+
+[dev]
+check-manifest
+
+[test]
+coverage

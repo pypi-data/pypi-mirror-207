@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/csv_similarity/__init__.py
+src/csv_similarity/similarity.py
+src/csv_similarity.egg-info/PKG-INFO
+src/csv_similarity.egg-info/SOURCES.txt
+src/csv_similarity.egg-info/dependency_links.txt
+src/csv_similarity.egg-info/entry_points.txt
+src/csv_similarity.egg-info/requires.txt
+src/csv_similarity.egg-info/top_level.txt
+src/csv_similarity/__pycache__/__init__.cpython-39.pyc
+src/csv_similarity/__pycache__/similarity.cpython-39.pyc
