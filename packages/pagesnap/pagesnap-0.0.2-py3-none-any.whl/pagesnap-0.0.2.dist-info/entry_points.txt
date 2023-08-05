@@ -1,0 +1,3 @@
+[console_scripts]
+pagesnap=pagesnap.pagesnap:main
+
