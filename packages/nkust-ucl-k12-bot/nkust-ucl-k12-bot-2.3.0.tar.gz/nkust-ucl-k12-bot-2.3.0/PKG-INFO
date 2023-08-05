@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: nkust-ucl-k12-bot
+Version: 2.3.0
+Summary: 一個用於k12的bot包
+Home-page: https://github.com/xinbow99/k12-telegram
+Author: Ethan Cheng
+Author-email: asdewq45445@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+```python
+from nkust_ucl.k12 import BOT as K12
+
+# 初始化自定義的 K12 Bot
+custom_k12 = K12(config_file='config/k12.yaml')
+
+# 設置聊天機器人資訊
+custom_k12.set_chat_bot_info(
+    SendUserID="you_id",
+    SendUserName="我是機器人",
+    SendUserImage="image_url"
+)
+
+# 定義自定義的 on_connect 行為
+@K12.on_connect
+def my_custom_on_connect(self, client, userdata, flags, rc):
+    # ... 自定義的 on_connect 行為 ...
+    client.subscribe(self.client.mqttSubscribe)
+    print("開始訂閱")
+
+# 定義自定義的 on_processed_message 行為
+@K12.on_processed_message
+def my_custom_on_processed_message(self, chat_msg):
+    # ... 自定義的 on_processed 行為 ...
+    # 這邊就是當收到訊息要做什麼事情
+    # 可以調用chat_msg的屬性
+    # chat_msg.send_user_name: 發送者的名字
+    # chat_msg.send_user_id: 發送者的id
+    # chat_msg.send_user_image: 發送者的頭像
+    # chat_msg.msg_body: 訊息內容
+    # chat_msg.room_id: 房間id
+    # chat_msg.msg_type: 訊息類型
+    # chat_msg.timestamp: 訊息時間戳
+    # chat_msg.mode: 訊息模式
+    # chat_msg.msg_id: 訊息id
+    print(chat_msg)
+    custom_k12.send_msg(chat_msg.room_id, "Hello")
+
+# 啟動聊天機器人
+custom_k12.run()
+```
+這個範例程式碼演示了如何使用 nkust_ucl.k12 套件中的 BOT 類別，創建自定義的 K12 聊天機器人，並且使用自定義的 on_connect 和 on_processed_message 行為來處理 K12 聊天室中的訊息。在收到聊天訊息後，回應"Hello"。
