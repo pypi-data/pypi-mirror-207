@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+gcsaws/__init__.py
+gcsaws/helpers.py
+gcsaws/nodes.py
+gcsaws/visitor_procedure.py
+gcsaws.egg-info/PKG-INFO
+gcsaws.egg-info/SOURCES.txt
+gcsaws.egg-info/dependency_links.txt
+gcsaws.egg-info/requires.txt
+gcsaws.egg-info/top_level.txt
+tests/test_create_target_list.py
+tests/test_simple.py
