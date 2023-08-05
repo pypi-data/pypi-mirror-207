@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/knowmath/__init__.py
+src/knowmath.egg-info/PKG-INFO
+src/knowmath.egg-info/SOURCES.txt
+src/knowmath.egg-info/dependency_links.txt
+src/knowmath.egg-info/requires.txt
+src/knowmath.egg-info/top_level.txt

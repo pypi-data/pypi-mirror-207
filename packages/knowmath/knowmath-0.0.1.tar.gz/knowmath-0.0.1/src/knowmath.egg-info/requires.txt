@@ -1,0 +1,7 @@
+
+[dev]
+black
+pre-commit
+isort
+mypy
+flake8
