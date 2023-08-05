@@ -1,0 +1,45 @@
+README.md
+
+This python module is a basic module that can be used for small simulations.
+
+v 0.0.1
+
+
+``class SolarSystem(width, height, **kwargs)``:
+
+``**kwargs`` :
+- collisions=True (Set this to False if you want to deactivate collisions)
+
+Used to create a solar system to add stars in your simulation.
+| 
+| ``SolarSystem.main()``:
+| 
+| Method that does all the work, don't forget otherwise nothing is going to appear.
+| Click on A to spawn an asteroid of 0.000001 solar masses.
+| Click on D to spawn a red dwarf of 0.35 solar masses.
+| Click on B to spawn a brown dwarf of 0.07 solar masses.
+| Click on S to spawn a star of 1 solar mass.
+| Click on P to spawn a planet of 0.0001 solar masses.
+| Click on M to spawn a moon of 0.00001 solar masses.
+| Click on C to spawn a comet of 0.000001 solar masses.
+| Click on W to spawn a white dwarf of 0.9 solar masses.
+| Click on R to reset and remove all stars from the screen.
+
+
+``class SolarSystemBody(solar_system, mass, position=(0, 0), velocity=(0, 0), color=(255, 255, 255))``
+
+This class allows you to create your own stars.
+| 
+| From this class are created the classes :
+| 
+| - Sun
+| - RedDwarf
+| - BrownDwarf
+| - Asteroid
+| - Planet
+| - Moon
+| - Comet
+| - WhiteDwarf
+| 
+| Each of these classes can be initialised with the same parameters as SolaSystemBody, except that they have a default value for the mass and a 
+| different one for the color.

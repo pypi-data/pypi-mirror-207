@@ -1,0 +1,13 @@
+README.md
+license.txt
+setup.py
+gravipython.egg-info/PKG-INFO
+gravipython.egg-info/SOURCES.txt
+gravipython.egg-info/dependency_links.txt
+gravipython.egg-info/requires.txt
+gravipython.egg-info/top_level.txt
+gravipython.egg-info/gravipython.egg-info/PKG-INFO
+gravipython.egg-info/gravipython.egg-info/SOURCES.txt
+gravipython.egg-info/gravipython.egg-info/dependency_links.txt
+gravipython.egg-info/gravipython.egg-info/requires.txt
+gravipython.egg-info/gravipython.egg-info/top_level.txt
