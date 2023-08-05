@@ -1,0 +1,10 @@
+dzen_urls_validator/__init__.py,sha256=ZpHbboAk4MPc4q9ZZGYKOc7nlKrHfdDW2SEIaajzRdk,69
+dzen_urls_validator/validator.py,sha256=EI3mZ1-hpXyVD7-4n09mMC-G5BUQS85M_5n6OaXGd48,1056
+dzen_urls_validator/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dzen_urls_validator/utils/exceptions.py,sha256=qnCc2Je1GiIp2ffHbdxLagLWVnsWmDC6aGcjfiQ947c,713
+dzen_urls_validator/utils/utils.py,sha256=Z66wge9M_-p8dj3QlBQl34bugzZ5oMtSae9YceV7nsI,326
+dzen_urls_validator-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dzen_urls_validator-0.0.1.dist-info/METADATA,sha256=9BPA9gtK2OXd_9ohOfgAI1QUNKE2rOBckOVkvdk01pI,1256
+dzen_urls_validator-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+dzen_urls_validator-0.0.1.dist-info/top_level.txt,sha256=ne6O3Z4EcuPDdhWE8XaZkNnfjs0lB1FHT8HGOl9PlQ8,20
+dzen_urls_validator-0.0.1.dist-info/RECORD,,
