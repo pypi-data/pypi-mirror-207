@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+sampling_constraints.egg-info/PKG-INFO
+sampling_constraints.egg-info/SOURCES.txt
+sampling_constraints.egg-info/dependency_links.txt
+sampling_constraints.egg-info/top_level.txt
+scs/__init__.py
+tests/test_json.py

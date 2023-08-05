@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: sampling-constraints
+Version: 0.0.1
+Summary: Library of incremental parsers used to force syntax constraints on next-token predictions during language model generation
+Home-page: https://github.com/IsaacRe/Syntactically-Constrained-Sampling
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Syntactically Constrained Sampling for Language Models
