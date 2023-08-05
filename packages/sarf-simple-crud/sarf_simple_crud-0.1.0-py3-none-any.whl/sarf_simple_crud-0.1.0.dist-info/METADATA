@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: sarf-simple-crud
+Version: 0.1.0
+Summary: An extremely simple and basic interface for creating CRUD apps with an example of implementation using a JSON database.
+Home-page: UNKNOWN
+Author: Samuel López Saura
+Author-email: samuellopezsaura@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# SimpleCRUD
+
+An extremely simple and basic interface for creating CRUD apps
+with an example of implementation using a JSON database.
+
+This project comes from splitting SARF into multiple modules.
+
+## Support my work
+
+If this module has been useful to you, it would mean a lot to me if you could support my work.
+This way you help to keep this and other projects alive.
+
+- https://ko-fi.com/elchicodepython
+
+## Contributors
+
+- Samuel López Saura - [Linkedin Contact](https://es.linkedin.com/in/sam-sec)
+
+
