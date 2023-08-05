@@ -1,0 +1,8 @@
+[
+  "src/unique_char_counter_cli_kir_boh/tests/tests_unique_char_counter_cli.py::TestUniqueCharCounterCli::test_main_with_mock_file",
+  "src/unique_char_counter_cli_kir_boh/tests/tests_unique_char_counter_cli.py::TestUniqueCharCounterCli::test_read_file_in_chunks",
+  "src/unique_char_counter_cli_kir_boh/tests/tests_unique_char_counter_cli.py::TestUniqueCharCounterCli::test_return_amount_once_occured_items_with_empty_string",
+  "src/unique_char_counter_cli_kir_boh/tests/tests_unique_char_counter_cli.py::TestUniqueCharCounterCli::test_return_amount_once_occured_items_with_space",
+  "src/unique_char_counter_cli_kir_boh/tests/tests_unique_char_counter_cli.py::TestUniqueCharCounterCli::test_return_amount_once_occured_items_with_string",
+  "src/unique_char_counter_cli_kir_boh/tests/tests_unique_char_counter_cli.py::TestUniqueCharCounterCli::test_return_amount_once_occured_items_with_unhashable_obj"
+]

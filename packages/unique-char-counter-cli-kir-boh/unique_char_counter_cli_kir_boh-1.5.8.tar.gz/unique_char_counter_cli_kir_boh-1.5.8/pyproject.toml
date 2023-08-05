@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "unique_char_counter_cli_kir_boh"
+version = "1.5.8"
+authors = [
+  { name="Kiril Bogatiuk", email="kirillbogatu2005@gmail.com" },
+]
+maintainers = [
+    {name ="Stanislav Hrytsyshyn", email="kirillbogatu2005@gmail.com"},
+]
+description = "Project gets hashable obj from cli an returns uniqe items amount, other funcs desribed in README.md"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
