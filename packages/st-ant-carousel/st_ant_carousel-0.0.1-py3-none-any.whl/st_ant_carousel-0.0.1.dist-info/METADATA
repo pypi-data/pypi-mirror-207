@@ -1,0 +1,226 @@
+Metadata-Version: 2.1
+Name: st-ant-carousel
+Version: 0.0.1
+Summary: Streamlit Component for ANT Carousel
+Author: 
+Author-email: 
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: streamlit (>=0.63)
+
+# st_ant_carousel
+
+A Streamlit custom component that displays a modern and customizable carousel using the Ant Design library.
+
+## Installation
+
+You can install the st_ant_carousel component using pip:
+
+```
+pip install st_ant_carousel
+```
+
+## Usage
+
+Here's a simple example to get you started:
+
+```python
+import streamlit as st
+from st_ant_carousel import st_ant_carousel
+
+content = [
+    {
+        "style": {"color": "red", "fontSize": "20px"},
+        "content": "<b>1. Entry</b>"
+    },
+    {
+        "style": {"color": "blue", "fontSize": "20px"},
+        "content": "<b>2. Entry</b>"
+    }
+]
+
+carousel_style = {
+    "background-color": "#f0f2f5",
+    "border-radius": "8px",
+    "box-shadow": "0 4px 6px rgba(0, 0, 0, 0.1)",
+    "padding": "20px"
+}
+
+st_ant_carousel(content, carousel_style=carousel_style)
+```
+
+## Parameters
+
+### content
+
+A list of dictionaries representing each slide in the carousel. Each dictionary should have a "style" and "content" key. The "style" key should contain CSS properties in the form of a dictionary, and the "content" key should contain the HTML code for the slide content.
+
+Example:
+
+```python
+content = [
+    {
+        "style": {"color": "red", "fontSize": "20px"},
+        "content": "<b>1. Entry</b>"
+    },
+    {
+        "style": {"color": "blue", "fontSize": "20px"},
+        "content": "<b>2. Entry</b>"
+    }
+]
+```
+
+### carousel_style
+
+A dictionary containing the CSS properties for styling the carousel container. This can be used to customize the appearance of the carousel.
+
+Example:
+
+```python
+carousel_style = {
+    "background-color": "#f0f2f5",
+    "border-radius": "8px",
+    "box-shadow": "0 4px 6px rgba(0, 0, 0, 0.1)",
+    "padding": "20px"
+}
+```
+
+### autoplay
+
+A boolean value indicating whether the carousel should scroll automatically. Set to `True` to enable autoplay, and `False` to disable it (default).
+
+Example:
+
+```python
+autoplay = True
+```
+
+### autoplaySpeed
+
+An integer value representing the automatic scrolling interval in milliseconds. The default value is 3000.
+
+Example:
+
+```python
+autoplaySpeed = 5000
+```
+
+### dotPosition
+
+A string value representing the position of the dots. The accepted values are "top", "bottom", "left", and "right". The default value is "bottom".
+
+Example:
+
+```python
+dotPosition = "top"
+```
+
+### dots
+
+A boolean value indicating whether to show the dots. Set to `True` to show the dots (default), and `False` to hide them.
+
+Example:
+
+```python
+dots = False
+```
+
+### waitForAnimate
+
+A boolean value indicating whether to wait for the animation when switching slides. Set to `True` to wait for the animation (default), and `False` to not wait.
+
+Example:
+
+```python
+waitForAnimate = False
+```
+### easing
+
+A string value representing the transition interpolation function name. The default value is "linear".
+
+Example:
+
+```python
+easing = "ease-in-out"
+```
+
+### effect
+
+A string value representing the transition effect name. Accepted values are "scrollx" (default) and "fade".
+
+Example:
+
+```python
+effect = "fade"
+```
+
+### pauseOnDotsHover
+
+A boolean value indicating whether to pause the carousel when hovering over the dots. Set to `True` to enable pausing, and `False` to disable it (default).
+
+Example:
+
+```python
+pauseOnDotsHover = True
+```
+
+### pauseOnHover
+
+A boolean value indicating whether to pause the carousel when hovering over the carousel. Set to `True` to enable pausing (default), and `False` to disable it.
+
+Example:
+
+```python
+pauseOnHover = False
+```
+
+### animationSpeed
+
+An integer value representing the transition animation duration in milliseconds. The default value is 500.
+
+Example:
+
+```python
+animationSpeed = 1000
+```
+
+### vertical
+
+A boolean value indicating whether the carousel should scroll vertically. Set to `True` to enable vertical scrolling, and `False` to disable it (default).
+
+Example:
+
+```python
+vertical = True
+```
+
+### adaptiveHeight
+
+A boolean value indicating whether the carousel should adapt to the height of the current slide. Set to `True` to enable adaptive height, and `False` to disable it (default).
+
+Example:
+
+```python
+adaptiveHeight = True
+```
+
+### height
+
+An integer value representing the height of the carousel in pixels. The default value is 200.
+
+Example:
+
+```python
+height = 300
+```
+
+### key
+
+A string value representing the key used to save the state of the widget. The default value is "first_carousel".
+
+Example:
+
+```python
+key = "custom_carousel_key"
+```
