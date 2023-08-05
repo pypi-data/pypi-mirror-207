@@ -1,0 +1,6 @@
+setup.py
+searchbook.egg-info/PKG-INFO
+searchbook.egg-info/SOURCES.txt
+searchbook.egg-info/dependency_links.txt
+searchbook.egg-info/requires.txt
+searchbook.egg-info/top_level.txt
