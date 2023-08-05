@@ -1,0 +1,7 @@
+pgn_to_sqlite/__init__.py,sha256=N3T5luONkJ4L85FN5gdZ9Y4Qxk9_ygMWV7ZvZw0UYzE,111
+pgn_to_sqlite/cli.py,sha256=meQim-pKog_kKGVACntHx91eENa7YH1ij7UA-jcCfBY,8071
+pgn_to_sqlite-2.0.4.dist-info/entry_points.txt,sha256=M4gznXODDAn1yPuvGpHKQ9L5WcLvXBXTUWCWO0I2Hak,55
+pgn_to_sqlite-2.0.4.dist-info/LICENSE,sha256=Jmj3SjzeCQtHwzqH_RHGNEWrS4Q3zIYyZoH3HVjHaus,1078
+pgn_to_sqlite-2.0.4.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+pgn_to_sqlite-2.0.4.dist-info/METADATA,sha256=Vn31AI130cf6ulix1jzOqw0QP6Le220GR-2iPab7xH0,3734
+pgn_to_sqlite-2.0.4.dist-info/RECORD,,
