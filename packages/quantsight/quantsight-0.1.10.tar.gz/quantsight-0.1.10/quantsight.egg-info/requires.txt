@@ -1,0 +1,5 @@
+pandas
+langchain
+data-cache
+openai
+tabulate
