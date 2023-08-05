@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: djangorestframework-verbose-errors
+Version: 0.0.1
+Summary: A simple package for DRF errors formatting
+Home-page: https://github.com/koenigsley/djangorestframework-verbose-errors
+Author: Mikhail Yeremeyev
+Author-email: koenigsley@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
