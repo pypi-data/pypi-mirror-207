@@ -1,0 +1,41 @@
+# 'irene-pro'
+
+This is my customized user interface which is rooted from tkinter package.
+nothing big that I did from here that is different from what already in tkinter, but I rather set my default parameters and 
+styles for those rooted to ttk, example Combobox.
+
+this is the first version, and later I will keep making extra-improvement including adding default icons to buttons and other
+cool stuffs until it will be large package or framework in coming years.
+
+=========how to use the package======
+from irene-pro import widgets, logic
+
+button = widgets.btn(master = root, text = 'send')
+button.pack(side = LEFT)
+
+class Scrol_frame(Canvas):
+    def __init__(self, master, scr_x = None, scr_y = None, **kwargs):
+        super().__init__(master = master,bg = master['bg'], **kwargs) # master = master,
+
+        self.Scrol_frame = frame(self)
+
+        self.Scrol_frame.bind("<Configure>", lambda e: self.configure(scrollregion = self.bbox("all")))
+        self.create_window((0, 0), window = self.Scrol_frame, anchor = "nw")
+        if scr_y:
+            self.config(yscrollcommand = scr_y.set)
+            scr_y.config(command = self.yview)
+            scr_y.pack(side = RIGHT, pady = h(1), padx = w(1),fill = Y)
+        if scr_x:
+            self.config(xscrollcommand = scr_x.set)
+            scr_x.config(command = self.xview)
+            scr_x.pack(side = BOTTOM, pady = h(2), padx = w(1), fill = X, expand = True)
+
+        num = re.compile("\d{1,}")
+        try:
+            found_num = num.findall(master['bg'])
+            if found_num:
+                text = master['bg'][:master['bg'].index(found_num[0])]
+                num = int(master['bg'][master['bg'].index(found_num[0]):]) - 3
+                self.config(bg = text+str(num))
+        except TypeError:
+            pass
