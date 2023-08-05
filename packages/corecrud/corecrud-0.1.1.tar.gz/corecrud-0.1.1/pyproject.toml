@@ -1,0 +1,111 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "corecrud"
+description = "The CRUD package for management your models"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+authors = [
+    { name = "toymaj", email = "sermed512@gmail.com" },
+]
+maintainers = [
+    { name = "toymaj", email = "sermed512@gmail.com" },
+]
+keywords = [
+    "crud",
+    "fastapi",
+    "sqlalchemy",
+    "asyncio",
+]
+dependencies = [
+    "sqlalchemy~=2.0.0",
+]
+dynamic = ["version"]
+
+[tool.hatch.version]
+path = "corecrud/__init__.py"
+
+[project.optional-dependencies]
+dev = [
+    "black~=23.3.0",
+    "isort~=5.11",
+    "ruff~=0.0.262",
+    "mypy~=1.2.0",
+    "pre-commit~=3.2.2",
+]
+
+[project.urls]
+Homepage = "https://github.com/toymaj/corecrud/"
+Documentation = "https://github.com/toymaj/corecrud/"
+Repository = "https://github.com/toymaj/corecrud/"
+
+[tool.hatch.envs.default]
+features = [
+    "dev",
+]
+post-install-commands = [
+    "pre-commit install",
+]
+
+[tool.ruff]
+line-length = 99
+select = [
+    "C4",
+    "E",
+    "F",
+    "T10",
+    "T20",
+    "Q",
+    "RET",
+]
+ignore = ["E501"]
+src=["corecrud"]
+exclude = [
+    ".git",
+    ".venv",
+]
+force-exclude = true
+
+[tool.black]
+line-length = 99
+target-version = ['py37', 'py38', 'py39', 'py310', 'py311']
+exclude = '''
+(
+    \.git
+    \.platform
+    \.ruff_cache
+    \.venv
+  | alembic
+  | logs
+)
+'''
+
+[tool.isort]
+profile = "black"
+known_third_party = [
+    "corecrud",
+]
+
+[tool.mypy]
+plugins = "pydantic.mypy"
+show_error_codes = true
+show_error_context = true
+pretty = true
+ignore_missing_imports = false
+warn_unused_configs = true
+disallow_subclassing_any = true
+disallow_any_generics = true
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+disallow_untyped_decorators = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+follow_imports_for_stubs = true
+namespace_packages = true
+show_absolute_path = true
