@@ -1,0 +1,12 @@
+nazo_rand/__init__.py,sha256=Uk3LcMIJtLx3dUmBhxR7FNawe-waRdGnkI2WRTTRGmU,26
+nazo_rand/nazo_rand.cp38-win_amd64.pyd,sha256=LTpSXdmccKxjikrqnbPJzgps5dhfmbBMHb2EpKQNgWE,61440
+nazo_rand/nazo_rand.cpp,sha256=_tsDtEn1oM8pD7WXWTEdL-HQE7s2kMdHphB3Q3N0zks,274726
+nazo_rand/nazo_rand.hpp,sha256=7l9tUvslMzVUO2oxkJdvVWyA3LkRR23KRoh_4mt9g00,1954
+nazo_rand/nazo_rand.pxd,sha256=i_AdOet-GkZMtFcPu5uztDO-10XtFlQPs3H1vMKGnIU,700
+nazo_rand/nazo_rand.pyi,sha256=2C62N4S0cJIO9C4M6GbO5XyQQcnqxzUDgNCgC37MbMs,2624
+nazo_rand/nazo_rand.pyx,sha256=pMMT0dpEpuLnLwoQcnauzOg2gfxUnX5_bgNizhiai70,2572
+nazo_rand-0.0.8.dist-info/LICENSE,sha256=GJsa-V1mEVHgVM6hDJGz11Tk3k0_7PsHTB-ylHb3Fns,18431
+nazo_rand-0.0.8.dist-info/METADATA,sha256=QxK3WcPipuj-FApvTPRlE2M0ea5viLJKx57MqMDOpX8,1971
+nazo_rand-0.0.8.dist-info/WHEEL,sha256=F2aDWtWrilNM3-px1vBtJOEd7aRVTetQfFuDYmYbAUQ,100
+nazo_rand-0.0.8.dist-info/top_level.txt,sha256=GpUqJ-V0x4-Wj6JAH6wXECDY_-tTwPytwWFQtLZUKxY,10
+nazo_rand-0.0.8.dist-info/RECORD,,
