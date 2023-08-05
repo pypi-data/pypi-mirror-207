@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: FeatureInsight
+Version: 0.0.3
+Summary: project description
+Home-page: https://github.com/px39n/FeatureInsight
+Author: px39n
+Author-email: isxzl39@gmail.com
+License: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.18.2)
+Requires-Dist: pandas (>=1.0.3)
+Requires-Dist: scikit-learn (>=1.0.0)
+Requires-Dist: scipy (>=1.4.1)
+Requires-Dist: statsmodels (>=0.11.1)
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+Requires-Dist: pillow
+Requires-Dist: opencv-python
+Requires-Dist: tqdm
+Requires-Dist: tabulate
+Requires-Dist: feature-engine (>=1.1.0)
+
+# 自用
+https://pypi.org/project/FeatureInsight/0.0.1/
+bash scripts/upload_pypi.sh --verbose
+
+# 如何使用？
+
+from FeatureInsight import struct_Investigation
