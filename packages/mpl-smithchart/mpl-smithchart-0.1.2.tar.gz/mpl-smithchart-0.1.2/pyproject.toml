@@ -1,0 +1,48 @@
+[tool.pdm]
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=7.3.1",
+    "pytest-xdist>=3.2.1",
+]
+lint = [
+    "flake8>=5.0.4",
+]
+
+[project]
+name = "mpl-smithchart"
+description = "An extension for matplotlib providing a projection class to generate high quality Smith Chart plots."
+readme = "README.md"
+license = {text = "BSD"}
+authors = [
+    {name = "Paul Staerke", email = "paul.staerke@gmail.com"},
+    {name = "Spencer Chang", email = "spencer@sycee.xyz"},
+]
+requires-python = ">=3.8"
+dynamic = [
+  "version",
+]
+dependencies = [
+    "matplotlib>=1.2",
+    "numpy>=1.24.3",
+    "scipy>=1.9.3",
+]
+[project.urls]
+repository = "https://github.com/schang412/mpl-smithchart"
+
+
+[tool.setuptools_scm]
+write_to = "mpl_smithchart/_version.py"
+
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+  "setuptools>=61",
+  "setuptools_scm[toml]>=6.2",
+  "wheel",
+]
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests"
+]
+addopts = "--import-mode importlib"
