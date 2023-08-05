@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: savvy-rest
+Version: 0.0.1.dev0
+Summary: A comprehensive framework for testing RESTful APIs.
+Project-URL: Homepage, https://github.com/qatoolist/savvy-rest
+Project-URL: Documentation, https://github.com/qatoolist/savvy-rest#readme
+Project-URL: Issues, https://github.com/qatoolist/savvy-rest/issues
+Project-URL: Source, https://github.com/qatoolist/savvy-rest
+Project-URL: Repository, https://github.com/qatoolist/savvy-rest
+Project-URL: Changelog, https://github.com/qatoolist/savvy-rest/releases
+Author-email: QA Toolist <qatoolist@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: certifi
+Requires-Dist: click
+Requires-Dist: cryptography
+Requires-Dist: dynaconf
+Requires-Dist: httpx
+Requires-Dist: hvac
+Requires-Dist: hypothesis
+Requires-Dist: isbnlib
+Requires-Dist: jinja2
+Requires-Dist: jsonschema
+Requires-Dist: loguru
+Requires-Dist: phonenumbers
+Requires-Dist: pykwalify
+Requires-Dist: python-dateutil
+Requires-Dist: python-dotenv
+Requires-Dist: pyyaml
+Requires-Dist: requests[security]
+Requires-Dist: setuptools
+Requires-Dist: tenacity
+Requires-Dist: toml
+Requires-Dist: typer[all]
+Requires-Dist: typing
+Requires-Dist: urllib3[secure]
+Description-Content-Type: text/markdown
+
+# Savvy REST
+
+[![PyPI - Version](https://img.shields.io/pypi/v/savvy-rest.svg)](https://pypi.org/project/savvy-rest)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/savvy-rest.svg)](https://pypi.org/project/savvy-rest)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install savvy-rest
+```
+
+## License
+
+`savvy-rest` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
