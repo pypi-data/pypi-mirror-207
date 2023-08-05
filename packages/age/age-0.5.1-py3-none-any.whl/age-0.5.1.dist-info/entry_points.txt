@@ -1,0 +1,2 @@
+[console_scripts]
+pyage = age.cli:main
