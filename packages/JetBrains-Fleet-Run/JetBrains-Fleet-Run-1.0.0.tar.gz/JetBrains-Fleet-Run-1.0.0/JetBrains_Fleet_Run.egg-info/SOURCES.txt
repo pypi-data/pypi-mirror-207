@@ -1,0 +1,8 @@
+setup.py
+JetBrains_Fleet_Run.egg-info/PKG-INFO
+JetBrains_Fleet_Run.egg-info/SOURCES.txt
+JetBrains_Fleet_Run.egg-info/dependency_links.txt
+JetBrains_Fleet_Run.egg-info/requires.txt
+JetBrains_Fleet_Run.egg-info/top_level.txt
+jetbrainsfleetrun/__init__.py
+jetbrainsfleetrun/jetbrainsfleetrun.py
