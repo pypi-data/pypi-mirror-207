@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pyaxetool
+Version: 0.0.4
+Summary: An utility tool collection for make life easily
+Project-URL: Bug Tracker, https://github.com/sunjinopensource/PyAxeTool/issues
+Project-URL: Homepage, https://github.com/sunjinopensource/PyAxeTool
+Author-email: Sun Jin <412640665@qq.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+PyAxeTool
+=========
+
+An utility tool collection for make life easily.
+
+Examples
+--------
+TODO
