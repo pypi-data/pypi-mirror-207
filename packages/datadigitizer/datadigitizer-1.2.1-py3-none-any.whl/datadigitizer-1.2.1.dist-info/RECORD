@@ -1,0 +1,13 @@
+datadigitizer/__init__.py,sha256=tXDaqk_WmLHZmYqdSV2gDsC5xXJeGTdIHbA5zZ2X43Q,48
+datadigitizer/__main__.py,sha256=teQXW63Qg3LcIcZDeFl6M7xuxPww89L6U6HmM92N35U,162
+datadigitizer/gui.py,sha256=ZoGtYHeGk3yaL2qSPcbNCdpnBZigDfSCTfZJy8PJS-s,56598
+datadigitizer/icon.png,sha256=m-4PmiXa1SimzSgmoa4j7LdrpfTQcxz3TxyJkIfCqKQ,2461
+datadigitizer/icon.py,sha256=99HJvO_W2ryBeLr0rLX7DW1YfSfQxjGKNrr7HhKkEqE,512
+datadigitizer/settings.py,sha256=huyHqsTlpdYt6-NEHrCtZzs-yi6OTaddRwacVPLqv1g,2564
+datadigitizer/tests.py,sha256=_2O4ilZF25vJxmvb2c6IBUwh1a7xnoFK4yZA0D9UBHg,3375
+datadigitizer/version.py,sha256=IMZFO1vQ1quAF_GJRKBuFD2GpjBetLLpozoo1fTtmck,559
+datadigitizer-1.2.1.dist-info/LICENSE.txt,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+datadigitizer-1.2.1.dist-info/METADATA,sha256=BykDZ-XqV_kS_9BcgrMqzDQbYs8-FnIVOErX6KOBHUE,2355
+datadigitizer-1.2.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+datadigitizer-1.2.1.dist-info/top_level.txt,sha256=VxxoBFqRR7mGkViMJQ7OOWnCLBqAd5L8sRbxOBtpqLM,14
+datadigitizer-1.2.1.dist-info/RECORD,,
