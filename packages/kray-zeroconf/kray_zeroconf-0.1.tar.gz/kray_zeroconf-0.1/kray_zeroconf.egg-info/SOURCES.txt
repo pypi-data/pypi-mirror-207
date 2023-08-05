@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+zeroconf
+kray_zeroconf.egg-info/PKG-INFO
+kray_zeroconf.egg-info/SOURCES.txt
+kray_zeroconf.egg-info/dependency_links.txt
+kray_zeroconf.egg-info/not-zip-safe
+kray_zeroconf.egg-info/requires.txt
+kray_zeroconf.egg-info/top_level.txt
