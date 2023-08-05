@@ -1,0 +1,12 @@
+lona_html5_qrcode/__init__.py,sha256=UzTwcHchAXXfnkKz4kzA6ypbqdhwH__KFs5RfhI5uBc,68
+lona_html5_qrcode/html/__init__.py,sha256=2rS9fr8e5wJrZlXeUmjxg9eg-3FJ3VmiW2RiZQMBIKA,44
+lona_html5_qrcode/html/html5_qrcode_scanner.py,sha256=TXfKUBQMc7vgUjxSHQa1UHLsJzdP-tnm8JJ2ml_-onE,2607
+lona_html5_qrcode/static/lona-html5-qrcode/themes.css,sha256=jgQT7k-iMmanCBAxDvWJLa3Jfy-Hh2iW1jJcJp0y440,209
+lona_html5_qrcode/static/lona-html5-qrcode/widgets.js,sha256=7HGOZhpIpsZkGTuiKF1IbKywr3fAcJ1LQcqdXeFqTTo,1579
+lona_html5_qrcode/static/lona-html5-qrcode/dist/LICENSE,sha256=MGvEUNpBJE_vuS_sb7ow8nr7nZsOqnK5Y3LCPiM4xhI,11361
+lona_html5_qrcode/static/lona-html5-qrcode/dist/html5-qrcode.min.js,sha256=ZgsSQ3sddH4-aLi-BoXAjLcoFAEQrSE_FnsUtm-LHY4,375364
+lona_html5_qrcode-0.1.dist-info/LICENSE.txt,sha256=I7MCHKIhimAsdhnMiYVIY0hWiCoDfcrBx7cGi526PU8,1071
+lona_html5_qrcode-0.1.dist-info/METADATA,sha256=UAjlEJLkJm2BXGHzkJp8KE1geuFPj613utTv6mzBM2s,5556
+lona_html5_qrcode-0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+lona_html5_qrcode-0.1.dist-info/top_level.txt,sha256=bpAUbK4q5XJ88RNZHqLYwTFyxOQ642qQsO3DMUsknpE,18
+lona_html5_qrcode-0.1.dist-info/RECORD,,
