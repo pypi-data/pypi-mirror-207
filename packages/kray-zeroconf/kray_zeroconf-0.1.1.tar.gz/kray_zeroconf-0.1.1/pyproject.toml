@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0","zeroconf == 0.24.4","pyyaml","netifaces","psutil"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "kray_zeroconf"
+version = "0.1.1"
+authors = [
+  { name="Dmytro Surdu", email="dmytro.surdu@kray.technology" },
+]
+description = "Zeroconf auto networking configuration tool for Kray Works DevOps"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+]
+
+[project.urls]
+"Homepage" = "https://gitlab-ua.kray.technology/lanceoflife/kray-zeroconf"
+"Bug Tracker" = "https://gitlab-ua.kray.technology/lanceoflife/kray-zeroconf/-/issues"

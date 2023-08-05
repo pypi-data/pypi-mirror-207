@@ -1,0 +1,5 @@
+setuptools>=61.0
+zeroconf==0.24.4
+pyyaml
+netifaces
+psutil
