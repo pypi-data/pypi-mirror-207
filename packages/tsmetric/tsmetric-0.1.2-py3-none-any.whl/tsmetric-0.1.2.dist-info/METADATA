@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: tsmetric
+Version: 0.1.2
+Summary: my first try to create packag using poetry
+Author: mahmoud
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: rich (>=13.3.5,<14.0.0)
+Description-Content-Type: text/markdown
+
+
