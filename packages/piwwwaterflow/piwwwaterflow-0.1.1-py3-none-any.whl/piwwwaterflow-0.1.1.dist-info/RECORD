@@ -1,0 +1,8 @@
+piwwwaterflow/__init__.py,sha256=lat1_1PqK-A0gkz_WLOG367WI6yIZdxivbrO3Er8Cxo,60
+piwwwaterflow/webservice.py,sha256=s0tqYS5qw91n9bRIJyROQUIy9a_JdQUsRcIjgLs7038,4295
+piwwwaterflow/wsgi.py,sha256=5DmtwMQV23CiqzNSlGDPAEjWurwjNaGbN_ee2OOXixk,1008
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+piwwwaterflow-0.1.1.dist-info/METADATA,sha256=YHgdH3pGPgieGLcYaJ_6im_OBFMXEvR8w3VVsRUOH9s,1009
+piwwwaterflow-0.1.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+piwwwaterflow-0.1.1.dist-info/top_level.txt,sha256=pYAmDyzdw3V27Mdqr9Z_HD6JwEs33FzrXiYcuUbY0Xg,20
+piwwwaterflow-0.1.1.dist-info/RECORD,,
