@@ -1,0 +1,17 @@
+fudgeo/__init__.py,sha256=NsEmidHTOtkkR61mmtVHQ8JuaQA8MGUbTclb4NbHBVI,117
+fudgeo/constant.py,sha256=-fE2Lyobm43rnDNzxsLUhaCfMMlaO5cCUmOFEL05LCQ,2538
+fudgeo/enumeration.py,sha256=NvgtVBYxfULGVIks-J0rFLRxvGrtU2DM1bjZB0HxZRU,1157
+fudgeo/geopkg.py,sha256=LL5uO82kL5CgTlIdxbr_2hiUf-kqDVXdtz8vDASXj_g,20081
+fudgeo/geopkg.sql,sha256=Tt0Fi4w-ySR7tDUJsPt-5mA_Sw2oUs8co5rFGEleS24,2673
+fudgeo/sql.py,sha256=AJcNZAjvGHvmc88NCU1TTsfjJ0tVZ6muTyNzA8yZcW0,7768
+fudgeo/geometry/__init__.py,sha256=N4sf5FJB13JoNxB_GyyO9ohXbtKoSoVvbKTnltMXq-0,974
+fudgeo/geometry/base.py,sha256=wXhQmzdJEP4qSYAi1NO4DZoqIdeb21iZpWS6DU0AEqY,3244
+fudgeo/geometry/linestring.py,sha256=kRuMVrdA1lZz8XF7RqPrTt_lUU04q_qul5bml5BzqFw,14233
+fudgeo/geometry/point.py,sha256=bPBGQHrqkVplYemFlKNsXjX-lpu6IBzsEP1YDBYCI-4,16511
+fudgeo/geometry/polygon.py,sha256=m5EGf5MN0-6nFzZAyapa2c3fm4h6A6kAf613iWrfF9k,18766
+fudgeo/geometry/util.py,sha256=6fn-FyJZe27-_SxVYF1iTrRlo0z-AMM7-TGjazs-Gwo,6508
+fudgeo-0.4.0.dist-info/LICENSE,sha256=kg8K68wjqhzaDoPNP6FWgXT2UuLmZbswzv72syix3Gw,1088
+fudgeo-0.4.0.dist-info/METADATA,sha256=fwPqWbnSxXIxMZd9LUqBqq6eC3vWN-LaWOHOXJ_boww,9095
+fudgeo-0.4.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+fudgeo-0.4.0.dist-info/top_level.txt,sha256=RlcnukuWGTUINTexweATRDqQgM1d0q2iaOd6B6tBWWI,7
+fudgeo-0.4.0.dist-info/RECORD,,
