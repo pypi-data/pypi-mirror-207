@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+scdiffeq_plots/__init__.py
+scdiffeq_plots.egg-info/PKG-INFO
+scdiffeq_plots.egg-info/SOURCES.txt
+scdiffeq_plots.egg-info/dependency_links.txt
+scdiffeq_plots.egg-info/requires.txt
+scdiffeq_plots.egg-info/top_level.txt
