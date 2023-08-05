@@ -1,0 +1,6 @@
+setup.py
+pipio-csv1/pipio-csv1.py
+pipio_csv1.egg-info/PKG-INFO
+pipio_csv1.egg-info/SOURCES.txt
+pipio_csv1.egg-info/dependency_links.txt
+pipio_csv1.egg-info/top_level.txt
