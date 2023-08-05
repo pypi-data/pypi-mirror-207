@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trashmailapi"
+version = "1.1"
+authors = [
+  { name="mazer", email="DO-NOT-EMAIL@example.com" },
+]
+
+description = "Unofficial API for trash/temporary mail services in Python"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+  "beautifulsoup4==4.12.2",
+  "certifi==2022.12.7",
+  "charset-normalizer==3.1.0",
+  "idna==3.4",
+  "requests==2.29.0",
+  "soupsieve==2.4.1",
+  "urllib3==1.26.15",
+]
+
+[project.urls]
+"Homepage" = "https://codeberg.org/m3r/trashmailapi"
+"Bug Tracker" = "https://codeberg.org/m3r/trashmailapi/issues"
