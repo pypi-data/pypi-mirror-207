@@ -1,0 +1,12 @@
+LICENSE
+setup.py
+scrainbow/__init__.py
+scrainbow/data_processing.py
+scrainbow/model.py
+scrainbow/run.py
+scrainbow/utils.py
+scrainbow.egg-info/PKG-INFO
+scrainbow.egg-info/SOURCES.txt
+scrainbow.egg-info/dependency_links.txt
+scrainbow.egg-info/requires.txt
+scrainbow.egg-info/top_level.txt
