@@ -1,0 +1,6 @@
+README.md
+setup.py
+generateword.egg-info/PKG-INFO
+generateword.egg-info/SOURCES.txt
+generateword.egg-info/dependency_links.txt
+generateword.egg-info/top_level.txt
