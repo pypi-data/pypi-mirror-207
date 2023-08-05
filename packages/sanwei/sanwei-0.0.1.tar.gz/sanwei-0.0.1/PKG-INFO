@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: sanwei
+Version: 0.0.1
+Summary: Render random chinese text in 3D
+Project-URL: Documentation, https://github.com/fetsorn/sanwei#readme
+Project-URL: Issues, https://github.com/fetsorn/sanwei/issues
+Project-URL: Source, https://github.com/fetsorn/sanwei
+Author-email: Anton Davydov <fetsorn@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.10
+Requires-Dist: bpy>=3.5
+Description-Content-Type: text/markdown
+
+# sanwei
+
+[![PyPI - Version](https://img.shields.io/pypi/v/sanwei.svg)](https://pypi.org/project/sanwei)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/sanwei.svg)](https://pypi.org/project/sanwei)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```nix
+nix shell git+https://github.com/fetsorn/sanwei
+
+```
+
+```console
+pip install sanwei
+```
+
+## Usage
+
+``` nix
+# render a random chinese character with WenQuanYi Zen Hei font
+nix build git+https://github.com/fetsorn/sanwei#image
+```
+
+``` console
+sanwei --binary /path/to/blender \
+       --font-path "/path/to/font" \
+       --font-name "Font Name Regular"
+```
+
+## Docs
+
+ - "--binary", required, path to Blender binary executable, e.g. "/Applications/Blender.app/Contents/MacOS/Blender"
+ 
+ - "--font-path", required, path to chinese font, e.g. "./path/to/chinese.ttc"
+ 
+ - "--font-name", required, name of the font in bpy.data.fonts, e.g. "Chinese Font Regular"
+ 
+ - "--output", optional, name for output file without the .png extension, defaults to "/tmp/sanwei" and creates a "/tmp/sanwei.png" file
+ 
+ - "--input", optional, arbitrary text to render, defaults to a random chinese character
+ 
+ - "--resolution", optional, percentage scale for render resolution, int in [1, 32767], default 100
+ 
+ - "--samples", optional, number of samples for the Cycles render engine, default 128
+
+## License
+
+`sanwei` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
