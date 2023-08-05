@@ -1,0 +1,13 @@
+[package]
+name = "lzokay-sys"
+authors= ["László Vaskó <1771332+vlaci@users.noreply.github.com>"]
+version= "0.1.0"
+edition= "2021"
+license= "MIT"
+build = "build.rs"
+
+[dependencies]
+cxx = "1.0"
+
+[build-dependencies]
+cxx-build = "1.0"

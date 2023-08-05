@@ -1,0 +1,31 @@
+[package]
+name = "lzallright"
+authors= ["László Vaskó <1771332+vlaci@users.noreply.github.com>"]
+version= "0.1.0"
+edition= "2021"
+license= "MIT"
+
+[lib]
+crate-type = [
+  "cdylib",
+  "rlib"
+]
+
+[dependencies]
+cxx = "1.0.94"
+lzokay-sys = { path = "local_dependencies/lzokay-sys" }
+pyo3 = "0.18.1"
+
+[[bench]]
+name = "compress"
+harness = false
+
+[workspace]
+resolver = "2"
+members = ["local_dependencies/lzokay-sys"]
+
+[workspace.package]
+version = "0.1.0"
+authors = ["László Vaskó <1771332+vlaci@users.noreply.github.com>"]
+license = "MIT"
+edition = "2021"
