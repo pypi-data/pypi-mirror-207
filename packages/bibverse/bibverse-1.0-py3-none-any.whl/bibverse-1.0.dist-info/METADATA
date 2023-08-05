@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: bibverse
+Version: 1.0
+Summary: A simple cli tool to get the verse of the day
+Home-page: https://github.com/LordUbuntu/verse
+Author: Jacobus Burger
+Author-email: therealjacoburger@gmail.com
+License: MIT
+Keywords: python,bible,verse,cli
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Classifier: Environment :: Console
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4 (==4.12.2)
+Requires-Dist: bs4 (==0.0.1)
+Requires-Dist: requests (==2.30.0)
+Provides-Extra: dev
+Requires-Dist: pytest (>=7.2) ; extra == 'dev'
+Requires-Dist: twine (>=4.0.2) ; extra == 'dev'
+
+# verse
+A simple cli program to quote the verse of the day from [Verse of the Day](https://www.verseoftheday.com/).
+
+# Usage
+
+Just type `verse` on the command line one the package is installed and you'll get the verse of the day.
+
+# Installation
+
+Installing the package is simple, just run `pip install bibleverse` and make sure the binary is on your path. One that's done, it's as simple as running the program and getting the verse of the day. Since the output is text, you could even pipe it to other programs like cowsay!
+
+

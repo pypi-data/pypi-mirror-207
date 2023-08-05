@@ -1,0 +1,3 @@
+[consol_scripts]
+verse = verse.verse:main
+
