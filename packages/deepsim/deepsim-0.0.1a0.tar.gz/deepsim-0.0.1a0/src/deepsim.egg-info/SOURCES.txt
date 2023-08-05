@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/deepsim/__init__.py
+src/deepsim/deep_similarity.py
+src/deepsim.egg-info/PKG-INFO
+src/deepsim.egg-info/SOURCES.txt
+src/deepsim.egg-info/dependency_links.txt
+src/deepsim.egg-info/requires.txt
+src/deepsim.egg-info/top_level.txt
+src/deepsim/__pycache__/__init__.cpython-39.pyc
+src/deepsim/__pycache__/deep_similarity.cpython-39.pyc
