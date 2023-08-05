@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: odnoklassniki-urls-validator
+Version: 0.0.1
+Summary: Validator for Odnoklassniki URLs.
+Home-page: https://github.com/Wiped-Out/odnoklassniki_urls_validator
+Download-URL: https://github.com/Wiped-Out/odnoklassniki_urls_validator/releases/latest
+Author: Emir Takhaviev
+Author-email: tah116emir@outlook.com
+Keywords: python,odnoklassniki urls,validation
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# odnoklassniki_urls_validator
+
+Library for validating [Odnoklasnsiki](https://ok.ru) urls and brings them to one standart.
+
+# How method works?
+
+1. Add prefix "https://"
+2. Change all hostnames to "ok.ru"
+
+
+# Examples
+
+```python
+from odnoklassniki_urls_validator import validate_url
+
+validated_url = validate_url(url='www.ok.ru/group/50582132228315/')
+# >> https://ok.ru/group/50582132228315
+
+validated_url = validate_url(url='http://ok.ru/group/50582132228315')
+# >> https://ok.ru/group/50582132228315
+```
+
+
+# Installing
+
+```commandline
+pip3 install odnoklassniki_urls_validator
+```
