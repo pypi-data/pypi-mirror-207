@@ -1,0 +1,3 @@
+[ovos.plugin.audio2ipa]
+ovos-audio2ipa-plugin-allosaurus = ovos_audio2ipa_plugin_allosaurus:AlloSaurus
+
