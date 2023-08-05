@@ -1,0 +1,16 @@
+awc/__init__.py,sha256=5uLQwp_swIDpjtoVmFW9JDQ8hDx3MY_R7V4a0lrF7KA,6843
+awc/__main__.py,sha256=d1UfoKcH5bl9qoqWowmcARIitWbbGsasAZfq8RHHsE4,678
+awc/api.py,sha256=f02eIZdXfOZo9f-f7YhN1Rhcz4a55KAzxRfTIxSrzTg,6030
+awc/const.py,sha256=0ctjO9muVRU7kBkqF9LjcgwvP4baLum63UUOxTE1oLw,305
+awc/exc.py,sha256=kGwH4_a8C1EpYx3PvoBXyWiiW451YbHsKi_JGtnsiuk,1479
+awc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+awc/util.py,sha256=u9-_per8iyglLx9dVfQKJBdSEFZq2-5aymE7XDjoJ0o,1383
+awc/wrn.py,sha256=K84cpt9OdHQi76vhgMsWFbl8rIN_sH6EkOGptZOUWmQ,614
+awc/sql/__init__.py,sha256=HmoZ5tZkUYCcfQYWVpFqFOfE9nC9-zyXqbU95MAYGNU,4715
+awc/sql/helpers.py,sha256=RpvZjgSj2-ZidZCR9vPQhpRWKJkeBgcTLWYz0i-jc34,3461
+awc-2.0.0.dist-info/LICENSE,sha256=nqVIZAIjniFxpDnU4HMUA3KRZ8mFA_JpXMNFVQTHlVI,35107
+awc-2.0.0.dist-info/METADATA,sha256=5to-Bt5mPPu_mbF8MItG4L3KggHrXktokNHB2IfuVA8,3812
+awc-2.0.0.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+awc-2.0.0.dist-info/top_level.txt,sha256=Xj3P9OwultDU5KrAvJbWKuD3ki2LWL6tSfbMPu28Hck,4
+awc-2.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+awc-2.0.0.dist-info/RECORD,,
