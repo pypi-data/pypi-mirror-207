@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+src/PySpecies.egg-info/PKG-INFO
+src/PySpecies.egg-info/SOURCES.txt
+src/PySpecies.egg-info/dependency_links.txt
+src/PySpecies.egg-info/top_level.txt
+src/pyspecies/__init__.py
+src/pyspecies/_euler.py
+src/pyspecies/_utils.py
+src/pyspecies/models.py
+src/pyspecies/pop.py
