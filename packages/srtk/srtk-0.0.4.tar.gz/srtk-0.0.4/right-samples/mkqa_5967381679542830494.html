@@ -1,0 +1,115 @@
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <script src="lib/bindings/utils.js">
+  </script>
+  <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" referrerpolicy="no-referrer" rel="stylesheet"/>
+  <script crossorigin="anonymous" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" referrerpolicy="no-referrer" src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js">
+  </script>
+  <center>
+   <h1>
+   </h1>
+  </center>
+  <!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+  <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" rel="stylesheet"/>
+  <script crossorigin="anonymous" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js">
+  </script>
+  <center>
+   <h1>
+   </h1>
+  </center>
+  <style type="text/css">
+   #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+  </style>
+  <style>
+   .background-text {
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            font-size: 2em;
+            color: #ccc;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="card" style="width: 100%">
+   <div class="card-body" id="mynetwork">
+   </div>
+  </div>
+  <script type="text/javascript">
+   // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#114B7A", "font": {"color": "#000000"}, "id": "Q284727", "label": "Blanding", "shape": "dot"}, {"color": "#114B7A", "font": {"color": "#000000"}, "id": "Q23558", "label": "House", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "#000000"}, "id": "Q1066917", "label": "Charlie Hofheimer", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "#000000"}, "id": "Q1029535", "label": "Evan Jones", "shape": "dot"}, {"color": "#1B5E20", "font": {"color": "#000000"}, "id": "Q30", "label": "United States of America", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "#000000"}, "id": "Q1057878", "label": "Gabrielle Christian", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "#000000"}, "id": "Q10841812", "label": "Wendy Gazelle", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "#000000"}, "id": "Q1139709", "label": "Bryce Johnson", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "#000000"}, "id": "Q1103579", "label": "Mary Elizabeth Ellis", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "#000000"}, "id": "Q114447", "label": "Janel Moloney", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "#000000"}, "id": "Q106942", "label": "Candice Bergen", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "#000000"}, "id": "Q1139717", "label": "Cress Williams", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "#000000"}, "id": "Q1087475", "label": "A. J. Trauth", "shape": "dot"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "from": "Q23558", "label": "cast member", "to": "Q1066917"}, {"arrows": "to", "from": "Q1029535", "label": "country of citizenship", "to": "Q30"}, {"arrows": "to", "from": "Q23558", "label": "cast member", "to": "Q1057878"}, {"arrows": "to", "from": "Q23558", "label": "cast member", "to": "Q10841812"}, {"arrows": "to", "from": "Q23558", "label": "cast member", "to": "Q1139709"}, {"arrows": "to", "from": "Q23558", "label": "cast member", "to": "Q1103579"}, {"arrows": "to", "from": "Q23558", "label": "cast member", "to": "Q114447"}, {"arrows": "to", "from": "Q23558", "label": "cast member", "to": "Q106942"}, {"arrows": "to", "from": "Q23558", "label": "cast member", "to": "Q1139717"}, {"arrows": "to", "from": "Q23558", "label": "cast member", "to": "Q1029535"}, {"arrows": "to", "from": "Q23558", "label": "cast member", "to": "Q1087475"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"shape": "dot", "font": {"size": "1em", "face": "fontFace", "strokeColor": "#fff", "strokeWidth": 5}, "size": "1.5em"};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+  </script>
+  <p class="background-text" style="white-space:pre-wrap">
+   Question: where was mr blanding's dream house filmed
+  </p>
+ </body>
+</html>
