@@ -1,0 +1,55 @@
+<div class="nav-wrapper">
+    <label class="sidebar-toggle primary-toggle" for="__primary">
+        <i class="material-icons">menu</i>
+    </label>
+    <div class="headnav-items__start">
+        <div class="headnav-item">
+            <a class="stm-doc-logo" href="{{ pathto(root_doc) }}"><img src="{{ logo_url }}" alt="Logo" /></a>
+        </div>
+    </div>
+    <div class="headnav-items__content">
+        <div class="me-auto headnav-items__center">
+            {% include "components/headnav-items.html" %}
+        </div>
+        <div class="headnav-items__end">
+            <div class="headnav-item">
+                <ul>
+                    <li>
+                        {% include "components/search-button.html" %}
+                    </li>
+                    <li>
+                        <a id="theme-switch" href="#"><i class="material-icons">dark_mode</i></a>
+                    </li>
+                    {% if theme_header_icons -%}
+                    {% for icon_dict in theme_header_icons -%}
+                    <li>
+                        <a href="{{ icon_dict.url }}" target="_blank" title="{{ icon_dict.name }}" class="ext-link">
+                            {% if icon_dict.class %}
+                            <i class="{{ icon_dict.class }}"></i>
+                            {% elif icon_dict.svg %}
+                            <img src="{{ pathto(icon_dict.svg, 1) }}" style="transform: scale(0.8);">
+                            {% elif icon_dict.material_icons %}
+                            <i class="material-icons">{{ icon_dict.material_icons }}</i>
+                            {% elif icon_dict.fontawesome %}
+                            <i class="{{ icon_dict.fontawesome }}"></i>
+                            {% endif %}
+                        </a>
+                    </li>
+                    {% endfor %}
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="headnav-persistent--mobile">
+        <ul>
+            <li>
+                {%- include "search-button.html" %}
+            </li>
+            <li>
+                <a id="theme-switch--mobile" href="#"><i class="material-icons">dark_mode</i></a>
+            </li>
+        </ul>
+    </div>
+</div>
