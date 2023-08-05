@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: more-pathlib
+Version: 0.2.0
+Summary: Extending Python's pathlib with more useful functions.
+Author: Timur Kasimov
+Author-email: tkasimov@icloud.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
