@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: zxy-Test
+Version: 0.0.2
+Summary: 测试pip发包
+Home-page: https://code.byted.org/liuzhe.inf/test_pip
+Author: liuzhe.inf
+Author-email: liuzhe.inf@bytedance.com
+License: UNKNOWN
+Description: 
+        # Python 项目模版
+        
+        
+        ## 开发
+        
+        * 使用 `$ virtualenv venv --python=python3 && source venv/bin/activate` 创建并激活此 `virtualenv`;
+        * 使用 `$ make install_dev` 或者`$ pip install -e .[dev]` 安装项目依赖
+        * Coding
+        
+        
+        
+        ## 静态检查
+        
+        项目已经配置好使用 `flake8` 做静态检查，执行`$ make lint`即可。
+        
+        
+        
+        ## 测试
+        
+        单元测试位于 `tests/` 目录中，使用 `$ make test` 可以运行单元测试。如何编写单元测试可以参考 [pytest](https://github.com/pytest-dev/pytest) 
+        
+        默认会在 Python2.7/3.7 环境下运行单元测试，如果需要支持更多版本 Python，可以修改 `tox.ini`。
+        
+        
+        
+        ## 规范
+        
+        ### 代码规范
+        
+        * 需要保证代码兼容 Python2.7，Python3.7+；
+        * 代码风格兼容 [PEP8](https://www.python.org/dev/peps/pep-0008/)，除了代码最大宽度放宽到 120。
+        
+        ### 版本规范
+        
+        * 版本需要遵循 [Semver](https://semver.org/lang/zh-CN/)；
+        * 发布分支后，需要创建类似 `v0.0.1` 的 tag；
+        * 每次 Release，需要编辑 CHANGELOG.md，内容需要遵守 [changelog 规范](https://keepachangelog.com/zh-CN/1.0.0/)。
+        
+        
+        
+        ## Tips
+        
+        ### Makefile指南
+        
+        makefile用于帮助开发者快速使用功能，目前支持的命令有
+        
+        |       指令       |                             作用                             |
+        | :--------------: | :----------------------------------------------------------: |
+        |       make       | 按顺序执行 install_dev、isort、isort_check、lint、test(**操作更改代码!**) |
+        |    make check    |       按顺序执行 install_dev、isort_check、lint、test        |
+        | make install_dev |         安装测试所需依赖(位于setup.py的DEV_REQUIRES)         |
+        |    make isort    |        执行isort，规范化import顺序(**操作更改代码!**)        |
+        | make isort_check |                   执行import顺序规范性检查                   |
+        |    make lint     |                执行flake8，检查你的代码规范性                |
+        |    make test     |                执行tox，检测单元测试的正确性                 |
+        |    make clean    |                      清除测试和检查产物                      |
+        
+        建议每次准备发布代码前，执行一次make或者make check来保证代码的规范性和健壮性。
+        
+        ### Python2/3 兼容
+        
+        **每个** Python 文件头部都增加如下代码(尽量保证此import位于任何其他import之前)：
+        
+        ```python
+        # coding: utf-8
+        
+        from __future__ import absolute_import, division, print_function, unicode_literals
+        ```
+        
+        来保证代码在 Python2 和 Python3 下尽可能保持一致。
+        
+        Python2 与 Python3 不兼容的代码，尽量使用 [six](https://pythonhosted.org/six/) 模块做兼容。比如 Python2 和 Python3 下 `range` 函数行为不一致，统一使用 `six.moves.range` 可以保证兼容性。
+        
+        ### 类型标注
+        
+        Python [PEP484](https://www.python.org/dev/peps/pep-0484/) 中新增了类型标注功能，可以给代码增加可选的类型标注，配合 [mypy](http://mypy-lang.org/) 可以静态的给代码做类型检查。
+        
+        开发中给每个 `.py` 文件编写一个对应的 `.pyi`，编写好导出类型的函数签名。此项目已经配置好相关规则，包发布后，使用者就可以使用编写好的类型信息做静态类型检查、代码补全。
+        
+        如果对导出函数写 docstring，除了按照 PEP8 的要求进行编写之外，还可以对传入传出数据类型做标注与注释。注释格式参考 PyCharm 的[这篇文档](https://www.jetbrains.com/help/pycharm/using-docstrings-to-specify-types.html)的格式进行编写。PyCharm 以及 Jedi（vim / emacs / vscode 都是基于 jedi 进行自动补全）等等自动补全/静态检查工具都可以基于此格式的信息进行检查，Sphinx 生成的 API doc 也可以进行识别。
+        
+        ### editorconfig
+        
+        可以安装 [editorconfig](https://editorconfig.org/) 编辑器插件，保持代码一致性。此项目已经默认配置。
+        
+Keywords: boilerplate
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Requires-Python: >=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*
+Description-Content-Type: text/markdown
+Provides-Extra: dev
