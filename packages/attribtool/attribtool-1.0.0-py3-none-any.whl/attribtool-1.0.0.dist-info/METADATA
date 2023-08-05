@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: attribtool
+Version: 1.0.0
+Summary: Base classes for restricting the dynamic creation of attributes in inheriting classess.
+Home-page: https://github.com/Szumak75/AttribTool
+License: MIT
+Author: Jacek Kotlarski
+Author-email: szumak@virthost.pl
+Maintainer: Jacek Kotlarski
+Maintainer-email: szumak@virthost.pl
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Project-URL: Repository, https://github.com/Szumak75/AttribTool
+Description-Content-Type: text/markdown
+
+# AttribTool
+
+The project contains base classes that limit the possibility of adding new attributes without their prior declaration to classes inheriting from them or their objects.
+
+Classes throw an AttributeError exception when trying to add an undefined attribute to a derived class or its object.
+
+## Usage examples
+
+```
+from attribtool.ndattrib import NoDynamicAttributes
+
+class Example(NoDynamicAttributes):
+    __name = None
+
+    def __init__(self):
+        self.__name = self.__class__.__name__
+
+if __name__ == "__main__":
+    obj = Example()
+    obj.data = "abc"
+```
+```
+% ./example.py
+Traceback (most recent call last):
+  File "/home/szumak/Projects/ToolBox/AttribTool/./example.py", line 22, in <module>
+    obj.data = "abc"
+  File "/home/szumak/Projects/ToolBox/AttribTool/attribtool/ndattrib.py", line 22, in __setattr__
+    raise AttributeError(
+AttributeError: Cannot add new attribute 'data' to Example object
+```
+
+```
+from attribtool.nnattrib import NoNewAttributes
+
+class Example(NoNewAttributes):
+    __name = None
+
+    def __init__(self):
+        self.__name = self.__class__.__name__
+        self.__data = 1
+
+if __name__ == "__main__":
+    obj = Example()
+```
+```
+% ./example.py
+Traceback (most recent call last):
+  File "/home/szumak/Projects/ToolBox/AttribTool/./example.py", line 22, in <module>
+    obj = Example()
+  File "/home/szumak/Projects/ToolBox/AttribTool/./example.py", line 18, in __init__
+    self.__data = 1
+  File "/home/szumak/Projects/ToolBox/AttribTool/attribtool/nnattrib.py", line 24, in __setattr__
+    raise AttributeError(
+AttributeError: Undefined attribute _Example__data cannot be added to <__main__.Example object at 0x7f7129ccc2b0>
+```
+
