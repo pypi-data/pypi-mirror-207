@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "dynoptimdict"
+version = "2.0.0"
+description = "A dynamic dict class that inherits and overrides the built-in dict class for special purposes. That provides real-time access to dynamic data, while still allowing the option to get only the specified data without calculating all. It adheres to the concept of program optimization which avoids loading if not used, saving both memory and time."
+license = "MIT"
+authors = ["leoweyr <leoweyr@foxmail.com>"]
+readme = "README.md"
+repository = "https://github.com/leoweyr/Python-Dynoptimdict"
+classifiers = [
+    "Development Status :: 4 - Beta"
+]
+packages = [{include = "dynoptimdict"}]
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
