@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: dataset-viewer
+Version: 0.0.7
+Summary: Allow to view a dataset image by image and edit their labels
+Author-email: Hillpro <66534835+Hillpro@users.noreply.github.com>
+Project-URL: Homepage, https://github.com/Hillpro/dataset-viewer
+Project-URL: Bug Tracker, https://github.com/Hillpro/dataset-viewer/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: napari
+Provides-Extra: gui
+Requires-Dist: PyQt5 ; extra == 'gui'
+
+# Dataset Viewer
+
+Allow to view a dataset image by image and edit their labels using napari
+
+## Install
+
+It is recommended to install the dataset viewer into a virtual environment. To install, run: 
+
+```sh
+python -m pip install "dataset_viewer[gui]"
+```
