@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: aioworkers-sentry
+Version: 0.5a3
+Summary: aioworkers plugin for Sentry
+Project-URL: Homepage, https://github.com/aioworkers/aioworkers-sentry
+Project-URL: Documentation, https://github.com/aioworkers/aioworkers-sentry
+Project-URL: Issues, https://github.com/aioworkers/aioworkers-sentry/issues
+Project-URL: Source, https://github.com/aioworkers/aioworkers-sentry
+Author-email: Alexander Bogushov <abogushov@gmail.com>, Alexander Malev <malev@somedev.ru>
+License-Expression: Apache-2.0
+License-File: LICENSE
+Keywords: aioworkers,sentry
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: aioworkers>=0.13
+Requires-Dist: sentry-sdk>=1.22
+Description-Content-Type: text/x-rst
+
+aioworkers-sentry
+=================
+
+.. image:: https://github.com/aioworkers/aioworkers-sentry/workflows/Tests/badge.svg
+  :target: https://github.com/aioworkers/aioworkers-sentry/actions?query=workflow%3ATests
+
+.. image:: https://codecov.io/gh/aioworkers/aioworkers-sentry/branch/master/graph/badge.svg
+  :target: https://codecov.io/gh/aioworkers/aioworkers-sentry
+
+.. image:: https://img.shields.io/pypi/v/aioworkers-sentry.svg
+  :target: https://pypi.org/project/aioworkers-sentry
+
+.. image:: https://img.shields.io/pypi/pyversions/aioworkers-sentry.svg
+  :target: https://pypi.org/project/aioworkers-sentry
+  :alt: Python versions
+
+.. image:: https://img.shields.io/badge/%F0%9F%A5%9A-Hatch-4051b5.svg
+   :alt: Hatch project
+   :target: https://github.com/pypa/hatch
+
+
+aioworkers plugin to work with Sentry. Creates Sentry client and handler according configuration
+and setup logging.
+
+Usage
+-----
+
+Install plugin:
+
+.. code-block:: shell
+
+    pip install aioworkers-sentry
+
+
+Add to your config:
+
+.. code-block:: yaml
+
+    sentry:
+        dsn: <your sentry dsn>
+        release: 1.0.0
+        environment: DEV
+        integrations:
+          - sentry_sdk.integrations.aiohttp.AioHttpIntegration
+
+
+Development
+-----------
+
+Format code:
+
+.. code-block:: shell
+
+    hatch run style:fmt
+
+
+Run tests:
+
+.. code-block:: shell
+
+    hatch run pytest
+
+
+Run tests with coverage:
+
+.. code-block:: shell
+
+    hatch run cov
