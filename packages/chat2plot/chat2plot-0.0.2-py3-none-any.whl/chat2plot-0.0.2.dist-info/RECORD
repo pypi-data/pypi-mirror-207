@@ -1,0 +1,12 @@
+chat2plot/__init__.py,sha256=3-wXuJOVAcrC0tvGKPUcBbCXYNGrTox0inP2af7TOq4,183
+chat2plot/chat2plot.py,sha256=WC8cUhfqt40AF4Y9I33zwRAU1BvAG8-prLjp3UloJVg,9223
+chat2plot/dataset_description.py,sha256=K84rzm9OGfwy1cOhGFqt7ZgiLk8e7Q0koE9VXSH_IxA,104
+chat2plot/render.py,sha256=g4Th1DL7GJ7gCKBWIQh7Md849FTrefUv3mhQncloZWA,4473
+chat2plot/schema.py,sha256=ICzEu0lTyhC6evtYsENjJjg7XEkRTgV--HR5zfSMei0,3493
+chat2plot/transform.py,sha256=lIdXC3cVzWYVZjOietqrxTCFLIVFwiexEWVF_-EXezI,1555
+chat2plot/version.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+chat2plot-0.0.2.dist-info/LICENSE,sha256=pEF1fAqtSIdXEXpm-v106DTPTTvbnqKUogqFlJiLjB4,1062
+chat2plot-0.0.2.dist-info/METADATA,sha256=gKFuGwsxbRT4k7j0P3TWfzBTKuJWYD10vGE_42_5-Pg,1938
+chat2plot-0.0.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+chat2plot-0.0.2.dist-info/top_level.txt,sha256=Td-RgnB4HbPPXY7NaMP71j-ikQACyKDqE7uq9d8Svtw,10
+chat2plot-0.0.2.dist-info/RECORD,,
