@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: scrainbow
+Version: 0.0.1
+Summary: RAINBOW: a scCAS cell type annotation method via contrastive laerning and reference guidance
+Home-page: https://github.com/BioX-NKU/RAINBOW
+Author: Siyu Li
+License: MIT License
+Keywords: pip,RAINBOW,single-sell
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >3.6.0
+
+RAINBOW provides an accurate and efficient way to automatically annotate celltypes in scCAS datasets. All RAINBOW wheels distributed on PyPI are MIT licensed.
+
