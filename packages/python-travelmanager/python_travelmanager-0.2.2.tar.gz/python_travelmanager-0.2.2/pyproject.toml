@@ -1,0 +1,37 @@
+[tool.black]
+line-length = 80
+target-version = ["py39"]
+paths = ["travelmanager", "tests"]
+
+[tool.vulture]
+ignore_names = ["context", "*_mock"]
+make_whitelist = true
+min_confidence = 80
+paths = ["travelmanager", "tests"]
+sort_by_size = true
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "python_travelmanager"
+version = "0.2.2"
+authors = [
+    { name="Johannes Eimer", email="johannes.eimer@jep-dev.com" },
+]
+description = "Python TravelManager"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+keywords = ['Python', 'TravelManager']
+dependencies = [
+    "urllib3==1.26.15",
+    "requests==2.30.0",
+]
+
+[tool.hatch.build.targets.sdist]
+include = ["travelmanager"]
+
+[tool.hatch.build.targets.wheel]
+package = ["travelmanager"]
