@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: easierfile
+Version: 2.3.0
+Summary: An easier-to-use Python package that object-oriented encapsulates Python traditional built-in file operations.
+Home-page: https://github.com/leoweyr/Python-Easierfile
+License: MIT
+Author: leoweyr
+Author-email: leoweyr@foxmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: chardet (>=5.1.0,<6.0.0)
+Requires-Dist: dynoptimdict (>=2.0.0,<3.0.0)
+Project-URL: Repository, https://github.com/leoweyr/Python-Easierfile
+Description-Content-Type: text/markdown
+
+# Easierfile
+
+[![PyPI Latest Release](https://img.shields.io/pypi/v/easierfile.svg)](https://pypi.org/project/easierfile/)
+[![Package Status](https://img.shields.io/pypi/status/easierfile.svg)](https://pypi.org/project/easierfile/)
+[![License](https://img.shields.io/pypi/l/easierfile.svg)](https://github.com/leoweyr/Python-Easierfile/blob/main/LICENSE)
+[![Downloads](https://static.pepy.tech/personalized-badge/easierfile?period=total&units=international_system&left_color=grey&right_color=green&left_text=pypi%20downloads)](https://pepy.tech/project/easierfile)
+
+An easier-to-use Python package that object-oriented encapsulates Python traditional built-in file operations. It's also easier than `easygui`. o((>ω< ))o
+
+## 💿Obtainment
+
+The source code is currently hosted on Github at: https://github.com/leoweyr/Python-Easierfile
+
+Binary installers for the latest released version are available at the [Python Package Index (PyPI)](https://pypi.org/project/easierfile/).
+
+```sh
+# PyPI
+pip install easierfile
+```
+
+## 🔗Dependencies
+
+- [Dynoptimdict - A dynamic data dict class that inherits and overrides the built-in dict class for special purposes. That provides real-time access to dynamic data, while still allowing the option to get only the specified data without calculating all. It adheres to the concept of program optimization which avoids loading if not used, saving both memory and time](https://github.com/leoweyr/Python-Dynoptimdict)
+- [Chardet - The universal character encoding detector](https://github.com/chardet/chardet)
+
+## ⚖️License
+
+[MIT](https://github.com/leoweyr/Python-Easierfile/blob/main/LICENSE)
+
+## 📗Documentation
+
+The documentation is hosted on Github repository: https://github.com/leoweyr/Python-Easierfile/blob/main/doc
