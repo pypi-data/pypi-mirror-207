@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.cfg
+setup.py
+Terminal_B_Script.egg-info/PKG-INFO
+Terminal_B_Script.egg-info/SOURCES.txt
+Terminal_B_Script.egg-info/dependency_links.txt
+Terminal_B_Script.egg-info/top_level.txt
+terminal/_init_.py

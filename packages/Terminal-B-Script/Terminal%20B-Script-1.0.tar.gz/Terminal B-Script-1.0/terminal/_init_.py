@@ -1,0 +1,29 @@
+import colorama
+import time
+import random
+import cmd
+
+#загрузка
+print('Loading...')
+time.sleep(3)
+print('')
+
+def addText(text):
+    return print(text)
+
+def info(file):
+    return open(file)
+
+def SetText(text):
+    return input(text)
+
+def calc():
+    return # -*- coding: utf8 -*-
+#делаем таблицу умножения
+a = [[f"{i}*{j}={i*j}" for j in range(1, 11)] for i in range(1, 11)]
+
+#выводим таблицу умножения
+for i in range(10):
+    for j in range(10):
+        print(a[i][j], end=" ")
+    print()
