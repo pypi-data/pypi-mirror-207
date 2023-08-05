@@ -1,0 +1,8 @@
+LICENSE
+README.md
+notrans.py
+pyproject.toml
+notrans_python.egg-info/PKG-INFO
+notrans_python.egg-info/SOURCES.txt
+notrans_python.egg-info/dependency_links.txt
+notrans_python.egg-info/top_level.txt
