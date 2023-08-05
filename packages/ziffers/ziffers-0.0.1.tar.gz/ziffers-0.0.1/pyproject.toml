@@ -1,0 +1,58 @@
+[project]
+name = "ziffers"
+version = "0.0.1"
+description = "Port of the Ziffers numerical notation for Python"
+authors = [
+    {name = "Raphaël Forment", email="raphael.forment@gmail.com"},
+    {name = "Miika Alonen", email = "amiika@gmail.com"}
+]
+license = {file = "LICENSE.txt"}
+readme = "README.md"
+requires-python = ">=3.10"
+
+keywords = ["mininotation", "algorithmic music", "parser"]
+
+classifiers = [
+    "Topic :: Artistic Software",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "lark>=1.1.5",
+    "rich>=12.6.0",
+    "pytest>=7.2.1",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+homepage = "https://github.com/Bubobubobubobubo/ziffers-python"
+documentation = "https://github.com/Bubobubobubobubo/ziffers-python"
+repository = "https://github.com/Bubobubobubobubo/ziffers-python"
+
+[tool.setuptools]
+packages = ['ziffers','ziffers.classes','ziffers.spec']
+
+[tool.black]
+target_version = ['py311']
+include = '\.pyi?$'
+exclude = '''
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+  )/
+)
+'''
