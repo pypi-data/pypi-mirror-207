@@ -1,0 +1,8 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/argparse_aaron_alphabet.py
+src/argparse_aaron_alphabet.egg-info/PKG-INFO
+src/argparse_aaron_alphabet.egg-info/SOURCES.txt
+src/argparse_aaron_alphabet.egg-info/dependency_links.txt
+src/argparse_aaron_alphabet.egg-info/top_level.txt
