@@ -1,0 +1,3 @@
+# Install python2
+python-dev [platform:dpkg platform:apk !platform:ubuntu-jammy]
+python-devel [platform:rpm]
