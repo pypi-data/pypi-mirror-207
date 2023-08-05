@@ -1,0 +1,9 @@
+buildsys_dateversion/__init__.py,sha256=AGmO6mYqynBuY9dRN1ihGR2_ytU0A72oQSMB6XB7G4U,432
+buildsys_dateversion/_hooks.py,sha256=xxduOvg2vR4k3S3TeHBOSVWoa8cZpYMmac_VYW5Lo6w,12315
+buildsys_dateversion/__pycache__/__init__.cpython-311.pyc,sha256=qLLIKXJdYD7PUEWI8GDuYqu9WFxYFGfMlAyfhOwy7_0,588
+buildsys_dateversion/__pycache__/_hooks.cpython-311.pyc,sha256=hVRugfkmw8PKesywhm-pgQHCmnLu4eBR222SKjWCY7A,16540
+buildsys_dateversion-2023.5.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+buildsys_dateversion-2023.5.6.dist-info/METADATA,sha256=OAp0Ae3wxj2sTuRyMZ8awKtCwmfKcefFrr1POVE2GAY,46492
+buildsys_dateversion-2023.5.6.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+buildsys_dateversion-2023.5.6.dist-info/top_level.txt,sha256=ixC949AdAyyHWtjhDgCHDopFGahuCNOR0S_29C9As6I,21
+buildsys_dateversion-2023.5.6.dist-info/RECORD,,
