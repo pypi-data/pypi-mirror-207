@@ -1,0 +1,8 @@
+typer
+requests
+bs4
+rich
+langchain
+openai
+chromadb
+tiktoken
