@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: hgchat
+Version: 0.1.3
+Summary: 
+Author: 0xMRTT
+Author-email: 0xMRTT@proton.me
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: requests (>=2.29.0,<3.0.0)
+Requires-Dist: requests-toolbelt (>=1.0.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Hugging Chat Python
+
+## Installation
+
+### As library
+
+#### From Pypi
+
+``` shell
+pip install hgchat
+```
+
+#### From Codeberg
+
+``` shell
+pip install --index-url https://codeberg.org/api/packages/Bavarder/pypi/simple/ hgchat
+```
+
+### As an interactive prompt
+
+``` shell
+git clone https://codeberg.org/Bavarder/hgchat.git # or https://github.com/Bavarder/hgchat.git
+cd hgchat
+```
+
+## Usage
+
+### As library
+
+``` python
+from hgchat import HGChat
+hgchat = HGChat()
+
+r = hgchat.ask(user_input)
+for i in r:
+    char = i["token"]["text"]
+    if char == "</s>":
+        print("\n", end="")
+    else:
+        print(char, end="")
+```
+
+### As an interactive prompt
+
+``` shell
+python chat.py
+```
+
+
