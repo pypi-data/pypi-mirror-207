@@ -1,0 +1,4 @@
+numpy>=1.21.0
+hnswlib>=0.5.2
+duckdb>=0.2.9
+pyarrow>=5.0.0
