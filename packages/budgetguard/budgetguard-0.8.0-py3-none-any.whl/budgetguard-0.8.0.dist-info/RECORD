@@ -1,0 +1,10 @@
+budgetguard/__init__.py,sha256=iPlYCcIzuzW7T2HKDkmYlMkRI51dBLfNRxPPiWrfw9U,22
+budgetguard/budgetguard/pipelines/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+budgetguard/budgetguard/pipelines/base.py,sha256=S50PDQvD45e6bJzyn7DwByqQH_8Hp7FhPce1R6DfAys,335
+budgetguard/budgetguard/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+budgetguard/tests/__init__.py,sha256=-lzWEvW3LDAWjdNrofTJ_Ar1zJts8RojW6YRDgOwUE8,493
+budgetguard/tests/test_dummy.py,sha256=KYocaaHvWCgMpTFvgyJVB1KZRDYgscWP4gNq71biFOQ,994
+budgetguard-0.8.0.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+budgetguard-0.8.0.dist-info/METADATA,sha256=ngBjPIjP5u2nl2EMmCOzRxuBJ7tVVnllKXZJsPKVyBI,1113
+budgetguard-0.8.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+budgetguard-0.8.0.dist-info/RECORD,,
