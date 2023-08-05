@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+walespdf.egg-info/PKG-INFO
+walespdf.egg-info/SOURCES.txt
+walespdf.egg-info/dependency_links.txt
+walespdf.egg-info/top_level.txt
