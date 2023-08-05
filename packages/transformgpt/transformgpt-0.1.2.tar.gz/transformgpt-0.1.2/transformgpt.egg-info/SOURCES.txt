@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+test/test_interpreter.py
+transformgpt/__init__.py
+transformgpt/main.py
+transformgpt/source_utils.py
+transformgpt/transformgpt.py
+transformgpt.egg-info/PKG-INFO
+transformgpt.egg-info/SOURCES.txt
+transformgpt.egg-info/dependency_links.txt
+transformgpt.egg-info/entry_points.txt
+transformgpt.egg-info/requires.txt
+transformgpt.egg-info/top_level.txt
