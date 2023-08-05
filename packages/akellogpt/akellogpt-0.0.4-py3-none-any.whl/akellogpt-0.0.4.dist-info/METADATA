@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: akellogpt
+Version: 0.0.4
+Summary: ChatGPT for healthcare applications
+Author: Vijay Selvaraj
+Author-email: vijay@akellohealth.com
+License: MIT
+Keywords: healthcare,chatgpt,screening
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: PyYAML
+Requires-Dist: requests
+Requires-Dist: responses
+
+Akello GPT helps ensure deterministic results for healthcare applications 
