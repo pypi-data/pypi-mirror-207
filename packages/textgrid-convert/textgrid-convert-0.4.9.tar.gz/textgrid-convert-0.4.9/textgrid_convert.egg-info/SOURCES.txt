@@ -1,0 +1,16 @@
+setup.py
+tests/test_argparse.py
+tests/test_cli.py
+tests/test_iotools.py
+tests/test_local.py
+tests/test_main.py
+tests/test_preprocesstools.py
+tests/test_revParser.py
+tests/test_sbvparser.py
+tests/test_srtparser.py
+tests/test_textgridtools.py
+textgrid_convert.egg-info/PKG-INFO
+textgrid_convert.egg-info/SOURCES.txt
+textgrid_convert.egg-info/dependency_links.txt
+textgrid_convert.egg-info/requires.txt
+textgrid_convert.egg-info/top_level.txt
