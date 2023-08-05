@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+MecSimCalc.egg-info/PKG-INFO
+MecSimCalc.egg-info/SOURCES.txt
+MecSimCalc.egg-info/dependency_links.txt
+MecSimCalc.egg-info/requires.txt
+MecSimCalc.egg-info/top_level.txt
+mecsimcalc/MecSimCalc.py
+mecsimcalc/__init__.py
+mecsimcalc.egg-info/PKG-INFO
+mecsimcalc.egg-info/SOURCES.txt
+mecsimcalc.egg-info/dependency_links.txt
+mecsimcalc.egg-info/requires.txt
+mecsimcalc.egg-info/top_level.txt
