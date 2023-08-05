@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: csv-similarity
+Version: 0.0.1a0
+Summary: A toolkit to get or remove similar items from the csv file
+Home-page: https://github.com/dhchenx/csv-similarity
+Author: Donghua Chen
+Author-email: douglaschan@126.com
+License: MIT
+Project-URL: Bug Reports, https://github.com/dhchenx/csv-similarity/issues
+Project-URL: Source, https://github.com/dhchenx/csv-similarity
+Keywords: csv file similarity
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+Requires-Dist: jieba
+Requires-Dist: numpy
+Requires-Dist: strsimpy
+Requires-Dist: quick-csv
+Provides-Extra: dev
+Requires-Dist: check-manifest ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+
+## CSV-Similarity
+
+### Intro
+
+A toolkit to get or remove similar items from the csv file
+
+### Example
+
+```python
+from csv_similarity.similarity import *
+
+get_similar(
+    input_path=f'data/list_company_news1.csv',
+    similarity=0.8,
+    save_path=f'data/similarity_report1.csv',
+    # stopwords_path=f'{root_path}/stopwords/stopwords',
+    stopwords_path='',
+    analyze_field='title'
+)
+
+remove_similar(
+    similarity_report_path=f'data/similarity_report1.csv',
+    input_csv_path=f'data/list_company_news1.csv',
+    output_path=f'data/list_company_news_without_similar.csv',
+)
+
+```
+
+### License
+
+The `csv-similarity` toolkit is developed by [Donghua Chen](https://github.com/dhchenx). 
+

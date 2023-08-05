@@ -1,0 +1,10 @@
+csv_similarity/__init__.py,sha256=h1ojL7AEc_-LX06dI6KDeUqQ0CU4nV6uVZgyFRIWiZ0,39
+csv_similarity/similarity.py,sha256=IuGmT6oG1_Itr57dga8DhVWeo4xJbz_i_ENXkUvdAOw,14127
+csv_similarity/__pycache__/__init__.cpython-39.pyc,sha256=CkcLELKgqNO_I92FMYf4lqPan2OO31umk85desjAdLk,182
+csv_similarity/__pycache__/similarity.cpython-39.pyc,sha256=LZY6QSsf7NO9pMGbw4eB-DzWpgHXVkYvMreTWYGppJg,10995
+csv_similarity-0.0.1a0.dist-info/LICENSE,sha256=ajxCpFG1ZxRGDKhOE45GyYsTpVBwzw4xagnZYh2Uooc,1086
+csv_similarity-0.0.1a0.dist-info/METADATA,sha256=ch7rYuE4ZlMkxjxPaf_bOUSSbUarPwT4BgMkeNBhrbM,1926
+csv_similarity-0.0.1a0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+csv_similarity-0.0.1a0.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+csv_similarity-0.0.1a0.dist-info/top_level.txt,sha256=pASmPW0QFFKxANge13r1g9AHsrOko4Y_pCIc-vy2I7I,15
+csv_similarity-0.0.1a0.dist-info/RECORD,,
