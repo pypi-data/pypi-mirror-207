@@ -1,0 +1,5 @@
+flake8
+mypy
+trio-typing
+pytest
+pytest-cov
