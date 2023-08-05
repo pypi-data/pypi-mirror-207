@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: mlgenotype
+Version: 0.1.11
+Summary: A package with utilities for training classifiers to recognize SVs in short read datasets
+Home-page: https://github.com/nhansen/mlgenotype
+Author: Nancy F Hansen, Gracelyn Hill, Jennifer Lin
+Author-email: "Nancy F. Hansen" <nhansen@mail.nih.gov>
+Project-URL: Homepage, https://github.com/nhansen/mlgenotype
+Project-URL: Bug Tracker, https://github.com/nhansen/mlgenotype/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
+License-File: LICENSE.md
+
+# mlgenotype
+
+This python package can be used to train machine learning models to genotype structural variants using aligned short read data. It was written by Nancy Fisher Hansen, a staff scientist in the Cancer Genetics and Comparative Genomics Branch (CGCG) of NHGRI, starting with code written by Gracelyn Hill and Jennifer C Lin.  Nancy can be reached at nhansen@mail.nih.gov.
+
+## Software dependencies
+
+- pandas >= 1.0
+- scikit-learn >= 0.20
+
+## Clone the repository
+
+	git clone git://github.com/nhansen/mlgenotype
+
+
+
