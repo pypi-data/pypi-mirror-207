@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+qpl_py/__init__.py
+qpl_py/_modidx.py
+qpl_py/structs.py
+qpl_py.egg-info/PKG-INFO
+qpl_py.egg-info/SOURCES.txt
+qpl_py.egg-info/dependency_links.txt
+qpl_py.egg-info/entry_points.txt
+qpl_py.egg-info/not-zip-safe
+qpl_py.egg-info/requires.txt
+qpl_py.egg-info/top_level.txt

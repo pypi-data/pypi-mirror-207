@@ -1,0 +1,2 @@
+[nbdev]
+qpl_py = qpl_py._modidx:d
