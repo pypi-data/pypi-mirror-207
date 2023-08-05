@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+mutil.egg-info/PKG-INFO
+mutil.egg-info/SOURCES.txt
+mutil.egg-info/dependency_links.txt
+mutil.egg-info/entry_points.txt
+mutil.egg-info/requires.txt
+mutil.egg-info/top_level.txt
+src/mutil/__init__.py
+src/mutil/minduct.py
+src/mutil/mutil.py
+src/mutil/version.py
