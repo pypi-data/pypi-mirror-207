@@ -1,0 +1,10 @@
+lz-pip-demo/__init__.py,sha256=MakTIewgrqBRH3zkg2il0Lrwh7CXaNcR5R37YhAeOd0,290
+lz-pip-demo/__version__.py,sha256=VdQMVskXbNZ5lUPsNj6DTkT0xFpitBFO9W78gIY3q6Y,64
+lz-pip-demo/client.py,sha256=1Y8gttQ4Kpqk7dDk0REAOpbSwnSWQvtK_T1baJgRhcA,708
+lz-pip-demo/client.pyi,sha256=03VDlquTvktMvXzgkswNS-eP_QLE4h_VQkx5m4sTYEU,120
+lz-pip-demo/errors.py,sha256=XNFBqWFbuva9tyyQkHIeXex42QTsa1q5EtZ8XKZgors,180
+lz-pip-demo/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zxy_Test-0.0.2.dist-info/METADATA,sha256=AIPzCfMrLSIuNqU5DRe8gmWFPY8U8XG8pq3FXeSP11Q,4975
+zxy_Test-0.0.2.dist-info/WHEEL,sha256=IhjwRKCBU_-qWYU-9mADzLY2DSoO4crUVcAQt39lCCc,92
+zxy_Test-0.0.2.dist-info/top_level.txt,sha256=zMaKdpFv3Zl8JsaNjsS_w0_onvLmYOAj5ScZG6XhgW0,12
+zxy_Test-0.0.2.dist-info/RECORD,,
