@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: oakutils
+Version: 0.0.2
+Project-URL: Homepage, https://github.com/justincdavis/oakutils
+Project-URL: Bug Tracker, https://github.com/justincdavis/oakutils/issues
+Author-email: Justin Davis <davisjustin302@gmail.com>
+Maintainer-email: Justin Davis <davisjustin302@gmail.com>
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Classifier: Topic :: System :: Hardware
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Requires-Dist: depthai>=2.20
+Requires-Dist: numpy>=1.20
+Requires-Dist: open3d>=0.16
+Requires-Dist: opencv-python>=4.5
+Provides-Extra: dev
+Requires-Dist: black; extra == 'dev'
+Requires-Dist: bumpver; extra == 'dev'
+Requires-Dist: mypy; extra == 'dev'
+Requires-Dist: pylint; extra == 'dev'
+Requires-Dist: twine; extra == 'dev'
+Requires-Dist: wheel; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# oakutils
+
+A library for making OAK-D cameras easier to use out of the box independently and with OpenCV+Open3D
+
+## Description
+
+
