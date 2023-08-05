@@ -1,0 +1,2 @@
+[console_scripts]
+qrcode-server = dynamic_qrcode_image.w2:app.run

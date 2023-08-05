@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: dynamic_qrcode_image
+Version: 0.0.7
+Summary: dynamic_qrcode_image
+Project-URL: Homepage, https://github.com/DukeBode/dynamic-qrcode-image
+Project-URL: Bug Tracker, https://github.com/DukeBode/dynamic-qrcode-image/issues
+Author: Duke Bode
+License-File: LICENSE
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Requires-Dist: flask
+Requires-Dist: pillow
+Requires-Dist: pyzbar
+Requires-Dist: qrcode
+Description-Content-Type: text/markdown
+
+# dynamic-qrcode-image
+
+- 模块导入
+
+```py
+from dynamic_qrcode_image import QRC
+```
+
+- 本地运行
+
+```py
+python -m dynamic_qrcode_image
+```
+- [标准编码](https://docs.python.org/zh-cn/3/library/codecs.html#standard-encodings)

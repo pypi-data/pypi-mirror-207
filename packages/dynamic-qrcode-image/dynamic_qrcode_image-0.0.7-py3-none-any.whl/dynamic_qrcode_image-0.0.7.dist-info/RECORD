@@ -1,0 +1,15 @@
+dynamic_qrcode_image/__init__.py,sha256=ePYPFFom5uDswb3urA8VLUsq1jiQQuUc90UdMzqz9aE,85
+dynamic_qrcode_image/__main__.py,sha256=Gjd9t9gF0xPVeg0X0p3pz1zCbdKt6O9-zBNT7u3DsPg,30
+dynamic_qrcode_image/config.py,sha256=7CgnW7dZdgbT-ygcJfFrgHY5AMJmEqkRr30vrNnakNg,311
+dynamic_qrcode_image/form.py,sha256=rGD0Sw9xAJec7e_9XcwFEsRLxgPIypoze6wucyZi4CM,198
+dynamic_qrcode_image/qr2.py,sha256=GgBAkItf7Ahd_XTTotIgSgzef2IJeJFcGCt99WmQHbo,930
+dynamic_qrcode_image/qrc.py,sha256=ypaQz-ro5TvPy_k5oYNURmAW8y-hp8dYzt6_wNwnhtY,3254
+dynamic_qrcode_image/w2.py,sha256=D2JN7s51BMQ7zPknRJK6rlmFTiXbWfuxO2ZeLuYDF88,1437
+dynamic_qrcode_image/docs/generate.html,sha256=J4zA-J-iXYshJfc2FWkNV7BS7Sxldnk5RwzgsuUaheY,215
+dynamic_qrcode_image/docs/index.md,sha256=wgyAGQdxzljwo2UkrgXie5uO7Ar3gcjyzW-XFnYzscs,91
+dynamic_qrcode_image/templates/submit.html,sha256=uBfXXvrtczzOzJXaSE9ladin6fGgONfsIx-LeILa_1c,160
+dynamic_qrcode_image-0.0.7.dist-info/METADATA,sha256=u99VuC9HCtTSxCKYPfjXyIWx1wGF-vJxpZviwhyGQCc,772
+dynamic_qrcode_image-0.0.7.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+dynamic_qrcode_image-0.0.7.dist-info/entry_points.txt,sha256=HqS8KJSLcCpmL6eCi8ScBTVfqQBgt4IkhJrfitzGigE,66
+dynamic_qrcode_image-0.0.7.dist-info/licenses/LICENSE,sha256=N8LWlSSQ6aYc17LpzCokMt_nOr4MQK7m0fxcS7jx7Os,1517
+dynamic_qrcode_image-0.0.7.dist-info/RECORD,,
