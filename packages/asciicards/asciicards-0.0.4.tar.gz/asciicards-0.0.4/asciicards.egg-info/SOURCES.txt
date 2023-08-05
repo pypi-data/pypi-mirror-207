@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+asciicards/asciicards.py
+asciicards.egg-info/PKG-INFO
+asciicards.egg-info/SOURCES.txt
+asciicards.egg-info/dependency_links.txt
+asciicards.egg-info/top_level.txt
