@@ -1,0 +1,1 @@
+from zhengyang_env_2.envs.zhengyang_env_2 import KukaDiverseObjectEnv

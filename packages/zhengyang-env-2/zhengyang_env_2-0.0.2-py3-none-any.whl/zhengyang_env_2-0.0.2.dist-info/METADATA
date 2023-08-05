@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: zhengyang-env-2
+Version: 0.0.2
+Summary: A OpenAI Gym Env for foo
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: gym
+Requires-Dist: pybullet
+
+Trying to create my own enviornment and upload to github + pypi.  
+
