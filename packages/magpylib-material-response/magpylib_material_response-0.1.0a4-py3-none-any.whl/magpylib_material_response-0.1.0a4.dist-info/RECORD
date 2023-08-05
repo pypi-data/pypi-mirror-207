@@ -1,0 +1,13 @@
+magpylib_material_response/__init__.py,sha256=VxYLQ7ouJtpATTmXSJXDt7wn4eiw15dAG2w8B1ww7A4,285
+magpylib_material_response/demag.py,sha256=wqjn5OH7neUGAMXimOqdTI1qUSuEsMwJ_EciBcOY_U4,14565
+magpylib_material_response/meshing.py,sha256=339SOaOYKlZPr4uWmLPTuQ0WwHMo0mxv9Eax2k7zImw,15995
+magpylib_material_response/meshing_utils.py,sha256=r7NXhuAL4cUCIomZV9wjdc95XPNCxuAQj9oKCQOOxP4,8220
+magpylib_material_response/polyline.py,sha256=8sliP5L0-OingSJDGaAklLw5UZERJZc7A2jbPH6TdyQ,8415
+magpylib_material_response/utils.py,sha256=QHBQfNGk3VXlTSxxrlptibiY82jfWpn7gEWcdsicuus,6189
+magpylib_material_response/data/__init__.py,sha256=VQ1pQCFpFHnPpgV-n_nzBGcgdKeD90WLJjLjdRh2-2M,343
+magpylib_material_response/package_data/datasets/FEMdata_test_cuboids.json,sha256=AEwFDH627_unLvVA18fKTsXLN8mxomT-J4Ms3Tx-G3k,46300
+magpylib_material_response-0.1.0a4.dist-info/LICENSE,sha256=_5D-B9TL7O5tNRrK3Hvy-Wz5qzMU4OoPwjSpM-l0DOA,1077
+magpylib_material_response-0.1.0a4.dist-info/METADATA,sha256=2ATHG-iaqyrYHj1ptT0zZqR22h7QKNMYPnbBFDurztg,2451
+magpylib_material_response-0.1.0a4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+magpylib_material_response-0.1.0a4.dist-info/top_level.txt,sha256=LIJ394ijnBqznWsVermF-TDiuuxlDs7abitsF_XmFrU,27
+magpylib_material_response-0.1.0a4.dist-info/RECORD,,
