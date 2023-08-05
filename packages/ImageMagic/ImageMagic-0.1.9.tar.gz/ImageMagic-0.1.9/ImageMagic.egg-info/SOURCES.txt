@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+ImageMagic/Aocr.py
+ImageMagic/Image.py
+ImageMagic/_Atesseract.py
+ImageMagic/__init__.py
+ImageMagic/_version.py
+ImageMagic.egg-info/PKG-INFO
+ImageMagic.egg-info/SOURCES.txt
+ImageMagic.egg-info/dependency_links.txt
+ImageMagic.egg-info/requires.txt
+ImageMagic.egg-info/top_level.txt
+test/__init__.py
+test/test.py
