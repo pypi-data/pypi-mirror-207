@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+gravitypy.egg-info/PKG-INFO
+gravitypy.egg-info/SOURCES.txt
+gravitypy.egg-info/dependency_links.txt
+gravitypy.egg-info/entry_points.txt
+gravitypy.egg-info/requires.txt
+gravitypy.egg-info/top_level.txt
+src/__init__.py
+src/main.py
