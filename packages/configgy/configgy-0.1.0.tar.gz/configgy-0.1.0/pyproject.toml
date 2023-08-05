@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "configgy"
+version = "0.1.0"
+description = "Load popular config file formats into a python dict"
+authors = ["baniasbaabe <banias@hotmail.de>"]
+license = "MIT"
+readme = "README.md"
+homepage = ""
+repository = ""
+keywords = ["config", "ini", "yaml", "toml", "json"]
+classifiers = [
+    "Environment :: Console",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Quality Assurance",
+]
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+PyYAML = "^6.0"
+configparser = "^5.3.0"
+toml = "^0.10.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^23.3.0"
+isort = "^5.12.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
