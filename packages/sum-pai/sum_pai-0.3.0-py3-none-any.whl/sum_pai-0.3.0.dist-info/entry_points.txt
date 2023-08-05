@@ -1,0 +1,4 @@
+[console_scripts]
+create_search_embedding = sum_pai.create_search_embedding:main
+search_project = sum_pai.search_project:main
+sum_pai = sum_pai.__main__:main
