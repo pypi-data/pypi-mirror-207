@@ -1,0 +1,2 @@
+[console_scripts]
+zenq = zenq.cli:main
