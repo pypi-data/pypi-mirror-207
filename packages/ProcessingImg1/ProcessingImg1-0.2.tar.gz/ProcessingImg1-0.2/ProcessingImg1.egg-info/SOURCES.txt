@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+ProcessingImg1.egg-info/PKG-INFO
+ProcessingImg1.egg-info/SOURCES.txt
+ProcessingImg1.egg-info/dependency_links.txt
+ProcessingImg1.egg-info/top_level.txt
+organize/__init__.py
+processing/__init__.py

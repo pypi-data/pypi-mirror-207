@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ProcessingImg1
+Version: 0.2
+Summary: A simple Pythonic library for image manipulation and hardware configuration that you can use alongside your project to save you time and effort
+Home-page: https://github.com/Alaa-Jassim/proc-image
+Author: Alaa Jassim Mohammed
+Author-email: alobede2001alobede@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE.txt
