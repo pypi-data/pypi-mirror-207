@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: JsToPy
+Version: 0.1.5
+Summary: A library that add to python some js functions.
+Home-page: https://github.com/F1reWs/JsToPy
+Author: Firew
+Author-email: road.of.programming@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# JsToPy
+A library that add to python some js functions.
+
+## Installation
+`pip3 install JsToPy` or `pip3 install --user JsToPy`
+
+## Why JsToPy?
+JsToPy makes JavaScript code using in Python.
+
+JS code:
+```js
+var this = require("a-lib");
+
+var nums = [];
+nums.length = 10;
+nums.fill("Foobar");
+console.log(nums);
+```
+
+Using JsToPy:
+```py
+import JsToPy
+
+this = require("a-lib");
+
+nums = [];
+nums.number = 10;
+nums.fill("js in python");
+console.log(nums);
+```

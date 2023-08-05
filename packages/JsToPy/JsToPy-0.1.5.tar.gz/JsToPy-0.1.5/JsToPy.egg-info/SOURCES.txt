@@ -1,0 +1,9 @@
+README.md
+setup.py
+JsToPy/__init__.py
+JsToPy/console.py
+JsToPy/require.py
+JsToPy.egg-info/PKG-INFO
+JsToPy.egg-info/SOURCES.txt
+JsToPy.egg-info/dependency_links.txt
+JsToPy.egg-info/top_level.txt
