@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+ejtraderNS/__init__.py
+ejtraderNS.egg-info/PKG-INFO
+ejtraderNS.egg-info/SOURCES.txt
+ejtraderNS.egg-info/dependency_links.txt
+ejtraderNS.egg-info/requires.txt
+ejtraderNS.egg-info/top_level.txt
+ejtraderNS/data/rss.db
