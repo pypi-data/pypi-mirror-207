@@ -1,0 +1,398 @@
+# `vidshare`
+
+Quickly make a small website to share one video, with a card and your name on it + description.
+
+**Usage**:
+
+```console
+$ vidshare [OPTIONS] COMMAND [ARGS]...
+```
+
+**Options**:
+
+* `--install-completion`: Install completion for the current shell.
+* `--show-completion`: Show completion for the current shell, to copy it or customize the installation.
+* `--help`: Show this message and exit.
+
+**Commands**:
+
+* `build`: Assuming every parameter was provided,...
+* `var`: Configure the app 🛠️.
+
+## `vidshare build`
+
+Assuming every parameter was provided, gives you a single zipped archive with your mini website in it. Just put it wherever :)
+❗ [red] Don't miss out ! [/red] you can also add build parameters using [yellow]`var set`[/yellow], type [yellow]`vidshare var`[/yellow] to know more !
+
+**Usage**:
+
+```console
+$ vidshare build [OPTIONS] [BACKGROUND_IMAGE_URL] [PROFILE_PICTURE_URL] [VIDEO_URL]
+```
+
+**Arguments**:
+
+* `[BACKGROUND_IMAGE_URL]`: Background image behind the card, defaults to [link=https://storage.googleapis.com/open.data.arnov.dev/static/branding/topo-bright.png]one picture I like[/link]
+* `[PROFILE_PICTURE_URL]`: Background image behind the card, defaults to [link=https://static.wikia.nocookie.net/picrewcomp/images/4/44/Sangled.png/revision/latest?cb=20210731025719]a random avatar from picrew.me[/link]
+* `[VIDEO_URL]`: Background image behind the card, defaults to [link=https://www.youtube.com/embed/dQw4w9WgXcQ]a super secret video[/link]
+
+**Options**:
+
+* `-ghr, --github-repo TEXT`: Just your github repo, <user>/<repo>
+* `-tw, --twitter-handle TEXT`: Just your twitter handle, without the @ (ex: @joe => joe)
+* `-o, --out-dir PATH`: Where to output the zipped website  [default: ./video-website.zip]
+* `-yq, --youtube-quality INTEGER`: If your link is a youtube link, what quality to download it in.  [default: 1080]
+* `--help`: Show this message and exit.
+
+## `vidshare var`
+
+Configure the app 🛠️. Alias for `config`
+
+**Usage**:
+
+```console
+$ vidshare var [OPTIONS] COMMAND [ARGS]...
+```
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
+**Commands**:
+
+* `+`: Set a config value.
+* `++`: Set a config value within a user-defined...
+* `+T`: Creates a new table.
+* `?`: Get a config value.
+* `??`: Get a config value from a user-defined table.
+* `create-table`: Creates a new table.
+* `crtab`: Creates a new table.
+* `drop-table`: Removes a user-defined.
+* `dropt`: Removes a user-defined.
+* `get`: Get a config value.
+* `list`: List all config values.
+* `ls`: List all config values.
+* `reset`: Reset all config values.
+* `set`: Set a config value.
+* `test`: Run tests 🧪.
+* `uget`: Get a config value from a user-defined table.
+* `uset`: Set a config value within a user-defined...
+
+### `vidshare var +`
+
+Set a config value. Alias for `set`
+
+**Usage**:
+
+```console
+$ vidshare var + [OPTIONS] PARAM VALUE
+```
+
+**Arguments**:
+
+* `PARAM`: The parameter to set.  [required]
+* `VALUE`: The value to set the parameter to.  [required]
+
+**Options**:
+
+* `-k, --obfuscate`: Whether to make the key and param impossible to read without postprocessing. Not a replacement for cryptography, but makes it safer.
+* `--help`: Show this message and exit.
+
+### `vidshare var ++`
+
+Set a config value within a user-defined table. Alias for `uset`
+
+**Usage**:
+
+```console
+$ vidshare var ++ [OPTIONS] TABLE PARAM VALUE
+```
+
+**Arguments**:
+
+* `TABLE`: The user-defined table to populate with this new key-value pair.  [required]
+* `PARAM`: The parameter to set.  [required]
+* `VALUE`: The value to set the parameter to.  [required]
+
+**Options**:
+
+* `-k, --obfuscate`: Whether to make the key and param impossible to read without postprocessing. Not a replacement for cryptography, but makes it safer.
+* `--help`: Show this message and exit.
+
+### `vidshare var +T`
+
+Creates a new table. Alias for `create-table
+
+**Usage**:
+
+```console
+$ vidshare var +T [OPTIONS] TABLE
+```
+
+**Arguments**:
+
+* `TABLE`: The name of the table to create.  [required]
+
+**Options**:
+
+* `--schema TEXT`: Not yet supported.
+* `--help`: Show this message and exit.
+
+### `vidshare var ?`
+
+Get a config value. Alias for `get`
+
+**Usage**:
+
+```console
+$ vidshare var ? [OPTIONS] PARAM
+```
+
+**Arguments**:
+
+* `PARAM`: The parameter to get.  [required]
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
+### `vidshare var ??`
+
+Get a config value from a user-defined table. Alias for `uget`
+
+**Usage**:
+
+```console
+$ vidshare var ?? [OPTIONS] TABLE [PARAM]
+```
+
+**Arguments**:
+
+* `TABLE`: The user-defined table to fetch the variable from.  [required]
+* `[PARAM]`: The parameter to get. Either use `all` or a specififc param
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
+### `vidshare var create-table`
+
+Creates a new table.
+
+**Usage**:
+
+```console
+$ vidshare var create-table [OPTIONS] TABLE
+```
+
+**Arguments**:
+
+* `TABLE`: The name of the table to create.  [required]
+
+**Options**:
+
+* `--schema TEXT`: Not yet supported.
+* `--help`: Show this message and exit.
+
+### `vidshare var crtab`
+
+Creates a new table. Alias for `create-table`
+
+**Usage**:
+
+```console
+$ vidshare var crtab [OPTIONS] TABLE
+```
+
+**Arguments**:
+
+* `TABLE`: The name of the table to create.  [required]
+
+**Options**:
+
+* `--schema TEXT`: Not yet supported.
+* `--help`: Show this message and exit.
+
+### `vidshare var drop-table`
+
+Removes a user-defined.
+
+**Usage**:
+
+```console
+$ vidshare var drop-table [OPTIONS] TABLE
+```
+
+**Arguments**:
+
+* `TABLE`: The name of the table to drop.  [required]
+
+**Options**:
+
+* `-s, --schema TEXT`: Not yet supported.
+* `-w, --wipe`: Whether to remove all the data from disk, cannot be undone.
+* `--help`: Show this message and exit.
+
+### `vidshare var dropt`
+
+Removes a user-defined. Alias for `drop-table`
+
+**Usage**:
+
+```console
+$ vidshare var dropt [OPTIONS] TABLE
+```
+
+**Arguments**:
+
+* `TABLE`: The name of the table to drop.  [required]
+
+**Options**:
+
+* `-s, --schema TEXT`: Not yet supported.
+* `-w, --wipe`: Whether to remove all the data from disk, cannot be undone.
+* `--help`: Show this message and exit.
+
+### `vidshare var get`
+
+Get a config value.
+
+**Usage**:
+
+```console
+$ vidshare var get [OPTIONS] PARAM
+```
+
+**Arguments**:
+
+* `PARAM`: The parameter to get.  [required]
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
+### `vidshare var list`
+
+List all config values.
+
+**Usage**:
+
+```console
+$ vidshare var list [OPTIONS]
+```
+
+**Options**:
+
+* `-k, --decode`: Whether to list the obfuscated key/value pairs in clear text
+* `-t, --table TEXT`: Whether to list the contents of a specififc user-defined table
+* `-a, --all`: Whether to list all the uer defined tables aswell. Might be very slow.
+* `--help`: Show this message and exit.
+
+### `vidshare var ls`
+
+List all config values. Alias for `list`
+
+**Usage**:
+
+```console
+$ vidshare var ls [OPTIONS]
+```
+
+**Options**:
+
+* `-k, --decode`: Whether to list the obfuscated key/value pairs in clear text
+* `-t, --table TEXT`: Whether to list the contents of a specififc user-defined table
+* `-a, --all`: Whether to list all the uer defined tables aswell. Might be very slow.
+* `--help`: Show this message and exit.
+
+### `vidshare var reset`
+
+Reset all config values.
+
+**Usage**:
+
+```console
+$ vidshare var reset [OPTIONS]
+```
+
+**Options**:
+
+* `-t, --table TEXT`: Whether to list the contents of a specififc user-defined table
+* `-a, --all`: Whether to reset all the uer defined tables aswell. Might be very slow.
+* `-f, --file`: Whether to remove the entire file.
+* `--help`: Show this message and exit.
+
+### `vidshare var set`
+
+Set a config value.
+
+**Usage**:
+
+```console
+$ vidshare var set [OPTIONS] PARAM VALUE
+```
+
+**Arguments**:
+
+* `PARAM`: The parameter to set.  [required]
+* `VALUE`: The value to set the parameter to.  [required]
+
+**Options**:
+
+* `-k, --obfuscate`: Whether to make the key and param impossible to read without postprocessing. Not a replacement for cryptography, but makes it safer.
+* `--help`: Show this message and exit.
+
+### `vidshare var test`
+
+Run tests 🧪.
+
+**Usage**:
+
+```console
+$ vidshare var test [OPTIONS]
+```
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
+### `vidshare var uget`
+
+Get a config value from a user-defined table.
+
+**Usage**:
+
+```console
+$ vidshare var uget [OPTIONS] TABLE [PARAM]
+```
+
+**Arguments**:
+
+* `TABLE`: The user-defined table to fetch the variable from.  [required]
+* `[PARAM]`: The parameter to get. Either use `all` or a specififc param
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
+### `vidshare var uset`
+
+Set a config value within a user-defined table.
+
+**Usage**:
+
+```console
+$ vidshare var uset [OPTIONS] TABLE PARAM VALUE
+```
+
+**Arguments**:
+
+* `TABLE`: The user-defined table to populate with this new key-value pair.  [required]
+* `PARAM`: The parameter to set.  [required]
+* `VALUE`: The value to set the parameter to.  [required]
+
+**Options**:
+
+* `-k, --obfuscate`: Whether to make the key and param impossible to read without postprocessing. Not a replacement for cryptography, but makes it safer.
+* `--help`: Show this message and exit.
+
