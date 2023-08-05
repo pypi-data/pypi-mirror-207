@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pitv
+Version: 0.0.8
+Summary: Pictures in the vault
+Home-page: https://pictures.openknowit.com
+License: MIT
+Author: Jakob Holst
+Author-email: jakob.holst@knowit.dk
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: requests (>=2.30.0,<3.0.0)
+Project-URL: Repository, https://github.com/JakobHolstDK/picturesinthevault.git
