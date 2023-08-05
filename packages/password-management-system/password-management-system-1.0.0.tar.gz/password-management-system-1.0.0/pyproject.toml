@@ -1,0 +1,26 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "password-management-system"
+version = "1.0.0"
+description = "password management system through cli"
+readme = "README.md"
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["cli"]
+dependencies = [
+    "cryptography >= 40.0.2"
+]
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+pms = "pms.__main__:main"
