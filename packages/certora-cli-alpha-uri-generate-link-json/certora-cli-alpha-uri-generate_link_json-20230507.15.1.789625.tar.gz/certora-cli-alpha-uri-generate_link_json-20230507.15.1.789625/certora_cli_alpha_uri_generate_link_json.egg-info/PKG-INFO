@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: certora-cli-alpha-uri-generate-link-json
+Version: 20230507.15.1.789625
+Summary: Runner for the Certora Prover
+Home-page: https://pypi.org/project/certora-cli-alpha-uri-generate_link_json
+Author: Certora
+Author-email: support@certora.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8.16
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Commit 0978c40. Build and Run scripts for executing the Certora Prover on Solidity smart contracts.
+
