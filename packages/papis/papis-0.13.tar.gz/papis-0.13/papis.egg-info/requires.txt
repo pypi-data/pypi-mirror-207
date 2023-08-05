@@ -1,0 +1,62 @@
+PyYAML>=3.12
+arxiv2bib>=1.0.7
+beautifulsoup4>=4.4.1
+chardet>=3.0.2
+click>=7.0.0
+colorama>=0.2
+dominate
+filetype>=1.0.1
+isbnlib>=3.9.1
+prompt_toolkit>=2.0.5
+pygments>=2.2.0
+pyparsing>=2.2.0
+python-doi>=0.1.1
+requests>=2.11.1
+stevedore>=1.30
+tqdm>=4.1
+typing-extensions>=3.7
+
+[:python_version < "3.6"]
+bibtexparser<1.4.0
+habanero<1.2.0
+
+[:python_version <= "3.6"]
+lxml<=4.9.1
+
+[:python_version > "3.4"]
+python-slugify>=1.2.6
+
+[:python_version > "3.6"]
+lxml>=4.3.5
+
+[:python_version >= "3.6"]
+bibtexparser>=0.6.2
+habanero>=0.6.0
+
+[develop]
+flake8-bugbear
+flake8-quotes
+flake8<6
+mypy>=0.7
+pylint
+pytest
+pytest-cov
+python-coveralls
+sphinx-click
+sphinx_rtd_theme
+types-PyYAML
+types-Pygments
+types-beautifulsoup4
+types-python-slugify
+types-requests
+types-tqdm
+
+[develop:python_version < "3.6"]
+pep8-naming<0.13.0
+
+[develop:python_version >= "3.6"]
+pep8-naming
+python-lsp-server
+
+[optional]
+Whoosh>=2.7.4
