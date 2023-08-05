@@ -1,0 +1,2 @@
+[console_scripts]
+athena = sum_pai.__main__:main
