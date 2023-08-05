@@ -1,0 +1,10 @@
+LICENCE
+README.md
+setup.py
+matpdf/__init__.py
+matpdf/pdf2image.py
+matpdf/pdf2text.py
+matpdf.egg-info/PKG-INFO
+matpdf.egg-info/SOURCES.txt
+matpdf.egg-info/dependency_links.txt
+matpdf.egg-info/top_level.txt
