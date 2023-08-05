@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "tastytrade-sdk"
+version = "0.0.2a0dev71"
+description = "A python wrapper around the tastytrade open API"
+authors = ["Aaron Mamparo <aaronmamparo@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "tastytrade_sdk", from = "src" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+injector = "^0.20.1"
+strenum = "^0.4.10"
+requests = "2.29.0"
+
+[tool.poetry.group.dev.dependencies]
+python-dotenv = "^1.0.0"
+sphinx-autobuild = "^2021.3.14"
+sphinx = "6.2.1"
+sphinx-book-theme = "^1.0.1"
+sphinx-rtd-theme = "^1.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
