@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: numba-integrators
+Version: 0.0.2
+Summary: Numerical integrators using Numba
+Author: Limespy
+Project-URL: Homepage, https://github.com/Limespy/numba-integrators
+Project-URL: Changelog, https://github.com/Limespy/numba-integrators/blob/main/README.md#Changelog
+Project-URL: Issue Tracker, https://github.com/Limespy/numba-integrators/issues
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numba (>=0.57.0)
+Requires-Dist: numpy (>=1.24.3)
+Provides-Extra: dev
+Requires-Dist: build (>=0.10.0) ; extra == 'dev'
+Requires-Dist: colorama (>=0.4) ; extra == 'dev'
+Requires-Dist: gprof2dot (>=2022.7.29) ; extra == 'dev'
+Requires-Dist: mypy (>=1.2.0) ; extra == 'dev'
+Requires-Dist: pre-commit (>=3.2.2) ; extra == 'dev'
+Requires-Dist: pylint (>=2.17.3) ; extra == 'dev'
+Requires-Dist: pympler (>=1.0.1) ; extra == 'dev'
+Requires-Dist: pytest (>=7.2.0) ; extra == 'dev'
+Requires-Dist: pytest-cov (>=4.0.0) ; extra == 'dev'
+Requires-Dist: reorder-python-imports (>=3.9.0) ; extra == 'dev'
+Requires-Dist: scipy (>=1.10.1) ; extra == 'dev'
+Requires-Dist: tomli (>=2.0.1) ; extra == 'dev'
+Requires-Dist: tomli-w (>=1.0.0) ; extra == 'dev'
+Requires-Dist: twine (>=4.0) ; extra == 'dev'
+Requires-Dist: tox (>=4.5.1) ; extra == 'dev'
+Requires-Dist: yamdog (>=0.5.0) ; extra == 'dev'
+Requires-Dist: wheel (>=0.38) ; extra == 'dev'
+
+# Overview of Numba integrators
+
+[https://pypi.org/project/numba-integrators][1]
+[https://pypi.org/project/numba-integrators][2]
+[https://pypi.org/project/numba-integrators][3]
+[https://pypi.org/project/numba-integrators][4]
+
+Numerical integrators using Numba
+
+# Changelog <!-- omit in toc -->
+
+## 0.0.2 2023-05-07 <!-- omit in toc -->
+
+- Setup
+
+[1]: <![PyPI Package latest release](https://img.shields.io/pypi/v/numba-integrators.svg)> ""
+[2]: <![PyPI Wheel](https://img.shields.io/pypi/wheel/numba-integrators.svg)> ""
+[3]: <![Supported versions](https://img.shields.io/pypi/pyversions/numba-integrators.svg)> ""
+[4]: <![Supported implementations](https://img.shields.io/pypi/implementation/numba-integrators.svg)> ""
