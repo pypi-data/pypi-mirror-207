@@ -1,0 +1,10 @@
+README.md
+setup.py
+PCRinSilico/PCRinSilico.py
+PCRinSilico/__init__.py
+PCRinSilico.egg-info/PKG-INFO
+PCRinSilico.egg-info/SOURCES.txt
+PCRinSilico.egg-info/dependency_links.txt
+PCRinSilico.egg-info/entry_points.txt
+PCRinSilico.egg-info/requires.txt
+PCRinSilico.egg-info/top_level.txt
