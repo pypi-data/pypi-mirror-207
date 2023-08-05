@@ -1,0 +1,5 @@
+[eldecko.backend]
+events = edb_mpris:edb_available_events
+fire = edb_mpris:edb_fire_event
+init = edb_mpris:edb_init
+stop = edb_mpris:edb_stop

@@ -1,0 +1,5 @@
+pympris
+PyGObject
+pycairo
+pgi
+dbus-python>=1.0
