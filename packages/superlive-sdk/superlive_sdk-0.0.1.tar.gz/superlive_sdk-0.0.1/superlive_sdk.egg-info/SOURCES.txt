@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+superlive_sdk.egg-info/PKG-INFO
+superlive_sdk.egg-info/SOURCES.txt
+superlive_sdk.egg-info/dependency_links.txt
+superlive_sdk.egg-info/requires.txt
+superlive_sdk.egg-info/top_level.txt
+tests/test_api_client.py
