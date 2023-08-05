@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+darwinpyspark/__init__.py
+darwinpyspark/darwinpyspark.py
+darwinpyspark.egg-info/PKG-INFO
+darwinpyspark.egg-info/SOURCES.txt
+darwinpyspark.egg-info/dependency_links.txt
+darwinpyspark.egg-info/requires.txt
+darwinpyspark.egg-info/top_level.txt
