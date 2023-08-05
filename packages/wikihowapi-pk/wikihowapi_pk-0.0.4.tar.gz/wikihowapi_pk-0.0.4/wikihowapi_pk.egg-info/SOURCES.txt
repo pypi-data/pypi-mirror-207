@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+tests/test.py
+wikihowapi_pk/__init__.py
+wikihowapi_pk/exceptions.py
+wikihowapi_pk.egg-info/PKG-INFO
+wikihowapi_pk.egg-info/SOURCES.txt
+wikihowapi_pk.egg-info/dependency_links.txt
+wikihowapi_pk.egg-info/requires.txt
+wikihowapi_pk.egg-info/top_level.txt
