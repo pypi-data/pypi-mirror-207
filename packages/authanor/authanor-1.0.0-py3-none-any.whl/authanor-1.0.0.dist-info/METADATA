@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: authanor
+Version: 1.0.0
+Summary: A Pythonic SQLALchemy interface to enforce authorization criteria.
+Project-URL: Download, https://pypi.org/project/authanor
+Project-URL: Homepage, https://github.com/mitchnegus/authanor
+Project-URL: Repository, https://github.com/mitchnegus/authanor
+Project-URL: Changelog, https://github.com/mitchnegus/authanor/blob/main/CHANGELOG.md
+Author-email: Mitch Negus <mitchnegus57@gmail.com>
+License: GNU GPLv3
+License-File: COPYING
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Flask
+Classifier: Framework :: Pytest
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Requires-Python: <3.11,>=3.9
+Requires-Dist: flask>=2.2.2
+Requires-Dist: sqlalchemy-views>=0.3.2
+Requires-Dist: sqlalchemy>=2.0.0
