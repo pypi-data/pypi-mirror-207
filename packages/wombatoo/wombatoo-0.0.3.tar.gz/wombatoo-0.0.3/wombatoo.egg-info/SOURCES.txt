@@ -1,0 +1,8 @@
+LICENSE.md
+README.md
+setup.py
+wombatoo.egg-info/PKG-INFO
+wombatoo.egg-info/SOURCES.txt
+wombatoo.egg-info/dependency_links.txt
+wombatoo.egg-info/requires.txt
+wombatoo.egg-info/top_level.txt
