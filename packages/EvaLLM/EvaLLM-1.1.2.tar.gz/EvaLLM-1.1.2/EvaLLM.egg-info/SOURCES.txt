@@ -1,0 +1,7 @@
+LICENSE.txt
+README.md
+setup.py
+EvaLLM.egg-info/PKG-INFO
+EvaLLM.egg-info/SOURCES.txt
+EvaLLM.egg-info/dependency_links.txt
+EvaLLM.egg-info/top_level.txt
