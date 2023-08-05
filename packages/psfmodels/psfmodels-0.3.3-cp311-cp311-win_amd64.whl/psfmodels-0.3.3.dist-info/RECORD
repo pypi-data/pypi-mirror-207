@@ -1,0 +1,16 @@
+_psfmodels.cp311-win_amd64.pyd,sha256=uCtS3gOaTWXV-W5ac7acmzqGYl7RN8C6tAb6sZaIZaw,169472
+_psfmodels-stubs/__init__.pyi,sha256=ztq7gaepog4XQOJbDlsQb4t27CG7VZWatxPPb3c49pQ,6474
+psfmodels/__init__.py,sha256=IQHnsfY2Ngi1lTiidefg0wQsE3HeFAlRXU0RyBVx_nY,764
+psfmodels/_core.py,sha256=k-5YG9l0JalSEWoyXTbzG3oh0Qb1fJ_MuVd0V-u32lo,23152
+psfmodels/_cuvec.py,sha256=DeolGs7ApP0PeKPwwNvND00iDvf-rs1tx8QopO2_-dM,8209
+psfmodels/_jax_bessel.py,sha256=AQ9eMS29tRiXsSqxs-3-x1PstUlP8c1gcd44TpqoCFg,5391
+psfmodels/_napari.py,sha256=TQLY7rqGA1AGtCl7CGqUUYXv2z26olxbRncQQAPsfVA,3155
+psfmodels/_version.py,sha256=Zj9Kph76ZwmX3OyCyzaWao9QiLa1fg4tnlGmEcykuKE,164
+psfmodels/napari.yaml,sha256=sPJmJYbqpghOXN35n2IUphM3HIJ5U4WAOLrBnq4e4Yk,279
+psfmodels/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+psfmodels-0.3.3.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+psfmodels-0.3.3.dist-info/METADATA,sha256=EuPFCsy1yrElTVa8CYEM3xWs2Kfdp0Rw9zTibGgwhQo,8251
+psfmodels-0.3.3.dist-info/WHEEL,sha256=9wvhO-5NhjjD8YmmxAvXTPQXMDOZ50W5vklzeoqFtkM,102
+psfmodels-0.3.3.dist-info/entry_points.txt,sha256=ufVLaScozzsNcsdztJVQfwUH8y-xGJKR9EP3uicn5ns,52
+psfmodels-0.3.3.dist-info/top_level.txt,sha256=x97P8oOthjxd9S9z9-h9QnIOPyXgfzJBCr1Jr4ASwcE,38
+psfmodels-0.3.3.dist-info/RECORD,,
