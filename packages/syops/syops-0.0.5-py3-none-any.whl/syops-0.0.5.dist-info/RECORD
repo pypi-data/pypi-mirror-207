@@ -1,0 +1,11 @@
+syops/__init__.py,sha256=--jOGY5k-nw1kM-uOQ4X3KYG8SN3sdzdDLozqn0vM6k,53
+syops/engine.py,sha256=mPFnPUFoxzxgJpvzFZhkIwlQin-NjN6acR87yvdswCM,12156
+syops/flops_counter.py,sha256=H1GnzIRvD0U0yOwwM5ACjfGxC2lJp45Ww2n5IASqQ6k,2467
+syops/ops.py,sha256=f--HHyqgxGPsChQeJ7rrRP1ol3FdNt8mnfk1tY6B9Qw,11833
+syops/utils.py,sha256=IpenZoFxiqv_aEWd9mn8VeIak-Fg0ZRHmlCwn48kBpo,1677
+syops-0.0.5.dist-info/LICENSE,sha256=x5HQMq81EjgjxuFjrgxFPHIwT6IlSDlh2GmXkAEjfmQ,1075
+syops-0.0.5.dist-info/METADATA,sha256=VCu9_ai_57eemAcX4hzZ9Yspps_u8ynKUtZG5rzRjEw,5402
+syops-0.0.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+syops-0.0.5.dist-info/top_level.txt,sha256=CniNgAVm3ZykN-yNOuPiclKuO7Lj6kiTMtvUBwITRl8,6
+syops-0.0.5.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+syops-0.0.5.dist-info/RECORD,,
