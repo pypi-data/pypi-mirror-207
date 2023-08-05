@@ -1,0 +1,21 @@
+[default]
+loglevel = "INFO"
+
+#📝tokenlist
+token_mainnet_list = "https://raw.githubusercontent.com/mraniki/tokenlist/main/all.json"
+token_testnet_list = "https://raw.githubusercontent.com/mraniki/tokenlist/main/testnet.json"
+token_personal_list = "https://raw.githubusercontent.com/mraniki/tokenlist/main/TT.json"
+
+#📝trading token setup
+trading_quote_ccy = "USDT"
+trading_risk_amount = 10
+
+#📝apollo API
+apollo_spot_api_key = ""
+apollo_spot_api_secret = ""
+
+apollo_future_api_key = ""
+apollo_future_api_secret = ""
+
+[testing]
+loglevel = "DEBUG"
