@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: substack-api
+Version: 0.0.1
+Summary: The unofficial Substack API wrapper for Python.
+Project-URL: Homepage, https://github.com/NHagar/substack_api
+Author-email: Nick Hagar <nicholasrhagar@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 Nick Hagar
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Substack-api
+
+**An unofficial Python wrapper around Substack's API.**
+
+I developed this package as a lightweight tool to help researchers collect data about Substack newsletters, and to help writers archive their work off-platform. This is not a tool designed for bulk text extraction/web scraping. It supports the following functionality:
+
+* Download full JSON metadata about newsletters by category
+* Download full JSON metadata about posts by newsletter
+* Download text of individual, publicly-available posts
+* List newsletter categories
+
+## Installation
+
+`pip install substack-api`
+
+## Usage
+
+```import substack_api```
+
+List all categories on Substack:
+
+```
+substack_api.list_all_categories()
+```
+
+Get metadata for the first 2 pages of Technology newsletters:
+
+```
+substack_api.get_newsletters_in_category(4, start_page=0, end_page=2)
+```
+
+Get post metadata for the most recent 30 posts from a newsletter:
+
+```
+substack_api.get_newsletter_post_metadata("platformer", start_offset=0, end_offset=30)
+```
+
+Get post contents (HTML only) from one newsletter post:
+
+```
+substack_api.get_post_contents("platformer", "how-a-single-engineer-brought-down", html_only=True)
+```
