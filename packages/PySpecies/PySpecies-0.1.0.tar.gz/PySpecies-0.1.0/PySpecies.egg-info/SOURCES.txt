@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+PySpecies.egg-info/PKG-INFO
+PySpecies.egg-info/SOURCES.txt
+PySpecies.egg-info/dependency_links.txt
+PySpecies.egg-info/top_level.txt
