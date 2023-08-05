@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" 
+    xmlns:fe="/testlocal/namespace" elementFormDefault="qualified">
+    <xs:include schemaLocation="https://ekuatia.set.gov.py/sifen/xsd/Evento_v150.xsd"/>
+
+	<xs:element name="rGesEve" type="trGesEveEmi"/>
+	
+</xs:schema>
