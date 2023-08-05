@@ -1,0 +1,16 @@
+ogc/na/__init__.py,sha256=uzcNiJ3uKFNJ1HBfKxIwgAy2HMUFsLAe5RkrUg8ncac,464
+ogc/na/annotate_schema.py,sha256=qwbpiZgEoV9P0-kzgAR79_OiCKkJdlVZUCdFJ0JYZq4,21506
+ogc/na/domain_config.py,sha256=bnSyv2XF0x_v1VHF5N4jQkb7j_G2obdkzcSvWSv42Uw,12443
+ogc/na/download.py,sha256=2afrLyl4WsAlxkCgXsl47fs9mNKfDmhVpeT2iwNSoq0,3354
+ogc/na/ingest_json.py,sha256=SuWmmWXYOMg9icbm3dUk_geq8emy53yIFylu-kRdiqk,31309
+ogc/na/profile.py,sha256=AkcWA52uueufK8XTyHTpVjFSp1bFKAZK7Gg3MmdGWdU,14461
+ogc/na/provenance.py,sha256=zm3RwfnjISQfTekYXu1-GlgezGcUJSbmptTkLcitcfs,5446
+ogc/na/update_vocabs.py,sha256=FdHwqpihZpDZiJJfRFywXLZCqZCsgGKmDgxwGGUlbus,17174
+ogc/na/util.py,sha256=88UIxEFeRa92lNmEZHC3Of1qZrkXOzvUrSiSMsPSyic,7331
+ogc/na/validation.py,sha256=FkXx1Pwot4ztg9Vv2LrODfYxpknG9-67BmY3Ep7avd4,3535
+ogc/na/input_filters/__init__.py,sha256=8i7Q9INCDYz5xAWzR6R4t4nWw2XAdrITT_LNML1hmR4,849
+ogc/na/input_filters/csv.py,sha256=teUu0KSB2PLGPGGUvpxy4yug22g3vgpSI77rR5HRa-o,2365
+ogc_na-0.1.5.dist-info/METADATA,sha256=zGtNrTJmTiS933a-lI0CXXREbPBSd0pM47o3hJc3shE,3527
+ogc_na-0.1.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+ogc_na-0.1.5.dist-info/top_level.txt,sha256=Kvy3KhzcIhNPT4_nZuJCmS946ptRr_MDyU4IIhZJhCY,4
+ogc_na-0.1.5.dist-info/RECORD,,
