@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: kray-zeroconf
+Version: 0.1.2
+Summary: TZeroconf auto networking configuration tool for Kray Works DevOps
+Home-page: https://gitlab-ua.kray.technology/lanceoflife/kray-zeroconf
+Author: Dmytro Surdu
+Author-email: Dmytro Surdu <dmytro.surdu@kray.technology>
+Project-URL: Homepage, https://gitlab-ua.kray.technology/lanceoflife/kray-zeroconf
+Project-URL: Bug Tracker, https://gitlab-ua.kray.technology/lanceoflife/kray-zeroconf/-/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools (>=61.0)
+Requires-Dist: zeroconf (==0.24.4)
+Requires-Dist: pyyaml
+Requires-Dist: netifaces
+Requires-Dist: psutil
+
+# Kray Zeroconf Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
