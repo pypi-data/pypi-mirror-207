@@ -1,0 +1,62 @@
+---
+ name: "SBQ-R Screener - Revised"
+ questions:
+   - order: 1
+     question: "Have you ever thought about or attempted to kill yourself?"
+     options:
+       - name: 'Never'
+         value: 1
+       - name: 'It was just a brief passing thought'
+         value: 2
+       - name: 'I have had a plan at least once to kill myself but did not try to do it'
+         value: 3
+       - name: 'I have had a plan at least once to kill myself and really wanted to die'
+         value: 3
+       - name: 'I have attempted to kill myself, but did not want to die'
+         value: 4
+       - name: 'I have attempted to kill myself, and really hoped to die'
+         value: 4
+   - order: 2
+     question: "How often have you thought about killing yourself in the past year?"
+     options:
+       - name: 'Never'
+         value: 1
+       - name: 'Rarely (1 time)'
+         value: 2
+       - name: 'Sometimes (2 times)'
+         value: 3
+       - name: 'Often (3-4 times)'
+         value: 4
+       - name: 'Very Often (5 or more times)'
+         value: 5
+   - order: 3
+     question: "Have you ever told someone that you were going to commit suicide, or that you might do it?"
+     options:
+       - name: 'No'
+         value: 1
+       - name: 'Yes, at one time, but did not really want to die'
+         value: 2
+       - name: 'Yes, at one time, and really wanted to do it'
+         value: 2
+       - name: 'Yes, more than once, but did not want to do it'
+         value: 3
+       - name: 'Yes, more than once, and really wanted to do it'
+         value: 3
+   - order: 4
+     question: "How likely is it that you will attempt suicide someday?"
+     options:
+       - name: 'Never'
+         value: 0
+       - name: 'No chance at all'
+         value: 1
+       - name: 'Rather Unlikely'
+         value: 2
+       - name: 'Unlikely'
+         value: 3
+       - name: 'Likely'
+         value: 4
+       - name: 'Rather Likely'
+         value: 5
+       - name: 'Very Likely'
+         value: 6
+
