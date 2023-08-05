@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: first-pypi-proj
+Version: 1
+Home-page: https://github.com/shreyaslabh/first_pypi_proj
+Author: Shreyas Labh
+Author-email: shreyas.labh@gmail.com
+License: MIT
+Keywords: example project
