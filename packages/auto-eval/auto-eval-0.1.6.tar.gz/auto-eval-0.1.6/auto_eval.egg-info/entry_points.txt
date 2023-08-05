@@ -1,0 +1,2 @@
+[console_scripts]
+auto-eval = commands.auto_eval:main
