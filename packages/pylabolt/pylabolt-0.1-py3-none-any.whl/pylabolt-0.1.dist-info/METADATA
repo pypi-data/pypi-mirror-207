@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pylabolt
+Version: 0.1
+Summary: A single phase 2D lattice Boltzmann solver
+Home-page: https://github.com/Malyadeep/LBpy
+Author: Malyadeep Bhattacharya, Mithun M Nair
+Author-email: malyadeep1999@gmail.com
+License: GNU GENERAL PUBLIC LICENSE 3.0
+Keywords: lattice Boltzmann
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.23.5)
+Requires-Dist: numba (>=0.56.4)
+Requires-Dist: mpi4py (>=3.1.4)
+Provides-Extra: dev
+Requires-Dist: flake8 (==6.0.0) ; extra == 'dev'
+Provides-Extra: install_requires
+Requires-Dist: vtk (>=9.2.6) ; extra == 'install_requires'
+
+------
+LBpy
+------
+
+A single phase 2D lattice Boltzmann solver for fluid flow.

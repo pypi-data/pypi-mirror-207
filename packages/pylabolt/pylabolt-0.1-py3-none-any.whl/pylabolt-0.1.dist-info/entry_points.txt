@@ -1,0 +1,2 @@
+[console_scripts]
+LBpy = LBpy.LBpy:main
