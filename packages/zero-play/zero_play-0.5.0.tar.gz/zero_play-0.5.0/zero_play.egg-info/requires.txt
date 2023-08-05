@@ -1,0 +1,13 @@
+numpy
+matplotlib
+PySide6
+markdown
+space-tracer
+sqlalchemy
+alembic
+
+[ml]
+tensorflow
+
+[ml-gpu]
+tensorflow-gpu
