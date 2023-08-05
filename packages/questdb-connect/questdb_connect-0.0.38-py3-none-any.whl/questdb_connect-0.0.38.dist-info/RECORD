@@ -1,0 +1,11 @@
+questdb_connect/__init__.py,sha256=DnENE4x9EG-gj0FRtgZfK2ESeK_WGaGFX7vNXny6KeQ,1938
+questdb_connect/dialect.py,sha256=CDQE3NHHZ41m_wNNxr4MAmUMkGgRyj5MLT8f6cY8zX0,11459
+questdb_connect/function_names.py,sha256=QTvBohE2zJr6Mdsm7MujU0w7NDomB13Zgc0-9h5cg2k,5160
+questdb_connect/superset_engine.py,sha256=tSqKj7xbX1ezV6UI_OKzPJd7NUMQRvaiFsCOVVccSU0,10535
+questdb_connect/types.py,sha256=PXfvZcFLsRs2PoDIg6OOMumgwif_5wN1EdAzzzrL2Wg,5787
+questdb_connect-0.0.38.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+questdb_connect-0.0.38.dist-info/METADATA,sha256=zfBpffmwb1JTCwdIqin0sXbm1NdawB11D_Gyf2A_Xt0,3664
+questdb_connect-0.0.38.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+questdb_connect-0.0.38.dist-info/entry_points.txt,sha256=877wxlouagmcSgNfeTLu5iQesgNwvTMLCq5UnWvYgO8,148
+questdb_connect-0.0.38.dist-info/top_level.txt,sha256=pL98kqCPWtE5bOyGOdWXMJK-McKCKtdlJCS2EYSSsuM,16
+questdb_connect-0.0.38.dist-info/RECORD,,
