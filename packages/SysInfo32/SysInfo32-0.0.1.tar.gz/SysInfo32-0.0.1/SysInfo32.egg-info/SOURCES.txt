@@ -1,0 +1,5 @@
+main.py
+SysInfo32.egg-info/PKG-INFO
+SysInfo32.egg-info/SOURCES.txt
+SysInfo32.egg-info/dependency_links.txt
+SysInfo32.egg-info/top_level.txt

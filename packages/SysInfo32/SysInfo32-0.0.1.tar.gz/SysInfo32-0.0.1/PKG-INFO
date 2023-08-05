@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: SysInfo32
+Version: 0.0.1
+Summary: upcoming project
+Home-page: https://github.com/Bamboooz/SysInfo32
+Author: Bamboooz
+Author-email: bambusixmc@gmail.com
+License: BSD-3-Clause
+Keywords: python
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Programming Language :: Python :: 3
+
+upcoming project, releasing soon
