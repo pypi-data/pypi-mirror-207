@@ -1,0 +1,10 @@
+plugnplai/__init__.py,sha256=45K90g29UH370MTxorbWJfJ0lVgNA8t-hXyBIrMCM5c,536
+plugnplai/call_api.py,sha256=Ids7H2bi5FM6OIeK6IeJsoUV_1qAOhRZ5AfhtU8Y5VQ,4889
+plugnplai/embeddings.py,sha256=Lk4zDIqBHPt7rnYTnl9qibARzULZQkqGQAhjzCAzu_A,2533
+plugnplai/load.py,sha256=sVBRux-hDKN5QUhhdOhh9dF8s8Je4dgXDmsieelL_uk,5590
+plugnplai/plugin.py,sha256=e2CfXefONaAUgZ2VKWYQ4Ld9r5A8wKDQcD1bJEqVDak,5753
+plugnplai/prompt.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plugnplai-0.0.6.dist-info/LICENSE,sha256=MFifHekHz-Ff1zVnLrfG5xTg70ULTeJ61FjZheyF_K4,1069
+plugnplai-0.0.6.dist-info/METADATA,sha256=QS1aRnSy9F0M3jvWedRLZcQwOtasmfcOCyCv4b2duQQ,2690
+plugnplai-0.0.6.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+plugnplai-0.0.6.dist-info/RECORD,,
