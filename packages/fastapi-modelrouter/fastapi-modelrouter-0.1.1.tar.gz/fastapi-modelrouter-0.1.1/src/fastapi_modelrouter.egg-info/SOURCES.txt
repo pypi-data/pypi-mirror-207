@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/fastapi_modelrouter.egg-info/PKG-INFO
+src/fastapi_modelrouter.egg-info/SOURCES.txt
+src/fastapi_modelrouter.egg-info/dependency_links.txt
+src/fastapi_modelrouter.egg-info/requires.txt
+src/fastapi_modelrouter.egg-info/top_level.txt
+src/modelrouter/__init__.py
+src/modelrouter/model_to_pydantic.py
+src/modelrouter/modelrouter.py
