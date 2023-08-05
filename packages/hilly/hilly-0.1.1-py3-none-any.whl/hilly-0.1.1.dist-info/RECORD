@@ -1,0 +1,8 @@
+hilly/__init__.py,sha256=Hvm1q7Gnh65HafYtbDKplisroJy3cyNrVTyRfTZt0nM,491
+hilly/constants.py,sha256=etniSjFgm-WCllRHaa0MOY0zIcVwttZ1NP83YhYffEc,126
+hilly/io.py,sha256=mPAWZ56ZCG6uO83Bn7eQEtuTcN8lffKfJ4pw3ZszVmk,3015
+hilly/ski.py,sha256=a_TTcHoVhbLAYfNL9YbLp9wUyxibxCijf-d9l9uJt3I,4202
+hilly/utils.py,sha256=v4lVHgcOICiUOvlr5OB9RAL4raeIHTtHLuyjAGIYMeI,5360
+hilly-0.1.1.dist-info/METADATA,sha256=eZreoxKM9XWjasRvHoft0EF6kRFkTndkGAv_AZOpt64,2792
+hilly-0.1.1.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+hilly-0.1.1.dist-info/RECORD,,
