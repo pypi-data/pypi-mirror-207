@@ -1,0 +1,2 @@
+[pylsp]
+test_first_jl_extension = test_first_jl_extension.plugin
