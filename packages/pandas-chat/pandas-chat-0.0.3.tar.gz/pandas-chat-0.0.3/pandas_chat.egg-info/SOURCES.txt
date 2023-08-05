@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+TODO.md
+setup.py
+pandas_chat/__init__.py
+pandas_chat/action.py
+pandas_chat/factory.py
+pandas_chat/utils.py
+pandas_chat.egg-info/PKG-INFO
+pandas_chat.egg-info/SOURCES.txt
+pandas_chat.egg-info/dependency_links.txt
+pandas_chat.egg-info/requires.txt
+pandas_chat.egg-info/top_level.txt
+tests/__init__.py
