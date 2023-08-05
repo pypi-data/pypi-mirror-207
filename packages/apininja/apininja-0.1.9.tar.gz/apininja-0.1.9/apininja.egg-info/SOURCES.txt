@@ -1,0 +1,9 @@
+MANIFEST.in
+apininja.py
+readme.md
+setup.py
+apininja.egg-info/PKG-INFO
+apininja.egg-info/SOURCES.txt
+apininja.egg-info/dependency_links.txt
+apininja.egg-info/entry_points.txt
+apininja.egg-info/top_level.txt
