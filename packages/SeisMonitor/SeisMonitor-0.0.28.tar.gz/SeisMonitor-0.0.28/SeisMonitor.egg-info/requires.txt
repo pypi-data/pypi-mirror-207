@@ -1,0 +1,5 @@
+obspy==1.4
+tensorflow
+keras
+pyproj
+GitPython
