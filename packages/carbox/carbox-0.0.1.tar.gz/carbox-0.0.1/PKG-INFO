@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: carbox
+Version: 0.0.1
+Summary: 
+Home-page: https://github.com/jbn/carbox
+License: MIT
+Author: generativist
+Author-email: jbn@abreka.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: optimized
+Requires-Dist: cbor2 (>=5.4.6,<6.0.0)
+Requires-Dist: dag-cbor (>=0.3.2,<0.4.0)
+Requires-Dist: multiformats (>=0.2.1,<0.3.0)
+Project-URL: Documentation, https://github.com/jbn/carbox
+Project-URL: Repository, https://github.com/jbn/carbox
+Description-Content-Type: text/markdown
+
+![Tests](https://github.com/jbn/car/actions/workflows/test.yaml/badge.svg)
+
+![A Box](./logo.png "A helmet for the psychonaut")
+
+# What is this?
+
+A primative [Content Addressable aRchive](https://ipld.io/specs/transport/car/)
+reader. Enough to get you reading from the [ATP](https://atproto.com/) firehose.
+
+## Installation
+
+```bash
+pip install car
+```
+
+## Basic Usage
+
+```python
+import car
+
+
+# Where websocket_msg is a message comes from the firehose.
+header, event = car.read_event_pair(websocket_msg)
+roots, blocks = car.read_car(event['blocks']
+```
+
+
