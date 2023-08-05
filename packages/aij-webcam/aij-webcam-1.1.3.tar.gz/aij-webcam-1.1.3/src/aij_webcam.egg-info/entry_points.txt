@@ -1,0 +1,3 @@
+[console_scripts]
+aijnews = news:main
+aijrun = webcam:main
