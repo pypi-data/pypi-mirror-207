@@ -1,0 +1,2 @@
+[console_scripts]
+PCRinSilico = PCRinSilico.PCRinSilico:main
