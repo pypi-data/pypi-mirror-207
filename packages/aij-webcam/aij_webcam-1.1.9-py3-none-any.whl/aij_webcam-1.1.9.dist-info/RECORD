@@ -1,0 +1,14 @@
+intro/__init__.py,sha256=70DM1bneSJGpGIjQCqEQxn6SdsGgrXMB8hhJJRaxonU,440
+intro/intro.py,sha256=-mOz14umNrgEF-4XM0ghSBooRqsPRm2jr9rVD1UDQsk,4524
+news/__init__.py,sha256=UItHTlm4sdSQ04u61SZ203hQXTCoEiQZ5toJUyNFklE,567
+news/core.py,sha256=muGBYvYCg8kOrQWjJ8VPGgBiXffgNCGjCiKStD6nlMA,4492
+news/thread.py,sha256=DqGXDUpgs3jfhsyBurtXIWR7YYUjRPdxr6GuGII-8tg,1407
+setup/__init__.py,sha256=0Um7SAE6gDHPP4RLfMz8FwwiZSEuwvZ1TOT1Mrk1BNk,660
+setup/install.py,sha256=5jCh7unoLluu46HEWzsG29M2tcq6qc2KsyCF-Ao5KtU,1129
+webcam/__init__.py,sha256=-MQqBJ0MnbTXjNWvmAD5lr00KP1ZWTfuhRrIdkbdlZ4,17500
+aij_webcam-1.1.9.dist-info/LICENSE.txt,sha256=VXbwArPC9XE7N7cvSBClNMHFbo7CU1p361QXV5bkGpk,1100
+aij_webcam-1.1.9.dist-info/METADATA,sha256=jpnsCQgUkfi-wWI6yKbPhkaIaSJWKqgFcY6fF2ZEf84,4753
+aij_webcam-1.1.9.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+aij_webcam-1.1.9.dist-info/entry_points.txt,sha256=go_Z9zZ7BrkX10bBEduz38xoxv8sLohWnBPbvxIUh-4,103
+aij_webcam-1.1.9.dist-info/top_level.txt,sha256=GRW89ju9YfkrGCFb4MfwN3_OdzW3rFgSY3KxqNPz1cI,24
+aij_webcam-1.1.9.dist-info/RECORD,,
