@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: MNIST-dir
+Version: 0.2.0
+Summary: MNIST dataset.
+Home-page: https://github.com/JunzePeng/MNIST
+Author: JunzePeng
+Author-email: gxp@bupt.edu.cn
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0.0
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+
+# introduction
+This package includes [MNIST](http://yann.lecun.com/exdb/mnist/) dataset.
+# variables
+## ```train_image```
+directory of MNIST.train-images.idx3-ubyte
+## ```train_label```
+directory of MNIST.train-labels.idx1-ubyte
+## ```test_image```
+directory of MNIST.t10k-images.idx3-ubyte
+## ```test_label```
+directory of MNIST.t10k-labels.idx1-ubyte
