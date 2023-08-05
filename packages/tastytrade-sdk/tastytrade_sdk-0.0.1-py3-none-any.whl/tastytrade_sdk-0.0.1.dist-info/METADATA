@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: tastytrade-sdk
+Version: 0.0.1
+Summary: A python wrapper around the tastytrade open API
+Author-email: Aaron Mamparo <aaron.mamparo@gmail.com>
+Project-URL: Homepage, https://github.com/amamparo/tastytrade-sdk
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
