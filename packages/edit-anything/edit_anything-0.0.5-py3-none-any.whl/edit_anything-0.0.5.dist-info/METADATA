@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: edit-anything
+Version: 0.0.5
+Summary: EditAnything
+Home-page: https://github.com/xxx/xxxx
+Author: edit-anything
+Author-email: edit-anything@openmmlab.com
+License: Apache License 2.0
+Keywords: EditAnything
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi (==0.95.1)
+Requires-Dist: uvicorn[standard] (==0.22.0)
+Requires-Dist: pydantic (==1.10.7)
+Requires-Dist: starlette (==0.26.1)
+Requires-Dist: diffusers
+Requires-Dist: transformers
+Requires-Dist: accelerate
+Requires-Dist: scipy
+Requires-Dist: safetensors
+
+# Install EditAnything In Local
+
+## run by shell script
+```shell
+bash run.sh
+```
+
+
+## run by cli command
+
+### client install
+```
+pip install editanything -U
+```
+### start service by cli command
+``` 
+editanything --host {host} --port {port} --device {cup|cuda}
+
+--host：define web model visit host, default 0.0.0.0
+--port: define web model visit port, default 9911
+--device: used to specify the type of device for running models，support cup and cuda. default cpu.
+
+example：
+editanything --host 192.168.6.1 --port 9999 --device cpu
+```
+### local visit address
+
+```
+http://{host:port}
+```
+
+
