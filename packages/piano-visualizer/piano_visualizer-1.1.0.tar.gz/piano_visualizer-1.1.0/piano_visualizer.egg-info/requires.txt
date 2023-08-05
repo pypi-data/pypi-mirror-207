@@ -1,0 +1,9 @@
+ffmpeg-python
+midi2audio
+mido
+notify-py
+opencv-python
+pydub
+pygame
+random-utils
+tqdm
