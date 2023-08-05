@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "promptman"
+version = "0.1.0"
+description = "Package for prompting AI models"
+authors = ["Amar <amar439412@gmail.com>"]
+readme = "README.md"
+packages = [{include = "promptman"}]
+license = "MIT"
+homepage = "https://github.com/Amar-89"
+repository = "https://github.com/Amar-89/prompt-man"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: promptman
+Version: 0.1.0
+Summary: Package for prompting AI models
+Home-page: https://github.com/Amar-89
+License: MIT
+Author: Amar
+Author-email: amar439412@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Repository, https://github.com/Amar-89/prompt-man
+Description-Content-Type: text/markdown
+
+# Prompt Man
+
+> Package for prompting AI models.
+
+***Prompt Man*** introduces the concept of "prompt functions", which is an alternative method for manual prompt engineering.
+
+* Useful in making API calls to AI models.
+* Makes prompt engineering more templetized.
+* Useful for AI devs who don't want to bother too much about prompt engineering.
+
+**Current version includes prompt functions that have been tested on the following AI models:**
+
+- Language models :
+
+  - ChatGPT (both 3.5 and 4)
+  - StableLM 7B
+- Image models :
+
+  - Stable Diffusion
+  - Dall-E 2
+
+The github repo contains an `api` folder which includes scripts for api calls that can be used by just plugging in your API key.
+
