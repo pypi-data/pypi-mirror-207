@@ -1,0 +1,6 @@
+tsmetric/__init__.py,sha256=Z0reHQhIC2C29XvWAOKEk5xPgNf6wHSogLHMYSqV9uI,61
+tsmetric/length.py,sha256=29GrKoybgi6gKoG4_UJrTKR7lpmXBe8FWfQtr4U5GKc,59
+tsmetric/temp.py,sha256=O6tcdppVE7oHrIThoMqSUEBEsLjIWkpO5US1XlNX6Nw,59
+tsmetric-0.1.0.dist-info/METADATA,sha256=M044LwRwE3otBkLgBwQS1auep39ccORdQwmSLdWJZEE,341
+tsmetric-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+tsmetric-0.1.0.dist-info/RECORD,,
