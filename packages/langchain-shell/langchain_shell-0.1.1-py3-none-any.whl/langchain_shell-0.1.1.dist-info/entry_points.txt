@@ -1,0 +1,3 @@
+[console_scripts]
+langchain-shell=langchain_shell.main:__main__
+
