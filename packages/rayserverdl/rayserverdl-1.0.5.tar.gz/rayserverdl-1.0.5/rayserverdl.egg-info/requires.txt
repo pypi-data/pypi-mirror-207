@@ -1,0 +1,6 @@
+mysql-connector
+pyshortext
+aiohttp
+asyncio
+bs4
+colorama
