@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+sparse_filter_convolution/__init__.py
+sparse_filter_convolution/sparse_filter_convolution.py
+sparse_filter_convolution/sparse_unfold.py
+sparse_filter_convolution/sparse_unfold_cuda_ext.cpp
+sparse_filter_convolution.egg-info/PKG-INFO
+sparse_filter_convolution.egg-info/SOURCES.txt
+sparse_filter_convolution.egg-info/dependency_links.txt
+sparse_filter_convolution.egg-info/requires.txt
+sparse_filter_convolution.egg-info/top_level.txt

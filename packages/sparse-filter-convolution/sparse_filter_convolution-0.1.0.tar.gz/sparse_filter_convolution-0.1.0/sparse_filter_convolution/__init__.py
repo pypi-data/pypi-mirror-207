@@ -1,0 +1,2 @@
+from .sparse_filter_convolution import sparse_filter_convolution
+from .sparse_unfold_cuda import sparse_unfold
