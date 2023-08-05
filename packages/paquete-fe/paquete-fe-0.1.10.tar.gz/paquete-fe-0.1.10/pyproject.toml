@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "paquete-fe"
+version = "0.1.10"
+description = "Descripción de mi paquete"
+authors = ["Tu Nombre <tu@email.com>"]
+license = "MIT"
+packages = [
+            {include = "paquetefe"},
+        ]
+        
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.28.2"
+lxml = "^4.9.2"
+SQLAlchemy = "^2.0.6"
+pyOpenSSL = "^23.1.1"
+zeep = "^4.2.1"
+pytz = "^2022.7.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
