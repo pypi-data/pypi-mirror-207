@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ecg_quality
+Version: 0.1.2
+Summary: Library that classifies quality of ECG signal using deep learning methods
+Home-page: https://github.com/koledjoz/ecg_quality
+Download-URL: https://github.com/koledjoz/ecg_quality/releases/tag/v0.1.2
+Author: Jozef Koleda
+Author-email: koledjoz@cvut.cz
+License: gpl-3.0
+Keywords: ECG,quality,classification,deep learning
+License-File: LICENSE
