@@ -1,0 +1,2 @@
+[console_scripts]
+framelink = framelink._cli:_app
