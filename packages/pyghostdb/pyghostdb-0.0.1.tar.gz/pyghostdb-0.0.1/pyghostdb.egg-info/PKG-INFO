@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: pyghostdb
+Version: 0.0.1
+Summary: GhostDB is a fast, lightweight embedding similarity search database.
+Author-email: Fedor Shabashev <fedor.shabashev@gmail.com>
