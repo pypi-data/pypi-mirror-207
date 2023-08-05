@@ -1,0 +1,11 @@
+news/__init__.py,sha256=UItHTlm4sdSQ04u61SZ203hQXTCoEiQZ5toJUyNFklE,567
+news/core.py,sha256=Q3AP7CD_lAldI_xWLsIJHA7rFSEch7qV8IIwvog36Bc,4490
+news/publisher.py,sha256=uhnzzv9sgDODv_hFoJAxx-IAGh8jXtpjEADVyiLmRaw,3663
+news/subscriber.py,sha256=F7HcHMG6741P2z1l0ks3bzr6b9NZNoeXX7kW-WsO5Xc,1196
+webcam/__init__.py,sha256=0Xc5epREtlzrGDi66GJqTkCnyuFx20PYh8je7yRQZFs,17500
+aij_webcam-1.1.3.dist-info/LICENSE.txt,sha256=VXbwArPC9XE7N7cvSBClNMHFbo7CU1p361QXV5bkGpk,1100
+aij_webcam-1.1.3.dist-info/METADATA,sha256=YoBpFUL3XUjNk-jkAx0SatgjYR235hfhMTosZUCAx8o,4753
+aij_webcam-1.1.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+aij_webcam-1.1.3.dist-info/entry_points.txt,sha256=nMD4-3-2pv77eU1nx063HQNBvqTXyjXEPtDf-2IFivU,59
+aij_webcam-1.1.3.dist-info/top_level.txt,sha256=sM6Xge-VN0uuVAmDcv-fWHukuKxp5ivJhl_nMmQyiV8,12
+aij_webcam-1.1.3.dist-info/RECORD,,
