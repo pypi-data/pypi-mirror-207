@@ -1,0 +1,8 @@
+[tool.poetry]
+name = "finance_ml_masarac"
+version = "0.1.0"
+description = "Finance ml by masarac."
+authors = ["Fabio <fabio.masaracchia@gmail.com>"]
+license = "MIT"
+[tool.poetry.dependencies]
+
