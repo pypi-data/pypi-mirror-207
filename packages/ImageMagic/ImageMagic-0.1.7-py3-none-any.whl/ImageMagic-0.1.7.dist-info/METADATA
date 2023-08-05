@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ImageMagic
+Version: 0.1.7
+Summary: 图像处理库（包括但不限于图像）【Image processing libraries (including but not limited to images)】
+Home-page: https://github.com/asxez/ImageMagic
+Author: asxe
+Author-email: 2973918177@qq.com
+License: GNU GPL 3.0
+License-File: LICENSE
+Requires-Dist: Pillow
+Requires-Dist: requests
+Requires-Dist: loguru
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+It is a neat image processing library, and you can even achieve what you want with just one line of code, such as text-to-image or image content recognition (OCR), and more!
