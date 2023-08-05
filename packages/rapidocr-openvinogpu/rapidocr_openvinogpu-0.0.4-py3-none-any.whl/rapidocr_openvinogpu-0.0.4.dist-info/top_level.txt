@@ -1,0 +1,4 @@
+ch_ppocr_v2_cls
+ch_ppocr_v3_det
+ch_ppocr_v3_rec
+models
