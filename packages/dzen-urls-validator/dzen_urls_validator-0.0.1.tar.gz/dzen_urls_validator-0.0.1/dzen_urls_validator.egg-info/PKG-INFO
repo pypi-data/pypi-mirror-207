@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: dzen-urls-validator
+Version: 0.0.1
+Summary: Validator for Dzen URLs.
+Home-page: https://github.com/Wiped-Out/dzen_urls_validator
+Download-URL: https://github.com/Wiped-Out/dzen_urls_validator/releases/latest
+Author: Emir Takhaviev
+Author-email: tah116emir@outlook.com
+Keywords: python,dzen urls,validation
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# dzen_urls_validator
+
+Library for validating [Dzen](https://dzen.ru) urls and brings them to one standart.
+
+# How method works?
+
+1. Add prefix "https://"
+2. Change all hostnames to "dzen.ru"
+
+
+# Examples
+
+```python
+from dzen_urls_validator import validate_url
+
+validated_url = validate_url(url='dzen.ru/id/5ce671035b6e3000b303d27a/')
+# >> https://dzen.ru/id/5ce671035b6e3000b303d27a
+
+validated_url = validate_url(url='zen.yandex.ru/id/5ce671035b6e3000b303d27a')
+# >> https://dzen.ru/id/5ce671035b6e3000b303d27a
+```
+
+
+# Installing
+
+```commandline
+pip3 install dzen_urls_validator
+```

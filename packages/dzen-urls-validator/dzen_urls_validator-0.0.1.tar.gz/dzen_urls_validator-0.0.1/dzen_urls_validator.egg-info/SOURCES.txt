@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+dzen_urls_validator/__init__.py
+dzen_urls_validator/validator.py
+dzen_urls_validator.egg-info/PKG-INFO
+dzen_urls_validator.egg-info/SOURCES.txt
+dzen_urls_validator.egg-info/dependency_links.txt
+dzen_urls_validator.egg-info/top_level.txt
+dzen_urls_validator/utils/__init__.py
+dzen_urls_validator/utils/exceptions.py
+dzen_urls_validator/utils/utils.py
