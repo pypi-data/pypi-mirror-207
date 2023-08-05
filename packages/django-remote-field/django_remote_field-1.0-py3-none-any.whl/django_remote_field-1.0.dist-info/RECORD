@@ -1,0 +1,13 @@
+cross_database_field/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cross_database_field/admin.py,sha256=p6xop1PuuDG2Uwv3G_aRfldxOfBzTRfMaoZmORVkqyU,66
+cross_database_field/apps.py,sha256=pXSNGDBI9cClcHkf5oYudExlSn0hHCAQtrnowBUoJa4,176
+cross_database_field/fields.py,sha256=syU9grecpFu4wTH_lQu5F4YdwV12DJtQkkiKa9bcr_k,11832
+cross_database_field/forms.py,sha256=n_jMmCZjehQ0sKGf8Og6utJnaXj-kG6xZnOkwN1AJ-4,901
+cross_database_field/models.py,sha256=u4tX6jTilHkhVHhFrcwvKk_VKShNi2Bt06MDtJxGNyg,59
+cross_database_field/tests.py,sha256=2uDafv3Ns6f7Vy1ekUtgYxCZEi1KRyesZDTAFhYcX-E,63
+cross_database_field/views.py,sha256=u0FhL7RT5byf5IlcnZEMrcH2TOnQkdfRQU2SjtA26m0,66
+cross_database_field/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_remote_field-1.0.dist-info/METADATA,sha256=HQavoZi_LoBVg_kNSCFqNEXSPCClLQAGZ4IcFSi1pI0,8910
+django_remote_field-1.0.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+django_remote_field-1.0.dist-info/licenses/LICENSE,sha256=rqWkY_hGKS-ep3_i1nU0MfZKowWLFW_Y7zkkGgv4JYY,1103
+django_remote_field-1.0.dist-info/RECORD,,
