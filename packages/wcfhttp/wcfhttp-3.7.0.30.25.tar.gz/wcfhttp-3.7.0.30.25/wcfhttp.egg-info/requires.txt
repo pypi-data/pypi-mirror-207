@@ -1,0 +1,4 @@
+setuptools
+wcferry==3.7.0.30.25
+fastapi
+uvicorn[standard]
