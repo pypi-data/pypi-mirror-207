@@ -1,0 +1,6 @@
+setup.py
+sqlman.egg-info/PKG-INFO
+sqlman.egg-info/SOURCES.txt
+sqlman.egg-info/dependency_links.txt
+sqlman.egg-info/requires.txt
+sqlman.egg-info/top_level.txt

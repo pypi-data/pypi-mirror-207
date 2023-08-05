@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: sqlman
+Version: 1.0.0
+Summary: A package produced with the help of Chat-GPT to connect python to sql server.
+Author: Ayoub Almontaser
+Author-email: 
