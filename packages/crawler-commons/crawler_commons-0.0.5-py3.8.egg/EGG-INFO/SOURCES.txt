@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+crawapi/__init__.py
+crawler_commons.egg-info/PKG-INFO
+crawler_commons.egg-info/SOURCES.txt
+crawler_commons.egg-info/dependency_links.txt
+crawler_commons.egg-info/top_level.txt
+crawlutils/__init__.py
+crawlutils/text_utils.py
