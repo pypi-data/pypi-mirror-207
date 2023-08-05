@@ -1,0 +1,39 @@
+---
+ name: "PHQ-9 Screener"
+ options: &options
+   - name: 'Not at all'
+     value: 0
+   - name: 'Several days'
+     value: 1
+   - name: 'More than half the days'
+     value: 2
+   - name: 'Nearly every day'
+     value: 3
+ questions:
+   - order: 1
+     question: "Little interest or pleasure in doing things?"
+     options: *options
+   - order: 2
+     question: "Feeling down, depressed, or hopeless?"
+     options: *options
+   - order: 3
+     question: "Trouble falling or staying asleep, or sleeping too much?"
+     options: *options
+   - order: 4
+     question: "Feeling tired or having little energy?"
+     options: *options
+   - order: 5
+     question: "Poor appetite or overeating?"
+     options: *options
+   - order: 6
+     question: "Feeling bad about yourself — or that you are a failure or have let yourself or your family down?"
+     options: *options
+   - order: 7
+     question: "Trouble concentrating on things, such as reading the newspaper or watching television?"
+     options: *options
+   - order: 8
+     question: "Moving or speaking so slowly that other people could have noticed? Or so fidgety or restless that you have been moving a lot more than usual?"
+     options: *options
+   - order: 9
+     question: "Thoughts that you would be better off dead, or thoughts of hurting yourself in some way?"
+     options: *options
