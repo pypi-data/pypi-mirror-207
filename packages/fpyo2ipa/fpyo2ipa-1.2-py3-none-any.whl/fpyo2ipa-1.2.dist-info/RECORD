@@ -1,0 +1,17 @@
+fpyo2ipa/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fpyo2ipa/build.py,sha256=cDEVcp9Ns4E_-_MrVdi0ssFSDSpaX8FyzfnwW9D7oyc,593
+fpyo2ipa/Tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fpyo2ipa/Tools/check_system.py,sha256=XzQDMWAuEKSFn4Ge7TRgPTI18vu-BWnWLAj2n1EPVzg,124
+fpyo2ipa/Tools/check_venv.py,sha256=Gz6Rn3RPUBr-YO6ZmIv85WrQ6RrRgZSgcjC2pO6H8Ic,137
+fpyo2ipa/Tools/unzip_assets.py,sha256=EZFcgb-pYKFZl_CIHIYKFWsENwjtRUrN17vhRf5xxyg,1240
+fpyo2ipa/assets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fpyo2ipa/assets/pyo2ipadist.zip,sha256=X8blz_yf96kWNp3lAidDqxV4TEAYp5yA0aVK-stC6Co,478515
+fpyo2ipa/beeware_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fpyo2ipa/beeware_tools/edit_beeware_project.py,sha256=sRVW4I61A4ESZlgP1SMOTESVwPkqy6OMRlYhmJ7aTpY,2427
+fpyo2ipa/beeware_tools/the_app_py.py,sha256=cQBoGjqFHbpnBeVAkCM0roz7jXbBw8kk1SC6NUcHrYE,1906
+fpyo2ipa/beeware_tools/the_localhost_py.py,sha256=MhSi0MC6YabCjaxUy-oSeVlvRT6COddBx4skpoUCe0c,977
+fpyo2ipa-1.2.dist-info/LICENSE,sha256=wSBZDZIl5_jGUdNAgvaCO_PvCzL768-Sl6saWxpTOLQ,1071
+fpyo2ipa-1.2.dist-info/METADATA,sha256=AyzW-M8avgdGuOoNhgUWoQnZSrv3BbDxjz41Qu-ABxs,388
+fpyo2ipa-1.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+fpyo2ipa-1.2.dist-info/top_level.txt,sha256=cabW36dNZHKyC0ZyxdqclSTsjF0XDsOW0-gbrKKG2Z0,9
+fpyo2ipa-1.2.dist-info/RECORD,,
