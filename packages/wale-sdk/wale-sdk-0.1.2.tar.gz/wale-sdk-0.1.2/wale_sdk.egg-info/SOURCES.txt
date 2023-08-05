@@ -1,0 +1,9 @@
+README.md
+setup.py
+wale/__init__.py
+wale/wale.py
+wale_sdk.egg-info/PKG-INFO
+wale_sdk.egg-info/SOURCES.txt
+wale_sdk.egg-info/dependency_links.txt
+wale_sdk.egg-info/requires.txt
+wale_sdk.egg-info/top_level.txt
