@@ -1,0 +1,5 @@
+websocket-client
+numpy
+requests
+bs4
+re
