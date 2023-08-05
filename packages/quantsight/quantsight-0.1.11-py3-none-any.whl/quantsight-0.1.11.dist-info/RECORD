@@ -1,0 +1,8 @@
+quantsight/__init__.py,sha256=aHyPPGIyUXNKA86zCu0boVehqsf-Cd0UVyLsMQ1fiIg,51
+quantsight/agent.py,sha256=YnC1VMSyqg3Xqi4VcieGSPHC_z8MUVnfTa8no0yMxkg,1650
+quantsight/client.py,sha256=9AOcIHLp3QzP9AI3f4itwi8_orlSOtVmE_oRjKTV5dw,4250
+quantsight-0.1.11.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+quantsight-0.1.11.dist-info/METADATA,sha256=ZcFsGYt8tf62z18kKKw1yfHDRtPOoOvMBLIN4ZLBXqE,3608
+quantsight-0.1.11.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+quantsight-0.1.11.dist-info/top_level.txt,sha256=45fbuSWP9NOVVFW3A9aLZK_nVo1KogGMmTbhzaj5eKM,11
+quantsight-0.1.11.dist-info/RECORD,,
