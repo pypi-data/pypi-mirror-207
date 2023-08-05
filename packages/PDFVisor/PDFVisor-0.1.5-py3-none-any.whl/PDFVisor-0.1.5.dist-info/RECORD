@@ -1,0 +1,17 @@
+PDFVisor/PDFViewr.py,sha256=N0QchDOi_r_nSrQSdZdpzHhCG9j9a40iyjGhMyMlvnw,9499
+PDFVisor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PDFVisor/funcsVisorPDF.py,sha256=V2oW-BNN6GBye9cgSRNSl5fKWmL3EjKgZdEQteazelE,4371
+PDFVisor/times.ttf,sha256=Q6iQeVrRM9c1aNFpo1kk9AQWvoppUKGgMmMFLsjpW4o,1206884
+PDFVisor/img/avanceDeshabilitado.png,sha256=p84tdhD1uMK-yU-PUQhE1Z1mMN3IpoMkCV2ePmRDe3w,5315
+PDFVisor/img/avanceHighlight.png,sha256=bR8127pJQD-7O5LVh-k4v1PxIkxfrqWQwlfWlGYfmCY,4991
+PDFVisor/img/avanceHighlightPressed.png,sha256=-3BLObNTcVnBJP2jk0Y-M6wRKCS1vDwCNXo36wxbplY,4385
+PDFVisor/img/avanceNormal.png,sha256=0AWyv416wI9OA2MZ_ZQeiK4pMbeZSSID-NaoNB5wRSM,5250
+PDFVisor/img/retroDeshabilitado.png,sha256=BhxFM42bKOwiUxyyEucjJWnR45XKiQwFaoLJGFdIbiw,5231
+PDFVisor/img/retroHighlight.png,sha256=6UP0hEdgmDEHadPr-2XA2jk6BI-7ZuHdL2hUsh1C3gI,4836
+PDFVisor/img/retroHighlightPressed.png,sha256=MM1yM_6UGluy5DatMGEQRXzIzKemFISRvAI8_CZznKs,4305
+PDFVisor/img/retroNormal.png,sha256=qicDSJ-SKDD1yzz7hXU1ODNCZTkPhoW8V2hA-MDrtCA,5947
+PDFVisor-0.1.5.dist-info/LICENSE.rst,sha256=FwGo-2mTz4Q_rEK7CuW_Ucl_MRPlcfg1V-UbiWQluYM,888
+PDFVisor-0.1.5.dist-info/METADATA,sha256=Y8wiIFPSwIZmahzQr-U_ujrXnny2WaZ5auEDGjuoZeo,1608
+PDFVisor-0.1.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+PDFVisor-0.1.5.dist-info/top_level.txt,sha256=7e6v45SE6CEPUR3JZTohAxZR7GE2lu8Yp55zqGmnvcQ,9
+PDFVisor-0.1.5.dist-info/RECORD,,
