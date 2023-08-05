@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: uoy_assessment_uploader
+Version: 0.1.0
+Summary: Tool for automating submitting assessments to the University of York Computer Science department.
+Author-email: jmcb <joelsgp@protonmail.com>
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Project-URL: Home, https://github.com/joelsgp/uoy-assessment-uploader
