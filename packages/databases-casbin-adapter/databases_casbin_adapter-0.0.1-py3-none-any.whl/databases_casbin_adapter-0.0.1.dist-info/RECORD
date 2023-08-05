@@ -1,0 +1,5 @@
+casbin_databases_adapter/__init__.py,sha256=_mvsypU3kKx-my6t2UhApvZtckruqK-Sz7JTeaAIE1o,38
+casbin_databases_adapter/adapter.py,sha256=JxorBZCWsHrVyL8y_RdlZvDBCrJRk_GRyha0cB93M9Q,3475
+databases_casbin_adapter-0.0.1.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+databases_casbin_adapter-0.0.1.dist-info/METADATA,sha256=Yw7XrXuNoGO8427Ppm57-cwef0ltY40HKR7PbPQOZRY,989
+databases_casbin_adapter-0.0.1.dist-info/RECORD,,
