@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/trashmailapi/__init__.py
+src/trashmailapi/vsimcard.py
+src/trashmailapi.egg-info/PKG-INFO
+src/trashmailapi.egg-info/SOURCES.txt
+src/trashmailapi.egg-info/dependency_links.txt
+src/trashmailapi.egg-info/requires.txt
+src/trashmailapi.egg-info/top_level.txt
