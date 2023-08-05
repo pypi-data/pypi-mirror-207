@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: sym-recognizer
+Version: 0.0.5
+Summary: Python Symbol recognition library
+Home-page: https://github.com/mixx3/SymRecognizer
+Author: Mixx3
+Author-email: mmiikkllee@yandex.ru
+License: BSD 2-Clause "Simplified"
+License-File: LICENSE.md
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: opencv-python
+
