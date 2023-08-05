@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: owlapi
+Version: 0.0.1
+Summary: An interface for routing/chaining API requests to various endpoints asynchronously and parsing/formatting the output.
+Author-email: song-dog <coyote@coyote-ltd.com>
+License: MIT License
+        
+        Copyright (c) 2023 song-dog
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/song-dog/owlapi
+Project-URL: Bug Tracker, https://github.com/song-dog/owlapi/issues
+Keywords: ai,gpt,api,scraping,convert,conversion,format,formatting
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# OwlAPI
+
+OwlAPI is an interface for routing/chaining outbound API requests to various endpoints asynchronously and parsing/formatting the output.
+
+## Currently Supported Endpoints:
+
+**API**
+- Atera *(in progress)*
+- ClickUp *(in progress)*
+- Google *(Search / SiteSearch)*
+
+**GPT**
+- OpenAI
+- Replicate
+
+**Scraping**
+- Frase
+- ModestMoney
+- TrustPilot
+
+## Currently Supported Format Conversions:
+
+- JSON
+- PDF *(in progress)*
+- HTML
+- Markdown
+- Plaintext
+- DocX *(in progress)*
+
+## References:
+- [Atera](https://app.atera.com/apidocs)
+- [ClickUp](https://clickup.com/api/clickupreference/)
+- [Google Search](https://developers.google.com/custom-search/v1/overview)
+
+- [OpenAI](https://platform.openai.com/docs/api-reference)
+- [Replicate](https://replicate.com/docs/reference/http)
+
+- [Frase](https://www.frase.io/)
+- [Modest Money](https://modestmoney.com)
+- [TrustPilot](https://trustpilot.com)
+
+- [ReportLab PDF](https://www.reportlab.com/docs/reportlab-userguide.pdf)
+- [python-docx](https://github.com/python-openxml/python-docx)
+- [markdown](https://github.com/Python-Markdown/markdown)
