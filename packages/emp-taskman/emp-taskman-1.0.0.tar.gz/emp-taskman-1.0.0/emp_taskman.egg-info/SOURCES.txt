@@ -1,0 +1,7 @@
+README.md
+setup.py
+emp_taskman.egg-info/PKG-INFO
+emp_taskman.egg-info/SOURCES.txt
+emp_taskman.egg-info/dependency_links.txt
+emp_taskman.egg-info/requires.txt
+emp_taskman.egg-info/top_level.txt
