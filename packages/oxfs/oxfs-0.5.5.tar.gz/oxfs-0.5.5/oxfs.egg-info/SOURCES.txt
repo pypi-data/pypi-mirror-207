@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+oxfs/__init__.py
+oxfs/lock.py
+oxfs/oxfs.py
+oxfs/updater.py
+oxfs.egg-info/PKG-INFO
+oxfs.egg-info/SOURCES.txt
+oxfs.egg-info/dependency_links.txt
+oxfs.egg-info/entry_points.txt
+oxfs.egg-info/requires.txt
+oxfs.egg-info/top_level.txt
+oxfs.egg-info/zip-safe
+oxfs/cache/__init__.py
+oxfs/cache/fs.py
+oxfs/cache/meta.py
