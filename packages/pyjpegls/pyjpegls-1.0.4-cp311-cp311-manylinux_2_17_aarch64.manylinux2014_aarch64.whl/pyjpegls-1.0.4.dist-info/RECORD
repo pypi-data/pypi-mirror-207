@@ -1,0 +1,13 @@
+_CharLS.cpython-311-aarch64-linux-gnu.so,sha256=B5J_ZEwERBLaEVs3c89VKHgmXDvtKWiTCHAo_z301uk,3700216
+pyjpegls-1.0.4.dist-info/METADATA,sha256=_LoTtbALwf4IjHD68OPHJDtiT4R2zD7izw1YAiYe32E,4438
+pyjpegls-1.0.4.dist-info/top_level.txt,sha256=NxvM8FRfKIgQ_TECQv55orJrShy_UQXV4Wi1XnpbGxQ,21
+pyjpegls-1.0.4.dist-info/RECORD,,
+pyjpegls-1.0.4.dist-info/WHEEL,sha256=Bu_ZgMyqfUEL6K8HKTcKpjq7RNrV9wcyW-FmVu9-j44,154
+jpeg_ls/_CharLS.pyx,sha256=Hy5eHfe_iuFWyw0EBINlczf6RjkIKBj7FbDooluUJ_Q,7836
+jpeg_ls/data_io.py,sha256=747IhfC5qQfphwNKMH-YWtGgy4MDLm0cGx8Ej4lGIy4,682
+jpeg_ls/example.py,sha256=4evcDDozgLZGrgA0S7npVphb_Udjrn67X3a80MGXKNs,917
+jpeg_ls/__init__.py,sha256=ZnQPFevFYTUqxbAHHq-sltqrptJjwDx_RD3LMBL3S2g,117
+jpeg_ls/CharLS.py,sha256=SVqvdHBBXMfrpyI_HR-LZGWjzO8il__yhjwj25Vox98,2004
+jpeg_ls/CharLS_src/header.cpp,sha256=ApAvwheREYtgG49cWbbt1eHUtWDw0iH6nA6Xn43H35E,14437
+jpeg_ls/CharLS_src/interface.cpp,sha256=E3pH4LAVw-xAC8aPSGcCWrT-raLx0zX4Kk5n3iekEag,6342
+jpeg_ls/CharLS_src/jpegls.cpp,sha256=OnL0wGn5Sy4R0gcAcpOLkNsM0ZGzc8H6DSPJLetCCjo,4728
