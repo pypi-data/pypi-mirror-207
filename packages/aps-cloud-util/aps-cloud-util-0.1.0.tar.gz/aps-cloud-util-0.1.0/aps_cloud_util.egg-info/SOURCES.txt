@@ -1,0 +1,9 @@
+README.md
+setup.py
+aps_cloud_util.egg-info/PKG-INFO
+aps_cloud_util.egg-info/SOURCES.txt
+aps_cloud_util.egg-info/dependency_links.txt
+aps_cloud_util.egg-info/top_level.txt
+fivetran/__init__.py
+fivetran/fivetran_request.py
+fivetran/fivetran_response.py
