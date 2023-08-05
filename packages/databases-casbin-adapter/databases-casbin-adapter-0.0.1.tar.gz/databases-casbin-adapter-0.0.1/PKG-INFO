@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: databases-casbin-adapter
+Version: 0.0.1
+Summary: An adapter for PyCasbin that implemented by Databases library which support async process
+License: MIT
+Author: isasetiawan
+Author-email: 10252610+isasetiawan@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: SQLAlchemy (==1.4.46)
+Requires-Dist: asynccasbin (==1.1.8)
+Requires-Dist: databases (==0.7.0)
+Description-Content-Type: text/markdown
+
+# Databases Casbin Adapter
+
+This is an Adapter for [PyCasbin](https://github.com/casbin/pycasbin) that implemented using [Databases](https://www.encode.io/databases) connection to achieve async process
+
+## Commands
+
+* `make check` to run mypy
+* `make test` to run unit test that written using pytest
+
