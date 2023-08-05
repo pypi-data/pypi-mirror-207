@@ -1,0 +1,13 @@
+postnormalism/VERSION,sha256=axN4nkPlSFY0Uz3hamXYup00xMl1hYi2ZYBUNfgOsRU,5
+postnormalism/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+postnormalism/core.py,sha256=-DzMbfy9B9D0MmrrDkxUsw91O58Ilgk7LlMhBV3zQFk,1450
+postnormalism/utils.py,sha256=KmrZb1qAeV0M_Tf2v85lCXfCgcOGUMFsFR277k4E9Mg,711
+postnormalism/schema/__init__.py,sha256=AbY0_CzvmXNsrCW0S1u64jGJhCIZUeFJtQ_JDwau6oU,95
+postnormalism/schema/function.py,sha256=RA-fd7Sagf2_DuSZl8asZEaXS8MMZDukB4U5HxM89CQ,193
+postnormalism/schema/schema_item.py,sha256=zMOlOFgevvDRAuHAD7aRLRpynJnumdaZLIodA9TWpMQ,430
+postnormalism/schema/table.py,sha256=yaHkDUYrmIxbYmfGe8Bt3Gkph1Xa5KZ7uZh4GuwAhhc,427
+postnormalism-0.0.1.dist-info/LICENSE,sha256=TZWhM_jLuKhp_emQfdB_sJ1fvHuq2KQPi_d_DnKgnw4,1119
+postnormalism-0.0.1.dist-info/METADATA,sha256=apRHXXD-rlxeUwbxgVlt0G_h91mDoAMOvbxcIFiZQbE,6183
+postnormalism-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+postnormalism-0.0.1.dist-info/top_level.txt,sha256=8PlDDjIwhux6miWbB7ScfrF48OgUMF6mqMJQB7gH8jM,14
+postnormalism-0.0.1.dist-info/RECORD,,
