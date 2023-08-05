@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: apininja
+Version: 0.1.3
+Summary: An api module generator.
+Home-page: https://github.com/alexiusacademia/apininja
+Author: Alex Academia
+Author-email: alexius.sayco.academia@gmail.com
+Keywords: api generator
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+
+An api module generator.
