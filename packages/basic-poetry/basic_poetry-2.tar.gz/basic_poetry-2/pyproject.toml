@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "basic_poetry"
+version = "2"
+description = "basic dependencies for poetry"
+authors = ["BloodSpy <hahaclassik@gmail.com>"]
+readme = "README.md"
+packages = [{include = "sandbox"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mypy = "^1.2.0"
+flake8 = "^6.0.0"
+flake8-bugbear = "^23.3.23"
+flake8-builtins = "^2.1.0"
+pep8-naming = "^0.13.3"
+flake8-commas = "^2.1.0"
+flake8-variables-names = "^0.0.5"
+flake8-import-order = "^0.18.2"
+flake8-comprehensions = "^3.12.0"
+flake8-quotes = "^3.3.2"
+flake8-docstrings = "^1.7.0"
+flake8-alfred = "^1.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
