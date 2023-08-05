@@ -1,0 +1,10 @@
+README.md
+license.txt
+setup.py
+video_de_ferramentas_2023.egg-info/PKG-INFO
+video_de_ferramentas_2023.egg-info/SOURCES.txt
+video_de_ferramentas_2023.egg-info/dependency_links.txt
+video_de_ferramentas_2023.egg-info/top_level.txt
+video_teste_2023/__init__.py
+video_teste_2023/camera.py
+video_teste_2023/video.py
