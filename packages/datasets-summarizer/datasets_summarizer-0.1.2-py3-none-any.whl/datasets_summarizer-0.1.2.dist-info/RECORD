@@ -1,0 +1,12 @@
+DatasetsSummarizer/__init__.py,sha256=fndIyPPZ8pDQ09RpSTapIDts4W4TN3MAuxpZp5ZM7Yk,125
+DatasetsSummarizer/_comm_api.py,sha256=Cp2_DA3KUlSQeJXCE07SE53YpXV2JWUGm02fX5dhXXw,1182
+DatasetsSummarizer/_demodata.py,sha256=-nkSHd-9vJSxk1_UZPqjOr9CQ3-Zm4sQPuJVsqj-hwk,255
+DatasetsSummarizer/_plot_metadata_table.py,sha256=nBAiGU31EO267lz8h1hi3Ap_bKbx_CMpGUR0vEwc2Fk,3455
+DatasetsSummarizer/build/datasetsVis.js,sha256=3FVTT2YTbQCDuoHYNxe9ogsPiYV2mOw9cy8VaBts5lU,7890307
+DatasetsSummarizer/data/taxi_full_metadata_and_scatterplot_coordinates.csv,sha256=unU81mQD6dveOeXp4VekQyjxyf-DmDvvPBaopq2YoTs,4974621
+DatasetsSummarizer/data/taxi_metadata_cleaned_cols_only.csv,sha256=sDEds0E6NwWW8g0431KuxERW-822y3_kQsL2zc3lES4,4604862
+datasets_summarizer-0.1.2.dist-info/LICENSE,sha256=g1Xo6Br4rAFmA6NdkprTIUAyMk-M3M9TZVzlG4ZSF8Y,1527
+datasets_summarizer-0.1.2.dist-info/METADATA,sha256=QKrQ7jcZkCTW_1HuJpnxMiaqoKPnRO9o9-jVzQCMLX8,2402
+datasets_summarizer-0.1.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+datasets_summarizer-0.1.2.dist-info/top_level.txt,sha256=8hE_KIZ5bhY57oiqAN31wvJzz8zz_s8Dra8ccTk8axA,19
+datasets_summarizer-0.1.2.dist-info/RECORD,,
