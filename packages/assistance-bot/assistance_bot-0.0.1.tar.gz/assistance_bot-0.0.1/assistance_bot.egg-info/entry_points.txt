@@ -1,0 +1,3 @@
+[console_scripts]
+bot = bot_folder.start_bot:main
+
