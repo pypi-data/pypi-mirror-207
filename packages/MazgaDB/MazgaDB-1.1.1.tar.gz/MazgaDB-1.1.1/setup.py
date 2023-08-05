@@ -1,0 +1,26 @@
+from setuptools import setup, find_packages
+
+def readme():
+    with open("README.md", "r") as f:
+        return f.read()
+
+setup(
+    name="MazgaDB",
+    version="1.1.1",
+    author="Mazga",
+    author_email="agzamikail@gmail.com",
+    description="ОРМ для базы данных SQlite3",
+    long_description=readme(),
+    long_description_content_type="text/markdown",
+    url="https://github.com/Mazgagzam/MazgaDB",
+    packages= find_packages(),
+    install_requires=['sqlite3','prettytable'],
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    keywords="example python orm sql",
+    project_urls={"Documentation": "https://github.com/Mazgagzam/MazgaDB"},
+    python_requires=">=3.8",
+)
