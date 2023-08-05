@@ -1,0 +1,11 @@
+nlpashto/__init__.py,sha256=X8sz7s21uP8A784OB8bSH_zKd0GZ1VwzVKlDMTYAL4A,125
+nlpashto/helpers.py,sha256=BtD-uGWw5hDMomLn085Ged-516oZq4aALqMsTwZQJes,689
+nlpashto/pos_tagging.py,sha256=V4qr-yMW2sTpEM-nNhSeTht9BvCgIJ2TqPag3aM9U9s,35
+nlpashto/spelling_correction.py,sha256=qZQKIbcn7euAchP8HJmEfrKfv5Mek3ZJt-NQp9lbYTY,1374
+nlpashto/utils.py,sha256=70_JO_7hdhaF8ywjPRIAJ0ZuLgq-Gz7NDLW1c7tueMQ,976
+nlpashto/word_segmentation.py,sha256=aUjMH7MkE0gEK23P0sF3nthE6IaHakNtgVAh9bwDzdg,41
+nlpashto-0.0.9.dist-info/LICENSE,sha256=0iwn6i1faCJte8DfDphN5RsDwusCcJw_yZ-WcumB8bw,1096
+nlpashto-0.0.9.dist-info/METADATA,sha256=nWYtDq9p5p9nTcRSijyeBHeZ8rPQbh8JeBOd1b3rF-U,3154
+nlpashto-0.0.9.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+nlpashto-0.0.9.dist-info/top_level.txt,sha256=lhe3HpOug-7QT7qePidRWHMO7ozYX_VpzhItl6PNAvY,9
+nlpashto-0.0.9.dist-info/RECORD,,
