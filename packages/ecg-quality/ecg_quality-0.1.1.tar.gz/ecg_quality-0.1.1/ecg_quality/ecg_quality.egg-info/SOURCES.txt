@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ecg_quality/ecg_quality.egg-info/PKG-INFO
+ecg_quality/ecg_quality.egg-info/SOURCES.txt
+ecg_quality/ecg_quality.egg-info/dependency_links.txt
+ecg_quality/ecg_quality.egg-info/requires.txt
+ecg_quality/ecg_quality.egg-info/top_level.txt
