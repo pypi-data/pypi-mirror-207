@@ -1,0 +1,10 @@
+setup.py
+pymailauth/__init__.py
+pymailauth/consts.py
+pymailauth/service.py
+pymailauth.egg-info/PKG-INFO
+pymailauth.egg-info/SOURCES.txt
+pymailauth.egg-info/dependency_links.txt
+pymailauth.egg-info/not-zip-safe
+pymailauth.egg-info/requires.txt
+pymailauth.egg-info/top_level.txt
