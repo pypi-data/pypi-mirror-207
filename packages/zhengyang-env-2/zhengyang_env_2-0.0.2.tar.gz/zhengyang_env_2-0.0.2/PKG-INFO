@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: zhengyang_env_2
+Version: 0.0.2
+Summary: A OpenAI Gym Env for foo
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+Trying to create my own enviornment and upload to github + pypi.  
+
