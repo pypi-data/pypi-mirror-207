@@ -1,0 +1,5 @@
+folium
+ipyleaflet
+geopandas
+earthengine-api
+geemap
