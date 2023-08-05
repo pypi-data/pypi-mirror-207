@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Better-Day
+Version: 4.5.6
+Summary: It makes your day better
+Home-page: https://github.com/tytan-codes/better-day
+Author: Tytan Codes
+Author-email: spam@thetytan.com
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+License-File: LICENCE
+
+It is made in python 3 and it makes your day easier as a developer by giving you things that you will use faster and at you finger tips.

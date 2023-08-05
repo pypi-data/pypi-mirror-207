@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+Better_Day.egg-info/PKG-INFO
+Better_Day.egg-info/SOURCES.txt
+Better_Day.egg-info/dependency_links.txt
+Better_Day.egg-info/requires.txt
+Better_Day.egg-info/top_level.txt
