@@ -1,0 +1,9 @@
+ndx_multichannel_volume/__init__.py,sha256=xsi05j6ri5LiDZxWflw-t_Xnt5SBxKphmoK43qlB-Lk,1689
+ndx_multichannel_volume/ndx_multichannel_volume.py,sha256=rsWBlbqufah-INGQm3DvjarpkVORZMr6muIxMEhGqG8,11682
+ndx_multichannel_volume/spec/ndx-multichannel-volume.extensions.yaml,sha256=pmfR3VEnH4Bwwx9An-Yq2uVuurWZs96sFjctFmXbgoY,8204
+ndx_multichannel_volume/spec/ndx-multichannel-volume.namespace.yaml,sha256=0lDieK66iomGX4SY4uhWgvsKEinUavHzOqybCJsgLWQ,556
+ndx_multichannel_volume-0.1.1.dist-info/LICENSE.txt,sha256=JJ3aFgrORj4lE803jc72UWdOwVOtsMfEDm7jmuTPmps,1522
+ndx_multichannel_volume-0.1.1.dist-info/METADATA,sha256=U8OsoVF7GLRPGvR2YgQ1s13xlg0MWtKhgGj05tljwTE,2951
+ndx_multichannel_volume-0.1.1.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+ndx_multichannel_volume-0.1.1.dist-info/top_level.txt,sha256=GnX1xPgN_nnVnH0jUdg2UN6MmX5izUn8vcc5wPQwa8o,24
+ndx_multichannel_volume-0.1.1.dist-info/RECORD,,
