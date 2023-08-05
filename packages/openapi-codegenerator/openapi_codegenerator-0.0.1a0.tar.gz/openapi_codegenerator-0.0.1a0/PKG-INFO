@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: openapi-codegenerator
+Version: 0.0.1a0
+Summary: 
+Home-page: https://github.com/ThiagoLeal11/openapi-codegenerator
+License: MIT
+Author: Thiago Leal
+Requires-Python: >=3.7.0,<4.0.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Project-URL: Repository, https://github.com/ThiagoLeal11/openapi-codegenerator
+Description-Content-Type: text/markdown
+
+
