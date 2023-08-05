@@ -1,0 +1,2 @@
+django-cms>=3.9
+django-appdata>=0.3.0
