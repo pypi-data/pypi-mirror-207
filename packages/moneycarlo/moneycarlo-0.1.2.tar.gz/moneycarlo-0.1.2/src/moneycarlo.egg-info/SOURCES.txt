@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/moneycarlo/__init__.py
+src/moneycarlo/__main__.py
+src/moneycarlo/contracts.py
+src/moneycarlo.egg-info/PKG-INFO
+src/moneycarlo.egg-info/SOURCES.txt
+src/moneycarlo.egg-info/dependency_links.txt
+src/moneycarlo.egg-info/requires.txt
+src/moneycarlo.egg-info/top_level.txt
+tests/test_contracts.py
