@@ -1,0 +1,16 @@
+BlockFrame/__init__.py,sha256=yq-wQO-fdYg8Y0A5D5LFOslfHdjDExZzTIiI7WDquXg,75
+BlockFrame/block_frame.py,sha256=MYUwYa5Mw1QABpHzEYlwWERi0N58n1_LUY2FEEbg8zE,832
+BlockFrame/chunking_service/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+BlockFrame/chunking_service/chunking.py,sha256=7w3-B4F-WVmaXKODlkW09C4MX5Q7UU7KKLh29LfMs6M,8233
+BlockFrame/chunking_service/config.py,sha256=8mKePY9aDWxI9dAA9t_-bxs-NFFuocvzIuFcGEuWgr4,1095
+BlockFrame/chunking_service/fetcher.py,sha256=a9W_PVbEjON01_izFl2Aqc-5FepvPCs6O9WRkViuEiE,1657
+BlockFrame/database_service/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+BlockFrame/database_service/database.py,sha256=FdL7zQaU0e7AKFm8bYSYn3tpbfB1aQ8OPPgKUMliJfo,1061
+BlockFrame/database_service/defaultmodel.py,sha256=3mkiXM597Bv8rgIVT7fe7pj3zMHYwG95b-dxzRiiwF0,1599
+BlockFrame/database_service/getters.py,sha256=5cF-KphUAEzh46Y8QWNhMMZrEF-ytxe3lKNlRot7B-8,377
+BlockFrame/database_service/initalisation.py,sha256=V_1QY74iZCAYLWCAce70m24DdaVtVY4LonCTbz9V_hI,1518
+BlockFrame/database_service/setters.py,sha256=N2pO04xR23PCOmdB5Mji2yYRVTl0Zx2X5Uv6hLcfRyQ,241
+BlockFrame-1.0.1.dist-info/METADATA,sha256=jfgqZDG5ychrK7tZrXNUivVvERkrcapIEtNrZt7aRBY,5340
+BlockFrame-1.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+BlockFrame-1.0.1.dist-info/top_level.txt,sha256=jrGyYztmF3DdHvrCIVDQ1MQaRLmS6A6DOMmiM_GmyVE,11
+BlockFrame-1.0.1.dist-info/RECORD,,
