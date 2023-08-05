@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+filter_choices.egg-info/PKG-INFO
+filter_choices.egg-info/SOURCES.txt
+filter_choices.egg-info/dependency_links.txt
+filter_choices.egg-info/requires.txt
+filter_choices.egg-info/top_level.txt
