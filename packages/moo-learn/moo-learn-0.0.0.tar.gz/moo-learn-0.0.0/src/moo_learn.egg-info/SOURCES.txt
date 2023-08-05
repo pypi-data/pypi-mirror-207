@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/moo_learn.egg-info/PKG-INFO
+src/moo_learn.egg-info/SOURCES.txt
+src/moo_learn.egg-info/dependency_links.txt
+src/moo_learn.egg-info/top_level.txt
+src/moolearn/__init__.py
