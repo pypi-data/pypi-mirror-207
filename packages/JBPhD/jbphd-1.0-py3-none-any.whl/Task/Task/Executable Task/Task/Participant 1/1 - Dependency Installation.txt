@@ -1,0 +1,22 @@
+Python Path: D:\Task Development\Stimuli\Task\Executable Task\Task\Task.exe
+ 
+--------------------------------------------------------------- 
+
+Installation commenced at: 14:20:12
+ 
+--------------------------------------------------------------- 
+
+
+aceback (most recent call last):
+  File "Task.py", line 107, in <module>
+    import Dependencies
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "PyInstaller\loader\pyimod02_importers.py", line 352, in exec_module
+  File "Dependencies.py", line 19, in <module>
+    with open(filename, "r") as f:
+         ^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'participant number.txt'
+[8076] Failed to execute script 'Task' due to unhandled exception!
+
