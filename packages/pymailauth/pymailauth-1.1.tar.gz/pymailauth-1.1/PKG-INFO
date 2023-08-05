@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pymailauth
+Version: 1.1
+Summary: Python mail service for GMail
+Home-page: https://github.com/itsankitkp/pymailauth
+Author: Ankit Kumar Pandey
+Author-email: itsankitkp@gmail.com
+Keywords: mail
+Classifier: Programming Language :: Python :: 3
