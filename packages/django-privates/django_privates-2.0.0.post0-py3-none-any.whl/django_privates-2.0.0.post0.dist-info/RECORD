@@ -1,0 +1,15 @@
+privates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+privates/admin.py,sha256=dYc9Ul3X8g8kvU2A3wEfdpukVWv7bzpS_UYb_DFn64o,5517
+privates/apps.py,sha256=uxWUuz8nL-Ztld5BvghL0efySq1U474gQhE8lPvLh7o,91
+privates/fields.py,sha256=atEPsEMYGfkIj082IM7fLyPhOq7J_tcZ0-_f5AjK0Ac,1004
+privates/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+privates/storages.py,sha256=Xe4kW_kIzSVKX3l_N6qQ9gkcyas2InRap84kvtGqSzk,1532
+privates/test.py,sha256=FUHWjVhYHWFmhqoG7TMwttE1wmBLEgiHnbJTUXddUwo,298
+privates/views.py,sha256=O5fCcu3bVZO7N07thHgCz39KIAT1reWCPBibgps7vHU,1402
+privates/widgets.py,sha256=lDRkmZlZ8GPECBW7dn2Q304HfFdfllo1BA6KrEoHkxU,1349
+privates/templates/admin/widgets/clearable_private_file_input.html,sha256=0DIxeoszawrxXbiwZxeCjb-PshaC9mHcleI7aZwoSsU,683
+django_privates-2.0.0.post0.dist-info/LICENSE,sha256=iCadusgwBbqpTsV4QNJG0ZB6Mxq2hxe8sQQr8G9J-TI,1078
+django_privates-2.0.0.post0.dist-info/METADATA,sha256=MRvIwEz1bXs3ACAPCkUWvYgO6DkNOndqKyIOwerezVg,3710
+django_privates-2.0.0.post0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+django_privates-2.0.0.post0.dist-info/top_level.txt,sha256=Gc99IQmzSWp0k2xZhuVsvVMF5_xGl278ysAGloYNcFg,9
+django_privates-2.0.0.post0.dist-info/RECORD,,
