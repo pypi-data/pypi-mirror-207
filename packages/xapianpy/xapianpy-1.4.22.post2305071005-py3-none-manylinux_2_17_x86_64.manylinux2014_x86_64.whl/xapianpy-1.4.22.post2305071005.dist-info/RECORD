@@ -1,0 +1,8 @@
+xapianpy.libs/libxapian-b71f8c65.so.30.12.3,sha256=Zb_H1p7e8gcIUoy8Gz16-hcGbp2cNZXT9SF-FkAbJ_4,46403689
+xapianpy-1.4.22.post2305071005.dist-info/RECORD,,
+xapianpy-1.4.22.post2305071005.dist-info/top_level.txt,sha256=BLYBJkrtT3m83YvnxIMOuqHD69_RaEbZgQOfTyD83sY,7
+xapianpy-1.4.22.post2305071005.dist-info/WHEEL,sha256=1Id169dnw5qzoAA29i9mBuldB7AJu6pztxb7zreCvA0,168
+xapianpy-1.4.22.post2305071005.dist-info/METADATA,sha256=t1sDyvs7NOVBiSEypHm0hLoyl5WBMy1f7qtjUlhMI48,1061
+xapian/_xapian.cpython-310-x86_64-linux-gnu.so,sha256=GMW9c7T6D8waZEjNHnrxt9c3vL2cnE7KyegEK27WgNE,10513425
+xapian/__init__.py,sha256=2CVjQUrUMr4XAi2d2p40gudRByMO5_jp9C684pfAMWY,183802
+xapian/bindings.py,sha256=x6HkmdOGPXY0RMyFTradadP8VtB8P_E_IGlPx9FKB0c,38
