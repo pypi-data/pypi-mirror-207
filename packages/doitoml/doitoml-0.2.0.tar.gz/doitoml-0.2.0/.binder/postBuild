@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -eux
+
+# bootstrap the package
+doit bootstrap
+doit list

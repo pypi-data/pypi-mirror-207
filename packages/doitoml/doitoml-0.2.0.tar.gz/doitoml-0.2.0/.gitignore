@@ -1,0 +1,14 @@
+__pycache__/
+.doit*
+.hypothesis/
+.ipynb_checkpoints/
+.pnp.cjs
+.venv/
+.vscode/
+.yarn/
+*.log
+build/
+dist/
+untitled*
+Untitled*
+.jupyterlite*
