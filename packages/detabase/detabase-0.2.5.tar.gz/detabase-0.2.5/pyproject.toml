@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "detabase"
+version = "0.2.5"
+description = "Base arquitecture for projects using Deta."
+authors = ["Daniel Arantes <arantesdv@me.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+deta = {version = "1.1.0a2", extras = ["async"]}
+starlette = "^0.26.1"
+Unidecode = "^1.3.6"
+anyio = "^3.6.2"
+type-extensions = "^0.1.2"
+smartjs = "^0.1.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
