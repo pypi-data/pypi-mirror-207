@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/aij_webcam.egg-info/PKG-INFO
+src/aij_webcam.egg-info/SOURCES.txt
+src/aij_webcam.egg-info/dependency_links.txt
+src/aij_webcam.egg-info/entry_points.txt
+src/aij_webcam.egg-info/requires.txt
+src/aij_webcam.egg-info/top_level.txt
+src/intro/__init__.py
+src/intro/intro.py
+src/news/__init__.py
+src/news/core.py
+src/news/thread.py
+src/setup/__init__.py
+src/setup/install.py
+src/webcam/__init__.py
