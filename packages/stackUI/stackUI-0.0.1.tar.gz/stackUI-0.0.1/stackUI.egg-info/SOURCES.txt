@@ -1,0 +1,8 @@
+LICENCE
+README.md
+pyproject.toml
+stackUI/__init__.py
+stackUI.egg-info/PKG-INFO
+stackUI.egg-info/SOURCES.txt
+stackUI.egg-info/dependency_links.txt
+stackUI.egg-info/top_level.txt
