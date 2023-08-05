@@ -1,0 +1,9 @@
+vision_xformer/__init__.py,sha256=bRAGVkzbq7recyjmcPfbycFlLDpaUCGIeRSrs0DHj3w,157
+vision_xformer/vision_linformer.py,sha256=P-JgQet2zxj3m4rKXt7e1pKAzJraBeX3aIkGZ8xsUQk,6497
+vision_xformer/vision_nystromformer.py,sha256=gmmaejNS4_cLoIb5KlS_AkGqfUQvSNL2joePJ0qt9zM,7009
+vision_xformer/vision_performer.py,sha256=SOsiCULMNAGkLePiTChjbjiS2d-UjA0B4E_8LUllHDE,20185
+vision_xformer-0.1.4.dist-info/LICENSE,sha256=taqUmBu2J0ocgyzqIXJWXbqTVjyQjHIYFYXwZ3sE_Wc,1072
+vision_xformer-0.1.4.dist-info/METADATA,sha256=zWA8QX7oN0w-62VMbwZlm642V6H1nSiWVk7CiCDs7tg,3978
+vision_xformer-0.1.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+vision_xformer-0.1.4.dist-info/top_level.txt,sha256=FWM4PkalA09QIp6u7wf7B50hXVo7GFIg7vt7OujOk9k,15
+vision_xformer-0.1.4.dist-info/RECORD,,
