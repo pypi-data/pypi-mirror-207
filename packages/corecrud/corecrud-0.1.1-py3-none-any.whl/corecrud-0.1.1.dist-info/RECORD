@@ -1,0 +1,12 @@
+corecrud/__init__.py,sha256=lBm0sDJ9hnVkN1qFUdiUFrbMT-vurbMBRkQCIvdj5wU,1500
+corecrud/arguments.py,sha256=K72LiygYFE9exPur_TMI5bom8vUhLlzsCnFaW_qEDfY,4730
+corecrud/operations.py,sha256=RCwSfgu0_kD3bfN_TGPdp2mQW3ePZJngNkiG6PUv3m8,9302
+corecrud/typing.py,sha256=wZlHkmoCByCebFNcxdTboiJBNAo3uYk_gX9iM7PYB-o,58
+corecrud/cursors/__init__.py,sha256=KmC5FPtykkLZyPMhN4gmGLGh0GTMDJPb7zIcl4BWGcE,197
+corecrud/cursors/abc.py,sha256=8MPH5L3MNYPPgGoe5M71nFeB7exTPWhAT3Ygo4sC5Ko,499
+corecrud/cursors/mapping.py,sha256=I5dFA8M4uuyJHvJrm8M0Nq2xVpg8uB0-b1RK2hHLorY,456
+corecrud/cursors/scalars.py,sha256=NItkbCYRmXFuIn_zvdqJY2uWVO-0Oq2dn0SIIKwKds4,452
+corecrud-0.1.1.dist-info/METADATA,sha256=gSStPJqOkcVC26qkPWOLH4EemYWb0gxdsSsS4WsvJeE,866
+corecrud-0.1.1.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+corecrud-0.1.1.dist-info/licenses/LICENSE,sha256=wBZVuM-8a6pDdTvqU-knlRgDBh1xDQ_1TY0ZMb1M9PI,1063
+corecrud-0.1.1.dist-info/RECORD,,
