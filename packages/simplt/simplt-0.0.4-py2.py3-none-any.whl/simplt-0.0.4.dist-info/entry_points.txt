@@ -1,0 +1,2 @@
+[console_scripts]
+simplt = simplt:main
