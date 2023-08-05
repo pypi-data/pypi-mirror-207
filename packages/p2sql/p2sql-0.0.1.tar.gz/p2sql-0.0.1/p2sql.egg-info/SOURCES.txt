@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+p2sql.egg-info/PKG-INFO
+p2sql.egg-info/SOURCES.txt
+p2sql.egg-info/dependency_links.txt
+p2sql.egg-info/top_level.txt
