@@ -1,0 +1,13 @@
+CHANGELOG.md,sha256=pXjo_bJg60GmF_Lrqy9_r9GmgozpulDEoD_qfetbVdc,256
+najia/__init__.py,sha256=WmK76_S9c245oS_v3kec-YzQHKQNsNdW1u2l9ryLg5A,104
+najia/__main__.py,sha256=kMpwC2L8aKb2fq6Q9HBzhVBhE6uf2dIKaD_BcUIq4as,1334
+najia/const.py,sha256=LCKq3CG0ON0bDt4OoGzsjDov9rlB7oLhwwMlCqJ6w8U,4666
+najia/data/guaci.pkl,sha256=_RvL6GAFDwGeumdyCnibjHzALAoxK2PirTrHUU4_Ga8,58212
+najia/data/standard.tpl,sha256=ndKAbZd5fKncKCDxvJJvRJLaPJ3Roh9bL2okNYJjS2g,1268
+najia/najia.py,sha256=5l5Dn79LT3ZnfDUvdaa0dT6_Y3-gUk0geluT9HvCjns,9063
+najia/utils.py,sha256=0fYH_KovtaLB1jnXccKS5_8FX1Yg24bTKE7m2qQgXLM,6105
+najia-2.0.1.dist-info/LICENSE,sha256=BB9pq4sDV1oCKeEt3Yht9kUogbMUIgAanfCReFTL2o4,1063
+najia-2.0.1.dist-info/METADATA,sha256=OWSq8ptYHxQyD6otRLQFiT-61dBk8fVjt5cElU3aC9g,2539
+najia-2.0.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+najia-2.0.1.dist-info/entry_points.txt,sha256=uR46vlii-HDLbAOw3up8ziLMQjHwnGzfW-jW2q_rJQc,45
+najia-2.0.1.dist-info/RECORD,,
