@@ -1,0 +1,11 @@
+Serializers/__init__.py,sha256=xFyzkfu9lbSVfv7GcOAigC-kRZuWiAqvqBVX7DWFarY,613
+Serializers/base_serializer.py,sha256=oqSFRPY8aw2Q3c0Z8xrA4rL64VPNZX2Yk48g4Eu9tpY,382
+Serializers/dict_serializer.py,sha256=YysIYvmI1lRmJIauNVBr3C87zsn-da_6PqfIQdN6qhY,9605
+Serializers/json_serializer.py,sha256=Ncm--s53Z1GjrQnD7XhMVlpbcO9uMB-z4JKlVodLMtc,3984
+Serializers/serializers_factory.py,sha256=0XGdW2d7qZrlAmDttYxegg8xuAR-yDo1totEAscrpVw,504
+Serializers/type_constants.py,sha256=bNt6PfmeC3tHXYMbKfds610Z0kdYSBt9kpKAR-Wy57Q,1262
+Serializers/xml_serializer.py,sha256=cFkcJtbATETUT1rSRRZGQXsPkZ5bDmetda84xX95O40,4188
+SavonchikSerializer-1.0.dist-info/METADATA,sha256=Wvmx_4LNgV-3gp3HlsJGmbylHLls6enpX5fFw9go9wo,399
+SavonchikSerializer-1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+SavonchikSerializer-1.0.dist-info/top_level.txt,sha256=GCt_42M2wPRd_DyyLDikPS8-EWSVYu86v_YNKq1417A,12
+SavonchikSerializer-1.0.dist-info/RECORD,,

@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: SavonchikSerializer
+Version: 1.0
+Summary: module for python serialization(JSON, XML)
+Home-page: https://github.com/EgorSavonchik/Labs_Python_IGI/tree/Lab3
+Author: Egor Savonchik
+Author-email: egorsavonchik1@gmail.com
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+
