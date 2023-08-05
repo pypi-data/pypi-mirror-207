@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: slashml
+Version: 0.1.1
+Summary: A Python client for interacting with SlashML servicesDeveloped by SlashML.
+Home-page: https://slashml.com/
+Author: eff-kay
+Author-email: faiizan14@gmail.com
+License: MIT
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+Requires-Dist: requests (==2.28.1)
+
