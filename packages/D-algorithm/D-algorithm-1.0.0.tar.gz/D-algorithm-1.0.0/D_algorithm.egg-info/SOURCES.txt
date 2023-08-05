@@ -1,0 +1,7 @@
+setup.py
+D_algorithm.egg-info/PKG-INFO
+D_algorithm.egg-info/SOURCES.txt
+D_algorithm.egg-info/dependency_links.txt
+D_algorithm.egg-info/top_level.txt
+fib/__init__.py
+prime/__init__.py
