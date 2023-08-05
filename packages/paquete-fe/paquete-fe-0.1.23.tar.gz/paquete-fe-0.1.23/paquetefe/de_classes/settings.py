@@ -1,0 +1,2 @@
+
+REUTILIZAR_CDC = True
