@@ -1,0 +1,37 @@
+VALIDACIONES
+- Ver si es un xml válido sintácticamente
+- Verificar si las etiquetas obligatorias existen
+- Verificar jerarquía de etiquetas
+- Verificar los tipos de datos de las etiquetas
+- Verificar tamaño/longitud de las etiquetas
+- Verificar cantidad de ocurrencias
+- Verificar espacios en blanco o 0 en las etiquetas
+- Verificar CDC
+
+Como buenas prácticas al momento de la generación de los DE, tener precaución de NO incorporar:
+• Espacios en blanco en el inicio o en el final de campos numéricos y alfanuméricos.
+• Comentarios, anotaciones y documentaciones, léase las etiquetas annotation y documentation.
+• Caracteres de formato de archivo, como line-feed, carriage return, tab, espacios entre etiquetas.
+• Prefijos en el namespace de las etiquetas.
+• No incluir etiquetas de campos que no contengan valor, sean estas numéricas, que contienen ceros,
+vacíos o blancos para campos del tipo alfanumérico. Están excluidos de esta regla todos aquellos
+campos identificados como obligatorios en los distintos formatos de archivo XML, la obligatoriedad
+de los mismos será plenamente detallada.
+• No utilizar valores negativos
+• El nombre de los campos es sensible a minúsculas y mayúsculas, por lo que deben ser comunicados
+de la misma forma en la que se visualiza en el presente manual técnico.
+• Ej: el grupo gOpeDE, es diferente a GopeDE, a gopede y a cualquier otra combinación distinta a la
+inicial.
+
+7.8. Procedimiento para la validación de la firma digital:
+a) Extraer la clave pública del certificado digital,
+b) Verificar el plazo de validez del certificado digital del emisor
+c) Validar la cadena de confianza, identificando al PSC, así como la lista de certificados revocados de la
+cadena
+d) Verificar que el certificado digital utilizado es del contribuyente y no de una autoridad certificadora
+e) Validar la integridad de las LCR utilizadas
+f) Verificar el Plazo de validez de cada LCR (Effective Date y NextUpdate) en relación al momento de la
+firma (campo fecha de la firma)
+
+Obs. Las validaciones corresponden a una versión específica del manual
+
