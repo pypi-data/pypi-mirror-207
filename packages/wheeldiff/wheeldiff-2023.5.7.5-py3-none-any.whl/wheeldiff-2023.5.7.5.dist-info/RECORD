@@ -1,0 +1,9 @@
+wheeldiff/__init__.py,sha256=EzBRTG-CW2ay9T_KjMbZx4-vstgqS-0TgV2566A47B4,64
+wheeldiff/_impl/__init__.py,sha256=t9nxdz1IV9LnINkIadFQs_vypXKPeCK3bkqolrni1h4,29
+wheeldiff/_impl/cmd.py,sha256=r0q9_i7DrfcTuc15XhYk1uREoZraq1Uobk6daWef5VU,6937
+wheeldiff-2023.5.7.5.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+wheeldiff-2023.5.7.5.dist-info/METADATA,sha256=RzlfqglUo7UobiF7FYRJ-4T8b5idKXbOSRrvdaObET0,46138
+wheeldiff-2023.5.7.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+wheeldiff-2023.5.7.5.dist-info/entry_points.txt,sha256=Wa5juQIswAtOloS4v-AFsaBbWINpz8EI9kI7XzMrDRo,58
+wheeldiff-2023.5.7.5.dist-info/top_level.txt,sha256=0Bqa4g_SKzPT1BbVqVpDY6X6-pD_ujG30DZ6XT4SNX0,10
+wheeldiff-2023.5.7.5.dist-info/RECORD,,
