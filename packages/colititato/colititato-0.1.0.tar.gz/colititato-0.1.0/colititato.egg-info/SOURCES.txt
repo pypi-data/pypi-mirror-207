@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+colititato/__init__.py
+colititato/cli.py
+colititato.egg-info/PKG-INFO
+colititato.egg-info/SOURCES.txt
+colititato.egg-info/dependency_links.txt
+colititato.egg-info/entry_points.txt
+colititato.egg-info/top_level.txt
+tests/__init__.py
+tests/test_game.py
