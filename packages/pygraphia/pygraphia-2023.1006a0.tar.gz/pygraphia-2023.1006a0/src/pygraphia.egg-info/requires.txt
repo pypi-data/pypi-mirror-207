@@ -1,0 +1,6 @@
+
+[dev]
+mypy
+autopep8
+userpath
+bumpver

@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pygraphia"
+# version = "2023.1003-alpha"
+authors = [
+    {name = "Aniruddha Mukherjee", email = "aniruddha.mukherji@outlook.com"},
+]
+description = "A minimalist graph library"
+readme = "readme.rst"
+requires-python = ">=3.10"
+keywords = ["graph", "graph-algorithms"]
+license = {text = "GPLv3"}
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Mathematics"
+]
+dynamic = ["version"]
+
+[tool.setuptools.dynamic]
+version = {attr = "pygraphia.__version__"}
+[project.optional-dependencies]
+dev = ["mypy", "autopep8", "userpath", "bumpver"]
+
+[project.urls]
+Homepage = "https://github.com/amkhrjee/pygraphia"
+[tool.bumpver]
+current_version = "2023.1006-alpha"
+version_pattern = "YYYY.BUILD[-TAG]"
+commit_message = "bump version {old_version} -> {new_version}"
+commit = true
+tag = true
+push = true
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'current_version = "{version}"',
+    # 'version = "{version}"',
+]
+"src/pygraphia/__init__.py" = [
+    '__version__ = "{version}"']
+
