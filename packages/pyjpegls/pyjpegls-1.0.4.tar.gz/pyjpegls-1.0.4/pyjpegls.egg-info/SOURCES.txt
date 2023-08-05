@@ -1,0 +1,14 @@
+pyproject.toml
+setup.py
+jpeg_ls/CharLS.py
+jpeg_ls/_CharLS.pyx
+jpeg_ls/__init__.py
+jpeg_ls/data_io.py
+jpeg_ls/example.py
+jpeg_ls/CharLS_src/header.cpp
+jpeg_ls/CharLS_src/interface.cpp
+jpeg_ls/CharLS_src/jpegls.cpp
+pyjpegls.egg-info/PKG-INFO
+pyjpegls.egg-info/SOURCES.txt
+pyjpegls.egg-info/dependency_links.txt
+pyjpegls.egg-info/top_level.txt
