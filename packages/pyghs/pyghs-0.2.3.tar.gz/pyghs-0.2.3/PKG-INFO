@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: pyghs
+Version: 0.2.3
+Summary: Storage csv file in github repository.
+Author-email: Chaoying <chaoying2022@gmail.com>
+License: MIT
+Keywords: github,storage,pandas
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# GHS
+
+Storage csv file in github repository.
+
+## Installation
+
+```bash
+pip install pyghs
+```
+
+## Usage
+
+```python
+from ghs import GHS
+import pandas as pd
+
+df = pd.DataFrame({"a": [1, 2, 3], "b": [4, 5, 6]})
+
+# Create a GHS instance
+ghs = GHS("YOUR_GITHUB_REPOSITORY", "YOUR_GITHUB_TOKEN")
+# Create a csv file in github repository
+ghs.create("test.csv", df)
+
+# Get a csv file from github repository
+df = ghs.get("test.csv")
+print(df)
+```
+
+This prints:
+
+```bash
+   a  b
+0  1  4
+1  2  5
+2  3  6
+```
