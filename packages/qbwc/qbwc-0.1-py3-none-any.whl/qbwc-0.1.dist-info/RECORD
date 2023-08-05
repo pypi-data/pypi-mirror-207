@@ -1,0 +1,13 @@
+qbwc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qbwc/app_settings.py,sha256=dkH0giDKDfdavr4TXcnNWX4p2LOygUH6iD7jDzKfTVo,17
+qbwc/asgi.py,sha256=AxzPkob7p0sk9_fzETRin-EWCsa_pO5zNk26tUplWeo,385
+qbwc/urls.py,sha256=26Y00ILNSOyqqMW9LTb9IkuNJgr6OFA-dtVuZz6OX78,483
+qbwc/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qbwc/views.py,sha256=olFWzvFxrzdfxifOxz-C8kYwi8AtriBbtuUri4dp9Nw,14457
+qbwc/wsgi.py,sha256=tbuFBtXTguoC1KpDSKOEp6deScPBwWBGmTW_a-84-8s,385
+qbwc/templates/qbwc/support.html,sha256=4Xk51UTWNazZN_cvzMCWtjaOLKGPoqfbXkFkcWscTYM,426
+qbwc-0.1.dist-info/LICENSE.md,sha256=EMjvr_2xDaifUB37gKRxghnT72GOxq5g-dbneNOPc5Y,1077
+qbwc-0.1.dist-info/METADATA,sha256=lzFHhtP7wfXOucOmchIGqDg1oJDCey7po8iSEYQHlDU,1389
+qbwc-0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+qbwc-0.1.dist-info/top_level.txt,sha256=NAwaOB_bta8GRka5sTA15iP0YoaI75lfyCy447SFk_E,5
+qbwc-0.1.dist-info/RECORD,,
