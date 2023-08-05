@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: flask-guard
+Version: 0.0.4
+Summary: A library for checking if JSON requests have valid data.
+Home-page: https://github.com/beki1337/FlaskGuard
+Author: Belmin Batic
+Author-email: baticbelmin10@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# FlaskRequestGuard
+
+Flask Request Guard is a Python library for validating incoming HTTP requests in Flask web applications. 
+It provides a simple yet flexible way to define request rules and enforce them automatically on incoming
+ requests, ensuring that only requests that meet the specified requirements are allowed to proceed. 
+
+
+## Installation
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to intall flask-request-gaurd.
+
+```bash
+pip install flask-request-gaurd
+```
+
+## Creat the keys
+
+
+```python
+from FlaskRequestGuard import RequestParameter
+
+# Creates a key that has the name "name" and type str with a minimum length of 0 and a maximum length of 10
+name_key =  RequestParameter("name", str, 0, 10)
+
+# Creates a key that has the name "range" and type int with a minimum value of -10 and a maximum value of 10
+range_key = RequestParameter("range", int, -10, 10)
+
+```
+
+## Create validate function
+
+```python
+from FlaskRequestGuard import FlaskRequestGuard
+
+# Init FlaskRequestGuard
+guard = FlaskRequestGuard("myapp")
+
+required_keys = [range_key, name_key] 
+
+# Returns a function that is used to check a request
+validate_user_request = guard.create_validate_function(required_keys)
+
+```
+
+## Check request
+
+```python
+request = {"name": "erik", "age": 23, "range": 2}
+# Returns True, {"error_messages": []} 
+is_valid, error_messages = validate_user_request(request)
+
+request = {"name": "eeeeeeeeeee", "age": 23, "range": 2}
+# Returns False, {"error_messages": ["The 'name' field must be 10 characters or less,
+#  and at least 0 characters or more, but is actually 11 characters long."]}
+is_valid, error_messages = validate_user_request(request)
+
+
+request = {"age": 23, "range": 2}
+# Returns False, {"error_messages": ["Missing name field in request body."]}
+is_valid, error_messages = validate_user_request(request)
+
+```
+
+
+
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
