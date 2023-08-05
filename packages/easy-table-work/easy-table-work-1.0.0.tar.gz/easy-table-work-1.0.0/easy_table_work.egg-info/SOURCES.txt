@@ -1,0 +1,6 @@
+MANIFEST.in
+setup.py
+easy_table_work.egg-info/PKG-INFO
+easy_table_work.egg-info/SOURCES.txt
+easy_table_work.egg-info/dependency_links.txt
+easy_table_work.egg-info/top_level.txt
