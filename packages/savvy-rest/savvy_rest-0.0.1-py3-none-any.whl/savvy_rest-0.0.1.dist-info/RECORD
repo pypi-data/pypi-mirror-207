@@ -1,0 +1,11 @@
+savvy_rest/__about__.py,sha256=u7XNlwd2unS0bTEI6ZhMcyFr94p9OAtS3q4__skOA08,72
+savvy_rest/__init__.py,sha256=TT5co6mcSZjEOqmE28sRKdpbPj1e7uwZI6pAL_Rro98,30
+savvy_rest/cli/__init__.py,sha256=88cEE_I_TsD4LbgO0UXt4zLFKY-Vr0IAe1Qk0N4uB-U,23
+savvy_rest/cli/cli.py,sha256=XFCHHDscf7J0CesKOaFzKLRqeWhJCeJE5NibV4zUoIg,3774
+savvy_rest/cli/cli_manager.py,sha256=03OWejRJ-3PGsBU3eh_vWPyxvvXOccDIttLnTk2QeMU,4439
+savvy_rest/templates/structure.yaml,sha256=WI_Wrp0MbAjn-huHFH4JRC7OIezb7nL1raJMOEfLFt4,498
+savvy_rest-0.0.1.dist-info/METADATA,sha256=JNuVmUOnFLF3-_r70YjmqigJWm7T183cTcceoY9gFhs,2226
+savvy_rest-0.0.1.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+savvy_rest-0.0.1.dist-info/entry_points.txt,sha256=CgQLdv-YHY7rE7qCSKZUYVDFZLS67utuyU9W0VePjOw,49
+savvy_rest-0.0.1.dist-info/licenses/LICENSE.txt,sha256=eoyTnFWUH1vigboaWcVH6uLANGOzWGS82DV4K_iwy0s,1100
+savvy_rest-0.0.1.dist-info/RECORD,,

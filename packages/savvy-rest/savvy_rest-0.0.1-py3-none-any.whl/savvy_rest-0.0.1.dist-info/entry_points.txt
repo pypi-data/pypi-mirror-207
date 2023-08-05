@@ -1,0 +1,2 @@
+[console_scripts]
+routestpy = restez.cli.cli:app
