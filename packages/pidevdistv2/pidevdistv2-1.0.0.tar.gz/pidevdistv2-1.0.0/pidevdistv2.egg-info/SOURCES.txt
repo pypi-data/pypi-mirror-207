@@ -1,0 +1,6 @@
+setup.py
+pidevdistv2/pidevdistv2.py
+pidevdistv2.egg-info/PKG-INFO
+pidevdistv2.egg-info/SOURCES.txt
+pidevdistv2.egg-info/dependency_links.txt
+pidevdistv2.egg-info/top_level.txt
