@@ -1,0 +1,8 @@
+slang/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slang/__main__.py,sha256=QNe2bageT7NMjs4AHGa1q3e3ddMK4oKWJH5oFNPI40I,64
+slang/cli.py,sha256=m1DW2bA-FmBxYF6nmL7npXCSTyt_Hk_YyjXWHQnyK8Y,1232
+trade_slang-0.2.0.dist-info/LICENSE,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+trade_slang-0.2.0.dist-info/METADATA,sha256=CcGTT_TzYJaWhqJfxrjwN5ajRP4KpU2NFUQ5cXMY-Uc,442
+trade_slang-0.2.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+trade_slang-0.2.0.dist-info/entry_points.txt,sha256=MFE1LuHdNwaw0fdifyAwGQrLigIhIjsZhKSVqduBlIk,39
+trade_slang-0.2.0.dist-info/RECORD,,
