@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: local_lang
+Version: 0.0.5
+Summary: A small package to localise your python application
+Project-URL: Homepage, https://github.com/maxland255/localisation_lang
+Project-URL: Bug Tracker, https://github.com/maxland255/localisation_lang/issues
+Author-email: Maxlanf255 <developer@pieteraerens.eu>
+License-File: LICENSE
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Localization
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# LocalLang
+
+Description and example of this package comming soon
