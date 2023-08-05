@@ -1,0 +1,10 @@
+cos_uploader/__init__.py,sha256=JQcKMslv-4FfqF1cA17lUdIfzbeZSj5nvYHxeihGBIQ,4597
+cos_uploader/common.py,sha256=ZmGiBjlgK5uCVVQwJDvHKwBXSH81vmRP6XFbSbrF1n8,716
+cos_uploader/config.toml,sha256=1J1cfV0NJP0oiXCGUhle0InXjTuVDfYcEC0Ic_zDU_8,631
+cos_uploader/history.py,sha256=RHxWnWIn8lL7tpPUPUwfREBnEzdAAiNNZ0A6if87IMU,2052
+cos_uploader/install.py,sha256=EuHd_0FQTDfL1j-WAuxyY6Ri7EfKeX8ny6Lkkpd7nUo,1237
+cos_uploader-2.0.0rc1.dist-info/LICENSE,sha256=yWT3vOhwMuVPzAXL66jrffjzd_-XjJa-xEOt4eYqqko,1091
+cos_uploader-2.0.0rc1.dist-info/METADATA,sha256=q2DMugBmN4cTjLCxbEWG1BkMa37n8C-_z7yvBz4ikL0,4262
+cos_uploader-2.0.0rc1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+cos_uploader-2.0.0rc1.dist-info/entry_points.txt,sha256=yOR3b5D4GZdELTPrIE5Zj8JOg3SUk-aHbbW0MW6Jv6E,144
+cos_uploader-2.0.0rc1.dist-info/RECORD,,
