@@ -1,0 +1,15 @@
+aiofauna/__init__.py,sha256=z4l5Q6ra1VVilEf56LpQy-hwGznY9UXABmUawEtHdO0,3619
+aiofauna/api.py,sha256=9K9tT_aTuwYQ7s6Pw5SjWsLJb9VNQQwIAfSz6cEsNL0,17190
+aiofauna/cli.py,sha256=bGHljX5Po0MIzXiYgbOM0OUIbEPav1x-VAm1DyUABdY,819
+aiofauna/client.py,sha256=tosFTU8aSAKFPAPj7ais6J9QbCIQhV2CWy-YV1cbBtc,4014
+aiofauna/deprecated.py,sha256=Pebgp6OLOst3NxUmpEQgreH9zETAWX52ZsuiO0GYARo,529
+aiofauna/errors.py,sha256=b8nnF51Fux-nsD_qpJIivCml4LJCYRtuzGcwvJyAZbM,8161
+aiofauna/json.py,sha256=3K20WVezCRFbAKm861RhkljkiLwOrZhy-7OmSKlWkIY,6673
+aiofauna/objects.py,sha256=XgMamCFmOnZ23Y9pgqQ6J5j6g5IdYStJPWNrD43SPfI,5861
+aiofauna/odm.py,sha256=eYmm3AK4qt3qvGyCSCecT_5Zae-3IvkGT_d699owDWA,14595
+aiofauna/page.py,sha256=qBkSzlV7q-kly8f9NWuFbkPYtqONwvwasG-LbR953I8,2760
+aiofauna/query.py,sha256=CmXqkvNtbyWbU6-8XtZFVxhljWmIUxsCpJA5DPGQ2zg,41588
+aiofauna-0.1.2.dist-info/entry_points.txt,sha256=1CNHyaRFNSC-sQopAcTv-oCSCG-MH3vCgplzNjiM-hM,40
+aiofauna-0.1.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+aiofauna-0.1.2.dist-info/METADATA,sha256=h5FvgrX6J1p-5gExRL5pSbnG8Ol9NgwUi1Bf8x4WbjM,677
+aiofauna-0.1.2.dist-info/RECORD,,
