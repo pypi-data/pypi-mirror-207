@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: cryptenv
+Version: 0.2
+Summary: A CLI tool to encrypt and decrypt variables in .env files.
+Author-email: Vasilis Papadopoulos <vpapadopoulos155@gmail.com>
+License: MIT
+Project-URL: GitHub, https://github.com/vaspapadopoulos/cryptenv
+Keywords: env,encrypt,decrypt
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cryptography (==40.0.2)
+
+# cryptenv
+
+[![Python](https://img.shields.io/badge/Python-3.9-3776AB.svg?logo=python)](https://www.python.org/)
+
+A Python-based CLI to encrypt and decrypt variables in `.env` files.
+
+## Installation
+
+
+## Usage
+
+
+### Examples
+
+Encrypt and decrypt a single variable in a `.env` file:
+
+```shell
+cryptenv.py encrypt -f .env.myproject PASSWORD
+cryptenv.py decrypt -f .env.myproject API_TOKEN
+```
+
+Encrypt all variables in a `.env` file:
+
+```shell
+cryptenv.py encrypt -f .env.myproject --all
+```
+
+Decrypt all encrypted variables, if any, in a `.env` file:
+
+```shell
+cryptenv.py decrypt -f .env.myproject
+```
