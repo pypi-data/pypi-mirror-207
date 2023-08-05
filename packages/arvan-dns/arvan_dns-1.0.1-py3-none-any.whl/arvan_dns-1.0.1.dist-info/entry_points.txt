@@ -1,0 +1,2 @@
+[console_scripts]
+arvan-dns = arvan_dns:main
