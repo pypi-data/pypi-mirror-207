@@ -1,0 +1,12 @@
+django_sqlite_backup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_sqlite_backup/apps.py,sha256=hr_VWttIN8RVXzXXG2Vo-SjuNgCFDE5POwycNww-ixo,450
+django_sqlite_backup/aws.py,sha256=tpyJpF46JxUvR6PpThUgl_iWRnEj-Su4BacfpyjqrUo,1535
+django_sqlite_backup/backup.py,sha256=8-4QRYIWJOMYM0Deuub6P5nWiBKjW4w2Gvh-UjttcNg,779
+django_sqlite_backup/restore.py,sha256=BJTGqd0zqeTWRbk1c98OqNRweYNmOoDdUC1dsuCkKWc,740
+django_sqlite_backup/urls.py,sha256=ve4fRC0VSPi235hDc9_n973ii_jrIpeE4tPrJTBSNCA,150
+django_sqlite_backup/views.py,sha256=1UKV4iRhvdTub5WKT3KUh0CefYIh9QgOMo3N4Dik3DE,234
+django_sqlite_backup-0.0.4.dist-info/LICENSE,sha256=bwE4PTk0_zgY2rrrldsrBocfua-bkc_IUxH1pr1rCFA,1070
+django_sqlite_backup-0.0.4.dist-info/METADATA,sha256=8SogZWZjYS3EY1XJP2MGu4eIkq-1Gs7F0OE6w8sFLVg,4939
+django_sqlite_backup-0.0.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+django_sqlite_backup-0.0.4.dist-info/top_level.txt,sha256=hpNLepZbcHqSqEC92LAtpsd7uaey2g64SD0C0NWEDqM,21
+django_sqlite_backup-0.0.4.dist-info/RECORD,,
