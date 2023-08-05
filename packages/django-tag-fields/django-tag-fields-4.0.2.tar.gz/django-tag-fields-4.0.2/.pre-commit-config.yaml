@@ -1,0 +1,49 @@
+default_language_version:
+  python: python3.11
+default_stages: [commit]
+fail_fast: true
+exclude: ".conf.py|migrations|.git|.tox"
+# exclude: ".conf.py|^tests/|migrations|.git|.tox"
+ci:
+  autofix_commit_msg: |
+    chore(pre-commit): Auto fixes from pre-commit.com hooks
+
+    for more information, see https://pre-commit.ci
+  autofix_prs: true
+  autoupdate_commit_msg: "chore(pre-commit): Weekly pre-commit autoupdate"
+  autoupdate_schedule: weekly
+  skip: []
+  submodules: false
+
+repos:
+  # - repo: https://github.com/adamchainz/django-upgrade
+  #   rev: "1.13.0"  # replace with latest tag on GitHub
+  #   hooks:
+  #   -   id: django-upgrade
+  #       args: [--target-version, "4.2"]   # Replace with Django version
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: check-yaml
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+  - repo: https://github.com/psf/black
+    rev: 23.3.0
+    hooks:
+      - id: black
+        args: [-l  79]
+        language_version: python3.11
+  - repo: https://github.com/PyCQA/flake8
+    rev: 6.0.0
+    hooks:
+      - id: flake8
+  - repo: https://github.com/asottile/pyupgrade
+    rev: v3.3.2
+    hooks:
+      - id: pyupgrade
+        args: [--py37-plus]
+  - repo: https://github.com/adamchainz/django-upgrade
+    rev: 1.13.0
+    hooks:
+      - id: django-upgrade
+        args: [--target-version, "3.2"]
