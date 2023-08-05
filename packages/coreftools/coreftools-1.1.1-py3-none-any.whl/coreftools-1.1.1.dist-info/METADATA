@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: coreftools
+Version: 1.1.1
+Summary: Coreference-Resolution library
+Author: Soumya-Ranjan-Sahoo
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: neuralcoref
+Requires-Dist: spacy (==2.1.0)
+Requires-Dist: allennlp
+Requires-Dist: allennlp-models
+Requires-Dist: pandas
+Requires-Dist: openai
+
+
+This is a coreference resolution utility  package that supports multiple transformer-based coreference resolvers. The current version supports an improved version of the AllenNLP SPANBERT model and a GPT3 (text-davinci-003) based resolver that supports few-shot prompts. Coreference resolution is the task of identifying all expressions (e.g., pronouns, names, definite descriptions) in a text that refer to the same entity. This is a crucial task for many natural language processing applications such as question answering, summarization, and sentiment analysis.
+
+Our tool is designed to help researchers and developers experiment with different transformer-based coreference resolvers and compare their performance. The package is currently under experimentation and cannot be readily used. However, we aim to make it publicly available in the future.
+
+The AllenNLP SPAN-BERT model is a state-of-the-art coreference resolution model that is based on the popular BERT architecture. We have made improvements to the model by handling nested coreferent mentions and cataphoras. The GPT3-based resolver, on the other hand, is a cutting-edge model that is capable of few-shot learning, meaning that it can adapt to new variations with a few example prompts.
+
+Our Python package is designed to be easy to use and integrate with existing NLP pipelines. It provides a simple interface for loading and using different coreference resolvers, and supports various input formats such as raw text and pre-processed text. We believe that our tool will be a valuable resource for researchers and developers working on coreference resolution and related NLP tasks. 
+
+
+# Examples of using CorefTools
+
+Here are a few examples of how to use CorefTools, a Python package for coreference resolution.
+
+## Example 1: Using the SpanBERTResolver
+
+Note that by default we use spanbert-large model, you can alter the model by passing the corresponding model_url while initializing the SpanBERTResolver class
+
+```ruby
+from coreftools.corefresolvers import SpanBERTResolver
+
+resolver = SpanBERTResolver()
+example_query = "John and Jane went to the park. They had a picnic and played frisbee. When they were done, they walked home together."
+resolved_query = resolver.resolve_coref(example_query)
+print(resolved_query)
+
+# Output
+# John and Jane went to the park. John and Jane had a picnic and played frisbee. When John and Jane were done, John and Jane walked home together.
+```
+
+## Example 2: Using the GPTResolver
+
+The following example demonstrates how to use the `GPTResolver` class to resolve coreferences using the GPT-3 model. Note that we use "text-davinci-003" as our default model due to performance reasons. You can also pass other models, such as "text-davinci-002" or "GPT3.5" with engine parameter to `resolve_coref` method of the `GPTResolver` class. This would resemble `gpt.resolve_coref(query_to_resolve, engine=your_choice_of_engine)`
+
+```ruby
+from coreftools.corefresolvers import GPTResolver
+
+resolver = GPTResolver()
+example_query = "My dog is very cute. She loves to play fetch."
+resolved_query = resolver.resolve_coref(example_query)
+print(resolved_query)
+
+# Output
+# My dog is very cute. My dog loves to play fetch
+
+```
