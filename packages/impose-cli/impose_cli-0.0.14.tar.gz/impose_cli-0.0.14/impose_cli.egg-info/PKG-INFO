@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: impose-cli
+Version: 0.0.14
+Summary: Create a CLI tool easily.
+Author: scdev
+Author-email: samuel.chai.development@gmail.com
+Keywords: python,cli,click
