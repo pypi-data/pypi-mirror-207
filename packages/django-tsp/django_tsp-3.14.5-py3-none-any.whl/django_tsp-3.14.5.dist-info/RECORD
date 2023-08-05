@@ -1,0 +1,15 @@
+django_tsp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_tsp/apis.py,sha256=YbCOyQTaGpEZ8_TaTMdHxP1tSyodcaq85TydLi5DDpY,1766
+django_tsp/apps.py,sha256=atpRGfJjp09ZsdPUSrx4lFFvrGyO3zRC_WNm23HEEu8,429
+django_tsp/checks.py,sha256=kpUsVhiXj_pMS1LfZaQyGAP4fFOtc6RgC_dI7voFME0,1141
+django_tsp/conf.py,sha256=HJvqoN1TwYz4ib4EsSA7HCph4AIOBQXAUW8pYxgu3tw,494
+django_tsp/consumer.py,sha256=UOdhqTzGN-2ziNdS5IIp3S4pRUccYApRCoAZzC6DWvY,590
+django_tsp/routing.py,sha256=i7HdR5oBMSw0TlHsfuYK6QSqHVmIFEv19myJGNGKe5I,132
+django_tsp/serializers.py,sha256=Wm2KtSRluB7VmnWRAocG8ZAuZwVqe1d0pVg3EOtp6tA,212
+django_tsp/services.py,sha256=1v7XydFXJmE6VWBy56dh5vgZv__sGKO_WUo_fPikdHI,648
+django_tsp/views.py,sha256=gvTbnLWevATVfUn78eCXjHEQwKTXfWTkFQ3PYOmi5Cg,102
+django_tsp-3.14.5.dist-info/LICENSE,sha256=OlcFwcrl0vK6seF27WoEsrMyD4iee-HclD2eH3Y6ncw,1078
+django_tsp-3.14.5.dist-info/METADATA,sha256=qJyvDeEVH4iZpckQ-oUTFUcL4HwuGR3Me1XttIjHr4g,1492
+django_tsp-3.14.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+django_tsp-3.14.5.dist-info/top_level.txt,sha256=SccQRSWrs0c7FKxZlap4DQ9HZMk1h3wbDMgGxDRreBs,11
+django_tsp-3.14.5.dist-info/RECORD,,
