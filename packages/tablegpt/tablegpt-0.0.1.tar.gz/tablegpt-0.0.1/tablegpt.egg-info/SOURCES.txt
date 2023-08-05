@@ -1,0 +1,8 @@
+README.md
+setup.py
+tablegpt/__init__.py
+tablegpt.egg-info/PKG-INFO
+tablegpt.egg-info/SOURCES.txt
+tablegpt.egg-info/dependency_links.txt
+tablegpt.egg-info/not-zip-safe
+tablegpt.egg-info/top_level.txt
