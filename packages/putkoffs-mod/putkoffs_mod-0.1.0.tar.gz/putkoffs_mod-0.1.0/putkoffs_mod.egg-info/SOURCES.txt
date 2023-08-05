@@ -1,0 +1,7 @@
+README.md
+setup.py
+putkoffs_mod/__init__.py
+putkoffs_mod.egg-info/PKG-INFO
+putkoffs_mod.egg-info/SOURCES.txt
+putkoffs_mod.egg-info/dependency_links.txt
+putkoffs_mod.egg-info/top_level.txt
