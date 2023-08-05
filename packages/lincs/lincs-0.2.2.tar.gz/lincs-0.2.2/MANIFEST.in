@@ -1,0 +1,2 @@
+include requirements.txt
+include lincs/liblincs/lincs.hpp
