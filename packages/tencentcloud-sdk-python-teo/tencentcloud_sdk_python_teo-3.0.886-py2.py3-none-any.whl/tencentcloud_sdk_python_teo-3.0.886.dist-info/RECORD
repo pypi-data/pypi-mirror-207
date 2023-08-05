@@ -1,0 +1,14 @@
+tencentcloud/__init__.py,sha256=W85mIkH1-1WMW5PgakzAzwOoJwIBu7eHGrvVxk36Q2I,630
+tencentcloud/teo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tencentcloud/teo/v20220106/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tencentcloud/teo/v20220106/errorcodes.py,sha256=sCH9kE0DQdWMKDpIajl1AMAYw-gJADVQjnW05-GOknA,2192
+tencentcloud/teo/v20220106/models.py,sha256=TCZ27289RaBIl6akGUH16eVMxnIeWu8KDKtiJ7KqcaA,24724
+tencentcloud/teo/v20220106/teo_client.py,sha256=EWwNLXK9k-Q3gBVecW5YWay88nr8z3ptmjROFv3fV7w,5379
+tencentcloud/teo/v20220901/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tencentcloud/teo/v20220901/errorcodes.py,sha256=HC91tcOG7w6WWvx8q8Daitd9u33h7kBUmIfNUYGqCYU,21992
+tencentcloud/teo/v20220901/models.py,sha256=QNuUUFmE28q4LGAADIlepJypv0YrIFBKzm4xJBwIyeM,512734
+tencentcloud/teo/v20220901/teo_client.py,sha256=OZIdpLwwg9mvTAijGylbNVNB8Z6ej21PkbkybtuNmx4,84601
+tencentcloud_sdk_python_teo-3.0.886.dist-info/METADATA,sha256=q_dQ5Yx_iDbTFIKzEA_d5KEGOCzaYr-5KAOxYME-his,1432
+tencentcloud_sdk_python_teo-3.0.886.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+tencentcloud_sdk_python_teo-3.0.886.dist-info/top_level.txt,sha256=g-8OyzoqI6O6LiS85zkeNzhB-osEnRIPZMdyRd_0eL0,13
+tencentcloud_sdk_python_teo-3.0.886.dist-info/RECORD,,
