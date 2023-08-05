@@ -1,0 +1,15 @@
+my_labextension_demo/__init__.py,sha256=cSXiggum1Dd5FsRiuSMszz6BwYEvE9Fpupa7B61pMy0,163
+my_labextension_demo/_version.py,sha256=ac3tgjoOzsODOlacRPCwz99LbZv0NK7ZYAaBWulFo7E,171
+my_labextension_demo-0.1.0.data/data/share/jupyter/labextensions/my-labextension-demo/package.json,sha256=3C6HrO4FOJtQwWkXBXMTgixgwnf8I38lffTy0zVZRh0,5389
+my_labextension_demo-0.1.0.data/data/share/jupyter/labextensions/my-labextension-demo/schemas/my-labextension-demo/package.json.orig,sha256=tjcxSTS8ouKt6kdSuOO3lghmT6svQ5BiMnmhBr7qK-U,5247
+my_labextension_demo-0.1.0.data/data/share/jupyter/labextensions/my-labextension-demo/schemas/my-labextension-demo/plugin.json,sha256=wil5p1_ahg6tiD66zyBwPUH4LVXz5-8pWqlRnTecwrQ,193
+my_labextension_demo-0.1.0.data/data/share/jupyter/labextensions/my-labextension-demo/static/568.b6a88c5b3cd181be9505.js,sha256=tqiMWzzRgb6VBdFZ7OKHZe7iDSYrzPalrYd8C6c8-Ek,516
+my_labextension_demo-0.1.0.data/data/share/jupyter/labextensions/my-labextension-demo/static/747.1b8fd0ee47d900ebc630.js,sha256=G4_Q7kfZAOvGMO6MKR9x9wdUMkHp0z5owi7RNtij8Ww,3516
+my_labextension_demo-0.1.0.data/data/share/jupyter/labextensions/my-labextension-demo/static/remoteEntry.b9f6bdf6f8cc6d6bccc5.js,sha256=ufa99vjMbWvMxaLitpjhp1y2Q_gVqIUweVh6r08ibHQ,6414
+my_labextension_demo-0.1.0.data/data/share/jupyter/labextensions/my-labextension-demo/static/style.js,sha256=Pc3BmJaCzGyV-FexUp3r5Vod34TPY2y3FliZOq_GKIk,163
+my_labextension_demo-0.1.0.data/data/share/jupyter/labextensions/my-labextension-demo/static/third-party-licenses.json,sha256=P_VjLKCSMZ3sXuPckg8bDyB8Xn8JD7EsiIoRqvSP3h0,2452
+my_labextension_demo-0.1.0.data/data/share/jupyter/labextensions/my-labextension-demo/install.json,sha256=QSf7iXtS_taC1OV_FNwpiqzc-vEj882XjFE8tjhrOfM,201
+my_labextension_demo-0.1.0.dist-info/METADATA,sha256=JqSa6Q7JMbZR0I3Rlm69rySzb57RW1lqi5oHf5tUXys,6008
+my_labextension_demo-0.1.0.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+my_labextension_demo-0.1.0.dist-info/licenses/LICENSE,sha256=vlE001NennvV9xoaiE_wbPfrC8FpE_CDQWsmR3ksYw0,1515
+my_labextension_demo-0.1.0.dist-info/RECORD,,
