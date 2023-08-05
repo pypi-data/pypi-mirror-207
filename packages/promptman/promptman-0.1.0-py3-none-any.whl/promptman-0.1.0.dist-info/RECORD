@@ -1,0 +1,10 @@
+promptman/__init__.py,sha256=kkxsnnFwX407spBL86j5Oyux3hQ250ne97acGH34lSw,250
+promptman/chatgpt.py,sha256=-MeENCm8rsr_JkxBhJaeVwYYAUxhMaccGgh9x8cLQRQ,11807
+promptman/hello.py,sha256=zIleu1CS1uBl_igl_jqOMEjMqJqhj8Oa-pdNO7-Yccs,77
+promptman/nlp_tasks.py,sha256=6mfAC_bpgwffj5Pz8-Kv_BGyVHiK3jmucW0vWJeNvL0,724
+promptman/stablediffusion.py,sha256=R8xg64ceUaO1e-6rPHemUI8IpTCbzbt3sU9KGfA0Y2E,7960
+promptman/stablediffusion_img2img.py,sha256=IJN_4C3VeDPdjZ99iTvmayrwT8R_caxfBwAvtbI0k0w,323
+promptman/stablediffusion_inpainting.py,sha256=Q25deSVUV53eamE26Z7x6V1adhAkguVWL8Xqcm-LIWA,340
+promptman-0.1.0.dist-info/METADATA,sha256=BGPAVx1okhgmstgKlXzKBzjPF4lKMBqWkhkvLWtH-VA,1168
+promptman-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+promptman-0.1.0.dist-info/RECORD,,
