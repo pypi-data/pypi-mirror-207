@@ -1,0 +1,3 @@
+[console_scripts]
+pytest-static=pytest_static.__main__:main
+
