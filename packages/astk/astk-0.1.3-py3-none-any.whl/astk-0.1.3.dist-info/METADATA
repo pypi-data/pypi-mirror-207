@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: astk
+Version: 0.1.3
+Summary: A comprehensive toolkit for alternative splicing analysis
+Home-page: https://github.com/huang-sh/astk/
+Author: huangsh
+Author-email: hsh-me@outlook.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click (>=8.0.0)
+Requires-Dist: pandas (>=1.3.0)
+Requires-Dist: matplotlib (>=3.4.0)
+Requires-Dist: scikit-learn (>=0.24.0)
+Requires-Dist: statsmodels (>=0.12.0)
+Requires-Dist: gseapy (==0.10.8)
+Requires-Dist: statannotations
+Requires-Dist: seaborn
+Requires-Dist: tqdm
+Requires-Dist: pysam
+Requires-Dist: pyfaidx
+Requires-Dist: nease
+Requires-Dist: biopython
+Requires-Dist: pyecharts
+Requires-Dist: click-option-group
+
+What is ASTK?
+===============
+
+**ASTK** is a command-line software for comprehensive alternative splicing analysis including:
+- characterizing distribution and expression patterns of alternative splicing events
+- systematically analyzing functional effects of AS events at the gene- and exon-level respectively
+- dissecting out splicing-associated sequence features and epigenetic marks
+- inferring the splicing regulatory code for each type of AS. 
+
+<img src='https://huang-sh.github.io/astk-doc/static/img/workflow.png' alt="workflow.png"></img>
+
+Documentation
+===============
+
+The documentation for ***ASTK*** is available on [astk-doc](https://huang-sh.github.io/astk-doc/)
+
+
+Contact
+===============
+If you have any problem, contact me at hsh-me@outlook.com
