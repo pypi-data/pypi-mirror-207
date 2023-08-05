@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: chat2plot
+Version: 0.0.1
+Summary: chat to visualization with LLM
+Home-page: https://github.com/nyanp/chat2plot
+Author: nyanp
+Author-email: Noumi.Taiga@gmail.com
+License: MIT
+Keywords: llm visualization chart gpt
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: langchain (>=0.0.127)
+Requires-Dist: pandas (>=1.5.0)
+Requires-Dist: plotly (>=5.0.0)
+Requires-Dist: streamlit-chat (>=0.0.2.2)
+
+# 📈 Chat2Plot - interactive text-to-visualization with LLM
+
+Chat2plot is a project that provides visualizations based on chat instructions for given data.
+
+## Usage
+
+```Python
+import pandas as pd
+from chat2plot import Chat2Plot
+
+# 1. Set api-key beforehand
+# os.environ["OPENAI_API_KEY"] = "..."
+
+df = pd.read_csv(...)
+
+# 2. Pass dataframe to draw
+c2p = Chat2Plot(df)
+
+# 3. Plot chart interactively
+c2p("average target over countries")
+
+c2p("change to horizontal-bar chart")
+
+cp2("...")
+```
