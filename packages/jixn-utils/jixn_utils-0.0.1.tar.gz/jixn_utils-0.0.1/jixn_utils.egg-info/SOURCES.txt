@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+setup.py
+jixn_util/GetConfig.py
+jixn_util/JudgeFile.py
+jixn_util/__init__.py
+jixn_util/dbmysql.py
+jixn_util/gen_guid.py
+jixn_util/jixn_parser.py
+jixn_util/jixn_parser_嵌套类型.py
+jixn_util/jixn_utils.py
+jixn_util/sendnews.py
+jixn_utils.egg-info/PKG-INFO
+jixn_utils.egg-info/SOURCES.txt
+jixn_utils.egg-info/dependency_links.txt
+jixn_utils.egg-info/top_level.txt
