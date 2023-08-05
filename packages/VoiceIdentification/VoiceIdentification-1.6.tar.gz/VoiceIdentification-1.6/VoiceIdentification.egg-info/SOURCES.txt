@@ -1,0 +1,9 @@
+README.md
+setup.py
+VoiceIdentification.egg-info/PKG-INFO
+VoiceIdentification.egg-info/SOURCES.txt
+VoiceIdentification.egg-info/dependency_links.txt
+VoiceIdentification.egg-info/requires.txt
+VoiceIdentification.egg-info/top_level.txt
+voice_identification/__init___.py
+voice_identification/create.py
