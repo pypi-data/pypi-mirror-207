@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE cambalache-project SYSTEM "cambalache-project.dtd">
+<cambalache-project version="0.10.3" target_tk="gtk-4.0">
+  <ui>
+	(1,None,"stickytext.ui","window.ui","Main Window for stickytext",None,"BeatLink",None,None,None)
+  </ui>
+  <object>
+	(1,1,"GtkApplicationWindow","window",None,None,None,None,None),
+	(1,2,"GtkScrolledWindow","scrolledwindow",1,None,None,None,-1),
+	(1,3,"GtkTextView","textview",2,None,None,None,None),
+	(1,4,"GtkTextBuffer","textbuffer",None,None,None,None,None)
+  </object>
+  <object_property>
+	(1,1,"GtkAccessible","accessible-role","window",None,None,None,None,None),
+	(1,1,"GtkWidget","height-request","200",None,None,None,None,None),
+	(1,1,"GtkWidget","width-request","200",None,None,None,None,None),
+	(1,1,"GtkWindow","child","2",None,None,None,None,None),
+	(1,1,"GtkWindow","default-height","200",None,None,None,None,None),
+	(1,1,"GtkWindow","default-width","200",None,None,None,None,None),
+	(1,1,"GtkWindow","startup-id","StickyText",None,None,None,None,None),
+	(1,1,"GtkWindow","title","StickyText",None,None,None,None,None),
+	(1,3,"GtkAccessible","accessible-role","text-box",None,None,None,None,None),
+	(1,3,"GtkScrollable","hscroll-policy","natural",None,None,None,None,None),
+	(1,3,"GtkScrollable","vscroll-policy","natural",None,None,None,None,None),
+	(1,3,"GtkTextView","bottom-margin","12",None,None,None,None,None),
+	(1,3,"GtkTextView","buffer","4",None,None,None,None,None),
+	(1,3,"GtkTextView","left-margin","12",None,None,None,None,None),
+	(1,3,"GtkTextView","right-margin","12",None,None,None,None,None),
+	(1,3,"GtkTextView","top-margin","12",None,None,None,None,None),
+	(1,3,"GtkTextView","wrap-mode","word",None,None,None,None,None),
+	(1,3,"GtkWidget","hexpand","True",None,None,None,None,None),
+	(1,3,"GtkWidget","vexpand","True",None,None,None,None,None)
+  </object_property>
+</cambalache-project>

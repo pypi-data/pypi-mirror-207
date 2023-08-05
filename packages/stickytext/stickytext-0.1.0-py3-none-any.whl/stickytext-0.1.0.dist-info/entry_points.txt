@@ -1,0 +1,3 @@
+[console_scripts]
+stickytext=stickytext.app:run_app
+

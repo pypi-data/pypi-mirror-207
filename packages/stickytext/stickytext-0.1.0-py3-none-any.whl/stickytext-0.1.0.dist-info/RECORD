@@ -1,0 +1,15 @@
+LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+README.md,sha256=ukl4nCcDjUU3lz-7c0wp0LQvYjuLO3OYaslHPNgUfnU,2017
+pyproject.toml,sha256=ZIp-uDorvfjcelsNcA8UIQ5x3I4UXJQ4x0p-ZcIlK0M,1239
+stickytext/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stickytext/__main__.py,sha256=v8bBJ6HwzYQqLNo7dmhBZIDp1BlcizVBBNEP9rRl1Gc,45
+stickytext/app.py,sha256=loVW_iDUzgA1az3uvXvIRcTfrb9IPzflZGwUQGQFXVQ,5831
+stickytext/window/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stickytext/window/window.cmb,sha256=7_YH3GiJ2vhLV9baR5rZQjtwyF8L__i6BbmUKETDNk4,1905
+stickytext/window/window.py,sha256=rAZBkodUGtvzbXbyDCePIeQyKaAn0LR8lxR3Q7_8ZYc,756
+stickytext/window/window.ui,sha256=HZXXgl98Q94Ad5CUv7WtxVpW1GTh2xvrzqi8sDoqY1c,1647
+stickytext-0.1.0.dist-info/entry_points.txt,sha256=ytgDfv5PWFXFRRP2czL5gFC-qgotG8xydXg3xCq_uwo,53
+stickytext-0.1.0.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+stickytext-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+stickytext-0.1.0.dist-info/METADATA,sha256=IJ7DKSv0zxWYnSTAKdeq3bpK5iT2B_Rxk7oJbWBHTXs,3158
+stickytext-0.1.0.dist-info/RECORD,,
