@@ -1,0 +1,12 @@
+lpynn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lpynn/perceptron/__init__.py,sha256=vZWgPEER1LNHf5io9BcWniqUeiqIWAny7CCVI1TS5jA,107
+lpynn/perceptron/perceptron_main.py,sha256=TMWIOLH5UQoFFRwuXqntZy7QUMSfQidXwg281A_2DSs,3212
+lpynn/regression/__init__.py,sha256=-hN3I5zoijUPp-7YXxcb6-29f6J3thmcQEDVBSw3rUE,107
+lpynn/regression/regression_main.py,sha256=rC1UnnrN4MZhFHMCJ5paj3wWAQz5gk09DdPplicq9WE,2975
+lpynn/utils/__init__.py,sha256=HHptHc8XuORgQlj5peZiQVuKM_kZLaydCkQPficeBrc,84
+lpynn/utils/utils_main.py,sha256=2w-S_5n3GcbhYGoJWn42yi3QIv18fPN4Nhj8KViCgaU,1572
+lpynn-0.0.1.3.dist-info/LICENSE,sha256=0T28YWG1ZYPWNMs-ZT3lufoEeu_UjvzjBcFlOH9XaRw,1072
+lpynn-0.0.1.3.dist-info/METADATA,sha256=9IcLwy2OoPYNf9bw56d9I4BS8bTc-I-t2Lv3HdE_Wa0,1230
+lpynn-0.0.1.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+lpynn-0.0.1.3.dist-info/top_level.txt,sha256=isqCczobJyhWVkA3Kzn-lQYqX04F0QIdXW7XdOJmOHs,6
+lpynn-0.0.1.3.dist-info/RECORD,,
