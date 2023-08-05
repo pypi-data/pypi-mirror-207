@@ -1,0 +1,10 @@
+
+[dev]
+ruff
+mypy
+black
+pytest
+pytest-cov
+cython
+numpy
+gurobipy
