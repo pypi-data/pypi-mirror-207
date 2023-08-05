@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: jais-search
+Version: 0.1.0
+Summary: 
+Author: Jón Levy
+Author-email: jon.levy@pm.me
+Requires-Python: >=3.10,<=3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: httpx (>=0.24.0,<0.25.0)
+Requires-Dist: pydantic (>=1.10.7,<2.0.0)
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+# Simple cli client for ja.is
+
+Personal tool that could be extended to become useful for others
+

@@ -1,0 +1,97 @@
+{
+  "type": "business",
+  "kennitala": "6112182220",
+  "full_name": "101 Guesthouse ehf.",
+  "short_name": "101 Guesthouse ehf.",
+  "alt_foreign_name": null,
+  "is_company": true,
+  "business_type": {
+    "type": "business_type",
+    "code": "E1",
+    "name": {
+      "is": "Einkahlutafélag (ehf)",
+      "en": "Private limited company"
+    }
+  },
+  "business_activity": null,
+  "parent_company_kennitala": null,
+  "director": "2401824679",
+  "legal_address": {
+    "street": {
+      "nominative": "Markarflöt 30",
+      "dative": "Markarflöt 30"
+    },
+    "postal_code": 210,
+    "town": {
+      "nominative": "Garðabær",
+      "dative": "Garðabæ"
+    },
+    "country": {
+      "type": "country",
+      "code": "IS",
+      "name": {
+        "is": "Ísland",
+        "en": "Iceland"
+      }
+    },
+    "municipality": "1300"
+  },
+  "postal_address": {
+    "street": {
+      "nominative": "Borgartún 26",
+      "dative": "Borgartúni 26"
+    },
+    "postal_code": 105,
+    "town": {
+      "nominative": "Reykjavík",
+      "dative": "Reykjavík"
+    },
+    "country": {
+      "code": "IS",
+      "name": {
+        "is": "Ísland",
+        "en": "Iceland"
+      }
+    },
+    "municipality": "0000"
+  },
+  "international_address": null,
+  "receiver": {
+    "kennitala": null,
+    "name": "Þórhallur Bergmann skiptastjóri"
+  },
+  "currency": "ISK",
+  "share_capital": 500000,
+  "remarks": null,
+  "banned": false,
+  "isat": {
+    "type": "business_classification",
+    "code": "68.20.2",
+    "name": {
+      "is": "Leiga atvinnuhúsnæðis",
+      "en": "Letting of non-residential housing"
+    }
+  },
+  "vsk": [
+    {
+      "vsk_number": "133626",
+      "isat": {
+        "code": "55.90.0",
+        "name": {
+          "is": "Önnur gistiaðstaða",
+          "en": "Other accommodation"
+        }
+      },
+      "opened": "2019-01-15",
+      "closed": null
+    }
+  ],
+  "date_bankrupt": "2023-03-16",
+  "date_established": "2018-12-14",
+  "registered_at": "2018-12-21T12:52:27Z",
+  "modified_at": "2023-03-22T00:00:00Z",
+  "updated_at": "2023-03-22T09:38:11Z",
+  "see_also": {
+    "search": "https://api.ja.is/search?q=kennitala:6112182220"
+  }
+}
