@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+config.json.template
+setup.py
+lspsp/__init__.py
+lspsp/lspmon.py
+lspsp/lspnotify.py
+lspsp/lspsp.py
+lspsp/main.py
+lspsp.egg-info/PKG-INFO
+lspsp.egg-info/SOURCES.txt
+lspsp.egg-info/dependency_links.txt
+lspsp.egg-info/entry_points.txt
+lspsp.egg-info/requires.txt
+lspsp.egg-info/top_level.txt
+lspsp/resource/mail.html
