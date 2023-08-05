@@ -1,0 +1,93 @@
+## Action logger client
+
+Action-logger is a simple, yet elegant, behavior tracking library.
+
+
+#### Installation
+
+ActionLogger can be installed with pip:
+```shell
+$ pip install action_logger
+```
+
+#### Dependencies
+
+ActionLogger supports CPython 3.6+, PyPy, and PyPy3.6+.
+
+You can install all dependencies automatically with the following command:
+
+```shell
+$ pip install action_logger[aiohttp, flask, python-dotenv, requests]
+```
+
+
+#### Examples
+
+Register a new service from the action server and obtain information such as `SERIVCE_ID`, `TOKEN`, etc. Then configure the new service information in the action client.
+
+Use `@action_client.action_post` decorator on functions that need to record actions.
+
+Here’s a basic example (for more see the examples section of the docs):
+
+```python
+from action_logger.client import ActionClient
+
+
+action_client = ActionClient(token=TOKEN, service_id=SERIVCE_ID, api_action_post_address=SERVER_HOST)
+
+
+@action_client.action_post
+def func(*args, **kwargs):
+    """
+    Need to record behavior func
+    """
+    pass
+```
+
+#### EXTERNAL LINK
+
+In order to record the external links on the navbar, the following operations need to be performed in the program
+1. In navbar.py, modify the external link like
+```python
+	dbc.DropdownMenuItem(
+		children=r["name"],
+		href=r["link"],
+		external_link=True,
+		target="_blank",
+	)
+```
+to
+```python
+	External_Link( 
+		children=r["name"],
+		href=r["link"],
+		external_link=True,
+		target="_blank",
+	)
+```
+
+2. In manager.py, add the following lines
+```python
+from action_logger_client import action_client
+from action_logger.client import link_solver
+link_solver.redirect_link(flask_app,action_client)
+```
+
+
+#### Records details about the client
+- event_detail   
+	- user_ip  
+	- user_port
+	- user_UA
+	- user_hostname  
+	- user_email  
+	- func_name  
+	- func_parameters   
+	- func_source_code    
+	- func_module_name   
+	- func_doc
+- etc.
+
+#### Note
+
+The default maximum upload time limit for each action is 0.5s.
