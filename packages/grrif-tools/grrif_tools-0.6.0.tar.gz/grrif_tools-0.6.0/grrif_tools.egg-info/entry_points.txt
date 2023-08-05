@@ -1,0 +1,2 @@
+[grrif_tools]
+console_scripts = grrif_tools.cli:main
