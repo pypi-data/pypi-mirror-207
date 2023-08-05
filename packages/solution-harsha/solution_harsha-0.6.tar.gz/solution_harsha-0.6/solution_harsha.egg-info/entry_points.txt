@@ -1,0 +1,2 @@
+[console_scripts]
+stringapp_di = solution_harsha.di_testcode:main
