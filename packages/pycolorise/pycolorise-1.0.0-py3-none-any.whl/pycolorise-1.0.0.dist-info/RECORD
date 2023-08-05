@@ -1,0 +1,16 @@
+pycolorise/__init__.py,sha256=jatSKEHaRlUojkdMS9nVuvaj3ZGdLf24pFyYKLLNJsY,1698
+pycolorise/base.py,sha256=GT6TRtbfqV4uSlTCMmRQCbLpMqKvyJEsFCUhymke3FQ,9227
+pycolorise/constants.py,sha256=CBjwaOiNXTwzSg5HnF71XLt4kSkJYZubcgBEFxUVp-E,3714
+pycolorise/enums.py,sha256=CQa97Dmul5tzprHCb3aVAvRe1LA4yaFYi2pwb4Vm_NI,2607
+pycolorise/styles.py,sha256=G0wgrdcl9OLb05jWrBBRHl3eDjt-tjzYFFqh8pJVslc,4976
+pycolorise/bgColors/__init__.py,sha256=DPS0lUgXU2trcpxEzSNq4PET5CeKyJhR5G5dRPluqwI,60
+pycolorise/bgColors/bright_colors.py,sha256=_kY7xTyaR3F5If1GL-yvwZf0wG4c2jCpc7fNpKVIGpQ,2341
+pycolorise/bgColors/normal_colors.py,sha256=9rOr32wlKobRC48mPEXpZkOvATgUQpCMYbIjgJnRpdU,3601
+pycolorise/colors/__init__.py,sha256=DPS0lUgXU2trcpxEzSNq4PET5CeKyJhR5G5dRPluqwI,60
+pycolorise/colors/bright_colors.py,sha256=h-wSs7a0_Olb0MOA135vYhe_POJd-rdkyl5GIfXyHsk,2218
+pycolorise/colors/normal_colors.py,sha256=EAXo8Q4zzqyvfKdjXFLpFFMgxePpPVCE4LFFkdtpEt0,3409
+pycolorise-1.0.0.dist-info/LICENSE,sha256=Gqru43QeKjKAlRm74sWgIYVVbYHgd7A88_pEtbPVfws,1087
+pycolorise-1.0.0.dist-info/METADATA,sha256=YfAVzp0mFdOXVA_Z6Tvb8WPmASFJNFG2t7jYzHU2oI0,4266
+pycolorise-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pycolorise-1.0.0.dist-info/top_level.txt,sha256=Qb5hBX2v_d6O6GzY209TwGFm-u1PPzneDsLa2WoqLYo,11
+pycolorise-1.0.0.dist-info/RECORD,,
