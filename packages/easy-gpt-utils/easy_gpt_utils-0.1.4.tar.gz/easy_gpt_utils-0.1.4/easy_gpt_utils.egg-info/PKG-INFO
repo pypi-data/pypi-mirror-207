@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: easy-gpt-utils
+Version: 0.1.4
+Summary: Easy GPT utils include 1. chat completion 2. embedding and 3. vector database
+Home-page: https://github.com/ark338/easy_gpt_utils
+Author: Hou Wei
+Author-email: messenger929@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# easy_gpt_utils
+Easy GPT Utils include 1. chat completion 2. embedding and 3. vector database and others to help create app based on GPT and vector search
+
+
