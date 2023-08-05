@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: sparse-filter-convolution
+Version: 0.1.0
+Summary: A CUDA extension for PyTorch to perform sparse filter convolution
+Home-page: https://github.com/tobiaskatsch/sparse_filter_convolution.git
+Author: Tobias Katsch
+Author-email: tobias.katsch42@gmail.com
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+
+# Sparse Filter Convolution
+
+Sparse Filter Convolution is a Python package that provides a PyTorch function to perform fast convolutions with sparse global filters. The package includes a CUDA-optimized implementation of the `sparse_unfold` function, which is used internally by the `sparse_filter_convolution` function to efficiently process the input data.
+
+## Functionality
+
+The main function provided by this package is `sparse_filter_convolution(signal, filter, k)`, which takes the following input arguments:
+
+- `signal`: A 3D PyTorch tensor of shape `(batch_size, dim, seq_len)`, representing a batch of input signals.
+- `filter`: A 2D PyTorch tensor of shape `(dim, seq_len)`, representing a global filter that is applied to the input signals.
+- `k`: An integer, representing the number of top elements to be considered from the filter.
+
+The function returns a 3D PyTorch tensor of shape `(batch_size, dim, seq_len)`, which is the result of applying the sparse filter convolution to the input signals.
+
+In addition to the `sparse_filter_convolution` function, this package also provides a lower-level CUDA-optimized function `sparse_unfold(padded_signal, top_k_indices, n)`, which can be used independently if desired. This function takes a padded signal, the top k indices of the filter, and the length of the signal as input arguments, and returns a sparse unfolded signal as a 4D PyTorch tensor.
+
+## Usage
+
+To use the `sparse_filter_convolution` function in your code, simply import it from the `sparse_filter_convolution` package:
+
+```python
+from sparse_filter_convolution import sparse_filter_convolution
+
