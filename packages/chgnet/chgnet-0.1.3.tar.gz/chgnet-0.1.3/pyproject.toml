@@ -1,0 +1,87 @@
+[build-system]
+requires = ["setuptools>=65.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chgnet"
+version = "0.1.03"
+description = "Pretrained Universal Neural Network Potential for Charge-informed Atomistic Modeling"
+authors = [{ name = "Bowen Deng", email = "bowendeng@berkeley.edu" }]
+requires-python = ">=3.8"
+readme = "README.md"
+license = { text = "Modified BSD" }
+dependencies = [
+    "numpy>=1.21.6",
+    "torch>=1.11.0",
+    "pymatgen>=2022.4.19",
+    "ase>=3.22.0",
+]
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.8",
+    "Topic :: Scientific/Engineering :: Chemistry",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+
+[project.optional-dependencies]
+test = ["pytest", "pytest-cov"]
+# needed to run interactive example notebooks
+crystal-toolkit = ["crystal-toolkit", "jupyter-dash"]
+
+[project.urls]
+Source = "https://github.com/CederGroupHub/chgnet"
+Package = "https://pypi.org/project/chgnet"
+
+[tool.setuptools.packages]
+find = { include = ["chgnet*"], exclude = ["tests", "tests*"] }
+
+[tool.setuptools.package-data]
+"chgnet" = ["*.json"]
+"chgnet.pretrained" = ["*.tar"]
+
+[tool.ruff]
+target-version = "py38"
+line-length = 95
+select = [
+    "B",   # flake8-bugbear
+    "D",   # pydocstyle
+    "E",   # pycodestyle
+    "F",   # pyflakes
+    "I",   # isort
+    "PLE", # pylint error
+    "PLW", # pylint warning
+    "PYI", # flakes8-pyi
+    "Q",   # flake8-quotes
+    "SIM", # flake8-simplify
+    "TID", # tidy imports
+    "UP",  # pyupgrade
+    "W",   # pycodestyle
+    "YTT", # flake8-2020
+]
+ignore = [
+    "B019",    # Use of functools.lru_cache on methods can lead to memory leaks
+    "D100",    # Missing docstring in public module
+    "D104",    # Missing docstring in public package
+    "D205",    # 1 blank line required between summary line and description
+    "PLW2901", # Outer for loop variable overwritten by inner assignment target
+    "SIM105",  # Use contextlib.suppress(FileNotFoundError) instead of try-except-pass
+    "SIM115",  # Use context handler for opening files
+]
+pydocstyle.convention = "google"
+isort.required-imports = ["from __future__ import annotations"]
+
+[tool.ruff.per-file-ignores]
+"tests/*" = ["D103"]
+"examples/*" = ["E402"] # E402 Module level import not at top of file
+
+[tool.coverage.run]
+source = ["chgnet"]
+
+[tool.coverage.report]
+omit = ["tests/*"]
