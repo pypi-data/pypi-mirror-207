@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: deepsim
+Version: 0.0.1a0
+Summary: This toolkit provides deep learning-based similarity utilities.
+Home-page: https://github.com/dhchenx/deepsim
+Author: Donghua Chen
+Author-email: douglaschan@126.com
+License: BSD-3
+Project-URL: Bug Reports, https://github.com/dhchenx/deepsim/issues
+Project-URL: Source, https://github.com/dhchenx/deepsim
+Keywords: text similarity
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: text2vec
+Provides-Extra: dev
+Requires-Dist: check-manifest ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+
+## DeepSim
+This toolkit provides deep learning-based similarity utilities. 
+
+### Example
+
+```python
+'''models for type
+BERT: 
+shibing624/text2vec-base-chinese
+sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+hfl/chinese-macbert-base: 
+uer/roberta-medium-wwm-chinese-cluecorpussmall
+hfl/chinese-roberta-wwm-ext
+Langboat/mengzi-bert-base
+WMD: 
+w2v-light-tencent-chinese
+'''
+from deepsim import *
+sim_utils=SimilarityUtils(type='w2v')
+list_r=sim_utils.get_similarity('I like you!','I love you!')
+print(list_r)
+
+```
+
+### License
+The `deepsim` project is provided by [Donghua Chen](https://github.com/dhchenx). 
