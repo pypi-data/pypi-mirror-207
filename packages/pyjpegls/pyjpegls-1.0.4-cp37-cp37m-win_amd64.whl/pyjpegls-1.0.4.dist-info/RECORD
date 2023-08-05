@@ -1,0 +1,14 @@
+_CharLS.cp37-win_amd64.pyd,sha256=vN4fnB2jixwSTAeh8D66wlEbgmpzmxPxntEurH7lIDU,214016
+jpeg_ls/CharLS.py,sha256=hz6uIYH7hHILX-GPswcOlhwn0nW-3xnpe8prCU1oFDA,2106
+jpeg_ls/_CharLS.pyx,sha256=iGl422ITFdAhXuXf2eh3Pmw3p-ZjhRZircpNtEqDNDI,8118
+jpeg_ls/__init__.py,sha256=ZnQPFevFYTUqxbAHHq-sltqrptJjwDx_RD3LMBL3S2g,117
+jpeg_ls/data_io.py,sha256=dU4_nUJwX0CDzbv_VmdugxD20eCAvWvOSbgHbd_KBmI,708
+jpeg_ls/example.py,sha256=eJjQLHg-17F7MD9vkwOJd87HutONGSaM6r9-i9gwcOo,951
+jpeg_ls/CharLS_src/header.cpp,sha256=ApAvwheREYtgG49cWbbt1eHUtWDw0iH6nA6Xn43H35E,14437
+jpeg_ls/CharLS_src/interface.cpp,sha256=E3pH4LAVw-xAC8aPSGcCWrT-raLx0zX4Kk5n3iekEag,6342
+jpeg_ls/CharLS_src/jpegls.cpp,sha256=OnL0wGn5Sy4R0gcAcpOLkNsM0ZGzc8H6DSPJLetCCjo,4728
+pyjpegls-1.0.4.dist-info/METADATA,sha256=Jd9tVU9vDhKKt3DFRybzbQl3Nr7C7q2WBEm8ebqomfY,4549
+pyjpegls-1.0.4.dist-info/WHEEL,sha256=bipuClDp75Tl92wOCbNQvfy8uWiHgUDTfxkDCRx_slY,101
+pyjpegls-1.0.4.dist-info/license.txt,sha256=MdEd3Vz9VVNJUfTPs1QK6VlvKbYMrMjYedYBEJ2S1e8,1194
+pyjpegls-1.0.4.dist-info/top_level.txt,sha256=NxvM8FRfKIgQ_TECQv55orJrShy_UQXV4Wi1XnpbGxQ,21
+pyjpegls-1.0.4.dist-info/RECORD,,
