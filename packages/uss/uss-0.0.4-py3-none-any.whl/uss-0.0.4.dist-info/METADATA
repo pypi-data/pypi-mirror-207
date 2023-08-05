@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: uss
+Version: 0.0.4
+Summary: Universal source separation (USS) with weakly labelled data.
+Home-page: https://github.com/bytedance/uss
+Author: Qiuqiang Kong
+Author-email: qiuqiangkong@gmail.com
+License: Apache2.0
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: torch (>=2.0.0)
+Requires-Dist: lightning (>=2.0.0)
+Requires-Dist: panns-inference (>=0.1.0)
+Requires-Dist: transformers
+Requires-Dist: h5py
+Requires-Dist: librosa (>=0.10.0.post2)
+Requires-Dist: pandas
+Requires-Dist: tensorboard
+Requires-Dist: einops
+
