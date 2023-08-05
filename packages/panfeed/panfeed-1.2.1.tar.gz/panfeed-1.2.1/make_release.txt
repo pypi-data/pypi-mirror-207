@@ -1,0 +1,5 @@
+python3 -m build
+python3 -m twine upload dist/*
+
+git tag VERSION
+git push --tags
