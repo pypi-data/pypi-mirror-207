@@ -1,0 +1,13 @@
+popdelta/.DS_Store,sha256=lC3vyI6JPuf0UoB5bvxXSlIXkq77_FHTrNUlQJgQAZM,6148
+popdelta/__init__.py,sha256=S6lR0z8i_gKi2OkUL8MOSNa-z-2jtqOTBtaQTBL7pi4,144
+popdelta/format_ouput.py,sha256=9wYJHa5q6z9sVNte6f4eoBM3eHASP-LCJeCOOA8KV2o,11116
+popdelta/hot_encoder.py,sha256=7nNrbWJ__a1H1j8sneF_NK6mPX4sHbpKS2nWC_xlczI,5320
+popdelta/miner.py,sha256=CJs_8uLl5E0MNoJfVzJ1pbuivg4zqiGlZ41Dn72t3Dg,10314
+popdelta/pop_delta.py,sha256=fPrX-0plJt8ZlO5kUd-0JtTMsowYZA2Vrd7nWwH9dkw,5936
+popdelta/pop_delta1.py,sha256=PxteeiQko_H5YR5rhpcJF9aMPcN2CAknEpfrDeAr2L0,4648
+popdelta/pop_delta2.py,sha256=AVqTCJ1mPIQkU0Z_Z4oV61cXHbjryLMXj-YteHjqC4Q,9831
+popdelta/settings.py,sha256=yzNRDZwW5iNJ95KjbYBAyvRIyKvlHke6eICbePnklb0,1377
+popdelta-0.0.2.dist-info/METADATA,sha256=KKbtIcXIrEIW5Q9VBjnL5__i5Nb50tpupL4GMc9kiXs,3431
+popdelta-0.0.2.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+popdelta-0.0.2.dist-info/licenses/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+popdelta-0.0.2.dist-info/RECORD,,

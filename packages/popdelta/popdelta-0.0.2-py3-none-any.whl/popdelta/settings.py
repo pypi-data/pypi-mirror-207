@@ -1,0 +1,39 @@
+"""PopDelta related operator global variables definition"""
+
+ABSOLUTE_LEFT = "LEFT Presence (#)"
+ABSOLUTE_RIGHT = "RIGHT Presence (#)"
+ABSOLUTE_DIFFERENCE = "Presence Difference (Δ)"
+ABSOLUTE_RATIO_LR = "Presence Ratio LEFT/RIGHT"
+ABSOLUTE_RATIO_RL = "Presence Ratio RIGHT/LEFT"
+
+RELATIVE_LEFT = "LEFT Prevalence (%)"
+RELATIVE_RIGHT = "RIGHT Prevalence (%)"
+RELATIVE_DIFFERENCE = "Prevalence Difference (Δ)"
+RELATIVE_RATIO_LR = "Prevalence Ratio LEFT/RIGHT"
+RELATIVE_RATIO_RL = "Prevalence Ratio RIGHT/LEFT"
+
+CUMULATIVE_LEFT = "LEFT TARGET (#)"
+CUMULATIVE_RIGHT = "RIGHT TARGET (#)"
+CUMULATIVE_DIFFERENCE = "TARGET Difference (Δ)"
+CUMULATIVE_RATIO_LR = "Target Ratio LEFT/RIGHT"
+CUMULATIVE_RATIO_RL = "Target Ratio RIGHT/LEFT"
+
+CONTRIBUTION_LEFT = "LEFT TARGET Share (%)"
+CONTRIBUTION_RIGHT = "RIGHT TARGET Share (%)"
+CONTRIBUTION_DIFFERENCE = "TARGET Share Difference (Δ)"
+CONTRIBUTION_RATIO_LR = "Share Ratio LEFT/RIGHT"
+CONTRIBUTION_RATIO_RL = "Share Ratio RIGHT/LEFT"
+
+AVERAGE_LEFT = "LEFT Average TARGET"
+AVERAGE_RIGHT = "RIGHT Average TARGET"
+AVERAGE_DIFFERENCE = "Average TARGET Difference (Δ)"
+DIFFERENCE_GLOABL_AVERAGE = "Difference with Global Average (Δ)"
+AVERAGE_RATIO_LR = "Average Ratio LEFT/RIGHT"
+AVERAGE_RATIO_RL = "Average Ratio RIGHT/LEFT"
+
+
+RISK_RATIO_LR = "Risk Ratio LEFT over RIGHT"
+RISK_RATIO_RL = "Risk Ratio RIGHT over LEFT"
+
+
+LENGTH = "Length"
