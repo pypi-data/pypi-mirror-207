@@ -1,0 +1,3 @@
+[console_scripts]
+headx = headtailx.headx:main
+tailx = headtailx.tailx:main

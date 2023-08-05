@@ -1,0 +1,14 @@
+LICENSE
+README.rst
+setup.py
+headtailx/__init__.py
+headtailx/headtailx_common.py
+headtailx/headx.py
+headtailx/tailx.py
+headtailx.egg-info/PKG-INFO
+headtailx.egg-info/SOURCES.txt
+headtailx.egg-info/dependency_links.txt
+headtailx.egg-info/entry_points.txt
+headtailx.egg-info/requires.txt
+headtailx.egg-info/top_level.txt
+tests/test_headtailx.py

@@ -1,0 +1,8 @@
+pandas
+pyarrow
+openpyxl
+fastparquet
+tables
+
+[test]
+pytest
