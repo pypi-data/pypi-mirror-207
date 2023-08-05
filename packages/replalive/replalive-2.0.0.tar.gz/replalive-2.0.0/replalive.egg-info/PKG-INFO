@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: replalive
+Version: 2.0.0
+Summary: Keep your replit project online 24/7!
+Author: Hologramsteve#1900 on discord
+
+# ReplAlive
+## Keep your replit project online 24/7
+
+# How to use
+1. Enter ```pip install replalive``` into your shell and press enter
+2. Enter ```from replalive import keep_alive``` at the top of your code
+3. Enter the code ```keep_alive()``` in your code. Before (for example) client.run() is called, not after that!
+4. Go to https://uptimerobot.com/, register and make a monitor.
+5. The monitor settings will be:
+Monitor Type: Ping
+Friendly Name: my-monitor
+IP (or Host): https://PROJECTNAME.MYUSERNAME.repl.co
+Monitoring Interval: Every 5 minutes (1 minute costs money)
