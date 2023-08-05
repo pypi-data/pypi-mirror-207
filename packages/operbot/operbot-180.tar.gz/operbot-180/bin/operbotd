@@ -1,0 +1,114 @@
+#!/usr/bin/env python3
+# This file is placed in the Public Domain.
+# pylint: disable=C,I,R,W,E0611,E0402
+
+
+__author__ = "B.H.J. Thate <thatebhj@gmail.com>"
+__version__ = 1
+
+
+import getpass
+import pwd
+import os
+import sys
+import termios
+import time
+import traceback
+
+
+from operbot.clients import Client
+from operbot.command import command
+from operbot.errored import Errors
+from operbot.loggers import Logging
+from operbot.message import parse
+from operbot.objects import update
+from operbot.persist import Persist
+from operbot.scanner import scandir, scanpkg, importer, starter, threader
+from operbot.runtime import Cfg, date
+from operbot.threads import launch
+
+
+import operbot.modules
+
+
+Persist.workdir = "/var/lib/operbot/"
+
+
+def cprint(txt):
+    if "v" in Cfg.opts:
+        print(txt)
+        sys.stdout.flush()
+
+
+def daemon():
+    pid = os.fork()
+    if pid != 0:
+        os._exit(0)
+    os.setsid()
+    os.umask(0)
+    sis = open('/dev/null', 'r')
+    os.dup2(sis.fileno(), sys.stdin.fileno())
+    sos = open('/dev/null', 'a+')
+    ses = open('/dev/null', 'a+')
+    os.dup2(sos.fileno(), sys.stdout.fileno())
+    os.dup2(ses.fileno(), sys.stderr.fileno())
+
+
+def main():
+    daemon()
+    scanpkg(operbot.modules, importer, doall=True)
+    for mod in scanpkg(operbot.modules, threader, doall=True):
+        thr = getattr(mod, "_thr", None)
+        if thr:
+            thr.join()
+    while 1:
+        time.sleep(1.0)
+        waiter()
+
+
+def privileges(username):
+    try:
+        pwnam = pwd.getpwnam(username)
+    except KeyError:
+        username = getpass.getuser()
+        try:
+            pwnam = pwd.getpwnam(username)
+        except KeyError:
+            return username
+    if os.getuid() != 0:
+        return username
+    os.setgroups([])
+    os.setgid(pwnam.pw_gid)
+    os.setuid(pwnam.pw_uid)
+    return username
+
+
+def waiter():
+    got = []
+    for ex in Errors.errors:
+        if not Cfg.silent:
+            traceback.print_exception(type(ex), ex, ex.__traceback__)
+        got.append(ex)
+    for exc in got:
+        Errors.errors.remove(exc)
+
+
+def wrap(func):
+    fds = sys.stdin.fileno()
+    gotterm = True
+    try:
+        old = termios.tcgetattr(fds)
+    except termios.error:
+        gotterm = False
+    try:
+        func()
+    except (EOFError, KeyboardInterrupt):
+        print('')
+    finally:
+        if gotterm:
+            termios.tcsetattr(fds, termios.TCSADRAIN, old)
+        waiter()
+
+
+if __name__ == "__main__":
+    wrap(main)
