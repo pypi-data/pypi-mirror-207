@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: wombatoo
+Version: 0.0.3
+Summary: A Data-Ops tool for devs
+Home-page: https://github.com/prashdash112/wombat
+Author: Prashant Singh
+License: Please refer to the readme
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: numpy (==1.23.5)
+Requires-Dist: pandas (==1.5.2)
+Requires-Dist: pyhtml2pdf (==0.0.6)
+Requires-Dist: ydata-profiling (==4.1.1)
+
+Please refer to: README
