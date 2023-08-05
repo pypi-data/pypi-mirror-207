@@ -1,0 +1,11 @@
+## Include
+include README.md COPYING COPYING.lesser NOTICE requirements.txt
+recursive-include compiler *.py *.tl *.tsv *.txt
+recursive-include tests *.py
+
+## Exclude
+prune pyrosex/errors/exceptions
+prune pyrosex/raw/functions
+prune pyrosex/raw/types
+prune pyrosex/raw/base
+exclude pyrosex/raw/all.py
