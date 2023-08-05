@@ -1,0 +1,8 @@
+fetcharoo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fetcharoo/downloader.py,sha256=AZ9_BpnJhEurJZ6FnRPD0CCt9Yw1DHjwGlvT3pA4Rd8,1050
+fetcharoo/fetcharoo.py,sha256=qux-8myqYHZjtdFFOKKKJoFQU70yq5VtlifJNQrRj10,6415
+fetcharoo/file_utils.py,sha256=FXpGrQ0BklPRJdlHLPylRHBemVpBzuSDeol2CAxon_k,508
+fetcharoo/pdf_utils.py,sha256=x3AfC3STBGvou8qsagc0xrhSDEj3MBV2QEejkMC8YkU,2408
+fetcharoo-0.0.1.dist-info/METADATA,sha256=WVX0BbJx0H9MpVWvaIOSqMiSRzQyAfwAzer2Wm7AebQ,3918
+fetcharoo-0.0.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+fetcharoo-0.0.1.dist-info/RECORD,,
