@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+rayserverdl/version.py
+ryserverdl.egg-info/PKG-INFO
+ryserverdl.egg-info/SOURCES.txt
+ryserverdl.egg-info/dependency_links.txt
+ryserverdl.egg-info/requires.txt
+ryserverdl.egg-info/top_level.txt
+ryserverdl.egg-info/zip-safe
