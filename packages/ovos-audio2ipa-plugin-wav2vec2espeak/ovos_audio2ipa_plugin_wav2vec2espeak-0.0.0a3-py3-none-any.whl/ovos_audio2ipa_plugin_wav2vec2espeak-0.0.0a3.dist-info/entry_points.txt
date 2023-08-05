@@ -1,0 +1,3 @@
+[ovos.plugin.audio2ipa]
+ovos-audio2ipa-plugin-wav2vec2espeak = ovos_audio2ipa_plugin_wav2vec2espeak:Wav2Vec2espeak
+
