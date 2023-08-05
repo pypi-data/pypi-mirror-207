@@ -1,0 +1,13 @@
+transformgpt/__init__.py,sha256=WFOYP2l-ZYbQhwdXpPtioVhLfgchrTZnX7lW5tv4ayQ,50
+transformgpt/classify_main.py,sha256=bjZsHQZ40HKf8WPrEX8X6yH3xBS9wlbEQpCOWQSkb58,1195
+transformgpt/source_utils.py,sha256=2M2nDkocf_0vBckDv15_RXA1cqcKeJsbEd5wxJ9vLhA,3400
+transformgpt/transform_main.py,sha256=aQZhiuD9PRtlEaj1KeblFr4642GkJZMZZdHRQQbBabQ,1176
+transformgpt/transformgpt.py,sha256=qo4ULiyA5Oia0EcrOtD_DLJKoKnkBl36pUNn31RQVTw,5116
+transformgpt-0.1.3.data/scripts/classify_main.py,sha256=bjZsHQZ40HKf8WPrEX8X6yH3xBS9wlbEQpCOWQSkb58,1195
+transformgpt-0.1.3.data/scripts/transform_main.py,sha256=aQZhiuD9PRtlEaj1KeblFr4642GkJZMZZdHRQQbBabQ,1176
+transformgpt-0.1.3.dist-info/LICENSE,sha256=1LIzo-mPsccIey-O8NeAv0dLJ4M25D8B5zFDKZmHqR0,1063
+transformgpt-0.1.3.dist-info/METADATA,sha256=hXueyUNGSOXyY6jCw9bqGsM0sGqPHNX-PF1e-oOo4fo,7716
+transformgpt-0.1.3.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+transformgpt-0.1.3.dist-info/entry_points.txt,sha256=bMWbgJRu0ODIRHpbvItkPxuKj0QEgDKt0HkFJadXELk,112
+transformgpt-0.1.3.dist-info/top_level.txt,sha256=vH0gWsmv3PhK7JItdtMfTJqYk4CIfELQO_ZV5LDLvsM,13
+transformgpt-0.1.3.dist-info/RECORD,,
