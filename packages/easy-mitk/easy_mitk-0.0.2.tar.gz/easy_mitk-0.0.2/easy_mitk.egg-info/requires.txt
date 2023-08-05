@@ -1,0 +1,7 @@
+pydicom
+nibabel
+pylibjpeg-rle
+dicom2nifti
+numpy
+vtk
+pylibjpeg-rle
