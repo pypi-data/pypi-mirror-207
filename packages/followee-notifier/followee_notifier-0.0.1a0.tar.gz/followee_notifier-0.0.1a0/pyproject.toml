@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "followee-notifier"
+version = "0.0.1-alpha"
+description = "Get updates of your followees"
+authors = ["Joseph Chris <joseph@josephcz.xyz>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "followee_notifier"}]
+repository = "https://github/baobao1270/followee-notifier"
+
+[tool.poetry.scripts]
+followee-notifier = "followee_notifier.cli:main"
+followee-notifier-telegram-list-chats = "followee_notifier.notify.telegram:list_chats"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.30.0"
+toml = "^0.10.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

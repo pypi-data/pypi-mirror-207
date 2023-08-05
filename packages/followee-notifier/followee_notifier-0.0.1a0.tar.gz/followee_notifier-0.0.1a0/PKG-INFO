@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: followee-notifier
+Version: 0.0.1a0
+Summary: Get updates of your followees
+Home-page: https://github/baobao1270/followee-notifier
+License: MIT
+Author: Joseph Chris
+Author-email: joseph@josephcz.xyz
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: requests (>=2.30.0,<3.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Project-URL: Repository, https://github/baobao1270/followee-notifier
+Description-Content-Type: text/markdown
+
+# Followee Notifier
+
+```bash
+pip install followee-notifier
+followee-notifier --help
+```
+
