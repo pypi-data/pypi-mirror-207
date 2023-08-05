@@ -1,0 +1,9 @@
+README.md
+setup.py
+global_contrast_factor/__init__.py
+global_contrast_factor/global_contrast_factor.py
+global_contrast_factor_python.egg-info/PKG-INFO
+global_contrast_factor_python.egg-info/SOURCES.txt
+global_contrast_factor_python.egg-info/dependency_links.txt
+global_contrast_factor_python.egg-info/requires.txt
+global_contrast_factor_python.egg-info/top_level.txt
