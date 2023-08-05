@@ -1,0 +1,3 @@
+[console_scripts]
+hamqtt_fs_publisher=hamqtt_fs_publisher.__main__:main
+

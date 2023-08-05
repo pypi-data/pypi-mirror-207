@@ -1,0 +1,275 @@
+{
+    "title": "Config",
+    "description": "Base configuration.",
+    "type": "object",
+    "properties": {
+        "mqtt": {
+            "title": "Mqtt",
+            "description": "MQTT configuration.",
+            "allOf": [
+                {
+                    "$ref": "#/definitions/Mqtt"
+                }
+            ]
+        },
+        "devices": {
+            "title": "Devices",
+            "description": "Device configuration.",
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/HaDevice"
+            }
+        }
+    },
+    "required": [
+        "mqtt"
+    ],
+    "definitions": {
+        "Mqtt": {
+            "title": "Mqtt",
+            "description": "MQTT configuration.",
+            "type": "object",
+            "properties": {
+                "client_id": {
+                    "title": "Client Id",
+                    "description": "MQTT client ID.",
+                    "type": "string"
+                },
+                "host": {
+                    "title": "Host",
+                    "description": "MQTT broker host.",
+                    "default": "localhost",
+                    "type": "string"
+                },
+                "port": {
+                    "title": "Port",
+                    "description": "MQTT broker port number.",
+                    "default": 1883,
+                    "type": "integer"
+                },
+                "user": {
+                    "title": "User",
+                    "description": "Optional MQTT username.",
+                    "type": "string"
+                },
+                "password": {
+                    "title": "Password",
+                    "description": "Optional MQTT password.",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "client_id"
+            ]
+        },
+        "EntityCategory": {
+            "title": "EntityCategory",
+            "description": "Enum representing the different entity classes introduced in 2021.11.\nChoose CONFIG for entities that configure a device and\nDIAGNOSTIC for entities that reveal additional read-only information about a device",
+            "enum": [
+                "",
+                "config",
+                "diagnostic"
+            ]
+        },
+        "HaDeviceClass": {
+            "title": "HaDeviceClass",
+            "description": "Enum representing the different sensor classes homeassistant provides\nSee the following links for more info:\n- https://www.home-assistant.io/integrations/cover/\n- for sensors: https://www.home-assistant.io/integrations/sensor/\n- for binary sensors: https://www.home-assistant.io/integrations/binary_sensor/",
+            "enum": [
+                null,
+                "apparent_power",
+                "aqi",
+                "atmospheric_pressure",
+                "battery",
+                "carbon_dioxide",
+                "carbon_monoxide",
+                "current",
+                "data_rate",
+                "data_size",
+                "date",
+                "distance",
+                "duration",
+                "energy",
+                "enum",
+                "frequency",
+                "gas",
+                "humidity",
+                "illuminance",
+                "irradiance",
+                "monetary",
+                "nitrogen_dioxide",
+                "nitrogen_monoxide",
+                "nitrous_oxide",
+                "ozone",
+                "pm1",
+                "pm10",
+                "pm25",
+                "power_factor",
+                "power",
+                "precipitation",
+                "precipitation_intensity",
+                "pressure",
+                "reactive_power",
+                "signal_strength",
+                "sound_pressure",
+                "speed",
+                "sulphur_dioxide",
+                "temperature",
+                "timestamp",
+                "volatile_organic_compounds",
+                "voltage",
+                "volume",
+                "water",
+                "weight",
+                "wind_speed",
+                "battery_charging",
+                "cold",
+                "connectivity",
+                "door",
+                "garage_door",
+                "heat",
+                "light",
+                "lock",
+                "moisture",
+                "motion",
+                "moving",
+                "occupancy",
+                "opening",
+                "plug",
+                "presence",
+                "problem",
+                "running",
+                "safety",
+                "smoke",
+                "sound",
+                "tamper",
+                "update",
+                "vibration",
+                "window",
+                "awning",
+                "blind",
+                "curtain",
+                "damper",
+                "garage",
+                "gate",
+                "shade",
+                "shutter",
+                "outlet",
+                "switch",
+                "restart",
+                "dehumidifier",
+                "humidifier"
+            ]
+        },
+        "Sensor": {
+            "title": "Sensor",
+            "description": "Sensor configuration.",
+            "type": "object",
+            "properties": {
+                "read_path": {
+                    "title": "Read Path",
+                    "description": "Path to read the value from.",
+                    "type": "string",
+                    "format": "path"
+                },
+                "read_interval": {
+                    "title": "Read Interval",
+                    "description": "Read interval in seconds.",
+                    "default": 10.0,
+                    "type": "number"
+                },
+                "read_strip": {
+                    "title": "Read Strip",
+                    "description": "Perform a strip operation on the read value.",
+                    "default": true,
+                    "type": "boolean"
+                },
+                "unit": {
+                    "title": "Unit",
+                    "description": "Unit of measurement, example: \"\u00b0C\",",
+                    "default": "",
+                    "type": "string"
+                },
+                "device_class": {
+                    "description": "An entry of the device class enum containing the device class as in https://www.home-assistant.io/integrations/sensor/#device-class",
+                    "allOf": [
+                        {
+                            "$ref": "#/definitions/HaDeviceClass"
+                        }
+                    ]
+                }
+            },
+            "required": [
+                "read_path",
+                "device_class"
+            ]
+        },
+        "Entity": {
+            "title": "Entity",
+            "description": "MQTT device configuration.",
+            "type": "object",
+            "properties": {
+                "name": {
+                    "title": "Name",
+                    "description": "Friendly name of the device to be shown in HomeAssistant.",
+                    "type": "string"
+                },
+                "unique_id": {
+                    "title": "Unique Id",
+                    "description": "Unique id to identify this device against HomeAssistant.",
+                    "type": "string"
+                },
+                "entity_type": {
+                    "description": "Choose CONFIG for entities that configure a device and DIAGNOSTIC for entities that reveal additional read-only information about a device",
+                    "default": "",
+                    "allOf": [
+                        {
+                            "$ref": "#/definitions/EntityCategory"
+                        }
+                    ]
+                },
+                "sensor": {
+                    "title": "Sensor",
+                    "description": "Sensor specification.",
+                    "allOf": [
+                        {
+                            "$ref": "#/definitions/Sensor"
+                        }
+                    ]
+                }
+            },
+            "required": [
+                "name",
+                "unique_id"
+            ]
+        },
+        "HaDevice": {
+            "title": "HaDevice",
+            "description": "HomeAssistant device grouping multiple entities.",
+            "type": "object",
+            "properties": {
+                "name": {
+                    "title": "Name",
+                    "description": "Friendly name of the device.",
+                    "type": "string"
+                },
+                "unique_id": {
+                    "title": "Unique Id",
+                    "description": "One unique identifier that is used by HA to assign entities to this device.",
+                    "type": "string"
+                },
+                "entities": {
+                    "title": "Entities",
+                    "description": "List of MQTT entities.",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Entity"
+                    }
+                }
+            },
+            "required": [
+                "name",
+                "unique_id"
+            ]
+        }
+    }
+}
