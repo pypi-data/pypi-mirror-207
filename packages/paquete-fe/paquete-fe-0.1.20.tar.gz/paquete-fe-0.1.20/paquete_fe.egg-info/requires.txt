@@ -1,0 +1,6 @@
+lxml
+SQLAlchemy
+pyOpenSSL
+zeep
+requests
+pytz
