@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: edit-anything
+Version: 0.0.4
+Summary: EditAnything
+Home-page: https://github.com/xxx/xxxx
+Author: wfbi
+Author-email: myname@example.com
+License: Apache License 2.0
+Keywords: EditAnything
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi (==0.95.1)
+Requires-Dist: uvicorn[standard] (==0.22.0)
+Requires-Dist: pydantic (==1.10.7)
+Requires-Dist: starlette (==0.26.1)
+Requires-Dist: diffusers
+Requires-Dist: transformers
+Requires-Dist: accelerate
+Requires-Dist: scipy
+Requires-Dist: safetensors
+
+# Install EditAnything In Local
+
+```shell
+bash run.sh
+```
+
+## cli发布
+
+> 发布新版本，需要增加setup.py下version版本号
+
+```
+# 构建
+python setup.py sdist bdist_wheel
+# 发布
+twine upload dist/*
+```
+
+## cli本地安装及访问
+
+```
+# 客户端安装
+pip install editanything -U
+# 启动服务
+editanything
+# 客户端访问
+http://{ip:9911}
+```
