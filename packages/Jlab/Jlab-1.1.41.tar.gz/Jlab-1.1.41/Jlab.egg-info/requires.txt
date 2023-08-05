@@ -1,0 +1,4 @@
+retry
+PyGithub
+pycryptodome
+wget
