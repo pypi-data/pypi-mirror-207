@@ -1,0 +1,12 @@
+README.md
+setup.py
+graphdisplay/__init__.py
+graphdisplay/general_config.py
+graphdisplay/graph.py
+graphdisplay/graphdisplay.py
+graphdisplay/json_manager.py
+graphdisplay.egg-info/PKG-INFO
+graphdisplay.egg-info/SOURCES.txt
+graphdisplay.egg-info/dependency_links.txt
+graphdisplay.egg-info/top_level.txt
+graphdisplay/store/__init__.py
