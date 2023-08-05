@@ -1,0 +1,8 @@
+cffi>=1.1
+
+[dev]
+IPython
+black
+docutils
+jsonschema
+pyyaml
