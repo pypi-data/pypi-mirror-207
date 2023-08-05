@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "apasswordmanager"
+version = "0.1.1"
+description = ""
+authors = ["jo-project <jo.project.0911@gmail.com>"]
+readme = "README.md"
+license = "LGPL-2.1-or-later"
+packages = [{include = "apasswordmanager", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+rich = "^13.3.5"
+halo = "^0.0.31"
+termtosvg = "^1.1.0"
+pycryptodome = "^3.17"
+pyperclip = "^1.8.2"
+plyer = "^2.1.0"
+
+[tool.poetry.scripts]
+apasswordmanager = "apasswordmanager.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
