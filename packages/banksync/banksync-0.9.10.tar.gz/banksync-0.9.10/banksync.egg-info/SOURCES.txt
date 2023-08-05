@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+banksync/__init__.py
+banksync/banksync.py
+banksync/banksync_common.py
+banksync.egg-info/PKG-INFO
+banksync.egg-info/SOURCES.txt
+banksync.egg-info/dependency_links.txt
+banksync.egg-info/requires.txt
+banksync.egg-info/top_level.txt
+bin/bank
+bin/banksync
+tests/test_setup.py
