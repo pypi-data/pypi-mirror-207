@@ -1,0 +1,11 @@
+serial_packets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+serial_packets/_packet_decoder.py,sha256=G2a5MWaZLBN18F5okNOJJbzbN3xN41_qzSLiYtxiLPo,7036
+serial_packets/_packet_encoder.py,sha256=eyE7R2zKlbhRrCgutfNmfHqmewAVVBJa1kKoVlz6Kpo,4061
+serial_packets/_packets.py,sha256=0Zk-OccMzxIFFjWLe_8Bm55qMR18O4n82XprZ79NOzU,960
+serial_packets/client.py,sha256=cTFDJQge87TlfLrlJIDDRQf9BoNs1vwbkyaDE-WTfy0,17547
+serial_packets/packets.py,sha256=ApFM5aFZU4VHFtVMLbaO4eJUYRAJiUjGud2OizGBE3c,1474
+serial_packets/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+serial_packets-0.1.0.dist-info/METADATA,sha256=y7JvAuF9jfIBEIzi1qWEAgTroITqvtbtM-W6mcbxP_U,14014
+serial_packets-0.1.0.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+serial_packets-0.1.0.dist-info/licenses/LICENSE,sha256=9Ofzc7m5lpUDN-jUGkopOcLZC3cl6brz1QhKInF60yg,7169
+serial_packets-0.1.0.dist-info/RECORD,,
