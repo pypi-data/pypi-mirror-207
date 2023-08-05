@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: dgh
+Version: 0.0.3
+Summary: Computing the Gromov–Hausdorff distance
+Project-URL: Homepage, https://github.com/pypa/dgh
+Project-URL: Bug Tracker, https://github.com/pypa/dgh/issues
+Author-email: Vladyslav Oles <vlad.oles@proton.me>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# dGH
+
+Computes the Gromov–Hausdorff distance $d_\text{GH}(X, Y)$ by solving (a parametric family of) quadratic minimizations with affine constraints, whose solutions are guaranteed to deliver $d_\text{GH}(X, Y)$ for sufficiently large value of the parameter $c$. The minimizations are solved using the Frank-Wolfe algorithm in $O(n^3)$ time per its iteration, where $n = |X| + |Y|$ is the total number of points. Even when the algorithm fails to find a global minimum, the resulting solution provides an upper bound for $d_\text{GH}(X, Y)$.
+
+A manuscript describing the underlying theory is currently in preparation.
