@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: superlive_sdk
+Version: 1.0.0
+Summary: Superlive Python SDK
+Home-page: https://github.com/sophatahsher/superlive_sdk_python
+Author: DR-Tech
+Author-email: dev@dr-tech.co
+License: DR-Tech License 2.0
+Keywords: Superlive
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Superlive Streaming Host SDK
