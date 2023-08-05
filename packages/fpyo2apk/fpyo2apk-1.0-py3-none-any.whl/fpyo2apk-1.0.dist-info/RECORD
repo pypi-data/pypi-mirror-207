@@ -1,0 +1,17 @@
+fpyo2apk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fpyo2apk/build.py,sha256=T6NIJxI8qalXlKi_v5U67XsVrpyCtQjheGeMPbGeD-M,759
+fpyo2apk/Tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fpyo2apk/Tools/check_system.py,sha256=XzQDMWAuEKSFn4Ge7TRgPTI18vu-BWnWLAj2n1EPVzg,124
+fpyo2apk/Tools/check_venv.py,sha256=Gz6Rn3RPUBr-YO6ZmIv85WrQ6RrRgZSgcjC2pO6H8Ic,137
+fpyo2apk/Tools/unzip_assets.py,sha256=rdmUvBL5ZG0o3nXwUI1DdBm4VNjiCvr58tFSwzcgyRE,1285
+fpyo2apk/assets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fpyo2apk/assets/fpyo2apkdist.zip,sha256=eEW-KrmOXYcHC2UhucEwGpaN47C6TkKv8l2bauxrWg8,495603
+fpyo2apk/beeware_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fpyo2apk/beeware_tools/edit_beeware_project.py,sha256=VcA7I37PpoEij7xd8pQuoC99PPjv0-gRgj9yDVLn8_Q,2564
+fpyo2apk/beeware_tools/the_app_py.py,sha256=cQBoGjqFHbpnBeVAkCM0roz7jXbBw8kk1SC6NUcHrYE,1906
+fpyo2apk/beeware_tools/the_localhost_py.py,sha256=MhSi0MC6YabCjaxUy-oSeVlvRT6COddBx4skpoUCe0c,977
+fpyo2apk-1.0.dist-info/LICENSE,sha256=wSBZDZIl5_jGUdNAgvaCO_PvCzL768-Sl6saWxpTOLQ,1071
+fpyo2apk-1.0.dist-info/METADATA,sha256=Iv4x5uaA8e72wTnwMHfQRsMKb6VDasT8wKrzCZ7_4AU,402
+fpyo2apk-1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+fpyo2apk-1.0.dist-info/top_level.txt,sha256=E8EMAHAWyAGKaZ8syEpBVVtAEd_qrkDFUtlBt6Ndmn4,9
+fpyo2apk-1.0.dist-info/RECORD,,
