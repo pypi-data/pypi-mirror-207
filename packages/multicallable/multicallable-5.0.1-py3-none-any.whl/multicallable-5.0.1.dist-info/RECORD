@@ -1,0 +1,10 @@
+multicallable/__init__.py,sha256=lI9L55895OQki14VNMvbtKqxfXVYFJJQImILmpA2cBE,424
+multicallable/multicallable.py,sha256=v6CtMAog1cigrsXwKB9m4rKMMtevmMlSSLRj7ql4NY4,3990
+multicallable/multicall/__init__.py,sha256=3bbnmxZvl526RVyq8gi3A-OsTLz4Et8wonJqwpbKh4c,117
+multicallable/multicall/constants.py,sha256=19N6JgjRFqFmW9Lou6UamjFKZLQnymn6lRKT3KIwRkg,7362
+multicallable/multicall/multicall.py,sha256=eMwo0DE2dOG4O6UrptbRZq22iHrQXqzOx2Fv_7Kpf7U,4886
+multicallable-5.0.1.dist-info/LICENCE,sha256=24QBdSPslJ60N3ixB5mq3rS3dkirRrcP2zwniCyv8WM,1074
+multicallable-5.0.1.dist-info/METADATA,sha256=XBlYeFiD13LX4mLtIgDio0de74Hq0su-qxjox9OOkIk,4131
+multicallable-5.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+multicallable-5.0.1.dist-info/top_level.txt,sha256=7-yOxwGgSubeXb3uMOZaa600pg2tD8j35zKv9ihopQw,14
+multicallable-5.0.1.dist-info/RECORD,,
