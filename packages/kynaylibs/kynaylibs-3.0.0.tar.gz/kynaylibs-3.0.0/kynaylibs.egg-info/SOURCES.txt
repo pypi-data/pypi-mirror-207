@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+kynaylibs.egg-info/PKG-INFO
+kynaylibs.egg-info/SOURCES.txt
+kynaylibs.egg-info/dependency_links.txt
+kynaylibs.egg-info/requires.txt
+kynaylibs.egg-info/top_level.txt

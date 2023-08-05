@@ -1,0 +1,9 @@
+aiohttp
+pyaes
+pymongo
+pyrogram
+python-decouple
+python-dotenv
+tgcrypto
+uvloop
+wget
