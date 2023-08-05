@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: MecSimCalc
+Version: 0.0.1
+Summary: Useful functions for MecSimCalc.com
+Author: MecSimCalc
+Author-email: <info@mecsimcalc.com>
+Keywords: python,MecSimCalc,Calculator,Simple
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+
+# MecSimCalc-utils
