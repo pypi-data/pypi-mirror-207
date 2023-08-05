@@ -1,0 +1,10 @@
+pyghostdb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyghostdb/ghost_storage.py,sha256=sbCuYXn096OkRHEbIqmFce5vaVV61Jt7YDTCQZGs6s4,2753
+pyghostdb/hnswlib_index.py,sha256=XKuaq2cnPHLxN4CanrTXUpN2NvJqBXwimSBVR0q2tUE,3068
+pyghostdb/parquet_conversion.py,sha256=C4GBW6812GShFReU1G3phN9ZrALE-O0CTXuSGoeq5CM,2281
+pyghostdb/test_hnsw.py,sha256=IGyXLc1V6oVBOEgfwQipoYeoniubE-K2f_isCZHC5Jo,2376
+pyghostdb/text_storage.py,sha256=X9Fct5ZbrtDUTTjrSKfgNC5OAmJGd8mUa20bOa-X4No,2284
+pyghostdb-0.0.4.dist-info/METADATA,sha256=6BM15c0xO4J7Og744s_CXezP5Nf203QCdPWr5x1dWhQ,320
+pyghostdb-0.0.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pyghostdb-0.0.4.dist-info/top_level.txt,sha256=KQIxB4ES8r0VOLOLHTimiIjM0BwNfMaP0gvLm1rVdWU,10
+pyghostdb-0.0.4.dist-info/RECORD,,
