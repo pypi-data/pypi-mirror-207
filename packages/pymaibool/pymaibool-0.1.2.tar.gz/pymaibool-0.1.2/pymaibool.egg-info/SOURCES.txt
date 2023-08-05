@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pymaibool/__init__.py
+pymaibool/pymaibool.py
+pymaibool.egg-info/PKG-INFO
+pymaibool.egg-info/SOURCES.txt
+pymaibool.egg-info/dependency_links.txt
+pymaibool.egg-info/top_level.txt
+test/test.py
