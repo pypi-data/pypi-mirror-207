@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+appshwnd/LICENSE
+appshwnd/README.md
+appshwnd/__init__.py
+appshwnd/requirements.txt
+appshwnd/thirdparty.json
+appshwnd.egg-info/PKG-INFO
+appshwnd.egg-info/SOURCES.txt
+appshwnd.egg-info/dependency_links.txt
+appshwnd.egg-info/requires.txt
+appshwnd.egg-info/top_level.txt
