@@ -1,0 +1,12 @@
+testz/__init__.py,sha256=_Y5CSlqJmAaIuiRxAPsxKxhkYKsKHc0Ww1VhTktiQQ0,34
+testz/cli.py,sha256=NfuMVkRM2LhPBUeINMca693uvfL9k0hiy6U7DuTYwXY,1289
+testz/operaciones.py,sha256=x_LUsigWX6FJQJRMkH2UksronMkXOV4vXMdvX-9jO2U,365
+testz/pc.py,sha256=rhPr-5XpNabGSr83oJNxzOk0mZ0PADDEaYsWhu4TOi4,343
+testz/struct/404.py,sha256=22-JDsShDE9rx0XS1oT5Eonf4EYCbpxFEPwxMw_F2B8,886
+testz/struct/index.py,sha256=wAWUERJeR_XyjOULmZ8mUZ5RqzDBx7lFga5H3BGlz18,1105
+testz/struct/main.py,sha256=RnV4wxk5zsvv0TeDAFB0sB_89uJpgJ-GWgCjH2-vkFE,209
+testz-0.1.0.dist-info/METADATA,sha256=UViWCHPxiwF_jJlE5XxyplQzspmBHgVCYsmHfwtDg3Y,54
+testz-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+testz-0.1.0.dist-info/entry_points.txt,sha256=e0qQ8J6nVCqZzClJQNubRkUURFcXQQ2xT3uGZGFMz4Q,37
+testz-0.1.0.dist-info/top_level.txt,sha256=sacRSweErqwbRFid6qhK4ThL0de27RkxSMoGO1VSAs8,6
+testz-0.1.0.dist-info/RECORD,,

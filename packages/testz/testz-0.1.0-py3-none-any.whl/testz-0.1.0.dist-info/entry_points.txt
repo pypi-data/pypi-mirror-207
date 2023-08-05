@@ -1,0 +1,2 @@
+[console_scripts]
+pc = testz.pc:main
