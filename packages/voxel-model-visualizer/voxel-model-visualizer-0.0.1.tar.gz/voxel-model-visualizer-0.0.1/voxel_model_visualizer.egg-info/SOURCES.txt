@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+voxel_model_visualizer.egg-info/PKG-INFO
+voxel_model_visualizer.egg-info/SOURCES.txt
+voxel_model_visualizer.egg-info/dependency_links.txt
+voxel_model_visualizer.egg-info/requires.txt
+voxel_model_visualizer.egg-info/top_level.txt
