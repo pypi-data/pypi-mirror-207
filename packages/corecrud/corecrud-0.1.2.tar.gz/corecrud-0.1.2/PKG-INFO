@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: corecrud
+Version: 0.1.2
+Summary: The CRUD package for management your models
+Project-URL: Homepage, https://github.com/toymaj/corecrud/
+Project-URL: Documentation, https://github.com/toymaj/corecrud/
+Project-URL: Repository, https://github.com/toymaj/corecrud/
+Author-email: toymaj <sermed512@gmail.com>
+Maintainer-email: toymaj <sermed512@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: asyncio,crud,fastapi,sqlalchemy
+Requires-Python: >=3.8
+Requires-Dist: sqlalchemy~=2.0.0
+Provides-Extra: dev
+Requires-Dist: black~=23.3.0; extra == 'dev'
+Requires-Dist: isort~=5.11; extra == 'dev'
+Requires-Dist: mypy~=1.2.0; extra == 'dev'
+Requires-Dist: pre-commit~=3.2.2; extra == 'dev'
+Requires-Dist: ruff~=0.0.262; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# corecrud
+
+The CRUD package for management your models.
