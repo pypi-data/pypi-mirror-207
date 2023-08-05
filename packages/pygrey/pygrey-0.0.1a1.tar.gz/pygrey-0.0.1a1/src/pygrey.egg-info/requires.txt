@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+seaborn
+
+[dev]
+check-manifest
+
+[test]
+coverage
