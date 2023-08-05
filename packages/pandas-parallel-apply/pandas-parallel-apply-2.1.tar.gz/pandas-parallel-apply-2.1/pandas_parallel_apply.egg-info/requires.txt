@@ -1,0 +1,5 @@
+tqdm>=4.65.0
+pandas>=1.5.3
+numpy>=1.23.5
+pathos==0.3.0
+colorama==0.4.6
