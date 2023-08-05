@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pfelogic
+Version: 2023.5.6.0
+Summary: An opinionated pass fail exempt library that I wanted to stop making in every project.
+Author-email: Chris Halbersma <chalbersma@halbersma.us>
+License: BSD-2-Clause
+Keywords: manowar
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pfelogic
+
+pfelogic is a pass, fail, exempt comparison library for objects and lists of objects that I keep repeately making.
+Orignally for github.com/chalbermsa/manowar but should be generic(ish)

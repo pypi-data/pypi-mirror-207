@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+pfe/__init__.py
+pfe/comparison.py
+pfelogic.egg-info/PKG-INFO
+pfelogic.egg-info/SOURCES.txt
+pfelogic.egg-info/dependency_links.txt
+pfelogic.egg-info/requires.txt
+pfelogic.egg-info/top_level.txt
