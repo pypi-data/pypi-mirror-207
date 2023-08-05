@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/import_wrappers/__init__.py
+src/import_wrappers/_version.py
+src/import_wrappers/optional_dependencies.py
+src/import_wrappers.egg-info/PKG-INFO
+src/import_wrappers.egg-info/SOURCES.txt
+src/import_wrappers.egg-info/dependency_links.txt
+src/import_wrappers.egg-info/requires.txt
+src/import_wrappers.egg-info/top_level.txt
