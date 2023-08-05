@@ -1,0 +1,7 @@
+README.md
+setup.py
+emp_scribe.egg-info/PKG-INFO
+emp_scribe.egg-info/SOURCES.txt
+emp_scribe.egg-info/dependency_links.txt
+emp_scribe.egg-info/requires.txt
+emp_scribe.egg-info/top_level.txt
