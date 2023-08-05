@@ -1,0 +1,10 @@
+.DS_Store,sha256=eC2CO8PR66DNAeNyMqFTyNeQ4Fg9RDtnOxl5svF6ABM,6148
+grrif_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+grrif_tools/cli.py,sha256=UuVuJMBzoyttwnc5YFXWU8K3yItg1b6Q6Et8BCyMr6g,3401
+grrif_tools/grrif_archiver.py,sha256=iKuvg7y3J75RfYS1FXpdxtieyMXUEFwMJ5c_qGJF3QM,7758
+grrif_tools-0.5.1.dist-info/LICENSE,sha256=yR3Jj9vZyMLdpkd1fnbEzuTRDLJP01o6rEZdH0lXJ1o,1076
+grrif_tools-0.5.1.dist-info/METADATA,sha256=K7HBOwLRmV_np9b4cZz-EgfmWhwLI03B-fKM8wLzT4o,1468
+grrif_tools-0.5.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+grrif_tools-0.5.1.dist-info/entry_points.txt,sha256=Jib4jInJ_3mp8P0rT-bQALDau5FhXM6R6XI1bskZTEg,53
+grrif_tools-0.5.1.dist-info/top_level.txt,sha256=CltZmeQWG0c49npH8rsmnrfD4NGvQCd-B_7CWsY6hcw,12
+grrif_tools-0.5.1.dist-info/RECORD,,
