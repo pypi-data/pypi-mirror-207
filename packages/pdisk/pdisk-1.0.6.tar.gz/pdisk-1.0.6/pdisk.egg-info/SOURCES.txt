@@ -1,0 +1,13 @@
+LICENSE
+README.md
+package.md
+pyproject.toml
+setup.py
+pdisk/__init__.py
+pdisk/pdisk.py
+pdisk/type.py
+pdisk.egg-info/PKG-INFO
+pdisk.egg-info/SOURCES.txt
+pdisk.egg-info/dependency_links.txt
+pdisk.egg-info/requires.txt
+pdisk.egg-info/top_level.txt
