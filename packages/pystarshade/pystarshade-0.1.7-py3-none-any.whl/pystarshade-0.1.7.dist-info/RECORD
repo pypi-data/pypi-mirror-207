@@ -1,0 +1,13 @@
+pystarshade/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pystarshade/simulate_field.py,sha256=WwIsVjUgZ90AWIj5yVGtCWagT2v63typTgbXK6dptUE,6718
+pystarshade/apodization/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pystarshade/apodization/apodize.py,sha256=IFh30G52E03Od3sPgDUbTBA9eW30aK5jAz-WU6lvRu8,3165
+pystarshade/diffraction/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pystarshade/diffraction/bluestein_fft.py,sha256=8QYJVZLsB4Y4YStOs8jit7l8PrprvaRW83goxIN4JTE,1993
+pystarshade/diffraction/diffract.py,sha256=Ct4xonsmYqOV61WhsED2UmNCak-oeW5HNH_zcoGin_g,5931
+pystarshade/diffraction/field.py,sha256=bxl9EhFM-2OB5IwsbIykkztkLbG_6JMpyy10gPspjws,6660
+pystarshade/diffraction/util.py,sha256=s533eLCb-fYz6u3ztM6SZOksFwrrP7TFYLPhooSn_lI,3362
+pystarshade-0.1.7.dist-info/METADATA,sha256=-mOWYoCKM8PFWwMZVBaHSc2EXJsJ5jh54ajKpr-g2b8,779
+pystarshade-0.1.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pystarshade-0.1.7.dist-info/top_level.txt,sha256=FaQn5BbcNFQ4RmIsRU7Xt_tpiNHbtEkWdyrZNgfIljY,12
+pystarshade-0.1.7.dist-info/RECORD,,
