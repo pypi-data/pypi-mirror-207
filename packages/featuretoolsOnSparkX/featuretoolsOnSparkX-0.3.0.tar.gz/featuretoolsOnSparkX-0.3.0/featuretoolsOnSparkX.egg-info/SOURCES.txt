@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+featuretoolsOnSpark/__init__.py
+featuretoolsOnSpark/column_types.py
+featuretoolsOnSpark/dfs.py
+featuretoolsOnSpark/relationship.py
+featuretoolsOnSpark/table.py
+featuretoolsOnSpark/tableset.py
+featuretoolsOnSpark/util.py
+featuretoolsOnSpark/version.py
+featuretoolsOnSparkX.egg-info/PKG-INFO
+featuretoolsOnSparkX.egg-info/SOURCES.txt
+featuretoolsOnSparkX.egg-info/dependency_links.txt
+featuretoolsOnSparkX.egg-info/requires.txt
+featuretoolsOnSparkX.egg-info/top_level.txt
