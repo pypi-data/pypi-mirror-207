@@ -1,0 +1,8 @@
+housing_package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+housing_package/ingest.py,sha256=V-jWqWIt0Q04H2bJRRnO-VyCoXCGL9B8fKvbA0C9vrc,7877
+housing_package/score.py,sha256=97t91CykbIU0LSx5Bgq5EdVad7L1jlubRq03JpQfSws,4824
+housing_package/train.py,sha256=qfhkMh1Ciub9lZKicZzxzMZaGQ0PqzL0O6iOE4OLjdg,4932
+housing_packages-0.0.1.dist-info/METADATA,sha256=GNtCADVRkWl5qx1mb9qhseahpiSM0MMxBHKOk2bgyt0,88
+housing_packages-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+housing_packages-0.0.1.dist-info/top_level.txt,sha256=aKfhmf8jZJBBczxbg9AwpfdBdxLAr0c3xKuzV8NvNe8,16
+housing_packages-0.0.1.dist-info/RECORD,,
