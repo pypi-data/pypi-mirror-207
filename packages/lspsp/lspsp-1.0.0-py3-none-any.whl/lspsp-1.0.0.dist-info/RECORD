@@ -1,0 +1,12 @@
+etc/lspsp/config.json.template,sha256=wb_S91ncrWWVKXq6eaj-LHtYUFO8RE0Wz_w_5zekCsk,369
+etc/lspsp/resource/mail.html,sha256=-LxgudBS-ZfVVYNKibrxUL30zp7tJsbGA6KdvRLXUxs,55908
+lspsp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lspsp/lspmon.py,sha256=WqL36wBq0oapgf0P7mlafRKmymgWkZ6Nv_4L-aIeeyg,1595
+lspsp/lspnotify.py,sha256=MLxM6W6kZPAyt1UehFsP7v6-Z-WLIuBYkCF7z7p0Mhg,1167
+lspsp/lspsp.py,sha256=6yE8wNGTEuxxVtoXyPrYXdVWHzwE1UYzxdp32rfpIAg,1100
+lspsp/main.py,sha256=PdnnXIpnNB0HME-Ckg8oAyKlySByurHck8H8RaCiRR4,128
+lspsp-1.0.0.dist-info/METADATA,sha256=Snv7Khu3kg1IJBQbKSzRxNEKp4w2mQSeOD02ol2SeQk,311
+lspsp-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+lspsp-1.0.0.dist-info/entry_points.txt,sha256=ZZTIDfPCoe25drzwZ7iTaLf3zWkqxy404pgIpBGM4Vk,42
+lspsp-1.0.0.dist-info/top_level.txt,sha256=XrVuM1s9jbDmcYiJFpwDaszDlayFtR3DVgcpYixqZIs,6
+lspsp-1.0.0.dist-info/RECORD,,
