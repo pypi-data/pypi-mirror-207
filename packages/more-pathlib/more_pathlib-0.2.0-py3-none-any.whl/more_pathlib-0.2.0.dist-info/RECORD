@@ -1,0 +1,12 @@
+more_pathlib/__init__.py,sha256=TtboTWUGnSEyODHxI4QoXB25NMrZdehn4RZUiQWk0WE,467
+more_pathlib/common.py,sha256=JKURZFHCnEceIiF3eVHIwFKuHKKqBDA-SLMT1DSttCQ,338
+more_pathlib/copy.py,sha256=IE6_En7v4bUgM2Qn4Q9VzclvS9gUqRx0sXgIAXy2QuQ,810
+more_pathlib/json.py,sha256=-JFu4JPt4JsyJYQv8JQAqr3HFuMhxtTVcKhXab6pvIk,900
+more_pathlib/pickle.py,sha256=bZfW7rA_A4rCvFcSXbLrD4Ia_-NBJl6nvDTmZDJ6tDc,843
+more_pathlib/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+more_pathlib/rm.py,sha256=cIRWOdbL6lO6vIJVHmYW-YhL63X5fk_AMSc37FrudU8,440
+more_pathlib/validation.py,sha256=g0bIdCuUNEfqBGBVQfzuIf1w4Moggaas5prWuQQDdeo,1189
+more_pathlib-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+more_pathlib-0.2.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+more_pathlib-0.2.0.dist-info/METADATA,sha256=rr2SIU9t1H_pB_bqTb8OSxxFgJOuDtkRyuaGRg5I9KY,403
+more_pathlib-0.2.0.dist-info/RECORD,,
