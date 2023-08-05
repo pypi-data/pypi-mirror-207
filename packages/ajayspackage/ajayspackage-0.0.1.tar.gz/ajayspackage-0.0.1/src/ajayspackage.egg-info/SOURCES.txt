@@ -1,0 +1,11 @@
+LICENCE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/ajayspackage.egg-info/PKG-INFO
+src/ajayspackage.egg-info/SOURCES.txt
+src/ajayspackage.egg-info/dependency_links.txt
+src/ajayspackage.egg-info/top_level.txt
+src/asppackage/__init__.py
+src/asppackage/functions.py
+src/asppackage/greet.py
