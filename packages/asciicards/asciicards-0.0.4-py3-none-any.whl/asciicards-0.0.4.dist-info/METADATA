@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: asciicards
+Version: 0.0.4
+Summary: Ascii Card Library
+Home-page: https://github.com/ArchooD2/asciicards
+Author: PaperJam
+Author-email: archood2@gmail.com
+License: GNU General Public License v3.0
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# asciicards
+Ascii Card Generator in Python
+______________________________________________
+Hello! This repo is for my asciicards library. The code is pretty plaintext...
