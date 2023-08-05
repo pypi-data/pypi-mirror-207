@@ -1,0 +1,18 @@
+[project]
+name = "psgspecialelements"
+version = "1.0.0"
+authors = [
+  { name="Frank Gong", email="583983716@qq.com" },
+]
+description = "special elements based on pysimplegui elements"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://gitee.com/Frank_583983716/psgspecialelements"
+
