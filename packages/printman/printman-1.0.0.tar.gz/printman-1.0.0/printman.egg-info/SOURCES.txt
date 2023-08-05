@@ -1,0 +1,6 @@
+setup.py
+printman.egg-info/PKG-INFO
+printman.egg-info/SOURCES.txt
+printman.egg-info/dependency_links.txt
+printman.egg-info/requires.txt
+printman.egg-info/top_level.txt
