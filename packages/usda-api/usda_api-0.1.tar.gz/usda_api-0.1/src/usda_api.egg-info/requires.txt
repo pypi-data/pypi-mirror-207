@@ -1,0 +1,25 @@
+mixpanel>=4.9.0
+typing-inspect
+pydantic>=1.5.1
+pandas==2.0.0
+mypy_extensions>=0.4.3
+
+[:python_version < "3.8"]
+typing_extensions>=3.7.4.3
+
+[:python_version >= "3.8"]
+typing_extensions>=3.10.0.2
+
+[dev]
+black==22.10.0
+vulture==2.7
+flake8-tidy-imports>=4.3.0
+pytest>=6.2.2
+isort>=5.7.0
+pip-chill==1.0.1
+mypy==0.991
+flake8>=3.8.3
+pytest-asyncio==0.20.3
+pre-commit==2.20.0
+pytest-testmon==1.4.2
+coverage>=5.1
