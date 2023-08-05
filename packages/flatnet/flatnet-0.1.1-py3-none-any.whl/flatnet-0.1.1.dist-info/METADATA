@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: flatnet
+Version: 0.1.1
+Summary: FlatNet implementation in PyTorch, from the paper "Representation Learning via Manifold Flattening and Reconstruction"
+Home-page: UNKNOWN
+Author: Michael Psenka
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: Jinja2 (>=3.1.2)
+Requires-Dist: MarkupSafe (>=2.1.2)
+Requires-Dist: cmake (>=3.26.3)
+Requires-Dist: filelock (>=3.12.0)
+Requires-Dist: geoopt (>=0.5.0)
+Requires-Dist: lit (>=16.0.2)
+Requires-Dist: mpmath (>=1.3.0)
+Requires-Dist: networkx (>=3.1)
+Requires-Dist: numpy (>=1.24.3)
+Requires-Dist: nvidia-cublas-cu11 (>=11.10.3.66)
+Requires-Dist: nvidia-cuda-cupti-cu11 (>=11.7.101)
+Requires-Dist: nvidia-cuda-nvrtc-cu11 (>=11.7.99)
+Requires-Dist: nvidia-cuda-runtime-cu11 (>=11.7.99)
+Requires-Dist: nvidia-cudnn-cu11 (>=8.5.0.96)
+Requires-Dist: nvidia-cufft-cu11 (>=10.9.0.58)
+Requires-Dist: nvidia-curand-cu11 (>=10.2.10.91)
+Requires-Dist: nvidia-cusolver-cu11 (>=11.4.0.1)
+Requires-Dist: nvidia-cusparse-cu11 (>=11.7.4.91)
+Requires-Dist: nvidia-nccl-cu11 (>=2.14.3)
+Requires-Dist: nvidia-nvtx-cu11 (>=11.7.91)
+Requires-Dist: scipy (>=1.10.1)
+Requires-Dist: sympy (>=1.11.1)
+Requires-Dist: torch (>=2.0.0)
+Requires-Dist: tqdm (>=4.65.0)
+Requires-Dist: triton (>=2.0.0)
+Requires-Dist: typing-extensions (>=4.5.0)
+
+UNKNOWN
+
+
