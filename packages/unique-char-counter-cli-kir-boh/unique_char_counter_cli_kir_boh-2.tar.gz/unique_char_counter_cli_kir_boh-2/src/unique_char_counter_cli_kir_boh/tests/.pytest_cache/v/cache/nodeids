@@ -1,0 +1,8 @@
+[
+  "tests_unique_char_counter_cli.py::TestUniqueCharCounterCli::test_main_with_mock_file",
+  "tests_unique_char_counter_cli.py::TestUniqueCharCounterCli::test_read_file_in_chunks",
+  "tests_unique_char_counter_cli.py::TestUniqueCharCounterCli::test_return_amount_once_occured_items_with_empty_string",
+  "tests_unique_char_counter_cli.py::TestUniqueCharCounterCli::test_return_amount_once_occured_items_with_space",
+  "tests_unique_char_counter_cli.py::TestUniqueCharCounterCli::test_return_amount_once_occured_items_with_string",
+  "tests_unique_char_counter_cli.py::TestUniqueCharCounterCli::test_return_amount_once_occured_items_with_unhashable_obj"
+]
