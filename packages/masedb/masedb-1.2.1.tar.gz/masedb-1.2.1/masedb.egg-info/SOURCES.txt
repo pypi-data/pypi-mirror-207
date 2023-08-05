@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+masedb/exceptions.py
+masedb/queries.py
+masedb/query.py
+masedb.egg-info/PKG-INFO
+masedb.egg-info/SOURCES.txt
+masedb.egg-info/dependency_links.txt
+masedb.egg-info/requires.txt
+masedb.egg-info/top_level.txt
+masedb.egg-info/zip-safe
