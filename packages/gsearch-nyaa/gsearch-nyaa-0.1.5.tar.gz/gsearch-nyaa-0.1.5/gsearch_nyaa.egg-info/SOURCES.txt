@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+gsearch/__init__.py
+gsearch_nyaa.egg-info/PKG-INFO
+gsearch_nyaa.egg-info/SOURCES.txt
+gsearch_nyaa.egg-info/dependency_links.txt
+gsearch_nyaa.egg-info/requires.txt
+gsearch_nyaa.egg-info/top_level.txt
