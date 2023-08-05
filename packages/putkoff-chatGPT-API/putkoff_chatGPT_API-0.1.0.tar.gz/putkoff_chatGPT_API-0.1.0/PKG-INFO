@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: putkoff_chatGPT_API
+Version: 0.1.0
+Summary: `putkoff_chatGPT_API` is a Python module for interacting with OpenAI's GPT models. It simplifies the process of making API calls, managing API keys, and parsing responses, while also providing utility functions to work with timestamps and organize response data.
+Home-page: https://github.com/your_username/putkoff_chatGPT_API
+Author: PUTKOFF
+Author-email: putkey2@sbcglobal.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+## putkoff_chatGPT_API
+
+`putkoff_chatGPT_API` is a Python module for interacting with OpenAI's GPT models. It simplifies the process of making API calls, managing API keys, and parsing responses, while also providing utility functions to work with timestamps and organize response data.
+
+### Features
+
+- Supports multiple GPT models and endpoints
+- Automatically manages API keys using dotenv
+- Generates prompts and handles token size restrictions
+- Parses responses and handles JSON data
+- Provides utility functions for timestamps and date formatting
+- Organizes response data in a structured manner
+- Includes a simple GUI for user interaction
+
+### Usage
+
+To use the module, import it and call the `send_query` function with the necessary parameters, such as prompt, endpoint, model, and max tokens. The module will handle the API call, process the response, and return the results.
+
+Example:
+
+```python
+from putkoff_chatGPT_API import send_query
+
+# Set up parameters
+prompt = "What is the capital of France?"
+endpoint = "/v1/chat/completions"
+model = "gpt-3.5-turbo"
+max_tokens = 50
+
+# Send the query
+response = send_query(prompt, endpoint, model, max_tokens)
+
+# Process the response as needed
+print(response)
+# putkoff_chatGPT_API
+
+

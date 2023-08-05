@@ -1,0 +1,6 @@
+README.md
+setup.py
+putkoff_chatGPT_API.egg-info/PKG-INFO
+putkoff_chatGPT_API.egg-info/SOURCES.txt
+putkoff_chatGPT_API.egg-info/dependency_links.txt
+putkoff_chatGPT_API.egg-info/top_level.txt
