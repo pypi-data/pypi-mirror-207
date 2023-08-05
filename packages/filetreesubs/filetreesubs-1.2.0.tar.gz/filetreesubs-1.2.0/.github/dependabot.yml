@@ -1,0 +1,10 @@
+---
+# Copyright © 2014—2023 Felix Fontein.
+# SPDX-License-Identifier: MIT
+
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"

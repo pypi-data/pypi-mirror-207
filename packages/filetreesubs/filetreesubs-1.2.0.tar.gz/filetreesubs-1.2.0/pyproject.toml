@@ -1,0 +1,72 @@
+# Copyright © 2014—2023 Felix Fontein.
+# SPDX-License-Identifier: MIT
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "filetreesubs"
+version = "1.2.0"
+description = "Synchronize a file tree with text file substitutions"
+license = "MIT"
+license-files = {globs=["LICENSES/*.txt"]}
+readme = "README.md"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "Topic :: Internet :: WWW/HTTP :: Site Management",
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Text Processing",
+    "Topic :: Utilities",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "doit >= 0.36.0",
+    "PyYAML",
+]
+
+[[project.authors]]
+name = "Felix Fontein"
+email = "felix@fontein.de"
+
+[project.urls]
+"Source code" = "https://github.com/felixfontein/filetreesubs"
+"Bug tracker" = "https://github.com/felixfontein/filetreesubs/issues"
+
+[project.scripts]
+filetreesubs = "filetreesubs.__main__:main"
+
+[project.optional-dependencies]
+codeqa = [
+    "flake8 >= 6.0.0",
+    "pylint >= 2.17.4",
+    "reuse",
+]
+coverage = [
+    "coverage[toml]",
+]
+formatters = [
+    "black",
+    "isort",
+]
+test = [
+    "pytest",
+    "pytest-cov",
+    "pytest-error-for-skips",
+]
+dev = [
+    # Used by nox sessions
+    "filetreesubs[codeqa]",
+    "filetreesubs[formatters]",
+    # misc
+    "nox",
+]
+
+[tool.isort]
+profile = "black"

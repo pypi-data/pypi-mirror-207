@@ -1,0 +1,7 @@
+# Copyright © 2014—2023 Felix Fontein.
+# SPDX-License-Identifier: MIT
+
+/dist/
+/.nox
+/.pytest_cache/
+__pycache__/
