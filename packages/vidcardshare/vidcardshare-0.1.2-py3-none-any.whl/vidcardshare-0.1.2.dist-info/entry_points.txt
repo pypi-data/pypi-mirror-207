@@ -1,0 +1,4 @@
+[console_scripts]
+vidcardshare=vidcardshare.main:app
+vidcsh=vidcardshare.main:app
+
