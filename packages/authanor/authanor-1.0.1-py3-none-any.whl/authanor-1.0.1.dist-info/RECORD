@@ -1,0 +1,13 @@
+authanor/_version.py,sha256=jfpxxup8_WijhRsk1sE1WuWsTrZLOofguKnpC74vx9w,160
+authanor/database/__init__.py,sha256=4p1OoWVHEpzdBu7G8uJWiFJQMiFJR10xMSZOpGjVfuc,3988
+authanor/database/handler.py,sha256=eUIQbclDry-XHwMSW6L2BE1DH_f7u011SZ6pqEE4Aec,18064
+authanor/database/models.py,sha256=N8YqLLXWJBM0LaAGI6A4wIOTJj7eROLU-3nHUdG9I5s,5546
+authanor/database/utils.py,sha256=vkNYIou6KQ68dv92FaPn-75HlnQFKPFgQ6CvkxrWnO8,572
+authanor/testing/__init__.py,sha256=dSv_wPHasmWiz2AZ7_SHOdX-3gvewCsMnUKu_LRuy-8,59
+authanor/testing/helpers.py,sha256=PTthM693TeuCTeIW6fAgtsvCjBTqkoGX3i1gDMWXV-I,10575
+authanor-1.0.1.dist-info/METADATA,sha256=0DqlWNAD_CuRGkBnbTte5t87chrxs4T4EIZ2JIswpMQ,4730
+authanor-1.0.1.dist-info/WHEEL,sha256=EI2JsGydwUL5GP9t6kzZv7G3HDPi7FuZDDf9In6amRM,87
+authanor-1.0.1.dist-info/entry_points.txt,sha256=uNU0Y8LC20qkt0c0NgoMOkyN0EsWq0HCgEViIOFMGf4,47
+authanor-1.0.1.dist-info/licenses/COPYING,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+authanor-1.0.1.dist-info/licenses/LICENSE,sha256=ONbtZvu2N-racegcODieMaSh5TMQqpvoF6X1QXifDDg,151
+authanor-1.0.1.dist-info/RECORD,,
