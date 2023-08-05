@@ -1,0 +1,2 @@
+[console_scripts]
+filetreesubs = filetreesubs.__main__:main
