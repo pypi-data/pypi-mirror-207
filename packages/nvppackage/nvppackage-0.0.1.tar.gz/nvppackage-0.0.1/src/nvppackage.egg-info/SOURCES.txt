@@ -1,0 +1,11 @@
+LICENCE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/nvppackage/__init__.py
+src/nvppackage/functions.py
+src/nvppackage/other_functions.py
+src/nvppackage.egg-info/PKG-INFO
+src/nvppackage.egg-info/SOURCES.txt
+src/nvppackage.egg-info/dependency_links.txt
+src/nvppackage.egg-info/top_level.txt
