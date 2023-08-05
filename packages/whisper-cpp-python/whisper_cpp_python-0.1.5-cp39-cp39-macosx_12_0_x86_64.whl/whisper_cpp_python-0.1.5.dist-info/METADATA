@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: whisper-cpp-python
+Version: 0.1.5
+Summary: 
+Author: Carlos Cardoso Dias
+Author-email: carlosdias.dev@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: librosa (>=0.10.0.post2,<0.11.0)
+Description-Content-Type: text/markdown
+
+
