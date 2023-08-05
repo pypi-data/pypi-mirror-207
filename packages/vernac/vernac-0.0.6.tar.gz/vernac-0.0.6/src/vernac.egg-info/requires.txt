@@ -1,0 +1,11 @@
+requests
+openai
+shiv
+tomli_w
+rich
+pytest
+pytest-asyncio
+
+[dev]
+ipython
+pip-tools
