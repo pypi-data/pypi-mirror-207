@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: lesscode_tool
+Version: 0.0.19
+Summary: 低代码生成工具
+Home-page: https://gitee.com/navysummer/lesscodeTool
+Author: navysummer
+Author-email: navysummer@yeah.net
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# lesscodeTool
+
+#### Description
+```
+低代码构建工具.
+
+Usage:
+  lesscodeTool (new -d dir [-p project]|sqlacodegen -u url [-s schemas][-t tables][-f file][-i ignore]|subcommand -c command)
+
+Options:
+  -h, --help               查看帮助
+  -v, --version            展示版本号
+  -d, --dir dir            项目目录
+  -u, --url url            数据库连接
+  -f, --file file          表结构类输出文件
+  -p, --project project    项目模板名
+  -t, --tables tables      表名，用英文逗号连接多个表
+  -s, --schemas schemas    库名，用英文逗号连接多个库
+  -c, --command command    执行系统命令
+  -i, --ignore ignore      生成model不带库名
+```
