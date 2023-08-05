@@ -1,0 +1,93 @@
+# excelcleaner
+
+## What is it?
+
+A package that helps you clean and recover columns of Excel data converted from PDF files.
+
+## Where to get it
+
+<pre lang=sh>pip install excelcleaner</pre>
+
+## Dependencies
+
+<ul><li><a href="https://openpyxl.readthedocs.io/en/stable/">openpyxl</a> for opening/saving Excel file in Python.</li>
+<li><a href="https://github.com/ragardner/tksheet">tksheet</a> for displaying the content of the Excel file.</li></ul>
+
+## Changes
+<ul>
+<li>Version 0.0.18</li>
+<ul><li>Added function-key features</li>
+<ol><li>F1: delete rows or columns</li>
+<li>F2: delete rows having a particular cell</li>
+<li>F3: combine rows or columns</li>
+<li>F4: combine selected rows</li>
+<li>F5: insert a cell to row and repeat the process to other rows in the same pattern</li>
+<li>F7: delete a cell to row and repeat the process to other rows in the same pattern</li>
+<li>F10: split a column to two columns with a particular string</li></ol>
+<li>Added an option to save processes to a file</li>
+<ul><li>The processes saved in the file can be executed to speed the process until wanted cleaning is completed.</li></ul>
+<li>Clicking a row provides the rows having the same pattern of the cells in row</li></ul>
+</ul>
+<br>
+
+<li>Version 0.0.10</li>
+<ul><li>Restoring just the data before the last action is extended to data of all actions since the first action.</li>
+<li>Changed function keys for actions.</li>
+<li>Screen displays the selected row where the next action is needed.</li></ul>
+<br>
+
+
+<li>Version 0.0.9</li>
+<ul><li>A tiny bug of renaming a cleaned xlsx file was fixed.</li></ul>
+<br>
+
+<li>Version 0.0.7</li>
+<ul><li>Added some help:</li>
+<ol><li>When a column is all None, it will be deleted without any notice.</li>
+<li>Rows in a pattern that takes place at the least number of rows will be highlighted.</li>
+<li>The first row of the rows will be selected and is ready for next action. This selection is only a hint and should not be followed unless otherwise.</li></ol></ul>
+
+
+<br>
+
+<li>Version 0.0.5</li>
+<ul><li>Disabled some bindings that belong to tksheet package.</li></ul>
+<br>
+
+<li>Version 0.0.4</li>
+
+```python
+
+import excelcleaner as xl
+
+xlpath='(excel file name with extension)'
+xl.sheet(xlpath)
+
+```
+
+<ul><li>A tksheet window will be opened with the contents of excel file.</li>
+<li>Here are recommending orders of actions to try:</li>
+<ol><li>Remove unwanted rows (F1) first</li>
+<li>Remove unwanted columns (F1) or combine columns (F3)</li>
+  <li>Click a cell to insert (F5) or delete the cell (F7)</li></ol>
+<br>
+
+<li>If the same pattern or kind of selected rows/columns is found at other locations, the same action is repeated for the found rows/columns.</li>
+  <ul><li>Thus, it would better try one action at the top</li>
+  <li>To remove rows, click and drag the row names.</li>
+    <li>To remove or combine columns, click and drag the column names.</li></ul>
+  <br>
+<li>When rows or columns are to be combined, the cells of the same rows or columns are combined.</li>
+<br>
+<li>After every action, the contents will be saved to a file that is the original name with a string "_cleaned".</li>
+<li>When a cell is inserted, all values to the right are moved to the right, and an empty cell is added at the end of all other unchanged rows.</li>
+<li>When a cell is deleted, all the values ​​on the right are moved to the left and the last column is empty.</li>
+<br>
+  <li>If one action is done by mistake, press comination key (control-z) to restore the the data before he last action</li></ul>
+  <br>
+<ul><li>After each action is completed,</li>
+<ul><li>the number of columns and rows and the number of patterns of rows will be displayed</li>
+<li>either a few columns or muliple rows are highlighted, which are indicative of ok to be deleted.</li></ul>
+</ul>
+</ul>
+<br>
