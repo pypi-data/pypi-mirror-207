@@ -1,0 +1,12 @@
+openai_api_call/__init__.py,sha256=cKBLH5pIPKi08OOhoczNdwcK_0uc32fXX0yDN6FzYps,928
+openai_api_call/chattool.py,sha256=sSq4VLj52P43Vvfch7zu6B2ypTb6as9FqwKa0uo_MXw,8168
+openai_api_call/cli.py,sha256=KujofuSkt8HzqYrwNGM-QKah7WWYGnG_n0Vfs-bV96A,423
+openai_api_call/proxy.py,sha256=ff0932Vc0vOboF3DXpiryRi37lQ5FDFBTUFIFsGXmR8,1477
+openai_api_call/request.py,sha256=dSYvTHKJ9vmZTEILR596nO-2KdCClINw3JKr-U0D2Mg,2871
+openai_api_call/response.py,sha256=ZniB10T1slxWtRykfNDPr_UYFs7SwdcxxmOdUTXCrvU,2028
+openai_api_call-0.3.9.dist-info/LICENSE,sha256=L6bH_Rbb5cuLwZ7iFUJKxWfDxJPQThpZo3Ql-6BMQ8I,1067
+openai_api_call-0.3.9.dist-info/METADATA,sha256=1Yl1fQK_Kspn_bcTlDxTk1Gy7LN9UJhdaR2gHTKqX1E,4770
+openai_api_call-0.3.9.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+openai_api_call-0.3.9.dist-info/entry_points.txt,sha256=bORyRCC7wxsQT5ZUMbApnKJPBASfifk5vxIbKNwuqJg,62
+openai_api_call-0.3.9.dist-info/top_level.txt,sha256=2hZ-t9vn4SW5O_Thefkl9yy-2rqz64fIaSvlE0Wu30I,16
+openai_api_call-0.3.9.dist-info/RECORD,,
