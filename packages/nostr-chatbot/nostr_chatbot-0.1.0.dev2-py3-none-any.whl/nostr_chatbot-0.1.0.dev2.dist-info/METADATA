@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: nostr-chatbot
+Version: 0.1.0.dev2
+Summary: Nostr chatbotlibrary
+Home-page: https://github.com/wannaphong/nostr-chatbot
+Author: Wannaphong
+Author-email: wannaphong@yahoo.com
+License: Apache Software License 2.0
+Keywords: chatbot,nostr
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: cffi (>=1.15.0)
+Requires-Dist: cryptography (>=37.0.4)
+Requires-Dist: pycparser (>=2.21)
+Requires-Dist: python-socks (>=2.1.1)
+Requires-Dist: secp256k1 (>=0.14.0)
+Requires-Dist: websocket-client (>=1.3.3)
+
+# Nostr-ChatBot
+
+Make Nostr ChatBot from python
+
+## Install
+
+> pip install nostr-chatbot
+
+## Example
+
+See [https://github.com/wannaphong/nostr-chatbot/tree/main/example](https://github.com/wannaphong/nostr-chatbot/tree/main/example)
