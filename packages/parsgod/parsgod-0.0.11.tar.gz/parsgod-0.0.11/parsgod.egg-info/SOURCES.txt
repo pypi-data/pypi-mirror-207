@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+parsgod/__init__.py
+parsgod/parsgod.py
+parsgod.egg-info/PKG-INFO
+parsgod.egg-info/SOURCES.txt
+parsgod.egg-info/dependency_links.txt
+parsgod.egg-info/requires.txt
+parsgod.egg-info/top_level.txt
