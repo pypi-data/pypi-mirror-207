@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "tsmetric"
+version = "0.1.2"
+description = "my first try to create packag using poetry"
+authors = ["mahmoud"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+rich = "^13.3.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
