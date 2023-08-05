@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: wale-sdk
+Version: 0.1.1
+Summary: Telemetry for LLMs
+Home-page: https://github.com/trywale
+Author: Zach Zhao
+Author-email: zach@trywale.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: bump2version (==1.0.1)
+Requires-Dist: bumpversion (==0.6.0)
+Requires-Dist: certifi (==2023.5.7)
+Requires-Dist: charset-normalizer (==3.1.0)
+Requires-Dist: idna (==3.4)
+Requires-Dist: requests (==2.30.0)
+Requires-Dist: urllib3 (==2.0.2)
+
