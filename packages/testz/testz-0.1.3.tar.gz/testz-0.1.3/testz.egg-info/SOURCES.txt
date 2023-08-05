@@ -1,0 +1,12 @@
+README.md
+setup.py
+testz/__init__.py
+testz/cli.py
+testz/operaciones.py
+testz/pc.py
+testz.egg-info/PKG-INFO
+testz.egg-info/SOURCES.txt
+testz.egg-info/dependency_links.txt
+testz.egg-info/entry_points.txt
+testz.egg-info/requires.txt
+testz.egg-info/top_level.txt
