@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+edge_distance_aabb.cpp
+edge_distance_aabb.h
+edge_distance_aabb.pyx
+pyproject.toml
+setup.py
+edge_distance_aabb.egg-info/PKG-INFO
+edge_distance_aabb.egg-info/SOURCES.txt
+edge_distance_aabb.egg-info/dependency_links.txt
+edge_distance_aabb.egg-info/top_level.txt
