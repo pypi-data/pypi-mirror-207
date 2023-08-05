@@ -1,0 +1,4 @@
+graft src/FakeNewsClassifier/datasets
+graft src/FakeNewsClassifier/saved_models
+global-exclude */__pycache__/*
+global-exclude *.pyc
