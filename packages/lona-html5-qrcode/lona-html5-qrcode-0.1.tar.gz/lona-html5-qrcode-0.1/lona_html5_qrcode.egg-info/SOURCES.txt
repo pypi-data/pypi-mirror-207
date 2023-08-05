@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+pyproject.toml
+lona_html5_qrcode/__init__.py
+lona_html5_qrcode.egg-info/PKG-INFO
+lona_html5_qrcode.egg-info/SOURCES.txt
+lona_html5_qrcode.egg-info/dependency_links.txt
+lona_html5_qrcode.egg-info/requires.txt
+lona_html5_qrcode.egg-info/top_level.txt
+lona_html5_qrcode/html/__init__.py
+lona_html5_qrcode/html/html5_qrcode_scanner.py
+lona_html5_qrcode/static/lona-html5-qrcode/themes.css
+lona_html5_qrcode/static/lona-html5-qrcode/widgets.js
+lona_html5_qrcode/static/lona-html5-qrcode/dist/LICENSE
+lona_html5_qrcode/static/lona-html5-qrcode/dist/html5-qrcode.min.js
