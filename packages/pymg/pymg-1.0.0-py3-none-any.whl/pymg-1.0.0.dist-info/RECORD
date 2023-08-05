@@ -1,0 +1,11 @@
+pymg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pymg/pymg.py,sha256=N6Zkd5FL2f2-SD7xLHwcyouf0DvZ-9B5pBs_-SEOWpo,14555
+pymg/template/FOOTER.json,sha256=8wSRi516TY3A-DhiapMoYpdhQb0pU0Yx1gmxT8rsB6g,4099
+pymg/template/HEADER.json,sha256=99qz0-wleflYk4ip0N73ZP-I8qu0GO_iKP0MF4zEV-c,26
+pymg-1.0.0.dist-info/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+pymg-1.0.0.dist-info/METADATA,sha256=WOsq3kboFXEOUpIPPnyxXcL6l3b7Zpp7ok290cW9t5g,3299
+pymg-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pymg-1.0.0.dist-info/dependency_links.txt,sha256=ZdOBW3_yOXceCYL6tqDPYeaQI4In3yC6vUfKSgOnD6g,15
+pymg-1.0.0.dist-info/entry_points.txt,sha256=ENXBKmlWnXj2u30BW4cZly3AE9WhXm29iRbKo8-44CM,40
+pymg-1.0.0.dist-info/top_level.txt,sha256=-EULFWJlVRbUNWSWpfwGY6MsWN_s6R_SIzzJogVF1sc,5
+pymg-1.0.0.dist-info/RECORD,,
