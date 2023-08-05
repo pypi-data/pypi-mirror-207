@@ -1,0 +1,11 @@
+scipy>=1.9
+numpy
+cvxpy
+matplotlib
+
+[doc]
+sphinx
+sphinx_rtd_theme
+
+[interval]
+pyinterval
