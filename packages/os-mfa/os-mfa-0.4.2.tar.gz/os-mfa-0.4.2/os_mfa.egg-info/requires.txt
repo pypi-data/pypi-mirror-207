@@ -1,0 +1,11 @@
+requests
+PyYaml
+python-dateutil
+
+[dev]
+black
+bumpver
+pip-tools
+twine
+build
+mypy
