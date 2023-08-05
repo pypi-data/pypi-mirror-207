@@ -1,0 +1,13 @@
+bitroom-0.1.4.dist-info/METADATA,sha256=P80iPw8vs_LgoR34a9NjdjG0FAXv3RvsSWGmzCBM0TQ,5263
+bitroom-0.1.4.dist-info/WHEEL,sha256=7dGFtUmOf30dPBLpGD2z643cxg89joO7p3JHBAwDv6E,90
+bitroom-0.1.4.dist-info/entry_points.txt,sha256=7OIe1c8rqYCKxeRqt65WUQRld2SCZUXdVX-7sZA1MSc,45
+bitroom-0.1.4.dist-info/licenses/LICENSE,sha256=D-ZLMwcva2XDNP51D_y4O8spgPHsigs0om4wjUIEBo8,1063
+bitroom/__init__.py,sha256=urtzfDHwRQ3yQSATYYpiP5imoWDlsFVGby8Ji9vvrzc,100
+bitroom/__main__.py,sha256=Huz0dExiaH0XTMLhfe3skkFD9-VH7ZUiWMbDR_J8TIY,28
+bitroom/auth/__init__.py,sha256=N0kM8esbJ5J-TsX-SxE2XPmvyYTT2fwnPFDryg_tkuc,43
+bitroom/auth/auth.py,sha256=fIaLE2eJhhLtzFqGrT1b9P3-DGhyokQ-iFc1iBKf1p0,2452
+bitroom/auth/encrypt_js.py,sha256=FR5DtPJeCHryia6Gn3JBEIL4RInhRN_cUZDBZPYBHD0,18654
+bitroom/cli.py,sha256=I180xNrGiQ8GS3uT5zzBU6kRykyGd-rTgteebJTCrUE,2540
+bitroom/config.py,sha256=vzblKnb0wRsMUok0atcZLk2KNguznXt9Lr2JyL-UpjM,1642
+bitroom/room.py,sha256=aSX8IHd8O71LAqnJHZoBsr9JN1R2TEywkpzBM64-WVw,10664
+bitroom-0.1.4.dist-info/RECORD,,
