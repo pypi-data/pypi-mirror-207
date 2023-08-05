@@ -1,0 +1,8 @@
+LICENSE,sha256=GuXKMfyJMNzXN6bELGoshZrjY68c2zX4sLH0eb4FFps,1069
+README.md,sha256=o1EMERWnTRyrMlOMrsKs6XGiD1pAJGKak1dPokVnu-Q,4035
+savestate/__init__.py,sha256=-Ap0m-LlqB29ptgdqofxB3DiXLYnucu9xiMOub2rF1c,224
+savestate/savestate.py,sha256=LabXiOD4d3UAdOeSHoMG9oIynUBeWdZeyar7kcSe7zU,29384
+savestate-0.1.1.dist-info/LICENSE,sha256=GuXKMfyJMNzXN6bELGoshZrjY68c2zX4sLH0eb4FFps,1069
+savestate-0.1.1.dist-info/METADATA,sha256=MC4kLENfd_hVVrCEFy9_B8n_H3isVSFBBG_aw6zyyVY,5180
+savestate-0.1.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+savestate-0.1.1.dist-info/RECORD,,
