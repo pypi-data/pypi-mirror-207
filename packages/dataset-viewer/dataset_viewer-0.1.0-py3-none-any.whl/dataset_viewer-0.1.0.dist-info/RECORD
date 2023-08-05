@@ -1,0 +1,8 @@
+dataset_viewer/__init__.py,sha256=gBmdTNTWtuKteEf3YBS6nViq7tdX15c2eAA6_zUzhCY,142
+dataset_viewer/dataset.py,sha256=epGNXcXezEL_Hc2HoFLXrj_jQ83lIpOYPa81kMCfDeU,1438
+dataset_viewer/viewer.py,sha256=islE2J0TeReIqUVhrfGGhfvWPip-iI5X09IFEIUSXPA,1850
+dataset_viewer-0.1.0.dist-info/LICENSE,sha256=b42ruPV_Eyc3rZljaidpJXF4_3LQdWMDbv5C0JP45r4,1081
+dataset_viewer-0.1.0.dist-info/METADATA,sha256=NKsmtztGv0uU5FXfUlam4JXY3n4QIPvZnxAwEdhV4_g,928
+dataset_viewer-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+dataset_viewer-0.1.0.dist-info/top_level.txt,sha256=4yr89kF2cRUSKfhlTpl11frxLMQiUnWw_bcxxUxi9Zc,15
+dataset_viewer-0.1.0.dist-info/RECORD,,
