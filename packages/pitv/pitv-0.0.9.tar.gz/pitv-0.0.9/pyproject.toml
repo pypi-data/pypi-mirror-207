@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "pitv"
+version = "0.0.9"
+description = "Pictures in the vault"
+authors = ["Jakob Holst <jakob.holst@knowit.dk>"]
+license = "MIT"
+homepage = "https://pictures.openknowit.com"
+repository = "https://github.com/JakobHolstDK/picturesinthevault.git"
+
+[tool.poetry.scripts]
+pitv = "pitv:main"
+pitvapi = "restapi:main"
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.30.0"
+
+[project.optional-dependencies] # Optional
+dev = ["check-manifest"]
+test = ["coverage"]
+
+[project.urls]  # Optional
+"Homepage" = "https://pictures.openknowit.com"
+"Bug Reports" = "https://github.com/JakobHolstDK/picturesinthevault/issues"
+"Source" = "https://github.com/JakobHolstDK/picturesinthevault"
+
+[project.scripts]  # Optional
+pitv = "pitv:main"
+
+[tool.setuptools]
+package-data = {"pitv" = ["*.dat"]}
+
+[build-system]
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
