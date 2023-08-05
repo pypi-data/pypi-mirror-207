@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mknsmPy
+Version: 0.1
+Summary: mekanism material calculator
+Home-page: https://github.com/hihimamuLab/MekanismCalcLibrary.git
+Author: hihimamu
+Author-email: mamu.pypi@shchiba.uk
+License: MIT
+Keywords: mekanism,mechanism,mknsm,mknsmPy
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+MekanismCalcLibrary
+===================
+
+Enter the items you want to make and the number of items, and the
+materials will be automatically calculated.

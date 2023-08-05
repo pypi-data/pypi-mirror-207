@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+README.rst
+setup.py
+mknsmPy/__init__.py
+mknsmPy/mknsmPy.py
+mknsmPy.egg-info/PKG-INFO
+mknsmPy.egg-info/SOURCES.txt
+mknsmPy.egg-info/dependency_links.txt
+mknsmPy.egg-info/top_level.txt
