@@ -1,0 +1,22 @@
+---
+execution_environment:
+  init:
+    append_build_steps: []
+directory:
+  init:
+    folders:
+      - name: inventories
+        folders:
+          - name: example-inventory
+            files:
+              - hosts
+            folders:
+              - name: group_vars
+              - name: host_vars
+      - name: library
+      - name: module_utils
+      - name: roles
+      - name: plugins
+    files:
+      - playbook.yml.j2
+      - ansible.cfg
