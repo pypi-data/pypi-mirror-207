@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: pynchon
+Version: 2023.5.7.2.25
+Summary: Autodocs for python projects
+Home-page: https://github.com/elo-enterprises/pynchon/
+Author: elo
+Author-email: engineering@elo.enterprises
+License: MIT
+Project-URL: Documentation, https://github.com/elo-enterprises/pynchon/
+Project-URL: Source, https://github.com/elo-enterprises/pynchon/
+Project-URL: Download, https://github.com/elo-enterprises/pynchon/#files
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >3.6
+Description-Content-Type: text/x-rst; charset=UTF-8
+Requires-Dist: click
+Requires-Dist: memoized-property (==1.0.3)
+Requires-Dist: memoization (==0.4.0)
+Requires-Dist: pyjson5 (==1.6.1)
+Requires-Dist: pygments
+Requires-Dist: Jinja2 (==3.1.2)
+Requires-Dist: griffe (==0.23.0)
+Requires-Dist: mccabe (==0.7.0)
+Requires-Dist: pyyaml
+Requires-Dist: termcolor
+Requires-Dist: tomli
+Requires-Dist: tomli-w (==1.0.0)
+Requires-Dist: pydash (==7.0.1)
+Requires-Dist: enlighten (==1.11.2)
+Requires-Dist: rich (==13.3.4)
+Requires-Dist: multipledispatch (==0.6.0)
+Requires-Dist: blinker (==1.6.2)
+Requires-Dist: pydantic
+Requires-Dist: cookiecutter (==2.1.1)
+Provides-Extra: dev
+Requires-Dist: IPython ; extra == 'dev'
+Provides-Extra: j2
+Requires-Dist: j2cli (==0.3.10) ; extra == 'j2'
+Requires-Dist: Jinja2 ; extra == 'j2'
+Provides-Extra: lint
+Requires-Dist: tox ; extra == 'lint'
+Provides-Extra: publish
+Requires-Dist: twine ; extra == 'publish'
+Provides-Extra: testing
+Requires-Dist: IPython ; extra == 'testing'
+Requires-Dist: tox ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: mock ; extra == 'testing'
+Requires-Dist: flake8 (==5.0.4) ; extra == 'testing'
+
+See the project README
