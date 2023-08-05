@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: naturalminer
+Version: 0.1.0
+Summary: Mine data for patterns described in natural language
+Home-page: https://github.com/itrummer/NaturalMiner
+Author: Immanuel Trummer
+Author-email: immanuel.trummer@gmail.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: GPU
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Topic :: Database :: Front-Ends
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Provides-Extra: gui
+License-File: LICENSE
