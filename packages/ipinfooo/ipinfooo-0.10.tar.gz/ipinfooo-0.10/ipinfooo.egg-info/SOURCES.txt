@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+ipinfooo/README.md
+ipinfooo/__init__.py
+ipinfooo/requirements.txt
+ipinfooo/thirdparty.json
+ipinfooo.egg-info/PKG-INFO
+ipinfooo.egg-info/SOURCES.txt
+ipinfooo.egg-info/dependency_links.txt
+ipinfooo.egg-info/requires.txt
+ipinfooo.egg-info/top_level.txt

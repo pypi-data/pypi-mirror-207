@@ -1,0 +1,3 @@
+include ipinfooo/requirements.txt
+include ipinfooo/thirdparty.json
+include ipinfooo/README.md
