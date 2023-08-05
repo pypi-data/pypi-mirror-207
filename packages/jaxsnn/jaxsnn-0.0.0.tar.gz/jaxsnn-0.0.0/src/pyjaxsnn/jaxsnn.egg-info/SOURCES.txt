@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/pyjaxsnn/jaxsnn/__init__.py
+src/pyjaxsnn/jaxsnn/neuron.py
+src/pyjaxsnn/jaxsnn.egg-info/PKG-INFO
+src/pyjaxsnn/jaxsnn.egg-info/SOURCES.txt
+src/pyjaxsnn/jaxsnn.egg-info/dependency_links.txt
+src/pyjaxsnn/jaxsnn.egg-info/requires.txt
+src/pyjaxsnn/jaxsnn.egg-info/top_level.txt
