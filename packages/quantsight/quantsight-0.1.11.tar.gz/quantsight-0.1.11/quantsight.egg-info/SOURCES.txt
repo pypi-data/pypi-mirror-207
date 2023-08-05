@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+quantsight/__init__.py
+quantsight/agent.py
+quantsight/client.py
+quantsight.egg-info/PKG-INFO
+quantsight.egg-info/SOURCES.txt
+quantsight.egg-info/dependency_links.txt
+quantsight.egg-info/requires.txt
+quantsight.egg-info/top_level.txt
