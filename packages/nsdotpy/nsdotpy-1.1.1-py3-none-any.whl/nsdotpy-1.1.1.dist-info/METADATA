@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: nsdotpy
+Version: 1.1.1
+Summary: A wrapper around requests that abstracts away interacting with the HTML nationstates.net site. Focused on legality, correctness, and ease of use.
+Home-page: https://github.com/sw33ze/NSDotPy
+License: AGPL-3.0-or-later
+Author: audrey
+Author-email: audreyreal@proton.me
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: beautifulsoup4 (>=4.12.2,<5.0.0)
+Requires-Dist: keyboard (>=0.13.5,<0.14.0)
+Requires-Dist: requests (>=2.30.0,<3.0.0)
+Requires-Dist: tendo (>=0.3.0,<0.4.0)
+Project-URL: Repository, https://github.com/sw33ze/NSDotPy
+Description-Content-Type: text/markdown
+
+# NSDotPy
+A Python wrapper around requests for legally interacting with the HTML NationStates site, as well as a barebones API client. Built for legality first and foremost, as well as ease of use.
+
+## Installation
+``pip install nsdotpy``
+
+## Simple Example
+```python
+from nsdotpy.session import NSClient
+session = NSClient("NSDotPy Example," "1.0.0", "User Nation", "Dev Nation")
+if session.login("User Nation", "Password"):  # logs in and checks if login was successful
+    session.move_to_region("Lily")  # only moves if you successfully logged in
+```
+## TODO:
+- ~~Region Admin Controls~~
+- Dossier and reports handling
+- More fleshed out API Client
+## Docs
+https://sw33ze.github.io/NSDotPy/src/session.html#NSSession
