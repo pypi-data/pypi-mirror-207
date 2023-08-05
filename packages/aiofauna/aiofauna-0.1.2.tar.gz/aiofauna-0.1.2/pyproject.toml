@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "aiofauna"
+version = "0.1.2"
+description = ""
+authors = ["Oscar Bahamonde <oscar.bahamonde.dev@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pydantic = {extras = ["dotenv"], version = "^1.10.7"}
+aiohttp = "^3.8.4"
+iso8601 = "^1.1.0"
+aiohttp-sse = "^2.1.0"
+aiohttp_cors = "^0.7.0"
+aiohttp-devtools = "^1.0.post0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+dev = "aiofauna.cli:dev"
