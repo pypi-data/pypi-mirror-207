@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: budgetguard
+Version: 0.5.0
+Summary: 
+Author: Mateusz Borsuk
+Author-email: mtszborsuk212@gmail.com
+Requires-Python: >=3.8.8,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pyspark (==3.2.0)
+Requires-Dist: requests (>=2.28.2,<3.0.0,!=2.30.0)
+Description-Content-Type: text/markdown
+
+
+# BudgetGuard
+[![codecov](https://codecov.io/gh/M-Borsuk/BudgetGuard/branch/main/graph/badge.svg?token=BudgetGuard_token_here)](https://codecov.io/gh/M-Borsuk/BudgetGuard)
+[![CI](https://github.com/M-Borsuk/BudgetGuard/actions/workflows/main.yml/badge.svg)](https://github.com/M-Borsuk/BudgetGuard/actions/workflows/main.yml)
+
+BudgetGuard created by M-Borsuk
+
+## Install it from PyPI
+
+```bash
+pip install budgetguard
+```
+
+## Usage
+
+```py
+from budgetguard import BaseClass
+from budgetguard import base_function
+
+BaseClass().base_method()
+base_function()
+```
+
+```bash
+$ python -m budgetguard
+#or
+$ budgetguard
+```
+
+## Development
+
+Read the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+
