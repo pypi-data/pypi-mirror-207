@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/edb_mpris/__init__.py
+src/edb_mpris/event.py
+src/el_decko_backend_mpris.egg-info/PKG-INFO
+src/el_decko_backend_mpris.egg-info/SOURCES.txt
+src/el_decko_backend_mpris.egg-info/dependency_links.txt
+src/el_decko_backend_mpris.egg-info/entry_points.txt
+src/el_decko_backend_mpris.egg-info/requires.txt
+src/el_decko_backend_mpris.egg-info/top_level.txt
