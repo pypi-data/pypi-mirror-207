@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: youtube_urls_validator
+Version: 0.0.1
+Summary: Validator for YouTube URLs.
+Home-page: https://github.com/Wiped-Out/odnoklassniki_urls_validator
+Download-URL: https://github.com/Wiped-Out/odnoklassniki_urls_validator/releases/latest
+Author: Emir Takhaviev
+Author-email: tah116emir@outlook.com
+Keywords: python,validation,youtube
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# youtube_urls_validator
+
+Library for validating YouTube urls and brings them to one standart.
+
+# How method works?
+
+1. Add prefix "https://"
+2. Change all hostnames to "www.youtube.com"
+
+
+# Examples
+
+```python
+from youtube_urls_validator import validate_url
+
+validated_url = validate_url(url='youtube.com/youtube/')
+# >> https://youtube.com/youtube
+
+validated_url = validate_url(url='youtu.be/youtube')
+# >> https://youtube.com/youtube
+```
+
+
+# Installing
+
+```commandline
+pip3 install youtube_urls_validator
+```
