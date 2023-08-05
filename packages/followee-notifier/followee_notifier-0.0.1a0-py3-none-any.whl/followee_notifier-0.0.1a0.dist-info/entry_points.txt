@@ -1,0 +1,4 @@
+[console_scripts]
+followee-notifier=followee_notifier.cli:main
+followee-notifier-telegram-list-chats=followee_notifier.notify.telegram:list_chats
+
