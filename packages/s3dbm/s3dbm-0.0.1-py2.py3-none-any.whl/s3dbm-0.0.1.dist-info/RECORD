@@ -1,0 +1,9 @@
+s3dbm/__init__.py,sha256=JTML8z3EMVJGIYKB2DukPpVB8qW1zlZ08LP2NseMCw8,111
+s3dbm/main.py,sha256=FHt0_5SOeAWWQ-YMA0ypWRf5RYfuShtBb_DeWBdiUrI,12767
+s3dbm/utils.py,sha256=ra5jflyqECY8kQKb7tvFP8-DvdLDYBAK4Yxmnu0KYe8,13211
+s3dbm/tests/__init__.py,sha256=38pdDhEZk2RiT5kga2DPbhTYeDHdsCXNaEr7HH1-k20,208
+s3dbm-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+s3dbm-0.0.1.dist-info/METADATA,sha256=Te0CcDO79KuDJCb-twnrfxNl5x32JbPGM80F3KifHNM,687
+s3dbm-0.0.1.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+s3dbm-0.0.1.dist-info/top_level.txt,sha256=_bQEJtCiwqkzG0DKwMolGqumKDMi0aaSDR1SgX5GQoY,6
+s3dbm-0.0.1.dist-info/RECORD,,
