@@ -1,0 +1,111 @@
+Metadata-Version: 2.1
+Name: hilly
+Version: 0.1.3
+Summary: Tools for summarizing and viewing sporty GPX traces
+Home-page: https://gitlab.com/ryanmcginger/hilly
+Keywords: gpx,maps,outdoors
+Author: Ryan
+Author-email: code+git@mcginger.net
+Requires-Python: >=3.10,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: folium (>=0.14.0,<0.15.0)
+Requires-Dist: geopandas (>=0.12.2,<0.13.0)
+Requires-Dist: gpxcsv (>=0.2.15,<0.3.0)
+Requires-Dist: gpxpy (>=1.5.0,<2.0.0)
+Requires-Dist: loguru (>=0.7.0,<0.8.0)
+Requires-Dist: lxml (>=4.9.2,<5.0.0)
+Requires-Dist: mapclassify (>=2.5.0,<3.0.0)
+Requires-Dist: matplotlib (>=3.7.1,<4.0.0)
+Requires-Dist: pyqt5 (>=5.15.9,<6.0.0)
+Requires-Dist: rasterio (>=1.3.6,<2.0.0)
+Requires-Dist: scipy (>=1.10.1,<2.0.0)
+Requires-Dist: tqdm (>=4.65.0,<5.0.0)
+Project-URL: Repository, https://gitlab.com/ryanmcginger/hilly
+Description-Content-Type: text/markdown
+
+
+<p align="center">
+  <img src="docs/img/hilly-icon_sm.png" />
+</p>
+
+
+# Hilly
+
+Tools for summarizing and viewing sporty GPX traces
+
+## Install
+
+```bash
+pip install hilly
+```
+
+## Dev Install
+
+```
+git clone
+cd hilly
+poetry install
+```
+
+## Features
+
+  * Traces are loaded as GeoDataFrames (convenient exploring and editing)
+  * Rasterize traces to see popular routes/trails.
+  * Label/Filter Skiing Trace to label/exclude chair-lifts.
+  * Summary for Skiing day
+
+## Usage
+
+Import a trace:
+
+```python
+import hilly
+
+df = hilly.io.load_trace("path/to/trace.gpx")
+```
+
+If it is a ski/snowboarding trace, apply filters to identify runs/lifts:
+
+```python
+ski_df = hilly.ski.apply_filters(df)
+ski_df.labels_str.unique().tolist()
+# ['', 'lift-1', 'run-1', 'run-2', 'lift-2', 'run-3', 'lift-3', 'run-4']
+```
+
+The `labels_str` column labels points in the trace as belonging to a lift ride or run, otherwise it is empty. The number indicates a count of lift/runs.
+
+From there you can get a summary for the trace (assuming it is over a single day):
+
+```python
+summary = hilly.ski.summary(ski_df)
+#🏂 Ski Stats ⛷
+#    runs: 4
+#    Total Dist(km): 4.815023209198009
+#    Longest Run(km): 1.409849302232853
+#    Total time: 0 days 00:17:32
+#    Total lift time: 0 days 00:36:55.990000
+#    Time Ratio: 0.4747313841668961
+```
+
+Or, you can view the trace:
+
+```python
+# open leaflet map showing points, dropping datetime column for proper JSON
+m = ski_df.drop(columns=["time"]).explore("labels", cmap="coolwarm_r")
+m.show_in_browser()
+```
+![ski-point-map](docs/img/ski-point-map.png)
+
+or rasterize the trace to get a density map:
+```python
+arr, bounds = hilly.utils.rasterize(ski_df, runs_only=True, res=1)
+m = hilly.io.map_raster(arr, bounds)
+m.show_in_browser()
+```
+![ski-raster-map](docs/img/ski-raster-map.png)
+
+# Collecting Traces
+
+There are many apps available for collecting traces. I use [OpenTracks](https://opentracksapp.com/) and follow the Export instructions from the settings menu.
+
