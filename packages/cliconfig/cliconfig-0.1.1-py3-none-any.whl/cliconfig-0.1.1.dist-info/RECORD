@@ -1,0 +1,10 @@
+cliconfig/__init__.py,sha256=wlro-RjTnyqwrdJde6UbLPkD1xGI6mIovkr6eabJe-w,911
+cliconfig/_version.py,sha256=aDfNBQh0vsVL7CSgYEMdMUbrxVw92raLxMivH20w2A4,160
+cliconfig/cli_parser.py,sha256=3KnIrkjoe7xhsvvMQ3igrh2WgrARMnVzKt_B9VE82AE,1524
+cliconfig/config.py,sha256=YrWra-YWAE6HxFOTqlwclGx1nUPcgS18uU5v9LnK3hg,6431
+cliconfig/show.py,sha256=mwV5HSsuDYQvo4qFJ7N5hobcjL3V2USBRmMNP7Yu--0,797
+cliconfig-0.1.1.dist-info/LICENSE,sha256=Pi-bfggvNCn_vo9Wnrhhvqj5RjvqUaEGB4g9cqKLAFU,1074
+cliconfig-0.1.1.dist-info/METADATA,sha256=KsU52xcZ6mt8G2ulV9nafPmZS9a1WEuRxpi-GJvpPkM,6019
+cliconfig-0.1.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+cliconfig-0.1.1.dist-info/top_level.txt,sha256=DxgxNKnLjiX6BPW3123Az0Tlnh0Yd7wlL8YKRLKhWHE,10
+cliconfig-0.1.1.dist-info/RECORD,,
