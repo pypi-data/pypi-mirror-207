@@ -1,0 +1,12 @@
+nyckel/__about__.py,sha256=ZUl2xcRi75lbPrlvl0NxpUt61vfrXEhe0YCcbPhhIX0,21
+nyckel/__init__.py,sha256=boZT_mdfCvlGSmhlMVihCUeJdRRpFo1HZw6fNdSN5yg,236
+nyckel/auth.py,sha256=5YkjcLmhc8lZS7cN8UkfY49p6AiF70qBoWfDUV9sjt8,1028
+nyckel/config.py,sha256=d5onS1lUtVZcsa8UmvcdSotz7Q5nf9Ldfl7TD0iljAc,29
+nyckel/request_utils.py,sha256=LSyzXhEBPAmwrsbEYEQloY8zIRgLeYll44rDUZ2lyxU,1848
+nyckel/functions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nyckel/functions/text_classification_function.py,sha256=HlF_OYrdgjKe-RQBarBUuDTOqHhQ6-3DQ6u4JlBib3E,5256
+nyckel/functions/utils.py,sha256=pY5rEsoZL40lDODm6aWA03M7FJNF5mX1ojr72_EmFXw,75
+nyckel-0.0.6.dist-info/METADATA,sha256=exA2KIi6l2x9JUwSBCaqJB1xjSjK1UU3lp8aBwjx32A,538
+nyckel-0.0.6.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+nyckel-0.0.6.dist-info/licenses/LICENSE,sha256=g0D9yzWLb_aslAj7A9MXP-BtkcDr8vCNZfFd0XtI838,1063
+nyckel-0.0.6.dist-info/RECORD,,
