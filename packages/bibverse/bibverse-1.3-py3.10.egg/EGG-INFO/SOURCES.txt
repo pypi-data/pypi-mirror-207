@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+bibverse/__init__.py
+bibverse/__main__.py
+bibverse.egg-info/PKG-INFO
+bibverse.egg-info/SOURCES.txt
+bibverse.egg-info/dependency_links.txt
+bibverse.egg-info/entry_points.txt
+bibverse.egg-info/requires.txt
+bibverse.egg-info/top_level.txt

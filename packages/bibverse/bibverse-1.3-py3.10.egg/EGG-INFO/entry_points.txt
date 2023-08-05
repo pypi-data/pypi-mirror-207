@@ -1,0 +1,3 @@
+[console_scripts]
+bibverse = bibverse.__main__:main
+
