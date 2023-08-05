@@ -1,0 +1,9 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/base_mq_consumer.py,sha256=3-66AfNPo6WS2FDcyT4fRz6UgySMTh9noyICRblXTu0,1815
+src/blobs_handler.py,sha256=wAbvCU7e00-lc5sWq5jH739z_SRUr2yKDpzWwKjPkg0,1376
+src/models_handler.py,sha256=m_WqwcKANQ_-WgOG79ua1H6oIanZeIv189BMAP-xGaQ,1971
+palmers_agents_general-0.0.3.dist-info/METADATA,sha256=-ThwEhDBg2P8amFZ4ZNNDoxHp2b4Zx5bhAUyq6wG3Cw,660
+palmers_agents_general-0.0.3.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+palmers_agents_general-0.0.3.dist-info/licenses/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+palmers_agents_general-0.0.3.dist-info/RECORD,,
