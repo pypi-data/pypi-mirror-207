@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: smartjs
+Version: 0.0.8
+Summary: 
+Author: Daniel Victor
+Author-email: arantesdv@me.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Unidecode (>=1.3.6,<2.0.0)
