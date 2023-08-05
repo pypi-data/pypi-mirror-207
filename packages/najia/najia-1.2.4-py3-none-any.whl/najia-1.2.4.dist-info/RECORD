@@ -1,0 +1,15 @@
+najia/__init__.py,sha256=uHF4JsU-rdR7eTTvZtLY1BQ5rc10vJcAGbwk3H_SfoM,78
+najia/__main__.py,sha256=dR5BnyJOswdXntw4r_0PG7u5YRbmhFkFZRFwrHKp3CU,1338
+najia/const.py,sha256=LCKq3CG0ON0bDt4OoGzsjDov9rlB7oLhwwMlCqJ6w8U,4666
+najia/data/dc.json,sha256=WClRxYg7jMdpD0ReErh6QbdddtsWg1WinNisigAyGcM,125961
+najia/data/dd.json,sha256=DQUsWOJw4LbcteNck-wUv0sKYg7vO_yzuFffJ1YWdq8,116617
+najia/data/guaci.txt,sha256=m0iFaDfqlzyD3bXUaG0EtFNb-dthnrqrpfOhnTOnBBs,58689
+najia/data/simple.tpl,sha256=k2b4vsAhsF7c1BKT_NXXqiwG_cDUQ92n9CZKvlndxWU,954
+najia/data/standard.tpl,sha256=k2b4vsAhsF7c1BKT_NXXqiwG_cDUQ92n9CZKvlndxWU,954
+najia/najia.py,sha256=-qxdKKAqUcLDfPfCiH0EyLcwbpPKhcC7CrSmUA9Wt-s,10128
+najia/utils.py,sha256=D1KGKU8_Qfh8aVots3bAzY3nQOZuT0bQZy1W251JCxk,5786
+najia-1.2.4.dist-info/LICENSE,sha256=BB9pq4sDV1oCKeEt3Yht9kUogbMUIgAanfCReFTL2o4,1063
+najia-1.2.4.dist-info/METADATA,sha256=k0kCzPyZmalb2hQmekWBbhd3ynGAGBSFRveL2YVq5ec,2539
+najia-1.2.4.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+najia-1.2.4.dist-info/entry_points.txt,sha256=uR46vlii-HDLbAOw3up8ziLMQjHwnGzfW-jW2q_rJQc,45
+najia-1.2.4.dist-info/RECORD,,
