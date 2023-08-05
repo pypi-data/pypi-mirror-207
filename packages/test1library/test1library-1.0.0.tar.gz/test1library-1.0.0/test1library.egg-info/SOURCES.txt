@@ -1,0 +1,7 @@
+README.md
+setup.py
+test1library.egg-info/PKG-INFO
+test1library.egg-info/SOURCES.txt
+test1library.egg-info/dependency_links.txt
+test1library.egg-info/requires.txt
+test1library.egg-info/top_level.txt
