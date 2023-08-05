@@ -1,0 +1,3 @@
+[console_scripts]
+classifygpt = transformgpt.classify_main:main
+transformgpt = transformgpt.transform_main:main
