@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: s3dbm
+Version: 0.0.3
+Summary: A python dbm-style interface to S3
+Home-page: https://github.com/mullenkamp/s3dbm
+Author: Mike Kittridge
+Author-email: mullenkamp1@gmail.com
+License: Apache
+Keywords: shelve dbm s3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+
+s3dbm
+==================================
+
+A python dbm-style interface to S3.
