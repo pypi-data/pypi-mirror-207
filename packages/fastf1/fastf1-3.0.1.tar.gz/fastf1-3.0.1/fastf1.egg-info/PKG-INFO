@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: fastf1
+Version: 3.0.1
+Summary: Wrapper library for F1 data and telemetry API with additional data processing capabilities.
+Home-page: https://github.com/theOehrly/Fast-F1
+Author: Oehrly
+Author-email: oehrly@mailbox.org
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
