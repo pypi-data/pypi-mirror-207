@@ -1,0 +1,8 @@
+{
+  "jupyter.lab.shortcuts": [],
+  "title": "@datalayer/jupyter-next",
+  "description": "@datalayer/jupyter-next settings.",
+  "type": "object",
+  "properties": {},
+  "additionalProperties": false
+}
