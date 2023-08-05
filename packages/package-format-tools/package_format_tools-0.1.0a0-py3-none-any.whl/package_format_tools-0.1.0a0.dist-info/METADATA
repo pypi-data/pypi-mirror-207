@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: package-format-tools
+Version: 0.1.0a0
+Summary: Some useful python package format tools.
+Author: Vladimir V. Pivovarov
+Author-email: admin@p-app.ru
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Python package format tools.
+
+Some tools to format package files.
+
+*Currently is under development.*
