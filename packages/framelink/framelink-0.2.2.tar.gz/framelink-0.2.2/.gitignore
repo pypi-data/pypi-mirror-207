@@ -1,0 +1,19 @@
+.mypy_cache
+.ruff_cache
+.venv*
+data
+.idea
+/dist/
+/build/
+# this is a dynamic file
+*__version__.py
+/.coverage
+/coverage.xml
+/src/*.egg-info/
+**/.pytest_cache/
+/pdm.toml
+/**/.ipynb_checkpoints
+.DS_Store
+*.pyc
+/.vscode/
+/docker-compose.yml
