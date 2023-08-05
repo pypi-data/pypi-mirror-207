@@ -1,0 +1,7 @@
+msqlpd/__init__.py,sha256=pP19JZ1bdfVneddzrljv4LlhCGXUjP-HtwCdMGzVmvs,36
+msqlpd/src/connection.py,sha256=_rgYTm9P2DrUCLiGTQTKmUUxZtua7Wwm82j9fRgHwbo,13819
+msqlpd-4.0.3.dist-info/LICENSE,sha256=hRv115YwRarr5wPuaEzj3_yO8iojV8DqDQvYFCPuKYY,1071
+msqlpd-4.0.3.dist-info/METADATA,sha256=WIrJ5Bo0ekTw3piZO37VZLFpdljABYlUMtLPqbtI448,386
+msqlpd-4.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+msqlpd-4.0.3.dist-info/top_level.txt,sha256=bn05Fjf5-OHZcfL9SaUayw3tPRfqURuqiyIJPPjZYIk,7
+msqlpd-4.0.3.dist-info/RECORD,,
