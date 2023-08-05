@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ARIclicker
+Version: 0.0.1
+Summary: A random interval clicker who can DIY:AutoRandomIntervalClicker
+Home-page: UNKNOWN
+Author: lin_zhe
+Author-email: 2081812728@qq.com
+Maintainer: lin_zhe
+License: MIT License
+Keywords: AutoRandomIntervalClicker
+Platform: any
+Requires-Python: >=3.0
+License-File: license.txt
+
+UNKNOWN
+
