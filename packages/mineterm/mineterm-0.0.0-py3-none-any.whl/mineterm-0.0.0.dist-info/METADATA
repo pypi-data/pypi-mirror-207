@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: mineterm
+Version: 0.0.0
+Summary: A simple Minecraft launcher for the terminal.
+License: MIT
+Author: mudkipdev
+Author-email: mudkip@mudkip.dev
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: textual (>=0.23.0,<0.24.0)
+Description-Content-Type: text/markdown
+
+# mineterm
+A simple Minecraft launcher for the terminal.
+
+![](https://user-images.githubusercontent.com/86132148/236665202-db84df74-ed29-43f8-9031-fb76261c886d.png)
+
