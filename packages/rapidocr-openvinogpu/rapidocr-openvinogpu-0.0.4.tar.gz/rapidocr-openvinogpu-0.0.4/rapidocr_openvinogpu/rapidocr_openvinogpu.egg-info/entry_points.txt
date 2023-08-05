@@ -1,0 +1,2 @@
+[console_scripts]
+rapidocr_openvinogpu = rapidocr_openvinogpu.rapid_ocr_api:RapidOCR
