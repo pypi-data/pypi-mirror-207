@@ -1,0 +1,12 @@
+zeroth_normalizer/__init__.py,sha256=BNIox3JmhSHfACIAJvNfauzb86DGEkh24_SK8sQpGe0,2164
+zeroth_normalizer/version.py,sha256=C3BRWidYz52Hz7Nw1wMhsEwdju_NsMr2phBRGLgnuVE,17
+zeroth_normalizer/normalizer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zeroth_normalizer/normalizer/at_unicode.py,sha256=fanNyJueWd88b1hMNo2nOqJ16OPSq4mzAYMYz6OWzLk,6577
+zeroth_normalizer/normalizer/step1.py,sha256=1kyfhozka_HM8697Y7qAHs7PLWL3kHXXXYAEN6Sc8Wc,2557
+zeroth_normalizer/normalizer/step2.py,sha256=DSZiOEEf_3UOEyv7mo9HQRHqPrlgfJgCSm2rU9bj-QE,1150
+zeroth_normalizer/normalizer/step3.py,sha256=C8F4rZ8KihVx63G5m2ts_AXnygY9F4XQ4uGScWuW7cc,478
+zeroth_normalizer/normalizer/step4.py,sha256=zcFp6KQ5aNZEJEPuyNrMTQV7TUpcR1-0y373Rg8xsR8,10554
+zeroth_normalizer-0.1.0.dist-info/METADATA,sha256=UpDBIXpqsoAFRgMGVJkoBTeJUpzia_g7a8RYohxFZBQ,6024
+zeroth_normalizer-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+zeroth_normalizer-0.1.0.dist-info/top_level.txt,sha256=VIWgODvFKh7rLvCpfq5BjS9ejCLamPRpeodnrmtsqQg,18
+zeroth_normalizer-0.1.0.dist-info/RECORD,,
