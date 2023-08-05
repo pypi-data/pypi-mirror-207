@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: detabase
+Version: 0.2.5
+Summary: Base arquitecture for projects using Deta.
+Author: Daniel Arantes
+Author-email: arantesdv@me.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Unidecode (>=1.3.6,<2.0.0)
+Requires-Dist: anyio (>=3.6.2,<4.0.0)
+Requires-Dist: deta[async] (==1.1.0a2)
+Requires-Dist: smartjs (>=0.1.0,<0.2.0)
+Requires-Dist: starlette (>=0.26.1,<0.27.0)
+Requires-Dist: type-extensions (>=0.1.2,<0.2.0)
