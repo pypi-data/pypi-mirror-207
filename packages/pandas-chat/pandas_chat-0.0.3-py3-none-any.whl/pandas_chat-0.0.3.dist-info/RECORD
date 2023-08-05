@@ -1,0 +1,9 @@
+pandas_chat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pandas_chat/action.py,sha256=Z37H_IlnT12khUBEx-wSGiyfxYYhCs5L085i3HfGMow,1007
+pandas_chat/factory.py,sha256=Cq67_eFpoeh5zykF-vq-sxGgeKa02lQohPhoRP6F0OU,1403
+pandas_chat/utils.py,sha256=roduE1wC5kUwI8qwTMhXq6qb1CUgHcrcrH8tEdqXNTE,459
+pandas_chat-0.0.3.dist-info/LICENSE,sha256=CgEMW9_qMmrznP7kamSHLgp15Q9Lu06BnamVZv6XH2w,1495
+pandas_chat-0.0.3.dist-info/METADATA,sha256=dG6LuJfH8e1KY2k8YJxjewsxLZb6OS2f26mElS1AGTM,2324
+pandas_chat-0.0.3.dist-info/WHEEL,sha256=1M_r2SA5CCyQUELBGT0TQK6ae_OxFXacwDFwNvVmxfw,86
+pandas_chat-0.0.3.dist-info/top_level.txt,sha256=GLa6kt8ncirwCjjUNRrKkEPnUbOeqw_N6WDlsr0ieL8,12
+pandas_chat-0.0.3.dist-info/RECORD,,
