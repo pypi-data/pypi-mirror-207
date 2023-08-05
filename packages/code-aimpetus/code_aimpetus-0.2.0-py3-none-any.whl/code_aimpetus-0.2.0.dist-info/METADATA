@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: code-aimpetus
+Version: 0.2.0
+Summary: Code.
+Project-URL: Homepage, https://github.com/BillSchumacher/CodeAImpteus
+Project-URL: Bug Tracker, https://github.com/BillSchumacher/CodeAImpteus
+Author-email: Bill Schumacher <34168009+BillSchumacher@users.noreply.github.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: black
+Requires-Dist: build
+Requires-Dist: celery[redis]
+Requires-Dist: cityhash
+Requires-Dist: click
+Requires-Dist: isort
+Requires-Dist: loguru
+Requires-Dist: numpy
+Requires-Dist: openai
+Requires-Dist: pygithub
+Requires-Dist: pytest
+Requires-Dist: python-dotenv
+Requires-Dist: scikit-learn
+Requires-Dist: setuptools
+Requires-Dist: sum-pai
+Requires-Dist: tenacity
+Requires-Dist: tiktoken
+Requires-Dist: twine
+Requires-Dist: wheel
+Description-Content-Type: text/markdown
+
+# CodeAImpetus

@@ -1,0 +1,2 @@
+[console_scripts]
+codeai = code_aimpetus.__main__:cli
