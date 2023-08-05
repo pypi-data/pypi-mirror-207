@@ -1,0 +1,6 @@
+pandas
+dms2dec
+pyproj
+leafmap
+geopandas
+
