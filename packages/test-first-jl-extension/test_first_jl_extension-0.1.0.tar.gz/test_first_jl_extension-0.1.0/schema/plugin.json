@@ -1,0 +1,8 @@
+{
+  "jupyter.lab.shortcuts": [],
+  "title": "test-first-jl-extension",
+  "description": "test-first-jl-extension settings.",
+  "type": "object",
+  "properties": {},
+  "additionalProperties": false
+}
