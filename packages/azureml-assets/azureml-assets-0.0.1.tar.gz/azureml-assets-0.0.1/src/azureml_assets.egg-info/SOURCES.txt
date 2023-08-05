@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+data/data_file
+src/azureml_assets.egg-info/PKG-INFO
+src/azureml_assets.egg-info/SOURCES.txt
+src/azureml_assets.egg-info/dependency_links.txt
+src/azureml_assets.egg-info/entry_points.txt
+src/azureml_assets.egg-info/requires.txt
+src/azureml_assets.egg-info/top_level.txt
+tests/test_simple.py
