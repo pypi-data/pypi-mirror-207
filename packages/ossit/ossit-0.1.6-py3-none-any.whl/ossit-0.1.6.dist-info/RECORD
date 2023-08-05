@@ -1,0 +1,11 @@
+ossit/__init__.py,sha256=1SRwxaT-SJeitd972ySli3o5C4CL7l493_Ffri2MezQ,210
+ossit/api_requestor.py,sha256=ZUD9gzZF1lu30IHpONaXLuHA6GBKSU83zvjw1V1nTFE,890
+ossit/ossit_response.py,sha256=SIHe6_peBD_3Vvm6MQRQ_b8EbA43TXTK1lJ-EOz4jxI,197
+ossit/api_resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ossit/api_resources/data.py,sha256=pCt5rZlTikc_nMCjCg2z6yDZ1GB1bPg9q0af_dol6RM,1468
+ossit/api_resources/domain.py,sha256=Tg0Q6gASowL2GtoK0ZkAa0s0eJG1Nq4S7TabcaTjwRQ,156
+ossit-0.1.6.dist-info/LICENSE.txt,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+ossit-0.1.6.dist-info/METADATA,sha256=OEf-1vj5K3fq3jKHcqp9-bRGdjd28-C7m5HA2C4_4zM,1084
+ossit-0.1.6.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+ossit-0.1.6.dist-info/top_level.txt,sha256=2o1o1rp07kV3zHO0X85ST5oOlFLg6UPfmmvqGd85-04,6
+ossit-0.1.6.dist-info/RECORD,,
