@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: interlo
+Version: 0.1
+Summary: A package for creating interstellar object 
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: astropy
+Requires-Dist: galpy
+
