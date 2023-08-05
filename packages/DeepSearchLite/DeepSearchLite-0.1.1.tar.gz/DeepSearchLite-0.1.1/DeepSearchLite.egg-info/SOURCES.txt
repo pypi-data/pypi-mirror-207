@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+DeepSearchLite/DeepSearchLite.py
+DeepSearchLite/__init__.py
+DeepSearchLite.egg-info/PKG-INFO
+DeepSearchLite.egg-info/SOURCES.txt
+DeepSearchLite.egg-info/dependency_links.txt
+DeepSearchLite.egg-info/requires.txt
+DeepSearchLite.egg-info/top_level.txt
