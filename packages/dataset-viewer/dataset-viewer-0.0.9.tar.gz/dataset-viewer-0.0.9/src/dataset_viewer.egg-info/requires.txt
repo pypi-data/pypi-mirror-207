@@ -1,0 +1,4 @@
+napari
+
+[gui]
+PyQt5

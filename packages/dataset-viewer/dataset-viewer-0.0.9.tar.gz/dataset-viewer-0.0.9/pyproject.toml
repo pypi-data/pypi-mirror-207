@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dataset-viewer"
+version = "0.0.9"
+authors = [
+  { name="Hillpro", email="66534835+Hillpro@users.noreply.github.com" },
+]
+description = "Allow to view a dataset image by image and edit their labels"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "napari",
+]
+
+[project.optional-dependencies]
+gui = ["PyQt5"]
+
+[project.urls]
+"Homepage" = "https://github.com/Hillpro/dataset-viewer"
+"Bug Tracker" = "https://github.com/Hillpro/dataset-viewer/issues"
