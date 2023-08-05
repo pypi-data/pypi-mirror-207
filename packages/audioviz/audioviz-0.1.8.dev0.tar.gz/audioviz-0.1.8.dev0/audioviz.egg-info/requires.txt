@@ -1,0 +1,9 @@
+numpy
+matplotlib
+pandas
+scipy
+librosa
+madmom==0.17.dev0
+libfmp
+plotly
+soundfile
