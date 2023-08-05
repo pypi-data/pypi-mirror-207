@@ -1,0 +1,16 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/__main__.py,sha256=PMTdGm21mzeJd45xL_OXHrls33P9jeAwQCR_OSijKfI,33
+src/_version.py,sha256=3XTPF4xYniXEOJaxWbMm5-PSmh6gSFBdI2aVh64e02U,160
+src/config.py,sha256=OFPtPkeYc8PwbcXjN7oyYAij1Q3DbLbT0F_i51KyX4I,829
+src/http.py,sha256=yhHjY5tBRgDcgLr3fO2kFxvNEPW8AQmlM-aEAJ25jWk,1685
+src/main.py,sha256=yaijRMVx_LkmCpA-ozdoBUVLbBKNLZPTKBpUcq48P_g,2472
+src/games/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/games/genshin.py,sha256=iwKd-NhdRVZXPgXR4y7O-GxfA1eKV9fM-zrBOXv-Gcc,200
+src/games/hoyo_checkin.py,sha256=NsVjob3PdXi_9mYK-mRkHYKDk_39dxElxGRfMlIOC4I,2253
+src/games/starrail.py,sha256=wtXQPrJGjUmW8A9PIZDTzB-hZiiSxmNHxWEbTUo_cXc,207
+hoyo_daily_logins_helper-1.2.3.dist-info/LICENSE,sha256=mYluISwUlRhyOocFBuQndyF5ZKqTzDtalcVTCKd34gE,34227
+hoyo_daily_logins_helper-1.2.3.dist-info/METADATA,sha256=GnG2IDJffstfIW1pnlKGTd554HGNtKy87vaUs9vc_bE,2591
+hoyo_daily_logins_helper-1.2.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+hoyo_daily_logins_helper-1.2.3.dist-info/entry_points.txt,sha256=RWkn_oFw-w5I2PPijySe7udmVaEUD3ew8wXMCQ9I3_g,59
+hoyo_daily_logins_helper-1.2.3.dist-info/top_level.txt,sha256=hXFCkD1poPfmeu6BuUQwk6Vx2EXdB_vq7HDIVHgZpDs,9
+hoyo_daily_logins_helper-1.2.3.dist-info/RECORD,,
