@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/onlyfakes/__init__.py
+src/onlyfakes/consts.py
+src/onlyfakes/core.py
+src/onlyfakes.egg-info/PKG-INFO
+src/onlyfakes.egg-info/SOURCES.txt
+src/onlyfakes.egg-info/dependency_links.txt
+src/onlyfakes.egg-info/requires.txt
+src/onlyfakes.egg-info/top_level.txt
