@@ -1,0 +1,7 @@
+README.md
+setup.py
+emp_beholder.egg-info/PKG-INFO
+emp_beholder.egg-info/SOURCES.txt
+emp_beholder.egg-info/dependency_links.txt
+emp_beholder.egg-info/requires.txt
+emp_beholder.egg-info/top_level.txt
