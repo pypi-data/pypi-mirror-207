@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: superlive
+Version: 1.0.9
+Summary: A small example package
+Home-page: https://github.com/sophatahsher/superlive_sdk_python
+Author: DR-Tech
+Author-email: Sophat Chhay <sophat.chhay@gmail.com>
+License: DR-Tech License 2.0
+Keywords: Superlive
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: certifi (==2022.12.7)
+Requires-Dist: charset-normalizer (==3.1.0)
+Requires-Dist: idna (==3.4)
+Requires-Dist: requests (==2.29.0)
+Requires-Dist: urllib3 (==1.26.15)
+
+# Superlive Streaming Host SDK
