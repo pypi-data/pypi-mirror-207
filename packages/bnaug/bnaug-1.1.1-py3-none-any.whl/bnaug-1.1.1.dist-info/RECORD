@@ -1,0 +1,8 @@
+bnaug/__init__.py,sha256=0j-2kmYeFJGuoLtlyvd6n3SvJpEnjp6ZrmylgHmCTnI,21
+bnaug/randaug.py,sha256=T-Yut-GfAmFAt2kBgbzASbZOfp-4oB_OyITEAtF9uoU,715
+bnaug/sentence.py,sha256=9Mz8eWNfJnQfo2hwdhUMc-D4mCrTzyjZRocW3IwASMA,6559
+bnaug/util.py,sha256=ACmnCDmHvhHTy_Is3MY2wnH4z2J4FP9c72vUh0LqYZQ,143
+bnaug-1.1.1.dist-info/METADATA,sha256=YJYdTHjqdqwKc-gzftmvk-1rxt6tVx0nLRq99jK9bRU,4173
+bnaug-1.1.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+bnaug-1.1.1.dist-info/top_level.txt,sha256=gcQcRnzvW0TRGnwmPotncP6tAXybFApWfD1qK-hIXjo,6
+bnaug-1.1.1.dist-info/RECORD,,
