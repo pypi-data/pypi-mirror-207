@@ -1,0 +1,49 @@
+[tool.poetry]
+name = "stickytext"
+version = "0.1.0"
+description = "An extremely simple app for showing a text file as a sticky note"
+authors = ["BeatLink <beatlink+git@simplelogin.co>"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+homepage = "https://github.com/BeatLink/StickyText"
+repository = "https://github.com/BeatLink/StickyText"
+documentation = "https://github.com/BeatLink/StickyText"
+keywords = [
+    "note",
+    "notes",
+    "autosave",
+    "gtk",
+    "text",
+    "sticky",
+    "linux"
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: X11 Applications :: GTK",
+    "Intended Audience :: End Users/Desktop",
+    "Natural Language :: English",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python",
+]
+
+packages = [{include = "stickytext"}]
+include = ['README.md', 'LICENSE.txt', 'pyproject.toml']
+exclude = []
+
+[tool.poetry.scripts]
+stickytext = 'stickytext.app:run_app'
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/BeatLink/StickyText/-/issues"
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pygobject = "^3.42.1"
+setuptools = "^67.7.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
