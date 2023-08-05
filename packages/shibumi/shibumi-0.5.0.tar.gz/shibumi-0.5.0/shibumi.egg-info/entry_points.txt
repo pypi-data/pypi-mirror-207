@@ -1,0 +1,13 @@
+[gui_scripts]
+shibumi = shibumi.shibumi:main
+
+[zero_play.game_display]
+margo = shibumi.margo.display:MargoDisplay
+sandbox = shibumi.sandbox.display:SandboxDisplay
+spaiji = shibumi.spaiji.display:SpaijiDisplay
+spargo = shibumi.spargo.display:SpargoDisplay
+sparks = shibumi.sparks.display:SparksDisplay
+spire = shibumi.spire.display:SpireDisplay
+spline = shibumi.spline.display:SplineDisplay
+sploof = shibumi.sploof.display:SploofDisplay
+spook = shibumi.spook.display:SpookDisplay
