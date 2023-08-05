@@ -1,0 +1,12 @@
+html2info/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+html2info/kaggle.py,sha256=USar9z2W4ON9lA3AF7uQgr-9A5IdVpN3-ZQDUPczSCc,4737
+html2info/linkedin.py,sha256=gOKRMrqdc_mvY7dOKa8LiQMRqCodBRBsHYLjKRrLYT0,6140
+html2info/types.py,sha256=Y18khlFMyn2-vqPPRelshT5g-uCEhyo9b24I4bN4ud4,439
+html2info/utils.py,sha256=jGIN9qcfFqKLsnatKejrWJbtRFTCjk-3pHaX9hz-0uU,190
+html2info/types/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+html2info/types/kaggle.py,sha256=Ro0d0AWfCTqadOoDl2R_l6WCGceft-tHQFO7eRPpuiQ,461
+html2info/types/linkedin.py,sha256=Y18khlFMyn2-vqPPRelshT5g-uCEhyo9b24I4bN4ud4,439
+html2info-0.2.0.dist-info/METADATA,sha256=HCrZuh-Fx_n7__U0GXghS0HOIXVdK33dGSRnhsfN8N0,8382
+html2info-0.2.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+html2info-0.2.0.dist-info/top_level.txt,sha256=cgCWoLeTWs5_VhqQs5gSI9p_fU_Nrj2EGZyB7-UxZw4,10
+html2info-0.2.0.dist-info/RECORD,,
