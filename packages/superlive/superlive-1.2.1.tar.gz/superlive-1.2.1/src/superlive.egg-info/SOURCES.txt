@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/superlive/__init__.py
+src/superlive.egg-info/PKG-INFO
+src/superlive.egg-info/SOURCES.txt
+src/superlive.egg-info/dependency_links.txt
+src/superlive.egg-info/requires.txt
+src/superlive.egg-info/top_level.txt
+src/superlive/core/__init__.py
+src/superlive/core/http_client.py
+src/superlive/streams/__init__.py
+src/superlive/streams/host.py
+tests/test_api_client.py
