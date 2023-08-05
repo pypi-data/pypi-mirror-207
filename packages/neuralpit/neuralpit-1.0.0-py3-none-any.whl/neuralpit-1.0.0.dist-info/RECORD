@@ -1,0 +1,7 @@
+api/__init__.py,sha256=DxyMajbs51vYpnHKLKixmGi0F2AZLY8sQXMC-nICqlg,82
+api/client.py,sha256=ky7Nau-6npKk3sVl6Us6TJQuRkD-li3EfQ5m8NPrjlQ,58
+api/config.toml,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+neuralpit-1.0.0.dist-info/METADATA,sha256=is882N9FfL2M1YwnYCpyQ82mJwHRYds2eEuwIBry8P0,604
+neuralpit-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+neuralpit-1.0.0.dist-info/top_level.txt,sha256=0XF5TFwfelCuuPcFarhKT7zW-9WUsZmb3a790D78BZE,4
+neuralpit-1.0.0.dist-info/RECORD,,
