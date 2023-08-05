@@ -1,0 +1,13 @@
+[package]
+name = "p2l"
+version = "0.0.0"
+edition = "2021"
+
+[lib]
+name = "parquet2lance"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.18"
+parquet2lance = { path = "local_dependencies/parquet2lance" }
+tokio = { version = "1", features = ["full"] }
