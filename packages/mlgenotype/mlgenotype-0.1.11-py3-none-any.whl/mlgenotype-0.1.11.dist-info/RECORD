@@ -1,0 +1,13 @@
+mlgenotype/__init__.py,sha256=Y3AClAXCQghj-mQFDDBpiGR3kFYBoogwneZ4Edk0WAw,93
+mlgenotype/__main__.py,sha256=NvB8aSMsVADWfsxOSeZz0w7my-5dFycR_XNLdyVme18,89
+mlgenotype/figure1calcs.py,sha256=1_9xDMKyAj9VMnzZlzX6VHBdIhrCQeNeemmlBAEHSa0,4888
+mlgenotype/rfgenotype.py,sha256=Xkz4A7peHzFcklp4iPGX4Fgu3q7A0F2iJI8GF8Q6EbY,3207
+mlgenotype/rfmodelpredict.py,sha256=REl89KXQygYtDwjxlyT81Fhe_RnvO8IwBxIp8Z4nHJ4,2752
+mlgenotype/rfmodeltrain.py,sha256=SIwhB2UVkIbW1mParnoWrVSQzIQ_4X2Z1UXWYQgjpKQ,3621
+mlgenotype/rftrainpredict.py,sha256=oQmDPFgPdAIzbHolMpjWHLWemPebjBn6cAAuSJEla_o,3792
+mlgenotype-0.1.11.dist-info/LICENSE.md,sha256=8MiahQenqNLUYxkUbmzSK9dmmq6Ek1vkfL_xOg8nEaA,995
+mlgenotype-0.1.11.dist-info/METADATA,sha256=w88GxeaUerG8xmEr0Ml8ftjMzQxaNKQTmjVaol6eI9U,1510
+mlgenotype-0.1.11.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+mlgenotype-0.1.11.dist-info/entry_points.txt,sha256=-liX4rKAN6tdEmgKrCicr8lTV4O33nyqiU56ReFxbHg,202
+mlgenotype-0.1.11.dist-info/top_level.txt,sha256=Ii6SaKLIGiCEWFVG5U6uHOqgBHA6hkOATFCAOZpAwXA,11
+mlgenotype-0.1.11.dist-info/RECORD,,

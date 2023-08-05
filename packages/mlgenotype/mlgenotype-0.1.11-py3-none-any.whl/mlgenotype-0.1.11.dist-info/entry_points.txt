@@ -1,0 +1,5 @@
+[console_scripts]
+figure1calcs = mlgenotype.figure1calcs:main
+rfmodelpredict = mlgenotype.rfmodelpredict:main
+rfmodeltrain = mlgenotype.rfmodeltrain:main
+rftrainpredict = mlgenotype.rftrainpredict:main
