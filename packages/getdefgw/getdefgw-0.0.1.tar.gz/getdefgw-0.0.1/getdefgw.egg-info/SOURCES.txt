@@ -1,0 +1,7 @@
+README.md
+setup.py
+bin/getdefgw
+getdefgw.egg-info/PKG-INFO
+getdefgw.egg-info/SOURCES.txt
+getdefgw.egg-info/dependency_links.txt
+getdefgw.egg-info/top_level.txt
