@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: grrif-tools
+Version: 0.5.2
+Summary: An unofficial set of tools for Cool Cats™.
+Home-page: https://fetzu.ch/
+Download-URL: https://github.com/fetzu/grrif_tools
+Author: Julien 'fetzu' Bono
+License: License :: OSI Approved :: MIT License
+License-File: LICENSE
+Requires-Dist: Requests (==2.30.0)
+Requires-Dist: beautifulsoup4 (==4.11.1)
+Requires-Dist: titlecase (==2.4)
+
+A set of tools for Cool Cats™. Allows you to archive GRRIF's play history to a SQLite database or text files, and maybe more...
