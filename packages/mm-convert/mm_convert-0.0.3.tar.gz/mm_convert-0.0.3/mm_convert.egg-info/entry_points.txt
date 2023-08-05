@@ -1,0 +1,3 @@
+[console_scripts]
+mm_convert = mm_convert:main
+
