@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: thunsearch
+Version: 0.0.1
+Summary: Search algorithm library implemented in c++
+Author: Thunder
+Author-email: aoki.eita1130@gmail.com
+Requires-Python: >=3.7
+License-File: LICENSE
+Provides-Extra: test
+Requires-Dist: pytest (>=6.0) ; extra == 'test'
+
