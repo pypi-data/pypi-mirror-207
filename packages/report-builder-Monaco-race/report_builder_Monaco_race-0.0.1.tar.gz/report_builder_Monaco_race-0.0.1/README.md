@@ -1,0 +1,26 @@
+# Task 6 - Report of Monaco 2018 Racing
+
+
+
+## Getting started
+There are 2 log files start.log and end.log that contain start and end data of the best lap for each racer of Formula 1 - Monaco 2018 Racing. (Start and end times are fictional, but the best lap times are true). Data contains only the first 20 minutes that refers to the first stage of the qualification.
+
+
+This package read data from 3 files, order racers by time and print report that shows the top 15 racers and the rest after underline
+
+## Add your files
+
+- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
+- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+
+```
+cd existing_repo
+git remote add origin http://git.foxminded.ua/foxstudent104833/task-6-report-of-monaco-2018-racing.git
+git branch -M main
+git push -uf origin main
+
+## Integrate with your tools
+
+- [ ] [Set up project integrations](http://git.foxminded.ua/foxstudent104833/task-6-report-of-monaco-2018-racing/-/settings/integrations)
+
+
