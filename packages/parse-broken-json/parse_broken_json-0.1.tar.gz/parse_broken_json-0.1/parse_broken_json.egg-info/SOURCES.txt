@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+parse_broken_json/__init__.py
+parse_broken_json.egg-info/PKG-INFO
+parse_broken_json.egg-info/SOURCES.txt
+parse_broken_json.egg-info/dependency_links.txt
+parse_broken_json.egg-info/requires.txt
+parse_broken_json.egg-info/top_level.txt
