@@ -1,0 +1,13 @@
+setup.py
+Office_helper_functions/Dates.py
+Office_helper_functions/__init__.py
+Office_helper_functions.egg-info/PKG-INFO
+Office_helper_functions.egg-info/SOURCES.txt
+Office_helper_functions.egg-info/dependency_links.txt
+Office_helper_functions.egg-info/top_level.txt
+Office_helper_functions/Image/Image_operations.py
+Office_helper_functions/Image/__init__.py
+Office_helper_functions/Word/Word_Image.py
+Office_helper_functions/Word/__init__.py
+Office_helper_functions/Word/form_field.py
+Office_helper_functions/Word/checkbox/__init__.py
