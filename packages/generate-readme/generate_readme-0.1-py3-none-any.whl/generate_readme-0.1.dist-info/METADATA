@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: generate-readme
+Version: 0.1
+Summary: Generate a README.md file for your projects
+Home-page: https://github.com/Navlos/Generate_Readme_cli.git
+Author: Adetunji Adetayo
+Author-email: <litcoderr@gmail.com>
+Keywords: README,python
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: markdown
+
+# generate_Readme
+The readme_generator is a command-line interface (CLI) tool written in Python that generates a README.md file for your project. It automatically creates a well-formatted and structured README.md file based on the information you provide about your project. 
+
+
+## Dependencies
+
+Markdown
+argparse
+
+## Usage
+
+ readme_generator.py [-h] --project-name PROJECT_NAME --description DESCRIPTION
+                           --installation INSTALLATION --usage USAGE --contribution
+                           CONTRIBUTION --contact CONTACT
+                           
+all arguments are required: --project-name, --description, --installation, --usage, --contribution, --contact
+
+## Support
+kindly consider starring the project 
+
+## Screenshot
+![image](https://github.com/Navlos/images/blob/ca0048c5cd255c530bdffba9c3479908c6b6ea6a/Screenshot%202023-05-05%20125117.jpg)
