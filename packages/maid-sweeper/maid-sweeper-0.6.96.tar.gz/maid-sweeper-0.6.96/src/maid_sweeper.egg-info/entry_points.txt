@@ -1,0 +1,2 @@
+[console_scripts]
+maid-sweeper = maid_sweeper.maid:main

@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "maid-sweeper"
+version = "0.6.96"
+authors = [
+  { name="noirgif", email="nomaru@outlook.com" },
+]
+description = "A maid that sweeps your files"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    'nest-asyncio',
+    'motor',
+    'certifi'
+]
+
+[project.scripts]
+maid-sweeper = "maid_sweeper.maid:main"
+
+[project.urls]
+"Homepage" = "https://github.com/noirgif/maid-sweeper"
+"Bug Tracker" = "https://github.com/noirgif/maid-sweeper/issues"
