@@ -1,0 +1,2 @@
+recursive-include silobuster *
+recursive-exclude silobuster *.log

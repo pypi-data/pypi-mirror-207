@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: silobuster
+Version: 1.0.3
+Summary:  A package to manage data. This package provides means to connect to different data sources and transform the data using Pandas. The focus of the library is to canonicalize data sources.  This project is focused on Human Resources data and working with data in various formats. Dedupe.io's machine learning library is used to cluster various data.  Please visit our documentation at https://openreferral.github.io/silobuster-model-trainer/ to learn more. 
+Home-page: https://openreferral.github.io/silobuster-model-trainer/
+Author: Jamey Harris
+Author-email: jameycharris@yahoo.com
+License: UNKNOWN
+Platform: UNKNOWN
+
+UNKNOWN
+
