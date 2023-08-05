@@ -1,0 +1,30 @@
+# mac os
+.DS_Store
+
+# IDE
+.idea
+
+# Jupyter
+.ipynb_checkpoints/
+*checkpoint.ipynb
+
+# Python
+*__pycache__*
+*egg-info/
+dist/
+build/
+.venv
+.nox
+
+# tests
+.coverage
+coverage
+coverage.xml
+
+# Sphinx
+doc/_build/
+
+# test data
+tests/data-for-tests/source/
+tests/data-for-tests/generated/
+*.tar.gz
