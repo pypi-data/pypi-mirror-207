@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: steamcrawl
+Version: 0.1.6
+Summary: A package that helps extract Steam store and community market data as pandas DataFrame for better readabilty and usability.
+Home-page: https://github.com/Hungreeee/steamcrawl
+Author: Hungreeee
+Author-email: hungmnguyen13102003@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: seleniumwire
+
+# steamcrawl
+
+![PyPI](https://img.shields.io/pypi/v/steamcrawl?label=pypi%20package)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PyPI download month](https://img.shields.io/pypi/dm/steamcrawl.svg)](https://pypi.python.org/pypi/steamcrawl/)
+
+
+
