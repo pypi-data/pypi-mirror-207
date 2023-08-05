@@ -1,0 +1,7 @@
+
+recursive-include ajenti_plugin_iptables * *.*
+recursive-exclude ajenti_plugin_iptables *.pyc
+include ajenti_plugin_iptables/plugin.yml
+include MANIFEST.in
+include requirements.txt
+    

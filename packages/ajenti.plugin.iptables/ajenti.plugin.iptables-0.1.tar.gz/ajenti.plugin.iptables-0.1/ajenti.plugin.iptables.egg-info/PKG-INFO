@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: ajenti.plugin.iptables
+Version: 0.1
+Summary: iptables
+Home-page: http://ajenti.org
+Author: Arnaud Kientz
+Author-email: arnaud@linuxmuster.net
+Requires-Python: >=3
+
+A iptables plugin for Ajenti panel
