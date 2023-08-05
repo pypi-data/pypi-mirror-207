@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: peal
+Version: 0.1.0
+Summary: A package dedicated to using PEFT for active-learning, hence PEAL.
+License: Apache 2.0
+Author: david
+Author-email: david.m.berenstein@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: datasets (>=2.12.0,<3.0.0)
+Requires-Dist: evaluate (>=0.4.0,<0.5.0)
+Requires-Dist: peft (>=0.3.0,<0.4.0)
+Requires-Dist: seqeval (>=1.2.2,<2.0.0)
+Requires-Dist: streamlit (>=1.22.0,<2.0.0)
+Requires-Dist: torch (>=2.0.0,<3.0.0)
+Requires-Dist: transformers (>=4.28.1,<5.0.0)
+Description-Content-Type: text/markdown
+
+# lazy-learner
+A package dedicated to using PEFT for active-learning.
+

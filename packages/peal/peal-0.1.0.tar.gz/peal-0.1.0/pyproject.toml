@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "peal"
+version = "0.1.0"
+description = "A package dedicated to using PEFT for active-learning, hence PEAL."
+authors = ["david <david.m.berenstein@gmail.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+packages = [{include = "peal"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.0.0"
+transformers = "^4.28.1"
+datasets = "^2.12.0"
+peft = "^0.3.0"
+evaluate = "^0.4.0"
+seqeval = "^1.2.2"
+streamlit = "^1.22.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.22.0"
+pytest = "^7.3.1"
+black = "^23.3.0"
+ruff = "^0.0.265"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
