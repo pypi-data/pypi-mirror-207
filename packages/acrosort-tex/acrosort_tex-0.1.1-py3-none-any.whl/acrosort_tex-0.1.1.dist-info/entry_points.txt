@@ -1,0 +1,3 @@
+[console_scripts]
+acrosort=acrosort_tex.sorter:main
+
