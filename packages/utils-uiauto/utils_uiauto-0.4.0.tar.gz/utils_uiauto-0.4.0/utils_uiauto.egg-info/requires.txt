@@ -1,0 +1,10 @@
+retrying
+pathlib
+uiautomation
+
+[DD]
+retrying
+pathlib
+
+[ie]
+uiautomation
