@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: finance-ml
+Version: 0.0.4
+Summary: Application of Machine Learning in Finances
+Author: Fabio Maia
+Author-email: <fabio.masaracchia@gmail.com>
+Keywords: python,finance,mlops
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: pyarrow
+
+# Example Package
+
+Finance ml by masarac.
