@@ -1,0 +1,8 @@
+Django<4.2,>=4.1
+wagtail<4.2,>=4.1
+django-auxiliaries<4.2,>=4.1
+model-porter<4.2,>=4.1
+wagtail-attachments<4.2,>=4.1
+wagtail-content-block<4.2,>=4.1
+wagtail-content-admin<4.2,>=4.1
+aldine<4.2,>=4.1.1

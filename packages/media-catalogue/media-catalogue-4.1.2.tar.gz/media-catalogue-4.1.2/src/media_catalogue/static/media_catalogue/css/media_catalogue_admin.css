@@ -1,0 +1,9 @@
+/* @media screen and (min-width: 50em) */
+
+
+.media-item-preview {
+    max-width: 165px;
+    max-height: 165px;
+    background-color: lightgray;
+    display: inline-block;
+}

@@ -1,0 +1,27 @@
+{% extends "wagtailadmin/base.html" %}
+{% load i18n %}
+{% block titletag %}{% trans "Media Item Types" %}{% endblock %}
+{% block content %}
+    {% trans "Media Item Types" as media_item_types_str %}
+    {% include "wagtailadmin/shared/header.html" with title=media_item_types_str icon="snippet" %}
+
+    <div class="nice-padding">
+        <ul class="listing">
+            {% for model_choice in model_selection %}
+                <li>
+                    <div class="row row-flush title">
+                        <div class="title-wrapper">
+                            <a href="{{ model_choice.url }}" class="col6">
+                                {{ model_choice.meta.verbose_name_plural|capfirst }}
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    {% comment %}
+    {% url 'media_catalogue:add' model_opts.app_label model_opts.model_name %}
+    {% endcomment %}
+{% endblock %}

@@ -1,0 +1,12 @@
+include src/media_catalogue/static/media_catalogue/*
+include src/media_catalogue/static/media_catalogue/js/*
+include src/media_catalogue/static/media_catalogue/css/*
+include src/media_catalogue/templates/media_catalogue/*
+include src/media_catalogue/templates/media_catalogue/action_menu/*
+include src/media_catalogue/templates/media_catalogue/bulk_actions/*
+include src/media_catalogue/templates/media_catalogue/chooser/*
+include src/media_catalogue/templates/media_catalogue/multiple/*
+include src/media_catalogue/templates/media_catalogue/permissions/*
+include src/media_catalogue/templates/media_catalogue/tags/*
+
+recursive-exclude * .DS_Store *.pyc
