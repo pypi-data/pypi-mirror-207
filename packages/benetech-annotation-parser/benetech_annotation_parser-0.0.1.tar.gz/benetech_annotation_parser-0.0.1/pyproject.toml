@@ -1,0 +1,56 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "benetech-annotation-parser"
+description = "benetech annotation parser"
+readme = "README.md"
+License = "MIT"
+requires-python = ">=3.7"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+dependencies = ["pillow"]
+dynamic = ["version"]
+
+[project.urls]
+"Homepage" = "https://github.com/Kololu777/benetech-annotation-parser"
+
+[project.optional-dependencies]
+dev = [
+    "build >=0.10.0",
+    "pytest >=7.3.1",
+    "black >=23.3.0",
+    "flake8 >=6.0.0",
+    "isort >=5.12.0",
+    "twine >=4.0.2",
+]
+
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/benetech_annotation_parser"]
+
+[tool.hatch.version]
+path = "src/benetech_annotation_parser/_version.py"
+
+[tool.black]
+line-length = 120
+skip-magic-trailing-comma = true
+skip-string-normalization = true
+
+
+[tool.flake8]
+max-line-length = 120
+extend-ignore = "E203 E741"
+
+
+[tool.isort]
+profile = "black"
+
