@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: pyacmi
+Version: 1.0.1
+Summary: ACMI flight record file parser
+Home-page: https://github.com/wangtong2015/pyacmi
+Author: Wang Tong
+Author-email: astroboythu@gmail.com
+License: MIT
+Keywords: acmi tacview
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Games/Entertainment :: Simulation
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyacmi: TacView ACMI FileParser
+
+[![PyPI Latest Release](https://img.shields.io/pypi/v/pyacmi.svg)](https://pypi.org/project/pyacmi/)
+
+`**.acmi` is a file used by tacview for creating flight recording from simulators or real world.
+
+借鉴了[https://github.com/rp-/acmi](https://github.com/rp-/acmi)
+
+## Install
+
+```shell
+
+pip install pyacmi
+
+```
+
+## Example
+
+```python
+
+from pyacmi import *
+
+acmi = Acmi('test.acmi')
+print(acmi)
+
+```
