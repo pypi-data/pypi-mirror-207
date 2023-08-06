@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: redbrick-slicer
+Version: 0.1.3
+Summary: RedBrick platform 3D Slicer Integration!
+Home-page: https://github.com/redbrick-ai/redbrick-slicer
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
