@@ -1,0 +1,14 @@
+SerializerFactory.py
+__init__.py
+constants.py
+data_for_tests.py
+distributions.py
+json_serializer.py
+setup.py
+tests.py
+xml_serializer.py
+mySerializerLibraryIGY.egg-info/PKG-INFO
+mySerializerLibraryIGY.egg-info/SOURCES.txt
+mySerializerLibraryIGY.egg-info/dependency_links.txt
+mySerializerLibraryIGY.egg-info/requires.txt
+mySerializerLibraryIGY.egg-info/top_level.txt
