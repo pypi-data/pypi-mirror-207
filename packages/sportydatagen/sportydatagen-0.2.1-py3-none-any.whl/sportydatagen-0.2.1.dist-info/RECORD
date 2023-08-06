@@ -1,0 +1,14 @@
+sportydatagen/__init__.py,sha256=LQDGszi4JjOmVkUGhIVytrBQy0Z8mwPvu8xvR6PE1Hw,372
+sportydatagen/activity.py,sha256=r6dORtXnZN8ipcQ_90mT_-IlXxedXnRlyZ9LUzCfFko,5358
+sportydatagen/convert_to_csv.py,sha256=ox1WSVDXZMVqzp0YSPBaX3g9E3rx8J6Tm6yZzGh1lfQ,7186
+sportydatagen/csv_utils.py,sha256=ckP1IIbCdJgQrKSKXaMdzo-08556DOCSEaIXVA8-LZw,5419
+sportydatagen/feature_extraction_utils.py,sha256=EElTmAEdd4RvQhoWeXt6moq-_So5FqG6Mw5yNjpxP4M,9004
+sportydatagen/filetype.py,sha256=JCNyAxODUe86DdrNfKPjJky7W0ffJRGKcc80dH3PHz0,142
+sportydatagen/return_random_data.py,sha256=c2UzpNMgYx7y3cFqqj5yWW1wU23pUr4VZMuEhdtuMLg,8126
+sportydatagen/saf_extract_features_to_csv.py,sha256=tNotP7Pd2GEM0bT5oQgA-L2igzsf7ad96EnOiUTi9ko,2895
+sportydatagen/sportfile_utils.py,sha256=RVWgBWynijTsvQgd7mogUNE0gzfjVJLQNTvFP6752o4,477
+sportydatagen/utils.py,sha256=63cJuuF8NougL_1Hj9ze1DaBojeJDRTPJmOXR4XBNgo,2514
+sportydatagen-0.2.1.dist-info/LICENSE,sha256=vel2WZFy_1qPEcRD9yLKYUwnqLB3JoZMkpdFf9ARcVw,1073
+sportydatagen-0.2.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+sportydatagen-0.2.1.dist-info/METADATA,sha256=QY0popxTY1GZt2L4p_V9v9ltvgZrcSZzCUrzR54FKu8,2298
+sportydatagen-0.2.1.dist-info/RECORD,,
