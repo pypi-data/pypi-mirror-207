@@ -1,0 +1,8 @@
+{
+  "jupyter.lab.shortcuts": [],
+  "title": "@datalayer/jupyter-up",
+  "description": "@datalayer/jupyter-up settings.",
+  "type": "object",
+  "properties": {},
+  "additionalProperties": false
+}
