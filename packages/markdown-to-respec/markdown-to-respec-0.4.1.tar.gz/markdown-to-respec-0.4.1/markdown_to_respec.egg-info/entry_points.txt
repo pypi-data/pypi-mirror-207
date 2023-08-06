@@ -1,0 +1,2 @@
+[console_scripts]
+markdown-to-respec = markdown_to_respec:main
