@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: webconsole
+Version: 0.0.7
+Summary: webconsole
+Author: RayCheung
+Keywords: pip,webconsole,python,docker
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: websockets (==10.4)
+Requires-Dist: docker (==5.0.0)
+Requires-Dist: setuptools (==65.6.3)
+Requires-Dist: paramiko (==3.1.0)
+
+# webconsole使用
+
+
+
+## 安装webconsole包
+```
+pip install webconsole==0.0.3 -i https://pypi.org/simple
+具体有什么版本需要自己看 https://pypi.org/project/webconsole/   找到目前最新的版本并替换上面的版本号
+```
+
+
+## 代码中需要改动的地方
+
+### 引用路由
+```
+from webconsole.docker.docker_console import docker_webconsole
+from webconsole.linux.linux_console import linux_webconsole
+```
+
+### 加入路由到访问路径
+```
+app.include_router(docker_webconsole, prefix='/docker_webconsole', tags=['docker_webconsole相关,使用请谨慎'], dependencies=[Depends(oauth2_schema)])  # noqa
+app.include_router(linux_webconsole, prefix='/linux_webconsole', tags=['linux_webconsole相关,使用请谨慎'], dependencies=[Depends(oauth2_schema)])  # noqa
+
+#app.include_router(docker_webconsole, prefix='/docker_webconsole', tags=['docker_webconsole相关,使用请谨慎'], dependencies=[])  # noqa
+#app.include_router(linux_webconsole, prefix='/linux_webconsole', tags=['linux_webconsole相关,使用请谨慎'], dependencies=[])  # noqa
+```
+
+
+===PS: Linux服务需要在你的项目根目录下放置文件private_key文件，文件中是你的私钥，确保对应的公钥已经放到你要ssh的机器上了，不然登陆肯定是失败的===
+
+
+
+
+
+## 示例接口访问路径
+```
+ws://127.0.0.1:60528/docker_webconsole/ws/f977748aabad?docker_address=localhost&port=2375  （这是docker的请求路径）
+
+ws://127.0.0.1:60528/linux_webconsole/ws/linux?address=127.0.0.1&user=rbadmin_app1     （不带passwd表示默认使用你自己项目根目录下的private_key文件进行ssh登陆）
+
+ws://127.0.0.1:60528/linux_webconsole/ws/linux?address=127.0.0.1&user=raypick&passwd=raypick   不带passwd表示默认使用密码进行ssh登陆）
+```
+
+具体使用方法，请访问我的CSDN博客，https://blog.csdn.net/weixin_44388689?type=blog
+
+搜索webconsole使用方法，获取更全面的使用指导，非常感谢，૮(˶ᵔ ᵕ ᵔ˶)ა
