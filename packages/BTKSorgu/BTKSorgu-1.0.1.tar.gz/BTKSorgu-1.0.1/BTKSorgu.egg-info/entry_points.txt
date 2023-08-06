@@ -1,0 +1,2 @@
+[console_scripts]
+BTKSorgu = BTKSorgu.konsol:basla

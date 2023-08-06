@@ -1,0 +1,8 @@
+setuptools
+wheel
+Kekik
+requests
+parsel
+regex
+Pillow
+pytesseract
