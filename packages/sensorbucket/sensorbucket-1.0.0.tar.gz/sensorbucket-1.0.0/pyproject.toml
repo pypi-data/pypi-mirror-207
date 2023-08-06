@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "sensorbucket"
+version = "1.0.0"
+description = "SensorBucket client"
+authors = ["Tim van Osch <info@pollex.nl>", "Provincie Zeeland <info@zeeland.nl>"]
+license = "EUPLv1.2"
+readme = "README.md"
+repository = "https://github.com/sensorbucket/PythonClient"
+keywords = ["OpenAPI", "OpenAPI-Generator", "Sensorbucket"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+urllib3 = ">= 1.25.3"
+python-dateutil = ">=2.8.2"
+pydantic = "^1.10.5, <2"
+aenum = ">=3.1.11"
+
+[tool.poetry.dev-dependencies]
+pytest = ">=7.2.1"
+tox = ">=3.9.0"
+flake8 = ">=4.0.0"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.pylint.'MESSAGES CONTROL']
+extension-pkg-whitelist = "pydantic"
