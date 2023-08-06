@@ -1,0 +1,4 @@
+.gitignore
+/Not pushed
+*ua_cache.json
+__pycache__
