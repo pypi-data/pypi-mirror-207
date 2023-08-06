@@ -1,0 +1,10 @@
+aws_cdk/aws_athena/__init__.py,sha256=JYv6TF0_yYCar96B_3PwnatrVFkGiU1bfatJYFz_1rk,125660
+aws_cdk/aws_athena/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_athena/_jsii/__init__.py,sha256=sN6lq-awVIZ2Yk8N5C_EYh-imNnpkXgZ25wy04CoFRY,405
+aws_cdk/aws_athena/_jsii/aws-athena@1.201.0.jsii.tgz,sha256=7_7JtTCXaFgjPe9erGWn3-fbEdBXp6aQJkRW4xw1g0c,56001
+aws_cdk.aws_athena-1.201.0.dist-info/LICENSE,sha256=YA6CL2YE08NgoURWXRTrec3mNy-KAR-_UNdiMqgNVMI,11391
+aws_cdk.aws_athena-1.201.0.dist-info/METADATA,sha256=fhpSW9bUPa03d3bagUFjpXgNePtFj2Oxz5zatzfEpcY,3155
+aws_cdk.aws_athena-1.201.0.dist-info/NOTICE,sha256=XtGET2JQh3C41orQUenLTefWItOqLmu2N-mGwW7t3Fo,113
+aws_cdk.aws_athena-1.201.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+aws_cdk.aws_athena-1.201.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_athena-1.201.0.dist-info/RECORD,,
