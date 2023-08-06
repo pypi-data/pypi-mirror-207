@@ -1,0 +1,5 @@
+[console_scripts]
+stmapy = stmapy.main:main
+
+[gui_scripts]
+stmapy = stmapy.__main__:main
