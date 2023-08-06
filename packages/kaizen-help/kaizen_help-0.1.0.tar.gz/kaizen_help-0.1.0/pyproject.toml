@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "kaizen-help"
+version = "0.1.0"
+description = "kaizens helper"
+authors = ["Kaizen <shindes0321@gmail.com>"]
+readme = "README.md"
+packages = [{include = "kaizen_help"}]
+
+[tool.poetry.scripts]
+kaizen = "kaizen_help.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+typer = {extras = ["all"], version = "^0.9.0"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
