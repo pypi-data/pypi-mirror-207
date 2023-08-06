@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: soundsig
+Version: 2.1
+Summary: Sound and Signal Analysis Tools for Bioacousticians and Auditory Neurophysiologists
+Home-page: https://github.com/theunissenlab/soundsig
+Author: Frederic Theunissen
+Author-email: theunissen@berkeley.edu
+Keywords: bioacoustics biosound vocalization auditory
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.0
+License-File: LICENSE.txt
