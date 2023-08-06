@@ -1,0 +1,3 @@
+[console_scripts]
+create-meta-workflow-run=magma_ff.commands.create_meta_workflow_run:main
+
