@@ -1,0 +1,5 @@
+pyshortext
+requests_html
+bs4
+colorama
+urllib3
