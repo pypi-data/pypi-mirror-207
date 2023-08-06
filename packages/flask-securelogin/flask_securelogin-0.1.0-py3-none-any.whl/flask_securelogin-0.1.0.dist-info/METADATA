@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: flask-securelogin
+Version: 0.1.0
+Summary: A Flask-based installable library that provides secure login capabilities with SMS and auth tokens.
+Home-page: https://github.com/brilliance-qian/flask-securelogin
+Author: Brilliance Qian
+Classifier: Development Status :: 1 - Planning
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp
+Requires-Dist: aiohttp-retry
+Requires-Dist: aiosignal
+Requires-Dist: alembic
+Requires-Dist: async-timeout
+Requires-Dist: attrs
+Requires-Dist: Babel
+Requires-Dist: bcrypt
+Requires-Dist: certifi
+Requires-Dist: charset-normalizer
+Requires-Dist: click
+Requires-Dist: exceptiongroup
+Requires-Dist: Flask
+Requires-Dist: flask-babel
+Requires-Dist: flask-blueprint
+Requires-Dist: Flask-JWT-Extended
+Requires-Dist: Flask-Migrate
+Requires-Dist: Flask-SQLAlchemy
+Requires-Dist: frozenlist
+Requires-Dist: greenlet
+Requires-Dist: idna
+Requires-Dist: importlib-metadata
+Requires-Dist: importlib-resources
+Requires-Dist: iniconfig
+Requires-Dist: itsdangerous
+Requires-Dist: Jinja2
+Requires-Dist: Mako
+Requires-Dist: MarkupSafe
+Requires-Dist: multidict
+Requires-Dist: packaging
+Requires-Dist: pluggy
+Requires-Dist: PyJWT
+Requires-Dist: pytest
+Requires-Dist: pytest-mock
+Requires-Dist: python-dateutil
+Requires-Dist: python-dotenv
+Requires-Dist: pytz
+Requires-Dist: requests
+Requires-Dist: six
+Requires-Dist: SQLAlchemy
+Requires-Dist: tencentcloud-sdk-python
+Requires-Dist: time-machine
+Requires-Dist: tomli
+Requires-Dist: twilio
+Requires-Dist: typing-extensions
+Requires-Dist: urllib3
+Requires-Dist: Werkzeug
+Requires-Dist: yarl
+Requires-Dist: zipp
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: pytest-clarity ; extra == 'test'
+Requires-Dist: mock ; (python_version >= "3.7") and extra == 'test'
+
+flask_securelogin
+-----------------
+To use the library, just type
+>>> import flask_securelogin
+>>>
