@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: chromedriverhandlar
+Version: 0.1
+Summary: A simple Python library that check, update or download chrome driver
+Home-page: UNKNOWN
+Author: Joshi Hrithik V
+Author-email: hrithikjoshi987@gmail.com
+License: BSD
+Platform: UNKNOWN
+Requires-Dist: requests (==2.28.1)
+
+UNKNOWN
+
+
