@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: run-rx
+Version: 0.0.3
+Summary: A tool to simplify remote execution
+Home-page: https://www.run-rx.com
+License: LICENSE.txt
+Author: Kris Chodorow
+Author-email: k.chodorow@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: PyJWT (>=2.6.0,<3.0.0)
+Requires-Dist: absl-py (>=1.4.0,<2.0.0)
+Requires-Dist: grpcio (>=1.54.0,<2.0.0)
+Requires-Dist: protobuf (>=4.22.3,<5.0.0)
+Requires-Dist: requests (>=2.30.0,<3.0.0)
+Requires-Dist: sty (>=1.0.4,<2.0.0)
+Project-URL: Repository, https://github.com/run-rx/rx
+Description-Content-Type: text/markdown
+
+# rx
+
+Remote execution made easy.
+
+## Installation
+
+Install the latest release from pip:
+
+    pip install run-rx
+
+rx uses rsync for downloads, so make sure rsync is installed on your
+system:
+
+    which rsync
+
+If it isn't, install it with your favorite package manager:
+
+    brew install rsync
+    yum install rsync
+    apt-get install rsync
+    # ...you get the idea
+
+## Use
+
+In you project's main directory, run:
+
+```
+rx init
+```
+
+You only have to do this once per project (similar to `git init`).
+
+To execute commands on a remote machine, prefix them with `rx`:
+
+```
+rx python foo.py
+rx ls
+rx 'echo $PATH > my-path'
+```
+
+Check out the [getting-started](https://github.com/run-rx/getting-started) repository for more examples.
+
+## Feedback
+
+Please file an [issue](https://github.com/run-rx/rx/issues).
+
+## Testing
+
+To run tests, use:
+
+```
+pip install -r test_requirements.txt
+PYTHONPATH=. pytest
+```
+
