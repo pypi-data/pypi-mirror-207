@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/netmc/__init__.py
+src/netmc/models.py
+src/netmc.egg-info/PKG-INFO
+src/netmc.egg-info/SOURCES.txt
+src/netmc.egg-info/dependency_links.txt
+src/netmc.egg-info/top_level.txt
