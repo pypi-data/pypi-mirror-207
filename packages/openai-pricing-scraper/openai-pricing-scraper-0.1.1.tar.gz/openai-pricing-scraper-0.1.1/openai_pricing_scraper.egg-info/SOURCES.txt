@@ -1,0 +1,9 @@
+README.md
+setup.py
+openai_pricing_scraper/__init__.py
+openai_pricing_scraper/fetch_pricing.py
+openai_pricing_scraper.egg-info/PKG-INFO
+openai_pricing_scraper.egg-info/SOURCES.txt
+openai_pricing_scraper.egg-info/dependency_links.txt
+openai_pricing_scraper.egg-info/requires.txt
+openai_pricing_scraper.egg-info/top_level.txt
