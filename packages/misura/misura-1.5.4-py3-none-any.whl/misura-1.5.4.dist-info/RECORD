@@ -1,0 +1,11 @@
+misura/__init__.py,sha256=rAyrk5XNkGS2-GuDnhuG0x3NnSw_yG6QIwiqUUQHCTA,34
+misura/__main__.py,sha256=qRg91W5JN0fxUUz1bzpBL_qpsE8oOlPtXok_uzMmCwI,1721
+misura/exceptions.py,sha256=ajFWH6YdoVMD_8Mp32-7eSxFNtgTHTzwslkAKx9wd2s,3158
+misura/globals.py,sha256=eYZg2S89Cln-Y8dESoJS7JZSNbwREJAJZgbzAe0tF6I,384
+misura/quantities.py,sha256=UnufH9bmjwghr-apFT4vbWz3Fi4gfVWzsC3hZO3It4s,24681
+misura/tables.py,sha256=8nOmYLz4OBZCuuYnK_xTpPrl4ZJwnW1-arRqiQ3Fr10,20506
+misura/utilities.py,sha256=rTkjBAt6__AB7QlbBShouKhXsH9zu8bhYD8n0W9tZg8,1414
+misura-1.5.4.dist-info/METADATA,sha256=gqTKLIk1FeW5bD_BORw5AjSV3tzNRQjJG9MeW03NNho,8258
+misura-1.5.4.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+misura-1.5.4.dist-info/licenses/LICENSE,sha256=Q4fsJftQDQaJtVtR4uUTHjfaR8o5xrCHHPEFWBMgclk,1074
+misura-1.5.4.dist-info/RECORD,,
