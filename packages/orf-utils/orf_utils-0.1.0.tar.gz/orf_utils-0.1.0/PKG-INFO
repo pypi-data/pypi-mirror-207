@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: orf_utils
+Version: 0.1.0
+Summary: Utils for different actions within the open-reading-frame GitHub Organization
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# action-utils
+
+Repository of python utility scripts for use in GitHub actions
