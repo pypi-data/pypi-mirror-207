@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: venakatest
+Version: 0.1.36
+Summary: Package used to run tests
+Requires-Dist: PyYAML
+Requires-Dist: requests
+
