@@ -1,0 +1,14 @@
+paws/__init__.py,sha256=OTXqS7Oux3OuxZ4lFkH3CkWP2-zTTdf7Ll5H5oaUWiM,17621
+paws/__main__.py,sha256=BLgPMOf1AaZUM64jNYnjxFH2yFej_g709RQqE--If4M,5475
+paws/cli.py,sha256=f-N8y3NIpiy1rmKSLuuS5EQwH1w3ma370IQo7eQ0D74,5056
+paws/helper/__init__.py,sha256=Dy5X5ET2MQ49bsZhzul7-urH_l6v1oWiU0k9a1VC2cg,30
+paws/helper/dataclasses.py,sha256=nE0PhbKPgt4Y6j5_rmS-QJJJESAKr9eKv2XtjKLfAls,905
+paws/helper/logging.py,sha256=_eJ958eZhrDePbJ9utZtK6oankJzQtsvkxDev0dXLjk,289
+victorykit_paws-0.0.1rc2.dist-info/LICENSE,sha256=-kqUYvFX-kdVRE7zREivu2V2PFZReVal2SfB_39LSOg,2465
+victorykit_paws-0.0.1rc2.dist-info/METADATA,sha256=Ln348-fT4w6kXiHV9LQHMVcTZvxnAx-hxZBYu0rvf7c,13530
+victorykit_paws-0.0.1rc2.dist-info/NOTICE.md,sha256=y22W_PJhKTf7yng_vSPBVORn9iCyqMySKSW0mZ9R2bw,9
+victorykit_paws-0.0.1rc2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+victorykit_paws-0.0.1rc2.dist-info/entry_points.txt,sha256=yw3VITuNMkizwphyvdNsKPwf5C5k2zr28rMlG0rNqlk,44
+victorykit_paws-0.0.1rc2.dist-info/top_level.txt,sha256=xwPv_JPpQYiBYjQWdd7MYGfkdxduABmPaE9x8uOj38w,5
+victorykit_paws-0.0.1rc2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+victorykit_paws-0.0.1rc2.dist-info/RECORD,,
