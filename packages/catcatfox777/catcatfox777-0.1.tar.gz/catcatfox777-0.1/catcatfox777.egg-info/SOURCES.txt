@@ -1,0 +1,8 @@
+setup.py
+catcatfox777.egg-info/PKG-INFO
+catcatfox777.egg-info/SOURCES.txt
+catcatfox777.egg-info/dependency_links.txt
+catcatfox777.egg-info/requires.txt
+catcatfox777.egg-info/top_level.txt
+mytest/__init__.py
+mytest/test.py

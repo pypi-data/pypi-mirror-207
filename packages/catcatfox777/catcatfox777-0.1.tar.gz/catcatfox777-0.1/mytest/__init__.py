@@ -1,0 +1,1 @@
+from .test import my_txt
