@@ -1,0 +1,6 @@
+codefast
+fire
+boto3
+rich
+aiohttp
+simauth
