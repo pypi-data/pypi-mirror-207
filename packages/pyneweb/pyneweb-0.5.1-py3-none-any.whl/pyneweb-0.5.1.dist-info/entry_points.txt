@@ -1,0 +1,2 @@
+[console_scripts]
+pyneweb-init = logic.cli:init
