@@ -1,0 +1,5 @@
+include src/wagtail_tags_block/static/wagtail_tags_block/js/*
+
+include src/wagtail_tags_block/templates/wagtail_tags_block/*
+
+recursive-exclude * .DS_Store *.pyc
