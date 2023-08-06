@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: saldet
+Version: 0.4.0
+Summary: Saliency Detection library (models, loss, utils) with PyTorch
+License: MIT
+Author: Riccardo Musmeci
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: albumentations (>=1.3.0,<2.0.0)
+Requires-Dist: lightning-bolts (>=0.5.0,<0.6.0)
+Requires-Dist: pytorch-lightning (>=2.0.0,<3.0.0)
+Requires-Dist: pyyaml (>=6.0,<7.0)
+Requires-Dist: scriv (>=1.3.1,<2.0.0)
+Requires-Dist: timm (>=0.6.13,<0.7.0)
+Requires-Dist: torch (>=2.0.1,<3.0.0)
+Requires-Dist: torchvision (>=0.15.2,<0.16.0)
+Requires-Dist: tqdm (>=4.65.0,<5.0.0)
+Requires-Dist: urllib3 (>=1.26.15,<2.0.0)
+Description-Content-Type: text/markdown
+
+# saldet
+Saliency Detection library (models, loss, utils) with PyTorch
+
