@@ -1,0 +1,4 @@
+include src/markup_adaptation/Adaptations.xsd
+include src/markup_adaptation/adaptation_schema.xml
+
+recursive-exclude * .DS_Store *.pyc

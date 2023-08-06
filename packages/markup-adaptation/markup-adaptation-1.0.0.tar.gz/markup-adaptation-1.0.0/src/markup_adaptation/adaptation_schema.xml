@@ -1,0 +1,149 @@
+<adap:schema xmlns:adap="http://xml.hdng.website/Adaptations.xsd">
+
+    <adap:adaptation id="color-scheme">
+
+        <adap:description>Adjusts the graphic to match the selected color scheme.</adap:description>
+
+        <adap:controls>
+            <adap:group>
+                <adap:description>Theme Settings</adap:description>
+                <adap:choice id="value">
+                    <adap:label>Color Scheme</adap:label>
+                    <adap:option local_id="light">
+                        <adap:label>Light</adap:label>
+                        <adap:literal>light</adap:literal>
+                    </adap:option>
+                    <adap:option local_id="dark">
+                        <adap:label>Dark</adap:label>
+                        <adap:literal>dark</adap:literal>
+                    </adap:option>
+                </adap:choice>
+            </adap:group>
+        </adap:controls>
+
+        <adap:actions>
+            <adap:edit>
+
+                <adap:locations>
+                    <adap:element>.//*[@id="Background"]</adap:element>
+                </adap:locations>
+
+                <adap:assign>
+                    <adap:locations>
+                        <adap:style_property>fill</adap:style_property>
+                    </adap:locations>
+
+                    <adap:switch>
+                        <adap:variable>value</adap:variable>
+                        <adap:case>
+                            <adap:literal>light</adap:literal>
+                            <adap:literal>url(#_LightGradient)</adap:literal>
+                        </adap:case>
+                        <adap:case>
+                            <adap:literal>dark</adap:literal>
+                            <adap:literal>url(#_DarkGradient)</adap:literal>
+                        </adap:case>
+                        <adap:default>
+                            <adap:literal>url(#_LightGradient)</adap:literal>
+                        </adap:default>
+                    </adap:switch>
+                </adap:assign>
+            </adap:edit>
+        </adap:actions>
+    </adap:adaptation>
+
+
+    <adap:adaptation id="publication-image">
+
+        <adap:description>Image to be rendered as a magazine cover.</adap:description>
+
+        <adap:controls>
+
+            <adap:group>
+                <adap:description>Image URL</adap:description>
+                <adap:url id="image_url" accepted_mime_types="image/*">
+                    <adap:label>URL of image</adap:label>
+                </adap:url>
+            </adap:group>
+
+            <adap:group>
+                <adap:description>Placement of image in its container</adap:description>
+
+                <adap:choice id="horizontal_alignment">
+                    <adap:label>Horizontal Alignment</adap:label>
+                    <adap:option local_id="left">
+                        <adap:label>Left</adap:label>
+                        <adap:literal>xMin</adap:literal>
+                    </adap:option>
+                    <adap:option local_id="center">
+                        <adap:label>Horizontal Center</adap:label>
+                        <adap:literal>xMid</adap:literal>
+                    </adap:option>
+                    <adap:option local_id="right">
+                        <adap:label>Right</adap:label>
+                        <adap:literal>xMax</adap:literal>
+                    </adap:option>
+                </adap:choice>
+
+                <adap:choice id="vertical_alignment">
+                    <adap:label>Vertical Alignment</adap:label>
+                    <adap:option local_id="top">
+                        <adap:label>Top</adap:label>
+                        <adap:literal>yMin</adap:literal>
+                    </adap:option>
+                    <adap:option local_id="center">
+                        <adap:label>Vertical Center</adap:label>
+                        <adap:literal>yMid</adap:literal>
+                    </adap:option>
+                    <adap:option local_id="bottom">
+                        <adap:label>Bottom</adap:label>
+                        <adap:literal>yMax</adap:literal>
+                    </adap:option>
+                </adap:choice>
+
+                <adap:choice id="scaling">
+                    <adap:label>Scaling</adap:label>
+                    <adap:option local_id="fit">
+                        <adap:label>Fit</adap:label>
+                        <adap:literal>meet</adap:literal>
+                    </adap:option>
+                    <adap:option local_id="cover">
+                        <adap:label>Cover</adap:label>
+                        <adap:literal>slice</adap:literal>
+                    </adap:option>
+                </adap:choice>
+            </adap:group>
+        </adap:controls>
+
+        <adap:actions>
+
+            <adap:edit>
+                <adap:locations>
+                    <adap:element>.//*[@id="_CoverImage"]</adap:element>
+                </adap:locations>
+
+                <adap:assign>
+                    <adap:locations>
+                        <adap:attribute>{http://www.w3.org/1999/xlink}href</adap:attribute>
+                    </adap:locations>
+                    <adap:variable>image_url</adap:variable>
+                </adap:assign>
+
+                <adap:assign>
+                    <adap:locations>
+                        <adap:attribute>preserveAspectRatio</adap:attribute>
+                    </adap:locations>
+                    <adap:concatenate>
+                        <adap:variable>horizontal_alignment</adap:variable>
+                        <adap:variable format="capitalise">vertical_alignment</adap:variable>
+                        <adap:literal> </adap:literal>
+                        <adap:variable>scaling</adap:variable>
+                    </adap:concatenate>
+                </adap:assign>
+            </adap:edit>
+        </adap:actions>
+    </adap:adaptation>
+
+</adap:schema>
+
+
