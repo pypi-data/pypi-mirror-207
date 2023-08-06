@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+Thya.egg-info/PKG-INFO
+Thya.egg-info/SOURCES.txt
+Thya.egg-info/dependency_links.txt
+Thya.egg-info/requires.txt
+Thya.egg-info/top_level.txt
+thya/__init__.py
+thya/apis.py
+thya/convert.py
+thya/data/example.json
