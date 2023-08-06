@@ -1,0 +1,6 @@
+[console_scripts]
+pytestifyx = pytestifyx.cli:main
+
+[pytest11]
+chinese_fix = pytest_chinese_fix.plugin
+
