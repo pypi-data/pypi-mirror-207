@@ -1,0 +1,127 @@
+Metadata-Version: 2.1
+Name: bp_query_tool
+Version: 1.0.3
+Summary: Query tool to generate query from selection
+Home-page: UNKNOWN
+Author: Bluepinapple
+Author-email: vivek.sthul@bluepinapple.com
+License: UNKNOWN
+Description: # Query Tool
+        
+        **Query Tool** - a powerful and user-friendly streamlit component designed to simplify your data analysis. With its intuitive interface, you can easily select the desired databases, columns, and tables, and apply filters, dimensions, and measures to analyze your data. Whether you're a beginner or an experienced analyst, "query_tool" is the perfect tool for your data analysis needs.
+        
+        ## Installation
+        
+        You can install the **Data Grid** package from PyPI using pip:
+        
+        ```shell
+        pip install bp-query-tool
+        ```
+        
+        ## Usage
+        
+        To use the Query Tool component in your Streamlit application, follow these steps:
+        
+        1. Import the necessary modules:
+        
+        ```shell
+        import query_tool as qt
+        ```
+        
+        1. Add the **Query Tool** component to your application:
+        
+        ```shell
+        qt.query_tool(
+            query=query,
+            title="Query Tool",
+            databases=databases,
+            tables=tables,
+            columns=columns,
+            on_database_change=on_database_change,
+            on_table_change=on_table_change,
+            on_generate_query=on_generate_query,
+            on_copy_query=on_copy_query,
+            on_execute_query=on_execute_query,
+            key="query_builder",
+        )
+        ```
+        
+        1. Run your Streamlit application:
+        
+        ```shell
+        streamlit run your_app.py
+        ```
+        
+        ### Example
+        
+        ```shell
+        import query_tool as qt
+        
+        databases = ['COMPANY_DB', 'SALES_DB']
+        tables = [
+            {
+                'database': 'COMPANY_DB',
+                'tables': ['EMPLOYEES', 'DEPARTMENTS']
+            },
+            {
+                'database': 'SALES_DB',
+                'tables': ['CUSTOMERS', 'ORDERS']
+            }
+        ]
+        columns = [
+            {
+                'fqtn': 'COMPANY_DB.EMPLOYEES',
+                'columns': ['ID', 'NAME', 'EMAIL', 'POSITION']
+            },
+            {
+                'fqtn': 'COMPANY_DB.DEPARTMENTS',
+                'columns': ['ID', 'NAME', 'LOCATION', 'MANAGER']
+            },
+            {
+                'fqtn': 'SALES_DB.CUSTOMERS',
+                'columns': ['ID', 'NAME', 'EMAIL', 'PHONE']
+            },
+            {
+                'fqtn': 'SALES_DB.ORDERS',
+                'columns': ['ID', 'PRODUCT', 'QUANTITY', 'DATE']
+            }
+        ]
+        
+        def on_database_change(database):
+            print(database)
+        
+        def on_table_change(database, table):
+            print(database, table)
+        
+        def on_generate_query(selection, query):
+            print(selection, query)
+        
+        def on_copy_query(query):
+            print(query)
+        
+        def on_execute_query(query):
+            print(query)
+        
+        qt.query_tool(
+            query=query,
+            title="Query Tool",
+            databases=databases,
+            tables=tables,
+            columns=columns,
+            on_database_change=on_database_change,
+            on_table_change=on_table_change,
+            on_generate_query=on_generate_query,
+            on_copy_query=on_copy_query,
+            on_execute_query=on_execute_query,
+            key="query_builder",
+        )
+        
+        ```
+        
+        ## Screenshot
+        
+        ![Screenshot](https://i.ibb.co/QYWfvBJ/image.png "Screen Shot")
+        
+Platform: UNKNOWN
+Requires-Python: >=3.8.10
+Description-Content-Type: text/markdown
