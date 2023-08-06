@@ -1,0 +1,10 @@
+sir_Bychko_serializer/__init__.py,sha256=HDhc8kGmyqd7cpwT4rcUrU8MFeI2Yg7YZkjkbcfNHCs,358
+sir_Bychko_serializer/constants.py,sha256=H5hEw7vfo7jBMjmz71E049fBq2HBYC77gmigTBic71c,1390
+sir_Bychko_serializer/json_serializer.py,sha256=VjNdwgW9JyybJUTG0srh-Ga2mIK5RhuKZI7vtjsU_yA,2887
+sir_Bychko_serializer/serialiser.py,sha256=DjS5yBybU0gzyFzXs_FVLGH4L315TSOhIXfdqnfCRDI,9008
+sir_Bychko_serializer/serializer_zavod.py,sha256=P2Hi7uOQjC7vnA0dWQB9zJuo7iL2G2dBPJDhnvleg1I,402
+sir_Bychko_serializer/xml_serializer.py,sha256=aWUwvz34FFuooPKmciLcLwQygr79tE-t_dDpqjOhxcY,2891
+sir_Bychko_serializer-0.1.0.dist-info/METADATA,sha256=5Cuo-qlY5-9NVHFILNi15O-GQ4Au2peqtPleUcC5gjo,805
+sir_Bychko_serializer-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sir_Bychko_serializer-0.1.0.dist-info/top_level.txt,sha256=RRqNv_MEGCaNqzP6VDbQ_iqgMRXdcnFfunc4E1foddU,22
+sir_Bychko_serializer-0.1.0.dist-info/RECORD,,
