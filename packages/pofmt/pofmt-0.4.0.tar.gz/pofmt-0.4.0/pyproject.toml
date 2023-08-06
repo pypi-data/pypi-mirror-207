@@ -1,0 +1,97 @@
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[project]
+name = "pofmt"
+description = "Your missing PO formatter and linter"
+authors = [
+    { name = "Frost Ming", email = "mianghong@gmail.com" },
+]
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = []
+dynamic = []
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+version = "0.4.0"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Repository = "https://github.com/frostming/pofmt"
+Homepage = "https://github.com/frostming/pofmt"
+
+[project.scripts]
+pofmt = "pofmt.__main__:main"
+
+[project.optional-dependencies]
+zh = [
+    "pangu>=4.0",
+]
+
+[tool.pdm.build]
+package-dir = "src"
+
+[tool.pdm.version]
+source = "scm"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=7.3.1",
+]
+
+[tool.pdm.scripts]
+test = "pytest tests/"
+
+[tool.black]
+line-length = 100
+target-version = [
+    "py37",
+    "py38",
+    "py39",
+    "py310",
+]
+
+[tool.ruff]
+line-length = 100
+select = [
+    "B",
+    "C4",
+    "E",
+    "F",
+    "PGH",
+    "RUF",
+    "W",
+    "YTT",
+]
+extend-ignore = [
+    "B018",
+    "B019",
+]
+src = [
+    "src",
+]
+exclude = [
+    "tests/fixtures",
+]
+target-version = "py37"
+
+[tool.ruff.mccabe]
+max-complexity = 10
+
+[tool.ruff.isort]
+known-first-party = [
+    "pofmt",
+]
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    "ignore::DeprecationWarning",
+]
