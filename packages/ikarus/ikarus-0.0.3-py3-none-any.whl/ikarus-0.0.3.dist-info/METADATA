@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ikarus
+Version: 0.0.3
+License: MIT
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: scanpy
+Requires-Dist: anndata
+Requires-Dist: pyscenic
+Requires-Dist: ctxcore
+
