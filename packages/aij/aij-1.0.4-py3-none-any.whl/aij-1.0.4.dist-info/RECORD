@@ -1,0 +1,17 @@
+custom/__init__.py,sha256=70DM1bneSJGpGIjQCqEQxn6SdsGgrXMB8hhJJRaxonU,440
+custom/generator.py,sha256=s8u65BA6KyklPWUh1hPTMAKQzZrDxAJ4wGCq-iKacTQ,4531
+intro/__init__.py,sha256=70DM1bneSJGpGIjQCqEQxn6SdsGgrXMB8hhJJRaxonU,440
+intro/intro.py,sha256=-mOz14umNrgEF-4XM0ghSBooRqsPRm2jr9rVD1UDQsk,4524
+news/__init__.py,sha256=UItHTlm4sdSQ04u61SZ203hQXTCoEiQZ5toJUyNFklE,567
+news/core.py,sha256=muGBYvYCg8kOrQWjJ8VPGgBiXffgNCGjCiKStD6nlMA,4492
+news/publisher.py,sha256=DqGXDUpgs3jfhsyBurtXIWR7YYUjRPdxr6GuGII-8tg,1407
+news/subscriber.py,sha256=F7HcHMG6741P2z1l0ks3bzr6b9NZNoeXX7kW-WsO5Xc,1196
+setup/__init__.py,sha256=ano0IasoujLljMd0VO7fqriT_57Ii0KMe-nqrYkxn1M,1162
+setup/install.py,sha256=682r6YxQ_uUTSZ-o88QTWUFFtRBD3hv5iSJyKs1Bq4k,3739
+webcam/__init__.py,sha256=-MQqBJ0MnbTXjNWvmAD5lr00KP1ZWTfuhRrIdkbdlZ4,17500
+aij-1.0.4.dist-info/LICENSE.txt,sha256=VXbwArPC9XE7N7cvSBClNMHFbo7CU1p361QXV5bkGpk,1100
+aij-1.0.4.dist-info/METADATA,sha256=W4_YMqt5vqwKXITOJUK-iLy_zbmUjfmC8_0jVrLda4Y,4674
+aij-1.0.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+aij-1.0.4.dist-info/entry_points.txt,sha256=iHMgjXBLTD-gNXQUCGdGzDbcJ5J5hrS3I1kXv0ZeeE4,100
+aij-1.0.4.dist-info/top_level.txt,sha256=FjT_kwUeflIK2U0HwB2L6fG4kISeiE6vGcgoF-9F2y4,31
+aij-1.0.4.dist-info/RECORD,,
