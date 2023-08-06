@@ -1,0 +1,121 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+package_dir = \
+{'': 'src',
+ 'node_red': 'src/node_red',
+ 'node_red.draw': 'src/node_red/draw',
+ 'node_red.js.nodered.ax.test.py': 'src/node_red/js/nodered/ax/test/py',
+ 'node_red.operations': 'src/node_red/operations'}
+
+packages = \
+['node_red',
+ 'node_red.draw',
+ 'node_red.js.nodered.ax.test.py',
+ 'node_red.operations',
+ 'operators',
+ 'operators.arch',
+ 'operators.con',
+ 'operators.operations',
+ 'operators.ops',
+ 'operators.plugins.app_operators',
+ 'operators.plugins.app_operators.pymod_templates',
+ 'operators.plugins.con_operators',
+ 'operators.plugins.con_operators.kafka_assets',
+ 'operators.testing']
+
+package_data = \
+{'': ['*'],
+ 'node_red': ['js/nodered/.config.nodes.json',
+              'js/nodered/.config.nodes.json',
+              'js/nodered/.config.nodes.json',
+              'js/nodered/.config.nodes.json',
+              'js/nodered/.config.nodes.json',
+              'js/nodered/.config.nodes.json',
+              'js/nodered/.config.runtime.json',
+              'js/nodered/.config.runtime.json',
+              'js/nodered/.config.runtime.json',
+              'js/nodered/.config.runtime.json',
+              'js/nodered/.config.runtime.json',
+              'js/nodered/.config.runtime.json',
+              'js/nodered/.config.users.json',
+              'js/nodered/.config.users.json',
+              'js/nodered/.config.users.json',
+              'js/nodered/.config.users.json',
+              'js/nodered/.config.users.json',
+              'js/nodered/.config.users.json',
+              'js/nodered/ax/*',
+              'js/nodered/ax/ax-func/*',
+              'js/nodered/ax/ax-join/*',
+              'js/nodered/ax/ax-join/locales/en-US/*',
+              'js/nodered/ax/icons/*',
+              'js/nodered/ax/test/*',
+              'js/nodered/flows.json',
+              'js/nodered/flows.json',
+              'js/nodered/flows.json',
+              'js/nodered/flows.json',
+              'js/nodered/flows.json',
+              'js/nodered/flows.json',
+              'js/nodered/flows_lib/*',
+              'js/nodered/package.json',
+              'js/nodered/package.json',
+              'js/nodered/package.json',
+              'js/nodered/package.json',
+              'js/nodered/package.json',
+              'js/nodered/package.json',
+              'js/nodered/settings.js',
+              'js/nodered/settings.js',
+              'js/nodered/settings.js',
+              'js/nodered/settings.js',
+              'js/nodered/settings.js',
+              'js/nodered/settings.js'],
+ 'operators.plugins.con_operators': ['docs/*']}
+
+install_requires = \
+['PyJWT',
+ 'PyMySQL>=1.0.2,<2.0.0',
+ 'PyYAML',
+ 'Rx==3.1.1',
+ 'SQLAlchemy>=1.3.22,<2.0.0',
+ 'bottle>=0.12.25,<0.13.0',
+ 'cryptography>=3.3.1,<4.0.0',
+ 'decorator>=5.1.1,<6.0.0',
+ 'devapps>=2023.05.15,<2024.0.0',
+ 'gevent',
+ 'hiredis>=1.1.0,<2.0.0',
+ 'lz4',
+ 'msgpack',
+ 'prometheus-client>=0.14.1,<0.15.0',
+ 'psutil',
+ 'redis>=4,<5',
+ 'snoop',
+ 'structlog',
+ 'tabulate',
+ 'testing.redis>=1.1.1,<2.0.0',
+ 'ujson',
+ 'websocket_client>=0.57.0,<0.58.0',
+ 'wsaccel>=0.6.2,<0.7.0']
+
+entry_points = \
+{'console_scripts': ['con = devapp.plugin_tools:main']}
+
+setup_kwargs = {
+    'name': 'lc-python',
+    'version': '2023.5.2',
+    'description': 'AX Low Code: Node-RED/AX Server and Python Client Reference Implementation',
+    'long_description': '# This package\n\n<!-- badges -->\n\n[![docs pages][docs pages_img]][docs pages] [![gh-ci][gh-ci_img]][gh-ci] [![pkg][pkg_img]][pkg] [![code_style][code_style_img]][code_style]\n\n[docs pages]: http://klessinger.pages.axiros.com/lc-python\n[docs pages_img]: ./img/badge_docs.svg\n[gh-ci]: https://gitlab.axiros.com/klessinger/lc-python/actions/workflows/ci.yml\n[gh-ci_img]: https://gitlab.axiros.com/klessinger/lc-python/actions/workflows/ci.yml/badge.svg\n[pkg]: https://artifacts.axiros.com/artifactory/pypi-ax-sources/lc-python/2021.6.2/lc-python-2021.6.2.tar.gz\n[pkg_img]: ./img/badge_pypi.svg\n[code_style]: https://pypi.org/project/axblack/\n[code_style_img]: ./img/badge_axblack.svg\n\n<!-- badges -->\n\n[![docs][img_docs]][lnk_docs]&nbsp; [![package][img_package]][lnk_package]&nbsp; [![discuss][img_discuss]][lnk_discuss]&nbsp; [![pipeline][img_pipeline]][lnk_pipeline]&nbsp; [![code style][img_code style]][lnk_code style]\n\n[lnk_docs]: http://devapps.pages.axiros.com/lc-python\n[img_docs]: https://axchange.axiros.com/scm/hg/noauth/badges/raw-file/a2d5751cb09c/lc-python/documentation.svg\n[lnk_package]: https://artifacts.axiros.com/artifactory/pypi-ax-sources/lc-python/2020.12.09/lc-python-2020.12.09.tar.gz\n[img_package]: https://axchange.axiros.com/scm/hg/noauth/badges/raw-file/a2d5751cb09c/lc-python/pypi_package.svg\n[lnk_discuss]: https://join.skype.com/krSNYZqvEmJm\n[img_discuss]: https://axchange.axiros.com/scm/hg/noauth/badges/raw-file/a2d5751cb09c/lc-python/discuss.svg\n[lnk_pipeline]: https://gitlab.axiros.com/devapps/lc-python/-/commits/master\n[img_pipeline]: https://axchange.axiros.com/scm/hg/noauth/badges/raw-file/a2d5751cb09c/lc-python/pipeline.svg\n[lnk_code style]: https://github.com/axiros/axblack\n[img_code style]: https://axchange.axiros.com/scm/hg/noauth/badges/raw-file/a2d5751cb09c/lc-python/code_style_ax_black.svg\n\n## About\n![](img/page-teaser.png){: style="width:1550px"}\n\nAxiros Low Code Platform (AX/LC) allows for the building of complex data processing pipelines, from\n\n- an extendable set of small building blocks (operator functions)\n- a declarative, composable description file, which can be editted e.g. visually.\n\n> An often drawn analogy to that approach is the one with Lego, which also allows to build complex designs, based on a set of generic and some design specifig blocks, plus a manual, describing how to put them together - while still allowing customization to a large extent.\n\n### This Package\n\nThis is the core package for the Axiros Low Code Platform.\n\nIt contains:\n\n- The base platform ops and dev command line tools\n- The python reference implementation of the AX/LC data pipeline building protocol\n- The `ax.core` operator namespace, containing basic generic building blocks\n- The javascript running within Node-RED, enabling the AX/LC pipeline building protocol on Node-RED side.\n\n---\n\nLast modified: Fri Dec 18 17:10:06 2020\n\n<!-- pre_proc_marker -->\n\n---\n\n??? warning "Documentation was built with development versions of libs!"\n\n    - [lc-python](git@gitlab.axiros.com:devapps/lc-python.git)\n    ```\n    commit d06dbfa5a40cf8c0564a6eb26a43e81b4888a7ab\n    Author: Gunther Klessinger <gk@axiros.com>\n    Date:   Sat Jan 30 16:25:17 2021 +0100\n\n        ci: trigger CI (empty commit)\n\n    commit 23bdaa68dacb7d040414eff41a158ce3504e960e\n    Author: Gunther Klessinger <gk@axiros.com>\n    Date:   Sat Jan 30 15:54:00 2021 +0100\n\n        fix: No capture at tests\n    ```\n\n    - [lc-devapp](git@gitlab.axiros.com:devapps/lc-devapp.git)\n    ```\n    commit 520081be6a9c5181c60c80fa27f090edeb438ea7\n    Author: Gunther Klessinger <gk@axiros.com>\n    Date:   Sat Jan 30 18:16:42 2021 +0100\n\n        feat: ops lc can now kill services of other processes\n\n        ...and also supports s for start\n\n    commit 8b55380fe7ec718ec78358bcda0792686884a526\n    Author: Gunther Klessinger <gk@axiros.com>\n    Date:   Sat Jan 30 12:45:23 2021 +0100\n\n        chore: better output\n    ```\n\n    - [lc-doctools](git@gitlab.axiros.com:devapps/lc-doctools.git)\n    ```\n    commit ad5dd751b688d1a64d7eb4534f0a393f14c9d89c\n    Author: Gunther Klessinger <gk@axiros.com>\n    Date:   Thu Jan 21 11:05:21 2021 +0100\n\n        fix: flow -flows\n\n    commit 161cfd0b0ceb63889687ef897a9aa357352408fc\n    Author: Gunther Klessinger <gk@axiros.com>\n    Date:   Wed Jan 20 23:43:46 2021 +0100\n\n        fix: keep path in tmux\n    ```\n\nLast modified: Sun Jan 31 00:59:16 2021\n',
+    'author': 'Gunther Klessinger',
+    'author_email': 'gunther.klessinger@axiros.com',
+    'maintainer': 'None',
+    'maintainer_email': 'None',
+    'url': 'http://klessinger.pages.axiros.com/lc-python',
+    'package_dir': package_dir,
+    'packages': packages,
+    'package_data': package_data,
+    'install_requires': install_requires,
+    'entry_points': entry_points,
+    'python_requires': '>=3.8,<4.0',
+}
+
+
+setup(**setup_kwargs)
