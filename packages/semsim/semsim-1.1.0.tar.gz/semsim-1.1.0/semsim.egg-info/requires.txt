@@ -1,0 +1,17 @@
+attrs
+click
+networkx
+numpy
+pymorphy2
+scipy
+simple_elmo
+tensorflow
+tensorrt
+textract
+torch
+torch-geometric
+torch-scatter
+torch-sparse
+torchwordemb
+tqdm
+ufal.udpipe

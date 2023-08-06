@@ -1,0 +1,2 @@
+[console_scripts]
+semsim = semsim.interface.cli:cli
