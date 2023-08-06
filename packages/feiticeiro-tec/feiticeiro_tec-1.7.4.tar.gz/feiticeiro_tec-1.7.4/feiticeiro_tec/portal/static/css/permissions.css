@@ -1,0 +1,78 @@
+#permissions,
+#box-table {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+.toggle-permissions {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.bi-toggle-on {
+    color: #9C9B00;
+    display: none;
+}
+
+.toggle-permissions.checked .bi-toggle-on {
+    display: block;
+}
+
+.toggle-permissions.checked .bi-toggle-off {
+    display: none;
+}
+
+#permissions * {
+    box-shadow: none;
+}
+
+th.gridjs-th,
+.gridjs-table tbody,
+td.gridjs-td,
+.gridjs-footer,
+.gridjs-pages * {
+    background-color: transparent !important;
+    color: white;
+}
+
+.gridjs-footer,
+.gridjs-pages * {
+    border: none !important;
+}
+
+.gridjs-th:nth-child(3),
+.gridjs-td:nth-child(3),
+.gridjs-th:nth-child(4),
+.gridjs-td:nth-child(4),
+.gridjs-th:nth-child(5),
+.gridjs-td:nth-child(5) {
+    text-align: center;
+}
+
+.gridjs-pagination .gridjs-summary {
+    color: white;
+}
+
+td.gridjs-td,
+th.gridjs-th {
+    border: none !important;
+    border-bottom: 1px solid #e5e7eb17 !important;
+}
+
+.gridjs-container {
+    position: inherit;
+    overflow: inherit;
+}
+
+.gridjs-search {
+    position: absolute;
+    top: -35px;
+    right: 10px;
+}
+
+.box-table {
+    position: relative;
+}
