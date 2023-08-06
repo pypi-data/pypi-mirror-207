@@ -1,0 +1,9 @@
+facefinder-0.1.10.dist-info/METADATA,sha256=40FdsDL5CyIUj2b5YPsqskGst6zja8vsdMcCTHhfCGc,444
+facefinder-0.1.10.dist-info/WHEEL,sha256=WeRBgVTcoYhSYLw1-ftpC7nxJa2KpckNmgu5swwNQ20,97
+facefinder/interact.py,sha256=YZDbB10QdBs6Ol_pxddWm9DhATK4HJ2yVSOtALkJ3Po,6759
+facefinder/metadata.py,sha256=FzfYVfThZWT_JK20GJ6fHeDOUizwIoJKLG3jTiGS3J8,4565
+facefinder/metrics.py,sha256=4wLxpNRoBNrmUbhRpMU7tbRCn4v01ViukgZvZ1SBlQA,28888
+facefinder/prompting.py,sha256=5JPFjmenWaTcwSQuAtpOMXcRCJEktEq-Obxuz_VROKA,4892
+facefinder/__init__.py,sha256=I4uc8FTK9TbymHaRVCU_e1UJUXp_iFfxiOWg0U03WQI,202
+facefinder/rust.cp310-win_amd64.pyd,sha256=RvV6uQ4SJAseH5ZMkZ_ARfou5LMWenhdkTVlDcriyXM,224256
+facefinder-0.1.10.dist-info/RECORD,,
