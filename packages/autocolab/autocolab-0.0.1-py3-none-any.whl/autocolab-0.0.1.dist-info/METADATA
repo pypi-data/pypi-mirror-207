@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: autocolab
+Version: 0.0.1
+Summary: 在Google Colab上使用GPT進行自動化工作
+Home-page: https://www.youtube.com/@futurizerush
+Author: Futurize Rush
+Author-email: futurize.rush@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: yt-dlp
+Requires-Dist: openai
+Requires-Dist: tqdm (>=4.61.2)
+Requires-Dist: requests
+
