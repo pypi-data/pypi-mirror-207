@@ -1,0 +1,35 @@
+class Point:
+
+    def __init__(self, lat, lon):
+        self.lat = lat
+        self.lon = lon
+
+    def __eq__(self, other):
+        return isinstance(other, self.__class__) and self.lat == other.lat and self.lon == other.lon
+
+    def __hash__(self):
+        return hash(self.lat) ^ hash(self.lon)
+
+    def __repr__(self):
+        return "Lat: {} Lon: {}".format(self.lat, self.lon)
+
+    def __lt__(self, other):
+        return (self.lat < other.lat and self.lon < other.lon) or ((self.lat - other.lat + self.lon - other.lon) < 0)
+
+    def get_tuple(self):
+        return self.lat, self.lon
+
+    def comparar_puntos(self, x):
+        return abs(self.lat - x.lat), abs(self.lon - x.lon)
+
+    @staticmethod
+    def generar_punto_dict(punto: dict):
+        return Point(punto['lat'], punto['lon'])
+
+    @staticmethod
+    def generar_lista_puntos(lista: list, inv: bool = False):
+        i = 0 if inv else 1
+        return [Point(x[i], x[1 - i]) for x in lista]
+
+
+Punto = Point
