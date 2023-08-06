@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.txt
+pyproject.toml
+setup.py
+dogfood-logger/__init__.py
+dogfood-logger/logger.py
+dogfood_logger.egg-info/PKG-INFO
+dogfood_logger.egg-info/SOURCES.txt
+dogfood_logger.egg-info/dependency_links.txt
+dogfood_logger.egg-info/requires.txt
+dogfood_logger.egg-info/top_level.txt
+tests/test.py
