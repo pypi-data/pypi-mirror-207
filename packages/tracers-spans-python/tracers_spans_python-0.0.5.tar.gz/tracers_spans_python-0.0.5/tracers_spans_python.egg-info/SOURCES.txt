@@ -1,0 +1,10 @@
+LICENSE
+setup.cfg
+setup.py
+tracers_spans_python/__init__.py
+tracers_spans_python/tracers_spans_python.py
+tracers_spans_python.egg-info/PKG-INFO
+tracers_spans_python.egg-info/SOURCES.txt
+tracers_spans_python.egg-info/dependency_links.txt
+tracers_spans_python.egg-info/requires.txt
+tracers_spans_python.egg-info/top_level.txt
