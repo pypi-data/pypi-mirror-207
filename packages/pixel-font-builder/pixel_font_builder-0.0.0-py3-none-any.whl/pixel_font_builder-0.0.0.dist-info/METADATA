@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pixel-font-builder
+Version: 0.0.0
+Summary: A library that helps create pixel style fonts.
+Author: TakWolf
+Maintainer: TakWolf
+License: MIT License
+Project-URL: homepage, https://github.com/TakWolf/pixel-font-builder
+Project-URL: source, https://github.com/TakWolf/pixel-font-builder
+Project-URL: issues, https://github.com/TakWolf/pixel-font-builder/issues
+Keywords: font,pixel
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fonttools (==4.39.3)
+Requires-Dist: Brotli (==1.0.9)
+Requires-Dist: bdffont (==0.0.7)
+
+# Pixel Font Builder
+
+[![PyPI](https://img.shields.io/pypi/v/pixel-font-builder)](https://pypi.org/project/pixel-font-builder/)
+
+A library that helps create pixel style fonts.
+
+## Dependencies
+
+- [FontTools](https://github.com/fonttools/fonttools)
+- [Brotli](https://github.com/google/brotli)
+- [BdfFont](https://github.com/TakWolf/bdffont)
+
+## License
+
+Under the [MIT license](LICENSE).
