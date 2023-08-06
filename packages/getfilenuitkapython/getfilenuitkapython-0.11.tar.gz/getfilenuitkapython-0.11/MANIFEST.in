@@ -1,0 +1,3 @@
+include getfilenuitkapython/requirements.txt
+include getfilenuitkapython/thirdparty.json
+include getfilenuitkapython/README.md

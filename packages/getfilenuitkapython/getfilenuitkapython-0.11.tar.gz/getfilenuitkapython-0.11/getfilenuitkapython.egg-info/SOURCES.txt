@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+getfilenuitkapython/README.md
+getfilenuitkapython/__init__.py
+getfilenuitkapython/requirements.txt
+getfilenuitkapython/thirdparty.json
+getfilenuitkapython.egg-info/PKG-INFO
+getfilenuitkapython.egg-info/SOURCES.txt
+getfilenuitkapython.egg-info/dependency_links.txt
+getfilenuitkapython.egg-info/requires.txt
+getfilenuitkapython.egg-info/top_level.txt
