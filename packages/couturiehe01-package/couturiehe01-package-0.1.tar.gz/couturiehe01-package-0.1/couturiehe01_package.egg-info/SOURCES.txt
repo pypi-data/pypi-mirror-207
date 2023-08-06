@@ -1,0 +1,5 @@
+setup.py
+couturiehe01_package.egg-info/PKG-INFO
+couturiehe01_package.egg-info/SOURCES.txt
+couturiehe01_package.egg-info/dependency_links.txt
+couturiehe01_package.egg-info/top_level.txt
