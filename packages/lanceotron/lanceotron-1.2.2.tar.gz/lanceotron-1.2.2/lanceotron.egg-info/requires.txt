@@ -1,0 +1,8 @@
+pybigwig
+scikit-learn
+numpy
+pandas
+tensorflow>2
+scipy
+natsort
+tqdm
