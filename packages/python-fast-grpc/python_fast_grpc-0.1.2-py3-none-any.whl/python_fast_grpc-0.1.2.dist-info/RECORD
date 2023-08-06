@@ -1,0 +1,17 @@
+fast_grpc/.DS_Store,sha256=YqqwY4MTkMUhW3_NqdLpiU8Cgh-wZ75kMXoVwLb4TB8,6148
+fast_grpc/__init__.py,sha256=1ffdbDwgysNnlYwG-tPuLwO2jkQPPplLQI469EeB0GU,127
+fast_grpc/app.py,sha256=W_SaDa21AZrc1FsZTnQjbiBtvReoI1b75m65cIpcrkE,3639
+fast_grpc/base.py,sha256=rgI-_l1D3MKHLTQ8S8qA3k9-orC7rvMigybpxgca3_U,242
+fast_grpc/exceptions.py,sha256=WyOy3j3Q-F3kKZ_xBnrZo-X1sMCVXRsbijTjjCdJhhg,981
+fast_grpc/middleware/__init__.py,sha256=2xMkTZawac7NeHFArC0HAxdqjvp4PHX-blTY10Fx22Q,570
+fast_grpc/middleware/base.py,sha256=Nzi3RvSwnlfIZY53e4ZhlqjVA78SeyKUJgj3pe2BUWU,1657
+fast_grpc/middleware/exception.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+fast_grpc/proto.py,sha256=7FoHFpoGj4I5iRY5kdiFcQnyZZN2Cu9aebW1aLl5kXs,6819
+fast_grpc/service.py,sha256=YUmstZznm6nP8o3rucq4BosdrDoUwb9OEPN1P6QStNU,5022
+fast_grpc/signals.py,sha256=qINjkBVPxF3OxnKC8R8rm0lboorvDMW3JJrfdOXIkCk,139
+fast_grpc/types.py,sha256=DlvQUwjFfTWYAFb6k0iO9gVDz8uEu0Wze7_8u4meWz0,3313
+fast_grpc/utils.py,sha256=X7ntT7rWOrVfecFCDj5zd4keDSNkHCOVdJ5t8GyIFQo,2103
+python_fast_grpc-0.1.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+python_fast_grpc-0.1.2.dist-info/METADATA,sha256=NU2oayuccnTN6GZng7BpNgNfb3Y9N7DZDIeAIJpgZOk,1707
+python_fast_grpc-0.1.2.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+python_fast_grpc-0.1.2.dist-info/RECORD,,
