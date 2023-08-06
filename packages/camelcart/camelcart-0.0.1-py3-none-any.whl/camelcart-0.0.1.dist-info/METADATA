@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: camelcart
+Version: 0.0.1
+Summary: One repo for everything
+Author: geekymonk
+Author-email: abc@hello.com
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: opencv-python
+
+
+# camelcart
+one repo for everything
