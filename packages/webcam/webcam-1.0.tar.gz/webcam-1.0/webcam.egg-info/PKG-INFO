@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: webcam
+Version: 1.0
+Summary: A simple and convenient library to interact with webcams in Python without having to address Hardware Limitations
+Home-page: https://github.com/Eric-Canas/webcam
+Author: Eric-Canas
+Author-email: eric@ericcanas.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Multimedia :: Graphics :: Capture
+Classifier: Topic :: Multimedia :: Graphics :: Capture :: Digital Camera
+Classifier: Topic :: Multimedia :: Graphics :: Capture :: Screen Capture
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# webcam
+Easy-to-use library for accessing to a camera streaming from Python. Internally, it acts as a wrapper of cv2.VideoCapture, that include several out-of-the-box utilities that are commonly needed in production Computer Vision projects
+
+
