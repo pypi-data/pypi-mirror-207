@@ -1,0 +1,14 @@
+qbandas/__init__.py,sha256=7WJlq3jVFHzIt_ngluoM7PdzJnrJ2SwvUBpkIxE-C6M,369
+qbandas/__main__.py,sha256=Idokb7m9gWAteGBNoqg2MJH3tP6Zb1qhCQuBhDnRVxE,472
+qbandas/_constants.py,sha256=5nQrmbLI8-WwSqV7juuEFqwQp4EMVKO_QohBbHN2E_Q,1273
+qbandas/_pack.py,sha256=UURTRqBRIgswV9elgX6DSAzhfxcMHj2kquabliBtLlo,5381
+qbandas/profiles.py,sha256=IRFJMtQIC4_0YAlcSXiKH1uhuaDMGwAaP1JoELCmwUQ,6073
+qbandas/records.py,sha256=NOtlsixi_XCwMSdbgSAr7tOP_4c6zY3vs4nW7Z1ZPac,8856
+qbandas/schemas.py,sha256=CmRRcpW4h22oxWT7ZtlltjU3fOirsoabAN9e8ypLw0k,7007
+qbandas/data/address-fields.json,sha256=nO7MfJRgLgJXHgA7cpfCzkjRx-1KVBufPhR31SfDcMk,348
+qbandas/data/config.ini,sha256=AstUvfQnklnxCB-UZyuhsADWDCQC3G2qCkzAiD9vG08,105
+qbandas/data/field_types.json,sha256=BgxEYsx5uE5YJ4jzgw3HkRX_LlIUa0tSe7KoXYhDvR8,3547
+qbandas-1.2.1.dist-info/METADATA,sha256=ueaHA5fxmcUjQSZirDDpq2j5LIJhgIg4JyMvIk8BtgI,1667
+qbandas-1.2.1.dist-info/WHEEL,sha256=kAoYHEzhbpP91vg_l47LD3ekp-d1wLb0_Af70S1KycY,87
+qbandas-1.2.1.dist-info/licenses/LICENSE,sha256=So4O1VD8tR-Iov5yZEIl4jrPc3bdxHU8qg78ja2a41k,1059
+qbandas-1.2.1.dist-info/RECORD,,
