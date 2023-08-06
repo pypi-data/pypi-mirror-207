@@ -1,0 +1,9 @@
+cvx/simulator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cvx/simulator/metrics.py,sha256=VlrQszzAPRNE71GIrV0w-1K4ah6bxIJ69x4kZVdumXg,1163
+cvx/simulator/month.py,sha256=q2LpF5GTMbHBo_uiEMvHi9Rr2oAxt2eV4msgj7egVhw,1341
+cvx/simulator/portfolio.py,sha256=g-2vQNde-rXOpaZ3QYK2UDZZDqv8dyd4-gQs6P3mIFk,6225
+cvx/simulator/trading_costs.py,sha256=B19IfOPuauMAyS7NljVEjkWXnU_vFuCMp3Sf4l_k0EM,464
+cvxsimulator-0.2.3.dist-info/LICENSE,sha256=h5ySttAaSwpx7UTlnruATHdY4mvVT0aL2kknqyXFIgo,1102
+cvxsimulator-0.2.3.dist-info/METADATA,sha256=V9Susnb1-T0aCthZmLb59T1ZPpBfoDRsmbkqNkVaLVw,4619
+cvxsimulator-0.2.3.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+cvxsimulator-0.2.3.dist-info/RECORD,,
