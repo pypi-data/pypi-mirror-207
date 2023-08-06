@@ -1,0 +1,2 @@
+[console_scripts]
+batframes = batframe_main:bat_main
