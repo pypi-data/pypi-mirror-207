@@ -1,0 +1,13 @@
+optiML/__init__.py,sha256=8bPRIaLJ6cXNNIQ9VVcy4nXgNbFLsV8iD_jI-Z1KbSg,51
+optiML/import_file.py,sha256=cZ4Z5zNqIpKyTHqop7eBweRpw6efSFDRvWTxx7-TZMk,2048
+optiML/preprocessing_data.py,sha256=bZs7cUAYpuWeWpbviL4Y-eiWoWs3378H0BbBSVfVXH4,10040
+optiML/preprocessing_data_expert_mode.py,sha256=3efakGeOrdWi08wWwoLC3RRqCmoFMRJrQpoo29VkghE,858
+optiML/pyoptiml.py,sha256=YOR4pTWgfva1vUSyBK4xwZU8wtQmPQqZGH-lSIMYFXs,598
+optiML/savefile.py,sha256=UAbOz7OUmne0OoLElBYHHhQJLJ39bXait7UVrd7JXp4,1676
+optiML/testing.py,sha256=aoOcgaMEpzyWiVEEIkQjHAbgk4zYM4Z-l7mmXJJuOlU,939
+optiML/trainingtesting.py,sha256=eYo90goHW_gM58-75W5Ud7_WxaN_DDl4gH2oLS1r30c,7334
+pyoptiML-0.3.dist-info/LICENSE,sha256=tMnbGNhEK_TvmcoRi2fIhKn1YTA19YivsjPScsKCqag,1073
+pyoptiML-0.3.dist-info/METADATA,sha256=VtfA3rxXr53kU1PDKttpXl8f2J4-mDOpMWwrjHkxNaI,4280
+pyoptiML-0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pyoptiML-0.3.dist-info/top_level.txt,sha256=MGxF-cwbJQCAOB3QV0vqknVBsNmh7ay46iC7sq4VIEA,7
+pyoptiML-0.3.dist-info/RECORD,,
