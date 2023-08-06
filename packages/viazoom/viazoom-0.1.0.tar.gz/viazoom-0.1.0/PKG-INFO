@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: viazoom
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Author: Spencer Neveux <spencer.neveux@viasat.com>
+Author-email: Spencer Neveux <spencer.neveux@viasat.com>
+Requires-Python: >=3.7
