@@ -1,0 +1,5 @@
+easydict
+pandas
+prettytable
+PTable
+setuptools
