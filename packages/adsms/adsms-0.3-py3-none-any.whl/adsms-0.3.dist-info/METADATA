@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: adsms
+Version: 0.3
+Summary: Send SMS aircraft alerts based on ADS-B data
+Author-email: Samuel Sloniker <sam@kj7rrv.com>
+Project-URL: Homepage, https://git.kj7rrv.com/kj7rrv/adsms
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# adsms
+
+Send SMS aircraft alerts based on ADS-B data
+
+![Screenshot of text sent by adsms](screenshot.jpg)
+
+## Usage
+
+Copy the configuration file, make any necessary changes, and run:
+
+    ./adsms.py <configuration_file>
+
+## Configuration file
+
+* `textbelt_key`: your [Textbelt](https://textbelt.com) API key
+* `data`: a URL to a readsb/tar1090 `aircraft.json` endpoint
+* `tracker`: a URL to a tar1090 tracker (e.g. https://globe.theairtraffic.com/)
+* `database`: an SQLite file in which to store subscriptions
+* `pid_file`: path to which to write the PID (set to empty string to not write
+  a PID file)
+* `max_age`: maximum age of aircraft pings in seconds; pings older than this
+  will be ignored
+* `min_disappearance`: the minimum time in seconds for which an aircraft must
+  go "off the radar" before disappearing for new pings to trigger notifications
+  again
+* `delay`: time to wait after processing all rules before running the loop
+  again
+
+## Database Schema
+
+`adsms` uses a SQLite database to store subscriptions and information about tracked aircraft. Currently, the only table is `subscriptions`.
+
+### `subscriptions`
+
+The `subscriptions` table has the following columns:
+
+| Column Name   | Data Type | Description                                                    |
+| ------------- | --------- | -------------------------------------------------------------- |
+| `rowid`       | INTEGER   | Unique identifier for the subscription.                        |
+| `phone`       | TEXT      | Phone number to receive notifications for this subscription.   |
+| `icao`        | TEXT      | ICAO address of the aircraft to track.                          |
+| `description` | TEXT      | Description of the aircraft being tracked.                     |
+| `last_seen`   | INTEGER   | Timestamp of the last time this aircraft was seen by the system.|
+
+This table stores information about each subscription, including the phone number to send notifications to, the ICAO address of the aircraft to track, a description of the aircraft, and the last time it was seen by the system.
+
+## Use of ChatGPT 
+
+Portions of both this README and the `adsms` code have been partially written with ChatGPT.
