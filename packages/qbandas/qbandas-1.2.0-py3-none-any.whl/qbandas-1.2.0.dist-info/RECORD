@@ -1,0 +1,16 @@
+qbandas/__init__.py,sha256=mb5Xiq4X3Qiuwhg1hqikjf3OpQX2Y-8ucCe4j126-h4,1393
+qbandas/__main__.py,sha256=Idokb7m9gWAteGBNoqg2MJH3tP6Zb1qhCQuBhDnRVxE,472
+qbandas/data/address-fields.json,sha256=nO7MfJRgLgJXHgA7cpfCzkjRx-1KVBufPhR31SfDcMk,348
+qbandas/data/config.ini,sha256=AstUvfQnklnxCB-UZyuhsADWDCQC3G2qCkzAiD9vG08,105
+qbandas/data/field_types.json,sha256=BgxEYsx5uE5YJ4jzgw3HkRX_LlIUa0tSe7KoXYhDvR8,3547
+qbandas/profiles/__init__.py,sha256=pWzU3qU7RjO_mkLzJLWQoXc-IpOBguwsqg4DACbc3FE,299
+qbandas/profiles/profiles.py,sha256=lwBwO7MhzKIcfTL4ylVp4KQwJoFF57CW9fkLAirS5z4,5631
+qbandas/records/__init__.py,sha256=wTYC-PsWPmxvKS4AsAPBTCxIlEjIlqKiw1gSGe3cfho,151
+qbandas/records/_pack.py,sha256=k1ids5BOzG5mvF7KGE6vCVR77DSEZl3NpBh3C0I3FOQ,5354
+qbandas/records/records.py,sha256=ic325ll7cr5LBcfhApMokZ8tk75RtBmgdA7kgWRycBk,8259
+qbandas/schemas/__init__.py,sha256=ykaxVDrTLswXnwtLCMX1rkashrgVyo8SdPfZtHttS-I,338
+qbandas/schemas/schemas.py,sha256=pTyN_YdqrXG9zwUsCq7GHUohGJPk4XOhCvfasv33SuM,6028
+qbandas-1.2.0.dist-info/METADATA,sha256=tomwectLPQbP5Z8nEiSYZvel2NaMpbKYqsO0SvFS_pQ,1816
+qbandas-1.2.0.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+qbandas-1.2.0.dist-info/licenses/LICENSE,sha256=So4O1VD8tR-Iov5yZEIl4jrPc3bdxHU8qg78ja2a41k,1059
+qbandas-1.2.0.dist-info/RECORD,,
