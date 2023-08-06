@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "firepup650"
+version = "1.0.14"
+authors = ["Firepup650"]
+description = "Package containing various shorthand things I use, and a few imports I almost always use"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fkeycapture = "^1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
