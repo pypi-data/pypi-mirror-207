@@ -1,0 +1,10 @@
+dqops/__init__.py,sha256=hwnqt5Hxvp-NbSgnfDbv54VItCMCAgcxr9TUeNpfdEw,799
+dqops/install.py,sha256=bybMhGpzRS65fssohgtaOFyv2BurMb9MUmTMqbCufd4,3409
+dqops/startdqo.py,sha256=9SKOXvf5RW_30K9poPkKaYoRmmPbDF8wUuCvemwtPfU,2766
+dqops/version.py,sha256=A4jycqSceZI3tUGsn4qe6PL2SWEwNhj2Pz0TJYk4hZk,974
+dqops-0.2.0.0.dist-info/LICENSE,sha256=zntVu-NLvCPTvXglhDMWlbpSL4WHAK5uWNBAc22eTlk,11554
+dqops-0.2.0.0.dist-info/METADATA,sha256=9srAKA6l_JhOkVGrY_jV0TgwjEf62_c2KUw89FeZlZw,4744
+dqops-0.2.0.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+dqops-0.2.0.0.dist-info/entry_points.txt,sha256=57yuVKijKmktzNU7UqahxJ8qJn0WFFerHybB1OyTCOE,44
+dqops-0.2.0.0.dist-info/top_level.txt,sha256=SmC0V4jPcos2_FZDUiPZRmR8OW88tG6Uqwu8CxDygbo,6
+dqops-0.2.0.0.dist-info/RECORD,,
