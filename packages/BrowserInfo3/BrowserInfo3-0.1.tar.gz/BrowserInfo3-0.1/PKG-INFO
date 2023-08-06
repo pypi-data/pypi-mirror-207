@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: BrowserInfo3
+Version: 0.1
+Summary: An edge and chrome password, history logger, dont use it illegally. 
+Author: pyprojects3
+License: MIT
+Keywords: Browser,BrowserHistory,SQL,Chrome,Edge,Passwords
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+
+A Chrome and edge Info logger using SQL databases, dont use it illegally as it can be a hacktool.
+
+Copyright x203f-Hacktools

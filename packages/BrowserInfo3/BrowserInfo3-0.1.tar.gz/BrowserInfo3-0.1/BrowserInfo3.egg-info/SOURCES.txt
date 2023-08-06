@@ -1,0 +1,11 @@
+setup.py
+BrowserInfo3/Browsers.py
+BrowserInfo3/Utilities.py
+BrowserInfo3/__init__.py
+BrowserInfo3/chrome.py
+BrowserInfo3/edge.py
+BrowserInfo3.egg-info/PKG-INFO
+BrowserInfo3.egg-info/SOURCES.txt
+BrowserInfo3.egg-info/dependency_links.txt
+BrowserInfo3.egg-info/requires.txt
+BrowserInfo3.egg-info/top_level.txt
