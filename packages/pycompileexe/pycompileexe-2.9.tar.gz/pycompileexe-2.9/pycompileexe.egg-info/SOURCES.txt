@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pycompileexe.egg-info/PKG-INFO
+pycompileexe.egg-info/SOURCES.txt
+pycompileexe.egg-info/dependency_links.txt
+pycompileexe.egg-info/top_level.txt
+pystyl.egg-info/SOURCES.txt
+pystyl.egg-info/dependency_links.txt
+pystyl.egg-info/top_level.txt
+pystyle/__init__.py
+pystyle.egg-info/SOURCES.txt
+pystyle.egg-info/dependency_links.txt
+pystyle.egg-info/top_level.txt
