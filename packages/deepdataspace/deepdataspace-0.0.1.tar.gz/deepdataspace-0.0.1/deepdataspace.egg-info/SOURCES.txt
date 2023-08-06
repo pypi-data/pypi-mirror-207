@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+dds.py
+setup.py
+deepdataspace/__init__.py
+deepdataspace.egg-info/PKG-INFO
+deepdataspace.egg-info/SOURCES.txt
+deepdataspace.egg-info/dependency_links.txt
+deepdataspace.egg-info/entry_points.txt
+deepdataspace.egg-info/requires.txt
+deepdataspace.egg-info/top_level.txt

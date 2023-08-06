@@ -1,0 +1,33 @@
+Metadata-Version: 1.1
+Name: deepdataspace
+Version: 0.0.1
+Summary: A tool for CV dataset labeling, visualizing and analysing
+Home-page: https://idea.edu.cn/cvr.html
+Author: cvr@idea
+Author-email: huweiqiang@idea.edu.cn
+License: UNKNOWN
+Description: # deepdataspace
+        The Go-To Choice for CV Data Visualization, Annotation, and Model Analysis.  
+        1. Deep Data Space (DDS) is an open-source platform that integrates CV data annotation, visualization, 
+        and model analysis, aiming to empower researchers and algorithm engineers in the computer vision field 
+        with a comprehensive workflow management.
+        2. DDS provides rich and intelligent annotation tools with collaborative management to help users create high-quality datasets.
+        3. DDS provides an interactive data exploration platform for visualizing and analyzing datasets, helping users to gain insights into the data.
+        4. DDS provides dataset and model management tools to help users efficiently analyze the performance and defects of models, for better model optimization.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
