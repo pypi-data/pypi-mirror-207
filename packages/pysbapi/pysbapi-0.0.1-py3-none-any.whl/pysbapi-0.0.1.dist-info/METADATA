@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pysbapi
+Version: 0.0.1
+Summary: sbapi test package
+Home-page: UNKNOWN
+Author: TechFree AdamKim
+Author-email: 4_2@naver.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pyqt5
+
+UNKNOWN
+
+
