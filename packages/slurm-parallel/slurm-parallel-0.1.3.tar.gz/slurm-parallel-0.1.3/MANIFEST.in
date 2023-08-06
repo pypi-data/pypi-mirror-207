@@ -1,0 +1,4 @@
+include src/slurm_parallel/config.toml
+include src/slurm_parallel/cleanup.sh
+include src/slurm_parallel/summarize.sh
+include src/slurm_parallel/run.sh
