@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+setup.py
+.github/workflows/deploy.yml
+.github/workflows/test.yml
+comboparse/__init__.py
+comboparse/comboparser.py
+comboparse.egg-info/PKG-INFO
+comboparse.egg-info/SOURCES.txt
+comboparse.egg-info/dependency_links.txt
+comboparse.egg-info/top_level.txt
+tests/__init__.py
+tests/test_comboparser.py
