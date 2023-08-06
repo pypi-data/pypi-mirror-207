@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+src/buyyoutubviewsnumtowords/__init__.py
+src/buyyoutubviewsnumtowords/main.py
+src/numtowords.egg-info/PKG-INFO
+src/numtowords.egg-info/SOURCES.txt
+src/numtowords.egg-info/dependency_links.txt
+src/numtowords.egg-info/top_level.txt
+test/test.py
