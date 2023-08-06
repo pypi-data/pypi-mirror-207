@@ -1,0 +1,12 @@
+gymnasium<0.29,>=0.28.1
+pettingzoo<1.23,>=1.22.3
+
+[examples]
+jupyterlab
+matplotlib
+stable_baselines3[extra]<2.1,>=2.0.0a5
+ipywidgets
+tianshou<0.6,>=0.5
+
+[tests]
+pytest
