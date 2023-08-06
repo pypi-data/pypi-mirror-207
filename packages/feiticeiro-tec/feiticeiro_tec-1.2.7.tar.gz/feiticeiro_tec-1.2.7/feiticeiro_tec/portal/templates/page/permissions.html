@@ -1,0 +1,20 @@
+{% extends '_core/base.html'%}
+
+{% from '_components/_layout/head.html' import MacroHead %}
+{% from '_components/_layout/header.html' import MacroHeader %}
+
+{% block Head %}
+{{ MacroHead(False) }}
+{{MacroHeader()}}
+<title>Portal - Permissões</title>
+<link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="{{url_for('portal.static',filename='css/permissions.css')}}">
+{% endblock %}
+
+{% block Body %}
+<h1 class="m-auto mt-3 text-primary text-center">Permissões</h1>
+<p class="text-center text-muted">cada rota tem uma permissions relacionada a um methodo, desative quando preciso.</p>
+<div id="permissions"></div>
+<script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
+<script src="{{url_for('portal.static',filename='js/permissions.js')}}"></script>
+{% endblock %}
