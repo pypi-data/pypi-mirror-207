@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: bardapi
+Version: 0.1.0
+Summary: A package that returns Response of Google BARD through API.
+Home-page: https://github.com/dsdanielpark/bard_api
+Author: daniel park
+Author-email: parkminwoo1991@gmail.com
+Keywords: BARD,Python,Google Bard,Large Language Model,Chatbot API,Google API,Chatbot
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# bard_api
+A package that returns Response of Google BARD through API
