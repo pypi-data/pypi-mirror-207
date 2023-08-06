@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: ysf-test
+Version: 0.0.3
+Summary: a small example package
+Author: yisifan
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
