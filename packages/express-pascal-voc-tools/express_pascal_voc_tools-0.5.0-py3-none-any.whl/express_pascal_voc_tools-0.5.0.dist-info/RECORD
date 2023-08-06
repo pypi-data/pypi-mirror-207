@@ -1,0 +1,17 @@
+voc_reader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+voc_reader/reader.py,sha256=EE2WzKWuZ3d92_cDyl3CBUltqGmE8m2lZKSDBUZkhC0,1982
+voc_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+voc_tools/annotation.py,sha256=X__W94nQks1BsEMvIoRJVp_briXH4tWEdHjjnIqNooc,2942
+voc_tools/reader.py,sha256=LoVcJfsQb4RCLNVAcaHAknh7I-lc3WNVFA8WYTm20g8,4472
+voc_tools/utils.py,sha256=DN2G0ephBf9TFa4JzY_44E8AeynKG6u6_IDj4-TWIho,6207
+voc_tools/visulizer.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+voc_tools/writer.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+voc_tools/unittest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+voc_tools/unittest/reader_test.py,sha256=jdQvEFAivoF87ZFID8_K0Fr5832O76cWuzF8Z0bTstQ,2415
+voc_writer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+voc_writer/writer.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+express_pascal_voc_tools-0.5.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+express_pascal_voc_tools-0.5.0.dist-info/METADATA,sha256=VEq8INgrUzqJy8ssxYpNi-eHwjrVYcApgHRrynFwFfA,4265
+express_pascal_voc_tools-0.5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+express_pascal_voc_tools-0.5.0.dist-info/top_level.txt,sha256=BEIRbXJaixPtWipkPnKwZ1duYzDYu7pw6gtXHzP6Pr8,10
+express_pascal_voc_tools-0.5.0.dist-info/RECORD,,
