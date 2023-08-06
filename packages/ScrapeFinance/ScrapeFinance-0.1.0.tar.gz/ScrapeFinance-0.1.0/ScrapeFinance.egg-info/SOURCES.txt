@@ -1,0 +1,14 @@
+README.md
+setup.py
+ScrapeFinance.egg-info/PKG-INFO
+ScrapeFinance.egg-info/SOURCES.txt
+ScrapeFinance.egg-info/dependency_links.txt
+ScrapeFinance.egg-info/requires.txt
+ScrapeFinance.egg-info/top_level.txt
+src/Postrequest.py
+src/QQScrape.py
+src/__init__.py
+src/find_db.py
+src/main.py
+src/run.py
+src/webserver.py

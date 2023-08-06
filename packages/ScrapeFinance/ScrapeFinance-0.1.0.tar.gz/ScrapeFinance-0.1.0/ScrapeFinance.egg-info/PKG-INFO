@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ScrapeFinance
+Version: 0.1.0
+Summary: dry martini,shaken,not stirred
+Home-page: https://github.com/raymond57p/ScrapeFinance
+Author: frank
+Author-email: henrywongb@hotmail.com
+Description-Content-Type: text/markdown
+
+# MyPackage
+
+MyPackage is a Python package for doing something awesome.
+
+## Installation
+
+You can install MyPackage using pip:
+
+```sh
+pip install mypackage
