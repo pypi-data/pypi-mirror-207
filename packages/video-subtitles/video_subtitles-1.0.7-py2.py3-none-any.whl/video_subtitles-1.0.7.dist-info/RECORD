@@ -1,0 +1,17 @@
+video_subtitles/__init__.py,sha256=Jy-yYJbn-2qrZrU-RN2ai6BQyaxWHU9UKiwJRmOT528,34
+video_subtitles/cli.py,sha256=fFQT4NNOCExdXdPONPes8aT9ivzz67NTnAp_eIiueVc,3728
+video_subtitles/convert_to_webvtt.py,sha256=LyHFBoiXlgDmE0NdSNsayn7wVxW2gDdQNhTm06xJ-qI,332
+video_subtitles/gui.py,sha256=YTDoN-QrSek6TjacncATbLdEvaCtMJ9Ce64MNgHUkrs,10449
+video_subtitles/run.py,sha256=2qVIGNE6KgKZAICGtW6wzH_FVW8DwDYxvzLBdnzE898,3648
+video_subtitles/say.py,sha256=wSMQGtGQHfrkeuZiAdRaVylqtfSf_RmkdHL5jonkjlQ,772
+video_subtitles/settings.py,sha256=Eg4XwmrzdxTqnMOBOSNfSSc881mNOL3m0cYcFfkVXkQ,2050
+video_subtitles/thread_processor.py,sha256=NBSWRk7uvfXTBjhlwxhoZOHMIXp3f1BrdJrgIpi65Rs,1622
+video_subtitles/translate.py,sha256=79eNv-2n1652DoJRV4Ha5mXrkAIcLSX7UJ7-a7wIIhY,841
+video_subtitles/util.py,sha256=GnvCrbkCIP9Q_GqiCi4S3Sn3BJxnVcH4tc8WSJRioPE,3855
+video_subtitles/assets/example.txt,sha256=lTBovRjiz0_TgtAtbA1C5hNi2ffbqnNPqkKg6UiKCT8,54
+video_subtitles-1.0.7.dist-info/LICENSE,sha256=b6pOoifSXiUaz_lDS84vWlG3fr4yUKwB8fzkrH9R8bQ,1064
+video_subtitles-1.0.7.dist-info/METADATA,sha256=S-MGe4KtELFRz1yZgCWSRdR50WKnHcg7t7XsUrAG6rM,5745
+video_subtitles-1.0.7.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+video_subtitles-1.0.7.dist-info/entry_points.txt,sha256=UE8icZi17_pbrzzl_4anh3e8MprnDZqUET_5nU6NGc0,60
+video_subtitles-1.0.7.dist-info/top_level.txt,sha256=naoSg5iFaumDkbvPihF_LKztub9cdicmspEFYMmdknI,16
+video_subtitles-1.0.7.dist-info/RECORD,,
