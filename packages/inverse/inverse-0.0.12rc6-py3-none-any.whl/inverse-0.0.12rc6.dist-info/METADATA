@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: inverse
+Version: 0.0.12rc6
+Summary: large matrix operations
+Home-page: https://github.com/SermetPekin/inverse-repo
+License: MIT
+Author: Sermet Pekin
+Author-email: sermet.pekin@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Framework :: IPython
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Provides-Extra: jupyter
+Requires-Dist: Cython (>=0.29.34,<0.30.0)
+Requires-Dist: matplotlib (>1.0.0)
+Requires-Dist: numpy (==1.24.3)
+Requires-Dist: openpyxl (>=3.0.10,<4.0.0)
+Requires-Dist: pandas (>=1.5.0,<2.0.0)
+Requires-Dist: requests (>=2.28.1,<3.0.0)
+Requires-Dist: rich (>=12.5.1,<13.0.0)
+Requires-Dist: scipy (==1.9.2)
+Project-URL: Documentation, https://github.com/SermetPekin/inverse-repo
+Description-Content-Type: text/markdown
+
+
+[![Python package](https://github.com/SermetPekin/inversePro/actions/workflows/python-package.yml/badge.svg)](https://github.com/SermetPekin/inversePro/actions/workflows/python-package.yml)
+ 
+
+[![Supported Python Versions](https://img.shields.io/pypi/pyversions/inverse/0.0.3)](https://pypi.org/project/inverse/)   
+
+[![Downloads](https://pepy.tech/badge/inverse/week)](https://pepy.tech/project/inverse)
+
+### About
+
+***inverse*** is an open source python package which helps operations on large matrix such as inversions 
+by using techniques such as using balancing optimal memory and stack memory cache and users local area SQLite database  
+This package does not create large matrix but instead addresses each row or rows to SQLite and loads only then they are required 
+for the operation. 
+
+### Usage 
+    
+
