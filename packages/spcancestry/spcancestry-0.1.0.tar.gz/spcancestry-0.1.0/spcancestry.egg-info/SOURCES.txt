@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+spcancestry/__init__.py
+spcancestry/spcancestry.py
+spcancestry.egg-info/PKG-INFO
+spcancestry.egg-info/SOURCES.txt
+spcancestry.egg-info/dependency_links.txt
+spcancestry.egg-info/not-zip-safe
+spcancestry.egg-info/requires.txt
+spcancestry.egg-info/top_level.txt
