@@ -1,0 +1,13 @@
+{% macro MacroHeader() %}
+<header class="header-login d-flex">
+    <img src="{{url_for('portal.static',filename='img/portal.png')}}" />
+    <h2 class="h5 text-white my-auto me-3 text-bold">Portal Sistema</h2>
+    <nav class="ms-auto me-3 my-auto">
+        <ul class="m-0 d-flex gap-3">
+            <li>
+                <a href="" class="item">Permissões</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+{% endmacro %}
