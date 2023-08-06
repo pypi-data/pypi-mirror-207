@@ -1,0 +1,7 @@
+setup.py
+math_external/__init__.py
+math_external/math_external.py
+mathexternal.egg-info/PKG-INFO
+mathexternal.egg-info/SOURCES.txt
+mathexternal.egg-info/dependency_links.txt
+mathexternal.egg-info/top_level.txt
