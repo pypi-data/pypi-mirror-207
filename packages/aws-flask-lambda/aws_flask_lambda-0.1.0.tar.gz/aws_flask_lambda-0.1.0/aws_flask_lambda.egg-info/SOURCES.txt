@@ -1,0 +1,6 @@
+setup.py
+aws_flask_lambda.egg-info/PKG-INFO
+aws_flask_lambda.egg-info/SOURCES.txt
+aws_flask_lambda.egg-info/dependency_links.txt
+aws_flask_lambda.egg-info/requires.txt
+aws_flask_lambda.egg-info/top_level.txt
