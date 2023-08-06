@@ -1,0 +1,15 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+integra.py,sha256=dmuDVuxFQd-VPcmTGgiBUjGMUGg2yvixyhAyF7Nfvlc,9198
+old_tests/bench_hard.py,sha256=Z5NbiySAclhSnO7GRfdhnrUJD6UCNA3VFyAeJmRZkpI,1163
+old_tests/test_error.py,sha256=w-akRKBxQIJbboRd_YVLXW57crutVrVC3Rc1zeOJIYk,554
+old_tests/test_timeout.py,sha256=1_uuw8h_vLX_c9xGLYoaRxQAEGUFYehmEkb1X1ZAk6M,547
+tests/bench-recv.py,sha256=Au-iumI2fasvYJ1k4gT4pQgw9iOXpWtNfc9A90YSdB8,823
+tests/infinite-recv.py,sha256=PJ3uyCB0kvCSkXT5AGA5qhPlAhTMDTXIknXSkXyMg0M,845
+tests/receive.py,sha256=chRQctnG71FT8i56i-R1woLOpYawBgzP99TBdyh5eRs,485
+tests/serve-localhost.py,sha256=019sZUSyjjY3S0CpLKQmw1dmwMe3lMX0Uc6TVDj4ACc,886
+tests/serve.py,sha256=cLd89Q1_Ak8g7U4IFHzFCs69eptC3ZJ1DO7A2Y7Avl4,857
+integra-0.0.1.dist-info/LICENSE,sha256=1gthwOZFhpEBIBH68FvehTPXiOMD8rL0Hf520lvsUdk,1089
+integra-0.0.1.dist-info/METADATA,sha256=gW3GR7hImNqhzGDu7Q7zJtpuwaqaxpI2H6GzOSmKb9A,398
+integra-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+integra-0.0.1.dist-info/top_level.txt,sha256=jWtaXFeV4xXmCQKozboNoT-WAVWO07UuF_PKFDGL0_I,33
+integra-0.0.1.dist-info/RECORD,,
