@@ -1,0 +1,2 @@
+[console_scripts]
+pdpy-plot = pdpy.cli.pdpy_plot:main
