@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: finetune-eval-harness
+Version: 0.5.0.dev0
+Summary: Finetune_Eval_Harness
+Home-page: UNKNOWN
+Author: DFKI Berlin
+Author-email: akga01@dfki.de
+License: UNKNOWN
+Keywords: deep learning
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7.0
+License-File: LICENSE
+Requires-Dist: accelerate
+Requires-Dist: coverage
+Requires-Dist: datasets (==2.8.0)
+Requires-Dist: evaluate
+Requires-Dist: flake8
+Requires-Dist: ipywidgets (>=8.0.2)
+Requires-Dist: jupyter
+Requires-Dist: loralib
+Requires-Dist: pandas (==1.5.3)
+Requires-Dist: pyarrow (==6.0.1)
+Requires-Dist: pytest
+Requires-Dist: pytest-cov
+Requires-Dist: seqeval
+Requires-Dist: transformers
+Requires-Dist: wandb
+
+UNKNOWN
+
