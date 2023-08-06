@@ -1,0 +1,16 @@
+insults:
+  - "If there is a zobie apocalypse, {name}, you don't have to worry. They only want people with brains."
+  - "{name}, you're so ugly, you scared the crap out of the toilet."
+  - "{name}, you're the reason they have the middle finger."
+  - "{name} has dog poop on there shoe but it blends in because it looks exactly like them."
+  - "Someday {name} will go far. And I really hope they stay there"
+  - "Remember that time {name} was saying that thing I didn’t care about? Yeah, that is now"
+  - "{name} is so ugly, they have to trick or treat over the phone"
+  - "{name}, I’m busy right now, can I ignore you another time?"
+  - "{name}'s secrets are always safe with me. I never even listen when they tell me them."
+  - "Some babies were dropped on their heads but {name} was clearly thrown at a wall"
+  - "Calling you an idiot would be an insult to all the stupid people"
+voice: Daniel
+slay_mode: False
+burn_mode: False
+sucker_mode: False
