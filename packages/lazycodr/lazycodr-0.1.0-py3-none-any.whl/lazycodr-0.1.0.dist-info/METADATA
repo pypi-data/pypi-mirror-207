@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: lazycodr
+Version: 0.1.0
+Summary: A CLI tool to help lazy coders get the work done with AI (commit messages, pull requests ...)
+Author: JimZer
+Author-email: jimi.vaubien@protonmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: httpx (>=0.24.0,<0.25.0)
+Requires-Dist: jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: langchain (>=0.0.163,<0.0.164)
+Requires-Dist: openai (>=0.27.6,<0.28.0)
+Requires-Dist: pydantic (>=1.10.7,<2.0.0)
+Requires-Dist: pyfiglet (>=0.8.post1,<0.9)
+Requires-Dist: pygithub (>=1.58.2,<2.0.0)
+Requires-Dist: rich (>=13.3.5,<14.0.0)
+Requires-Dist: tiktoken (>=0.4.0,<0.5.0)
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+
