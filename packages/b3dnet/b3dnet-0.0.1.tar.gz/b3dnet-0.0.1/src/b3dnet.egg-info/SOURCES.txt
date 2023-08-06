@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/b3dnet/__init__.py
+src/b3dnet/connection.py
+src/b3dnet/request.py
+src/b3dnet.egg-info/PKG-INFO
+src/b3dnet.egg-info/SOURCES.txt
+src/b3dnet.egg-info/dependency_links.txt
+src/b3dnet.egg-info/top_level.txt
