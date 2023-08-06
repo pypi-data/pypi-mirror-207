@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: staticHL
+Version: 0.2.0
+Summary: Convert dynamically styled code and syntax highlighting to static html+css.
+Home-page: https://gitlab.com/jackaaron/statichl/
+License: MIT

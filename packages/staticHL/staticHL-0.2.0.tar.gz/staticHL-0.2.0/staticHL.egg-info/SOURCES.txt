@@ -1,0 +1,12 @@
+setup.py
+staticHL.egg-info/PKG-INFO
+staticHL.egg-info/SOURCES.txt
+staticHL.egg-info/dependency_links.txt
+staticHL.egg-info/entry_points.txt
+staticHL.egg-info/requires.txt
+staticHL.egg-info/top_level.txt
+statichl/__init__.py
+statichl/__main__.py
+statichl/constants.py
+statichl/elementutil.py
+statichl/pageutil.py
