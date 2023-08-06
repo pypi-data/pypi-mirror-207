@@ -1,0 +1,80 @@
+[tool.pdm.version]
+source = "file"
+path = "ojichat/__ver__.py"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=7.3.1",
+    "nuitka>=1.5.7",
+    "black>=23.3.0",
+    "ruff>=0.0.265",
+]
+
+[tool.pdm.scripts]
+pytest = "python -m pytest -v -s tests"
+nuitka = "python -m nuitka --onefile --follow-imports --include-package-data=gimei ojichat"
+
+[tool.pdm.scripts.ojichat]
+call = "ojichat.__main__:__main__"
+
+[tool.pdm.build]
+package-dir = "."
+includes = [
+    "ojichat",
+    "CREDITS.md",
+]
+excludes = [
+    "tests",
+]
+
+[tool.ruff.per-file-ignores]
+"__init__.py" = [
+    "E402",
+    "F401",
+    "F403",
+]
+
+[project]
+name = "ojichat.py"
+description = "Ojisan Nanchatte (ojichat) Generator"
+dynamic = []
+authors = [
+    { name = "Charahiro-tan", email = "charahiro_pypi@98304.win" },
+]
+dependencies = [
+    "jaconv>=0.3.4",
+    "gimei>=0.2.3",
+    "janome>=0.4.2",
+    "logzero>=1.7.0",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+keywords = [
+    "Japanese",
+    "ojichat",
+    "text",
+    "generator",
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+version = "0.1.0"
+
+[project.urls]
+repository = "https://github.com/Charahiro-tan/ojichat.py"
+
+[project.license]
+text = "MIT"
+
+[project.scripts]
+ojichat = "ojichat.__main__:__main__"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
