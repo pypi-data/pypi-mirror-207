@@ -1,0 +1,32 @@
+ERROR:cfscanner.main:Could not read cidrs from url "https://raw.githubusercontent.com/MortezaBashsiz/CFScanner/main/config/cf.local.iplist"
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/subnets/cidr.py", line 100, in read_cidrs_from_url
+    r = requests.get(url, timeout=timeout)
+  File "/home/smz/projects/callcenter_commercials/analysis/venv/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/smz/projects/callcenter_commercials/analysis/venv/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/smz/projects/callcenter_commercials/analysis/venv/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/smz/projects/callcenter_commercials/analysis/venv/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/smz/projects/callcenter_commercials/analysis/venv/lib/python3.10/site-packages/requests/adapters.py", line 454, in send
+    conn = self.get_connection(request.url, proxies)
+  File "/home/smz/projects/callcenter_commercials/analysis/venv/lib/python3.10/site-packages/requests/adapters.py", line 350, in get_connection
+    proxy_manager = self.proxy_manager_for(proxy)
+  File "/home/smz/projects/callcenter_commercials/analysis/venv/lib/python3.10/site-packages/requests/adapters.py", line 215, in proxy_manager_for
+    manager = self.proxy_manager[proxy] = SOCKSProxyManager(
+  File "/home/smz/projects/callcenter_commercials/analysis/venv/lib/python3.10/site-packages/urllib3/contrib/socks.py", line 217, in __init__
+    raise ValueError(f"Unable to determine SOCKS version from {proxy_url}")
+ValueError: Unable to determine SOCKS version from socks://127.0.0.1:2501/
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 141, in main
+    cidr_list = read_cidrs(
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/subnets/cidr.py", line 153, in read_cidrs
+    cidrs = read_cidrs_from_url(url_or_path, timeout)
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/subnets/cidr.py", line 111, in read_cidrs_from_url
+    raise SubnetsReadError(f"Could not read cidrs from url \"{url}\"")
+cfscanner.utils.exceptions.SubnetsReadError: Could not read cidrs from url "https://raw.githubusercontent.com/MortezaBashsiz/CFScanner/main/config/cf.local.iplist"

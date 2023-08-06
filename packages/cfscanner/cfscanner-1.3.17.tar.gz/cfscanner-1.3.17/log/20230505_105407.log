@@ -1,0 +1,771 @@
+WARNING:urllib3.connection:Certificate did not match expected hostname: speed.cloudflare.com. Certificate: {'subject': ((('countryName', 'US'),), (('stateOrProvinceName', 'Kansas'),), (('localityName', 'Wichita'),), (('organizationName', 'Koch Business Solutions, LP'),), (('commonName', 'kfra.kochind.com'),)), 'issuer': ((('countryName', 'US'),), (('organizationName', 'DigiCert Inc'),), (('commonName', 'DigiCert TLS RSA SHA256 2020 CA1'),)), 'version': 3, 'serialNumber': '04A9355BEEB1B2201C2F7752C4C08785', 'notBefore': 'Jun 16 00:00:00 2022 GMT', 'notAfter': 'Jun 16 23:59:59 2023 GMT', 'subjectAltName': (('DNS', 'kfra.kochind.com'), ('DNS', 'www.kfra.kochind.com')), 'OCSP': ('http://ocsp.digicert.com',), 'caIssuers': ('http://cacerts.digicert.com/DigiCertTLSRSASHA2562020CA1-1.crt',), 'crlDistributionPoints': ('http://crl3.digicert.com/DigiCertTLSRSASHA2562020CA1-4.crl', 'http://crl4.digicert.com/DigiCertTLSRSASHA2562020CA1-4.crl')}
+ERROR:cfscanner.main:'104.22.209.121'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.22.209.121'
+ERROR:cfscanner.main:'172.66.226.36'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.66.226.36'
+ERROR:cfscanner.main:'104.22.143.119'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.22.143.119'
+ERROR:cfscanner.main:'104.27.61.87'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.27.61.87'
+ERROR:cfscanner.main:'172.65.171.202'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.65.171.202'
+ERROR:cfscanner.main:'172.64.185.67'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.64.185.67'
+ERROR:cfscanner.main:'172.69.186.56'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.69.186.56'
+ERROR:cfscanner.main:'172.69.187.23'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.69.187.23'
+ERROR:cfscanner.main:'104.22.1.61'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.22.1.61'
+ERROR:cfscanner.main:'104.21.163.17'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.21.163.17'
+ERROR:cfscanner.main:'104.26.65.238'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.26.65.238'
+WARNING:urllib3.connection:Certificate did not match expected hostname: speed.cloudflare.com. Certificate: {'subject': ((('countryName', 'US'),), (('stateOrProvinceName', 'New York'),), (('localityName', 'Armonk'),), (('organizationName', 'International Business Machines Corporation'),), (('commonName', '*.ru.ibmepatest.de'),)), 'issuer': ((('countryName', 'US'),), (('organizationName', 'DigiCert Inc'),), (('commonName', 'DigiCert TLS RSA SHA256 2020 CA1'),)), 'version': 3, 'serialNumber': '0F6C1381112DCC4C0F1A6E9E1C00A4F7', 'notBefore': 'Jun 10 00:00:00 2022 GMT', 'notAfter': 'Jul  5 23:59:59 2023 GMT', 'subjectAltName': (('DNS', '*.ru.ibmepatest.de'), ('DNS', 'ru.ibmepatest.de')), 'OCSP': ('http://ocsp.digicert.com',), 'caIssuers': ('http://cacerts.digicert.com/DigiCertTLSRSASHA2562020CA1-1.crt',), 'crlDistributionPoints': ('http://crl3.digicert.com/DigiCertTLSRSASHA2562020CA1-4.crl', 'http://crl4.digicert.com/DigiCertTLSRSASHA2562020CA1-4.crl')}
+ERROR:cfscanner.main:'162.159.180.111'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '162.159.180.111'
+ERROR:cfscanner.main:'172.70.139.16'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.70.139.16'
+ERROR:cfscanner.main:'172.70.26.83'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.70.26.83'
+ERROR:cfscanner.main:'104.17.88.184'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.17.88.184'
+WARNING:urllib3.connection:Certificate did not match expected hostname: speed.cloudflare.com. Certificate: {'subject': ((('commonName', '*.olympicbrewery.net'),),), 'issuer': ((('countryName', 'GB'),), (('stateOrProvinceName', 'Greater Manchester'),), (('localityName', 'Salford'),), (('organizationName', 'Sectigo Limited'),), (('commonName', 'Sectigo RSA Domain Validation Secure Server CA'),)), 'version': 3, 'serialNumber': 'D8DE8B8E156E83482EBF3F3707691F24', 'notBefore': 'Jun  7 00:00:00 2022 GMT', 'notAfter': 'Jun  7 23:59:59 2023 GMT', 'subjectAltName': (('DNS', '*.olympicbrewery.net'), ('DNS', 'olympicbrewery.net')), 'OCSP': ('http://ocsp.sectigo.com',), 'caIssuers': ('http://crt.sectigo.com/SectigoRSADomainValidationSecureServerCA.crt',)}
+ERROR:cfscanner.main:'104.24.205.154'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.24.205.154'
+ERROR:cfscanner.main:'104.22.98.25'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.22.98.25'
+ERROR:cfscanner.main:'172.64.155.137'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.64.155.137'
+ERROR:cfscanner.main:'104.18.30.181'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.18.30.181'
+ERROR:cfscanner.main:'104.26.128.14'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.26.128.14'
+ERROR:cfscanner.main:'162.159.187.75'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '162.159.187.75'
+ERROR:cfscanner.main:'104.20.209.26'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.20.209.26'
+ERROR:cfscanner.main:'104.16.226.166'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.16.226.166'
+ERROR:cfscanner.main:'172.69.234.210'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.69.234.210'
+WARNING:urllib3.connection:Certificate did not match expected hostname: speed.cloudflare.com. Certificate: {'subject': ((('countryName', 'IN'),), (('stateOrProvinceName', 'Maharashtra'),), (('localityName', 'Mumbai'),), (('organizationName', 'Kotak Mahindra Bank Ltd'),), (('commonName', 'rmekonnect.kotak.com'),)), 'issuer': ((('countryName', 'US'),), (('organizationName', 'Entrust, Inc.'),), (('organizationalUnitName', 'See www.entrust.net/legal-terms'),), (('organizationalUnitName', '(c) 2012 Entrust, Inc. - for authorized use only'),), (('commonName', 'Entrust Certification Authority - L1K'),)), 'version': 3, 'serialNumber': '0E7344A8276975D398684F4AB7EEA04A', 'notBefore': 'Feb  7 12:04:54 2023 GMT', 'notAfter': 'Feb  7 12:04:54 2024 GMT', 'subjectAltName': (('DNS', 'rmekonnect.kotak.com'),), 'OCSP': ('http://ocsp.entrust.net',), 'caIssuers': ('http://aia.entrust.net/l1k-chain256.cer',), 'crlDistributionPoints': ('http://crl.entrust.net/level1k.crl',)}
+ERROR:cfscanner.main:'172.65.44.219'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.65.44.219'
+ERROR:cfscanner.main:'104.18.191.28'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.18.191.28'
+ERROR:cfscanner.main:'172.64.192.175'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.64.192.175'
+ERROR:cfscanner.main:'104.18.184.74'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.18.184.74'
+ERROR:cfscanner.main:'104.19.115.23'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.19.115.23'
+ERROR:cfscanner.main:'104.19.33.118'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.19.33.118'
+ERROR:cfscanner.main:'104.27.177.113'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.27.177.113'
+WARNING:urllib3.connection:Certificate did not match expected hostname: speed.cloudflare.com. Certificate: {'subject': ((('countryName', 'US'),), (('stateOrProvinceName', 'WA'),), (('localityName', 'Redmond'),), (('organizationName', 'Microsoft Corporation'),), (('commonName', '*.azurewebsites.net'),)), 'issuer': ((('countryName', 'US'),), (('organizationName', 'Microsoft Corporation'),), (('commonName', 'Microsoft Azure TLS Issuing CA 02'),)), 'version': 3, 'serialNumber': '3300990E6F5FE8E7D385902BDA000000990E6F', 'notBefore': 'Mar 10 03:05:55 2023 GMT', 'notAfter': 'Mar  4 03:05:55 2024 GMT', 'subjectAltName': (('DNS', '*.azurewebsites.net'), ('DNS', '*.scm.azurewebsites.net'), ('DNS', '*.azure-mobile.net'), ('DNS', '*.scm.azure-mobile.net'), ('DNS', '*.sso.azurewebsites.net')), 'OCSP': ('http://oneocsp.microsoft.com/ocsp',), 'caIssuers': ('http://www.microsoft.com/pkiops/certs/Microsoft%20Azure%20TLS%20Issuing%20CA%2002%20-%20xsign.crt',), 'crlDistributionPoints': ('http://www.microsoft.com/pkiops/crl/Microsoft%20Azure%20TLS%20Issuing%20CA%2002.crl',)}
+WARNING:urllib3.connection:Certificate did not match expected hostname: speed.cloudflare.com. Certificate: {'subject': ((('commonName', '*.execute-api.us-east-1.amazonaws.com'),),), 'issuer': ((('countryName', 'US'),), (('organizationName', 'Amazon'),), (('commonName', 'Amazon RSA 2048 M02'),)), 'version': 3, 'serialNumber': '0338824BCCE1F5C567E085100419B0C4', 'notBefore': 'Mar 17 00:00:00 2023 GMT', 'notAfter': 'Jul 21 23:59:59 2023 GMT', 'subjectAltName': (('DNS', '*.execute-api.us-east-1.amazonaws.com'),), 'OCSP': ('http://ocsp.r2m02.amazontrust.com',), 'caIssuers': ('http://crt.r2m02.amazontrust.com/r2m02.cer',), 'crlDistributionPoints': ('http://crl.r2m02.amazontrust.com/r2m02.crl',)}
+ERROR:cfscanner.main:'104.18.18.188'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.18.18.188'
+ERROR:cfscanner.main:'104.18.122.102'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.18.122.102'
+WARNING:urllib3.connection:Certificate did not match expected hostname: speed.cloudflare.com. Certificate: {'subject': ((('commonName', '*.xs9999.com.hk'),),), 'issuer': ((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'AlphaSSL CA - SHA256 - G4'),)), 'version': 3, 'serialNumber': '7C83CAA4E79CA470A8C7FC44', 'notBefore': 'Jan 17 02:08:36 2023 GMT', 'notAfter': 'Feb 18 02:08:35 2024 GMT', 'subjectAltName': (('DNS', '*.xs9999.com.hk'), ('DNS', 'xs9999.com.hk')), 'OCSP': ('http://ocsp.globalsign.com/alphasslcasha256g4',), 'caIssuers': ('http://secure.globalsign.com/cacert/alphasslcasha256g4.crt',), 'crlDistributionPoints': ('http://crl.globalsign.com/alphasslcasha256g4.crl',)}
+ERROR:cfscanner.main:'172.65.156.133'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.65.156.133'
+WARNING:urllib3.connection:Certificate did not match expected hostname: speed.cloudflare.com. Certificate: {'subject': ((('countryName', 'US'),), (('stateOrProvinceName', 'Idaho'),), (('localityName', 'Idaho Falls'),), (('organizationName', 'Melaleuca Inc.'),), (('commonName', '*.melaleuca.com.cn'),)), 'issuer': ((('countryName', 'US'),), (('organizationName', 'DigiCert Inc'),), (('commonName', 'DigiCert TLS RSA SHA256 2020 CA1'),)), 'version': 3, 'serialNumber': '043660AB94FD1348AD17352A49A4ABB1', 'notBefore': 'Sep 14 00:00:00 2022 GMT', 'notAfter': 'Oct 15 23:59:59 2023 GMT', 'subjectAltName': (('DNS', '*.melaleuca.com.cn'), ('DNS', 'melaleuca.com.cn')), 'OCSP': ('http://ocsp.digicert.com',), 'caIssuers': ('http://cacerts.digicert.com/DigiCertTLSRSASHA2562020CA1-1.crt',), 'crlDistributionPoints': ('http://crl3.digicert.com/DigiCertTLSRSASHA2562020CA1-4.crl', 'http://crl4.digicert.com/DigiCertTLSRSASHA2562020CA1-4.crl')}
+ERROR:cfscanner.main:'104.17.136.172'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.17.136.172'
+ERROR:cfscanner.main:'104.27.96.73'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.27.96.73'
+ERROR:cfscanner.main:'104.17.251.123'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.17.251.123'
+ERROR:cfscanner.main:'172.70.234.209'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.70.234.209'
+WARNING:urllib3.connection:Certificate did not match expected hostname: speed.cloudflare.com. Certificate: {'subject': ((('commonName', '*.corum.sh'),),), 'issuer': ((('countryName', 'GB'),), (('stateOrProvinceName', 'Greater Manchester'),), (('localityName', 'Salford'),), (('organizationName', 'Sectigo Limited'),), (('commonName', 'Sectigo RSA Domain Validation Secure Server CA'),)), 'version': 3, 'serialNumber': '0FFADA0D689417B6A25825549710C279', 'notBefore': 'Feb  1 00:00:00 2023 GMT', 'notAfter': 'Mar  2 23:59:59 2024 GMT', 'subjectAltName': (('DNS', '*.corum.sh'), ('DNS', 'corum.sh')), 'OCSP': ('http://ocsp.sectigo.com',), 'caIssuers': ('http://crt.sectigo.com/SectigoRSADomainValidationSecureServerCA.crt',)}
+ERROR:cfscanner.main:'172.71.234.220'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.71.234.220'
+WARNING:urllib3.connection:Certificate did not match expected hostname: speed.cloudflare.com. Certificate: {'subject': ((('jurisdictionCountryName', 'US'),), (('jurisdictionStateOrProvinceName', 'New York'),), (('businessCategory', 'Private Organization'),), (('serialNumber', '30059'),), (('countryName', 'US'),), (('stateOrProvinceName', 'New York'),), (('localityName', 'Armonk'),), (('organizationName', 'International Business Machines Corporation'),), (('commonName', 'tu.ibmepatest.de'),)), 'issuer': ((('countryName', 'US'),), (('organizationName', 'DigiCert Inc'),), (('organizationalUnitName', 'www.digicert.com'),), (('commonName', 'DigiCert SHA2 Extended Validation Server CA'),)), 'version': 3, 'serialNumber': '032E8967F3A0A9F99F7810A73CC11777', 'notBefore': 'Jul 13 00:00:00 2022 GMT', 'notAfter': 'Aug 13 23:59:59 2023 GMT', 'subjectAltName': (('DNS', 'tu.ibmepatest.de'), ('DNS', 'barmer.tu.ibmepatest.de'), ('DNS', 'ibm.tu.ibmepatest.de'), ('DNS', 'tk.tu.ibmepatest.de'), ('DNS', 'hek.tu.ibmepatest.de')), 'OCSP': ('http://ocsp.digicert.com',), 'caIssuers': ('http://cacerts.digicert.com/DigiCertSHA2ExtendedValidationServerCA.crt',), 'crlDistributionPoints': ('http://crl3.digicert.com/sha2-ev-server-g3.crl', 'http://crl4.digicert.com/sha2-ev-server-g3.crl')}
+ERROR:cfscanner.main:'104.16.196.228'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.16.196.228'
+ERROR:cfscanner.main:'104.18.182.120'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.18.182.120'
+ERROR:cfscanner.main:'172.68.59.31'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.68.59.31'
+ERROR:cfscanner.main:'172.65.183.26'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.65.183.26'
+ERROR:cfscanner.main:'162.159.192.126'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '162.159.192.126'
+ERROR:cfscanner.main:'104.22.5.164'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.22.5.164'
+ERROR:cfscanner.main:'162.158.182.233'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '162.158.182.233'
+ERROR:cfscanner.main:'104.20.13.226'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.20.13.226'
+ERROR:cfscanner.main:'172.67.242.122'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.67.242.122'
+ERROR:cfscanner.main:'104.21.9.169'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.21.9.169'
+ERROR:cfscanner.main:'172.64.223.155'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.64.223.155'
+ERROR:cfscanner.main:'104.20.207.226'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.20.207.226'
+ERROR:cfscanner.main:'172.69.223.137'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.69.223.137'
+WARNING:urllib3.connection:Certificate did not match expected hostname: speed.cloudflare.com. Certificate: {'subject': ((('commonName', '*.paysend.tech'),),), 'issuer': ((('countryName', 'BE'),), (('organizationName', 'GlobalSign nv-sa'),), (('commonName', 'AlphaSSL CA - SHA256 - G2'),)), 'version': 3, 'serialNumber': '3C670B468B843582EDA4B140', 'notBefore': 'Sep 23 09:47:01 2022 GMT', 'notAfter': 'Oct 14 16:12:59 2023 GMT', 'subjectAltName': (('DNS', '*.paysend.tech'), ('DNS', 'paysend.tech')), 'OCSP': ('http://ocsp2.globalsign.com/gsalphasha2g2',), 'caIssuers': ('http://secure.globalsign.com/cacert/gsalphasha2g2r1.crt',), 'crlDistributionPoints': ('http://crl.globalsign.com/gs/gsalphasha2g2.crl',)}
+ERROR:cfscanner.main:'172.66.193.3'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.66.193.3'
+ERROR:cfscanner.main:'172.66.44.234'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.66.44.234'
+ERROR:cfscanner.main:'162.159.237.109'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '162.159.237.109'
+ERROR:cfscanner.main:'104.18.16.132'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.18.16.132'
+ERROR:cfscanner.main:'172.71.163.53'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.71.163.53'
+WARNING:urllib3.connection:Certificate did not match expected hostname: speed.cloudflare.com. Certificate: {'subject': ((('countryName', 'CN'),), (('stateOrProvinceName', '上海市'),), (('organizationName', '上海游陆信息科技有限公司'),), (('commonName', '*.ulugames.com'),)), 'issuer': ((('countryName', 'US'),), (('organizationName', 'DigiCert Inc'),), (('organizationalUnitName', 'www.digicert.com'),), (('commonName', 'GeoTrust CN RSA CA G1'),)), 'version': 3, 'serialNumber': '0B8A739BF4BAA50275C0502F98561BD6', 'notBefore': 'Oct 11 00:00:00 2022 GMT', 'notAfter': 'Nov  5 23:59:59 2023 GMT', 'subjectAltName': (('DNS', '*.ulugames.com'), ('DNS', 'ulugames.com')), 'OCSP': ('http://ocsp.dcocsp.cn',), 'caIssuers': ('http://crl.digicert-cn.com/GeoTrustCNRSACAG1.crt',), 'crlDistributionPoints': ('http://crl3.digicert.com/GeoTrustCNRSACAG1.crl', 'http://crl4.digicert.com/GeoTrustCNRSACAG1.crl')}
+ERROR:cfscanner.main:'172.66.255.49'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.66.255.49'
+ERROR:cfscanner.main:'108.162.193.40'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '108.162.193.40'
+ERROR:cfscanner.main:'104.17.207.158'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.17.207.158'
+ERROR:cfscanner.main:'104.19.25.19'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.19.25.19'
+ERROR:cfscanner.main:'172.66.178.34'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.66.178.34'
+ERROR:cfscanner.main:'104.17.47.159'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.17.47.159'
+WARNING:urllib3.connection:Certificate did not match expected hostname: speed.cloudflare.com. Certificate: {'subject': ((('jurisdictionCountryName', 'US'),), (('jurisdictionStateOrProvinceName', 'New York'),), (('businessCategory', 'Private Organization'),), (('serialNumber', '30059'),), (('countryName', 'US'),), (('stateOrProvinceName', 'New York'),), (('localityName', 'Armonk'),), (('organizationName', 'International Business Machines Corporation'),), (('commonName', 'ibmepa.de'),)), 'issuer': ((('countryName', 'US'),), (('organizationName', 'DigiCert Inc'),), (('organizationalUnitName', 'www.digicert.com'),), (('commonName', 'DigiCert SHA2 Extended Validation Server CA'),)), 'version': 3, 'serialNumber': '057A3B55449C47B4F09F4D4399904DAA', 'notBefore': 'Aug  4 00:00:00 2022 GMT', 'notAfter': 'Sep  4 23:59:59 2023 GMT', 'subjectAltName': (('DNS', 'ibmepa.de'), ('DNS', 'ibm.ibmepa.de'), ('DNS', 'barmer.ibmepa.de'), ('DNS', 'hek.ibmepa.de'), ('DNS', 'tk.ibmepa.de'), ('DNS', 'viactiv.ibmepa.de'), ('DNS', 'kbs.ibmepa.de')), 'OCSP': ('http://ocsp.digicert.com',), 'caIssuers': ('http://cacerts.digicert.com/DigiCertSHA2ExtendedValidationServerCA.crt',), 'crlDistributionPoints': ('http://crl3.digicert.com/sha2-ev-server-g3.crl', 'http://crl4.digicert.com/sha2-ev-server-g3.crl')}
+ERROR:cfscanner.main:'172.65.201.86'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.65.201.86'
+ERROR:cfscanner.main:'172.69.244.162'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.69.244.162'
+ERROR:cfscanner.main:'172.65.179.25'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.65.179.25'
+ERROR:cfscanner.main:'172.66.39.122'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.66.39.122'
+ERROR:cfscanner.main:'104.18.58.223'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.18.58.223'
+ERROR:cfscanner.main:'104.20.240.246'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.20.240.246'
+ERROR:cfscanner.main:'104.19.182.68'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.19.182.68'
+ERROR:cfscanner.main:'162.159.237.243'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '162.159.237.243'
+ERROR:cfscanner.main:'104.17.255.244'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.17.255.244'
+ERROR:cfscanner.main:'172.70.248.43'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.70.248.43'
+ERROR:cfscanner.main:'104.19.63.126'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.19.63.126'
+WARNING:urllib3.connection:Certificate did not match expected hostname: speed.cloudflare.com. Certificate: {'subject': ((('commonName', 'rdgwny.wrightrisk.com'),),), 'issuer': ((('countryName', 'US'),), (('stateOrProvinceName', 'VA'),), (('localityName', 'Herndon'),), (('organizationName', 'Network Solutions L.L.C.'),), (('commonName', 'Network Solutions DV Server CA 2'),)), 'version': 3, 'serialNumber': '5EFA603308D2EAA544E9BE606A12D138', 'notBefore': 'Jul 20 00:00:00 2022 GMT', 'notAfter': 'Aug 15 23:59:59 2023 GMT', 'subjectAltName': (('DNS', 'rdgwny.wrightrisk.com'), ('DNS', 'www.rdgwny.wrightrisk.com')), 'OCSP': ('http://ocsp.netsolssl.com',), 'caIssuers': ('http://crt.netsolssl.com/NetworkSolutionsDVServerCA2.crt',), 'crlDistributionPoints': ('http://crl.netsolssl.com/NetworkSolutionsDVServerCA2.crl',)}
+ERROR:cfscanner.main:'104.25.41.117'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.25.41.117'
+ERROR:cfscanner.main:'172.66.155.186'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.66.155.186'
+WARNING:urllib3.connection:Certificate did not match expected hostname: speed.cloudflare.com. Certificate: {'subject': ((('commonName', '*.exitgames.com'),),), 'issuer': ((('countryName', 'US'),), (('organizationName', 'DigiCert Inc'),), (('organizationalUnitName', 'www.digicert.com'),), (('commonName', 'RapidSSL TLS RSA CA G1'),)), 'version': 3, 'serialNumber': '03E2F8982EA6365C2FFF5CB92A71A9FD', 'notBefore': 'Apr  5 00:00:00 2023 GMT', 'notAfter': 'May  5 23:59:59 2024 GMT', 'subjectAltName': (('DNS', '*.exitgames.com'), ('DNS', 'exitgames.com')), 'OCSP': ('http://status.rapidssl.com',), 'caIssuers': ('http://cacerts.rapidssl.com/RapidSSLTLSRSACAG1.crt',), 'crlDistributionPoints': ('http://cdp.rapidssl.com/RapidSSLTLSRSACAG1.crl',)}
+ERROR:cfscanner.main:'104.22.144.189'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.22.144.189'
+ERROR:cfscanner.main:'104.16.204.125'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.16.204.125'
+ERROR:cfscanner.main:'104.18.231.96'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.18.231.96'
+ERROR:cfscanner.main:'172.68.5.17'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.68.5.17'
+ERROR:cfscanner.main:'104.22.159.164'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.22.159.164'
+ERROR:cfscanner.main:'172.66.177.250'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.66.177.250'
+ERROR:cfscanner.main:'104.24.34.120'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.24.34.120'
+ERROR:cfscanner.main:'104.21.144.41'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.21.144.41'
+ERROR:cfscanner.main:'104.26.186.246'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.26.186.246'
+ERROR:cfscanner.main:'172.66.89.21'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.66.89.21'
+ERROR:cfscanner.main:'104.24.229.107'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.24.229.107'
+ERROR:cfscanner.main:'104.19.252.177'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.19.252.177'
+ERROR:cfscanner.main:'104.21.182.137'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.21.182.137'
+ERROR:cfscanner.main:'104.19.86.223'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.19.86.223'
+ERROR:cfscanner.main:'104.17.65.122'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.17.65.122'
+ERROR:cfscanner.main:'104.23.120.245'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.23.120.245'
+ERROR:cfscanner.main:'198.41.190.17'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '198.41.190.17'
+ERROR:cfscanner.main:'104.25.208.18'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.25.208.18'
+ERROR:cfscanner.main:'162.159.234.158'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '162.159.234.158'
+ERROR:cfscanner.main:'172.70.113.156'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.70.113.156'
+ERROR:cfscanner.main:'172.70.198.198'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.70.198.198'
+ERROR:cfscanner.main:'104.26.23.245'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.26.23.245'
+ERROR:cfscanner.main:'198.41.183.102'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '198.41.183.102'
+ERROR:cfscanner.main:'104.27.72.152'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.27.72.152'
+ERROR:cfscanner.main:'104.24.99.245'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.24.99.245'
+ERROR:cfscanner.main:'104.26.61.227'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.26.61.227'
+ERROR:cfscanner.main:'172.67.95.199'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.67.95.199'
+ERROR:cfscanner.main:'141.101.90.18'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '141.101.90.18'
+ERROR:cfscanner.main:'104.16.145.162'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.16.145.162'
+ERROR:cfscanner.main:'104.21.144.220'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.21.144.220'
+ERROR:cfscanner.main:'104.23.103.97'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.23.103.97'
+ERROR:cfscanner.main:'162.158.111.156'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '162.158.111.156'
+ERROR:cfscanner.main:'104.23.127.78'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.23.127.78'
+ERROR:cfscanner.main:'172.64.82.69'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.64.82.69'
+ERROR:cfscanner.main:'104.27.129.59'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.27.129.59'
+ERROR:cfscanner.main:'172.67.19.186'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.67.19.186'
+ERROR:cfscanner.main:'172.64.225.124'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.64.225.124'
+ERROR:cfscanner.main:'172.67.219.139'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.67.219.139'
+ERROR:cfscanner.main:'104.17.75.49'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.17.75.49'
+ERROR:cfscanner.main:'162.158.99.230'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '162.158.99.230'
+ERROR:cfscanner.main:'104.17.22.104'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.17.22.104'
+ERROR:cfscanner.main:'172.69.242.86'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.69.242.86'
+ERROR:cfscanner.main:'172.68.49.98'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.68.49.98'
+ERROR:cfscanner.main:'172.64.241.46'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '172.64.241.46'
+ERROR:cfscanner.main:'104.23.0.240'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if cidr_scanned_ips[res.cidr] == 0:
+KeyError: '104.23.0.240'
+ERROR:cfscanner.main:'141.101.90.10'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if res.cidr not in cidr_scanned_ips[res.cidr] == 0:
+KeyError: '141.101.90.10'
+ERROR:cfscanner.main:'172.67.223.52'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if res.cidr not in cidr_scanned_ips:
+KeyError: '172.67.223.52'
+ERROR:cfscanner.main:'172.66.236.184'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if res.cidr not in cidr_scanned_ips:
+KeyError: '172.66.236.184'
+ERROR:cfscanner.main:'104.22.37.6'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if res.cidr not in cidr_scanned_ips:
+KeyError: '104.22.37.6'
+ERROR:cfscanner.main:'172.71.181.144'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if res.cidr not in cidr_scanned_ips:
+KeyError: '172.71.181.144'
+ERROR:cfscanner.main:'172.69.173.44'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if res.cidr not in cidr_scanned_ips:
+KeyError: '172.69.173.44'
+ERROR:cfscanner.main:'172.67.225.71'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if res.cidr not in cidr_scanned_ips:
+KeyError: '172.67.225.71'
+ERROR:cfscanner.main:'104.20.131.85'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if res.cidr not in cidr_scanned_ips:
+KeyError: '104.20.131.85'
+ERROR:cfscanner.main:'104.18.125.148'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if res.cidr not in cidr_scanned_ips:
+KeyError: '104.18.125.148'
+ERROR:cfscanner.main:'104.21.255.224'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if res.cidr not in cidr_scanned_ips:
+KeyError: '104.21.255.224'
+ERROR:cfscanner.main:'172.66.232.161'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if res.cidr not in cidr_scanned_ips:
+KeyError: '172.66.232.161'
+ERROR:cfscanner.main:'104.21.254.145'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if res.cidr not in cidr_scanned_ips:
+KeyError: '104.21.254.145'
+ERROR:cfscanner.main:'172.69.86.154'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if res.cidr not in cidr_scanned_ips:
+KeyError: '172.69.86.154'
+WARNING:urllib3.connection:Certificate did not match expected hostname: speed.cloudflare.com. Certificate: {'subject': ((('commonName', '*.jp.cumulocity.com'),),), 'issuer': ((('countryName', 'US'),), (('stateOrProvinceName', 'Arizona'),), (('localityName', 'Scottsdale'),), (('organizationName', 'GoDaddy.com, Inc.'),), (('organizationalUnitName', 'http://certs.godaddy.com/repository/'),), (('commonName', 'Go Daddy Secure Certificate Authority - G2'),)), 'version': 3, 'serialNumber': '05894F463BBA659C', 'notBefore': 'Jun  7 11:24:43 2022 GMT', 'notAfter': 'Jul  9 11:24:43 2023 GMT', 'subjectAltName': (('DNS', '*.jp.cumulocity.com'), ('DNS', 'jp.cumulocity.com')), 'OCSP': ('http://ocsp.godaddy.com/',), 'caIssuers': ('http://certificates.godaddy.com/repository/gdig2.crt',), 'crlDistributionPoints': ('http://crl.godaddy.com/gdig2s1-4176.crl',)}
+ERROR:cfscanner.main:'172.66.246.105'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if res.cidr not in cidr_scanned_ips:
+KeyError: '172.66.246.105'
+ERROR:cfscanner.main:'104.26.6.129'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if res.cidr not in cidr_scanned_ips:
+KeyError: '104.26.6.129'
+ERROR:cfscanner.main:'104.23.243.227'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if res.cidr not in cidr_scanned_ips:
+KeyError: '104.23.243.227'
+ERROR:cfscanner.main:'104.24.73.44'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if res.cidr not in cidr_scanned_ips:
+KeyError: '104.24.73.44'
+ERROR:cfscanner.main:'104.26.34.244'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if res.cidr not in cidr_scanned_ips:
+KeyError: '104.26.34.244'
+ERROR:cfscanner.main:'104.21.93.109'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if res.cidr not in cidr_scanned_ips:
+KeyError: '104.21.93.109'
+ERROR:cfscanner.main:'104.20.37.252'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if res.cidr not in cidr_scanned_ips:
+KeyError: '104.20.37.252'
+ERROR:cfscanner.main:'172.69.180.206'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if res.cidr not in cidr_scanned_ips:
+KeyError: '172.69.180.206'
+ERROR:cfscanner.main:'104.23.112.158'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if res.cidr not in cidr_scanned_ips:
+KeyError: '104.23.112.158'
+ERROR:cfscanner.main:'162.159.168.43'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if res.cidr not in cidr_scanned_ips:
+KeyError: '162.159.168.43'
+ERROR:cfscanner.main:'104.16.120.112'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if res.cidr not in cidr_scanned_ips:
+KeyError: '104.16.120.112'
+ERROR:cfscanner.main:'104.21.252.233'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if res.cidr not in cidr_scanned_ips:
+KeyError: '104.21.252.233'
+ERROR:cfscanner.main:'104.17.192.37'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if res.cidr not in cidr_scanned_ips:
+KeyError: '104.17.192.37'
+ERROR:cfscanner.main:'162.159.55.150'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if res.cidr not in cidr_scanned_ips:
+KeyError: '162.159.55.150'
+ERROR:cfscanner.main:'104.25.125.215'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if res.cidr not in cidr_scanned_ips:
+KeyError: '104.25.125.215'
+ERROR:cfscanner.main:'172.69.20.86'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if res.cidr not in cidr_scanned_ips:
+KeyError: '172.69.20.86'
+ERROR:cfscanner.main:'172.64.156.17'
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 223, in main
+    if res.cidr not in cidr_scanned_ips:
+KeyError: '172.64.156.17'
