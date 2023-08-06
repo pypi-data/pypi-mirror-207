@@ -1,0 +1,8 @@
+include src/draftail_helpers/static/wagtailadmin/js/*
+include src/draftail_helpers/static/wagtailadmin/css/*
+
+include src/draftail_helpers/static/draftail_helpers/js/*
+include src/draftail_helpers/static/draftail_helpers/css/*
+
+recursive-exclude * .DS_Store *.pyc
+
