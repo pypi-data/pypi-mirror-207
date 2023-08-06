@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: ms-mailbox-reader
+Version: 1.0.1
+Summary: A simple package for parsing email content stored locally in Outlook from a Microsoft Exchange Server.
+Home-page: https://github.com/daniel-van-houten/ms-mailbox-reader
+Author: Daniel Van Houten
+Author-email: 
+License-File: LICENSE
