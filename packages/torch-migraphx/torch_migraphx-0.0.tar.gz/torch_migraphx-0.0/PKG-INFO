@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: torch_migraphx
+Version: 0.0
+Summary: Library for interfacing AMD's graph compiler MIGraphX with the PyTorch deep-learning library.
+Author-email: "Advanced Micro Devices, Inc." <Shivad.Bhavsar@amd.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: C++
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE

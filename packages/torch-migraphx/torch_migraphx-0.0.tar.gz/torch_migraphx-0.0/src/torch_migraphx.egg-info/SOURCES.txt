@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/torch_migraphx/__init__.py
+src/torch_migraphx.egg-info/PKG-INFO
+src/torch_migraphx.egg-info/SOURCES.txt
+src/torch_migraphx.egg-info/dependency_links.txt
+src/torch_migraphx.egg-info/top_level.txt
