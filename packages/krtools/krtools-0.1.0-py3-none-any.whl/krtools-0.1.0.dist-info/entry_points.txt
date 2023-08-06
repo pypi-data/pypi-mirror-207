@@ -1,0 +1,3 @@
+[console_scripts]
+krtools=krtools.__main__:app
+
