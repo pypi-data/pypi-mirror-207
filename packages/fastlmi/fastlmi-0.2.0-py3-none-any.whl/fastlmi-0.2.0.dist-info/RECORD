@@ -1,0 +1,11 @@
+fastlmi/__init__.py,sha256=gpBOaHK0ZlhA8bGCxBd7ihcVmROgxpa9eUWamnLCnVs,131
+fastlmi/application.py,sha256=Q6heo1wnGGKhMjoaXvJ9fFQtif8vosEQ4WumoKgQELY,5592
+fastlmi/auth.py,sha256=6AgU6BbMTfNDIOI-I3yuKqEp1SPgW58s4W7AepkYTw4,4772
+fastlmi/typing.py,sha256=maFq-kddqIcOzvUq8aFR5Q9ag8mes_hgl6aama9GPzc,76
+fastlmi/utils.py,sha256=P53gv4FT-4CYaCm-0iRugGAN2Rkxw4VC4_mmAcnRO1U,383
+fastlmi/ai_plugin/__init__.py,sha256=yqTeVhXPuFilZm4OSMvQxKOibif9aT9mq4iF6kifhjo,177
+fastlmi/ai_plugin/models.py,sha256=6L1USukKO-gJdcY37YVFUrMgXCaVxMZBPgUzmSP-Aak,1322
+fastlmi-0.2.0.dist-info/METADATA,sha256=cjW8Yk1NqCYbOV07TAsvD8VF-h2NYQyAYXwtsOIH9zQ,9082
+fastlmi-0.2.0.dist-info/WHEEL,sha256=bbVuDMgAMZh0WChwltG4a3FAf-EgFGU9LSpj-pP-9GE,87
+fastlmi-0.2.0.dist-info/licenses/LICENSE,sha256=Lurupe8HJYLiMNga-UWxdtIIDmhjU-Maqk_cN0wrO2M,1067
+fastlmi-0.2.0.dist-info/RECORD,,
