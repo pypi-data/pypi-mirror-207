@@ -1,0 +1,5 @@
+termcolor
+requests
+umsgpack
+colorama
+esptool
