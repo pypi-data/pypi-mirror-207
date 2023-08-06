@@ -1,0 +1,11 @@
+README.md
+setup.py
+py_serializer/constants.py
+py_serializer/json_serializer.py
+py_serializer/serializer.py
+py_serializer/xml_serializer.py
+py_serializer_100523.egg-info/PKG-INFO
+py_serializer_100523.egg-info/SOURCES.txt
+py_serializer_100523.egg-info/dependency_links.txt
+py_serializer_100523.egg-info/requires.txt
+py_serializer_100523.egg-info/top_level.txt
