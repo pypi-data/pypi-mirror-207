@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+numericnormalizer/__init__.py
+numericnormalizer/core.py
+numericnormalizer.egg-info/PKG-INFO
+numericnormalizer.egg-info/SOURCES.txt
+numericnormalizer.egg-info/dependency_links.txt
+numericnormalizer.egg-info/top_level.txt
