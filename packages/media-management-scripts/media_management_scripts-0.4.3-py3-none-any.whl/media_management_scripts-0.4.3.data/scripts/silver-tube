@@ -1,0 +1,6 @@
+#!python
+# PYTHON_ARGCOMPLETE_OK
+
+from media_management_scripts.silver_tube import main
+
+main()
