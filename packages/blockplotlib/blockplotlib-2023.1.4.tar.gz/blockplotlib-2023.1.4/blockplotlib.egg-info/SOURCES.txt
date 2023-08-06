@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+blockplotlib/__init__.py
+blockplotlib/blockplotlib.py
+blockplotlib.egg-info/PKG-INFO
+blockplotlib.egg-info/SOURCES.txt
+blockplotlib.egg-info/dependency_links.txt
+blockplotlib.egg-info/requires.txt
+blockplotlib.egg-info/top_level.txt
