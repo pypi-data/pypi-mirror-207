@@ -1,0 +1,8 @@
+oz_defender/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oz_defender/relay/__init__.py,sha256=h-pmnosySEzw8F0H5wzsI3A4tjGsiFU4b-T2a32lnkk,38
+oz_defender/relay/client.py,sha256=tQpHldi0c5Q2BuCazSRzqusruilWoRPqycH_Q25RCEw,8378
+oz_defender/relay/exceptions.py,sha256=NaZoqIYCPN0drA3QkBAQI8p_eurHRb3BF8NF7goVyqU,261
+oz_defender-0.1.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+oz_defender-0.1.1.dist-info/entry_points.txt,sha256=d-DgzOMENNfQ2VNMOztEgFpFxFffuOcwGl6KXc-ThuA,37
+oz_defender-0.1.1.dist-info/METADATA,sha256=xewyp7-MNAIZLQpG8d3a_U90gH28B0e8mGcPLFeWmzY,3604
+oz_defender-0.1.1.dist-info/RECORD,,
