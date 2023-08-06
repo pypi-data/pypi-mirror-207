@@ -1,0 +1,11 @@
+README.md
+setup.py
+flatnet/__init__.py
+flatnet/train.py
+flatnet.egg-info/PKG-INFO
+flatnet.egg-info/SOURCES.txt
+flatnet.egg-info/dependency_links.txt
+flatnet.egg-info/requires.txt
+flatnet.egg-info/top_level.txt
+flatnet/modules/__init__.py
+flatnet/modules/flatnet_nn.py
