@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: GramGetter
+Version: 0.2.0
+Summary: A crawler for scraping instagram content
+Home-page: https://github.com/instaloader/instaloader
+Author: Mohamed Amine Said
+Author-email: amine8said@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
