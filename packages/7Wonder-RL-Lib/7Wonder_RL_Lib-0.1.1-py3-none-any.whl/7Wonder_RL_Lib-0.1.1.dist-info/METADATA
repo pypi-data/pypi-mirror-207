@@ -1,0 +1,112 @@
+Metadata-Version: 2.1
+Name: 7Wonder-RL-Lib
+Version: 0.1.1
+Summary: Gymnasium Environment for the game Seven Wonders
+Author-email: Phudis Dawieang <pd2654@columbia.edu>
+License: MIT License
+        
+        Copyright (c) 2023 Phudis Dawieang
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: repository, https://github.com/MirrorCraze/7Wonder-RL-Lib
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: gymnasium
+Provides-Extra: develop
+Requires-Dist: black (>=22) ; extra == 'develop'
+Requires-Dist: bump2version (>=1.0.0) ; extra == 'develop'
+Requires-Dist: check-manifest ; extra == 'develop'
+Requires-Dist: pylint ; extra == 'develop'
+Requires-Dist: mypy ; extra == 'develop'
+Requires-Dist: twine ; extra == 'develop'
+Requires-Dist: wheel ; extra == 'develop'
+Requires-Dist: coverage ; extra == 'develop'
+
+# 7Wonder-RL-Lib
+Library providing environment for testing Reinforcement learning in 7 Wonders Game. 
+
+<img alt="GitHub" src="https://img.shields.io/github/license/mirrorcraze/7Wonder-RL-Lib">
+
+<img alt="GitHub issues" src="https://img.shields.io/github/issues/mirrorcraze/7Wonder-RL-Lib">
+
+[![codecov](https://codecov.io/gh/MirrorCraze/7Wonder-RL-Lib/branch/main/graph/badge.svg?token=7JDHEZ4E76)](https://codecov.io/gh/MirrorCraze/7Wonder-RL-Lib)
+[![CodeQL](https://github.com/MirrorCraze/7Wonder-RL-Lib/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/MirrorCraze/7Wonder-RL-Lib/actions/workflows/github-code-scanning/codeql)
+[![Build + CodeCov + Pylint/Black](https://github.com/MirrorCraze/7Wonder-RL-Lib/actions/workflows/build.yml/badge.svg)](https://github.com/MirrorCraze/7Wonder-RL-Lib/actions/workflows/build.yml)
+[![PyPI](https://img.shields.io/pypi/v/7Wonder-RL-Lib)](https://pypi.org/project/7Wonder-RL-Lib/0.1.0/)
+[![GitHub Pages](https://img.shields.io/badge/Github%20Pages-Link-lightgrey)](https://mirrorcraze.github.io/7Wonder-RL-Lib/)
+
+## Overview
+There are multiple environments for the AI game testing. However, environments implemented now are mostly covered only the traditional board games (Go, Chess, etc.) or 52-card based card games (Poker, Rummy, etc.) where games do not really have interactions with other players.
+
+Most of the Euro-games board games are good game environments to test the algorithm on as there are many aspects to explore, such as tradings, dealing with imperfect informations, stochastic elements, etc.
+
+7 Wonders board games introduced multiple elements mentioned above which are good for testing out new algorithm. This library will cover basic game systems and allow users to customize the environments with custom state space and rewarding systems.
+
+## Installation
+To install the gym environment, run 
+```
+make develop
+make build 
+make install
+```
+
+## Usage
+Example codes of how to declare the gym environment is displayed below
+
+
+```
+import SevenWonEnv
+from SevenWonEnv.envs.mainGameEnv import Personality 
+
+env = gym.make("SevenWonderEnv", player=4) #Declare Environment with 4 Players
+```
+To use the Personality that is given (RandomAI, RuleBasedAI, DQNAI, Human), use ```setPersonality(personalityList)```
+```
+personalityList = []
+    personalityList.append(Personality.DQNAI)
+    for i in range(1, 4):
+        personalityList.append(Personality.RandomAI)
+    env.setPersonality(personalityList)
+```
+To run the game each step,
+```
+stateList = env.step(None)
+```
+The variable stateList consist of n 4-tuple, depends on number of players. Each tuple are (new_state, reward, done, info).
+
+To add the custom model, change the ```SevenWondersEnv/SevenWonEnv/envs/mainGameEnv/Personality.py``` file. 
+Each personality will have 2 main functions, which are init and make_choice.
+
+For example, RandomAI takes all possible choices and randomly choose one choice.
+```
+class RandomAI(Personality):
+    def __init__(self):
+        super().__init__()
+
+    def make_choice(self, player, age, options):
+        return random.choice(range(len(options)))
+```
