@@ -1,0 +1,1 @@
+{"argv": ["python", "-m", "duckdb_kernel", "-f", "{connection_file}"], "display_name": "duckdbSQL", "name": "duckdb", "language": "sql"}
