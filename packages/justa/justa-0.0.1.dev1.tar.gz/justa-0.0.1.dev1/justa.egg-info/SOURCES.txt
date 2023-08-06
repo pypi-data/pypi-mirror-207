@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+justa.egg-info/PKG-INFO
+justa.egg-info/SOURCES.txt
+justa.egg-info/dependency_links.txt
+justa.egg-info/requires.txt
+justa.egg-info/top_level.txt
