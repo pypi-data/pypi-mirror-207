@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: Pypicor
+Version: 1.0.3
+Summary: Python package with helpful things to use the Epicor API
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

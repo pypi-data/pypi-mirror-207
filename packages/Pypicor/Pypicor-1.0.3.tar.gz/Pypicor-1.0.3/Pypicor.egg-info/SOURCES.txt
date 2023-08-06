@@ -1,0 +1,13 @@
+setup.py
+Pypicor.egg-info/PKG-INFO
+Pypicor.egg-info/SOURCES.txt
+Pypicor.egg-info/dependency_links.txt
+Pypicor.egg-info/requires.txt
+Pypicor.egg-info/top_level.txt
+pypicor/__init__.py
+pypicor/baq.py
+pypicor/credentials.py
+pypicor.egg-info/PKG-INFO
+pypicor.egg-info/SOURCES.txt
+pypicor.egg-info/dependency_links.txt
+pypicor.egg-info/top_level.txt
