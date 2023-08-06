@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "lazi"
+version = "1.1.0-13"
+description = "A lightweight and extensible way to implement lazy imports globally."
+authors = ["Phillip Sitbon <phillip.sitbon@gmail.com>"]
+readme = "README.md"
+license = "AGPLv3"
+repository = "https://github.com/sitbon/lazi"
+classifiers= [
+    "Environment :: Web Environment",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Software Development :: Libraries",
+]
+
+packages = [
+    { include = "lazi" },
+]
+
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+django = "^4.2.1"
+requests = "^2.30.0"
+toolz = "^0.12.0"
+rich = "^13.3.5"
+setuptools = "^67.7.2"
+
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
