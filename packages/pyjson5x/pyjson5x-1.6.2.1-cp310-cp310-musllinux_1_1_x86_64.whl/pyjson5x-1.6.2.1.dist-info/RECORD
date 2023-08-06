@@ -1,0 +1,11 @@
+pyjson5x/__init__.py,sha256=NDV_zZt7YkK_hVBkntspgFLWBRMn5lWm_VOqqExDyJQ,101
+pyjson5x/pyjson5x.cpython-310-x86_64-linux-gnu.so,sha256=yOao8FmePrfeHHiVd02hrz8WQBKUWP3midIEARjlP5A,1011537
+pyjson5x/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyjson5x/__init__.pyi,sha256=eh-QBnRGk8Xm2iupgo-iHRm1ypRBx8r_9HA83yr7I64,8430
+pyjson5x.libs/libstdc++-a9383cce.so.6.0.28,sha256=Wy9UCdwS1rwI9GU5e7qE61S0AkRqqwti1q_adWSs-Rk,2447393
+pyjson5x.libs/libgcc_s-a04fdf82.so.1,sha256=YxqJNaesQMhDswHEQpXsiLnVvMBBbYO6KYMDZFPWKSM,81257
+pyjson5x-1.6.2.1.dist-info/RECORD,,
+pyjson5x-1.6.2.1.dist-info/METADATA,sha256=raWoX9ahCsqXh88Nr9-7h0Tp9hqMxj8AkeHzrF2Cl6M,2699
+pyjson5x-1.6.2.1.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+pyjson5x-1.6.2.1.dist-info/top_level.txt,sha256=Xm2p517TN9IDp8EIy2dJfoUXkEUxCLz6oQ3zLNeY-GY,9
+pyjson5x-1.6.2.1.dist-info/WHEEL,sha256=kP5iU3R6mT7t5J52tTplGZgHu_6osn1zKFuzyiW5OyY,113
