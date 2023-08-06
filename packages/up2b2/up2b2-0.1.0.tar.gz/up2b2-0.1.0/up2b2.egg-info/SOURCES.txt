@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+setup.py
+up2b2.py
+up2b2.egg-info/PKG-INFO
+up2b2.egg-info/SOURCES.txt
+up2b2.egg-info/dependency_links.txt
+up2b2.egg-info/not-zip-safe
+up2b2.egg-info/requires.txt
+up2b2.egg-info/top_level.txt
