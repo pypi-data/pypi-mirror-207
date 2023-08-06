@@ -1,0 +1,3 @@
+[console_scripts]
+kalm_jenkins=jenkins.jenkins:main
+
