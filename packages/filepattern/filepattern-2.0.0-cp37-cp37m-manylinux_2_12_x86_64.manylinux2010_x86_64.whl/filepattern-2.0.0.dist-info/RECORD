@@ -1,0 +1,10 @@
+filepattern-2.0.0.dist-info/METADATA,sha256=MrKU8NxN2gEEjp5ExBbmCuFDNxKTFQ6w1upxtR6x88o,16808
+filepattern-2.0.0.dist-info/top_level.txt,sha256=fCy9CXm8Dd8ovEp9aVEgsTpnjgD0GOnqUs-fuFnStYM,32
+filepattern-2.0.0.dist-info/RECORD,,
+filepattern-2.0.0.dist-info/WHEEL,sha256=SyGcpGi1pkq23uayPq7EIty4fRv9OlQT7thlio7Ne6U,150
+filepattern-2.0.0.dist-info/LICENSE,sha256=aaXu23RLKNjIAuRO3Ne467nfI1cDfvUAfZDBA646f6A,1065
+filepattern/filepattern.py,sha256=TWr0oNfdV3YLHneUNnn6zmZZFrHp5TEVU92lA3bbBSE,16593
+filepattern/functions.py,sha256=FYg4mb-oemxy66LOkqnh3_IdHRXeDLel3Sj32nirRWw,2883
+filepattern/backend.cpython-37m-x86_64-linux-gnu.so,sha256=af2c09j5ZBwsYtuSJJiTrVtBVlmonpYQN-TfNOAmYTk,900672
+filepattern/__init__.py,sha256=_7V8RhTUqS4QQza4cOYknyxauUcomlZlv-khgJmmSc4,243
+filepattern/_version.py,sha256=GCUODotyjrYIbmzzCkr0EVLgOZTVP3snYPvvC9-CRns,497
