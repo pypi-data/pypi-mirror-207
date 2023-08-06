@@ -1,0 +1,272 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://xml.hdng.website/Adaptations.xsd"
+           xmlns="http://xml.hdng.website/Adaptations.xsd"
+           xmlns:adap="http://xml.hdng.website/Adaptations.xsd"
+           elementFormDefault="qualified">
+
+
+<xs:complexType name="Format">
+    <xs:simpleContent>
+        <xs:extension base="xs:token">
+        </xs:extension>
+    </xs:simpleContent>
+</xs:complexType>
+
+<xs:complexType name="Description">
+    <xs:simpleContent>
+        <xs:extension base="xs:token">
+            <xs:attribute name="lang" type="xs:string"/>
+        </xs:extension>
+    </xs:simpleContent>
+</xs:complexType>
+
+<xs:complexType name="Label">
+    <xs:simpleContent>
+        <xs:extension base="xs:token">
+        </xs:extension>
+    </xs:simpleContent>
+</xs:complexType>
+
+<xs:complexType name="Literal">
+    <xs:simpleContent>
+        <xs:extension base="xs:token">
+        </xs:extension>
+    </xs:simpleContent>
+</xs:complexType>
+
+
+<xs:complexType name="Control">
+    <xs:sequence>
+        <xs:element name="label" type="Label" minOccurs="0" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID"/>
+</xs:complexType>
+
+<xs:complexType name="Option">
+    <xs:sequence>
+        <xs:element name="label" type="Label" minOccurs="1" maxOccurs="1"/>
+        <xs:choice minOccurs="1" maxOccurs="1">
+            <xs:element name="literal" type="Literal" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="integer" type="xs:integer" minOccurs="1" maxOccurs="1"/>
+        </xs:choice>
+    </xs:sequence>
+    <xs:attribute name="local_id" type="xs:NCName" use="required"/>
+</xs:complexType>
+
+<xs:complexType name="Choice">
+    <xs:complexContent>
+        <xs:extension base="Control">
+            <xs:sequence>
+                <xs:element name="option" type="Option" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:extension>
+    </xs:complexContent>
+</xs:complexType>
+
+<xs:complexType name="URL">
+    <xs:complexContent>
+        <xs:extension base="Control">
+            <xs:sequence>
+            </xs:sequence>
+            <xs:attribute name="accepted_mime_types" type="xs:string" />
+        </xs:extension>
+    </xs:complexContent>
+</xs:complexType>
+
+<xs:complexType name="Group">
+    <xs:sequence>
+        <xs:element name="description" type="Description" minOccurs="0" maxOccurs="1"/>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="group" type="Group" minOccurs="1" maxOccurs="1">
+                <xs:unique name="control_id_unique">
+                    <xs:selector xpath="./*"/>
+                    <xs:field xpath="@id"/>
+                </xs:unique>
+            </xs:element>
+            <xs:element name="choice" type="Choice" minOccurs="1" maxOccurs="1">
+                <xs:unique name="option_local_id_unique">
+                    <xs:selector xpath="adap:option"/>
+                    <xs:field xpath="@local_id"/>
+                </xs:unique>
+            </xs:element>
+            <xs:element name="url" type="URL" minOccurs="1" maxOccurs="1"/>
+        </xs:choice>
+    </xs:sequence>
+    <!-- <xs:attribute name="id" type="xs:ID"/> -->
+    <xs:attribute name="id" type="xs:NCName"/>
+</xs:complexType>
+
+
+<xs:complexType name="Expression">
+</xs:complexType>
+
+<xs:complexType name="Case">
+    <xs:complexContent>
+        <xs:extension base="Expression">
+            <xs:sequence>
+                <xs:choice minOccurs="1" maxOccurs="1">
+                    <xs:element name="literal" type="Literal" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="integer" type="xs:integer" minOccurs="1" maxOccurs="1"/>
+                </xs:choice>
+                <xs:choice minOccurs="1" maxOccurs="1">
+                    <xs:element name="literal" type="Literal" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="integer" type="xs:integer" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="variable" type="Variable" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="switch" type="Switch" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="concatenate" type="Concatenation" minOccurs="1" maxOccurs="1"/>
+                </xs:choice>
+            </xs:sequence>
+        </xs:extension>
+    </xs:complexContent>
+</xs:complexType>
+
+
+<xs:complexType name="Default">
+    <xs:complexContent>
+        <xs:extension base="Expression">
+            <xs:sequence>
+                <xs:choice minOccurs="1" maxOccurs="1">
+                    <xs:element name="literal" type="Literal" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="integer" type="xs:integer" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="variable" type="Variable" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="switch" type="Switch" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="concatenate" type="Concatenation" minOccurs="1" maxOccurs="1"/>
+                </xs:choice>
+            </xs:sequence>
+        </xs:extension>
+    </xs:complexContent>
+</xs:complexType>
+
+
+<xs:complexType name="Variable">
+    <xs:simpleContent>
+        <xs:extension base="xs:token">
+            <xs:attribute name="format" type="Format"/>
+        </xs:extension>
+    </xs:simpleContent>
+</xs:complexType>
+
+<xs:complexType name="Switch">
+    <xs:complexContent>
+        <xs:extension base="Expression">
+            <xs:sequence>
+                <xs:element name="variable" type="Variable" minOccurs="1" maxOccurs="1"/>
+                <xs:element name="case" type="Case" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element name="default" type="Default" minOccurs="0" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:extension>
+    </xs:complexContent>
+</xs:complexType>
+
+
+<xs:complexType name="Concatenation">
+    <xs:complexContent>
+        <xs:extension base="Expression">
+            <xs:sequence>
+                <xs:choice minOccurs="1" maxOccurs="unbounded">
+                    <xs:element name="literal" type="Literal" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="integer" type="xs:integer" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="variable" type="Variable" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="switch" type="Switch" minOccurs="1" maxOccurs="1"/>
+                </xs:choice>
+            </xs:sequence>
+        </xs:extension>
+    </xs:complexContent>
+</xs:complexType>
+
+<xs:complexType name="ElementSelector">
+    <xs:simpleContent>
+        <xs:extension base="xs:token">
+        </xs:extension>
+    </xs:simpleContent>
+</xs:complexType>
+
+<xs:complexType name="AttributeSelector">
+    <xs:simpleContent>
+        <xs:extension base="xs:token">
+        </xs:extension>
+    </xs:simpleContent>
+</xs:complexType>
+
+<xs:complexType name="StylePropertySelector">
+    <xs:simpleContent>
+        <xs:extension base="xs:token">
+        </xs:extension>
+    </xs:simpleContent>
+</xs:complexType>
+
+<xs:complexType name="LocationsQuery">
+    <xs:sequence>
+        <xs:choice minOccurs="0" maxOccurs="1">
+            <xs:element name="element" type="ElementSelector" minOccurs="1" maxOccurs="unbounded"/>
+            <xs:element name="attribute" type="AttributeSelector" minOccurs="1" maxOccurs="unbounded"/>
+            <xs:element name="style_property" type="StylePropertySelector" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:choice>
+    </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Action">
+</xs:complexType>
+
+<xs:complexType name="AssignAction">
+    <xs:complexContent>
+        <xs:extension base="Action">
+            <xs:sequence>
+                <xs:element name="locations" type="LocationsQuery" minOccurs="1" maxOccurs="1"/>
+                <xs:choice minOccurs="1" maxOccurs="1">
+                    <xs:element name="literal" type="Literal" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="integer" type="xs:integer" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="variable" type="Variable" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="switch" type="Switch" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="concatenate" type="Concatenation" minOccurs="1" maxOccurs="1"/>
+                </xs:choice>
+            </xs:sequence>
+        </xs:extension>
+    </xs:complexContent>
+</xs:complexType>
+
+
+<xs:complexType name="EditAction">
+    <xs:complexContent>
+        <xs:extension base="Action">
+            <xs:sequence>
+                <xs:element name="locations" type="LocationsQuery" minOccurs="1" maxOccurs="1"/>
+                <xs:choice minOccurs="1" maxOccurs="unbounded">
+                    <xs:element name="assign" type="AssignAction" minOccurs="1" maxOccurs="1"/>
+                </xs:choice>
+            </xs:sequence>
+        </xs:extension>
+    </xs:complexContent>
+</xs:complexType>
+
+
+<xs:complexType name="Adaptation">
+    <xs:sequence>
+        <xs:element name="description" type="Description" minOccurs="0" maxOccurs="1"/>
+        <xs:element name="controls" type="Group" minOccurs="0" maxOccurs="1"/>
+        <xs:element name="actions" minOccurs="0" maxOccurs="1">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:choice minOccurs="1" maxOccurs="1">
+                        <xs:element name="edit" type="EditAction" minOccurs="1" maxOccurs="1"/>
+                    </xs:choice>
+                </xs:sequence>
+                <xs:attribute name="id" type="xs:ID" />
+            </xs:complexType>
+        </xs:element>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+</xs:complexType>
+
+
+<xs:element name="schema">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="adaptation" type="Adaptation" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+
+</xs:schema>

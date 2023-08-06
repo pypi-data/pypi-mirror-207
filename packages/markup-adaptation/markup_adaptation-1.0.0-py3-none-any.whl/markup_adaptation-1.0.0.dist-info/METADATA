@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: markup-adaptation
+Version: 1.0.0
+Summary: A library for managing markup-based templates.
+Home-page: https://github.com/high-dimensional/markup-adaptation
+Author: High Dimensional Neurology Group, UCL
+Author-email: pypi@highdimensional.net
+License: BSD-3-Clause
+Platform: any
+Classifier: Framework :: Django
+Classifier: Framework :: Wagtail
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+License-File: AUTHORS.txt
+
+markup-adaptation
+=================
+
+A framework for annotating SVGs with an adaptation schema that can be used to define (graphical) templates. Please bear with us while we prepare more detailed documentation.
+
+Installation
+------------
+
+1. Install using `pip`:
+  ```shell
+  pip install markup-adaptation
+  ```
+
+
