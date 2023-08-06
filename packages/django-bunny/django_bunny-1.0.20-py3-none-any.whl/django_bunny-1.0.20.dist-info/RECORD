@@ -1,0 +1,6 @@
+django_bunny/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_bunny/storage.py,sha256=wQvZpJ6zWW4uP4aGbFXrwpzKB8wC3IaPs54vy4Bk5Xw,5986
+django_bunny-1.0.20.dist-info/LICENSE,sha256=szK7XkhD_kT71OGdKZPYPXbKv3nOQqskxx6Wq6wiuB4,1092
+django_bunny-1.0.20.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+django_bunny-1.0.20.dist-info/METADATA,sha256=cvjbzUVBJ-95aCMdRmvjOX4OisuBCJCIzY_62bhposw,3109
+django_bunny-1.0.20.dist-info/RECORD,,
