@@ -1,0 +1,15 @@
+oobabot/__init__.py,sha256=-lXJMc4g_Y4SSJsunq42jm0AZq-pV1C7-c8uacXrQuM,80
+oobabot/__main__.py,sha256=ocIEvZcW27WAaWstzu9OVuJT8AXnaS0SwPyZuC36Eds,69
+oobabot/discord_bot.py,sha256=a13RSD9XbuNrPfmZfOSJd-c4jelukY18Jek35fCqi0k,27234
+oobabot/fancy_logging.py,sha256=0Nn0eQtM6kh-vqa6W_BSireRbfik0Z8waC5KDeBMrps,1572
+oobabot/ooba_client.py,sha256=YrlgHOQyE2v19phm-93FawWV9GR27PgLfcG6qdIzhK4,4989
+oobabot/oobabot.py,sha256=y9oxEbAKMigXOquklW29BVF5mGGS4BWtRjIlh9V2NRc,2645
+oobabot/response_stats.py,sha256=M4Vn74Vuum1oQFBf78p8S0uW4920AZxzCE644T727J0,6586
+oobabot/sd_client.py,sha256=b5tQVqV1Jp2PMI53hNL1kq2lRM17pB7ro_E5rdFNX6A,10818
+oobabot/sentence_splitter.py,sha256=k1Gt2qZH__RScv6QNEA5L2iZjj6gmRvmgdBfPrWNO78,2695
+oobabot/settings.py,sha256=2mWDCFJnfu_4p7u6ZNBLDIXkollsTVpmoA3qDIKtDrA,6656
+oobabot-0.1.4.dist-info/LICENSE,sha256=Pvr-wmVCRvufOd2zrB6SoL3x-q7Wn2-yBVSEdMrDTzM,1067
+oobabot-0.1.4.dist-info/METADATA,sha256=PWm-QFkDZ_83-ycRfh8C_acySgg-LtAn0Kmi5G8pkn0,12218
+oobabot-0.1.4.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+oobabot-0.1.4.dist-info/entry_points.txt,sha256=LqO5eBLTCWMyuLqMKgZMahWsEjSC50A2GR1bC8Zo4LQ,48
+oobabot-0.1.4.dist-info/RECORD,,
