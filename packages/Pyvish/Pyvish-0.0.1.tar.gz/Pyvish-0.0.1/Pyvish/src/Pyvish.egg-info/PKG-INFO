@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: Pyvish
+Version: 0.0.1
+Summary: Python To Html Code
+Author: Jeyesh Vishnu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Hi Developers,
+This is Jeyesh Vishnu
+
+Python Html Writer
+
+Syntax
+import jepy
+from jepy import createSite
+createSite(title,body(in dictionary format),"view")
+
+#Example
+createSite("Jeyesh",{'h1':'Hello','div':'World'},'view')
+
+Building State
