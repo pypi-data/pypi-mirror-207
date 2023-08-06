@@ -1,0 +1,7 @@
+setup.py
+ai/__init__.py
+ai/solve.py
+jetha_ai.egg-info/PKG-INFO
+jetha_ai.egg-info/SOURCES.txt
+jetha_ai.egg-info/dependency_links.txt
+jetha_ai.egg-info/top_level.txt
