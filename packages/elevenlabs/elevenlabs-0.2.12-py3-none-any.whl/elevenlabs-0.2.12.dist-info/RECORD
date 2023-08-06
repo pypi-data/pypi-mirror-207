@@ -1,0 +1,15 @@
+elevenlabs/__init__.py,sha256=1kTTXM_RjK1_bMGzhYSH_DgJmwl-t9RulDF9pR3fN48,101
+elevenlabs/simple.py,sha256=0F3x6dGz5hO-Ri3vpRw2qzRDntFbiSt80AYRQK4m0Og,3814
+elevenlabs/utils.py,sha256=qKy9Vk8jnIONvOEATCFbf5Cn_b-I6-_4swWkeT6AHKs,1762
+elevenlabs/api/__init__.py,sha256=pzknj5l27v2C5ZqNzwP6Q4fUQuBD8Grbe3bW0TZHcG4,202
+elevenlabs/api/base.py,sha256=pXTBKeEE2OmRgHARXzUJ1_1BbiDbSPgPSEVfHTDrxIg,1780
+elevenlabs/api/error.py,sha256=ETzP0ZJf-I-zgBYBOStpAdqem_paSP53h2VZ1vlSL34,1105
+elevenlabs/api/history.py,sha256=X4iFcdFlXHwvKsEKjIPBy6k57S94D9efh6p59sReJKA,1540
+elevenlabs/api/model.py,sha256=hCmsZWnVi6G7aUgfLGI5GiL6eVSrdCwf5AGibxiEkYk,592
+elevenlabs/api/tts.py,sha256=4shmdqgXtxP201NhHPrQs_wD4GZuUjuabtEJ0YfX8Z8,1205
+elevenlabs/api/user.py,sha256=rz1tZkYnuxz9sO4UbvrFwDIxUPGgRcmGDYcifKJn8YU,377
+elevenlabs/api/voice.py,sha256=UDOLyBYGT3gG12hdtmbtBraCA4UQxp8O44d6bX2WYSM,4489
+elevenlabs-0.2.12.dist-info/METADATA,sha256=r1W-vpi00SYtYIr9i9HoGSgmyaFzJLmDBezYGRX2oog,729
+elevenlabs-0.2.12.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+elevenlabs-0.2.12.dist-info/top_level.txt,sha256=64gCsTLCeQiIT2O_W8ibqwk12XmvKEwSJdB1Gfj1Jnc,11
+elevenlabs-0.2.12.dist-info/RECORD,,
