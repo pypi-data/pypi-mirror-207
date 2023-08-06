@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: cveutils
+Version: 0.2
+Summary: This library provides functionality for fetching and parsing information about Common Vulnerabilities and Exposures (CVE) using the NIST National Vulnerability Database (NVD) RESTful API.
+Author: Vinicius Pereira (big0us)
+Author-email: vini@cius.xyz
+Requires-Dist: requests
+
