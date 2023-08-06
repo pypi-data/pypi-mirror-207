@@ -1,0 +1,11 @@
+ediff/__init__.py,sha256=6DOJCEr_Lt4fHN5LiRBtpb4jfxNeNB4gaRobrr7AmxY,173
+ediff/background.py,sha256=cvLukdMP8n4BLzvfCHwn-dqhkt30inxG6nentGwY988,888
+ediff/center.py,sha256=B1jErI6Nf6Y37p35adWqWtV_9FdlF0smVucNjPXWAi8,2570
+ediff/io.py,sha256=U0nS4W-chTTLdk7nGWxMWNzyyySXLPrxlKOm2KwhVF0,718
+ediff/pxrd.py,sha256=deaceX99zQ1mO0Eyq13AAHtl_itbrgxIbYIsgFGUVnM,28913
+ediff/radial.py,sha256=nt81yM2NQhnt7Xn0RgTZgYieXnjSg9OASRTHOA88r8U,4956
+ediff-0.1.0.dist-info/LICENCE,sha256=RBhg5hIyHCQyj9Hd6pdx4QVzRdIfplLdnbuNB0fm2H4,1093
+ediff-0.1.0.dist-info/METADATA,sha256=hE3Hv5nUWrU0Slp7fp2HTV1FalhxH5ccCyJLEgAmrZM,2010
+ediff-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+ediff-0.1.0.dist-info/top_level.txt,sha256=wpN5UyeLqiQcwJcTfucveb_1bNJUflojxpKSOk_H3LU,6
+ediff-0.1.0.dist-info/RECORD,,
