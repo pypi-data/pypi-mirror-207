@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+tests/test_textprepro.py
+textprepro/__init__.py
+textprepro/preprocess.py
+textprepro/utils.py
+textprepro.egg-info/PKG-INFO
+textprepro.egg-info/SOURCES.txt
+textprepro.egg-info/dependency_links.txt
+textprepro.egg-info/requires.txt
+textprepro.egg-info/top_level.txt

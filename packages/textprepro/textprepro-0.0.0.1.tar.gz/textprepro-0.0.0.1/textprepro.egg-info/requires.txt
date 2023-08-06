@@ -1,0 +1,11 @@
+beautifulsoup4
+emoji
+emot
+gensim
+scikit-learn
+spacy
+textblob
+wordcloud
+contractions
+matplotlib
+nltk
