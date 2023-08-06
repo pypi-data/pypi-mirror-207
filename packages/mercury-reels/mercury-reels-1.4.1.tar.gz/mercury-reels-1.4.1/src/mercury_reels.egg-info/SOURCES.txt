@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/mercury_reels.egg-info/PKG-INFO
+src/mercury_reels.egg-info/SOURCES.txt
+src/mercury_reels.egg-info/dependency_links.txt
+src/mercury_reels.egg-info/top_level.txt
+src/reels/Clients.py
+src/reels/Clips.py
+src/reels/Events.py
+src/reels/Intake.py
+src/reels/Targets.py
+src/reels/__init__.py
+src/reels/py_reels_wrap.cpp
+src/reels/reels.cpp
