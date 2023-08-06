@@ -1,0 +1,7 @@
+LICENSE.txt
+README.md
+setup.py
+release_verchk_vijkan.egg-info/PKG-INFO
+release_verchk_vijkan.egg-info/SOURCES.txt
+release_verchk_vijkan.egg-info/dependency_links.txt
+release_verchk_vijkan.egg-info/top_level.txt
