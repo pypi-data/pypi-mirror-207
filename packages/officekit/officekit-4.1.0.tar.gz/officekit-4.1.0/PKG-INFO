@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: officekit
+Version: 4.1.0
+Summary: A Wagtail app providing models for people, teams, addresses and other office-related entities.
+Home-page: https://github.com/high-dimensional/officekit
+Author: High Dimensional Neurology Group, UCL
+Author-email: pypi@highdimensional.net
+License: BSD-3-Clause
+Platform: any
+Classifier: Framework :: Django
+Classifier: Framework :: Wagtail
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+License-File: AUTHORS.txt
+
+officekit
+=========
+
+A Wagtail app providing models for people, teams, addresses and other office-related entities. Please bear with us while we prepare more detailed documentation.
+
+Compatibility
+-------------
+
+`officekit`' major.minor version number indicates the Wagtail release it is compatible with. Currently this is Wagtail 4.1.x
+
+Installation
+------------
+
+1. Install using `pip`:
+  ```shell
+  pip install officekit
+  ```
+2. Add
+   `officekit` to your `INSTALLED_APPS` setting:
+   ```python
+   INSTALLED_APPS = [
+     # ...
+     'officekit'
+     # ...
+   ]
+   ```
+
+

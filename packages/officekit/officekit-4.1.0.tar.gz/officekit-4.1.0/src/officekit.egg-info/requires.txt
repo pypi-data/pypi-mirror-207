@@ -1,0 +1,17 @@
+Django<4.2,>=4.1
+wagtail<4.2,>=4.1
+django-countries<7.5,>=7.4
+steadfast<1.1,>=1.0
+csskit<1.1,>=1.0
+django-auxiliaries<4.2,>=4.1
+model-porter<4.2,>=4.1
+wagtail-switch-block<4.2,>=4.1
+wagtail-block-model-field<4.2,>=4.1
+wagtail-association-panel<4.2,>=4.1
+wagtail-dynamic-choice<4.2,>=4.1
+wagtail-richer-text<4.2,>=4.1
+tour-guide<4.2,>=4.1
+aldine<4.2,>=4.1.1
+media-catalogue<4.2,>=4.1.2
+figurative<4.2,>=4.1
+querykit<4.2,>=4.1

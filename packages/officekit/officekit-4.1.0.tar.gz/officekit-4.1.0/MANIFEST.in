@@ -1,0 +1,8 @@
+include src/officekit/static/officekit/css/*
+include src/officekit/static/officekit/js/*
+
+include src/officekit/templates/officekit/tags/*
+include src/officekit/templates/officekit/blocks/*
+include src/officekit/templates/officekit/*
+
+recursive-exclude * .DS_Store *.pyc

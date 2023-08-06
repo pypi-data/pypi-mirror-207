@@ -1,0 +1,45 @@
+{% load static django_auxiliaries_tags wagtailcore_tags wagtail_richer_text_tags officekit_tags querykit_tags %}
+{% extend_with_custom_blocks self.block.meta.extends_template form.ordered_panel_block_definitions '_section' %}
+{% block content_section %}
+{{ block.super }}
+{% query_result_range result_slice form=form %}
+{% for item, annotations in content %}
+{% cast_group_member item %}
+<div{% if self.block.meta.member_classname or self.block.meta.person_classname or self.block.meta.organisation_classname %} class="{{ self.block.meta.member_classname }}{% if person and self.block.meta.person_classname %} {{ self.block.meta.person_classname }}{% elif organisation and self.block.meta.organisation_classname %} {{ self.block.meta.organisation_classname }}{% endif %}"{% endif %}>
+{% if person %}
+    {% if person.portrait.value %}
+    {% include_block self.visuals.value with content=person.portrait.value scale_factor=scale_factor classname="group-member-visual" %}
+    {% elif self.show_visual_placeholders %}
+    <div class="group-member-visual-placeholder"></div>
+    {% endif %}
+{% elif organisation %}
+    {% if organisation.logo.value %}
+    {% include_block self.visuals.value with content=organisation.logo.value scale_factor=scale_factor classname="group-member-visual" %}
+    {% elif self.show_visual_placeholders %}
+    <div class="group-member-visual-placeholder"></div>
+    {% endif %}
+{% endif %}
+
+<div class="group-member-description">
+
+{% if self.heading_level %}<h{{ self.heading_level }}{% else %}<div{% endif %} class="group-member-heading">
+{% if person %}
+    {% if self.hide_titles %}{{ person.full_name_no_title }}{% else %}{{ person.full_name }}{% endif %}
+{% elif organisation %}
+    {{ organisation.name }}
+{% endif %}
+{% if self.heading_level %}</h{{ self.heading_level }}{% else %}</div{% endif %}>
+
+{% if person %}
+    {% if person.short_description %}
+    {{ person.short_description|richertext }}
+    {% endif %}
+{% elif organisation.short_description %}
+    {{ organisation.short_description|richertext }}
+{% endif %}
+</div>
+</div>
+
+{% endfor %}
+{% query_result_navigation result_slice form=form %}
+{% endblock %}
