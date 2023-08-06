@@ -1,0 +1,64 @@
+[tool.poetry]
+name = "fastapi-querysets"
+version = "0.1.3"
+description = ""
+authors = ["Nikakto <black-z@bk.ru>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/Nikakto/fastapi-querysets"
+documentation = "https://fastapi-querysets.readthedocs.io"
+keywords = ["fastapi", "filters", "filtering", "pagination", "order", "ordering", "queryset", "Tortoise", "orm", "database", "db"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+fastapi = ">=0.78"
+tortoise-orm = ">=0.18.1"
+fastapi-depends-ext = ">=0.2.2"
+
+[tool.poetry.dev-dependencies]
+httpx = "^0.23.1"
+black = "^22.12.0"
+pytest = "^7.2.0"
+pytest-asyncio = "^0.20.3"
+pytest-mock = "^3.10.0"
+nest-asyncio = "^1.5.6"
+ipython = "^8.7.0"
+pytest-cov = "^4.0.0"
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+Jinja2 = "3.0.*"
+mkdocs-material = "^9.0.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+
+[tool.black]
+line-length = 120
+target-version = ['py39']
+include = '\.pyi?$'
+exclude = '''
+
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+  )/
+  | foo.py           # also separately exclude a file named foo.py in
+                     # the root of the project
+)
+'''
