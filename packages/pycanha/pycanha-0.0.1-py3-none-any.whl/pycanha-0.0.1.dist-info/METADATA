@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pycanha
+Version: 0.0.1
+Summary: Placeholder for the future PyCanha package
+Project-URL: Homepage, https://github.com/pycanha-project/pycanha
+Project-URL: Bug Tracker, https://github.com/pycanha-project/pycanha/issues
+Author-email: Javier Piqueras Carreño <javier.piqueras@upm.es>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# PyCanha
+A blank repository for the future PyCanha package
