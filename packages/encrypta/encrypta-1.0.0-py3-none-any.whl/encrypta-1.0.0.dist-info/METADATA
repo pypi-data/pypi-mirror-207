@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: encrypta
+Version: 1.0.0
+Summary: Encrypta - Encyption/Decrypytion tools
+Author-email: monkeeferret@gmail.com
+Requires-Python: >=3.11
+
