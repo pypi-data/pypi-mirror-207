@@ -1,0 +1,4 @@
+[console_scripts]
+html2mhtml = mhtmlconverter.cli.html2mhtml:main
+md2mhtml = mhtmlconverter.cli.md2mhtml:main
+mhtml2html = mhtmlconverter.cli.mhtml2html:main
