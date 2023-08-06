@@ -1,0 +1,6 @@
+EPICOR_API_KEY = ''
+EPICOR_USERNAME = ''
+EPICOR_USER_PASSWORD = ''
+EPICOR_COMPANY_ID = ''
+    
+        
