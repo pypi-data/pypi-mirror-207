@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: pyxtend
+Version: 0.3.0
+Summary: Some functions for Python
+Home-page: https://github.com/jss367/pyxtend
+Author: Julius
+Author-email: julius.simonelli@gmail.com
+Project-URL: Bug Tracker, https://github.com/jss367/pyxtend/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyxtend
+
+Functions to be more productive in Python.
+
+## struct
+
+`struct` is for examining objects to understand their contents.
+
+print(struct("Hello, world!"))
+str
+
+print(struct([1, 2, 3]))
+{'list': ['int', 'int', 'int']}
+
+print(struct({"a": 1, "b": 2}))
+{'dict': ['str', 'str']}
+
+print(struct(set([1, 2, 3])))
+{'set': ['int', 'int', 'int']}
+
+print(struct(np.array([[1.0, 2.0, 3.0], [4.0, 5.0, 6.0]], dtype=np.float32)))
+{'ndarray': ['float32, shape=(2, 3)']}
+
+print(struct(torch.tensor([[1.0, 2.0, 3.0], [4.0, 5.0, 6.0]], dtype=torch.float32)))
+{'Tensor': ['torch.float32, shape=(2, 3)']}
+
+print(struct(tf.constant([[1.0, 2.0, 3.0], [4.0, 5.0, 6.0]], dtype=tf.float32)))
+{'EagerTensor': ['float32, shape=(2, 3)']}
+
+
+## vprint
