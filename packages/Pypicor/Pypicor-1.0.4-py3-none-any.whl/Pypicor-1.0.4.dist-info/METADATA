@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: Pypicor
+Version: 1.0.4
+Summary: Python package with helpful things to use the Epicor API
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: requests (>=2.29.0)
+Requires-Dist: pandas (>=2.0.1)
+Requires-Dist: numpy (>=1.11.1)
+Requires-Dist: matplotlib (>=1.5.1)
+
