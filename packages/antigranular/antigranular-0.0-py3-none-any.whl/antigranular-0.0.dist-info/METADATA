@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: antigranular
+Version: 0.0
+Summary: Placeholder [Antigranular](https://antigranular.com) client package to access competitions and datasets with private python execution.
+Author: Oblivious Software
+Author-email: support@oblivious.ai
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# AntigranularClient
+Placeholder [Antigranular](https://antigranular.com) client package to access competitions and datasets with private python execution.
+
+Antigranular is a community-driven, open-source platform that merges confidential computing and differential privacy. This creates a secure environment for handling unseen data with confidence.
+
+##### Note: This package is just a placeholder and contains no functionaliyy as of now. Visit [antigranular.com](https://antigranular.com) for more inforation about the product.
