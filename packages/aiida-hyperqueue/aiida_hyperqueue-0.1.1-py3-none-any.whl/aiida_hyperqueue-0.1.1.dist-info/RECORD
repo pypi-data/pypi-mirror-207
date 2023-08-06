@@ -1,0 +1,8 @@
+aiida_hyperqueue/__init__.py,sha256=qzZj1H4cpsper2kHTCsZnD4cPAc-7YBS1h20Re12muk,119
+aiida_hyperqueue/cli.py,sha256=Jy3na_CEK97oVGwi1SQNvUW4OL69Q9viZm0DQS-ZWXg,4396
+aiida_hyperqueue/scheduler.py,sha256=7KidW_zhydY76FATGgo_hLU0MZO5boSA0JdiR4aiG6o,10759
+aiida_hyperqueue-0.1.1.dist-info/entry_points.txt,sha256=4dA1NUugSe7oZJAm7U3eqwq3A5WyKeWfW9Y9VvNPqY4,141
+aiida_hyperqueue-0.1.1.dist-info/LICENSE,sha256=gfTEvdwPzauIs3x4tiOwIsFWSXCIT5opWUbX4aQ-BW0,1072
+aiida_hyperqueue-0.1.1.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+aiida_hyperqueue-0.1.1.dist-info/METADATA,sha256=FoFPxznWzcxlI3ERE6kzON1sxr10ZQ6kopmXSAyk_Lc,2284
+aiida_hyperqueue-0.1.1.dist-info/RECORD,,
