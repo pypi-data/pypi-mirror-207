@@ -1,0 +1,92 @@
+name: Deploy
+on:
+  push:
+    branches:
+      - main
+  release:
+    types: [published]
+
+jobs:
+  build-and-test:
+    name: "Build and Test Python 3.9"
+    runs-on: ubuntu-latest
+    if: always()
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+          cache: "pip"
+
+      - name: Install Dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements/requirements.txt
+          pip install pytest-github-actions-annotate-failures
+
+      - name: PyTest with code coverage
+        continue-on-error: true
+        run: |
+          pytest --cov=. --cov-report=term-missing --cov-report=xml --cov-branch
+
+      - name: Get the Coverage
+        shell: bash
+        run: |
+          regex='<coverage.+line-rate="([0-9).[0-9]+)".+>'
+          line=$(grep -oP $regex coverage.xml)
+          [[ $line =~ $regex ]]
+          coverage=$( bc <<< ${BASH_REMATCH[1]}*100 )
+          if (( $(echo "$coverage > 90" |bc -l) )); then
+            COLOR=green
+          else
+            COLOR=red
+          fi
+          echo "COVERAGE=${coverage%.*}%" >> $GITHUB_ENV
+          echo "COLOR=$COLOR" >> $GITHUB_ENV
+
+      - name: Create the Badge
+        uses: schneegans/dynamic-badges-action@v1.6.0
+        with:
+          auth: ${{ secrets.GIST_SECRET }}
+          gistID: 35bb996459f0949b38da651c66cf95cb
+          filename: coverage.${{ github.event.repository.name }}.main.json
+          label: coverage
+          message: ${{ env.COVERAGE }}
+          color: ${{ env.COLOR }}
+
+  build-n-publish:
+    name: Build and publish Python distributions to PyPI and TestPyPI
+    needs: build-and-test
+    runs-on: ubuntu-latest
+    if: github.event_name == 'release'
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+          cache: "pip"
+
+      - name: Install Dependencies
+        run: |
+          pip install --upgrade pip
+          pip install build
+          pip install twine
+
+      - name: Build a binary wheel and a source tarball
+        run: |
+          python -m build --sdist --wheel --outdir dist/ .
+
+      - name: Publish distribution to Test PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          password: ${{ secrets.TEST_PYPI_API_TOKEN }}
+          repository_url: https://test.pypi.org/legacy/
+
+      - name: Publish distribution to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          password: ${{ secrets.PYPI_API_TOKEN }}

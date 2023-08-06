@@ -1,0 +1,5 @@
+name: Movie
+slot_names:
+  TITLE:
+  GENRE:
+  ACTOR:
