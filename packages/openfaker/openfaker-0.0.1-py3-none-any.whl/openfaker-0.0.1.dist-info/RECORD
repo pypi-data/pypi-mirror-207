@@ -1,0 +1,11 @@
+openfaker/__init__.py,sha256=NWga5_9DYVG9jwQbUKPmGGcxn8FbnZDAHzrSLHWU7C0,167
+openfaker/bot.py,sha256=7Aqm8zQhzAIPHE5VyiRk8RAeduzT2RwEliuN4xSYIeE,484
+openfaker/exceptions.py,sha256=c__MOpW2Gmkw3KzeOQ0qGhK8-LMCwUQnVrinflVcP9o,384
+openfaker/openfaker.py,sha256=4gZE6OX7B5_5vnewBHcVzmYRzm3e0RQzSDsDa8MNFSE,942
+openfaker/prompter.py,sha256=TJl3rgcGgDhBTsAxVsW-vxDsFg-GJL1QDeiHzgCe0Gk,1795
+openfaker/utils.py,sha256=CDfoJy5J98aKlhBj_pTp6FLfYit7n56wk1Yndcg-ZXY,677
+openfaker-0.0.1.dist-info/LICENSE,sha256=te97TEsRpdSrKK_Ifa7qgXa-gepGBAr82cK_fCDBCKo,1083
+openfaker-0.0.1.dist-info/METADATA,sha256=i5v1r4Btffebk7I5tArgdYCVs4tFNf7QNUd1sb-gxsY,1435
+openfaker-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+openfaker-0.0.1.dist-info/top_level.txt,sha256=MJQnTULRGihzcWzAGib1Tbt0U_HVoU8SpmyCSwKQKvM,10
+openfaker-0.0.1.dist-info/RECORD,,
