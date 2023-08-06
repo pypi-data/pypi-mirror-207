@@ -1,0 +1,8 @@
+grpcio
+grpcio-tools
+protobuf
+Flask
+gunicorn
+requests
+opentelemetry-api
+opentelemetry-sdk
