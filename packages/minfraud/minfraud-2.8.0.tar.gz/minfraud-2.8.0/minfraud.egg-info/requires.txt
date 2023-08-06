@@ -1,0 +1,5 @@
+aiohttp<4.0.0,>=3.6.2
+email_validator<3.0.0,>=1.1.1
+geoip2<5.0.0,>=4.7.0
+requests<3.0.0,>=2.24.0
+voluptuous
