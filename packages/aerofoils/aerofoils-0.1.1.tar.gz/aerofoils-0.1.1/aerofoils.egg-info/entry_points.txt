@@ -1,0 +1,2 @@
+[console_scripts]
+aerofoils = aerofoils.cli:main
