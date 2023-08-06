@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+physicsfront/mqca/__init__.py
+physicsfront/mqca/_requires.py
+physicsfront/mqca/experiment.py
+physicsfront_mqca.egg-info/PKG-INFO
+physicsfront_mqca.egg-info/SOURCES.txt
+physicsfront_mqca.egg-info/dependency_links.txt
+physicsfront_mqca.egg-info/requires.txt
+physicsfront_mqca.egg-info/top_level.txt
