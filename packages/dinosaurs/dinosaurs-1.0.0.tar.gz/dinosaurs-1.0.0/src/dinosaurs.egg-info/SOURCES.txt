@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+src/dinosaurs.egg-info/PKG-INFO
+src/dinosaurs.egg-info/SOURCES.txt
+src/dinosaurs.egg-info/dependency_links.txt
+src/dinosaurs.egg-info/entry_points.txt
+src/dinosaurs.egg-info/requires.txt
+src/dinosaurs.egg-info/top_level.txt
