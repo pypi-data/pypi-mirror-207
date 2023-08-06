@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+xsystem.py
+xsystem.egg-info/PKG-INFO
+xsystem.egg-info/SOURCES.txt
+xsystem.egg-info/dependency_links.txt
+xsystem.egg-info/entry_points.txt
+xsystem.egg-info/top_level.txt
