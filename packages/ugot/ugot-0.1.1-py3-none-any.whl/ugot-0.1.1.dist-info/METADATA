@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ugot
+Version: 0.1.1
+Summary: ugot-Python SDK
+Platform: any
+Requires-Dist: concurrent-log-handler
+Requires-Dist: grpcio
+Requires-Dist: protobuf
+Requires-Dist: grpcio-tools
+Requires-Dist: wheel
+Requires-Dist: zeroconf
+
