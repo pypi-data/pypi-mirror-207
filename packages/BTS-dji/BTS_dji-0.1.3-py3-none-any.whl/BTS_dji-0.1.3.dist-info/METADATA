@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: BTS-dji
+Version: 0.1.3
+Summary: A simplified version of the dji robomaster library with some addons. Made for the bendigo tech school.
+Home-page: 
+Author: Bevan Matsacos
+Author-email: B.Matsacos@latrobe.edu.au
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pynput
+Requires-Dist: robomaster
+
+# BTS-dji
