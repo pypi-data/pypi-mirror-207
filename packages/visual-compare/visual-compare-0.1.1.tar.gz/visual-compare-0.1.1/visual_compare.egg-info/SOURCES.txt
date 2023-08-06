@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+doc/__init__.py
+doc/visual_test.py
+doc/image/__init__.py
+doc/image/compare_image.py
+doc/image/image.py
+doc/image/ocr.py
+utils/__init__.py
+utils/downloader.py
+visual_compare.egg-info/PKG-INFO
+visual_compare.egg-info/SOURCES.txt
+visual_compare.egg-info/dependency_links.txt
+visual_compare.egg-info/not-zip-safe
+visual_compare.egg-info/requires.txt
+visual_compare.egg-info/top_level.txt

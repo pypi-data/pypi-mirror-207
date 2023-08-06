@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: visual-compare
+Version: 0.1.1
+Summary: Image and PDF Compare
+Home-page: https://github.com/cuidingyong/visual-compare
+Author: Dillon
+Author-email: cuidingyong@yeah.net
+License: MIT
+Keywords: visual compare image pdf diff
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+Visual Compare
+==============
+
+Installation
+------------
+
+```commandline
+pip install visual-compare
+```
+
