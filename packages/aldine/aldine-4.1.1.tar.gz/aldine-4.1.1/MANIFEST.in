@@ -1,0 +1,7 @@
+include src/aldine/static/aldine/*
+include src/aldine/static/aldine/js/*
+include src/aldine/static/aldine/css/*
+include src/aldine/templates/aldine/*
+include src/aldine/templates/aldine/blocks/*
+
+recursive-exclude * .DS_Store *.pyc

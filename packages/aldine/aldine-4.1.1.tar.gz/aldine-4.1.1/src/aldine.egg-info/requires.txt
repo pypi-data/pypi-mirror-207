@@ -1,0 +1,5 @@
+Django<4.2,>=4.1
+wagtail<4.2,>=4.1
+steadfast<1.1,>=1.0
+csskit<1.1,>=1.0
+wagtail-content-admin<4.2,>=4.1
