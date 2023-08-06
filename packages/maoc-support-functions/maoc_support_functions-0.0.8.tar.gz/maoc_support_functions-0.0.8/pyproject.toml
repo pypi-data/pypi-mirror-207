@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "maoc_support_functions"
+version = "0.0.8"
+authors = [
+  { name="Stiv Llenga", email="stiv.llenga@h-its.org" },
+]
+description = "Functions for generating the MAOC representation."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/hits-ccc/MAOC"
