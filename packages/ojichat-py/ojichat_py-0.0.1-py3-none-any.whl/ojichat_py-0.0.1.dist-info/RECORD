@@ -1,0 +1,16 @@
+CREDITS.md,sha256=oBLNAYtNpzTi_VQTaQtNFG0aMFULle0t9A5wrb92xjQ,20695
+ojichat/__init__.py,sha256=4fZU7AzDVF3dDxDrqsSgWzlF9tjf_UQOUK2uxDsqq38,103
+ojichat/__main__.py,sha256=X5XUtDVwr3vxZg7DFDWIjfjybKyQEZqpu407Dpb8EWk,4033
+ojichat/__ver__.py,sha256=F3PNFMmnWiTq0SckTtw2_o__aEMh1i0PPtVJhGgPfWQ,235
+ojichat/generator/__init__.py,sha256=09hfVBF-zWEsMJW3R76sIeC9efPEExnww3PAWn1gIe0,40
+ojichat/generator/generator.py,sha256=PJP_0JZPUm6T5Sm2OEAlpfzOWwdw4ax33hjkJkmZ9cA,13394
+ojichat/generator/message.py,sha256=dOPjsOBrap4wxcBNaSMes1CipgN13zzVa53TXh_cS54,1617
+ojichat/generator/pconfig.py,sha256=bVGGdt3Xp6AMais2TYl7ljZnivLOdlcfYz3Nu3_PqnM,1022
+ojichat/pattern/__init__.py,sha256=l-hcRPtQx5_Sx7zsUHRZIfQj4w70Tk3DcafKYWVGsC0,80
+ojichat/pattern/onara.py,sha256=G3DKwYdEWVOBJrKUJbqdHJB215nwEDAc3wdTYGnrBHQ,8324
+ojichat/pattern/tags.py,sha256=DQtspnrLNjmcg5p2hzPfABeTFyT_akiwZ4opMRONTtA,5185
+ojichat_py-0.0.1.dist-info/METADATA,sha256=UxkdCrLPYNTc_htX6cbdk0tgiy4M2zoaaDFakBkOcw0,6038
+ojichat_py-0.0.1.dist-info/WHEEL,sha256=7dGFtUmOf30dPBLpGD2z643cxg89joO7p3JHBAwDv6E,90
+ojichat_py-0.0.1.dist-info/entry_points.txt,sha256=YY29EXdyF9EvSb9O8JOIaDNt_VV5LUc4XBdn2scINCg,55
+ojichat_py-0.0.1.dist-info/licenses/LICENSE,sha256=Spxh8UwDbG0l0PoMY9EMoLbxT6Jf6yfZX82RZSYefz0,1070
+ojichat_py-0.0.1.dist-info/RECORD,,
