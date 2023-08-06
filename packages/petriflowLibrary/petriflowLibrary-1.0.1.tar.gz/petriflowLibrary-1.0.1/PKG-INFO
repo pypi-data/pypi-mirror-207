@@ -1,0 +1,151 @@
+Metadata-Version: 2.1
+Name: petriflowLibrary
+Version: 1.0.1
+Summary: Import/Export library
+Author: Peter Kopecký
+Author-email: xkopecky@stuba.sk
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Petriflow Library - A tool for parsing Petriflow files in Python
+
+![Python 3.11](https://img.shields.io/badge/Python-3.11-brightgreen?style=plastic)
+![pypi](https://img.shields.io/badge/pypi-1.0.0-orange?style=plastic)
+![unittest](https://img.shields.io/badge/unittest-%20-blue?style=plastic)
+[![Public domain](https://img.shields.io/badge/License-Unlicensed-lightgray?style=plastic)](https://unlicense.org)
+
+
+PetriflowLibrary is a library in the Python language for handling objects 
+in the Petriflow language. The main objective of the library is to import 
+and export Petriflow files to work more closely with these objects.
+
+### Who is it for?
+PetriflowLibrary is very easy to use. If you are a student 
+or just need to get the contents of an XML document in Python to work with 
+data as objects, the library provides you convenient and flexible tools for 
+processing them. It also provides the option to import the file from the path 
+on the device or as a URL where the XML document is located. During this process, 
+the document is also validated, and if it is invalid, the library throws an error.
+
+### What can it do?
+- import XML documents based on [XSD](../petriflowLibrary/resources/petriflow.schema.xsd)
+- modify XML documents (set, get, add, insert, replace)
+- export modified XML documents using "pretty_print", which guarantees a tree-structured output document
+- compatible with the latest version of Python 3
+- fully tested using unittests
+
+Most importantly, PetriflowLibrary will save you time and prevent you from getting parsing headaches.
+
+---
+## Install PetriflowLibrary
+```
+pip install petriflowLibrary
+```
+
+### Get started
+The following is an illustration of how to use the library:
+
+Original XML file:
+```xml
+<data type="text">
+    <id>text_0</id>
+    <title>Meno</title>
+</data>
+```
+Using Python to modify an XML file:
+
+```Python
+from petriflow import *
+
+file_object = open("../resources/hypouver.xml", encoding="utf-8")
+doc = import_xml(file_object)
+file_object.close()
+
+doc.data[0].set_encryption(encryption())
+doc.data[0].encryption.set_valueOf_(True)
+
+export_xml(doc, "C:/Users/peterkox/Downloads/output.xml")
+```
+Output XML file:
+```xml
+<data type="text">
+    <id>text_0</id>
+    <title>Meno</title>
+    <encryption>true</encryption>
+</data>
+```
+Note that we opened the file with the `open()` method and set the encoding to utf-8. 
+This method has the default encoding set to None, so it would encode unicode 
+characters incorrectly. Also note that we use dot notation to access individual 
+objects. Be careful with arrays, because autocomplete does not work with them, 
+so you need to know exactly what you want to type or access.
+
+
+
+### You can find it here:
+- **[Main implementation](../petriflowLibrary/petriflow/xml_classes.py)**
+- **[Tests](../petriflowLibrary/tests/xml_classes_tests.py)** - automated tests using [unittest](http://docs.python.org/library/unittest.html)
+
+---
+
+## Method code explanation
+
+[`import_xml`](https://github.com/PeterKoXcode/bachelorThesis/blob/master/petriflow/xml_classes.py#L15210)
+- The first step is parsing itself. The method takes an argument representing 
+the path to the file and additionally has one optional argument representing 
+the type of the parser itself. If this argument is not specified, the method 
+automatically sets the standard parser, which is the so-called ETCompatXMLParser(). 
+It is flexible and moreover compatible for ElementTree from lxml and also takes 
+care of what would be done by the parser provided by the 
+xml.etree.ElementTree module in alternative case. After parsing, the ElementTree 
+object is stored in the `doc` variable. The second step is validation using a method 
+created by us, which ensures from the beginning that no further work is done with 
+the faulty document. Before saving the namespace from the XML document, we get 
+the root element using the `doc.getroot()` method and the root tag using a separate 
+`get_root_tag()` method. If the root element class is not found, it will be 
+set to "document" as the default top layer of the document. The `factory()` method 
+finally creates and returns an object instance of the given root element, which 
+we will then directly work with when modifying the document as a whole. Finally, 
+with the `build()` method, we fill this object with XML document data. Method returns 
+"document" object.
+
+[`export_xml`](https://github.com/PeterKoXcode/bachelorThesis/blob/master/petriflow/xml_classes.py#L15242)
+- Based on the root element object, which is the first argument of the method, 
+we will create an ElementTree, which we will then store in the location 
+specified in advance by the second argument of the method.
+
+[`validate_doc`](https://github.com/PeterKoXcode/bachelorThesis/blob/master/petriflow/xml_classes.py#L15185)
+- The method first gets the absolute path to the library and then uses it to 
+create a relative path to the XSD available in the library's resources folder. 
+By subsequently using a relative path, the method can load the XSD file. 
+By default, we insert the loaded schema into the ElementTree using the `XMLSchema()` 
+method, which returns an object on which we can now call the `validate()` method. 
+If it is not a valid XML document, the condition catches the case, prints an error 
+and terminates the program.
+
+[`set_namespace_defs`](https://github.com/PeterKoXcode/bachelorThesis/blob/master/petriflow/xml_classes.py#L92)
+- The logic builds on iteration through the elements and searches for the root 
+element based on obtaining the root when parsing the XML document. We then go 
+through each key:value and insert them in a specific format. The keys are written 
+in the form `{standard-namespace-prefix}noNamespaceSchemaLocation`, so we need 
+to extract the attribute name from it, then we can easily get the value from 
+the key. Finally, we create a dictionary where the key is the root tag and the 
+value is our entire namespace, we clean the contents of the variable 
+`GenerateDSNamespaceDefs_` and fill it with a new dictionary.
+
+---
+
+## Contact the author
+
+Questions about code are best asked on [discord](https://discord.gg/DSSqjUhMUy) or in the issues.
+
+-- [Peter](https://github.com/PeterKoXcode)
