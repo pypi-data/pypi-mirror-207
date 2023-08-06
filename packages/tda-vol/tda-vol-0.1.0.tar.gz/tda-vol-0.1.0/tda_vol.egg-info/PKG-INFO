@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: tda-vol
+Version: 0.1.0
+Summary: Uses TD Ameritrades API in order to analyze stock/option data. Primarly deals with implied volatility (IV).
+Author: Ben Adelman
+Author-email: benadelman2006@gmail.com

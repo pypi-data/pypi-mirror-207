@@ -1,0 +1,5 @@
+numpy
+pandas
+tda-api
+scipy
+matplotlib
