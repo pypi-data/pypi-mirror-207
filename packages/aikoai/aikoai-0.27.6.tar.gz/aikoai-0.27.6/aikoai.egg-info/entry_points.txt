@@ -1,0 +1,2 @@
+[console_scripts]
+aikoai = aikoai._aikoai_scripts:main
