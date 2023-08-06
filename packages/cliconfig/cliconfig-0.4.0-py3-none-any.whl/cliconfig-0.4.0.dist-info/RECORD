@@ -1,0 +1,17 @@
+cliconfig/__init__.py,sha256=gJYQsMqqhHpLMkKR2M8Y4NSWo2o3W03LrlZ54ozFbBQ,1470
+cliconfig/_version.py,sha256=QiCQVGOicQZY3DBr4tYPU9egzT1VgzOJGfLt9Q26uyU,160
+cliconfig/build_config.py,sha256=ufl3voJLnpNbl8e8-93hECwGIdiC6--rWyD_EDo1BGU,4768
+cliconfig/cli_parser.py,sha256=VQf1Cl9Msol-p3HBfMXSKEeSjZKuqwfkhpGt8B1VEhE,2029
+cliconfig/dict_routines.py,sha256=HxB8jbyVvypnGQZCP_Yuj93ZvEkSGpbv3W9OTPrqSGs,14687
+cliconfig/process_routines.py,sha256=Pmq5iabcE3ies8AfJqXX8ihOcisWGy1-Dac_wAhET3A,7465
+cliconfig/tag_routines.py,sha256=xPTJQ0eyYDyT_rOlP3opqic0Md50PDn3LG0GILhTCyc,1928
+cliconfig/processing/__init__.py,sha256=BaK0ja9wbhig1SRph3hI1f_Z_EVVVSt2aa1qyCXZ2CQ,87
+cliconfig/processing/_type_parser.py,sha256=qi5I7qTdsfE2Pc5-qjRp1PY8FqjLUTPC-e0gXa-hdYA,3118
+cliconfig/processing/base.py,sha256=8vKKMSTNn3K_rXqLMdFybxelqiwceET5iGgicNe9RHU,1779
+cliconfig/processing/builtin.py,sha256=rt5nveTiwZfVgxV0e_t28Bs0R2W0tsbZwNhJu1baiWI,10959
+cliconfig/processing/create.py,sha256=MJw-eGA-gnw6xj2fK_21QCNl2vRKAeo6ezNl7IkCWMY,3396
+cliconfig-0.4.0.dist-info/LICENSE,sha256=Pi-bfggvNCn_vo9Wnrhhvqj5RjvqUaEGB4g9cqKLAFU,1074
+cliconfig-0.4.0.dist-info/METADATA,sha256=MaN__iulE0mp9fNSpWv5ZRU1tU9Yt2x6xfsfqF_rPr0,8000
+cliconfig-0.4.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+cliconfig-0.4.0.dist-info/top_level.txt,sha256=DxgxNKnLjiX6BPW3123Az0Tlnh0Yd7wlL8YKRLKhWHE,10
+cliconfig-0.4.0.dist-info/RECORD,,
