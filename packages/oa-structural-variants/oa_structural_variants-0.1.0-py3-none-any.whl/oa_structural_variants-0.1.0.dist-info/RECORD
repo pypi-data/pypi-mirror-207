@@ -1,0 +1,10 @@
+oa_structural_variants/__init__.py,sha256=s9O0f8xVGr50Yi7BqbI0XOuX3JN38fV6BwgYbh0H3rA,51
+oa_structural_variants/fusion/__init__.py,sha256=Rn7A14wl-XkgNitBDAUwxfyZt6at9IRPKrLofE5h9BE,66
+oa_structural_variants/fusion/fusion.py,sha256=pwdp75wSek1IaRkk1qY_fDtcutPecikuFzjdGQeuMv4,4413
+oa_structural_variants/fusion/partner.py,sha256=dSmRz16KyieklOpncarOtbDDCLm2ED2AgjJctz_X2p0,4301
+oa_structural_variants/fusion/utils.py,sha256=E4bET9duZa062NQV6-AkKAkeE1U-MQZouW0XE74xwrw,999
+oa_structural_variants/structural_variants.py,sha256=17o5liytXuCNllKN7s6Y3iZaqqj_AZKUahU0ffjQCGw,88
+oa_structural_variants/utils.py,sha256=a-x-rliTWktnRD7nWlQIu8nByWWvY5vIH3nONBujqLk,715
+oa_structural_variants-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+oa_structural_variants-0.1.0.dist-info/METADATA,sha256=_rLNvXWhtJSdqw-TBZyQLd954LOtHruPbsmK9hxrxps,1977
+oa_structural_variants-0.1.0.dist-info/RECORD,,
