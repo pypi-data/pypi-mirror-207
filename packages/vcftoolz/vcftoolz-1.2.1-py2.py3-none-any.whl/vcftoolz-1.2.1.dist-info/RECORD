@@ -1,0 +1,11 @@
+vcftoolz/__init__.py,sha256=yM1QRyDSOsEZXeIxQN6NLM-0-tZmPsaI_5xBeiUPD7I,113
+vcftoolz/cli.py,sha256=LYmSItXfVxOiMcW1hBqAdYpUexk9DHcHAoy4RSsxqww,13994
+vcftoolz/vcf_call_parser.py,sha256=DrlwIHW85MYAgjJcuT6amCupzT6NHRIVBqjAXNtaisQ,28430
+vcftoolz/vcftoolz.py,sha256=7UiaBkktUJouI7UMW36enGkmDBhngYMonYdKdcNQWGU,45814
+vcftoolz-1.2.1.dist-info/AUTHORS.rst,sha256=rvhVvjAcHrkulpBkfew6NNgnrnwfCGoVTloQSgagdcU,220
+vcftoolz-1.2.1.dist-info/LICENSE,sha256=NSjOell47SKv3u3ZGoHPTwg64ca-sDONxudNa74s8pI,1556
+vcftoolz-1.2.1.dist-info/METADATA,sha256=2xIZw_-TQIlx_fF1B-vKd5v8aTWDN7-9_6STmO-L3AI,3972
+vcftoolz-1.2.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+vcftoolz-1.2.1.dist-info/entry_points.txt,sha256=sWMR-eLI1ZUDcIR9E5OFOyCmhnelCzNfGsDD9dwoCj0,48
+vcftoolz-1.2.1.dist-info/top_level.txt,sha256=AxoGj4C18yDOaK6crl804DYJa6mtOVhzJb68B-Ec8q0,16
+vcftoolz-1.2.1.dist-info/RECORD,,
