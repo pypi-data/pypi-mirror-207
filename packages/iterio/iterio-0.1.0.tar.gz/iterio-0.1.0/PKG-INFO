@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: iterio
+Version: 0.1.0
+Summary: Python IO using iterators
+Home-page: https://github.com/alexandermalyga/iterio
+License: MIT
+Author: Alexander Malyga
+Author-email: alexander@malyga.io
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Project-URL: Repository, https://github.com/alexandermalyga/iterio
+Description-Content-Type: text/markdown
+
+# iterio
+Python IO using iterators
+
+## Installation
+
+```
+pip install iterio
+```
+
+## Contributing
+
+Set up the project using [Poetry](https://python-poetry.org/):
+
+```
+poetry install
+```
+
+Format the code:
+
+```
+make lint
+```
+
+Run tests:
+
+```
+make test
+```
+
+Check for typing and format issues:
+
+```
+make check
+```
+
