@@ -1,0 +1,6 @@
+httpbin
+
+[test]
+requests
+pytest
+werkzeug<2.1.0
