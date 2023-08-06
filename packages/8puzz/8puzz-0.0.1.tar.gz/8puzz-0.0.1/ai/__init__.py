@@ -1,0 +1,1 @@
+from ai.solve import puzzle
