@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "el_decko_core"
+dynamic = ["version"]
+readme = "README.md"
+description = "El Decko Core"
+license = { text = "GPL-3"}
+dependencies = [
+    "streamdeck",
+    "Pillow",
+    "xdg; platform_system=='Linux'"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Z-Ray-Entertainment/el_decko_core"
+"Bug Tracker" = "https://github.com/Z-Ray-Entertainment/el_decko_core/issues"
+
+[project.optional-dependencies]
+backends = ["el_decko_backend_obs_ws", "el_decko_backend_mpris"]
+
+[project.scripts]
+ed-core = "ed_core:run"
+
+[tool.setuptools.dynamic]
+version = { attr = "ed_core.VERSION" }
+
+[tool.setuptools]
+include-package-data = true
+platforms = ["Linux"]

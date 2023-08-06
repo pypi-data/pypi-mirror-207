@@ -1,0 +1,9 @@
+streamdeck
+Pillow
+
+[:platform_system == "Linux"]
+xdg
+
+[backends]
+el_decko_backend_obs_ws
+el_decko_backend_mpris
