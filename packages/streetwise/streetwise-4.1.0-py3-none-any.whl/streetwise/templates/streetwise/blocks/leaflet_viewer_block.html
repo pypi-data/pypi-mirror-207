@@ -1,0 +1,15 @@
+{% load static wagtailcore_tags %}
+
+<div class="map-view{% if container_class %} {{ container_class }}{% endif %}"
+     id="{{handle}}"
+     {% if container_style %}
+     style="{{ container_style }}"
+     {% endif %}
+     data-initiator-create="streetwise.LeafletMapInitialiser"
+     data-maps-metadata="{{media_item.metadata_json}}"
+>
+</div>
+
+{% for annotation in media_item.annotations %}
+<div class="map-marker" data-map-marker-metadata='{{annotation.value.as_json}}'></div>
+{% endfor %}
