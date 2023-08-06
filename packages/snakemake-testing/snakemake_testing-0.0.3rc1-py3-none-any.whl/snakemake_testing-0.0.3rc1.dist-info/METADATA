@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: snakemake-testing
+Version: 0.0.3rc1
+Summary: Tools for testing Snakemake workflows
+Author: Dan Foreman-Mackey
+Author-email: foreman.mackey@gmail.com
+Requires-Python: >=3.9
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: snakemake
+Description-Content-Type: text/markdown
+
+# Snakemake testing
+
+Tools for testing [Snakemake](https://snakemake.readthedocs.io) workflows
+
