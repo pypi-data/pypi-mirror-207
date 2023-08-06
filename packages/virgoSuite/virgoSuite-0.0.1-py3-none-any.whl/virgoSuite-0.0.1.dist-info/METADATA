@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: virgoSuite
+Version: 0.0.1
+Summary: Toolbox used from the data analysis group of Virgo Rome
+Author: Riccardo Felicetti
+Author-email: riccardo.felicetti@infn.it
+License: MIT
+Classifier: Development Status :: 2 - Pre-Alpha
+License-File: LICENSE
+
+# CartaBianca
