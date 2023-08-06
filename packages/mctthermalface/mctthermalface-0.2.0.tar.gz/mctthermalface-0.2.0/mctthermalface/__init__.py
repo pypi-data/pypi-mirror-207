@@ -1,0 +1,1 @@
+from .mctthermalface import Detector
