@@ -1,0 +1,9 @@
+tiledbsoma==1.2.3
+anndata
+numpy<1.24,>=1.21
+requests
+typing_extensions
+s3fs
+scipy
+certifi
+tiledb
