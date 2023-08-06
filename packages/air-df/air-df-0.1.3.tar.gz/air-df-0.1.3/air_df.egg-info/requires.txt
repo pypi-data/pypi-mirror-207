@@ -1,0 +1,9 @@
+redis~=4.0.2
+pymongo~=4.0
+xlrd~=1.2.0
+captcha~=0.3
+Faker~=9.9.0
+SQLAlchemy~=1.4.21
+XlsxWriter~=3.0.2
+tornado~=6.1
+setuptools~=49.2.1
