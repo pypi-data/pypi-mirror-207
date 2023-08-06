@@ -1,0 +1,8 @@
+{% load i18n %} {% load l10n %} {% load rich_text %}
+
+{{ information_text | rich_text }}
+<dl class="dl-horizontal">
+  <dd><strong>Número para pagamento</strong></dd>
+  <dt>{{ msisdn }}</dt>
+</dl>
+{{ instructions | rich_text }}
