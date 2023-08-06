@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Events Page</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 15px;
+            line-height: 1.6;
+        }
+        * {
+            font-family: 'Quicksand', sens-serif;
+        }
+        h1 {
+            color: #009879;
+        }
+        .toast {
+            position: fixed;
+            margin: 10px;
+            top: 0;
+            right: 50px;
+            width: 250px;
+            padding: 6px;
+            background: #009878;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: center;
+            border: 1px solid #aaaaaa;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            visibility: hidden;
+            opacity: 0;
+            transition: opacity 0.2s top 0.2s visibility 0.2s;
+        }    
+        .toast--visible {
+            top: 20px;
+            opacity: 1;
+            visibility: visible;
+        }
+        .toast--visible::before{
+            content: "";
+            position: absolute;
+            height: 2px;
+            width: calc(100% * var(--progress, 0));
+            background-color: white;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+        .toast::after {
+            content: "\00D7";
+            position: absolute;
+            top: 2px;
+            right: 5px;
+        }
+        .content-table{
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.9em;
+            min-width: 800px;
+            border-radius: 5px 5px 0 0;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+        }
+        .content-table thead tr {
+            background-color: #009879;
+            color: #ffffff;
+            text-align: left;
+            font-weight: bold;
+        }
+        .content-table th,
+        .content-table td {
+            padding: 12px 15px;
+        }
+
+        .content-table tbody tr {
+            border-bottom: 1px solid #dddddd;
+        }
+        .content-table tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+        }
+        .content-table tbody tr:last-of-type {
+            border-bottom: 2px solid #009879;
+        }
+        .content-table tbody tr td.open {
+            font-weight: bold;
+            color: #009878;
+        }
+    </style>
+  </head>
+  <body>
+      <div id="root">
+          <h1>Event Table</h1>
+          <hr>
+          <table class="content-table">
+              <thead>
+                <tr>
+                    <th>id</th>
+                    <!-- <th>type</th> -->
+                    <th>locations</th>
+                    <th>sloutions</th>
+                </tr>
+              </thead>
+              <tbody id="events">
+              </tbody>
+          </table>
+      </div>
+      <script>
+          const Toast = {
+              init() {
+                  this.hideTimeout = null;
+                  this.el = document.createElement('div');
+                  this.el.className = 'toast';
+                  document.body.appendChild(this.el)
+              },
+              show(message) {
+                    clearTimeout(this.hideTimeout);
+                    this.el.textContent = message;
+                    this.el.className = 'toast toast--visible';
+                    this.visibleSince = new Date();
+                    setInterval(() => {
+                        const timeVisible = new Date() - this.visibleSince;
+                        this.el.style.setProperty(
+                            "--progress",
+                            timeVisible / 3000
+                        )
+                    })
+                    this.hideTimeout = setTimeout(() => {
+                        this.el.classList.remove('toast--visible');
+                    }, 3000);
+              }
+          };
+          Toast.init()
+          const eventSocket = new WebSocket(
+              "ws://" +
+              window.location.host +
+              "/ws/tsp/"
+          );
+          eventSocket.onmessage = function (e) {
+              const data = JSON.parse(e.data);
+              console.log(data)
+              if (data.type === "question") {
+                const newTr      = document.createElement("tr");
+                const eventId    = document.createElement("td");
+                // const eventType  = document.createElement("td");
+                const eventLocation = document.createElement("td");
+
+                newTr.className = "event";
+                newTr.setAttribute("id", data.id); 
+                eventLocation.className = data.type
+                
+                let locations = []
+                if (data.type === "question") {
+                  for (l in data.locations){
+                      locations.push(data.locations[l].name)
+                      }
+                  }
+                else {
+                    locations = data.locations
+                }
+              
+                eventLocation.innerHTML = locations.toString()
+                eventId.innerHTML = data.id
+                // eventType.innerHTML = data.type
+
+                newTr.appendChild(eventId)
+                // newTr.appendChild(eventType)
+                newTr.appendChild(eventLocation)
+
+                const root = document.querySelector('#events');
+                root.appendChild(newTr)
+            }
+            else {
+
+                const eventSloution = document.createElement("td");
+                const tr = document.getElementById(`${data.id}`);
+                eventSloution.innerHTML = data.locations
+                tr.appendChild(eventSloution)
+ 
+            }
+                Toast.show(`${data.type} Event added`)
+            }
+          eventSocket.onclose = function(e) {
+            console.error('socket closed unexpectedly');
+        };
+      </script>
+  </body>
+</html>
