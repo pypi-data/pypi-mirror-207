@@ -1,0 +1,5 @@
+setup.py
+setupTestICP.egg-info/PKG-INFO
+setupTestICP.egg-info/SOURCES.txt
+setupTestICP.egg-info/dependency_links.txt
+setupTestICP.egg-info/top_level.txt
