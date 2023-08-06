@@ -1,0 +1,9 @@
+game_coro-0.0.1.dist-info/METADATA,sha256=AsXejcnDauFGDu8ORSVB860wXaUWX-jdPUt_UQSXoNE,2073
+game_coro-0.0.1.dist-info/WHEEL,sha256=7dGFtUmOf30dPBLpGD2z643cxg89joO7p3JHBAwDv6E,90
+game_coro-0.0.1.dist-info/licenses/LICENSE,sha256=ZsNgjgNt6K_636m3MIhkkLmBD8ilskKEHwCb07Cu4fM,1061
+game_coro/__init__.py,sha256=G8ouGvL1LfqbzvBwkDcJGeaRj4wqaw1TnvzKoY9CiPc,311
+game_coro/context.py,sha256=x2HlPBuD_wnU056COfWWECwm-Ol7sgP1E58LuhIrbXM,2010
+game_coro/coroutine.py,sha256=T6w0cUBUzbYQEmyBDkPPfo2QHF_LM2at5uAFMCXKoT0,1899
+game_coro/manager.py,sha256=k2-0sRI9Iu41MyxZuWsm8w_UUHc1RYwuYHpV5sigO7s,1633
+game_coro/misc.py,sha256=AR0pQIq9nc2TNolMRpox3BIi1dQZp-SK-swWt29WJRs,688
+game_coro-0.0.1.dist-info/RECORD,,
