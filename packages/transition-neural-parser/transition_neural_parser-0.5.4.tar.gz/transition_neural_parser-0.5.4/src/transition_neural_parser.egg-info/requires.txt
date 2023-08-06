@@ -1,0 +1,16 @@
+torch==1.13.1
+numpy<=1.23.5
+ipython<=8.12
+tqdm>=4.55.0
+packaging>=20.8
+requests>=2.25.1
+h5py>=3.0.0
+python-dateutil>=2.8.1
+penman>=1.1.0
+smatch
+ipdb
+line_profiler>=4.0.2
+pyinstrument>=4.4.0
+boto3>=1.26.1
+progressbar
+fairseq==0.10.2
