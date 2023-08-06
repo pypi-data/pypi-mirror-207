@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+tests/test_downloader.py
+tests/test_serialiser.py
+tests/test_with_mypy.py
+weightie/__init__.py
+weightie/downloader.py
+weightie/py.typed
+weightie/serialiser.py
+weightie.egg-info/PKG-INFO
+weightie.egg-info/SOURCES.txt
+weightie.egg-info/dependency_links.txt
+weightie.egg-info/requires.txt
+weightie.egg-info/top_level.txt
