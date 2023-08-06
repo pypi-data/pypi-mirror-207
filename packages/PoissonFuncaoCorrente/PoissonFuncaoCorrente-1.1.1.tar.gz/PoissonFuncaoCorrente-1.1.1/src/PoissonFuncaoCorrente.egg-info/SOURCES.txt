@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/PoissonFuncaoCorrente.egg-info/PKG-INFO
+src/PoissonFuncaoCorrente.egg-info/SOURCES.txt
+src/PoissonFuncaoCorrente.egg-info/dependency_links.txt
+src/PoissonFuncaoCorrente.egg-info/top_level.txt
