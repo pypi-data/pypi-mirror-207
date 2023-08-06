@@ -1,0 +1,7 @@
+main.py
+pyproject.toml
+discordgpt.egg-info/PKG-INFO
+discordgpt.egg-info/SOURCES.txt
+discordgpt.egg-info/dependency_links.txt
+discordgpt.egg-info/requires.txt
+discordgpt.egg-info/top_level.txt
