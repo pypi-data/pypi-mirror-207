@@ -1,0 +1,14 @@
+wagtail_dynamic_choice/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtail_dynamic_choice/apps.py,sha256=AjeoIjyfeUisJ7QKnkeuf2JaqqW3S0yRQuZmjYGN-B0,554
+wagtail_dynamic_choice/blocks.py,sha256=m1zwq8wXPHogeFzlYRIoxTX88a4Cdl1En302IpoW84c,4069
+wagtail_dynamic_choice/form_fields.py,sha256=xyWf0YNKGQZ_7Hnh8g27_s5BIoESS8NVprZd7uXmtt8,1741
+wagtail_dynamic_choice/function_specifier.py,sha256=AQmC1hH3hVGzROrloE94rT0ZZeb4UmYtAz5Tjq6PlAU,1109
+wagtail_dynamic_choice/model_fields.py,sha256=_6qN9rajs2v0F8cxuJ0dXBI3K4kwPM8QhLOxQyGpUL8,3856
+wagtail_dynamic_choice/widgets.py,sha256=kpvnTiK928Yl6luk4xCJ0FRgcnwo53C3E5eeKeKv1ng,738
+wagtail_dynamic_choice-4.1.0.dist-info/AUTHORS.txt,sha256=964o0V0C4P8MLuinu4syjuy_nyHnpNnxD_YsFeFJ1XM,19
+wagtail_dynamic_choice-4.1.0.dist-info/LICENSE.txt,sha256=NweSuHwd8SQNUs3BTbbG8_n89lPrXG0pc38voODAHcw,1525
+wagtail_dynamic_choice-4.1.0.dist-info/METADATA,sha256=pjb3_5GsABrvErqay3_IBHBI3Gr530ml4DGRbqiEWAA,1338
+wagtail_dynamic_choice-4.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+wagtail_dynamic_choice-4.1.0.dist-info/top_level.txt,sha256=m4SUAOTHDpIZM_Z-3NDt5IR8QYxmC4ebcxR386WUV8Q,23
+wagtail_dynamic_choice-4.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+wagtail_dynamic_choice-4.1.0.dist-info/RECORD,,
