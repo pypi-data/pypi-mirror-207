@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+setup.py
+moddagudu/__init__.py
+moddagudu/mg.py
+moddagudu.egg-info/PKG-INFO
+moddagudu.egg-info/SOURCES.txt
+moddagudu.egg-info/dependency_links.txt
+moddagudu.egg-info/requires.txt
+moddagudu.egg-info/top_level.txt
