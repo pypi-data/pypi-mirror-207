@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+news_recommender_metrics/__init__.py
+news_recommender_metrics.egg-info/PKG-INFO
+news_recommender_metrics.egg-info/SOURCES.txt
+news_recommender_metrics.egg-info/dependency_links.txt
+news_recommender_metrics.egg-info/top_level.txt
