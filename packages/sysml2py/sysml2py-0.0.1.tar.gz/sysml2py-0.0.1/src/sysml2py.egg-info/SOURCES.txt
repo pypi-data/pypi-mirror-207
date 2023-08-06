@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/sysml2py/Analysis.py
+src/sysml2py/Case.py
+src/sysml2py/SysML.py
+src/sysml2py/Verification.py
+src/sysml2py/__init__.py
+src/sysml2py/examples.py
+src/sysml2py/loads.py
+src/sysml2py.egg-info/PKG-INFO
+src/sysml2py.egg-info/SOURCES.txt
+src/sysml2py.egg-info/dependency_links.txt
+src/sysml2py.egg-info/top_level.txt
