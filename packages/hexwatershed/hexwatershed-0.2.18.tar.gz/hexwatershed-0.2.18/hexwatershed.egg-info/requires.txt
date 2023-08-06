@@ -1,0 +1,5 @@
+packaging
+numpy
+matplotlib
+gdal
+pyflowline
