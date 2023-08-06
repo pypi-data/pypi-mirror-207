@@ -1,0 +1,7 @@
+setup.py
+Machine_Learning_Classes/__init__.py
+Machine_Learning_Classes/helper_function.py
+PatrykAutoAI.egg-info/PKG-INFO
+PatrykAutoAI.egg-info/SOURCES.txt
+PatrykAutoAI.egg-info/dependency_links.txt
+PatrykAutoAI.egg-info/top_level.txt
