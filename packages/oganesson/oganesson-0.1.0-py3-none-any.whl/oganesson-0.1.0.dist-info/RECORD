@@ -1,0 +1,12 @@
+oganesson/VERSION,sha256=atlhOkVXmNbZLl9fOQq0uqcFlryGntaxf1zdKyhjXwY,5
+oganesson/__init__.py,sha256=BiZjWlGBBrMKOZcWdZsLZ40qFaw_zx_JX3wrTMC8xw4,74
+oganesson/__main__.py,sha256=DIZDj87h3SsJbndpXthu0YDSZthaWlKHUgLH0DTwSlk,72
+oganesson/cli.py,sha256=onsL4ZiIWSqvGOKuvUSQbhF3go4Od61V7lZp_lJ2K9Y,1234
+oganesson/ogai.py,sha256=KejVxB4wxV9RPAxGuu3z7nAj5XYJWUS3tAGOfIUzSV8,21
+oganesson/version.py,sha256=c5yTqKd1UOdwg804tArb-NibvnjIk8DnZUpYbNS62wg,136
+oganesson-0.1.0.dist-info/LICENSE,sha256=GToBRVPkNCMilpLvyDC3Z428zY5W-xGc8PTMB43Dj5Y,1107
+oganesson-0.1.0.dist-info/METADATA,sha256=1IDoBB1n51xyg2Qov0fgdSWnEPb4-RrUkwCPT0_lork,481
+oganesson-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+oganesson-0.1.0.dist-info/entry_points.txt,sha256=_QuR6D1d_s1itc6wloi45qkEPVRGaGsNFcQkHGJVhS0,56
+oganesson-0.1.0.dist-info/top_level.txt,sha256=0CYjgJd1qLtcX2X0yE6rOl7h0Ne1HCgCxohibhMM54M,10
+oganesson-0.1.0.dist-info/RECORD,,
