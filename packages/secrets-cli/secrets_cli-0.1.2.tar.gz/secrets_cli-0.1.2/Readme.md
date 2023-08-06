@@ -1,0 +1,34 @@
+# Secrets CLI
+
+A tool to dynamically load your secrets from the secure vault into your runtime environment.
+
+## Getting Start
+
+Install the CLI using pip
+```bash
+$ pip install secrets-cli
+```
+
+Setup the CLI with Pangea's vault. Visit [Pangea](https://console.pangea.cloud/service/vault/data) and create a new token.
+```bash
+$ pangea setup
+```
+Enter your pangea token when prompted.
+
+Now, select folder to load your secrets from
+```bash
+$ pangea select --folder-name <FOLDER_NAME>
+```
+
+You're all set 🏎️ \
+Run any application in any environment and pull your secrets securely from Pangea using the `pangea run`
+
+```bash
+$ pangea run npm run dev
+```
+
+OR
+
+```bash
+$ pangea run python3 app.py
+```
