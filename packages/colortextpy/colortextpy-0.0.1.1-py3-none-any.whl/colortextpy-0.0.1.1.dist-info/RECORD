@@ -1,0 +1,12 @@
+colortextpy/__init__.py,sha256=-g27SG6D3gaNHZXK2IZqfaLS1oP8Wa3ak4eOkd6yRuw,114
+colortextpy/_modidx.py,sha256=iRfgyFnpWIXyxmeKdghgTfNhxonUTBvVkLXvajRvJ74,9441
+colortextpy/ansicolor.py,sha256=gvo1cl1s9UQBjkjR5_lQle6XCLzC0cUN0RalyN2895c,3310
+colortextpy/color.py,sha256=qWuCKbjPIfU8xWUnTO-6eI75SKIJnh1RpLC_1m28xY0,12367
+colortextpy/colorize.py,sha256=hQNshRFd1u54ewkSHB5dfgROs0SZmNaZXlzenAN718Q,8022
+colortextpy/printer.py,sha256=XtG0NdtMGQHXv5Np14cvzt5cyWlf0Vz67TtAY8fxuqo,1429
+colortextpy-0.0.1.1.dist-info/LICENSE,sha256=XB90sWnQQMAhfcjr3tKXj0uTxAsdmymR07IRZiRK6pk,1063
+colortextpy-0.0.1.1.dist-info/METADATA,sha256=WXWhERwDphx3N3w8exU4j0_BkCLTIwZGuQb7-OfVtNI,1317
+colortextpy-0.0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+colortextpy-0.0.1.1.dist-info/entry_points.txt,sha256=-Cx5ZX5z0WCkp8ZGeBiH400f0cjjZgvYzBPfrzjrX7g,44
+colortextpy-0.0.1.1.dist-info/top_level.txt,sha256=56D_OR38x57qAfDWF1WUMNAjlFWE6pWvUk8xadPYUGc,12
+colortextpy-0.0.1.1.dist-info/RECORD,,
