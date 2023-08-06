@@ -1,0 +1,10 @@
+ableton_helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ableton_helpers/change_version/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ableton_helpers/change_version/example_als/all-tracks-set-11-1-5.als,sha256=xgjF2bDIX274NEGBcXLMnQftKq8iSPIC38V9_6rbxmo,95749
+ableton_helpers/change_version/example_als/all-tracks-set.als,sha256=83EXwDsgcWIT9tJU8DZ1lmiYLriv7qjhy6RkwdphSL0,101279
+ableton_helpers/change_version/run.py,sha256=-AlO9Z6SyJ2uNWpHVM_j9ApmZvi8fYzabgq_04yuKdE,2676
+ableton_helpers/change_version/versions_info.json,sha256=qHZfv-S2BA2XDy2jJBb6cznTeER-vJWMdCpbwwgJ4jI,102
+ableton_helpers-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+ableton_helpers-0.1.0.dist-info/entry_points.txt,sha256=2V_ubAMYPvmRafgpKDZT7V1jtwwZXA_GxYqZXtBkdaA,82
+ableton_helpers-0.1.0.dist-info/METADATA,sha256=GfWN3hGEH0pTaTt-JE-olxEQPuT5CQM7vL5zAmJ_RtU,541
+ableton_helpers-0.1.0.dist-info/RECORD,,

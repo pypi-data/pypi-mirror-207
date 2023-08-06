@@ -1,0 +1,3 @@
+[console_scripts]
+ableton-change-version=ableton_helpers.change_version.run:main
+
