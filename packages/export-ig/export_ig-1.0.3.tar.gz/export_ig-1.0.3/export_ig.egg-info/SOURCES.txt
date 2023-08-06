@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+export_ig/__init__.py
+export_ig/color_utils.py
+export_ig/export_ig.py
+export_ig/shadow_pad.py
+export_ig.egg-info/PKG-INFO
+export_ig.egg-info/SOURCES.txt
+export_ig.egg-info/dependency_links.txt
+export_ig.egg-info/entry_points.txt
+export_ig.egg-info/not-zip-safe
+export_ig.egg-info/requires.txt
+export_ig.egg-info/top_level.txt
