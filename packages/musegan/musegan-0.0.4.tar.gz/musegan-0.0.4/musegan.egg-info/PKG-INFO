@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: musegan
+Version: 0.0.4
+Summary: A pytorch implimentation of musegan by https://github.com/salu133445
+Home-page: https://github.com/cliffordkleinsr/musegan-pytorch
+Download-URL: https://github.com/cliffordkleinsr/musegan-pytorch/archive/refs/tags/latest.tar.gz
+Author: cliffordkleinsr
+Author-email: cnjoroge925@gmail.com
+License: MIT
+Keywords: pytorch,music,generative adverserial networks
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+
+UNKNOWN
+
