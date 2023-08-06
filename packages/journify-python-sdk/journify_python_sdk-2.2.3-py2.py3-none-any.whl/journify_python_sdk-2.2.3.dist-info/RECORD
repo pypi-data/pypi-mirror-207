@@ -1,0 +1,17 @@
+journify/__init__.py,sha256=mWBSsBVCvgG_s-WehajVYMSCYzATFVTAozHyjhIEgcQ,2029
+journify/client.py,sha256=cQRxakiYdTajnoDj8EWZ4lkb0RmExhY8PdwlwqvWths,9425
+journify/consumer.py,sha256=z4Vfu8Vkt5QcUNeWuG_jO0R-Klo3RKXkb7wrqJ_MzQo,4490
+journify/request.py,sha256=j8Cpqg_PUOdiQyCkec6YswqqDr68wXKJj36uUSoBPN8,2230
+journify/utils.py,sha256=JsgZDakNcXgHg0O-c-UqJPnzl_TpTJ0HyMJdSFNNFEk,2425
+journify/version.py,sha256=D7a1GGiqEgpyvavkmb-rQ9mNtsp9nvxVaTYcTOsZ8R0,41
+journify/test/__init__.py,sha256=PEVQmMKYRXRa3FGGSpvsnq59VXtHMQQaFPycQVD4bfg,2406
+journify/test/client.py,sha256=RJi-4DbSvLVeLSH9kuU8R1BJKZjkZbA9N42rYVlrii0,10852
+journify/test/consumer.py,sha256=dptKiD_ZM-Dav3rMeGIadFdc3o4mnz_AZ6NoWY8nfQQ,3004
+journify/test/module.py,sha256=dLFNhXFci_mhf_PmjvOH-CLr1h9CdUSfxGoTNdyM8no,1030
+journify/test/request.py,sha256=erbNBgjqWePxCo3QnplAWRs5WM7CQoY8sOXJZ_7XzJM,2156
+journify/test/utils.py,sha256=1Vj8toDD1H2kyltq8FKGo9ryZjwP0trR7R92_cxDt5U,2151
+journify_python_sdk-2.2.3.dist-info/LICENSE,sha256=hnLWtKFBSwPQF2QMaf_hboFjYl3uHp3R5Sxs0apr9kI,1079
+journify_python_sdk-2.2.3.dist-info/METADATA,sha256=XfVAv27fKCGYe1zSjUO63EXCtwPSp9X-40hmkli6KrI,1343
+journify_python_sdk-2.2.3.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+journify_python_sdk-2.2.3.dist-info/top_level.txt,sha256=iAS2LELSdpZ10BYjjk53WlOWbKSsAHTNwhgkFzoC328,9
+journify_python_sdk-2.2.3.dist-info/RECORD,,
