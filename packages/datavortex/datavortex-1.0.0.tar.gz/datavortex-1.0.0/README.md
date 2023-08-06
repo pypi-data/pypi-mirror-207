@@ -1,0 +1,1 @@
+# Classes utilizadas para o processamento, tratamento e análises de dados.

@@ -1,0 +1,10 @@
+LICENCE
+README.md
+setup.py
+datavortex/__init__.py
+datavortex/dados.py
+datavortex.egg-info/PKG-INFO
+datavortex.egg-info/SOURCES.txt
+datavortex.egg-info/dependency_links.txt
+datavortex.egg-info/requires.txt
+datavortex.egg-info/top_level.txt

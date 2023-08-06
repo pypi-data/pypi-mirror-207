@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: datavortex
+Version: 1.0.0
+Summary: Classes para processamento, tratamento e análise de dados
+Home-page: UNKNOWN
+Author: Brayan Robert
+Author-email: robertbrayan60@gmail.com
+License: MIT License
+Keywords: dados,analise de dados,processamento de dados,datahub
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# Classes utilizadas para o processamento, tratamento e análises de dados.
+

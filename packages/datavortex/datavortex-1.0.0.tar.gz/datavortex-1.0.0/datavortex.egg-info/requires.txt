@@ -1,0 +1,7 @@
+Pillow
+loguru
+matplotlib
+numpy
+openpyxl
+pandas
+seaborn
