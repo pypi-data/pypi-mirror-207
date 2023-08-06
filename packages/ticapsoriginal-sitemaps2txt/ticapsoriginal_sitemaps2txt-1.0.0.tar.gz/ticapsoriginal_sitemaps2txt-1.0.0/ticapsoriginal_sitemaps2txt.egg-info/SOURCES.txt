@@ -1,0 +1,8 @@
+LICENSE
+README.rst
+setup.py
+ticapsoriginal_sitemaps2txt/__init__.py
+ticapsoriginal_sitemaps2txt.egg-info/PKG-INFO
+ticapsoriginal_sitemaps2txt.egg-info/SOURCES.txt
+ticapsoriginal_sitemaps2txt.egg-info/dependency_links.txt
+ticapsoriginal_sitemaps2txt.egg-info/top_level.txt

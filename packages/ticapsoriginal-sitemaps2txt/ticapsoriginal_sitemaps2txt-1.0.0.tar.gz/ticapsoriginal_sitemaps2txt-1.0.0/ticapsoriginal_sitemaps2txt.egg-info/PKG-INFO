@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: ticapsoriginal-sitemaps2txt
+Version: 1.0.0
+Summary: Sitemaps.xml 2 sitemaps.txt
+Home-page: https://github.com/Tinoco/Ticapsoriginal_sitemaps2txt
+Author: Jean Tinoco
+Author-email: ticaps@ticapsoriginal.com
+License: MIT
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE
+
+ticapsoriginal_sitemaps2txt
+===========================
+
+.. image:: https://img.shields.io/pypi/v/ticapsoriginal_sitemaps2txt.svg
+    :target: https://pypi.python.org/pypi/ticapsoriginal_sitemaps2txt
+    :alt: Latest PyPI version
+
+.. image:: https://travis-ci.org/kragniz/cookiecutter-pypackage-minimal.png
+   :target: https://travis-ci.org/kragniz/cookiecutter-pypackage-minimal
+   :alt: Latest Travis CI build status
+
+Sitemaps.xml 2 sitemaps.txt
+
+Usage
+-----
+
+Installation
+------------
+
+Requirements
+^^^^^^^^^^^^
+
+Compatibility
+-------------
+
+Licence
+-------
+
+Authors
+-------
+
+`ticapsoriginal_sitemaps2txt` was written by `Jean Tinoco <ticaps@ticapsoriginal.com>`_.
