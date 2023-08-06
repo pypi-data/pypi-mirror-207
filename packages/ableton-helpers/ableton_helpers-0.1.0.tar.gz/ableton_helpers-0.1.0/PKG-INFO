@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ableton-helpers
+Version: 0.1.0
+Summary: Scripts to ease work with ableton
+Author: bc30138
+Author-email: sasori.axele@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Ableton Scripts
+
+Usefull scripts to operate ableton
+
+## ableton-change-version
+
+Changes version of ableton project (now supports only > 11.1.5 and to 11.1.5 only)
+

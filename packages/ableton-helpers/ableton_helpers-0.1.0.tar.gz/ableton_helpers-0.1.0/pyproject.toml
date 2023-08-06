@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ableton-helpers"
+version = "0.1.0"
+description = "Scripts to ease work with ableton"
+authors = ["bc30138 <sasori.axele@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ableton_helpers"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.scripts]
+ableton-change-version = "ableton_helpers.change_version.run:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
