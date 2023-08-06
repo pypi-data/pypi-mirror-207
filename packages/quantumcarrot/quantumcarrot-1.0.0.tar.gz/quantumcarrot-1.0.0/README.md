@@ -1,0 +1,4 @@
+#######
+import quatumcarrot
+quatumcarrot.curse()
+#######

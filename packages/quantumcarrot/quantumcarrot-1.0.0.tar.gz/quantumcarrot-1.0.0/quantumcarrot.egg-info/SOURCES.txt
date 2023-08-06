@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+quantumcarrot/__init__.py
+quantumcarrot/quantumcarrot.py
+quantumcarrot.egg-info/PKG-INFO
+quantumcarrot.egg-info/SOURCES.txt
+quantumcarrot.egg-info/dependency_links.txt
+quantumcarrot.egg-info/top_level.txt
