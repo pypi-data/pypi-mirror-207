@@ -1,0 +1,9 @@
+embedding/__init__.py,sha256=DlMEBEaBlIo2yFKFm3tKk4hLzU0N9cfZwXVTYEYnKgc,32
+embedding/embedding.py,sha256=CaxVZB_J9Q6HVjKKM3bHiitV6tuxP_y95DuQIzn6rl8,6075
+embeddings_util/__init__.py,sha256=6iG6A7k-LCiWMVGJCgZzvNqNU_pLyGagRNHBIKboLY4,43
+embeddings_util/embeddings_util.py,sha256=ZTci5t-g7N1CHnvcvCl1OGdtQzdkobaUj1VAEv9QzE8,6080
+embeddings_util-1.0.1.dist-info/LICENSE.txt,sha256=v4ETOkECySexnUK8WfGcHqts6htc0v-jg0fGRl3gGkM,1081
+embeddings_util-1.0.1.dist-info/METADATA,sha256=Uq96Bx2PlsN6a7itEmMgCDEkRmzkoRYYyrz1PrsBuJE,7613
+embeddings_util-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+embeddings_util-1.0.1.dist-info/top_level.txt,sha256=OROAc_he0x8VbJgdxjnbT7P0B3Nko-Oo9d18YbLaYdY,16
+embeddings_util-1.0.1.dist-info/RECORD,,
