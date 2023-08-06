@@ -1,0 +1,5 @@
+battery_analyser/__init__.py,sha256=NBBtGrH-2cGkMkFuT5JAMKiLVFpQpGkzDVXzqaE-IgU,23
+battery_analyser/predict.py,sha256=cuKvm1vP3cMmwSNI4rcm3UiLI9DVU_ELO06m1W8nrIo,1605
+battery_analyser-0.1.0.dist-info/METADATA,sha256=7J-yEq73Eq2ZEWPD_p7vdWySKFyud42KIzoPXStogLU,1136
+battery_analyser-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+battery_analyser-0.1.0.dist-info/RECORD,,
