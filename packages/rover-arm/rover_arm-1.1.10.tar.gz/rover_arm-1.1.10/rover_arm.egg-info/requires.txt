@@ -1,0 +1,6 @@
+gymnasium
+pybullet
+gym
+
+[dev]
+pynput
