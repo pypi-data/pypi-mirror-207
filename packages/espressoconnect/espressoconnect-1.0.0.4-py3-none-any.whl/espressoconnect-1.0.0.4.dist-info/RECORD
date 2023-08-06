@@ -1,0 +1,10 @@
+espressoApi/__init__.py,sha256=hsYUi4I4ri4SFVKFWJ8wSryFeRmah1GG3AYnDeGJtRc,218
+espressoApi/espressoApiWebsocket.py,sha256=Jxcm3x-q1QJJx9KKmOT1d6nzj2HdWrUF-aWb0LnR4qg,4825
+espressoApi/espressoConnect.py,sha256=_p9qEsZtMZsoty86H4nVtjqv_sk4h5gD1zw8djiGxLw,14765
+espressoApi/espressoExceptions.py,sha256=cGYKwcy39bJhoeiDy2Zs1qqB4RnsngzIVHfchAjWaTs,1914
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_espresso.py,sha256=Fu73Np8yd-g-GutboH_2WD0B4X7pF2DuBt-gyC0v1T4,4747
+espressoconnect-1.0.0.4.dist-info/METADATA,sha256=pYecJfh2I8fCGnB_np2bQvxmJVDevWleDO_532-wZbo,8727
+espressoconnect-1.0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+espressoconnect-1.0.0.4.dist-info/top_level.txt,sha256=He4XisLRpuR_asKTvkb9H38fnmrdPEliIoaeCLRiXv0,17
+espressoconnect-1.0.0.4.dist-info/RECORD,,
