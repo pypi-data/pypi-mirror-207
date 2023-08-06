@@ -1,0 +1,8 @@
+README.md
+setup.py
+thoughty/__init__.py
+thoughty.egg-info/PKG-INFO
+thoughty.egg-info/SOURCES.txt
+thoughty.egg-info/dependency_links.txt
+thoughty.egg-info/not-zip-safe
+thoughty.egg-info/top_level.txt
