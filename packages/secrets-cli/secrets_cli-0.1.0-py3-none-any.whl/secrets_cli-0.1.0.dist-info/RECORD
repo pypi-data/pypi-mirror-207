@@ -1,0 +1,7 @@
+secrets_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+secrets_cli/requirements.txt,sha256=3z2D_6lUm1DMtS4mYzz18H6fWkrpaVdW0MrpvY7LuiQ,32
+secrets_cli/secrets_cli.py,sha256=wgJC5r7IB9_gmHxSA7qh1x5CWxd8chkl-wTJzVhAfec,5550
+secrets_cli-0.1.0.dist-info/METADATA,sha256=Se_dfTgGb_ifGxqiibl6ll_1XC3M9dKMNTAXeLmGWe4,528
+secrets_cli-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+secrets_cli-0.1.0.dist-info/entry_points.txt,sha256=0xFVoInci9TOL717mC-OaB-RScsHM7NfR3eQeO7haSA,54
+secrets_cli-0.1.0.dist-info/RECORD,,

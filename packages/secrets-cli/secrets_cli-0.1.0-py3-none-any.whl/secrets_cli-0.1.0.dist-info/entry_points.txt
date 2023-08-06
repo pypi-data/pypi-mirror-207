@@ -1,0 +1,3 @@
+[console_scripts]
+pangea=secrets_cli.secrets_cli:app
+
