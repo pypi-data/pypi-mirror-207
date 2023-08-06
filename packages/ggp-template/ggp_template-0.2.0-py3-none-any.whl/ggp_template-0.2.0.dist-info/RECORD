@@ -1,0 +1,11 @@
+ggp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ggp/make.py,sha256=3QOg5pG35vb1zX-IDbfKP06Tsl9REUepvRhIpnsufC0,3136
+ggp/new.py,sha256=CtQMPJFZAiWa6dujZ8qv73AIdiesM0ErMgrI3oGIdOw,621
+ggp/templates/loadworker.js,sha256=VcxUM275MHxSB_-tvh_gqpIgQSItySr5FO1J4QaZ-m4,2452
+ggp/templates/sample.html,sha256=eUGniO5I3Gla0Atvyc2AQ1Wos6nF_erqvo7UGzE7o9A,2323
+ggp/templates/sample.js,sha256=eOcvEXkMks_1THvmSdAYSIQkzyJ0gL0chBtIC92qCIw,1302
+ggp_template-0.2.0.dist-info/LICENSE,sha256=s8anaIHYvBxHAUDStAWcX_weQqKo2NNUyy8UCUFw2i4,1074
+ggp_template-0.2.0.dist-info/METADATA,sha256=AcocytZspdJqKnyLKsgTY8CJX_Gq6UzqRvG8MD6BkD8,4472
+ggp_template-0.2.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+ggp_template-0.2.0.dist-info/top_level.txt,sha256=Xiz8tWikqYvPjULlvkLpkaYcoSWnOPcEuAMkyr3uPbY,4
+ggp_template-0.2.0.dist-info/RECORD,,
