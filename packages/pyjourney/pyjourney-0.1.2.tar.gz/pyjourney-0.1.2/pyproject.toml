@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "pyjourney"
+version = "0.1.2"
+description = "Python module for interacting with the MidJourney API"
+authors = ["agentd00nut <agentd00nut@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/agentd00nut/pyjourney"
+repository = "https://github.com/agentd00nut/pyjourney"
+keywords = ["journey", "midjourney", "api", "python"]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.30.0"
+python-dotenv = "^1.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+autopep8 = "^2.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
