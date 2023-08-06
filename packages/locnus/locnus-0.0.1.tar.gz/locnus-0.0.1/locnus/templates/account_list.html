@@ -1,0 +1,53 @@
+{% extends "_base.html" %}
+
+{% block main %}
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 offset-md-1 mt-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">List of Users for this server.</h5>
+              <p class="card-text">
+                Click to add a new Account!
+              </p>
+              <a href='{% url "locnus:get-create-account" %}'>
+                <button type="button" class="btn btn-primary">Add Account</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 offset-md-1 mt-4">
+          {% if accounts %}
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Username</th>
+                  <th scope="col">Your Feed</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for account in accounts %}
+                  <tr>
+                    <th scope="row">{{ forloop.counter }}</th>
+                    <td>{{ account.username }}</td>
+                    <td><a href='{% url "locnus:personal-timeline" account_pk=account.pk %}'>
+                      <button type="button" class="btn btn-light">Toots</button>
+                    </a></td>
+                  </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}

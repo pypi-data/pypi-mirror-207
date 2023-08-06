@@ -1,0 +1,44 @@
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 offset-md-1 mt-4">
+        {% if toots %}
+          <p hx-get="{% url 'locnus:home' %}"
+             hx-trigger="every 5s"
+             hx-target="#toots-start"
+             hx-swap="afterbegin"
+          >
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">User</th>
+                  <th scope="col">Content</th>
+                </tr>
+              </thead>
+              <tbody id="toots-start">
+                {% for toot in toots %}
+                  <tr>
+                    <th scope="row">{{ forloop.counter }}</th>
+                    <td>{{ toot.display_name }}</td>
+                    <td>{{ toot.content | safe}}</td>
+                  </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+        {% else %}
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">No toots found!</h5>
+              <p class="card-text">
+                Click to add a new ActivityPub account!
+              </p>
+              <a href='{% url "locnus:get-create-account" %}'>
+                <button type="button" class="btn btn-primary">Add Account</button>
+              </a>
+            </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
