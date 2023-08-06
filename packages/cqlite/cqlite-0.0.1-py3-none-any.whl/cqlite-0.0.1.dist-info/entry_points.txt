@@ -1,0 +1,2 @@
+[console_scripts]
+cqlite = cqlite.cqlite:run_with_typer
