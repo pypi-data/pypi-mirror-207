@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/mutex.py
+src/pywin_mutex.egg-info/PKG-INFO
+src/pywin_mutex.egg-info/SOURCES.txt
+src/pywin_mutex.egg-info/dependency_links.txt
+src/pywin_mutex.egg-info/requires.txt
+src/pywin_mutex.egg-info/top_level.txt

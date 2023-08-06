@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pywin-mutex"
+version = "1.0.0"
+authors = [
+  { name="Zvlbrg", email="MyGithubPage@github.com" },
+]
+description = "A module for creating and using a shared mutex on Windows."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pywin32"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Zvlbrg/pywin-mutex"
+"Bug Tracker" = "https://github.com/Zvlbrg/pywin-mutex/issues"
