@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: scoi_lab_serializer_package
+Version: 0.3
+Summary: package for python (de)serialization in .json and .xml
+Home-page: https://github.com/DrVaroZ/SCoL_labs/tree/lab3
+Author: Vadim Zhur
+Author-email: vadim10zhur@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+
+UNKNOWN
+
