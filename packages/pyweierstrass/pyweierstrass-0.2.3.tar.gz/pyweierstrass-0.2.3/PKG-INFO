@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pyweierstrass
+Version: 0.2.3
+Summary: Weierstrass elliptic functions
+Home-page: https://github.com/stla/pyweierstrass
+License: GPL-3.0-only
+Keywords: Weierstrass functions,elliptic functions
+Author: Stéphane Laurent
+Author-email: laurent_step@outlook.fr
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: docs
+Requires-Dist: mpmath (>=1.2.1,<2.0.0)
+Requires-Dist: sphinx (>=5.3.0,<6.0.0); extra == "docs"
+Requires-Dist: sphinx-rtd-theme (>=1.1.1,<2.0.0); extra == "docs"
+Requires-Dist: sphinxcontrib-napoleon (>=0.7,<0.8); extra == "docs"
+Requires-Dist: sphinxcontrib-restbuilder (>=0.3,<0.4); extra == "docs"
+Project-URL: Documentation, https://pyweierstrass.readthedocs.io/en/latest/
+Description-Content-Type: text/markdown
+
+# pyweierstrass
+
+[![Documentation Status](https://readthedocs.org/projects/pyweierstrass/badge/?version=latest)](https://pyweierstrass.readthedocs.io/en/latest/?badge=latest)
+
+Some Weierstrass functions: p-function, sigma function, zeta function, and 
+inverse p-function.
+
+```
+pip install pyweierstrass
+```
+
+

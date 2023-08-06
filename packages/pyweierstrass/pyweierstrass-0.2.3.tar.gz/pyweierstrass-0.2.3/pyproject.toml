@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "pyweierstrass"
+version = "0.2.3"
+description = "Weierstrass elliptic functions"
+homepage = "https://github.com/stla/pyweierstrass"
+authors = ["Stéphane Laurent <laurent_step@outlook.fr>"]
+documentation = "https://pyweierstrass.readthedocs.io/en/latest/"
+keywords = ["Weierstrass functions", "elliptic functions"]
+license = "GPL-3.0-only"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mpmath = "^1.2.1"
+sphinx = { version = "^5.3.0", optional = true }
+sphinx-rtd-theme = { version = "^1.1.1", optional = true }
+sphinxcontrib-napoleon = { version = "^0.7", optional = true }
+sphinxcontrib-restbuilder = { version = "^0.3", optional = true }
+
+[tool.poetry.extras]
+docs = ["Sphinx", "sphinx-rtd-theme", "sphinxcontrib-napoleon", "sphinxcontrib-restbuilder"]
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
