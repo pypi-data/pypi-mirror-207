@@ -1,0 +1,9 @@
+spotON_sdk/__init__.py,sha256=Oy1TnhjUVfNt3xAP-PlczhrwnnodvcPCcde3d1_AI2s,447
+spotON_sdk/constants/bidding_zones.py,sha256=3FrJL0JRhZqckSEU_6dkbiE0mWVEYfXnf7Jk_iUJKHI,745
+spotON_sdk/constants/countries.py,sha256=gna-iOBSwn0Ua57_7gZfQn_dqqtfSq4eXQv5J1WDBjA,4566
+spotON_sdk/constants/markets.py,sha256=tNgCAyMKX2rUPI-qC5iRuap0F18RFpp-fWg4XKoy1D4,2068
+spotON_sdk/logic/Config.py,sha256=jkU7NihGlpesBHc9YPtrdzBtc6M3e21WZuuaRVhnIHU,2846
+spoton_sdk-0.0.2.2.dist-info/LICENSE,sha256=jeZJTmCUulZGaTz_2i6oUdxcqHor1xNELo_1q12U9J4,1085
+spoton_sdk-0.0.2.2.dist-info/WHEEL,sha256=kdeDBNPvBI0w3meLKPoGgAnEr54n1jzrZWUoaLmGzVY,99
+spoton_sdk-0.0.2.2.dist-info/METADATA,sha256=Visi5QK9gK7gPI0yClWAxmn5otzv81mossj3Jto8IRI,250
+spoton_sdk-0.0.2.2.dist-info/RECORD,,
