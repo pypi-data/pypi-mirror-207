@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: hledger-args
+Version: 0.0.1
+License: MIT License
+Project-URL: homepage, https://github.com/edkedk99/hledger-args
+Project-URL: documentation, https://edkedk99.github.io/hledger-args/
+Project-URL: repository, https://github.com/edkedk99/hledger-args
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Hledger-lots
+
+::: mkdocs-click
+    :module: hledger_args.cli
+    :command: cli
+	:prog_name: hledger-args
+	:depth: 0
+	:style: table
+	:list_subcommands: True
