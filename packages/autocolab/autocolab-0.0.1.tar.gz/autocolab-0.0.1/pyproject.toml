@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[metadata]
+name = "autocolab"
+version = "0.0.1"
+author = "Futurize Rush"
+author_email = "futurize.rush@gmail.com"
+description = "在Google Colab上使用GPT進行自動化工作"
+long_description = "The YouTube Audio Downloader and Transcriber is a comprehensive tool designed to facilitate research and study. The program allows users to download audio from YouTube videos or playlists, transcribe the audio into text, and provide translations and summaries of the content. This tool is particularly useful for users who prefer text-based study or are conducting research on specific topics or channels. With the ability to handle these tasks automatically, it significantly reduces the time and effort required in the research process. Recommended for use with Google Colab Pro and GPU for efficient execution."
+long_description_content_type = "text/markdown"
+url = "https://www.youtube.com/@futurizerush"
+license = "MIT"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[options]
+packages = "find:"
+include_package_data = true
+python_requires = ">=3.7"
+install_requires = [
+    "yt-dlp",
+    "openai",
+    "tqdm>=4.61.2",
+    "requests"
+]
