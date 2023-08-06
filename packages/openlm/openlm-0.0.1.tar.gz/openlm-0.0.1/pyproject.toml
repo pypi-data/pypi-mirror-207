@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "openlm"
+version = "0.0.1"
+description = "Drop-in OpenAI-compatible that can call LLMs from other providers"
+authors = ["Matt Rickard <pip@matt-rickard.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
