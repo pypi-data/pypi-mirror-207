@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pulumi-stack-utils
+Version: 0.1.0
+Summary: Utilities for working with Pulumi stacks
+Author-email: James Arnold <james@rs21.io>
+License: BSD-2-Clause
+Project-URL: repository, https://github.com/rs21io/pulumi-stack-utils
+Keywords: pulumi,iac
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: boto3
+Requires-Dist: pulumi
+Requires-Dist: pyyaml
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-pylint ; extra == 'dev'
+
+# pulumi-stack-utils
+![test workflow](https://github.com/rs21io/pulumi-stack-utils/actions/workflows/test.yml/badge.svg)
+
+Project Description
+
+## Installation
+Details for setting up your environment
+
+## Usage
+Details on using/running the project
+
+## Contributing
+Details about testing, code style, PRs, etc.
