@@ -1,0 +1,10 @@
+mda_simulator/__init__.py,sha256=pUUyxhsISKakjG3XIUaF3-9v_UV6CdUSELzJK6Hl9pU,315
+mda_simulator/_generators.py,sha256=UpHghFNNa9TWi9zbaYkIzZ9QwFvJKyhZ5Ka-A4VTsvc,4109
+mda_simulator/_version.py,sha256=tir60FttD0Iy4c7DDLL7XL5dIY5zf6B5u6HcQg7ngsw,160
+mda_simulator/mmcore/__init__.py,sha256=7GWGF7ehUPodfEP-UaVIgXAcsNj_D9X7f0Z8MXa2MgU,111
+mda_simulator/mmcore/_mmcore.py,sha256=wd4wDlpPuwBRbb1TqsNSjuU5ZDW2OT_DY8La-1wTzPw,5017
+mda_simulator-0.6.0.dist-info/LICENSE,sha256=14PRgZNMplq4leIeRWnaVTyjmulTm_iXqtmftnUoEBQ,1515
+mda_simulator-0.6.0.dist-info/METADATA,sha256=l7geWj1wBDgRm88GXIotLIZJuNjL0IsB_OwvS44ZpLY,2884
+mda_simulator-0.6.0.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+mda_simulator-0.6.0.dist-info/top_level.txt,sha256=gmuAzzrv9uQAXDrPL0atmV1zvM_6BnfhjH4jD1Q9RXA,14
+mda_simulator-0.6.0.dist-info/RECORD,,
