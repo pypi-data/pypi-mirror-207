@@ -1,0 +1,10 @@
+hindilemmatizer/__init__.py,sha256=1ebhI5j8l6U-3JCYQtIS4z3t8yKYRj5fZo2phOWzCP4,156
+hindilemmatizer/lemmatizer.py,sha256=wR34MLFFNAd5gXiI9CNQ5fcBHIRdHh29Cr0H0dUv7mw,6269
+hindilemmatizer/data/data.csv,sha256=54ozpY7FWv-RqYMLTBUKuvqSowvLEfPnEH-gm6GkCQc,555099
+hindilemmatizer/data/direct.csv,sha256=V1zkkaKudKHG4LjCsczEHTUu2ahy55qqlpjeJKvsIY8,333013
+hindilemmatizer/data/totalWords.txt,sha256=qMs56UGMIen-c-_KgEom-pck6UPGeDEtL2aFvQksFBk,23623710
+hindilemmatizer-0.5.5.dist-info/LICENSE,sha256=_X30G4gWiaB7S98CDdzGzf2w8z3OXKynaPZxdj9muJw,1071
+hindilemmatizer-0.5.5.dist-info/METADATA,sha256=T2E5EpxOnn-XWJmKl7nMSWFdB3gaotUnC5iTfbJzpBk,186
+hindilemmatizer-0.5.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+hindilemmatizer-0.5.5.dist-info/top_level.txt,sha256=GJC0W0QnJxoX-JKaJf-ARkgFOU-FvckrleigitVFHTg,16
+hindilemmatizer-0.5.5.dist-info/RECORD,,
