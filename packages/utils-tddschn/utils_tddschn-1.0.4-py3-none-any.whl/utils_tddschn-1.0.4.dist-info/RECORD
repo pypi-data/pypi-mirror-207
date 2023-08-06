@@ -1,0 +1,12 @@
+utils_tddschn/__init__.py,sha256=thGZHY6pLPhJc6CwYBjUaQ6pGxLhwPMp_pjoYsiwvI4,22
+utils_tddschn/fs/__init__.py,sha256=DVXM8M6Se9P50mouwsn_HomN9GZz7198CR00mUwvKZ8,102
+utils_tddschn/fs/fs.py,sha256=8sQK02Vp9G1bCmgdOIUlv4xmnUoa6AaVJ2VXpvids-o,1391
+utils_tddschn/git.py,sha256=yWCbTmdQkvB5C5tXgv60FEr6OikhOIRSCavLjDiJpKM,857
+utils_tddschn/sync/git.py,sha256=jWoC9myPeSGdoAMN-bf_jnWLgBgkuEA7E3aY7bZ9q14,1265
+utils_tddschn/sync/numpy.py,sha256=ffGrzJwuoHhlUX72ulil00UBnvx5t1SVv0XlH3qwt4o,619
+utils_tddschn/sync/text.py,sha256=FWBQKOLznVthvMYMASrx2Gw5lqKHEOccQpBisDZ53Dw,24
+utils_tddschn/sync/utils.py,sha256=kAadt-vvS3UoRpFhdxDQi0RBzJBay_jn_3XPp5YBeAA,646
+utils_tddschn-1.0.4.dist-info/LICENSE,sha256=kwRWnGfHM3i60QbUMmPO8iV-mcawDjuN_lgFJsyVLRo,1113
+utils_tddschn-1.0.4.dist-info/METADATA,sha256=hETOv1uQE8HbYXnqqLnssFw1S9WOJXHcm6W1-wDJVuo,645
+utils_tddschn-1.0.4.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+utils_tddschn-1.0.4.dist-info/RECORD,,
