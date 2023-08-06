@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: certora-cli-alpha-niv-fix-check-results
+Version: 20230510.9.27.733025
+Summary: Runner for the Certora Prover
+Home-page: https://pypi.org/project/certora-cli-alpha-niv-fix_check_results
+Author: Certora
+Author-email: support@certora.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8.16
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Commit 4fd1b29. Build and Run scripts for executing the Certora Prover on Solidity smart contracts.
+
