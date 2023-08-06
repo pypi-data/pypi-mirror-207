@@ -1,0 +1,4 @@
+[console_scripts]
+devxhub = devxhub.entrypoints.main:main
+dxh = devxhub.entrypoints.not_configured:main
+
