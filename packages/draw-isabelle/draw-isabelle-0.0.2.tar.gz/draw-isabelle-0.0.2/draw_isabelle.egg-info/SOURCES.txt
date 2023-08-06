@@ -1,0 +1,11 @@
+README.md
+setup.py
+draw_isabelle/__init__.py
+draw_isabelle/__main__.py
+draw_isabelle/parsing.py
+draw_isabelle.egg-info/PKG-INFO
+draw_isabelle.egg-info/SOURCES.txt
+draw_isabelle.egg-info/dependency_links.txt
+draw_isabelle.egg-info/entry_points.txt
+draw_isabelle.egg-info/requires.txt
+draw_isabelle.egg-info/top_level.txt
