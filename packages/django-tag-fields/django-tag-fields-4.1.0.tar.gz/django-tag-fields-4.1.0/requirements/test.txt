@@ -1,0 +1,4 @@
+coverage
+Django>=3.2
+pre-commit
+tox
