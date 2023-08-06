@@ -1,0 +1,21 @@
+{% if not panel.requires_widgets_to_render or panel.ordered_widgets %}
+{% if panel.show_query_panel_label %}
+<label for="{{ panel.html_identifier }}-toggle" class="query-panel-action show-query-panel-action">{{ panel.show_query_panel_label }}</label>
+<input id="{{ panel.html_identifier }}-toggle" name="{{ panel.html_identifier }}-toggle" class="query-panel-toggle" type="checkbox" />
+{% endif %}
+<div{% if panel.html_identifier %} id="{{ panel.html_identifier }}"{% endif %}{% if panel.classname %} class="{{ panel.classname }}"{% endif %}>
+<div class="query-panel-inner">
+<div class="query-panel-inner-content">
+{% if panel.label %}<h3>{{ panel.label }}</h3>{% endif %}
+{% for widget in panel.ordered_widgets %}
+{{ widget.render }}
+{% endfor %}
+</div>
+<div class="query-panel-actions">
+{% if panel.apply_filters_label %}
+<label for="{{ panel.html_identifier }}-toggle" class="query-panel-action apply-query-panel-action">{{ panel.apply_filters_label }}</label>
+{% endif %}
+</div>
+</div>
+</div>
+{% endif %}

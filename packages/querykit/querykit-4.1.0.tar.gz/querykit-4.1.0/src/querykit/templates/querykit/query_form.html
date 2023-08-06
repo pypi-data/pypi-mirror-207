@@ -1,0 +1,16 @@
+{% load django_auxiliaries_tags querykit_tags %}
+{% block prologue_section %}
+{% endblock %}
+{% block main_section %}
+<form id="{{ form.identifier }}"{% if form.classname %} class="{{ form.classname }}"{% endif %} action="{{ action_url }}"
+      method="{{ form.method }}" novalidate>
+</form>
+{% endblock %}
+{% for panel in form.ordered_panels %}
+{% concat panel.identifier '_section' as template_block_identifier %}
+{% dynamic_block template_block_identifier %}
+{% include_query_form_panel panel %}
+{% enddynamic_block %}
+{% endfor %}
+{% block epilogue_section %}
+{% endblock %}

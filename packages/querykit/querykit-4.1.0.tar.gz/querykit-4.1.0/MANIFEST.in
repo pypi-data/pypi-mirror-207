@@ -1,0 +1,7 @@
+include src/querykit/static/querykit/css/*
+
+include src/querykit/templates/querykit/*
+include src/querykit/templates/querykit/tags/*
+include src/querykit/templates/querykit/form_widgets/*
+
+recursive-exclude * .DS_Store *.pyc

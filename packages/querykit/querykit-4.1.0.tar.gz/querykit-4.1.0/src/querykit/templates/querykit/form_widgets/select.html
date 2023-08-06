@@ -1,0 +1,5 @@
+<select name="{{ widget.identifier }}" id="{{ widget.identifier }}"{% if widget.form_id %} form="{{ widget.form_id }}"{% endif %}>
+{% for choice in widget.choices %}
+    <option value="{{ choice.identifier }}"{% if choice.identifier == widget.initial_choice %} selected{% endif %}>{{ choice.label }}</option>
+{% endfor %}
+</select>

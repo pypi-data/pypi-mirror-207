@@ -1,0 +1,9 @@
+{% if wrapper_element %}<{{ wrapper_element }}{% if classname %} class="{{ classname }}"{% endif %}>{% endif %}
+{% if result_slice.is_empty %}
+<span class="query-result-range">{{ no_results_label|lower|capfirst }}.</span>
+{% elif result_slice.slice_object_count == 1 %}
+{% if form.widgets_by_category.applied_filters %}<span class="query-result-range">Found one {{ result_label|lower }}:</span>{% endif %}
+{% else %}
+<span class="query-result-range">{% if form.widgets_by_category.applied_filters %}Found {% endif %}{{ result.total_object_count }} {{ result_label_plural|lower }}{% if result.total_slice_count > 1 %}, showing <span class="pre-formatted">{{ result_slice.first_object_index }} – {{ result_slice.last_object_index }}</span>{% endif %}:</span>
+{% endif %}
+{% if wrapper_element %}</{{ wrapper_element }}>{% endif %}
