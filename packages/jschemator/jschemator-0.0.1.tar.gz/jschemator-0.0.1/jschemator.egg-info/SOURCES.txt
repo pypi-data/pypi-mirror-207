@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+jschemator.egg-info/PKG-INFO
+jschemator.egg-info/SOURCES.txt
+jschemator.egg-info/dependency_links.txt
+jschemator.egg-info/top_level.txt
+schemator/__init__.py
