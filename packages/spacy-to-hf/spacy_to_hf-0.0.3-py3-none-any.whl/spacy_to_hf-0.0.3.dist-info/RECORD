@@ -1,0 +1,8 @@
+spacy_to_hf/__init__.py,sha256=KthhBkjZwS2PuQ6tXFOf_5OO9Rt3c_wiaM_oy--aalo,97
+spacy_to_hf/conversion.py,sha256=g2ilBEX4-NDUXsx8g15spdSnKKUTKPvV_Jn4M579ejA,3779
+spacy_to_hf/utils.py,sha256=J4f5lac6Csu02ExVBeBFBM2XmdpapgJbzZRJkRS3Gv0,6151
+spacy_to_hf-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+spacy_to_hf-0.0.3.dist-info/METADATA,sha256=QTzhf4eKU7iQGZWJMPVUwn1efw4d11gfGuOHEekyPqk,4579
+spacy_to_hf-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+spacy_to_hf-0.0.3.dist-info/top_level.txt,sha256=1xIFev7bYS9I6u3T2w49wPFpP-fJ8LVC6JSyNkBZ_sQ,12
+spacy_to_hf-0.0.3.dist-info/RECORD,,
