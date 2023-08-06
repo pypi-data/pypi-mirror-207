@@ -1,0 +1,11 @@
+numpy
+scipy
+netCDF4
+cfchecker
+requests
+
+[test]
+pytest-flakefinder
+pylint
+mypy
+types-requests
