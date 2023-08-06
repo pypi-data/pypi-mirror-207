@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: exondb
+Version: 0.3.9
+Author-email: Trent Hauck <thauck@wheretrue.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Requires-Dist: duckdb==0.7.1
+Description-Content-Type: text/markdown
+
+# ExonDB
+
+**Table of Contents**
+
+- [Installation](#installation)
+
+## Installation
+
+```console
+pip install exondb
+```
+
+Please see [wheretrue.com](https://www.wheretrue.com) for more information.
