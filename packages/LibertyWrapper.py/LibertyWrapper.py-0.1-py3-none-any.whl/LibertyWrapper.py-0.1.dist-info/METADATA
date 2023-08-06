@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: LibertyWrapper.py
+Version: 0.1
+Summary: Unofficial Python API Wrapper for Liberty.MP RageMP Server
+Home-page: https://github.com/AgapeIoan/LibertyWrapper.py
+Author: Agape Ioan
+Author-email: contact@agapeioan.ro
+License: UNKNOWN
+Project-URL: Source Code, https://github.com/AgapeIoan/LibertyWrapper.py
+Keywords: libertymp,ragemp
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT No Attribution License (MIT-0)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+UNKNOWN
+
+
