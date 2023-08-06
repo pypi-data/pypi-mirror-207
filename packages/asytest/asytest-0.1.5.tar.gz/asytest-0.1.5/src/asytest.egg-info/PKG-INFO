@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: asytest
+Version: 0.1.5
+Summary: Tiny async test framework for python 
+Author: Pavel Rabetski
+Project-URL: Homepage, https://github.com/pavradev/asytest
+Project-URL: Bug Tracker, https://github.com/pavradev/asytest/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# test execution framework for async test
+
+# how it workks
+
+All tests functions must begin with 'test_' prefix.
+Framework executes all test functions in one asyncio event_loop cuncurrently, which means that your tests should be independent with share-nothing design.
+
+# running example tests
+
+    pip install asytest
+    python -m asytest tests

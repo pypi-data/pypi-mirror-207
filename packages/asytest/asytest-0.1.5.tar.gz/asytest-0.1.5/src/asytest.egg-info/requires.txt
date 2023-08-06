@@ -1,0 +1,5 @@
+asyncio==3.4.3
+
+[dev]
+pytest
+pip-tools
