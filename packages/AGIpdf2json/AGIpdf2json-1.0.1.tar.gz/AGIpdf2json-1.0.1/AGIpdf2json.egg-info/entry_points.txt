@@ -1,0 +1,2 @@
+[console_scripts]
+AGIpdf2json = AGIPDF2JSON.main:cli

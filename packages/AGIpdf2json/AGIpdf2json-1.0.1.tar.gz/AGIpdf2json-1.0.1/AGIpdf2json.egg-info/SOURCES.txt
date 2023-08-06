@@ -1,0 +1,11 @@
+README.md
+setup.py
+AGIPDF2JSON/PDFParserClass.py
+AGIPDF2JSON/__init__.py
+AGIPDF2JSON/main.py
+AGIpdf2json.egg-info/PKG-INFO
+AGIpdf2json.egg-info/SOURCES.txt
+AGIpdf2json.egg-info/dependency_links.txt
+AGIpdf2json.egg-info/entry_points.txt
+AGIpdf2json.egg-info/requires.txt
+AGIpdf2json.egg-info/top_level.txt
