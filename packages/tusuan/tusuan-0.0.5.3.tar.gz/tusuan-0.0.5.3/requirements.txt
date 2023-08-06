@@ -1,0 +1,9 @@
+astunparse
+einops
+fastcore
+imagesize
+matplotlib
+numpy
+opencv_python
+read
+setuptools
