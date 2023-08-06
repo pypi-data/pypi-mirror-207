@@ -1,0 +1,1 @@
+#define NGSOLVE_VERSION "6.2.2204"
