@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: torchosr
+Version: 0.0.1
+Summary: The torchosr module is a set of tools necessary for processing open set recognition problems with pytorch.
+Home-page: https://w4k2.github.io/osr/
+Download-URL: https://github.com/w4k2/osr
+Maintainer: J. Komorniczak
+Maintainer-email: joanna.komorniczak@pwr.edu.pl
+License: GPL-3.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# torchOSR 
