@@ -1,0 +1,11 @@
+logic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+logic/cli.py,sha256=1nkOpww7hqzwKTJD8yby1H3nhPx6VIbh1dJseLUyR0o,2188
+logic/script.py,sha256=V1dWEHHD3HoIMyE9s_nzGPYvzoxhC1qKFCZfIzTW0A0,5504
+logic/states.py,sha256=SarBB5zkC5GEbwfCWUMYpu0wpFkMah401BxvPNUMjh0,197
+logic/utilities.py,sha256=180phCHn-C-XfH-hBMAsSIJ21aIMpxl7K3dnpmT5Lp4,6741
+pyneweb-0.5.4.dist-info/LICENSE,sha256=VzpC6XCOcBfDO23BxQO3glncmMp9_Ti9ELc4BRn_sPM,1079
+pyneweb-0.5.4.dist-info/METADATA,sha256=_3HG9rOPp5YkGBpsFLY_yVFAxNqcecjTvZYp7NR3R3Q,920
+pyneweb-0.5.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pyneweb-0.5.4.dist-info/entry_points.txt,sha256=zgYzgDz9rBNLA9SkEh1MddPrSpJZjiUgD57fgVPeo-A,48
+pyneweb-0.5.4.dist-info/top_level.txt,sha256=GXlQ9F-8Dyx7nbMlP7UNehyOs5r9t0xLE2KLZ7nxQOU,6
+pyneweb-0.5.4.dist-info/RECORD,,
