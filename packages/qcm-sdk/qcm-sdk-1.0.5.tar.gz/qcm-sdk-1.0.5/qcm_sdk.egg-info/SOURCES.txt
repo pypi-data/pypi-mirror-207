@@ -1,0 +1,6 @@
+setup.py
+qcm_sdk.egg-info/PKG-INFO
+qcm_sdk.egg-info/SOURCES.txt
+qcm_sdk.egg-info/dependency_links.txt
+qcm_sdk.egg-info/requires.txt
+qcm_sdk.egg-info/top_level.txt

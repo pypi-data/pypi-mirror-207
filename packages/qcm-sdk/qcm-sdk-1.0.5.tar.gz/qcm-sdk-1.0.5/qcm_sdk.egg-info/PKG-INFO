@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: qcm-sdk
+Version: 1.0.5
+Summary: Python SDK for interacting with QCM API
+Author: Chetan N
+Author-email: chetan@quoqo.com
