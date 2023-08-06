@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "kiwi-booster"
+version = "0.1.0"
+description = ""
+authors = ["Sebastian Hernandez <juan.hernandez@kiwibot.con>"]
+readme = "README.md"
+packages = [{include = "kiwi_booster"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+slack-sdk = "^3.21.3"
+
+[tool.poetry.group.dev.dependencies]
+slack-sdk = "^3.21.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
