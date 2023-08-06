@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "zeph1rr-kuznechik"
+version = "0.1.0"
+description = "Python package for Kuznechik cryptografy from GOST 34.12"
+authors = ["Zeph1rr <grianton535@gmail.com>"]
+readme = "README.md"
+packages = [{include = "zeph1rr_kuznechik"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+gostcrypto = "^1.2.5"
+
+
+[tool.poetry.group.dev.dependencies]
+sphinx = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
