@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/napari_seedseg/__init__.py
+src/napari_seedseg/_layers.py
+src/napari_seedseg/_method.py
+src/napari_seedseg/_widget.py
+src/napari_seedseg/napari.yaml
+src/napari_seedseg.egg-info/PKG-INFO
+src/napari_seedseg.egg-info/SOURCES.txt
+src/napari_seedseg.egg-info/dependency_links.txt
+src/napari_seedseg.egg-info/entry_points.txt
+src/napari_seedseg.egg-info/requires.txt
+src/napari_seedseg.egg-info/top_level.txt

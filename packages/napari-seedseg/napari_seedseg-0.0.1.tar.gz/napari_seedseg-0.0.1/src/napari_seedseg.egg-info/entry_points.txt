@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-seedseg = napari_seedseg:napari.yaml

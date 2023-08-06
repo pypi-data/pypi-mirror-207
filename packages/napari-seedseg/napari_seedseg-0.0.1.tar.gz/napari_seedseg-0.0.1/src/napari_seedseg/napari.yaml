@@ -1,0 +1,10 @@
+name: napari-seedseg
+display_name: SeedSeg Segmentation
+contributions:
+  commands:
+    - id: napari-seedseg.make_qwidget
+      python_name: napari_seedseg._widget:SeedSegWidget
+      title: SeedSeg 
+  widgets:
+    - command: napari-seedseg.make_qwidget
+      display_name: SeedSeg
