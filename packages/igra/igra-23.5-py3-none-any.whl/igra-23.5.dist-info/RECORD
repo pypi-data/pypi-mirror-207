@@ -1,0 +1,11 @@
+igra/__init__.py,sha256=IUKLSDLzpgOc2-lq9_ybkr1hdb-ISSm1jl0V_SueWzs,11434
+igra/download.py,sha256=oeq1CWmlDP-YyMRBGOoWLaZQrbObxChtpsppr5Ajpq4,6058
+igra/interp.py,sha256=V8XkLsQToWo8gDKAc-mPRHqKC5EN-s1yF7Prr4U4jQM,4674
+igra/read.py,sha256=pLtbaJD3pd6Qf8_7QAQt8Q_0m-Ue3v47C2rrcCEJ4DQ,35821
+igra/support.py,sha256=KyuKn_up676xfzDmLudWmi-u7211k2DQDQz-hcsk5SY,1117
+igra/test_igra.py,sha256=2qT1mPpfHqtK-Ln08rEvLtd4nPcRUL3F_fkbi_Uenhg,2457
+igra-23.5.dist-info/LICENSE,sha256=hr_CldhB5BKgnFCdFZB1KNAr8YhqQf-pO1F1OEhvd2o,1072
+igra-23.5.dist-info/METADATA,sha256=OTx6jFw_EzIk9zDnLrJsR7ymnon8Js2EUojwLke_r3o,13284
+igra-23.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+igra-23.5.dist-info/top_level.txt,sha256=Qv4hELxq1bXNqFYXWXujdUqlJNRdWz6TlZGHNX0BVRc,5
+igra-23.5.dist-info/RECORD,,
