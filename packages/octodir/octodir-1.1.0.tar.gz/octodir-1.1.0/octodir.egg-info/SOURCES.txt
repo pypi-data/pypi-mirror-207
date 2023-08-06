@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+octodir/__init__.py
+octodir/octodir_cli.py
+octodir/octodir_core.py
+octodir.egg-info/PKG-INFO
+octodir.egg-info/SOURCES.txt
+octodir.egg-info/dependency_links.txt
+octodir.egg-info/entry_points.txt
+octodir.egg-info/requires.txt
+octodir.egg-info/top_level.txt
