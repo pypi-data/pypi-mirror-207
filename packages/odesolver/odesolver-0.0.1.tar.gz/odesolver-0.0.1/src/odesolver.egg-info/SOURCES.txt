@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/odesolver/__init__.py
+src/odesolver/explicit.py
+src/odesolver/implicit.py
+src/odesolver/roots.py
+src/odesolver/solver.py
+src/odesolver.egg-info/PKG-INFO
+src/odesolver.egg-info/SOURCES.txt
+src/odesolver.egg-info/dependency_links.txt
+src/odesolver.egg-info/requires.txt
+src/odesolver.egg-info/top_level.txt
+tests/test_explicit.py
+tests/test_heun.py
+tests/test_roots.py
