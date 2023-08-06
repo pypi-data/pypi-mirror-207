@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: hpb
+Version: 0.0.1
+Summary: Happy Package Builder
+Author-email: Muggle Wei <mugglewei@gmail.com>
+Project-URL: Homepage, https://github.com/MuggleWei/hpb
+Project-URL: Bug Tracker, https://github.com/MuggleWei/hpb/issues
+Keywords: dependency,libraries,package,artifacts,manager
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+* [readme EN](./README.md)
+* [readme 中文](./README_cn.md)
+
+# NOTE
+This repository is deprecated, use [hpkg](https://github.com/MuggleWei/hpkg) instead of this repository.  
