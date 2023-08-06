@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+src/finnsult.egg-info/PKG-INFO
+src/finnsult.egg-info/SOURCES.txt
+src/finnsult.egg-info/dependency_links.txt
+src/finnsult.egg-info/entry_points.txt
+src/finnsult.egg-info/requires.txt
+src/finnsult.egg-info/top_level.txt
+src/insult/__init__.py
+src/insult/insult.py
+src/insult/settings.yml
