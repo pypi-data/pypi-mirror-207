@@ -1,0 +1,11 @@
+cldTemp:
+  product_type: interp_alg_cmap
+  alg_func: cldTemp
+  alg_args:
+    data_range: [160, 320]
+  mtif_type: cloud
+  cmap_func: cmap_cldTemp
+  cmap_args:
+    data_range: [160, 320]
+  interp_func: interp_nearest
+  interp_args: {}

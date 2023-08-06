@@ -1,0 +1,77 @@
+[build-system]
+requires = ["setuptools>=61.2", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages]
+find = {namespaces = false}
+
+[tool.setuptools.package-dir]
+"" = "."
+
+[tool.setuptools.package-data]
+"*" = [
+    "plugins/*.yaml",
+    "plugins/*/*.yaml",
+    "plugins/*/*/*.yaml",
+    "plugins/*/*/*/*.yaml",
+    "plugins/*/*/*/*/*.yaml",
+    "plugins/*.txt",
+    "plugins/*/*.txt",
+    "plugins/*/*/*.txt",
+    "plugins/*/*/*/*.txt",
+    "plugins/*/*/*/*/*.txt",
+]
+
+[tool.setuptools.dynamic]
+entry-points = {file = ["entry-points.ini"]}
+
+[tool.setuptools_scm]
+"version_scheme" = "post-release"  # Use current version .postN vs incrementing
+"local_scheme" = "no-local-version"  # Don't include hash, or date, just postN
+"write_to" = "geoips_clavrx/version.py"  # Write an actual file
+
+[project]
+name = "geoips_clavrx"
+authors = []
+description = "CLAVR-x GeoIPS Plugin Package"
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = []
+license = {file = "LICENSE"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dynamic = ["version"]
+
+[project.entry-points."geoips.plugin_packages"]
+"geoips_clavrx" = "geoips_clavrx"
+
+[project.entry-points."geoips.algorithms"]
+"cldFraction" = "geoips_clavrx.plugins.modules.algorithms.cloud.cldFraction"
+"cldType" = "geoips_clavrx.plugins.modules.algorithms.cloud.cldType"
+"cldMask" = "geoips_clavrx.plugins.modules.algorithms.cloud.cldMask"
+"cldHeightBase" = "geoips_clavrx.plugins.modules.algorithms.cloud.cldHeightBase"
+"cldHeightTop" = "geoips_clavrx.plugins.modules.algorithms.cloud.cldHeightTop"
+"cldHeight" = "geoips_clavrx.plugins.modules.algorithms.cloud.cldHeight"
+"cldOpd" = "geoips_clavrx.plugins.modules.algorithms.cloud.cldOpd"
+"cldPhase" = "geoips_clavrx.plugins.modules.algorithms.cloud.cldPhase"
+"cldTemp" = "geoips_clavrx.plugins.modules.algorithms.cloud.cldTemp"
+"Temp3p75" = "geoips_clavrx.plugins.modules.algorithms.cloud.Temp3p75"
+"Temp11p0" = "geoips_clavrx.plugins.modules.algorithms.cloud.Temp11p0"
+"cldReff" = "geoips_clavrx.plugins.modules.algorithms.cloud.cldReff"
+
+[project.entry-points."geoips.readers"]
+clavrx_hdf4 = "geoips_clavrx.plugins.modules.readers.clavrx_hdf4"
+
+[project.entry-points."geoips.colormaps"]
+cmap_cldFraction = "geoips_clavrx.plugins.modules.colormaps.cmap_cldFraction"
+cmap_cldType = "geoips_clavrx.plugins.modules.colormaps.cmap_cldType"
+cmap_cldMask = "geoips_clavrx.plugins.modules.colormaps.cmap_cldMask"
+cmap_cldHeightBase = "geoips_clavrx.plugins.modules.colormaps.cmap_cldHeightBase"
+cmap_cldHeightTop = "geoips_clavrx.plugins.modules.colormaps.cmap_cldHeightTop"
+cmap_cldHeight = "geoips_clavrx.plugins.modules.colormaps.cmap_cldHeight"
+cmap_cldOpd = "geoips_clavrx.plugins.modules.colormaps.cmap_cldOpd"
+cmap_cldPhase = "geoips_clavrx.plugins.modules.colormaps.cmap_cldPhase"
+cmap_cldTemp = "geoips_clavrx.plugins.modules.colormaps.cmap_cldTemp"
+cmap_IR = "geoips_clavrx.plugins.modules.colormaps.cmap_IR"
+cmap_cldReff = "geoips_clavrx.plugins.modules.colormaps.cmap_cldReff"
