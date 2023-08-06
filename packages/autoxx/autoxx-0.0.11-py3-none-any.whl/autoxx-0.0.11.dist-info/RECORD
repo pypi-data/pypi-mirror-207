@@ -1,0 +1,10 @@
+autoxx/agent/base.py,sha256=SU7z_qOR8pibgjtGb46FTgHgEzOCQKfROGoSLYXHrdA,310
+autoxx/agent/researcher.py,sha256=qe9nQI51liO-YiL0rRKopwSGbfebYwW7cdWT0e9VymY,970
+autoxx/agi.py,sha256=HC7iV5lkA8bgExLr1pEUaNh9Oby2nsYBYXLLNBUm738,4126
+autoxx/js/overlay.js,sha256=8xun05O1bslA2ZR0K76VaTmiO6gygTFnHzWtQB1F4LU,804
+autoxx/requirements.txt,sha256=wFfWFPexnj0asGsj5TvDueDuWHP2DrOxITjz1oUptgE,406
+autoxx/search/simple_search.py,sha256=t_a2lTe8x25iOinMo_cLg7XVDfB529JfQk3rYDmMoRY,5307
+autoxx/task_manager.py,sha256=JqzufssxrbUv5B76oA0GcProaUzD2w88-G300tiXCds,4995
+autoxx-0.0.11.dist-info/METADATA,sha256=NkkUlyzMN6OqcpfKHRnS1uV87GxMhADftR0bx31oE1k,981
+autoxx-0.0.11.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+autoxx-0.0.11.dist-info/RECORD,,
