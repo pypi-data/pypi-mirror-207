@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: html-msg
+Version: 1.0.0
+Summary: This tool allows to create HTML message via simple methods,         even if you dont now HTML
+Home-page: https://github.com/
+Download-URL: https://pypi.org/project/
+Author: Sirakan Bagdasarian
+Author-email: bsirak@bk.ru
+License: MIT
+Keywords: HTML,Message
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+test
+
