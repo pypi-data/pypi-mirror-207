@@ -1,0 +1,9 @@
+workbooky/__init__.py,sha256=di4eZIiX4ebdW5oo75smy3GFmm32eloJoFfTJZulPiQ,130
+workbooky/_version.py,sha256=7Mp8iqklf3_AKmDXbtfWFufmP2NUURhE5CXW4A0vn-c,22
+workbooky/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+workbooky/src/workbook.py,sha256=uYEBfpeN_BpCaGn0KX9IYFA0IFP-gIqTg0D7PWWaUio,1420
+workbooky-0.0.0.dist-info/LICENSE.txt,sha256=4h0e1iLfuruOGdqDfs8-aua1e_Ma97UnS8ZfwAau8aE,33889
+workbooky-0.0.0.dist-info/METADATA,sha256=iSWR9yYEjJbBrBYnkyQnyDGhsu6hy7ryN34_E0N4i-g,610
+workbooky-0.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+workbooky-0.0.0.dist-info/top_level.txt,sha256=xMGGNEt92YgBiN26WUNU2BgAbRsWjZRgrcAKi0zdDbc,10
+workbooky-0.0.0.dist-info/RECORD,,
