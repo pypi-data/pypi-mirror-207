@@ -1,0 +1,9 @@
+keyboardpaster/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+keyboardpaster/app.py,sha256=uYlL41pwnlb5TUN1O_xv3PIctNQv2u2MjV7cdba028s,3485
+keyboardpaster/keyboard_layout_detector.py,sha256=S9q63t-wGxXVyy3vfPEolBurndhQdk1l8WHZbNZx67E,10577
+keyboardpaster/keyboardpaster.kv,sha256=eNmbN9M1gU7I-JAxFfOMfdNoFNIS2dajQWC2LH4edro,552
+KeyboardPaster-0.1.5.dist-info/METADATA,sha256=qXid4OBdTNBFkOy1qwzleusm2D9Nyt_trgoktvsjGAc,1246
+KeyboardPaster-0.1.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+KeyboardPaster-0.1.5.dist-info/entry_points.txt,sha256=sXYBU4NAIfI66kSq8xbRjZPlgCOGcerOZuqeqtJ30-c,59
+KeyboardPaster-0.1.5.dist-info/top_level.txt,sha256=eRqaBwy9ET6lyICfO_ADoGaSGepx44wAwuPSuhgnqrU,15
+KeyboardPaster-0.1.5.dist-info/RECORD,,
