@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: torch-npu
+Version: 2.1.0
+Summary: NPU bridge for PyTorch
+Home-page: https://gitee.com/ascend/pytorch
+License-File: LICENSE
+
