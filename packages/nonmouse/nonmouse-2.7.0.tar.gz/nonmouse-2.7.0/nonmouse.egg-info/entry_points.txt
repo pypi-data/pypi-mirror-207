@@ -1,0 +1,3 @@
+[console_scripts]
+nonmouse = nonmouse.__main__:main
+

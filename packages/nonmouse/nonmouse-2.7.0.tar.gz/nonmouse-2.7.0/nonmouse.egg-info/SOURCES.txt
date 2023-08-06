@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+nonmouse/__init__.py
+nonmouse/__main__.py
+nonmouse/args.py
+nonmouse/utils.py
+nonmouse.egg-info/PKG-INFO
+nonmouse.egg-info/SOURCES.txt
+nonmouse.egg-info/dependency_links.txt
+nonmouse.egg-info/entry_points.txt
+nonmouse.egg-info/requires.txt
+nonmouse.egg-info/top_level.txt

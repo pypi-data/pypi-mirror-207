@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: nonmouse
+Version: 2.7.0
+Summary: a webcam-based virtual gesture mouse that is easy to use with hands on the desk
+Home-page: https://github.com/takeyamayuki/NonMouse
+Author: Yuki TAKEYAMA
+Author-email: namiki.takeyama@gmail.com
+License: Apache-2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
