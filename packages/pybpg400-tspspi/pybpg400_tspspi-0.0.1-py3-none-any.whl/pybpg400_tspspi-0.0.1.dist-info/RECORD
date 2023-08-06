@@ -1,0 +1,9 @@
+bpg400/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bpg400/bpg400.py,sha256=WeXLqt21bk1eDMfxVJUeduWe2WHrCwzh0Ywq3p_7-pU,10387
+bpg400/bpg400cli.py,sha256=fr-hf1V77-2DeL7sobzlyuyN23mhzk-ftYEwUifNPsU,4783
+pybpg400_tspspi-0.0.1.dist-info/LICENSE.md,sha256=x9eZheVkoZsO4ORK12xHaD8eks93BgsPXWUJP6udJJ0,1411
+pybpg400_tspspi-0.0.1.dist-info/METADATA,sha256=Ra3VXTqOUHz0c-bK9iR5vkJRXXc0ExhoP8ba48VliR4,2478
+pybpg400_tspspi-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pybpg400_tspspi-0.0.1.dist-info/entry_points.txt,sha256=or3Ulw1j5wjkMnroczyaV0BhmD3dkByzqFu1go4YXFE,49
+pybpg400_tspspi-0.0.1.dist-info/top_level.txt,sha256=L5USTSaAP51GbQvcYcCJ5EgBG5yalhnHBkB71UApOQk,7
+pybpg400_tspspi-0.0.1.dist-info/RECORD,,
