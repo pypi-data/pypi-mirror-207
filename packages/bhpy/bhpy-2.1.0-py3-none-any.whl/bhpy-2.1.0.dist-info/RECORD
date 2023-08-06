@@ -1,0 +1,8 @@
+bhpy/__init__.py,sha256=plZ3AsclNyAKLSzjv2fg-yLHidc4G-difZSz_u7d9MU,165
+bhpy/bh_device_scan_wrapper.py,sha256=Lv3YR_26630SlCNot1mqZ9Cp4mTUXEeHSwYXjhwfSbs,2970
+bhpy/spc_qc_config.py,sha256=7Gi-xvxMRy-dyqPhJif8lqCEk7yEU5KPZJGkactoJTw,3083
+bhpy/spc_qc_wrapper.py,sha256=HSQ-6V0bvUT-a2F6WyZNm5uOXRtJSDwPid--n7WzcbU,16403
+bhpy-2.1.0.dist-info/METADATA,sha256=CCbBNtD415c_1ZhuQ4CU0RuV1fNn1UQsMeqhRywnonM,1452
+bhpy-2.1.0.dist-info/WHEEL,sha256=kAoYHEzhbpP91vg_l47LD3ekp-d1wLb0_Af70S1KycY,87
+bhpy-2.1.0.dist-info/licenses/LICENSE.txt,sha256=PGbaNSajC8zQCu1eVyPqgVZ6SweGiVXNk_b-4hvsXRo,1097
+bhpy-2.1.0.dist-info/RECORD,,
