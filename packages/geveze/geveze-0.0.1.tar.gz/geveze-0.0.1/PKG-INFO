@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: geveze
+Version: 0.0.1
+Summary: Geveze ChatGPT Examples
+Home-page: https://github.com/overenginar/geveze
+Author: Ali Cabukel
+Author-email: acabukel@protonmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# geveze
+
+```
+python -m venv geveze_env
+source ./bin/activate
+```
+
+```
+python setup.py sdist
+```
+
+```
+pip install geveze
+```
+
+

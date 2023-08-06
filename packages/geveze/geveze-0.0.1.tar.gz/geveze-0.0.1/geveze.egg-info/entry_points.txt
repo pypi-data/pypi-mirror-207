@@ -1,0 +1,3 @@
+[console_scripts]
+twinkle = src.twinkle:cli
+
