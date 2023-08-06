@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: pyanide
+Version: 1.1.0
+Summary: Tools for killing processes and keeping them dead.
+Home-page: https://github.com/matthewdeanmartin/pyanide
+License: MIT
+Keywords: kill,exit
+Author: Matthew Martin
+Author-email: matthewdeanmartin@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: mdformat
+Requires-Dist: mistune
+Requires-Dist: tabulate
+Project-URL: Bug Tracker, https://github.com/matthewdeanmartin/pyanide/issues
+Project-URL: Change Log, https://github.com/matthewdeanmartin/pyanide/blob/main/CHANGES.md
+Project-URL: Documentation, https://github.com/matthewdeanmartin/pyanide
+Project-URL: Repository, https://github.com/matthewdeanmartin/pyanide
+Description-Content-Type: text/markdown
+
+# pyanide
+
+This is library helps kill processes. For example, you might be able to exit vim by killing the process, but you may also want to keep it dead by periodically checking to see if it has come back to life and re-killing it.
+
+More importantly, [it is a library that the people want](https://elk.zone/mastodon.social/@mergesort@macaw.social/110346638073185447).
+
+Created with help from ChatGPT.
+
+```bash
+python -m pyanide vim
+```
+
+![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/pypi/pyanide) [![Downloads](https://pepy.tech/badge/pyanide/month)](https://pepy.tech/project/pyanide/month)
+
+______________________________________________________________________
+
+## Installation
+
+```shell
+pip install pyanide
+```
+
+
+## Prior Art
+
+
+## Documentation
+
+- [TODO](https://github.com/matthewdeanmartin/pyanide/blob/main/docs/TODO.md)
+
