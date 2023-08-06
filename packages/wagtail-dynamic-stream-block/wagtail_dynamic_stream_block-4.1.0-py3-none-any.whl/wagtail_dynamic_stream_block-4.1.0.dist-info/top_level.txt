@@ -1,0 +1,1 @@
+wagtail_dynamic_stream_block
