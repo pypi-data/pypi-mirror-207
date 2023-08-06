@@ -1,0 +1,12 @@
+spotON_sdk/__init__.py,sha256=MnZkUkdu5-31H6il4R5OtzvKItx_SpCMofL2QWr1udc,447
+spotON_sdk/constants/bidding_zones.py,sha256=3FrJL0JRhZqckSEU_6dkbiE0mWVEYfXnf7Jk_iUJKHI,745
+spotON_sdk/constants/countries.py,sha256=ZkXxvAhjKHSyN2Osa2QEmXKjhk5ZLTipXlexnVoj2bE,4640
+spotON_sdk/constants/markets.py,sha256=NVgL8nVrSryUHcMtkphD9dABtzd3x6_rda3HVwI3wjw,2309
+spotON_sdk/logic/BestHour.py,sha256=uMbwFn7uySdoD_DEm4OkjnW9iFuzlPUBIHC81GLoTZk,714
+spotON_sdk/logic/Config.py,sha256=jkU7NihGlpesBHc9YPtrdzBtc6M3e21WZuuaRVhnIHU,2846
+spotON_sdk/logic/Entsoe_query.py,sha256=u1_Z069zSVH9DNeqCWpIdYqX5345Is9ARAcZGfi3zVw,3480
+spotON_sdk/logic/dataframe_modifier.py,sha256=i80M6T4wTAClUlEd7bMprYgyQZWvLhusy9JVDw2IXHg,1395
+spoton_sdk-0.0.3.7.dist-info/LICENSE,sha256=jeZJTmCUulZGaTz_2i6oUdxcqHor1xNELo_1q12U9J4,1085
+spoton_sdk-0.0.3.7.dist-info/WHEEL,sha256=kdeDBNPvBI0w3meLKPoGgAnEr54n1jzrZWUoaLmGzVY,99
+spoton_sdk-0.0.3.7.dist-info/METADATA,sha256=f3FAOMXSgCFwODYW17Sy4ieEs1JpcCc9nfdtYeqbGEc,250
+spoton_sdk-0.0.3.7.dist-info/RECORD,,
