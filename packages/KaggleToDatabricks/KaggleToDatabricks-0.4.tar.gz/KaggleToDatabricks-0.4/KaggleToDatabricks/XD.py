@@ -1,0 +1,2 @@
+class XD:
+    print("XD")
