@@ -1,0 +1,12 @@
+dis_inference/__about__.py,sha256=BzyHlndHEfHSEqdJQlEc50z1k9KF5IbuhQuLvV3xB2Y,140
+dis_inference/__init__.py,sha256=U1qMC-PQP1lJmlJV04N32C3krWnD7UNyTzpyrw3fMPg,117
+dis_inference/__main__.py,sha256=FWm9ZXUFbzT6CZ7UJPMA-0HyFsyoMCRNSoNH3J0Zq28,239
+dis_inference/main.py,sha256=m8-1ONTXWwsFa4JP3gWPoh7C3wY5k4mhI4K2d9IjgTs,685
+dis_inference/cli/__init__.py,sha256=tpJW42K_GtE8LB27HyCJrBNFrlSvWzIftszwP4WDD9w,1007
+dis_inference/models/__init__.py,sha256=srpmhTWXqEyDwaF-K0LVa7yC2Iwxt1GJQ3YnUryFTQo,3645
+dis_inference/models/isnet.py,sha256=76ZNtKjYefLSF8Y5xXQicL85jd_100Ae0iCB5NEbm8I,15623
+dis_inference-1.0.1.dist-info/METADATA,sha256=DpiwwRFFl9FGWWs-rI3LgBZDfl2EMmcGCvxugF--0SU,1677
+dis_inference-1.0.1.dist-info/WHEEL,sha256=kAoYHEzhbpP91vg_l47LD3ekp-d1wLb0_Af70S1KycY,87
+dis_inference-1.0.1.dist-info/entry_points.txt,sha256=lHF9gBGcXnEYlmNWMdeMlDDMDmgG1x5G_KqzlMd4QRs,66
+dis_inference-1.0.1.dist-info/licenses/LICENSE.txt,sha256=eXNaddAnTSpdzCQNEaD4HjTPw1M5Obf86OhONaFQojg,34255
+dis_inference-1.0.1.dist-info/RECORD,,
