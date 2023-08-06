@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: EasyForge
+Version: 0.0.2
+Summary: To Make easy to use Forge (APS) by python
+Author: DKVG
+Author-email: gadellidk@gmail.com
+Keywords: EasyForge forge APS forge-python python-aps
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+<h1>Forge APS</h1>
+<p>
+The forge (APS) package is developed to create Forge APS token create/ delete buckets and others.
+<br>
+
+In this Package the following Forge API:<br>
+1.Data Management API<br>
+2.Authentication API <br>
+3.ModelDerivative API<br>
+</p>
+<p>The Following are sample examples.</p>
+<p>
+Example 1 (To create Authenticate Token): <br>
+from forge.Authentication import Authenticate<br>
+def GenerateToken():<br>
+    app_client_id = 'YOUR_FORGE_CLIENT_ID'<br>
+    app_client_secret = 'YOUR_FORGE_CLIENT_SECRET'<br>
+    access_token = Authenticate(forge_client_id=app_client_id, forge_client_secret=app_client_secret,authenticate_scopes='viewables:read')<br>
+    return access_token
+</p>
+<br>
+<br>
+
+<p>
+Example 2  (To create Bucket): <br>
+def createBucket():<br>
+    app_client_id = 'YOUR_FORGE_CLIENT_ID'<br>
+    app_client_secret = 'YOUR_FORGE_CLIENT_SECRET'<br>
+    BUCKET_KEY = 'YOUR_BUCKET_NAME'
+    bucketCreation = CreateBucket(forge_client_id=app_client_id, forge_client_secret=app_client_secret,bucket_key=BUCKET_KEY)<br>
+    return bucketCreation<br>
+</p>

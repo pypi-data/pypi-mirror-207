@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.py
+src/EasyForge/Authentication.py
+src/EasyForge/DesignAutomation.py
+src/EasyForge/ModelDerivative.py
+src/EasyForge/__init__.py
+src/EasyForge.egg-info/PKG-INFO
+src/EasyForge.egg-info/SOURCES.txt
+src/EasyForge.egg-info/dependency_links.txt
+src/EasyForge.egg-info/top_level.txt
+src/EasyForge/DataManagement/ACC.py
+src/EasyForge/DataManagement/OSS.py
+src/EasyForge/DataManagement/__init__.py
