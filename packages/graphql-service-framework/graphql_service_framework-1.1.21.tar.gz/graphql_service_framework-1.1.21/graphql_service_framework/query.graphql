@@ -1,0 +1,21 @@
+query GetServiceState {
+  logs
+  name
+  startedAt
+  uptime
+  schemaVersion
+  serviceVersion
+  dependencies {
+    name
+    apiVersionSpecifier
+    state
+    schemaVersion
+    serviceVersion
+    remoteName
+    serviceUrl
+    httpMethod
+    raiseError
+    serviceManagerUrl
+  }
+  packages
+}
