@@ -1,0 +1,6 @@
+yaml
+dataclasses
+transformers
+asyncio
+argparse
+httpx
