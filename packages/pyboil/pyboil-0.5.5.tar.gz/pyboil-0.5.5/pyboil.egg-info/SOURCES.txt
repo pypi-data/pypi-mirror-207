@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pyboil/__init__.py
+pyboil/main.py
+pyboil/parser.py
+pyboil.egg-info/PKG-INFO
+pyboil.egg-info/SOURCES.txt
+pyboil.egg-info/dependency_links.txt
+pyboil.egg-info/entry_points.txt
+pyboil.egg-info/top_level.txt
