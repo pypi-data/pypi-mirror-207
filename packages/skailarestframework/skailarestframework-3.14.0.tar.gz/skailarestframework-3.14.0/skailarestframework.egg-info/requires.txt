@@ -1,0 +1,5 @@
+skailar-framework>=3.0
+pytz
+
+[:python_version < "3.9"]
+backports.zoneinfo
