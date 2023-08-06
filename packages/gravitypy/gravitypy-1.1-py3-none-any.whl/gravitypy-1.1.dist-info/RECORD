@@ -1,0 +1,11 @@
+gravitypy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gravitypy/__main__.py,sha256=3Ok1PZf2dKpNc_ZugnT0qnkvCmEXRATQLTh8L_zlpME,60
+gravitypy/main.py,sha256=h3lbgKyA3y8_Y-kibfOpz-DjLZj6j2U5raDu4AErd-o,15495
+gravitypy/resources/fonts/minecraft_font.ttf,sha256=35Nrfk8SY734BcSR5iL9fh-Q0tyNe8nDyMgYJYU2abs,15700
+gravitypy-1.1.data/data/gravitypy/resources/fonts/minecraft_font.ttf,sha256=35Nrfk8SY734BcSR5iL9fh-Q0tyNe8nDyMgYJYU2abs,15700
+gravitypy-1.1.dist-info/LICENSE,sha256=3uuQ0-ScDihaCRr2F3KvkPmGtbvaTjxfpz26wgTkHBM,1066
+gravitypy-1.1.dist-info/METADATA,sha256=BGR2h7PrYMGWj4t5nuQi5oPXPZO85b3h3SfuKSARr0I,338
+gravitypy-1.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+gravitypy-1.1.dist-info/entry_points.txt,sha256=wLRBwKgtULLkHbgWqO5okztfs5yH-c1NDTkMvlzeClc,54
+gravitypy-1.1.dist-info/top_level.txt,sha256=QJpn1cJ_eAQ97JUCmN1Yz2BC6nQBfq5BG5bAwjwXl8Q,10
+gravitypy-1.1.dist-info/RECORD,,
