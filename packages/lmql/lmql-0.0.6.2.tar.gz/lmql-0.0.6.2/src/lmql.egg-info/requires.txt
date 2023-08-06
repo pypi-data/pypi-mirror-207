@@ -1,0 +1,9 @@
+astunparse==1.6.3
+openai
+termcolor
+numpy
+gpt3_tokenizer
+
+[hf]
+transformers>=4.28.1
+accelerate
