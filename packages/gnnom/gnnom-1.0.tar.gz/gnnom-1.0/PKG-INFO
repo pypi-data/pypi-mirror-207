@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: gnnom
+Version: 1.0
+Summary: Apply NNs for SAXS data analysis
+Home-page: https://github.com/emblsaxs
+Download-URL: https://github.com/emblsaxs/gnnom/archive/refs/tags/1.0.1.tar.gz
+Author: Dima
+Author-email: dmitry.molodenskiy@embl-hamburg.de
+License: MIR
+Keywords: SAXS,NN,ML,AI
+License-File: LICENSE
