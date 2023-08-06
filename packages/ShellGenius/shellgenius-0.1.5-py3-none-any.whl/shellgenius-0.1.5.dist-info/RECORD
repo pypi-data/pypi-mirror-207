@@ -1,0 +1,9 @@
+shellgenius/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shellgenius/cli.py,sha256=_pbrpfnVYHfjjBExDXhjf8z_N_4WiZOGpoUH24GquBo,3179
+shellgenius/gpt_integration.py,sha256=U_F6OcOne2asYtBV9pnKWNSMYBUVP-2QP4W4UeixdVY,5499
+shellgenius-0.1.5.dist-info/LICENSE,sha256=mc0snbFbfjru8uZ6Y_7iFqj9XYVteZppnNeK5PDtjGE,1079
+shellgenius-0.1.5.dist-info/METADATA,sha256=c7wrae6G8_7lc-AIIqdxq-RKydRCMvzgbJy0tevuDZY,4308
+shellgenius-0.1.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+shellgenius-0.1.5.dist-info/entry_points.txt,sha256=UoDvfy8-Fvm4J_-X0zifMjzEzVZpCMm4ZfvF8EAeNC8,60
+shellgenius-0.1.5.dist-info/top_level.txt,sha256=uBpgp9EvBcn81dSoe3u6t63fATft70lyFmhiu8nUy4M,12
+shellgenius-0.1.5.dist-info/RECORD,,
