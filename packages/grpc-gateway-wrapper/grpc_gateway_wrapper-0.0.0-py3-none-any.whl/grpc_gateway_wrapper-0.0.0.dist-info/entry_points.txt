@@ -1,0 +1,3 @@
+[console_scripts]
+grpc-gateway-wrapper = grpc_gateway_wrapper.__main__:main
+
