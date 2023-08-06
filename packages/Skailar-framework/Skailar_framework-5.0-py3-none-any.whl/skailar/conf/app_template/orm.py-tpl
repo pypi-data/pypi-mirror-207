@@ -1,0 +1,3 @@
+from skailar.db import models
+
+# Create your models here.

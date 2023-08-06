@@ -1,0 +1,23 @@
+#!/usr/bin/env python
+"""Skailar's command-line utility for administrative tasks."""
+import os
+import sys
+
+
+def main():
+    """Run administrative tasks."""
+    os.environ.setdefault('SKAILAR_SETTINGS_MODULE', '{{ project_name }}.settings')
+    try:
+        from skailar.core.management import execute_from_command_line
+    except ImportError as exc:
+        raise ImportError(
+            "The Skailar package cannot be imported. Please make sure that it "
+            "is installed and available on your PYTHONPATH environment variable. "
+            "Additionally, check that you have activated a virtual environment "
+            "if you are using one."
+        ) from exc
+    execute_from_command_line(sys.argv)
+
+
+if __name__ == '__main__':
+    main()

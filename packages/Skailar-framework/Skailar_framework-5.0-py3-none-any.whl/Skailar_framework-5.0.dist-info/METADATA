@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: Skailar-framework
+Version: 5.0
+Summary: A Web framework made in Python
+Home-page: https://www.skailarproject.com/
+Author: Skailar-framework
+Author-email: foundation@skailarproject.com
+License: BSD-3-Clause
+Project-URL: Documentation, https://docs.skailarproject.com/
+Project-URL: Release notes, https://docs.skailarproject.com/en/stable/releases/
+Project-URL: Funding, https://www.skailarproject.com/fundraising/
+Project-URL: Source, https://github.com/skailar/skailar
+Project-URL: Tracker, https://code.skailarproject.com/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+License-File: LICENSE.python
+License-File: AUTHORS
+Requires-Dist: asgiref (>=3.6.0)
+Requires-Dist: sqlparse (>=0.3.1)
+Requires-Dist: tzdata ; sys_platform == "win32"
+Provides-Extra: argon2
+Requires-Dist: argon2-cffi (>=19.1.0) ; extra == 'argon2'
+Provides-Extra: bcrypt
+Requires-Dist: bcrypt ; extra == 'bcrypt'
+
+Skailar is a high-level Python web framework that encourages rapid development
+and clean, pragmatic design. Thanks for checking it out.
+
+All documentation is in the "``docs``" directory and online at
+https://docs.skailarproject.com/en/stable/. If you're just getting started,
+here's how we recommend you read the docs:
+
+* First, read ``docs/intro/install.txt`` for instructions on installing Skailar.
+
+* Next, work through the tutorials in order (``docs/intro/tutorial01.txt``,
+  ``docs/intro/tutorial02.txt``, etc.).
+
+* If you want to set up an actual deployment server, read
+  ``docs/howto/deployment/index.txt`` for instructions.
+
+* You'll probably want to read through the topical guides (in ``docs/topics``)
+  next; from there you can jump to the HOWTOs (in ``docs/howto``) for specific
+  problems, and check out the reference (``docs/ref``) for gory details.
+
+* See ``docs/README`` for instructions on building an HTML version of the docs.
+
+Docs are updated rigorously. If you find any problems in the docs, or think
+they should be clarified in any way, please take 30 seconds to fill out a
+ticket here: https://code.skailarproject.com/newticket
+
+To get more help:
+
+* Join the ``#skailar`` channel on ``irc.libera.chat``. Lots of helpful people
+  hang out there. See https://web.libera.chat if you're new to IRC.
+
+* Join the skailar-users mailing list, or read the archives, at
+  https://groups.google.com/group/skailar-users.
+
+To contribute to Skailar:
+
+* Check out https://docs.skailarproject.com/en/dev/internals/contributing/ for
+  information about getting involved.
+
+To run Skailar's test suite:
+
+* Follow the instructions in the "Unit tests" section of
+  ``docs/internals/contributing/writing-code/unit-tests.txt``, published online at
+  https://docs.skailarproject.com/en/dev/internals/contributing/writing-code/unit-tests/#running-the-unit-tests
+
+Supporting the Development of Skailar
+
+Skailar's development depends on your contributions. 
+
+If you depend on Skailar, remember to support the Skailar Software Foundation: https://www.skailarproject.com/fundraising/
