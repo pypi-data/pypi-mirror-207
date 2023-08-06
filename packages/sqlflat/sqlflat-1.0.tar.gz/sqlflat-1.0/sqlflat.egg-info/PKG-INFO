@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: sqlflat
+Version: 1.0
+Summary: A utility for converting SQL queries to a single line format
+Home-page: https://github.com/Sampaguitas/sqlflat
+Author: Timothee Desurmont
+Author-email: timothee.desurmont@sampaguitas.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE.md
+
+UNKNOWN
+
