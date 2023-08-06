@@ -1,0 +1,17 @@
+verime/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+verime/verime.py,sha256=1Uqw94X24NiI0qlEUOR5ZAeIQPmmDwmZ0NOX7p__aSI,28025
+verime/data/MANIFEST.in,sha256=KNY68M5jgdXlmUIqLrVq3oEoXMVBgziMZls-8zlz4tA,17
+verime/data/pymod.cpp,sha256=Nn3MrcHghD2KLCojWLypQJCKfC9A5vgpMZI0Io01R_k,6214
+verime/data/pyproject.toml,sha256=KHWKWeb28TCcIMtuIHrYFDS7t7i0rXHG4t07RFEAL4g,105
+verime/data/pysimu.py,sha256=sARszZnPsCW6RWH_e2KDeVupWkLcO0whL8hpdYQbpgE,5553
+verime/data/setup.cfg,sha256=Oqn-vRgGWeIvO4mRzIIem51Lz82r9YYncflCwYTHmNA,36
+verime/data/setup.py,sha256=ChV5Xd8R1PCDtkcukxUx7eoTwvGKueaI9QUSE4RGMac,1656
+verime/data/simulation_runner.cpp,sha256=0RSkxHsEkIUFd6jqeqVRxMsX9OQWQRNQMnemobpW__g,2607
+verime/data/simulation_runner.h,sha256=v2tYXuoSdzwB1Ri6wntsSvExOrYbEA3oHg11ssN3HdM,1551
+verime/data/template_makefile.mk,sha256=A9mIXhbl792GjVy3L2Sw4c1Mc6kLuGnbDnH-TeFCFlE,1160
+verime-1.0.2.dist-info/COPYING,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+verime-1.0.2.dist-info/METADATA,sha256=cXwq7qkORq0yZhSjOb26hrmW7rNLbqI1iNhjmX9Yr_s,1851
+verime-1.0.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+verime-1.0.2.dist-info/entry_points.txt,sha256=Y0y9atqWZfYCzU8XdInqMynFf-augmwHPyuNPfWANbI,46
+verime-1.0.2.dist-info/top_level.txt,sha256=0bHx_Xx6drrPsMKfTi9LTqy9dTumBkQqDg3F6Fqd-FY,7
+verime-1.0.2.dist-info/RECORD,,
