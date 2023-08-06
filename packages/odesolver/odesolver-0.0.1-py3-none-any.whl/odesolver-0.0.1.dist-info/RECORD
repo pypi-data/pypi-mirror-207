@@ -1,0 +1,10 @@
+odesolver/__init__.py,sha256=CbrwWCs3TCEB34WpGmflcL3NAvdT0G3m2u0FV4CBacc,65
+odesolver/explicit.py,sha256=4Bg5z5GgjIeH4CbZD6mjuJU3hHqYMPYhhBHfyTyT9TM,548
+odesolver/implicit.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odesolver/roots.py,sha256=DuljCWjs48bO5QbsHO0Ys9AJ600YGrWEED-Wlo691CA,5423
+odesolver/solver.py,sha256=WWIQCb2W383jshGTVpzAZ0UsFT_6Dz767f4_eh5UrBg,1217
+odesolver-0.0.1.dist-info/LICENSE,sha256=k2xc6VDT8oRESG4U92rqxesR4fLzbwdc9F_cXzVc6JM,1055
+odesolver-0.0.1.dist-info/METADATA,sha256=DLrZS3JQ8UjHhtutgCoDNecnezZgYPnjXEKNX2_xOao,1767
+odesolver-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+odesolver-0.0.1.dist-info/top_level.txt,sha256=Nd6-6bfrU938YRsj_yFexvFlaYOcaMYvnxTKWxJsPok,10
+odesolver-0.0.1.dist-info/RECORD,,
