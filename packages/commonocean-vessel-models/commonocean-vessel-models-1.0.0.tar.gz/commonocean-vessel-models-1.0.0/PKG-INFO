@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: commonocean-vessel-models
+Version: 1.0.0
+Summary: Implementation of vessels models with varying abstraction levels.
+Home-page: https://commonocean.cps.cit.tum.de/
+Author: Cyber-Physical Systems Group, Technical University of Munich
+Author-email: commonocean@lists.lrz.de
+Keywords: autonomous automated vessels motion planning
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Python Vessel Models of CommonOcean
+​
+This package contains all vessel models of the [CommonOcean benchmarks](https://commonocean.cps.cit.tum.de/). 
+The code is based on the [CommonRoad vehicle models repository](https://gitlab.lrz.de/tum-cps/commonroad-vehicle-models).
+​
+We provide implementations of the vessel dynamics and vessel parameters.
+​
+## Documentation
+​
+For a detailed explanation of the vehicle models, please have a look at the [documentation](https://gitlab.lrz.de/tum-cps/commonocean-vessel-models/-/blob/main/documentation/vesselModels_commonOcean.pdf).
+​
+## Installation
+​
+To use vehicle models and parameters, run
+```
+pip install commonocean-vessel-models
+```
+​
+## Code examples
+​
+For an extended simulation example, we refer to our [gitlab repository](https://gitlab.lrz.de/tum-cps/commonocean-vessel-models). A simple simulation example for using the point-mass model in combination with an odeint solver would be
+​
+```python3
+from scipy.integrate import odeint
+import numpy
+​
+from vesselmodels.parameters_vessel_1 import parameters_vessel_1
+from vesselmodels.vessel_dynamics_pm import vessel_dynamics_pm
+​
+def func_PM(x, t, u, p):
+    f = vessel_dynamics_pm(x, u, p)
+    return f
+​
+tStart = 0  # start time
+tFinal = 1  # start time
+​
+# load vehicle parameters
+p = parameters_vessel_1()
+​
+# initial state for simulation
+x0_PM = [0, 0, 10.0, 0.0]
+​
+t = numpy.arange(0, tFinal, 0.01)
+u = [1.4, 0]
+x = odeint(func_PM, x0_PM, t, args=(u, p))
+​
+```
+​
+## Contribute
+​
+If you want to contribute new vessel models, you can create a merge request in our [repository](https://gitlab.lrz.de/tum-cps/commonocean-vessel-models), or contact us via [mail](mailto:commonocean@lists.lrz.de).
+​
+# Contibutors and Reference
+​
+We thank all the contributors for helping develop this project (see contributors.txt).
+​
+**If you use our converter for research, please consider citing our paper:**
+```
+@inproceedings{Krasowski2022a,
+	author = {Krasowski, Hanna and Althoff, Matthias},
+	title = {CommonOcean: Composable Benchmarks for Motion Planning on Oceans},
+	booktitle = {Proc. of the IEEE International Conference on Intelligent Transportation Systems},
+	year = {2022},
+}
+```
