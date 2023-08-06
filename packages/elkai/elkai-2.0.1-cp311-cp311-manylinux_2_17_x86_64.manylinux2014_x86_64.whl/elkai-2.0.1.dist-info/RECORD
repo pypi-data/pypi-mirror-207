@@ -1,0 +1,10 @@
+elkai/types.py,sha256=F60uJR8DSlJd8JBpxFCR-x45b4Q-P2uM6HdLVBlsqpk,3854
+elkai/utils.py,sha256=nwX6XAYU2BP8mqApSjoL6m6NqhLDnXE9TvVhy5p4PwQ,1431
+elkai/_elkai.so,sha256=M5XCF7eXEHY16_LxM0fBrj80Rb0CoLRUX1wHCFPBr2M,471704
+elkai/_elkai.c,sha256=BTDQjGcGLjY9IGI6nvry3wsKuAa87ZHvNUEMcaC6cZY,4459
+elkai/__init__.py,sha256=mOTCNCH1XoWoon_KxRGEROEBtzpquWILF4rlgAZh-og,109
+elkai/deprecated.py,sha256=LwdgAHNAYzRGGllvfwGmqFI1AKN2jiN1s9wY2jnC1TU,859
+elkai-2.0.1.dist-info/METADATA,sha256=Bv1z-MVSo1LungNUCHR1CuIT8NDkOykgxR6bw420y5c,2974
+elkai-2.0.1.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+elkai-2.0.1.dist-info/RECORD,,
+elkai-2.0.1.dist-info/WHEEL,sha256=v3Koj36mrCyPOnVYRxAZlnm8vf1Ml4xvWyQrF4PQ5to,155
