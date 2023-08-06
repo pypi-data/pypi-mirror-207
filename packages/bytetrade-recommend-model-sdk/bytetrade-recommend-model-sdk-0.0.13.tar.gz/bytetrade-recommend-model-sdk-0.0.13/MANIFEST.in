@@ -1,0 +1,2 @@
+include recommend_model_sdk/resources/model_management.json
+prune unit_test
