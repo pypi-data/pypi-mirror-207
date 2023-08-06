@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+serdeserc/__init__.py
+serdeserc/main_class.py
+serdeserc/serdeser_test.py
+serdeserc.egg-info/PKG-INFO
+serdeserc.egg-info/SOURCES.txt
+serdeserc.egg-info/dependency_links.txt
+serdeserc.egg-info/not-zip-safe
+serdeserc.egg-info/top_level.txt
