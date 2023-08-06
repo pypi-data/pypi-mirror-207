@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+FuzzyPySeg/FuzzyPySeg.py
+FuzzyPySeg/__init__.py
+FuzzyPySeg.egg-info/PKG-INFO
+FuzzyPySeg.egg-info/SOURCES.txt
+FuzzyPySeg.egg-info/dependency_links.txt
+FuzzyPySeg.egg-info/requires.txt
+FuzzyPySeg.egg-info/top_level.txt

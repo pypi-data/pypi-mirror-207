@@ -1,0 +1,4 @@
+numpy
+Image
+numba
+scipy

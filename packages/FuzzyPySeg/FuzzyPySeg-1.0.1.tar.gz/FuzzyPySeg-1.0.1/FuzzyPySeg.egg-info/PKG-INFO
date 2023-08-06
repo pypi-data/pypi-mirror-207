@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: FuzzyPySeg
+Version: 1.0.1
+Summary: FuzzyPySeg is a package for segmenting images using Fuzzy C Means clustering with either a Euclidean or Mahalanobis distance. You may also specify a centroid initialization using the firefly algorithm, genetic algorithm, or the Biogeography-based optimization algorithm.
+Home-page: https://github.com/Danyulll/FuzzyPySeg
+Download-URL: https://github.com/Danyulll/FuzzyPySeg/archive/refs/tags/v1.0.1.tar.gz
+Author: Daniel Krasnov
+Author-email: dkrasnov@student.ubc.ca
+License: MIT
+Keywords: image segmentation,clustering,fuzzy c-means,firefly algorithm,genetic algorithm,biogeography-based optimization algorithm
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE.txt
