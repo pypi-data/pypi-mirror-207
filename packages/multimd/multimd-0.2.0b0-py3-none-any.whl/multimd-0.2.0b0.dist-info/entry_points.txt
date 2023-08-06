@@ -1,0 +1,3 @@
+[console_scripts]
+multimd=multimd.__main__:mmd_CLI
+
