@@ -1,0 +1,3 @@
+alive-progress
+pycryptodome
+argon2-cffi
