@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: staticHL
+Version: 0.2.0
+Summary: Convert dynamically styled code and syntax highlighting to static html+css.
+Home-page: https://gitlab.com/jackaaron/statichl/
+License: MIT
+Requires-Dist: async-generator (==1.10)
+Requires-Dist: attrs (==23.1.0)
+Requires-Dist: certifi (==2022.12.7)
+Requires-Dist: exceptiongroup (==1.1.1)
+Requires-Dist: h11 (==0.14.0)
+Requires-Dist: idna (==3.4)
+Requires-Dist: lxml (==4.9.2)
+Requires-Dist: networkx (==3.1)
+Requires-Dist: outcome (==1.2.0)
+Requires-Dist: progress (==1.6)
+Requires-Dist: PySocks (==1.7.1)
+Requires-Dist: selenium (==4.9.0)
+Requires-Dist: sniffio (==1.3.0)
+Requires-Dist: sortedcontainers (==2.4.0)
+Requires-Dist: trio (==0.22.0)
+Requires-Dist: trio-websocket (==0.10.2)
+Requires-Dist: urllib3 (==1.26.15)
+Requires-Dist: wsproto (==1.2.0)
+

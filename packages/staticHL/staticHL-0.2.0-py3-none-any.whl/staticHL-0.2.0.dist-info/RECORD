@@ -1,0 +1,10 @@
+statichl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+statichl/__main__.py,sha256=FT4NXKelIiRk_0OK7w_Zsf8w198hUWSbz-fwvsSfXs0,4015
+statichl/constants.py,sha256=SGvgV23cr9fYx5OC_BHUUIaE0n5uK-D-t9j3dsN5ru8,1514
+statichl/elementutil.py,sha256=PCips9j7Hkscn3eHPcxFAVVHX4pUe7oONYSKQtuulvs,6220
+statichl/pageutil.py,sha256=sDzhj65hOIE-F037aD_MZ10fV1phyurqxxVshQZ9nms,3510
+staticHL-0.2.0.dist-info/METADATA,sha256=LG1mfhRcakGAwEMYdeFxI-yRnHuABLGVN1PIR4Y_5C0,817
+staticHL-0.2.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+staticHL-0.2.0.dist-info/entry_points.txt,sha256=5tvr_tnB0nRNxG52oDkPqwy1sgGQgYj42g164xI0QvU,52
+staticHL-0.2.0.dist-info/top_level.txt,sha256=xPYcdKckm7Ld9JyKTyXvm83Fpe8rLmFkZBHaVxtADFY,9
+staticHL-0.2.0.dist-info/RECORD,,
