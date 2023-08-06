@@ -1,0 +1,11 @@
+[project]
+name = "ign-mnx"
+version = "0.0.0"
+description = "Project used to create DTM, DSM and DHM from lidar point cloud"
+readme = "README.md"
+authors = [
+    { name = "Malvina Dupays", email = "malvina.dupays@ign.fr" },
+    { name = "Léa Vauchier", email = "lea.vauchier@ign.fr" }
+]
+[tool.setuptools]
+packages = [ "mnx" ]

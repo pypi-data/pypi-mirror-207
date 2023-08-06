@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: ign-mnx
+Version: 0.0.0
+Summary: Project used to create DTM, DSM and DHM from lidar point cloud
+Author-email: Malvina Dupays <malvina.dupays@ign.fr>, Léa Vauchier <lea.vauchier@ign.fr>
+Description-Content-Type: text/markdown
+
+# Create DEM, DSM and DTM from lidar point cloud
