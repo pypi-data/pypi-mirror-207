@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: lendsmart-autotest
+Version: 1.10
+Summary: The internal SDK for lendsmart autotest
+Home-page: https://bitbucket.org/lendsmartlabs/lendsmart_py/
+Author: Lendsmart
+Author-email: infos@lendsmart.ai
+License: MIT
+Keywords: lendsmart autotest
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: selenium (==3.141.0)
+Requires-Dist: keyboard (==0.13.5)
+Requires-Dist: pytest (==6.0.1)
+Requires-Dist: requests (==2.24.0)
+Requires-Dist: boto3 (==1.16.28)
+Requires-Dist: PyAutoGUI (==0.9.50)
+Requires-Dist: urllib3
+Requires-Dist: pytest-html (==3.1.1)
+Requires-Dist: importlib-metadata (==4.0.1)
+Requires-Dist: Faker (==13.15.0)
+Requires-Dist: ramda
+Requires-Dist: webdriver-manager
+Requires-Dist: networkx
+
