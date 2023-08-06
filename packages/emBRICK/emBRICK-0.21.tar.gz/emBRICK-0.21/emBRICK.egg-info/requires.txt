@@ -1,0 +1,7 @@
+threaded
+pyserial
+pymodbus>=3.2
+sockets
+DateTime
+numpy
+scipy
