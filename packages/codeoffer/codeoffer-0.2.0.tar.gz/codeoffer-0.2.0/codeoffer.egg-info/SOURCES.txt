@@ -1,0 +1,6 @@
+README.md
+setup.py
+codeoffer.egg-info/PKG-INFO
+codeoffer.egg-info/SOURCES.txt
+codeoffer.egg-info/dependency_links.txt
+codeoffer.egg-info/top_level.txt
