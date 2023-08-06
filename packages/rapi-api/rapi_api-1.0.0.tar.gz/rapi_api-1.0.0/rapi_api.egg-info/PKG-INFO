@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: rapi-api
+Version: 1.0.0
+Summary: Rapi API for Python provides user level api using rapi runner.
+Home-page: https://github.com/RapiTest/rapi-api
+Author: Rapi Team
+Author-email: rapitest.service@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# rapi-api-nodejs
+## Quick Start
+```python 
+import rapi_api
+from rapi_api import ConfigBuilder, Rapi
+config = ConfigBuilder()    \
+    .setTestSuites(["test1.json"])   \
+    .addBrowser("http://url.to.selenium.server", {
+        "browserName": "firefox",
+    }).build()
+
+rapi = Rapi(
+    "path/to/rapi/runner", config)
+report = rapi.run()
+print(report.json)
+```
+## Documentation
+[Python](https://hackmd.io/@Rapi/BJins7t72)
+
