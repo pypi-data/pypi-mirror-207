@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: cybro.usergroup.shift
+Version: 1.0.0
+Summary: an addon which can change multiple user's to one group
+Home-page: https://github.com/collective/cybro.usergroup.shift
+Author: midhlaj-nk
+Author-email: midhlaj.nk@gmail.com
+License: GPL version 2
+Project-URL: PyPI, https://pypi.python.org/pypi/cybro.usergroup.shift
+Project-URL: Source, https://github.com/collective/cybro.usergroup.shift
+Project-URL: Tracker, https://github.com/collective/cybro.usergroup.shift/issues
+Keywords: Python Plone CMS
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Plone
+Classifier: Framework :: Plone :: Addon
+Classifier: Framework :: Plone :: 5.2
+Classifier: Framework :: Plone :: 6.0
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Requires-Python: >=3.7
+Provides-Extra: test
+License-File: LICENSE.GPL
+License-File: LICENSE.rst
+
+
+
+=====================
+cybro.usergroup.shift
+=====================
+
+An addon which can change multiple user's to one group
+
+Features
+--------
+
+   - From settings, multiple user's user group can be changed.  
+
+
+
+
+
+
+Installation
+------------
+
+Install cybro.usergroup.shift by adding it to your buildout::
+
+    [buildout]
+
+    ...
+
+    eggs =
+        cybro.usergroup.shift
+
+
+and then running ``bin/buildout``
+
+
+Authors
+-------
+
+Midhlaj.nk
+
+
+
+
+
+
+
+License
+-------
+
+The project is licensed under the GPLv2.
+
+
+Contributors
+============
+
+- midhlaj-nk, midhlaj.nk@gmail.com
+
+
+Changelog
+=========
+
+
+1.0.0
+------------------
+
+- Initial release.
+  [midhlaj-nk]
