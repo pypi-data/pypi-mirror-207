@@ -1,0 +1,13 @@
+dragonfile/__init__.py,sha256=_wCqNR4KpV2p5XTkqB7t529ubJfhSqZ5MykhG_SFNT4,1473
+dragonfile/fileToCsv.py,sha256=Q-bS0rXtOPaRUObQYStSyDXlYH4KXo_aHge1JwYe8nE,253
+dragonfile/lenColumns.py,sha256=1NaVP_8khI8RxAnWkrWtiOq5MINGQ_MjMS_Cfpa4puc,231
+dragonfile/readFile.py,sha256=OdXpmAYr80-qmauwY03yyrUUnl0iJ__5-uKP7jW9XIs,608
+dragonfile/readFileRename.py,sha256=PjYCoN3OkVVbFhCxyD0UkSPe11LVTH1wGgve0IzDyVA,1189
+dragonfile/readFileSetPeriod.py,sha256=AEcTJEZ2QYy82vw3uqdkYmSRqXuIkn6fowWuNYv88b8,1881
+dragonfile/readValues.py,sha256=WCtg0SEPMiuf38NTsy4Jp6NXHADosGZmjuGE49XKBPk,785
+tests/__init__.py,sha256=_45vlcIypa2b18N8SC7zcRrUliWSOUQ-UBaMp1Pih7w,8
+dragonfile-1.0.8.dist-info/LICENSE,sha256=02eOcGvYICXgBPMIM3vlF_VGi_CiLCBR_vsDUpfZ1I4,1086
+dragonfile-1.0.8.dist-info/METADATA,sha256=ry5OeMGAEYj8xpJk4lwWwshsn7XTi4AWZzqCCXd9V74,773
+dragonfile-1.0.8.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+dragonfile-1.0.8.dist-info/top_level.txt,sha256=8ckXgjHS0EofdYIFBWxygj6OaGisVypLa_ly4uRJIBc,17
+dragonfile-1.0.8.dist-info/RECORD,,
