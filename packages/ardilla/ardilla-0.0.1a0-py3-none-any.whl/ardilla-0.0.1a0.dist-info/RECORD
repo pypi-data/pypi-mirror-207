@@ -1,0 +1,15 @@
+ardilla/__init__.py,sha256=sCZMfttGwzCoSIX0mw8RTe_Nun_CzctnmdxMtY0MHJg,106
+ardilla/abc.py,sha256=VuSRQeklE5UQuadIfwZeS_yL5XBD-yuxVthicXW4Cnc,1719
+ardilla/crud.py,sha256=WRCMMvV9ugQjA5NhFjUqnTkohED-YmL8DF7VFDvbJyE,5086
+ardilla/engine.py,sha256=mc-3m1PmZNTy36kntN5P4kYpSZ_ccgOs0F-vqHAV9_Q,1091
+ardilla/errors.py,sha256=QMLoGcxtpehYVni5O4xM0ssgUhyyEPB2g4u1TSq3Oe0,157
+ardilla/models.py,sha256=YMBqVuy_nwGDWHkI6aluewKSfUfZKG-bq3uU6ogIA0M,1106
+ardilla/schemas.py,sha256=mJBukOhtO_2liw_a74FnX4szA1OVp0P0tT9QI4y4MDw,1327
+ardilla/asyncio/__init__.py,sha256=uaXy-5Wo1k87aTQVbVyNKKxQYJAShp4u0AwFbjyDxwQ,78
+ardilla/asyncio/crud.py,sha256=RqV3zPZPRpQn3hEOERtOo0Q4U7JerpokQ9HbWICD-hw,5087
+ardilla/asyncio/engine.py,sha256=YJRLKisSvwi37Y2c-uidJueRold7wXHmeIBTO3ASd4U,658
+ardilla-0.0.1a0.dist-info/LICENCE,sha256=cMt6rZR5OrOQHtxodojSFQheDfwWLf4wH9ClnQsR1tw,1084
+ardilla-0.0.1a0.dist-info/METADATA,sha256=bvgmozNH9AyxXT-V7gT9SgkFqnBhk1Am5XEpvoFqkHA,2894
+ardilla-0.0.1a0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+ardilla-0.0.1a0.dist-info/top_level.txt,sha256=gvJuP3LsCTUTfFinsororqC8wfyAyg8RlNk6X5YOMwY,8
+ardilla-0.0.1a0.dist-info/RECORD,,
