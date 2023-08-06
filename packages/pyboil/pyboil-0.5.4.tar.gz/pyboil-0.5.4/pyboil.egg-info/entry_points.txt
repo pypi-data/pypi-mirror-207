@@ -1,0 +1,2 @@
+[console_scripts]
+pyboil = pyboil:launch
