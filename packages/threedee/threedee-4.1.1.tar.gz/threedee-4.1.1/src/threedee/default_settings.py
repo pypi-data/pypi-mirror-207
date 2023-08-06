@@ -1,0 +1,2 @@
+
+THREEDEE_MAX_UPLOAD_SIZE = pow(2, 20)

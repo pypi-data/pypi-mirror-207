@@ -1,0 +1,63 @@
+{% load static %}
+{% if container_element == 'head' %}
+
+<script type="text/javascript">
+
+const WebGLProfile = function (document) {
+
+    const window = document.defaultView || document.parentWindow;
+
+    this.supportedWebGLType = null;
+    this.isSupported = false;
+    this.isDeactivated = false;
+
+    const webglTypes = ["webgl2", "webgl", "experimental-webgl", "moz-webgl", "webkit-3d"];
+
+    var canvas = document.createElement("canvas");
+    var experimental = false;
+    var gl = null;
+
+    for( var index = 0; index < webglTypes.length; ++index ) {
+
+        try {
+
+            gl = canvas.getContext(webglTypes[index]);
+
+            if( gl != null ) {
+                this.supportedWebGLType = webglTypes[index];
+                this.isSupported = true;
+                break;
+            }
+
+        } catch (error) {
+        }
+    }
+
+    if( !this.isSupported && ("WebGLRenderingContext" in window || "WebGL2RenderingContext" in window)) {
+        this.isDeactivated = true;
+    }
+
+    if( this.isSupported ) {
+        try {
+            document.documentElement.classList.remove( "no-webgl" );
+        } catch (error) {
+        }
+    }
+
+    if( this.isDeactivated ) {
+        try {
+            document.documentElement.classList.add( "webgl-deactivated" );
+        } catch (error) {
+        }
+    }
+};
+
+var webglProfile = new WebGLProfile(document);
+
+</script>
+<link rel="stylesheet" type="text/css" href="{% static 'threedee/css/paraview_webgl_model.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'threedee/css/threedee.css' %}">
+{% endif %}
+{% if container_element == 'body' %}
+<script type="text/javascript" src="{% static 'threedee/js/threedee.js' %}"></script>
+{% endif %}

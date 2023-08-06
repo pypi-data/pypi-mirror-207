@@ -1,0 +1,8 @@
+include src/threedee/static/threedee/*
+include src/threedee/static/threedee/js/*
+include src/threedee/static/threedee/css/*
+include src/threedee/templates/threedee/*
+include src/threedee/templates/threedee/tags/*
+include src/threedee/templates/threedee/examples/*
+
+recursive-exclude * .DS_Store *.pyc
