@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: configzen
+Version: 0.1.0
+Summary: The easiest way to manage configuration files in Python
+License: MIT
+Author: bswck
+Author-email: bswck.dev@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: json
+Provides-Extra: yaml
+Requires-Dist: orjson (>=3.8.12,<4.0.0) ; extra == "json"
+Requires-Dist: pyyaml (>=6.0,<7.0) ; extra == "yaml"
+Requires-Dist: typing-extensions (>=4.5.0,<5.0.0) ; python_version >= "3.9" and python_version < "3.11"
+Description-Content-Type: text/markdown
+
+# configzen
+_configzen_ – managing configuration files easily.
+
+This library makes it easy to manage configuration files using 
+the Python's OOP paradigm.
+
+We'll start with a simple example.
+
+
+
+
+
+## Setup
+## License
+[MIT License](https://choosealicense.com/licenses/mit/)
+## Contributing
+## 📧 Contact
+* [bswck](https://github.com/bswck)
+## 🔗 Related Projects 
+
