@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+ggp/__init__.py
+ggp/make.py
+ggp/new.py
+ggp/templates/loadworker.js
+ggp/templates/sample.html
+ggp/templates/sample.js
+ggp_template.egg-info/PKG-INFO
+ggp_template.egg-info/SOURCES.txt
+ggp_template.egg-info/dependency_links.txt
+ggp_template.egg-info/top_level.txt
