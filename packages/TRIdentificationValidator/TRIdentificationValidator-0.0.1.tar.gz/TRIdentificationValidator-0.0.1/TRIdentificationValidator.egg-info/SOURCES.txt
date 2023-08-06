@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+TRIdentification/__init__.py
+TRIdentification/exception.py
+TRIdentificationValidator.egg-info/PKG-INFO
+TRIdentificationValidator.egg-info/SOURCES.txt
+TRIdentificationValidator.egg-info/dependency_links.txt
+TRIdentificationValidator.egg-info/requires.txt
+TRIdentificationValidator.egg-info/top_level.txt
