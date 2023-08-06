@@ -1,0 +1,2 @@
+[console_scripts]
+simplecsvdataset = simplecsvdataset.__main__:main

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+simplecsvdataset/randomaccess.py
+simplecsvdataset/whereami.py
+simplecsvdataset.egg-info/PKG-INFO
+simplecsvdataset.egg-info/SOURCES.txt
+simplecsvdataset.egg-info/dependency_links.txt
+simplecsvdataset.egg-info/entry_points.txt
+simplecsvdataset.egg-info/requires.txt
+simplecsvdataset.egg-info/top_level.txt
