@@ -1,0 +1,38 @@
+# Vive Tracker APIServer
+
+## gRPC Server
+
+Run this command
+
+```shell
+python -m vive_tracker_apiserver serve
+```
+
+### Testing with cli tools
+
+```shell
+python -m vive_tracker_apiserver test.server
+```
+
+You will be asked to input API endpoint.
+
+### Testing with Open3D visualization
+
+```shell
+python -m vive_tracker_apiserver test.visualize
+```
+
+You will be asked to input API endpoint.
+
+### Generate Client
+
+First run `cd vive_tracker_apiserver/grpc`, then run:
+
+```shell
+# cd vive_tracker_apiserver/grpc
+python -m grpc_tools.protoc -I../../manifests/protos --python_out=. --pyi_out=. --grpc_python_out=. ../../manifests/protos/tracker_packet.proto
+```
+
+You might need to replace line 5 of `vive_tracker_apiserver/grpc/tracker_packet_pb2_grpc.py` with `import vive_tracker_apiserver.grpc.tracker_packet_pb2 as tracker__packet__pb2`
+
+
