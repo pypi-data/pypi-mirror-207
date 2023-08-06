@@ -1,0 +1,10 @@
+README.md
+setup.py
+venakatest/__init__.py
+venakatest/test.py
+venakatest.egg-info/PKG-INFO
+venakatest.egg-info/SOURCES.txt
+venakatest.egg-info/dependency_links.txt
+venakatest.egg-info/entry_points.txt
+venakatest.egg-info/requires.txt
+venakatest.egg-info/top_level.txt
