@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "kopia"
+version = "0.1.2"
+description = "CLI for creating database dumps"
+authors = ["Rasmus Nathanson <rasmus.nathanson@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+kopia = "kopia.main:app"
+
+[tool.poetry.dependencies]
+python = ">=3.8.1,<4.0"
+typer = {extras = ["all"], version = "^0.7.0"}
+mysql-connector-python = "^8.0.32"
+pytest = "^7.3.1"
+pytest-mock = "^3.10.0"
+typing-extensions = "^4.5.0"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.1.1"
+black = "^23.3.0"
+flake8 = "^6.0.0"
+ruff = "^0.0.260"
+
+[build-system]
+requires = ["poetry>=1.0.0"]
+build-backend = "poetry.masonry.api"
