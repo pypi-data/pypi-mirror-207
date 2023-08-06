@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyxtend
+Version: 0.2.0
+Summary: Some functions for Python
+Home-page: https://github.com/jss367/pyxtend
+Author: Julius
+Author-email: julius.simonelli@gmail.com
+Project-URL: Bug Tracker, https://github.com/jss367/pyxtend/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyxtend
+
+Some functions to make Python more productive.
