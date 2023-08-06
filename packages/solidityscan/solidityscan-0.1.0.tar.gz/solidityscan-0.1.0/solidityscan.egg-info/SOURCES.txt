@@ -1,0 +1,14 @@
+README.md
+setup.py
+solidityscan.egg-info/PKG-INFO
+solidityscan.egg-info/SOURCES.txt
+solidityscan.egg-info/dependency_links.txt
+solidityscan.egg-info/entry_points.txt
+solidityscan.egg-info/requires.txt
+solidityscan.egg-info/top_level.txt
+solscan/__init__.py
+solscan/config.py
+solscan/constants.py
+solscan/exceptions.py
+solscan/lang.py
+solscan/scan.py
