@@ -1,0 +1,7 @@
+recursive-include src/django_tsp/templates *.dot *.html
+recursive-include src/django_tsp/management *
+recursive-include docs *
+include CHANGELOG.rst
+include LICENSE
+include pyproject.toml
+include README.md
