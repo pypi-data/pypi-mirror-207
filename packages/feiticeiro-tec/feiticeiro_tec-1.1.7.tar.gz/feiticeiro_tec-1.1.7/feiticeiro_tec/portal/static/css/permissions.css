@@ -1,0 +1,24 @@
+#permissions {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.toggle-permissions {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.bi-toggle-on {
+    color: #198754;
+    display: none;
+}
+
+.toggle-permissions.checked .bi-toggle-on {
+    display: block;
+}
+
+.toggle-permissions.checked .bi-toggle-off {
+    display: none;
+}
