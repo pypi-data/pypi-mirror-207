@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyprodop
+Version: 0.1a1
+Summary: Functions to help NMR people to understand pulse sequences by simplifying calculations.
+Home-page: https://github.com/MetallerTM/pypulse
+Author: Francesco Bruno
+Author-email: bruno@cerm.unifi.it
+License: LICENSE.txt
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy
+
+LONG DESCRIPTION
+
