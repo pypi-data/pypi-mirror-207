@@ -1,0 +1,7 @@
+setup.py
+8puzz.egg-info/PKG-INFO
+8puzz.egg-info/SOURCES.txt
+8puzz.egg-info/dependency_links.txt
+8puzz.egg-info/top_level.txt
+ai/__init__.py
+ai/solve.py
