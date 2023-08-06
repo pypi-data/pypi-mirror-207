@@ -1,0 +1,1 @@
+from moddagudu import namaste
