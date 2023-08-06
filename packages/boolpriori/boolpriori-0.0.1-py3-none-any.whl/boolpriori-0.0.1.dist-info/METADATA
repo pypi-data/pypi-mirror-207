@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: boolpriori
+Version: 0.0.1
+Summary: Mining Boolean expressions about set membership.
+Author-email: Galen Seilis <galen.seilis@seilis.ca>
+Project-URL: Homepage, https://github.com/galenseilis/boolpriori
+Project-URL: Bug Tracker, https://github.com/galenseilis/boolpriori/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# boolpriori
+Inspired by the a priori data mining algorithm I learned in school, this package explores beyond using just conjunction.
