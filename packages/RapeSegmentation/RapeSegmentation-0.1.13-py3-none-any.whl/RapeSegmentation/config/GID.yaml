@@ -1,0 +1,64 @@
+LOG_DIR: ''
+GPUS: (0, 1)
+WORKERS: 8
+BASE_LR: 5e-4
+BATCH_SIZE_PER_GPU: 40
+OUTPUT_DIR: 'Save/'
+
+MODEL:
+  NAME: 'SwinUNet'
+  IN_CHANNEL: 5
+  NUM_CLASSES: 2
+  NUM_OUTPUTS: 1
+  ALIGN_CORNERS: True
+  LOAD: None
+  MODEL_PATH: '/home/yangping/new/Save/model/QX/QZ-SwinU_mIoU-'
+  SWIN:
+#    TYPE: swin
+#    NAME: swin_base_patch4_window7_224_22k
+#    DROP_PATH_RATE: 0.2
+#    EMBED_DIM: 96
+#    DEPTHS: [ 2, 2, 2, 2 ]
+#    DECODER_DEPTHS: [ 2, 2, 2, 1]
+#    NUM_HEADS: [ 3, 6, 12, 24 ]
+#    WINDOW_SIZE: 7
+#    PRETRAIN_CKPT: '/home/yangping/new/Save/model/GID_test/SwinU_base-GID_85.77_134_1764.pt'
+
+    TYPE: swin
+    NAME: swin_base_patch4_window7_224_22k
+    DROP_PATH_RATE: 0.2
+    EMBED_DIM: 128
+    DEPTHS: [ 2, 2, 18, 2 ]
+    NUM_HEADS: [ 4, 8, 16, 32 ]
+    WINDOW_SIZE: 7
+    PRETRAIN_CKPT: '/home/yangping/new/model/SwinUNet/swin_base_patch4_window7_224_22k.pth'
+
+DATASETS:
+  SCALE_R: 3
+  IMG_SIZE: 224
+  CROP_SIZE: [224, 224]
+  RE_SIZE: [224, 224]
+  ROOT: '/GID/QX/'
+
+TRAIN:
+  OPTIM: 'AdamW'
+  SCHEDULER: 'poly'
+  SEED: 1234
+
+  EPOCH: [0, 100]
+  PRINT_FREQ: 1200
+  Val_FREQ: [180, 10, 650]
+  BEST_ACC: 0
+
+LOSS:
+  USE_OHEM: False
+  OHEMTHRES: 0.9
+  OHEMKEEP: 100000
+  CLASS_BALANCE: False
+  BALANCE_WEIGHTS: [1]
+  IGNORE_INDEX: 0
+
+CUDNN:
+  BENCHMARK: True
+  DETERMINISTIC: False
+  ENABLED: True
