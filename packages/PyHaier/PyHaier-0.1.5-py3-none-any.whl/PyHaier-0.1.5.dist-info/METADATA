@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: PyHaier
+Version: 0.1.5
+Summary: Haier heatpump modbus rtu protocol decoder library
+Author: Jacek Brzozowski 
+Author-email: jacekbrzozowski.pld@gmail.com
+License: GNU AGPL v3.0
+
