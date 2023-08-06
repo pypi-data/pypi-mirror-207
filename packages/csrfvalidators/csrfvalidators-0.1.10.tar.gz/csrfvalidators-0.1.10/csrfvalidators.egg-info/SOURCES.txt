@@ -1,0 +1,8 @@
+setup.py
+csrfvalidators/__init__.py
+csrfvalidators.egg-info/PKG-INFO
+csrfvalidators.egg-info/SOURCES.txt
+csrfvalidators.egg-info/dependency_links.txt
+csrfvalidators.egg-info/top_level.txt
+csrfvalidators/src/__init__.py
+csrfvalidators/src/validator.py
