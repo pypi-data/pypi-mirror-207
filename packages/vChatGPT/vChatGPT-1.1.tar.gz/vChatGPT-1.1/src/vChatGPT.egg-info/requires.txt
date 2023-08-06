@@ -1,0 +1,8 @@
+audio2numpy
+soundcard
+scipy
+readchar
+openai
+Whisper
+SpeechRecognition
+gtts
