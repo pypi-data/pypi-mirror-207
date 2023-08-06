@@ -1,0 +1,5 @@
+__prog__ = "jfu"
+__author__ = "Z. Alem, Philippe Docourt"
+__licence__ = "BSD License"
+__version__ = "3.0.0"
+__desc__ = "A Django Library for jQuery File Upload."
