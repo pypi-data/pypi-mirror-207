@@ -1,0 +1,16 @@
+devcellpy/__init__.py,sha256=QbYWKKq46aMzek-Xp9NGy-P4r8QuDspIaTqcosPHn3w,78
+devcellpy/config.py,sha256=Kkusu-LFuP7rjNl6wNi4Xx0FXsQabmD_f0G66GuNdO0,379
+devcellpy/featurerank.py,sha256=RTfP5G6Y-QeZ88Wos9JPHge3BuAMzAxIHl3gZE9hlVY,2469
+devcellpy/helpers.py,sha256=JaDVY0c49d4RniqL6k4tXcNmMnvpWfmpnlRw1Z5J7Ik,1211
+devcellpy/importing_modules.py,sha256=UDs6D_L5weegko1mMXNhB6TG1utw4H23tI9o2MdkQxs,529
+devcellpy/layer.py,sha256=DF26vFKwiN2xkSZGMgJ_Hub9xKrGQqWuFxmlQw0tOKs,30565
+devcellpy/main.py,sha256=UqGWr5LXmI8P4UYE6mSdcPLJhLwg5mRMqnsabO0XHvg,10295
+devcellpy/predict.py,sha256=RVr3qOiRcnSZvBkblTQ-2YyL6nktL0YgBdo7HgvaECA,7806
+devcellpy/setup.py,sha256=a9mj1EWwiBp3EcYt-AaPKkzy8DazNy0O7VOGa4ta9qQ,1656
+devcellpy/train.py,sha256=3XJnyiXZ7qiLs_zesv4LKqwIgBzBqiVbEuWpjDHgt20,6344
+devcellpy-1.1.1.dist-info/LICENSE.txt,sha256=e-YidpALdqaZm3EY4oFGRK8QeHUH5LXBl642LmIZWdg,1063
+devcellpy-1.1.1.dist-info/METADATA,sha256=p5t7VxhEEwLB8WeA8h7lefcnvnsXIWCOeUYYOTZvDY8,2636
+devcellpy-1.1.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+devcellpy-1.1.1.dist-info/entry_points.txt,sha256=2hnY_MBP9qBCWEFE3bsB-5QI2MKR5QzQ1EF_nu1gXMI,55
+devcellpy-1.1.1.dist-info/top_level.txt,sha256=DV2WGG3jJihC6IRZDL-i0hJsWrhUvs41l0NsnIdTRw8,10
+devcellpy-1.1.1.dist-info/RECORD,,
