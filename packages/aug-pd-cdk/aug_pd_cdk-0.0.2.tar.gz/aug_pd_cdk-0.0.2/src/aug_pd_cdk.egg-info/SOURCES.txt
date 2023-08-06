@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/aug_pd_cdk/__init__.py
+src/aug_pd_cdk/py.typed
+src/aug_pd_cdk.egg-info/PKG-INFO
+src/aug_pd_cdk.egg-info/SOURCES.txt
+src/aug_pd_cdk.egg-info/dependency_links.txt
+src/aug_pd_cdk.egg-info/requires.txt
+src/aug_pd_cdk.egg-info/top_level.txt
+src/aug_pd_cdk/_jsii/__init__.py
+src/aug_pd_cdk/_jsii/aug-pd-ckd@0.0.2.jsii.tgz
