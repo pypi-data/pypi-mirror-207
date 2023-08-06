@@ -1,0 +1,14 @@
+uppy/__about__.py,sha256=XEqb2aiIn8fzGE68Mph4ck1FtQqsR_am0wRWvrYPffQ,22
+uppy/__init__.py,sha256=DYfPUKNrn1qGmlKeVK9mXhn44_yVV4usduASJ7vSpS8,165
+uppy/_cli.py,sha256=Jl08cz-N2MoGJFzqaX-g0kg11O66H06w-RQXtk1JQaw,1909
+uppy/_console.py,sha256=xZNhUHeSBZzkdU_YnVdjGqvO2-7MBYxM35xAo8seqk0,276
+uppy/_gh_actions.py,sha256=yIKGnU_MCt_HtgMLXvF8vtWIrXubiAsGdubAi7rz4uE,1925
+uppy/_helpers.py,sha256=i4bwSGk6RFII4930dcEAT6Xrt5S7BQ8jZ8ttVm-6hAk,6111
+uppy/_license_validation.py,sha256=T_PWHjKyrGYpQBlULOY6Unj0zfOxvUlSEDw5giAHtHE,423
+uppy/_package_json.py,sha256=cynXyhrN4PQBg6Qaaa_oZ2ZRN8EsrWu5GYpsj4-fO2U,1397
+uppy/_pre_commit.py,sha256=ekmfuRKRgrOgDu1VxB4cB12z6OYUksN0zhZMN4PDb-g,1706
+uppy-0.1.3.dist-info/METADATA,sha256=dFeoyWVjf88hPaRXhTvJODCvpp_ENSMZnS6GOTRa_z4,2847
+uppy-0.1.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+uppy-0.1.3.dist-info/entry_points.txt,sha256=zWNr3wgGfP5JlzdZS-Y0vMosgwtYZtZsSe46jUB3B4k,34
+uppy-0.1.3.dist-info/top_level.txt,sha256=dWdHP9r3dSaMfpLChDHriQ_g_DqMJHNr5Ofw-vJ9Sss,5
+uppy-0.1.3.dist-info/RECORD,,
