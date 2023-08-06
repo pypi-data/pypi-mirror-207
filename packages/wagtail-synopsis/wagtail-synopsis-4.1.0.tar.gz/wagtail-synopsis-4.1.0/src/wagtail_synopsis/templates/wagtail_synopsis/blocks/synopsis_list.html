@@ -1,0 +1,13 @@
+{% load django_auxiliaries_tags wagtailcore_tags wagtail_richer_text_tags querykit_tags %}
+{% extend_with_custom_blocks self.block.meta.extends_template form.ordered_panel_block_definitions '_section' %}
+{% block content_section %}
+<div{% if self.block.meta.content_wrapper_classname %} class="{{ self.block.meta.content_wrapper_classname }}"{% endif %}>
+{# with result_label=self.block.child_blocks.content.child_blocks.wagtail_synopsis_synopses.meta.verbose_item_name result_label_plural=self.block.child_blocks.content.child_blocks.wagtail_synopsis_synopses.meta.verbose_item_name_plural #}
+{{ block.super }}
+{# endwith #}
+{% for synopsis, annotations in content %}
+{% include_block self.synopsis_style with scale_factor=1.0 layout_block=self.block %}
+{% endfor %}
+{% query_result_navigation result_slice form=form %}
+</div>
+{% endblock %}

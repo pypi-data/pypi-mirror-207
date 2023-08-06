@@ -1,0 +1,13 @@
+Django<4.2,>=4.1
+wagtail<4.2,>=4.1
+django-auxiliaries<4.2,>=4.1
+csskit<1.1,>=1.0
+wagtail-tags-block<4.2,>=4.1
+wagtail-content-block<4.2,>=4.1
+wagtail-content-admin<4.2,>=4.1
+wagtail-dynamic-choice<4.2,>=4.1
+media-catalogue<4.2,>=4.1.2
+aldine<4.2,>=4.1.1
+figurative<4.2,>=4.1
+wagtail-richer-text<4.2,>=4.1
+officekit<4.2,>=4.1

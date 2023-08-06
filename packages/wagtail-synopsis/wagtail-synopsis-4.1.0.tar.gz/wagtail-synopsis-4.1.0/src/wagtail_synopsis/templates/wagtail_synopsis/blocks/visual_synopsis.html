@@ -1,0 +1,40 @@
+{% load wagtailcore_tags wagtail_richer_text_tags wagtail_synopsis_tags %}
+<article class="abstract {{synopsis.prominence_css_class}}-prominence prominence-order-{{synopsis.prominence_order}} abstract-visual-placement-{{ self.visual_placement|default:'default' }}">
+  <div class="abstract-visual-container">
+  {% if not hide_visual and synopsis.visual.value %}
+  {% if synopsis.has_destination_url %}<a href="{% synopsis_destination_url synopsis request=request %}" class="abstract-visual">
+  {% include_block self.visuals.value with content=synopsis.visual.value scale_factor=scale_factor %}
+  {% else %}
+  {% include_block self.visuals.value with content=synopsis.visual.value scale_factor=scale_factor classname="abstract-visual" %}
+  {% endif %}
+  {% if synopsis.credits.items %}
+  <div>
+  {% for credit_category, credit_names in synopsis.credits.items %}
+    <span class="abstract-credit-category">{{ credit_category }}</span> <span class="abstract-credit-names">{{ credit_names }}</span>
+  {% endfor %}
+  </div>
+  {% endif %}
+  {% if synopsis.has_destination_url %}</a>{% endif %}
+  {% endif %}
+  </div>
+
+  <div class="abstract-description">
+  {% if self.show_rubrics %}{% if synopsis.rubric_url %}<a class="abstract-rubric" href="{{ synopsis.rubric_url }}">{{ synopsis.rubric }}</a>{% else %}{{ synopsis.rubric }}{% endif %}{% endif %}
+  {% if synopsis.has_destination_url %}<a href="{% synopsis_destination_url synopsis request=request %}">{% endif %}
+  {% if self.show_publishing_date %}<div class="abstract-detail abstract-publishing-date"><span>{{ synopsis.last_date_time|date:"j F Y" }}</span></div>{% endif %}
+  <h3 class="abstract-heading">{{ synopsis.heading }}</h3>
+  <p class="abstract-summary">{{ synopsis.summary|richertext|strip_paragraphs }}</p>
+  {% if synopsis.has_destination_url %}</a>{% endif %}
+  {% if self.show_authors and synopsis.names %}
+  {% include_block synopsis.names %}
+  {% endif %}
+  {% if self.show_tags and synopsis.tags %}
+  <span class="abstract-tags">
+    {% for tag in synopsis.tags.all %}
+    <span {% if layout_block.meta.tag_classname %}class="{{ layout_block.meta.tag_classname }}"{% endif %}>{{ tag.name }}</span>
+    {% endfor %}
+  </span>
+  {% endif %}
+  </div>
+</article>
+

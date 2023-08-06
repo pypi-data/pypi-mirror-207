@@ -1,0 +1,13 @@
+include src/wagtail_synopsis/static/wagtail_synopsis/*
+include src/wagtail_synopsis/static/wagtail_synopsis/js/*
+include src/wagtail_synopsis/static/wagtail_synopsis/css/*
+
+include src/wagtail_synopsis/templates/wagtail_synopsis/*
+include src/wagtail_synopsis/templates/wagtail_synopsis/blocks/*
+include src/wagtail_synopsis/templates/wagtail_synopsis/tags/*
+
+include src/wagtail_synopsis/static_src/wagtail_synopsis/*
+include src/wagtail_synopsis/static_src/wagtail_synopsis/images/*
+include src/wagtail_synopsis/static_src/wagtail_synopsis/css/*
+
+recursive-exclude * .DS_Store *.pyc
