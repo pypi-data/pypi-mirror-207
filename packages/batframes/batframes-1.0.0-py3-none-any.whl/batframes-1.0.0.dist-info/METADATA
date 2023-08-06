@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: batframes
+Version: 1.0.0
+Summary: 可以配置将多个可执行文件和内部命令串接成一个完整命令执行的框架工具。（命令支持 多个option选项）
+Author: Frank Gong
+Author-email: 583983716@qq.com
+License: BSD
+Requires-Dist: pandas (~=1.5.2)
+Requires-Dist: numpy (~=1.24.1)
+Requires-Dist: openpyxl
+Requires-Dist: argparse
+Requires-Dist: pathlib
+Requires-Dist: selenium
+Requires-Dist: requests
+Requires-Dist: xlrd
+Requires-Dist: bottle
+Requires-Dist: PySimpleGUI
+Requires-Dist: prettytable
+Requires-Dist: chardet
+Requires-Dist: nuitka
+Requires-Dist: PyQt5
+Requires-Dist: pycryptodomex
+Requires-Dist: datacompy
+Requires-Dist: shortuuid
+Requires-Dist: sqlalchemy (==1.4.46)
+Requires-Dist: mysql-connector-python
+Requires-Dist: ipy
+Requires-Dist: pathos
+Requires-Dist: pymysql
+Requires-Dist: colorlog
+Requires-Dist: matplotlib
+Requires-Dist: pypinyin
+Requires-Dist: bs4
+Requires-Dist: pyxlsb
+Requires-Dist: jsonlines
+Requires-Dist: Jinja2
+Requires-Dist: psgspecialelements
+Requires-Dist: DFTrans
+
