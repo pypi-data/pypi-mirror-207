@@ -1,0 +1,8 @@
+tennis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tennis/match.py,sha256=LE2SmuVJ3GRZYOoec6FQQUrSFtaD549AHn0I6snLpfY,30932
+tennis/tiebreak.py,sha256=-lDFCqwapO9bmkuIM1GV_fsQFDiJB9w2Ck-NbS3nXXY,17035
+tennis-0.1.0.dist-info/LICENSE,sha256=NnJWQlBILRwYmQtFdpvAOSYpwOK2n_QBBn9Ouw1rnk4,1083
+tennis-0.1.0.dist-info/METADATA,sha256=THf0LRVKtcue8_V0BmYUAREqIVsgRpxI_ByGf-KJmVo,441
+tennis-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+tennis-0.1.0.dist-info/top_level.txt,sha256=2vRJt2BWihqD2GV9p2Efsi6GmtcxFUg8GvfsXv6vX-s,7
+tennis-0.1.0.dist-info/RECORD,,
