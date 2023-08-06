@@ -1,0 +1,1 @@
+{"argv": ["python", "-m", "duckdb_kernel", "-f", "{connection_file}"], "display_name": "duckdb (Connection)", "name": "duckdb_connect", "language": "sql", "env": {"connect-to-existing-kernel": "1"}}

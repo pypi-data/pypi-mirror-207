@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+duckdb_kernel/__init__.py
+duckdb_kernel/__main__.py
+duckdb_kernel/kernel.py
+duckdb_kernel/kernel_template.json
+duckdb_kernel.egg-info/PKG-INFO
+duckdb_kernel.egg-info/SOURCES.txt
+duckdb_kernel.egg-info/dependency_links.txt
+duckdb_kernel.egg-info/requires.txt
+duckdb_kernel.egg-info/top_level.txt
+duckdb_kernel/duckdb/kernel.json
+duckdb_kernel/duckdb_connect/kernel.json
