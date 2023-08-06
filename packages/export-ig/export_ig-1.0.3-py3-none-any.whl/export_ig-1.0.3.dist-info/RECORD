@@ -1,0 +1,10 @@
+export_ig/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+export_ig/color_utils.py,sha256=OuEidClfQt3Rs4z-qxhi0CSpjMf1MVZgw-B85zK1jwc,556
+export_ig/export_ig.py,sha256=hvgRR5_jfadFMBWoBl-UdEOkgqyhPrkXVPadUzyLseU,1818
+export_ig/shadow_pad.py,sha256=TuqWpqVYJY87SN92ZIe-2iHT67KGU5uB_CaCO4UlleE,4824
+export_ig-1.0.3.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+export_ig-1.0.3.dist-info/METADATA,sha256=2590_0BMcmzH3jWxo3mMgSCZOw4m78ovyTJfuuublW8,1785
+export_ig-1.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+export_ig-1.0.3.dist-info/entry_points.txt,sha256=b38bptlSZRMLqR901OxHT9dwC0aJJeF1veL2lQ4dV8Y,55
+export_ig-1.0.3.dist-info/top_level.txt,sha256=aK-AYkH-DSyRaYgMhEWm2KCF80J_itiqoMAnONiLogA,10
+export_ig-1.0.3.dist-info/RECORD,,
