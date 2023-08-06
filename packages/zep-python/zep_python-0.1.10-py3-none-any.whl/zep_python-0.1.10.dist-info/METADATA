@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: zep-python
+Version: 0.1.10
+Summary: Zep stores, manages, enriches, and searches long-term memory for conversational AI applications. This is the Python client for the Zep service.
+Author: Daniel Chalef
+Author-email: daniel.chalef@private.org
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: httpx (>=0.24.0,<0.25.0)
+Description-Content-Type: text/markdown
+
+# zep-python
