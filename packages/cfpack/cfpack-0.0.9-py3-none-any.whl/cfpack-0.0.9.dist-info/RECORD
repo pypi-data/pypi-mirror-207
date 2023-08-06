@@ -1,0 +1,9 @@
+cfpack/__init__.py,sha256=4bTNLQCxQKK0xdzOHr3Gekq-3V3qhYjUm5me_TwM-Y8,39571
+cfpack/browser_control.py,sha256=cf2qzwms4aUkBlRunllZBfNl94QlPJS0C5LeOKnUGwc,5243
+cfpack/constants.py,sha256=qBOGgz79726ky1EcZz59Xd6PCStrXaE5slkef4A8b9s,866
+cfpack/hdfio.py,sha256=O7R-VQBPKWb8dwtE-9vnre32sZUCo1VhnrHgqZanmKc,3077
+cfpack/matplotlibrc.py,sha256=K6U7LTUPHtKVmq1KhQYeOlwCHJE3ILqe-BTkdkMA4Bc,1251
+cfpack-0.0.9.dist-info/METADATA,sha256=8rZqDH6uHEMcO6Ui0sZkXJwCFTwR0WgFNw8lD87uyEI,1985
+cfpack-0.0.9.dist-info/WHEEL,sha256=1sj40b2UKqprBEbJWPmoMwIvLMm3lc0tzYIjecdg2C8,87
+cfpack-0.0.9.dist-info/licenses/LICENSE,sha256=ygvfGXPrM5aZ5OiPnqcpUjVZ1f3NDzx0zkb4IlWRuk0,1076
+cfpack-0.0.9.dist-info/RECORD,,
