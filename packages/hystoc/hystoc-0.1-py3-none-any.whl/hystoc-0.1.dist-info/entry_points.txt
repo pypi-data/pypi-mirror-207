@@ -1,0 +1,3 @@
+[console_scripts]
+hystoc-confidences = hystoc.nbest_to_confidence:main
+hystoc-fusion = hystoc.fuse_nbest:main
