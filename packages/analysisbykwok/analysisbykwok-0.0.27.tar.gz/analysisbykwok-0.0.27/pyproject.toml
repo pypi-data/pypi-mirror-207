@@ -1,0 +1,9 @@
+[project]
+name = 'analysisbykwok'
+version ='0.0.27'
+dependencies=[
+'pandas',
+'requests',
+'pyexecjs',
+'tushare',
+'openpyxl']
