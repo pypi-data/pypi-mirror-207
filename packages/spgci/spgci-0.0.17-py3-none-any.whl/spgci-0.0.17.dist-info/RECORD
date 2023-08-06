@@ -1,0 +1,17 @@
+spgci/__init__.py,sha256=ck2Bu7s1pMEHlyWB7IQtvOJXPrdZQTxMtfVPJ5125KA,971
+spgci/api_client.py,sha256=fb5YA2pWDOjXEN6x2bQOqPA1fLnnSdWxFsTFa-XQqb4,4158
+spgci/auth.py,sha256=jYATJCJy7F0Xf1lMdzuVG8LXRf0Zau9F1SgzfCtWvLY,1779
+spgci/config.py,sha256=xmf65qBXxh8_PH3-wDhdY-TYen4JSwNdRRD5TkDAayI,1263
+spgci/epf.py,sha256=CHWGvn1tYydhhViAqmv23hHGmb_jL_pRn_zVgUu4tLM,29308
+spgci/ewindow_md.py,sha256=u8JPhVTKUhhIHGok8IsAvKuDH3Akxh5sjVdamuDbNTU,10255
+spgci/exceptions.py,sha256=31ggBUSLtp7-YtuzGcAdaRNwl-zcM5qBJqFZdLzYW3g,101
+spgci/forward_curves.py,sha256=3ERx6sM9DOMgQhovrxAZIQdELtAlKZOmSyIIOgUmhQE,12986
+spgci/insights.py,sha256=X6Lfav-B9ui_SyrZGIQfWir14cTucEYk5AjrHJ1FdR8,47330
+spgci/market_data.py,sha256=GF4qVliqRIfPg1emqm1m1EQ34RR-tz974N129oU2wvk,27085
+spgci/utilities.py,sha256=fxSqJmdMch7bfb6qhCNgAozj3EV5epPlcDv_n1FIU_8,3312
+spgci/wos.py,sha256=bNlAmqdxAk-Bf-Wf0DnM2OBff6Qnm4qjbHrJZUokQGE,31721
+spgci/wrd.py,sha256=eg-6pJPNkrKHUi-tssIF50cqklFUdcx7xTv3AUKIJGU,48861
+spgci-0.0.17.dist-info/LICENSE,sha256=11eRaJny3CllmE2cbZ3VPBQbjrByvN2-yf5IrEdTOpk,1088
+spgci-0.0.17.dist-info/METADATA,sha256=cz8p0-revFLGHRbMExlT1X9an22jbVE6A7EuGsqEx2k,6274
+spgci-0.0.17.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+spgci-0.0.17.dist-info/RECORD,,
