@@ -1,0 +1,9 @@
+langkit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+langkit/exclusions.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+langkit/input_output.py,sha256=ViQ0N3I4sNwZqs00xFYkErfDwJLjY7SiM8Z6vTqfKro,1203
+langkit/sentiment.py,sha256=0fb5ZhKvzRl59QQPFaZmG1qkNwHvWy59qdLbSoAvLaY,428
+langkit/textstat.py,sha256=ZKqVht-MxdhJfjsfuS5StrUMkjthlJiEQEJa4B0VABI,2394
+langkit-0.0.1.dev0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+langkit-0.0.1.dev0.dist-info/METADATA,sha256=phZIX7AGtbhSPoLJyN0Z2OY0uPYDF01eApNoRCsK5Rw,839
+langkit-0.0.1.dev0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+langkit-0.0.1.dev0.dist-info/RECORD,,
