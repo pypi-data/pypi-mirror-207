@@ -1,0 +1,9 @@
+hdf5tools/__init__.py,sha256=hzoRmP33cEnvheXKzF01DNmC-wSh6JbR2lYStbbTbAY,70
+hdf5tools/main.py,sha256=j2VCw3qjZ4e3cydGh7Y-6uh8YQ5Eu8d8WMABdeSF8d0,18807
+hdf5tools/utils.py,sha256=6nvOQ8EHLT44FRagfTT7CaizxLKnvSC2k6sBEBwP0EQ,27210
+hdf5tools/datasets/__init__.py,sha256=viLNOXukbTGI2l2uta7Jtfm5DgrLuFMgCzLZ019MYyw,906
+hdf5tools-0.1.12.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+hdf5tools-0.1.12.dist-info/METADATA,sha256=C0W2R9FwQi3X6s9E_ixxSAfYyRgDrJxd0Kp0_ls2QvA,702
+hdf5tools-0.1.12.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+hdf5tools-0.1.12.dist-info/top_level.txt,sha256=hD6g4QyosEVrLGdOcj566sadRNmJM2DIZ-Tv2NO1pFw,10
+hdf5tools-0.1.12.dist-info/RECORD,,
