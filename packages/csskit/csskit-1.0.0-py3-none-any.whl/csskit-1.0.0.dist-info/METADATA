@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: csskit
+Version: 1.0.0
+Summary: A library for CSS related auxiliaries.
+Home-page: https://github.com/high-dimensional/csskit
+Author: High Dimensional Neurology Group, UCL
+Author-email: pypi@highdimensional.net
+License: BSD-3-Clause
+Platform: any
+Classifier: Framework :: Django
+Classifier: Framework :: Wagtail
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: ~=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+License-File: AUTHORS.txt
+Requires-Dist: tinycss2 (<1.2,>=1.1.1)
+
+csskit
+==================
+
+A collection of utilities for working with stylesheet-related concepts with optional support for Django and Wagtail. Please bear with us while we prepare more detailed documentation.
+
+
+Installation
+------------
+
+1. Install using `pip`:
+  ```shell
+  pip install csskit
+  ```
+
+
