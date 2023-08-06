@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: battery-analyser
+Version: 0.1.0
+Summary: 
+License: MIT
+Author: Thiago Paiva
+Author-email: thiagohdaqw@gmail.com
+Requires-Python: >=3.8,<3.12
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Requires-Dist: keras (>=2.12.0,<3.0.0)
+Requires-Dist: numpy (==1.23)
+Requires-Dist: pillow (>=9.5.0,<10.0.0)
+Requires-Dist: tensorflow (>=2.12.0,<3.0.0)
+Project-URL: Código, https://github.com/Estacao-pilhas-pi2/battery-analyser
+Project-URL: Documentação, https://battery-analyser.readthedocs.io
+Description-Content-Type: text/markdown
+
+<img src="docs/assets/logo.png"/>
+
+# Analisador de Baterias
