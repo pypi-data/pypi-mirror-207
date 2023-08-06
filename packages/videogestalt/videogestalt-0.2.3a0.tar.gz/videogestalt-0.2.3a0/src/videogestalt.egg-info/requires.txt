@@ -1,0 +1,10 @@
+moviepy
+
+[test]
+pytest
+pytest-cov
+
+[testmeta]
+build
+twine
+validate-pyproject

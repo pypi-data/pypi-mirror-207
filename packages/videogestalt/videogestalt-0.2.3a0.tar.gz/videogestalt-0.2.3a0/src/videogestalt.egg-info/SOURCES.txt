@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/videogestalt/videogestalt.py
+src/videogestalt.egg-info/PKG-INFO
+src/videogestalt.egg-info/SOURCES.txt
+src/videogestalt.egg-info/dependency_links.txt
+src/videogestalt.egg-info/entry_points.txt
+src/videogestalt.egg-info/requires.txt
+src/videogestalt.egg-info/top_level.txt
