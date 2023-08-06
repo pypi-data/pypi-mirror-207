@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pixelmagic/__init__.py
+pixelmagic/pixelmagic.py
+pixelmagic.egg-info/PKG-INFO
+pixelmagic.egg-info/SOURCES.txt
+pixelmagic.egg-info/dependency_links.txt
+pixelmagic.egg-info/requires.txt
+pixelmagic.egg-info/top_level.txt
