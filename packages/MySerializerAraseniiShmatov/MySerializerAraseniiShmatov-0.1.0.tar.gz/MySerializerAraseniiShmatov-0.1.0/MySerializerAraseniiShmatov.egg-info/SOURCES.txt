@@ -1,0 +1,15 @@
+README.md
+setup.py
+Core/__init__.py
+Core/constans.py
+Core/serializer_functions.py
+MySerializerAraseniiShmatov.egg-info/PKG-INFO
+MySerializerAraseniiShmatov.egg-info/SOURCES.txt
+MySerializerAraseniiShmatov.egg-info/dependency_links.txt
+MySerializerAraseniiShmatov.egg-info/requires.txt
+MySerializerAraseniiShmatov.egg-info/top_level.txt
+Serializers/Creator.py
+Serializers/JSONSerializer.py
+Serializers/XMLSerializator.py
+Serializers/__init__.py
+Serializers/cli_serializer.py
