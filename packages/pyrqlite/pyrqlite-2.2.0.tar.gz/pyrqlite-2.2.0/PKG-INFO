@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyrqlite
+Version: 2.2.0
+Summary: Python rqlite client library
+Home-page: https://github.com/rqlite/pyrqlite/
+Author: Zac Medico
+Author-email: Zac Medico <zmedico@gmail.com>, Philip O'Toole <philip.otoole@yahoo.com>
+Maintainer: Zac Medico
+Maintainer-email: zmedico@gmail.com
+License: MIT
+Project-URL: Homepage, https://www.rqlite.io
+Project-URL: Bug Tracker, https://github.com/rqlite/pyrqlite/issues
+Platform: Posix
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.3
+Description-Content-Type: text/markdown
+License-File: LICENSE
