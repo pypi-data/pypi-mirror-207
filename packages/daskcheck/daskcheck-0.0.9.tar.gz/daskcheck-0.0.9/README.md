@@ -1,0 +1,252 @@
+Project daskcheck
+=================
+
+Tools for a more simple use of the **dask**. Dask scheduler is defined
+in `~/.dask_ server` file.
+
+*Work is in progress...*
+
+The idea
+--------
+
+1.  define properly the *core function* (*xcorefunc* in the example)
+    with **THE proper return**
+2.  `daskcheck` then will take care about:
+    -   sending the task to the scheduler (but this is natural)
+    -   uploads (python) single-file module to workers (via .upload)
+    -   sending the parameters
+    -   collecting results and saving them to **local json file**
+    -   *in future* about parsing the local **json** file
+    -   *in future* about sending local (bash) scripts to workers... (?)
+    -   *in future* about managing (worker\'s) folders with data output
+        (if output is too large)...
+
+Files in the repo
+-----------------
+
+It is becoming a bit messy, so for the reference:
+
+  ------------------------------------- ----------------------------------------
+  batch~forworker~                      BATCH TEST in remote \~/sand
+  bin~daskcheck~.py                     will be main script
+  config.py                             module configs
+  conv~json2spectra~.py                 exo~dask~ output conversion to spectra
+  daskcheck                             FOLDER
+  daskcheck.py                          module OPERATIONS
+  dask~resultslog20230510142235~.json   log file
+  docextr.py                            attemt to autocreate
+  exo~dask~.py                          work on exogam
+  f.py                                  resulting autogenerate
+  OldLogs                               Previous files
+  README.md                             MD
+  README.org                            this file
+  run~scheduler~                        RUN SCHEDULER
+  run~syncversions~                     KEEP dasksched-workers in sync
+  run~worker~                           RUN WORKER
+  setup.py                              python
+  singlemod.py                          remote exec MODULE
+  singlexec.py                          remote exec BASH
+  unitname.py                           module attempt
+  version.py                            version is here
+                                        
+  ------------------------------------- ----------------------------------------
+
+Instalation of daskcheck
+------------------------
+
+``` {.bash org-language="sh"}
+pip install daskcheck
+```
+
+Installation of dask 2023
+-------------------------
+
+See <https://docs.dask.org/en/stable/install.html>
+
+``` {.bash org-language="sh"}
+pip install "dask[complete]"
+```
+
+Launching dask scheduler/workers
+--------------------------------
+
+*Pay attention to correct/compatible libraries on different workers*
+
+-   use `run_scheduler`
+-   `run_worker`
+
+### Environment needed
+
+    export PATH=$PATH:$HOME/.local/bin
+
+    export PYTHONPATH=$HOME/root/lib/
+    export ROOTSYS=$HOME/root
+    export PATH=$ROOTSYS/bin:~/bin:$PATH
+    export LD_LIBRARY_PATH=$ROOTSYS/lib:$ROOTSYS/lib/root:$LD_LIBRARY_PATH
+
+    source $HOME/root/bin/thisroot.sh
+
+    export DISPLAY=:0
+    export DS=$HOME/.dask_server
+    export DSER=`cat $DS`
+    export HOST=`hostname`
+
+    cd /tmp
+
+    if [ -f  "$DS" ]; then
+        echo ... OK $DS exists
+    else
+        echo ... NO $DS exists
+        sleep 5
+        echo ...
+        exit 1
+    fi
+
+    export workers=2
+
+    echo ... I am on $HOST and trying to connect to /$DSER/ one thread per worker
+    dask worker ${DSER}:8786      --nworkers $workers --nthreads 1
+
+### Launching scheduler
+
+``` {.bash org-language="sh"}
+#dask scheduler --port 8786
+export PATH=$PATH:$HOME/.local/bin
+
+export HOST=`hostname`
+
+cd /tmp
+
+if [ "$HOST" = "core6a" ]; then
+    echo ... starting scheduler
+    dask scheduler   --port 8786 #  --bokeh-port 8787
+fi
+sleep 5
+exit 0
+```
+
+### Launching worker
+
+``` {.bash org-language="sh"}
+dask     worker 127.0.0.1:8786 --nworkers 5 --nthreads 1
+```
+
+Testing dask
+------------
+
+Just local run of get~cpuinfo~
+
+``` {.bash org-language="sh"}
+./daskcheck.py loc
+```
+
+This runs (scheduler and workers should be running) 40x get~cpuinfo~
+
+``` {.bash org-language="sh"}
+./daskcheck.py test
+```
+
+[DONE]{.done .DONE} Run single-file - (python) module OR (bash) batch {#run-single-file---python-module-or-bash-batch}
+---------------------------------------------------------------------
+
+Now, bash or python single-file is recognized and a proper action - exec
+function - is selected.
+
+``` {.bash org-language="sh"}
+./daskcheck.py dask batch_for_worker  1,3
+./daskcheck.py dask singlemod.py  11..33
+```
+
+I use importlib to get the module\'s MAIN, sneak it to the scheduler,
+chdir to `/dask_sendbox` and run `main()` function of the
+single-file-module:
+
+-   singlemod.py - writes a file to (worker\'s) `~/dask_sendbox`
+-   **deprec** singlexec.py - launches `./runme` - if not present in
+    (worker\'s) `~/dask_sendbox`, it crashes
+-   batch~forworker~ - bash script, writes file to (worker\'s)
+    `~/dask_sendbox`
+
+``` {.bash org-language="sh"}
+./daskcheck.py dask singlexec.py  1,3
+./daskcheck.py dask singlemod.py  11..33
+```
+
+Run a (python) function from python code
+----------------------------------------
+
+*This must be updated...*
+
+`exo_dask.py` Contains a working (in the past) example, using `root`.
+
+This is (or should be) a python code that uses `daskcheck` for sending a
+function.
+
+It is evidently crippled for the moment...
+
+``` {.python}
+from daskcheck import daskcheck
+
+from fire import Fire
+import time
+import platform
+import datetime as dt
+import json
+
+def main( parlist ):
+    """
+    Initiated by Fire. If one parameter, runs locally with local xcorefunc
+    """
+    parameters = daskcheck.prepare_params( parlist )
+
+    if type(parameters)==list:
+        print("i... viable for DASK ....")
+        daskcheck.submit( daskcheck.get_cpu_info , parameters)
+    elif type(parameters)==tuple:
+        print("i... viable for DASK ....")
+        daskcheck.submit( daskcheck.get_cpu_info , parameters)
+    else:
+        print("i... running only locally")
+        my_results = xcorefunc( 1 , parameters ) # order = 1, just arbitrary number
+        # Write LOG file.
+        now = dt.datetime.now()
+        stamp = now.strftime("%Y%m%d_%H%M%S")
+        with open(f"dask_results_log_{stamp}.json", "w") as fp:
+            json.dump( my_results , fp, sort_keys=True, indent='\t', separators=(',', ': '))
+    return
+
+def xcorefunc( order, param):
+    """
+    CORE function to be sent to dask schedule.
+
+    :param order: order number of the call
+    :param param: parameter to be sent
+    """
+    import ROOT # *TRICK* I need to import here to avoid breaking pickle
+    start_time = time.perf_counter()
+
+    return order, [platform.node(),  f"{time.perf_counter() - start_time:.1f} s" ]
+
+
+if __name__=="__main__":
+    Fire(main)
+
+```
+
+Monitoring dask
+---------------
+
+    xdg-open http://localhost:8787
+
+Recollection the data from json
+-------------------------------
+
+*to recover...*
+
+Plans/issues
+============
+
+[TODO]{.todo .TODO} Python native check {#python-native-check}
+---------------------------------------
+
+It must be checked that python works too - as before
