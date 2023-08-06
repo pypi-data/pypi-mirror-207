@@ -1,0 +1,17 @@
+AUTHORS.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/wagtail_content_block/__init__.py
+src/wagtail_content_block/annotations.py
+src/wagtail_content_block/apps.py
+src/wagtail_content_block/blocks.py
+src/wagtail_content_block/dotted_paths.py
+src/wagtail_content_block.egg-info/PKG-INFO
+src/wagtail_content_block.egg-info/SOURCES.txt
+src/wagtail_content_block.egg-info/dependency_links.txt
+src/wagtail_content_block.egg-info/requires.txt
+src/wagtail_content_block.egg-info/top_level.txt
+src/wagtail_content_block.egg-info/zip-safe
