@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pads_gpt_assistant/__init__.py
+pads_gpt_assistant/coding_gpt.py
+pads_gpt_assistant/config.py
+pads_gpt_assistant.egg-info/PKG-INFO
+pads_gpt_assistant.egg-info/SOURCES.txt
+pads_gpt_assistant.egg-info/dependency_links.txt
+pads_gpt_assistant.egg-info/requires.txt
+pads_gpt_assistant.egg-info/top_level.txt
