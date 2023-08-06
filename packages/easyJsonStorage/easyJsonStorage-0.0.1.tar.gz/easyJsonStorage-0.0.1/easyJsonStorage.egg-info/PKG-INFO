@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: easyJsonStorage
+Version: 0.0.1
+Summary: ........
+Home-page: 
+Author: Asadul Islam
+Author-email: asadul7733@gmail.com
+License: MIT
+Keywords: jsonDatabase
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+This is a package to use json-storage easily.
+
+Change Log
+==========
+
+0.0.1 (11/05/2023)
+-------------------
+- First Release

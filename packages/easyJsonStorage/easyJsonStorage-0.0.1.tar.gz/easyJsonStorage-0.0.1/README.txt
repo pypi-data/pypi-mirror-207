@@ -1,0 +1,1 @@
+This is a package to use json-storage easily.

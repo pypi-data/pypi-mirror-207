@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+easyJsonStorage.egg-info/PKG-INFO
+easyJsonStorage.egg-info/SOURCES.txt
+easyJsonStorage.egg-info/dependency_links.txt
+easyJsonStorage.egg-info/top_level.txt
