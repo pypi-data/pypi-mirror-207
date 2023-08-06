@@ -1,0 +1,30 @@
+argcomplete
+transmission-rpc<4
+service-logging
+pyyaml
+arrapi>=1.2
+tenacity
+
+[:python_version < "3.10"]
+pathlib3x
+
+[:python_version < "3.8"]
+backports.cached-property
+
+[devel]
+coverage
+prospector[with_everything]
+xenon
+rstcheck
+reuse<1.1.0
+black
+autoflake
+autopep8
+types-PyYAML
+towncrier
+build
+
+[test]
+requests-mock
+pytest
+pip-tools
