@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="31645818-dea7-47e6-a532-d6f617fe253f" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MsFBMTSY3VfuU9SgN6W8lfa5ax" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/work/projects/release/PyPitzer/uncertainty&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\work\projects\release\PyPitzer\uncertainty" />
+      <recent name="E:\work\projects\release\PyPitzer" />
+      <recent name="E:\work\projects\PyPitzer-Meta\uncertainty" />
+      <recent name="E:\work\projects\PyPitzer-Meta\error_propagation" />
+      <recent name="E:\work\projects\PyPitzer-Meta" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\work\projects\release\PyPitzer\examples\uncertainty\MCWEP" />
+      <recent name="E:\work\projects\release\PyPitzer\examples\quantification" />
+      <recent name="E:\work\projects\release\PyPitzer\examples" />
+      <recent name="E:\work\projects\PyPitzer-Meta\public" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.fi_quantification (1)">
+    <configuration name="95_uncert_confidence_interval" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyPitzer-Meta" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MCWEP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MCWEP/95_uncert_confidence_interval.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cotectic_calculate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyPitzer-Meta" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pitzer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\work\projects\release\PyPitzer\examples\quantification\cotectic_calculate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="execute" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyPitzer-Meta" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/uncertainty" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/uncertainty/execute.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fi_quantification (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyPitzer-Meta" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples/quantification" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/quantification/fi_quantification.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fi_quantification" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyPitzer-Meta" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pitzer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\work\projects\release\PyPitzer\examples\quantification\fi_quantification.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.fi_quantification (1)" />
+        <item itemvalue="Python.execute" />
+        <item itemvalue="Python.fi_quantification" />
+        <item itemvalue="Python.cotectic_calculate" />
+        <item itemvalue="Python.95_uncert_confidence_interval" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31645818-dea7-47e6-a532-d6f617fe253f" name="Changes" comment="" />
+      <created>1678548246192</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678548246192</updated>
+      <workItem from="1678548247363" duration="6372000" />
+      <workItem from="1678568593322" duration="4461000" />
+      <workItem from="1678610199854" duration="1268000" />
+      <workItem from="1678611498855" duration="7431000" />
+      <workItem from="1678624858939" duration="1631000" />
+      <workItem from="1678626517750" duration="2906000" />
+      <workItem from="1678700101904" duration="10640000" />
+      <workItem from="1678720650410" duration="4569000" />
+      <workItem from="1678786151404" duration="6006000" />
+      <workItem from="1678792550779" duration="3200000" />
+      <workItem from="1678802801118" duration="8130000" />
+      <workItem from="1678813584609" duration="1066000" />
+      <workItem from="1678825126678" duration="2478000" />
+      <workItem from="1678878263127" duration="4463000" />
+      <workItem from="1678888634490" duration="4089000" />
+      <workItem from="1678960629047" duration="3453000" />
+      <workItem from="1678964542134" duration="1534000" />
+      <workItem from="1678972454396" duration="8086000" />
+      <workItem from="1679237606707" duration="757000" />
+      <workItem from="1679327862979" duration="1385000" />
+      <workItem from="1679408369101" duration="4650000" />
+      <workItem from="1679494569072" duration="5481000" />
+      <workItem from="1679586743536" duration="4252000" />
+      <workItem from="1679667503320" duration="7709000" />
+      <workItem from="1679741467658" duration="1743000" />
+      <workItem from="1679745374846" duration="1213000" />
+      <workItem from="1679826605542" duration="155000" />
+      <workItem from="1679827505078" duration="2279000" />
+      <workItem from="1679924449671" duration="4476000" />
+      <workItem from="1680008165222" duration="1368000" />
+      <workItem from="1680015277741" duration="1237000" />
+      <workItem from="1680085417601" duration="3000" />
+      <workItem from="1680085622228" duration="15000" />
+      <workItem from="1680087193021" duration="2452000" />
+      <workItem from="1680101347828" duration="6006000" />
+      <workItem from="1680168216937" duration="18060000" />
+      <workItem from="1680254139454" duration="2489000" />
+      <workItem from="1680273272681" duration="1805000" />
+      <workItem from="1680292277894" duration="6054000" />
+      <workItem from="1680346236925" duration="5234000" />
+      <workItem from="1680433807131" duration="38000" />
+      <workItem from="1680434311962" duration="728000" />
+      <workItem from="1680440442871" duration="1829000" />
+      <workItem from="1680517457533" duration="3565000" />
+      <workItem from="1680521525413" duration="94000" />
+      <workItem from="1680521644343" duration="741000" />
+      <workItem from="1680527536645" duration="2651000" />
+      <workItem from="1680601345405" duration="6133000" />
+      <workItem from="1680775120894" duration="16000" />
+      <workItem from="1680775202217" duration="16816000" />
+      <workItem from="1680862832467" duration="2303000" />
+      <workItem from="1680879063729" duration="5404000" />
+      <workItem from="1681140311530" duration="763000" />
+      <workItem from="1681220856704" duration="1215000" />
+      <workItem from="1681464578766" duration="9003000" />
+      <workItem from="1681729024061" duration="2881000" />
+      <workItem from="1681814620980" duration="115000" />
+      <workItem from="1681814756895" duration="238000" />
+      <workItem from="1681815242450" duration="2158000" />
+      <workItem from="1681821278940" duration="7554000" />
+      <workItem from="1681995234501" duration="6085000" />
+      <workItem from="1682018968933" duration="930000" />
+      <workItem from="1682020972363" duration="213000" />
+      <workItem from="1682021224287" duration="171000" />
+      <workItem from="1682067945435" duration="3234000" />
+      <workItem from="1682245681120" duration="4132000" />
+      <workItem from="1682258091099" duration="5306000" />
+      <workItem from="1682264900215" duration="787000" />
+      <workItem from="1682277485097" duration="3362000" />
+      <workItem from="1682330228079" duration="70000" />
+      <workItem from="1682341343092" duration="2965000" />
+      <workItem from="1682411202682" duration="3000" />
+      <workItem from="1682421198074" duration="1333000" />
+      <workItem from="1682427903554" duration="6724000" />
+      <workItem from="1682498431518" duration="16000" />
+      <workItem from="1682498510090" duration="644000" />
+      <workItem from="1682677899603" duration="18684000" />
+      <workItem from="1682794290359" duration="5361000" />
+      <workItem from="1682843216543" duration="24824000" />
+      <workItem from="1682948536714" duration="618000" />
+      <workItem from="1682973253237" duration="3761000" />
+      <workItem from="1683017541659" duration="4528000" />
+      <workItem from="1683106142489" duration="4573000" />
+      <workItem from="1683143944606" duration="960000" />
+      <workItem from="1683185691088" duration="1212000" />
+      <workItem from="1683206265769" duration="717000" />
+      <workItem from="1683213185109" duration="353000" />
+      <workItem from="1683272934583" duration="29362000" />
+      <workItem from="1683466714025" duration="143000" />
+      <workItem from="1683467209110" duration="1224000" />
+      <workItem from="1683468458545" duration="4051000" />
+      <workItem from="1683535431634" duration="2110000" />
+      <workItem from="1683575883855" duration="53000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PyPitzer_Meta$methods.coverage" NAME="methods Coverage Results" MODIFIED="1678977307532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PSC" />
+    <SUITE FILE_PATH="coverage/PyPitzer_Meta$models.coverage" NAME="models Coverage Results" MODIFIED="1680170974487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pitzer_low_t" />
+    <SUITE FILE_PATH="coverage/PyPitzer_Meta$execute.coverage" NAME="execute Coverage Results" MODIFIED="1682798588715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/uncertainty" />
+    <SUITE FILE_PATH="coverage/PyPitzer_Meta$lassin_binary.coverage" NAME="lassin_binary Coverage Results" MODIFIED="1678628507745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/database" />
+    <SUITE FILE_PATH="coverage/PyPitzer_Meta$test.coverage" NAME="test Coverage Results" MODIFIED="1683296419454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pitzer_low_t" />
+    <SUITE FILE_PATH="coverage/PyPitzer_Meta$meta.coverage" NAME="meta Coverage Results" MODIFIED="1683365921787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/error_propagation" />
+    <SUITE FILE_PATH="coverage/PyPitzer$fi_quantification__1_.coverage" NAME="fi_quantification (1) Coverage Results" MODIFIED="1683535639854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/quantification" />
+    <SUITE FILE_PATH="coverage/PyPitzer_Meta$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1682682471855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pitzer_low_t" />
+    <SUITE FILE_PATH="coverage/PyPitzer_Meta$meta_3.coverage" NAME="meta_3 Coverage Results" MODIFIED="1683389423047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/error_propagation" />
+    <SUITE FILE_PATH="coverage/PyPitzer$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1683467232468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pitzer_low_t" />
+    <SUITE FILE_PATH="coverage/PyPitzer$68_uncert_confidence_interval.coverage" NAME="68_uncert_confidence_interval Coverage Results" MODIFIED="1683467565316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/error_propagation" />
+    <SUITE FILE_PATH="coverage/PyPitzer_Meta$model2.coverage" NAME="model2 Coverage Results" MODIFIED="1683275291429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pitzer_low_t" />
+    <SUITE FILE_PATH="coverage/PyPitzer_Meta$li_binary.coverage" NAME="li_binary Coverage Results" MODIFIED="1678878851533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/database" />
+    <SUITE FILE_PATH="coverage/PyPitzer_Meta$test2__1_.coverage" NAME="test2 (1) Coverage Results" MODIFIED="1683277575413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pitzer_low_t" />
+    <SUITE FILE_PATH="coverage/PyPitzer_Meta$test3__1_.coverage" NAME="test3 (1) Coverage Results" MODIFIED="1682695014497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/error_propagation" />
+    <SUITE FILE_PATH="coverage/PyPitzer_Meta$convx_optimization2.coverage" NAME="convx_optimization2 Coverage Results" MODIFIED="1681482391364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PSC" />
+    <SUITE FILE_PATH="coverage/PyPitzer_Meta$read_data.coverage" NAME="read_data Coverage Results" MODIFIED="1678629329841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/database" />
+    <SUITE FILE_PATH="coverage/PyPitzer_Meta$text_from_image.coverage" NAME="text_from_image Coverage Results" MODIFIED="1683019680051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyPitzer$test.coverage" NAME="test Coverage Results" MODIFIED="1683468799550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pitzer" />
+    <SUITE FILE_PATH="coverage/PyPitzer_Meta$meta_5.coverage" NAME="meta_5 Coverage Results" MODIFIED="1683366613024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/error_propagation" />
+    <SUITE FILE_PATH="coverage/PyPitzer_Meta$meta_2.coverage" NAME="meta_2 Coverage Results" MODIFIED="1683389344428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/error_propagation" />
+    <SUITE FILE_PATH="coverage/PyPitzer_Meta$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1683144262625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pitzer_low_t" />
+    <SUITE FILE_PATH="coverage/PyPitzer_Meta$solubility_equilibrium.coverage" NAME="solubility_equilibrium Coverage Results" MODIFIED="1678826885924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PSC" />
+    <SUITE FILE_PATH="coverage/PyPitzer_Meta$meta_1.coverage" NAME="meta_1 Coverage Results" MODIFIED="1683389289298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/error_propagation" />
+    <SUITE FILE_PATH="coverage/PyPitzer_Meta$statistic_analysis.coverage" NAME="statistic_analysis Coverage Results" MODIFIED="1682762882048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/error_propagation" />
+    <SUITE FILE_PATH="coverage/PyPitzer_Meta$meta_4.coverage" NAME="meta_4 Coverage Results" MODIFIED="1683389482155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/error_propagation" />
+    <SUITE FILE_PATH="coverage/PyPitzer_Meta$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1682975328581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pitzer_high_t" />
+    <SUITE FILE_PATH="coverage/PyPitzer$test2__1_.coverage" NAME="test2 (1) Coverage Results" MODIFIED="1683468510163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pitzer" />
+    <SUITE FILE_PATH="coverage/PyPitzer_Meta$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1682763979961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/error_propagation" />
+    <SUITE FILE_PATH="coverage/PyPitzer_Meta$68_uncert_confidence_interval.coverage" NAME="68_uncert_confidence_interval Coverage Results" MODIFIED="1683390953588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/error_propagation" />
+    <SUITE FILE_PATH="coverage/PyPitzer_Meta$excute.coverage" NAME="excute Coverage Results" MODIFIED="1682000187567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PSC" />
+    <SUITE FILE_PATH="coverage/PyPitzer_Meta$test2__2_.coverage" NAME="test2 (2) Coverage Results" MODIFIED="1682763950723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/error_propagation" />
+    <SUITE FILE_PATH="coverage/PyPitzer_Meta$binary_point.coverage" NAME="binary_point Coverage Results" MODIFIED="1682976501817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pitzer_high_t" />
+    <SUITE FILE_PATH="coverage/PyPitzer_Meta$test__3_.coverage" NAME="test (3) Coverage Results" MODIFIED="1680621803393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pitzer_low_t" />
+    <SUITE FILE_PATH="coverage/PyPitzer_Meta$methods__1_.coverage" NAME="methods (1) Coverage Results" MODIFIED="1678977533580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pitzer_high_t" />
+    <SUITE FILE_PATH="coverage/PyPitzer$95_uncert_confidence_interval.coverage" NAME="95_uncert_confidence_interval Coverage Results" MODIFIED="1683467948479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MCWEP" />
+    <SUITE FILE_PATH="coverage/PyPitzer_Meta$convex_optimization3.coverage" NAME="convex_optimization3 Coverage Results" MODIFIED="1678973427224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PSC" />
+    <SUITE FILE_PATH="coverage/PyPitzer_Meta$convex_optimization.coverage" NAME="convex_optimization Coverage Results" MODIFIED="1681999860173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PSC" />
+    <SUITE FILE_PATH="coverage/PyPitzer_Meta$convex_optimization__1_.coverage" NAME="convex_optimization (1) Coverage Results" MODIFIED="1678963369784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PSC" />
+    <SUITE FILE_PATH="coverage/PyPitzer$execute.coverage" NAME="execute Coverage Results" MODIFIED="1683471037104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/uncertainty" />
+  </component>
+</project>
