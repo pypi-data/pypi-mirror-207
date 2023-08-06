@@ -1,0 +1,3 @@
+include src/wagtail_dynamic_stream_block/static/wagtail_dynamic_stream_block/js/*
+
+recursive-exclude * .DS_Store *.pyc
