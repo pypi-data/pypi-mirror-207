@@ -1,0 +1,3 @@
+[console_scripts]
+lols = lols:main
+
