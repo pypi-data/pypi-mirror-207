@@ -1,0 +1,6 @@
+struct_gpt-2.2.7.dist-info/METADATA,sha256=nLN2uWEpqmi1-u_BFP1WPsWg-XN5DbM_FZtZ-3N4MR4,5271
+struct_gpt-2.2.7.dist-info/WHEEL,sha256=7dGFtUmOf30dPBLpGD2z643cxg89joO7p3JHBAwDv6E,90
+struct_gpt-2.2.7.dist-info/licenses/LICENSE,sha256=nkzGXxpwOJni0VB6ecWdLH0Wgl_VorV5myh0KqZRLzk,1076
+struct_gpt/__init__.py,sha256=V2ROKM8_4bLBJ7AU8eJW9JpJauZX__w42-NRqAs-p98,44
+struct_gpt/models.py,sha256=JdDHpubc6lcUeBrG5OTrzfLgsoA9OYyGo1JI_ZBytQc,4854
+struct_gpt-2.2.7.dist-info/RECORD,,
