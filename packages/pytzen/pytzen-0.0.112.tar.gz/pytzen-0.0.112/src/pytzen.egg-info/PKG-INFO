@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pytzen
+Version: 0.0.112
+Summary: PYTZEN
+Author: PYTZEN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PYTZEN
+This library is currently offered 'as-is' without any form of official support, maintenance, or warranty. Its primary purpose is to serve as a platform for experimentation and learning, and may not be suitable for production use. Users are invited to explore and experiment with the library, but please be aware that any issues encountered will not be actively addressed by the developers. Furthermore, the associated GitHub repository is private, which means direct access to the source code or issue tracking is not available. We do not take responsibility for any problems that may arise from using this library in a production setting. It is strongly recommended that users thoroughly test and evaluate the library's functionality and performance in a safe and controlled environment before considering any broader application.
