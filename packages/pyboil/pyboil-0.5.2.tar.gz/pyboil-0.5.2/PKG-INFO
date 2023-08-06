@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pyboil
+Version: 0.5.2
+Summary: CLI script to initialize python packages
+Home-page: https://github.com/rns350/pyinit
+Author: Reed Schick
+Author-email: rns350@nyu.edu
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyboil
+python package for initializing a python package
