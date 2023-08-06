@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+geosdem/__init__.py
+geosdem/common.py
+geosdem/geosdem.py
+geosdem.egg-info/PKG-INFO
+geosdem.egg-info/SOURCES.txt
+geosdem.egg-info/dependency_links.txt
+geosdem.egg-info/not-zip-safe
+geosdem.egg-info/top_level.txt
+tests/test_geosdem.py

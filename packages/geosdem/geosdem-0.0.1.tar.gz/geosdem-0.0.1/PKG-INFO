@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: geosdem
+Version: 0.0.1
+Summary: A python package for demo
+Home-page: https://github.com/giswr/geosdem
+Author: Francis E. Oussou
+Author-email: francisoussou@gmail.com
+License: MIT license
+Keywords: geosdem
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# geosdem
+
+
+[![image](https://img.shields.io/pypi/v/geosdem.svg)](https://pypi.python.org/pypi/geosdem)
+[![image](https://img.shields.io/conda/vn/conda-forge/geosdem.svg)](https://anaconda.org/conda-forge/geosdem)
+
+
+**A python package for demo**
+
+
+-   Free software: MIT license
+-   Documentation: https://giswr.github.io/geosdem
+    
+
+## Features
+
+-   TODO
