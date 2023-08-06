@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ZephyrusChatbot
+Version: 1.0.2
+Summary: chatbot
+Author: RGB_CATT
+Author-email: 
+Keywords: python,chat,bot,chatbot
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+
+## Here is an example
+
+```python
+import ZephyrusChatbot as chatbot
+
+while True:
+  prompt = input('prompt: ')
+  print(chatbot.get_response(prompt))
+```

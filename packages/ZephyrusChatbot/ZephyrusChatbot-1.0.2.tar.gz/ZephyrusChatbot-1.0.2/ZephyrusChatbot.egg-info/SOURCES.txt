@@ -1,0 +1,9 @@
+README.md
+setup.py
+ZephyrusChatbot/__init__.py
+ZephyrusChatbot/main.py
+ZephyrusChatbot.egg-info/PKG-INFO
+ZephyrusChatbot.egg-info/SOURCES.txt
+ZephyrusChatbot.egg-info/dependency_links.txt
+ZephyrusChatbot.egg-info/requires.txt
+ZephyrusChatbot.egg-info/top_level.txt
