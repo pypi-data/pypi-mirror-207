@@ -1,0 +1,4 @@
+{% load wagtailcore_tags concisely_tags %}
+{% heading value.level element_id=anchor_id classname=self.block.meta.classname %}
+{% if anchor_label %}{{ anchor_label }} {% endif %}{% include_block value.heading %}
+{% endheading %}

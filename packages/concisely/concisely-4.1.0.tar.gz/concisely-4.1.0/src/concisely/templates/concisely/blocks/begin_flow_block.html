@@ -1,0 +1,2 @@
+<div {% if value.block.meta.class_names %}class="{{ value.block.meta.class_names }}" {% endif %}style="display: flex; flex-flow: {{ value.direction }} {% if value.wrap %}wrap{% else %} nowrap{% endif %}; gap: {{ value.row_gap.as_common_value }} {{ value.column_gap.as_common_value }};{% if value.min_item_width.type == 'value' %}--min-as-flow-item-width: {{ value.min_item_width.as_common_value }}{% endif %}">
+<div>

@@ -1,0 +1,9 @@
+include src/concisely/static/concisely/css/*
+include src/concisely/static/concisely/js/*
+
+include src/concisely/templates/concisely/*
+include src/concisely/templates/concisely/tags/*
+include src/concisely/templates/concisely/blocks/*
+
+recursive-exclude * .DS_Store *.pyc
+
