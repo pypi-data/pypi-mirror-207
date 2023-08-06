@@ -1,0 +1,17 @@
+AUTHORS.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/wagtail_association_panel/__init__.py
+src/wagtail_association_panel/apps.py
+src/wagtail_association_panel/association_panel.py
+src/wagtail_association_panel.egg-info/PKG-INFO
+src/wagtail_association_panel.egg-info/SOURCES.txt
+src/wagtail_association_panel.egg-info/dependency_links.txt
+src/wagtail_association_panel.egg-info/requires.txt
+src/wagtail_association_panel.egg-info/top_level.txt
+src/wagtail_association_panel.egg-info/zip-safe
+src/wagtail_association_panel/templates/wagtail_association_panel/association_panel.html
+src/wagtail_association_panel/templates/wagtail_association_panel/association_panel_child.html

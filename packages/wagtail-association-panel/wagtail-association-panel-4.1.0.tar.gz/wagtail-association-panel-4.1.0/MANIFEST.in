@@ -1,0 +1,4 @@
+include src/wagtail_association_panel/templates/wagtail_association_panel/*
+
+recursive-exclude * .DS_Store *.pyc
+

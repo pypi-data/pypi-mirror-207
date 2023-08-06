@@ -1,0 +1,9 @@
+{% load i18n %}
+{% load wagtailadmin_tags %}
+<li>
+    <span class="title">{{ child }}</span>
+    <ul class="actions">
+        {% if edit_url_type == 'snippet' %}<li><a href="{% url 'wagtailsnippets_'|add:related_model_app_label|add:'_'|add:related_model_name|add:':edit' child.pk|admin_urlquote %}" class="edit-link button button-small button-secondary" target="_blank" rel="noopener noreferrer">Edit this association</a></li>{% endif %}
+        {% if not edit_url_type %}<li><a href="{% url edit_url_name child.pk|admin_urlquote %}" class="edit-link button button-small button-secondary" target="_blank" rel="noopener noreferrer">Edit this association</a></li>{% endif %}
+    </ul>
+</li>

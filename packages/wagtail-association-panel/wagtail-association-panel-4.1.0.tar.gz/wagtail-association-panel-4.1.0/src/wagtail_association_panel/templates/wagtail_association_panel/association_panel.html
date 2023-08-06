@@ -1,0 +1,8 @@
+{% load i18n %}
+{% load wagtailadmin_tags  %}
+
+<ul class="multiple">
+    {% for child in self.instance_associations %}
+        {% include "wagtail_association_panel/association_panel_child.html" %}
+    {% endfor %}
+</ul>
