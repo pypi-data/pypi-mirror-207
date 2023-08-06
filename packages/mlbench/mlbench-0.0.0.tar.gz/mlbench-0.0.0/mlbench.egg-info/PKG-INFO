@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: mlbench
+Version: 0.0.0
+Summary: ML metrics / benchmarking
+Home-page: https://github.com/amirziai/mlbench
+Author: Amir Ziai
+Author-email: arziai@gmail.com
+License: MIT
+Keywords: ml,benchmarking,metrics
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# mlbench
+ML benchmark
+
+## install
+```shell
+pip install mlbench
+```
