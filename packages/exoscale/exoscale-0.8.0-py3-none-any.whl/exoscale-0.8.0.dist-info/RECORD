@@ -1,0 +1,14 @@
+exoscale/__init__.py,sha256=sWotVQgXUEfea70LfjSFsfrWln25wityH8515peyj8k,8652
+exoscale/openapi.json,sha256=ZdrGmDhIep9M9W8XSMn8_p8EdIh2zI8ahi_hldcQ7BY,526553
+exoscale/api/__init__.py,sha256=-0VgkhPZ2fJe0mPq2N635hiqWvex_Acbhm2XYrokIcY,4471
+exoscale/api/compute.py,sha256=0QcbltYvn5WawQXQ1WwklaeGIv5bmhj1eRfW-89smiA,112258
+exoscale/api/dns.py,sha256=DQGKy3OTm9CGnYSfGnj-00-DzIamhPMpt-ohZmf7e5Q,8501
+exoscale/api/iam.py,sha256=GxI00bWsK9g9jGJUYkrGlsqNMBc7JBha_CL4_gQTaoI,4578
+exoscale/api/polling.py,sha256=-Oiw6KZfc1Pnr6XxMvr9-Tye388f5Avqut6LJSiECM0,6915
+exoscale/api/runstatus.py,sha256=72SUyX9xXR64PpAWcBYjn5wg8lz1pO0qwvuQ8dO_ATk,24928
+exoscale/api/storage.py,sha256=ZKpYE6F3jaB1DTk1OEq5UM18EoRXCrK0lPCdkjGq83E,23936
+exoscale/api/v2.py,sha256=m1qwlgTTDmYaI94nX4Vjsj3QaF6jNgYgXU6aXn3DfqA,8534
+exoscale-0.8.0.dist-info/METADATA,sha256=SxI5YaAxDSJ4MsYTLQ2XK1WKv2bYsLfhIdryf0F18vc,2457
+exoscale-0.8.0.dist-info/WHEEL,sha256=bbVuDMgAMZh0WChwltG4a3FAf-EgFGU9LSpj-pP-9GE,87
+exoscale-0.8.0.dist-info/licenses/LICENSE,sha256=6oqW8ogHz0PRS9s5Ir5i-GGXA0MyOFxRrbBF9bkBnZE,746
+exoscale-0.8.0.dist-info/RECORD,,
