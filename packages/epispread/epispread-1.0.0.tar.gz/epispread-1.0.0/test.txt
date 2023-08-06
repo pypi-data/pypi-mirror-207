@@ -1,0 +1,1 @@
+<MagicMock name='mock.copy()' id='5486417104'>

@@ -1,0 +1,40 @@
+graft epispread
+recursive-exclude epispread/data_files *.csv
+include requirements.txt
+exclude epispread/test.txt
+exclude test.txt
+include tests/data_files *
+
+exclude .coverage
+
+include LICENSE
+include README.md
+
+include .bumpversion.cfg
+include pyproject.toml
+include CONTRIBUTING.md
+include Makefile
+include *.yaml
+include .nojekyll
+
+recursive-include docs *.bat
+recursive-include docs *.md
+recursive-include docs *.py
+recursive-include docs Makefile
+recursive-include docs *.txt
+recursive-include docs *.rst
+recursive-include docs *.jpg
+
+recursive-exclude docs/_build *
+
+prune .github
+exclude .gitignore
+exclude .gitattributes
+
+# Patterns to exclude from any directory
+global-exclude *~
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude .git
+global-exclude .ipynb_checkpoints
+global-exclude .DS_Store
