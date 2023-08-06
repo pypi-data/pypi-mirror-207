@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+uniques.egg-info/PKG-INFO
+uniques.egg-info/SOURCES.txt
+uniques.egg-info/dependency_links.txt
+uniques.egg-info/requires.txt
+uniques.egg-info/top_level.txt
