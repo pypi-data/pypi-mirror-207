@@ -1,0 +1,33 @@
+[build-system]
+requires = [
+	"hatchling>=1.6.0",
+	"google>=3.0.0",
+	"requests>=2.25.1",
+	"pypdf2==2.1.0",
+	"pdftitle>=0.3",
+	"feedparser>=6.0.2",
+	"pyperclip",
+	"pdfminer.six==20221105",
+	"pymupdf==1.21.0",
+	"isbnlib"
+]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "pdf2doi4frappe_library"
+version = "0.0.1"
+authors = [
+  { name="Alon Ben Refael", email="alon.ben.refael@gmail.com" },
+]
+description = "extract the DOI or ISBN from a .pdf file"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/abrefael/pdf2doi4frappe_library"
