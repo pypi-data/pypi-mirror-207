@@ -1,0 +1,9 @@
+prodigy_iaa/__init__.py,sha256=anNHTQMSlq7Y3dQAGK_l9L7Hel1azo-XXtE_no4B-28,166
+prodigy_iaa/measures.py,sha256=hgicn6PRzPpjG5akoDKBgjzvQ2Skgy-GW2NcJ4U4aqw,5503
+prodigy_iaa/processors.py,sha256=yiQcMRiZLDX-1q1LQf-ELj5wR_WjMoD_yJiLv5VceVU,4015
+prodigy_iaa/recipe.py,sha256=YDH0Gkt6_WWszMnaQ1pZppt-5SpKxSk0XSmd6GO8FDs,5522
+prodigy_iaa/render.py,sha256=djtbGI_-QUbbeNe7uLE-YrQXcSJwuMweVfkzJNWgfiU,1460
+prodigy_iaa-0.1.1.dist-info/METADATA,sha256=IE29hU4HwA3aJH2CHimgqCwjPASM8rHnI1SJ15hNhK8,6905
+prodigy_iaa-0.1.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+prodigy_iaa-0.1.1.dist-info/entry_points.txt,sha256=DjQQ73qIA2wGZyWb-9Ncr3LUX5ZEXUfHdBiFaMwvsDo,145
+prodigy_iaa-0.1.1.dist-info/RECORD,,

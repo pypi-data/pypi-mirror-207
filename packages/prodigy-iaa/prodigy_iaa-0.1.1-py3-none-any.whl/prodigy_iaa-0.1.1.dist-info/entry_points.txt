@@ -1,0 +1,5 @@
+[prodigy_recipes]
+iaa.datasets=prodigy_iaa.recipe:iaa_datasets
+iaa.jsonl=prodigy_iaa.recipe:iaa_jsonl
+iaa.sessions=prodigy_iaa.recipe:iaa_jsonl
+
