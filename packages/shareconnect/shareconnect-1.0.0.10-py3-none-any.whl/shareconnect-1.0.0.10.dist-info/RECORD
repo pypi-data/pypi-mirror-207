@@ -1,0 +1,10 @@
+SharekhanApi/__init__.py,sha256=mXA00mGKj--PyvziEW09X3w-SQI7omuhJpuOWqaO2_w,221
+SharekhanApi/sharekhanConnect.py,sha256=7ReTvp5WkLpw-r7JRgFfKLIreDSPUmf7mMdXKzgkDOQ,17062
+SharekhanApi/sharekhanExceptions.py,sha256=JCeqHwu-qhT8XmjTn9P9EcLgHyaimQbNz3xVyhX2p8c,1922
+SharekhanApi/sharekhanWebsocket.py,sha256=1RKtpFKWPpTHPLnn2htqkPa24QXpOEOEF2TYsZr1oKs,4936
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test.py,sha256=8-98lZzZTZjPrAItg10hhdgOLlQJA8_3BB_8gu3Lgrw,4754
+shareconnect-1.0.0.10.dist-info/METADATA,sha256=lBv2vLxZJO6doszogp5i2jl17g-FTijvsGY9PHHRzY0,8785
+shareconnect-1.0.0.10.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+shareconnect-1.0.0.10.dist-info/top_level.txt,sha256=EDSxnMWf5SgrncjoP83L1StS0gcMnVTy-QFQOb_fuaQ,18
+shareconnect-1.0.0.10.dist-info/RECORD,,
