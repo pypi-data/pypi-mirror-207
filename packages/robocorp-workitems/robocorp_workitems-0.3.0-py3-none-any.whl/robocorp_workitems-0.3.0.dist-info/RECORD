@@ -1,0 +1,11 @@
+robocorp/workitems/__init__.py,sha256=fNHdv7J6WkAf-vrZD_OWgn-bZUphzEpLKlhO3UnQyvk,328
+robocorp/workitems/_workitems/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+robocorp/workitems/_workitems/_adapter.py,sha256=mwn59SHg1ENNRxvVA-JUM_hMZ0Uu6k5V3DDTD2xtV4U,19282
+robocorp/workitems/_workitems/_types.py,sha256=HZM5ArvnbzEQLFs8Mao2Vauxqc2LrtTDGBP-cgngoPU,338
+robocorp/workitems/_workitems/_utils.py,sha256=iCrXfq5K1iewwxWN19BelAvT-CPDRcnzLddQBS62X0o,12494
+robocorp/workitems/_workitems/_workitems.py,sha256=kXqxL57J11Oq_HkySOXPqfdm0MwZiRfGfOOHlJfqCDA,44438
+robocorp/workitems/workitem.py,sha256=ksFm16B-LzZJWPy-ksKsnRtt7nlcTH-3egyPuKt4Trk,8004
+robocorp/workitems/workitems.py,sha256=lAnHsbKJcvvI-Qr0JytNQbRgu3LYBA5pCW45Xgr67iI,1100
+robocorp_workitems-0.3.0.dist-info/METADATA,sha256=piKGHfcDz_LIjhqXWck8y2IyLDpEKDs77cbQcANCMS8,611
+robocorp_workitems-0.3.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+robocorp_workitems-0.3.0.dist-info/RECORD,,
