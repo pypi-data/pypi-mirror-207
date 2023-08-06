@@ -1,0 +1,3 @@
+exclude gandai/__pycache__
+graft gandai
+exclude .env
