@@ -1,0 +1,3 @@
+[console_scripts]
+omero_user_token = omero_user_token.cli.omero_user_token:main
+
