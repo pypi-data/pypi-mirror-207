@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: mkdocs-annexes-integration
+Version: 0.1.0
+Summary: A MkDocs plugin transforming annexes files into images to be integrated in markdown pages
+Home-page: https://gitlab.com/cfpt-mkdocs-plugins/mkdocs-annexes-integration
+Author: Thibaud Briard
+Author-email: thibaud.brrd@eduge.ch
+License: MIT
+Keywords: mkdocs
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.8
+Requires-Dist: mkdocs (>=1.4.2)
+Requires-Dist: pdf2image (>=1.16.3)
+
+UNKNOWN
+
+
