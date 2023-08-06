@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pwl-chat-python
+Version: 1.3.0
+Summary: 摸鱼派聊天室python客户端
+Home-page: https://github.com/gakkiyomi/pwl-chat-python
+Author: gakkiyomi
+Author-email: gakkiyomi@gmail.com
+Requires-Python: >=3.10.8
+License-File: LICENSE

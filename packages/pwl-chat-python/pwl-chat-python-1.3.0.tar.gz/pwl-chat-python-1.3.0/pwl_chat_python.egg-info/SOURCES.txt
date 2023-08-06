@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pwl_chat_python.egg-info/PKG-INFO
+pwl_chat_python.egg-info/SOURCES.txt
+pwl_chat_python.egg-info/dependency_links.txt
+pwl_chat_python.egg-info/requires.txt
+pwl_chat_python.egg-info/top_level.txt
+src/main.py
