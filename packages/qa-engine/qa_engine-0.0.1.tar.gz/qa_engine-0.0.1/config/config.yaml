@@ -1,0 +1,11 @@
+IS_DEBUG: false
+MODEL_DIR: "resources"
+DEVICE: "cuda:0"
+SERVER_NAME: "model_evaluate_atom"
+REDIS_URL: "redis://:Hzlh2021_linker@192.1.2.232:6379/5"
+MONGO_URL: "mongodb://192.1.2.231:27017/trainer"
+HPARAM_PATH: "./configs/hparams.json"
+CONTAINER_ID: "worker"
+CALLBACK_URL: "http://192.1.2.230:8000/r2base/v1/search/1/query"
+CALLBACK_EVALUATE_URL: "http://192.1.2.230:8000/r2base/v1/search/1/query"
+JOB_TIMEOUT: "48h"
