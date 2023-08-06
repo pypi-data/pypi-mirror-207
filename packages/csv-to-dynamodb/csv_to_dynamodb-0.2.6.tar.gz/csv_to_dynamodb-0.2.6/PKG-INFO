@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: csv_to_dynamodb
+Version: 0.2.6
+Summary: A library for automatically creating DynamoDB tables from CSV files and, optionally, automatically populating those tables.
+Author: Jason Miller
+Author-email: hackr@duck.com
+License-File: LICENSE
+
+A library for automatically creating DynamoDB tables from CSV files and, optionally, automatically populating those tables.
