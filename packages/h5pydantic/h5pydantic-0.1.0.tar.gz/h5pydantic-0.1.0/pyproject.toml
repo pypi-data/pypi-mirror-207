@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "h5pydantic"
+version = "0.1.0"
+description = "Maps between Plain old Python Objects and hdf5"
+authors = ["Clinton Roy <clinton.roy@gmail.com>"]
+license = "PSF-2.0"
+readme = "README.md"
+
+packages = [{include = "h5pydantic", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "~3.9"
+h5py = "^3.8.0"
+pydantic = "^1.10.7"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
