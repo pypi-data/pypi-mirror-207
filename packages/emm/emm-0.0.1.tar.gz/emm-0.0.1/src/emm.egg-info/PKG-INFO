@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: emm
+Version: 0.0.1
+Summary: Entity Matching Model
+Author-email: ING Analytics WB <wbaa@ing.com>
+Project-URL: repository, https://github.com/ing-bank/EntityMatchingModel
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: lint
+Provides-Extra: test
+Provides-Extra: test-cov
+Provides-Extra: docs_mkdocs
+Provides-Extra: docs_sphinx
+
+# Entity Matching Model
+
