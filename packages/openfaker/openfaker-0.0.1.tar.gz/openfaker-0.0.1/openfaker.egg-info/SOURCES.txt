@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+openfaker/__init__.py
+openfaker/bot.py
+openfaker/exceptions.py
+openfaker/openfaker.py
+openfaker/prompter.py
+openfaker/utils.py
+openfaker.egg-info/PKG-INFO
+openfaker.egg-info/SOURCES.txt
+openfaker.egg-info/dependency_links.txt
+openfaker.egg-info/requires.txt
+openfaker.egg-info/top_level.txt
+tests/test_bot.py
+tests/test_openfaker.py
