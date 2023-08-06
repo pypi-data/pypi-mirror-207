@@ -1,0 +1,11 @@
+segnn_jax/__init__.py,sha256=6wBc6D-aW4duO4N7XXz9vxjs2G_Dkwwf4MoxUhSVCek,459
+segnn_jax/blocks.py,sha256=CdjPTyJ3gJ1PXJSxzlOLZKcPHL3CsE5A5ePvbehXcP8,9786
+segnn_jax/config.py,sha256=9Cj5xnkgZUVWGymdMW1Mdu2L1TtUlfPAIm13sQjrFnM,282
+segnn_jax/graph_utils.py,sha256=mH70chJxvpXpRVrI0ET_yxm7jyhG0_HQWL9kpmu4c9s,1360
+segnn_jax/irreps_computer.py,sha256=vO2vU48nMYHd8NNcWo6ob5_GpLWkVqJX0WsafY4l_18,2014
+segnn_jax/segnn.py,sha256=6RBXX2JhHJu-GpgidsF7hddGMKSiWho4RXk2L8Dde9Y,9733
+segnn_jax-0.6.dist-info/LICENSE,sha256=y8hgsA6ZD8d4IpxZP02ONNG1oPizHGb28DxCnOBU5rk,1078
+segnn_jax-0.6.dist-info/METADATA,sha256=vjsf_x_sfdH-hdy0rZX_C5uzC4VQq7g4tFJkbsnypX8,4181
+segnn_jax-0.6.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+segnn_jax-0.6.dist-info/top_level.txt,sha256=xu1rqOaQfzPfY6VbvDd6f1ToKHAvZ3Nm6tQVWGhYAi8,10
+segnn_jax-0.6.dist-info/RECORD,,
