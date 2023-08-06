@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: cookiesamurai
+Version: 1.0.0a1
+Summary: A wrapper around cookiesamurai to allow for conditional questions.
+Author-email: Younes Strittmatter <younes_strittmatter@brown.edu>
+License: MIT License
+Project-URL: repository, https://github.com/younesStrittmatter/cookiesamurai
+Requires-Python: <4,>=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: cookiecutter
+Requires-Dist: requests
+
+Example for a cookiecutter.json file:
+
+```json
+{
+  "question_1": {
+    "prompt": "What Powerranger you identify the most (Think of Power Ranger Samurai)?",
+    "answer": ["yellow", "blue", "green", "gold", "pink"]
+  },
+  "question_2": {
+    "prompt": "That sucks! Are you sure?",
+    "answer": ["yes", "no"],
+    "depends_on": {"question_1": "blue"}
+  }
+}
+```
