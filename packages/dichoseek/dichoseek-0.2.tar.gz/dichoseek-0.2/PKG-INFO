@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: dichoseek
+Version: 0.2
+Summary: Performs binary search in binary files
+Home-page: https://github.com/tcosmo/dichoseek
+Author: Tristan Sterin
+Author-email: tristan@prgm.dev
+License: MIT
+Download-URL: https://github.com/tcosmo/dichoseek/archive/refs/tags/v0.2.2.tar.gz
+Description: UNKNOWN
+Keywords: binary search
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
