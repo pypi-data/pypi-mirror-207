@@ -1,0 +1,3 @@
+This package can count your bitches with 100% accuracy
+
+Just run it's only function, my_bitches and you'll see...

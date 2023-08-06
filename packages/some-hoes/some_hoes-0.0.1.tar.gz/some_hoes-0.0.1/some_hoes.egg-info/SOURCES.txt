@@ -1,0 +1,9 @@
+README.md
+license.txt
+setup.py
+some_hoes/__init__.py
+some_hoes/some_hoes.py
+some_hoes.egg-info/PKG-INFO
+some_hoes.egg-info/SOURCES.txt
+some_hoes.egg-info/dependency_links.txt
+some_hoes.egg-info/top_level.txt
