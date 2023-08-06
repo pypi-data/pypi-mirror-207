@@ -1,0 +1,13 @@
+bit_field/__init__.py,sha256=JHcsINejSjEH3I4p1p6NtW21sLM8zx_b_5bE6WPDJ4s,116
+bit_field/__main__.py,sha256=UdF97Kcr0aeUIsYBz35M4jPgB6GHG03iJ5wxfN1tzw0,79
+bit_field/cli.py,sha256=jrexlzMHerSuqxVBoNOLB43658D7n01iqVSXtfobi2s,2873
+bit_field/jsonml_stringify.py,sha256=B5lR1-_KRUiLgkYvtQCjPyfjb0Lec8uJJD5BSDYepOs,471
+bit_field/render.py,sha256=8b80XmUqjeDofx-Zt9CMQeKs6k2G_fZxbp8kiUpHYEQ,14054
+bit_field/tspan.py,sha256=KhQj0cGkaCy9PL585XV01mGwJyht0mrnOXv_HV7cyes,2066
+bit_field-1.0.1.dist-info/LICENSE,sha256=-2HcxIKiHpOmT6E3HpNYHEotqWEGumFnD9uL4nu1SmY,1082
+bit_field-1.0.1.dist-info/LICENSE-ORIGINAL,sha256=7r2WbT86-aWNBAGlM2AWiVcxH_2st9rU2EmFrwFBPyo,1092
+bit_field-1.0.1.dist-info/METADATA,sha256=sFMmVm6uqmvSkRnF8ObfOL4DqU5ZW8W74PflfQaNSmw,2525
+bit_field-1.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+bit_field-1.0.1.dist-info/entry_points.txt,sha256=cka3j_I-n_MJQ-IZwpi3WD5abKQQMQHVsvGBvMh2SbU,58
+bit_field-1.0.1.dist-info/top_level.txt,sha256=3NsZcGI2w2uVcsAbO8JA0B6zKJe_HLqkjHkUENbuoy4,10
+bit_field-1.0.1.dist-info/RECORD,,
