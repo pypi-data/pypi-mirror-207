@@ -1,0 +1,18 @@
+# pytest cache directory
+.pytest_cache/
+
+# Temporary files and logs generated during testing
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+#
+dist/*
+
+# mypy　
+.mypy_cache/
+.pytest_cache/
+
+#
+save_model_pth
