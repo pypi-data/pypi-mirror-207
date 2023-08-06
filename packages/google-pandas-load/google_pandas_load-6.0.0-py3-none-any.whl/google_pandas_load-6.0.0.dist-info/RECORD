@@ -1,0 +1,11 @@
+google_pandas_load/__init__.py,sha256=omIW6AEJCtB5ceiom139iumt71W5ugzCaRsYLtMiWWM,166
+google_pandas_load/constants.py,sha256=uTLciVVW5D1WTz1b_yb7Q57ce_vvg5_ql7ONuS635VY,550
+google_pandas_load/load_config.py,sha256=0HzncflDngwYviteDyqY7PzTXoEeEmNOXDx2NM9yP_w,9358
+google_pandas_load/loader.py,sha256=yWbRtiGQ3rGrr85hs-T5nEdt_b9hW8xv_hwEUtN6JG0,27317
+google_pandas_load/loader_quick_setup.py,sha256=75sMMtpPlZe704urqcZ9KovqdHoTf_xnJKsJ0MJypBo,4077
+google_pandas_load/utils.py,sha256=Lau8x28DWxYN9gj1GEAI9BWiSc85nNpt-rf3Em33UOU,1141
+google_pandas_load-6.0.0.dist-info/LICENSE,sha256=4YqK_Kn5ek1hZ6C5gruqUa_jdOA6w-EzkMWqMj-IHyk,1074
+google_pandas_load-6.0.0.dist-info/METADATA,sha256=SRWV1agJLeMJuAsAg5SCj6THhYPf3HlB6I8lwNAq4bk,1953
+google_pandas_load-6.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+google_pandas_load-6.0.0.dist-info/top_level.txt,sha256=8c8fy033R6ddtWuMZDcgG8ZLNmua8QkuA2O6VLz8tnA,19
+google_pandas_load-6.0.0.dist-info/RECORD,,
