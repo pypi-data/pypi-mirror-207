@@ -1,0 +1,17 @@
+datanalyse-0.0.4.dist-info/METADATA,sha256=yJHhBFeuYplOWGgOr3tvEqW4O9fx4ULcDyPme1vTKxk,1040
+datanalyse-0.0.4.dist-info/WHEEL,sha256=7dGFtUmOf30dPBLpGD2z643cxg89joO7p3JHBAwDv6E,90
+datanalyse-0.0.4.dist-info/licenses/LICENSE,sha256=3IkpHzY8WLtSgAWC-cVJEu6QfUVHm289WiQtx9j7ccA,1078
+datanalyse/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datanalyse/dataelement/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datanalyse/dataelement/dataelement.py,sha256=XWEILFA72mXCkZ-AvTiwONihHqySbuisUOvAZDoTw8E,8724
+datanalyse/dataelement/dfmanipulation.py,sha256=-bBQU9dk-pOwy5QG5GRXcEjBi-cbK2MUYcyaw2gnQU0,3492
+datanalyse/dataelement/formate.py,sha256=WEkMsndNXWuDLCZtVocQU5s4DYHX2x44as2iZHWaEpU,32084
+datanalyse/dataelement/stoffwerte.py,sha256=oKbtXDYX01lwe61EabN_PQS11oVfIV6BtfrUROrZ1ts,362
+datanalyse/diagramme/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datanalyse/diagramme/balken.py,sha256=V5amQjaK0HueVdNQihZBujw3yqX6B5XyBSSgxI6caqk,4753
+datanalyse/diagramme/diagramm.py,sha256=iquL5jEGvey3gnS01mxLx45bGLlXLALCQtcWdvr3oCE,2863
+datanalyse/diagramme/globalbewertung.py,sha256=mSCBIKzEEGESMKu9FXBGX1FLsihKLR_edBQftL19q7o,4224
+datanalyse/diagramme/matplotlib_parameter.py,sha256=QLC84hHVjjVOI47A4yBj9D9jliU-fG-a6R3tK6J0QhE,1102
+datanalyse/diagramme/zeitreihe.py,sha256=YcoWwJK23edk90KpN3NwDX0GWXtiHt2MyWEJ_7R0OOM,3115
+datanalyse/pfade.py,sha256=sgg4A3K-LJEu6Tt-KPcIwcpBUlsTyecejiblJootGdo,703
+datanalyse-0.0.4.dist-info/RECORD,,
