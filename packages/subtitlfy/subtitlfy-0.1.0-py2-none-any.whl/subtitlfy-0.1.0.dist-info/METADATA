@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: subtitlfy
+Version: 0.1.0
+Summary: subtitlfy - add subtitles to video
+Home-page: https://github.com/somatosensory/subtitlfy
+Author: pinktoxin
+Author-email: pinktoxindev@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: typing
+
+UNKNOWN
+
+
