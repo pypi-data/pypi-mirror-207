@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+png2svglinlin/__init__.py
+png2svglinlin.egg-info/PKG-INFO
+png2svglinlin.egg-info/SOURCES.txt
+png2svglinlin.egg-info/dependency_links.txt
+png2svglinlin.egg-info/requires.txt
+png2svglinlin.egg-info/top_level.txt
