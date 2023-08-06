@@ -1,0 +1,122 @@
+{
+    "text": {
+        "desc": "text",
+        "packing-function": "_pack_default"
+    },
+
+    "rich-text": {
+        "desc": "html text",
+        "packing-function": "_pack_default"
+    },
+
+    "multi-line-text": {
+        "desc": "text with support for newlines (\\n)",
+        "packing-function": "_pack_default"
+    },  
+
+    "multiple-choice-text": {
+        "desc": "text indicating selected option", 
+        "packing-function": "_pack_default"
+    },
+
+    "multi-select": {
+        "desc": "list of strings", 
+        "packing-function": null
+    },
+
+    "address": {
+        "desc": "composite field. there must be six columns in your datatframe for each address field on quickbase. street 1, street 2, city, state, zip, country",
+        "packing-function": "_pack_default"
+    }, 
+
+    "email": {
+        "desc": "valid email adresses as strings", 
+        "packing-function": "_pack_default"
+    },
+
+    "url": {
+        "desc": "string of a url", 
+        "packing-function": "_pack_default"
+    },
+
+    "numeric": {
+        "desc": "int or float data", 
+        "packing-function": "_pack_default"
+    },
+
+    "numeric-percent": {
+        "desc": "supports floats from zero to one inclusive",
+        "packing-function": "_pack_default"
+    }, 
+
+    "numeric-rating": {
+        "desc": "integer from one to five", 
+        "packing-function": "_pack_default"
+    }, 
+
+    "numeric-currency": {
+        "desc": "float indicating currency", 
+        "packing-function": "_pack_default"
+    },
+
+    "duration": {
+        "desc": "durration in milliseconds", 
+        "packing-function": "_pack_duration"
+    }, 
+
+    "date": {
+        "desc": "date as a string or Datetime object. must specify date format as an argument eg. \"Y-D-M\" eg. \"2019-12-18\".", 
+        "packing-function": "_pack_date"
+    },
+
+    "timestamp": {
+        "desc": "datetime as a string or a Datetime object. must specify datetime format as an argument eg. \"Y-D-M H:m:s\" 'YYYY-MM-DDThh:mm:ssZ'", 
+        "packing-function": "_pack_datetime"
+    },
+
+    "time-of-day": {
+        "desc": "military time as a string. must specify time-of-day format eg. \"hh:mm:ss.sss\" military time hh:mm:ss.sss", 
+        "packing-function": null
+    },
+
+    "checkbox": {
+        "desc": "boolean as a int, string or bool. not case sensitve. false, 'no', 'n', 'f', 'false', 0 are all false, everything else is true except None", 
+        "packing-function": "_pack_default"
+    }, 
+
+    "phone": {
+        "desc": "phone number as a string. must specify phone-number format eg. \"(###) ###-#### x####\" pound signs indicate digits. the first 10 digits are required, extension is optional.\"(123) 456-7890 x123\"", 
+        "packing-function": "_pack_phonenum"
+    },
+
+    "user": {
+        "desc": "dictionary containing the user data that must include the user's ID eg. { \"id\": \"123456.ab1s\" }", 
+        "packing-function": null
+    },
+
+    "list-user": {
+        "desc": "a list of user dicts", 
+        "packing-function": null
+    }, 
+
+    "file-attachment": {
+        "desc": "Not supported", 
+        "packing-function": null
+    },
+
+    "recordid": {
+        "desc": "int. _pack_default merge field", 
+        "packing-function": "_pack_default"
+    },
+
+    "lookup": {
+        "desc": "Not supported", 
+        "packing-function": null
+    },
+
+    "summary": {
+        "desc": "Not supported", 
+        "packing-function": null
+    } 
+
+}
