@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+querytograph/__init__.py
+querytograph/querytograph.py
+querytograph.egg-info/PKG-INFO
+querytograph.egg-info/SOURCES.txt
+querytograph.egg-info/dependency_links.txt
+querytograph.egg-info/requires.txt
+querytograph.egg-info/top_level.txt
