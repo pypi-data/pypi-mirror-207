@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: cbloss
+Version: 0.1.0
+Summary: PyTorch implementations of two popular loss functions for imbalanced classification problems: Class Balanced Loss and Focal Loss.
+Home-page: https://github.com/wildoctopus/cbloss
+Author: Alok Pandey
+License: MIT
+Keywords: pytorch,loss,class-balanced,classification-loss,focal-loss,FocalLoss,cb_loss,cbloss
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Education
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: tests
+Provides-Extra: dev
+License-File: LICENSE
+
+# cbloss
+Pytorch implementation of Class Balanced Loss based on Effective number of Samples 
