@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: napalm-slx-os
+Version: 0.1.1
+Summary: SLX-OS Driver for NAPALM
+Author-email: Jens Vogler <vogler@init7.net>
+Project-URL: Homepage, https://github.com/Init7/napalm-slx-os
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Description-Content-Type: text/markdown
+Provides-Extra: tests
+License-File: LICENSE
+
+# napalm-slx_os
+
+SLX-OS driver for [NAPALM](https://github.com/napalm-automation/napalm)
+
+WIP - Open Source release coming soon
