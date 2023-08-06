@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+opensv/__init__.py
+opensv/__version__.py
+opensv/config.py
+opensv/valuation.py
+opensv.egg-info/PKG-INFO
+opensv.egg-info/SOURCES.txt
+opensv.egg-info/dependency_links.txt
+opensv.egg-info/not-zip-safe
+opensv.egg-info/requires.txt
+opensv.egg-info/top_level.txt
