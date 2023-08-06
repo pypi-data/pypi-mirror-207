@@ -1,0 +1,14 @@
+app:
+  double_check: false
+  errors: null
+common:
+  base_url: null
+  headers: {}
+  login: {}
+  platform: api
+  screenshot: false
+  timeout: 10
+  visit: {}
+web:
+  browser: chrome
+  host: null
