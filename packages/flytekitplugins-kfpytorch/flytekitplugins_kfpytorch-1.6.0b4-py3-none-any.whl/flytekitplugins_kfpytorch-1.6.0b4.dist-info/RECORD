@@ -1,0 +1,8 @@
+flytekitplugins_kfpytorch-1.6.0b4-py3.11-nspkg.pth,sha256=lkJ-eVJsxHcpr3YkJBzWrgSFWPWyG3DLhUSGmTcjxhg,584
+flytekitplugins/kfpytorch/__init__.py,sha256=loQJ_msejGxJ0DYdhmNotEeyIdRr0iL_mUHZpnemjpE,239
+flytekitplugins/kfpytorch/task.py,sha256=TIrWygnODKcRbcuv3R6GOYXUbcTrM8GEuOdLwAQEQJI,9372
+flytekitplugins_kfpytorch-1.6.0b4.dist-info/METADATA,sha256=HXUPjyvcqgzpVxyXFejwZ1zmLC9h2qCyt3T-38B5iUg,978
+flytekitplugins_kfpytorch-1.6.0b4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+flytekitplugins_kfpytorch-1.6.0b4.dist-info/namespace_packages.txt,sha256=b2gTzXFHuV5afchaJ28HueRhYzj-8x5Ytr8n2twnAik,16
+flytekitplugins_kfpytorch-1.6.0b4.dist-info/top_level.txt,sha256=b2gTzXFHuV5afchaJ28HueRhYzj-8x5Ytr8n2twnAik,16
+flytekitplugins_kfpytorch-1.6.0b4.dist-info/RECORD,,
