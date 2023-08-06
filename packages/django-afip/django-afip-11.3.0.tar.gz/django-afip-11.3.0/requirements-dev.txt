@@ -1,0 +1,7 @@
+dj_database_url
+django-stubs
+types-freezegun
+types-pyOpenSSL
+types-pytz
+types-requests
+types-backports
