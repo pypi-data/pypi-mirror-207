@@ -1,0 +1,31 @@
+{
+ "additionalProperties": true,
+ "description": "Specify only 'SubnetMappings' or 'Subnets'",
+ "oneOf": [
+  {
+   "properties": {
+    "SubnetMappings": {
+     "type": [
+      "array"
+     ]
+    }
+   },
+   "required": [
+    "SubnetMappings"
+   ]
+  },
+  {
+   "properties": {
+    "Subnets": {
+     "type": [
+      "array"
+     ]
+    }
+   },
+   "required": [
+    "Subnets"
+   ]
+  }
+ ],
+ "type": "object"
+}
