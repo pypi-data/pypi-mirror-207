@@ -1,0 +1,13 @@
+nyckel/__about__.py,sha256=ZUl2xcRi75lbPrlvl0NxpUt61vfrXEhe0YCcbPhhIX0,21
+nyckel/__init__.py,sha256=kbIGgew5jOJswtWObG2FENEUPe2xor0K__tgpMqhTwc,301
+nyckel/auth.py,sha256=Javc2ojsxYqkkf96WpUaS-77SgHOHJhiT9mYStSswkI,1261
+nyckel/config.py,sha256=d5onS1lUtVZcsa8UmvcdSotz7Q5nf9Ldfl7TD0iljAc,29
+nyckel/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nyckel/request_utils.py,sha256=AB57SrhxxrCfcCokUZMEO_QbdAjX8k1lNjydz5IGo9o,2418
+nyckel/functions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nyckel/functions/classification.py,sha256=f_D2ZFv_ot5w102pRshbekCB5jT-l6c8CcVi19WM7ro,16012
+nyckel/functions/utils.py,sha256=pY5rEsoZL40lDODm6aWA03M7FJNF5mX1ojr72_EmFXw,75
+nyckel-0.0.16.dist-info/METADATA,sha256=wuBZFxYb3sVmLdBFHJzjr08o5_q3VbJvJ6Ugn-CDeZE,712
+nyckel-0.0.16.dist-info/WHEEL,sha256=kAoYHEzhbpP91vg_l47LD3ekp-d1wLb0_Af70S1KycY,87
+nyckel-0.0.16.dist-info/licenses/LICENSE,sha256=g0D9yzWLb_aslAj7A9MXP-BtkcDr8vCNZfFd0XtI838,1063
+nyckel-0.0.16.dist-info/RECORD,,
