@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/cveutils/__init__.py
+src/cveutils/cveutils.py
+src/cveutils.egg-info/PKG-INFO
+src/cveutils.egg-info/SOURCES.txt
+src/cveutils.egg-info/dependency_links.txt
+src/cveutils.egg-info/requires.txt
+src/cveutils.egg-info/top_level.txt
+tests/test.py
