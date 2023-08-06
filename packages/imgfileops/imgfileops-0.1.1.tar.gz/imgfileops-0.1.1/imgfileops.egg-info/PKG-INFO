@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: imgfileops
+Version: 0.1.1
+Summary: A package that solves common file operations in biological data; including cached results, image loading (wrapping the bioformat library), and movie rendering programmatically from microscope data.
+Home-page: https://github.com/fabio-echegaray/fileops
+Author: Fabio Echegaray
+Author-email: fabio.echegaray@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
