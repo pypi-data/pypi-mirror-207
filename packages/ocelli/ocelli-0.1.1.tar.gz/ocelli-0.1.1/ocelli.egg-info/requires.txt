@@ -1,0 +1,12 @@
+anndata
+matplotlib
+numpy
+pandas
+plotly
+ray
+scikit-learn
+scipy
+statsmodels
+umap-learn
+scanpy
+louvain
