@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: oganesson
+Version: 0.1.0
+Summary: oganesson enables rapid AI workflows for material science and chemistry
+Home-page: https://github.com/oganesson-ai/oganesson
+Author: Sherif Abdulkader Tawfik Abbas
+Author-email: sherif.tawfic@gmail.com
+License: mit
+Keywords: ai,machine learning,model testing
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# oganesson
+ 
