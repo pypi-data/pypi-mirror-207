@@ -1,0 +1,2 @@
+[console_scripts]
+dsa-downloader = dsa_downloader.__main__:main
