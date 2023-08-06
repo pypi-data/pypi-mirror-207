@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+fastapi_dddocr/__init__.py
+fastapi_dddocr/fastapi_dama_docr.py
+fastapi_dddocr.egg-info/PKG-INFO
+fastapi_dddocr.egg-info/SOURCES.txt
+fastapi_dddocr.egg-info/dependency_links.txt
+fastapi_dddocr.egg-info/top_level.txt
