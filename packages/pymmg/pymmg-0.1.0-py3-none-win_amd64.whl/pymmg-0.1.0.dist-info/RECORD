@@ -1,0 +1,15 @@
+general/__init__.py,sha256=fx7ZnixDaP1YTD740fnJkGbLbg2jQ3kDTeF9awoLDDc,3610
+mmg2d/__init__.py,sha256=tEHh9eFZBkP5cu9dAlSwXXrux1yHjI8HFKgMIHbGHiM,210
+mmg2d/__main__.py,sha256=L2ubunx1R46BgbO4sAFyFeMT1Hzeo0lxv2T3BBsFS6Q,62
+mmg2d/mmg2d.exe,sha256=EySOcJjBJ8IbG0TGAZHUzgiMkfQn4m8NPAwIb_TiiL0,305152
+mmg3d/__init__.py,sha256=uothsCJ4J7Kl63BV3ydR8wij3bs2MO1eE1X-XR4nW7I,210
+mmg3d/__main__.py,sha256=L2ubunx1R46BgbO4sAFyFeMT1Hzeo0lxv2T3BBsFS6Q,62
+mmg3d/mmg3d.exe,sha256=t7vS0FDSDzfmsufGISzEZoaoAGgBMw3pndaNDKDclHQ,692224
+mmgs/__init__.py,sha256=FHZpycxKLCwwniSS8qzORITH2KAwvCG8HTRLU32eoiY,209
+mmgs/__main__.py,sha256=L2ubunx1R46BgbO4sAFyFeMT1Hzeo0lxv2T3BBsFS6Q,62
+mmgs/mmgs.exe,sha256=iR1Coo49E8-GiWbX36dhJWDQXSI8W0-n7lHHStwJc7U,365568
+pymmg-0.1.0.dist-info/METADATA,sha256=CwuQ2uxf-L13MFCHh3ys_FCPWO1Uso681dGj-O3CqIA,4668
+pymmg-0.1.0.dist-info/WHEEL,sha256=8kwBlrkZ04TDMttnlKmPcPnlKka0NSS9fYW04W8HjRY,98
+pymmg-0.1.0.dist-info/entry_points.txt,sha256=w2nnJJiH9U2AhjKAAj_CyAcPRXWFqYfMM4UnNvRd-Gc,73
+pymmg-0.1.0.dist-info/top_level.txt,sha256=mtF7Fo0q0v9c-J_frlwS3c-R5DyQJ97W0RXBbax25QU,25
+pymmg-0.1.0.dist-info/RECORD,,
