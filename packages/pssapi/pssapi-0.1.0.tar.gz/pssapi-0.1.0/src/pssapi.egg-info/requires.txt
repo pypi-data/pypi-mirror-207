@@ -1,0 +1,14 @@
+aiohttp==3.8.4
+pytz==2022.7.1
+
+[dev]
+autoflake==2.0.1
+autopep8==2.0.1
+flake8==6.0.0
+flake8-bugbear==23.3.12
+flake8-black==0.3.6
+isort==5.12.0
+black==23.1.0
+
+[test]
+pytest==7.2.1
