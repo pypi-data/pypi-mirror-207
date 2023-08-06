@@ -1,0 +1,9 @@
+setup.py
+garaprod/__init__.py
+garaprod/modules.py
+garaprod/version.py
+garaprod.egg-info/PKG-INFO
+garaprod.egg-info/SOURCES.txt
+garaprod.egg-info/dependency_links.txt
+garaprod.egg-info/requires.txt
+garaprod.egg-info/top_level.txt
