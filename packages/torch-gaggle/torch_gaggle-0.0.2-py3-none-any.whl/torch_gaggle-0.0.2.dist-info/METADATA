@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: torch-gaggle
+Version: 0.0.2
+Summary: Gaggle: Genetic Algorithms on the GPU using PyTorch
+Author: Lucas Fenaux
+License: MIT
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: numpy
+Requires-Dist: transformers
+Requires-Dist: matplotlib
+Requires-Dist: gym
+
