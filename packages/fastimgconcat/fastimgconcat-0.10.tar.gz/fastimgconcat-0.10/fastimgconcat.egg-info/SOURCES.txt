@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+fastimgconcat/README.md
+fastimgconcat/__init__.py
+fastimgconcat/requirements.txt
+fastimgconcat/thirdparty.json
+fastimgconcat.egg-info/PKG-INFO
+fastimgconcat.egg-info/SOURCES.txt
+fastimgconcat.egg-info/dependency_links.txt
+fastimgconcat.egg-info/requires.txt
+fastimgconcat.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+include fastimgconcat/requirements.txt
+include fastimgconcat/thirdparty.json
+include fastimgconcat/README.md
