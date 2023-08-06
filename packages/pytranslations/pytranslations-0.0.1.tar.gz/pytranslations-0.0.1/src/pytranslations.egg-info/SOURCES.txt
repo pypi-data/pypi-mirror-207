@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pytranslations/__init__.py
+src/pytranslations/translations.py
+src/pytranslations.egg-info/PKG-INFO
+src/pytranslations.egg-info/SOURCES.txt
+src/pytranslations.egg-info/dependency_links.txt
+src/pytranslations.egg-info/top_level.txt
