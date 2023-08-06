@@ -1,0 +1,10 @@
+rum_with_telegram/__init__.py,sha256=u2bXlIYBQ4y5s9ioc7rV16i6GJhLLhsGvb-nwhfH8QU,216
+rum_with_telegram/config.py,sha256=q1H7pr5VgVj9GdQlRdzJ4CEbBsUAijIiWy6DlNlG-aA,1955
+rum_with_telegram/data_exchanger.py,sha256=i3UY1wy08JRl5Oc_8rgfgGkLxFG0FKeq5TTLbBGiiUI,25399
+rum_with_telegram/db_handle.py,sha256=TrxxwijFEC5zezS7Kc8I8ihbygog_O_Tgk0u5oRFHGc,3514
+rum_with_telegram/module.py,sha256=kR8LgDQCpF8LrSyIi9I4flOR6MqH5H9HcmkXlEdG37A,1900
+rum_with_telegram-0.9.15.dist-info/LICENSE,sha256=mcX0ne-C3C_3mIMKLkh5lCpkqdtx4E8f1kk6nid7dcc,1087
+rum_with_telegram-0.9.15.dist-info/METADATA,sha256=0dByBHHyLiwKqRP2P7hJXl40kMfmYzlp3O2UuJxbUO0,1181
+rum_with_telegram-0.9.15.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+rum_with_telegram-0.9.15.dist-info/top_level.txt,sha256=I-jxq_pxLGsCMuiUVKGh-0UTslJ03G18tzvvMRGpwx4,18
+rum_with_telegram-0.9.15.dist-info/RECORD,,
