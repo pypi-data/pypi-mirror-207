@@ -1,0 +1,12 @@
+wagtail_content_block/__init__.py,sha256=esGyILE1jK0ckFto-poZMMFOqJqu0kGj9rWg1pRiO8Y,101
+wagtail_content_block/annotations.py,sha256=PCTkLBpevyRIkNE7yBEfUvZyeSz7fHshy-WaFUQRGQM,9646
+wagtail_content_block/apps.py,sha256=h03lkOwa61oiVxWYQlzTHuIR0hdWf7FV_lX2t_uPKSk,907
+wagtail_content_block/blocks.py,sha256=mUh6wCOlKBhvbF68sCB0KBmuMiZeGvI02-CMs6x_fPM,2263
+wagtail_content_block/dotted_paths.py,sha256=2qExp5UB6XMDq3c7-9kaCJBfLAeZQEPKeobrg4xXIlI,839
+wagtail_content_block-4.1.1.dist-info/AUTHORS.txt,sha256=964o0V0C4P8MLuinu4syjuy_nyHnpNnxD_YsFeFJ1XM,19
+wagtail_content_block-4.1.1.dist-info/LICENSE.txt,sha256=NweSuHwd8SQNUs3BTbbG8_n89lPrXG0pc38voODAHcw,1525
+wagtail_content_block-4.1.1.dist-info/METADATA,sha256=eC5bnUiIbFpY6kAK7mlEP_GR7dClIQLCVYCGTjDnLVM,1351
+wagtail_content_block-4.1.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+wagtail_content_block-4.1.1.dist-info/top_level.txt,sha256=hdUC9pChvaSHlWvdZ7xbYy2SqrmfELmepQzyByrYUb4,22
+wagtail_content_block-4.1.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+wagtail_content_block-4.1.1.dist-info/RECORD,,
