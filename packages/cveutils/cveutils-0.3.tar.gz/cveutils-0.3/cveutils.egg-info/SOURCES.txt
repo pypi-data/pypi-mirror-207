@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+cveutils.egg-info/PKG-INFO
+cveutils.egg-info/SOURCES.txt
+cveutils.egg-info/dependency_links.txt
+cveutils.egg-info/requires.txt
+cveutils.egg-info/top_level.txt
+tests/test.py
