@@ -1,0 +1,11 @@
+flask
+Flask-RESTful
+SQLAlchemy<1.4
+Flask-SQLAlchemy
+DBBase
+python-dateutil
+inflect
+
+[dev]
+unittest
+pytest
