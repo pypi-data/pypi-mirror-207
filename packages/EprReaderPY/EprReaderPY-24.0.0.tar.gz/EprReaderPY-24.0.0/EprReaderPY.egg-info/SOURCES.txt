@@ -1,0 +1,6 @@
+setup.py
+EprReaderPY.egg-info/PKG-INFO
+EprReaderPY.egg-info/SOURCES.txt
+EprReaderPY.egg-info/dependency_links.txt
+EprReaderPY.egg-info/requires.txt
+EprReaderPY.egg-info/top_level.txt
