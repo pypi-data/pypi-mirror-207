@@ -1,0 +1,45 @@
+[project]
+name = "conda-pip-minimal"
+description = "Conda+Pip minimal env exports"
+authors = [{ name = "Venky Iyer", email = "indigoviolet@gmail.com" }]
+license = "MIT"
+requires-python = ">=3.8"
+dynamic = ["version"]
+readme = "README.md"
+keywords = ["packaging", "conda", "pip", "environment.yaml"]
+classifiers = [
+  'Intended Audience :: Developers',
+  'Intended Audience :: Science/Research',
+  'Topic :: Software Development :: Build Tools'
+]
+dependencies = [
+  "typer~=0.6.1",
+  "semver>=3.0.0",
+  "more-itertools",
+  "trio~=0.22.0",
+  "loguru",
+  "importlib-metadata~=5.0.0",
+  "ruamel-yaml~=0.17.21"
+]
+
+[project.urls]
+Homepage = "https://github.com/indigoviolet/conda-pip-minimal"
+
+[project.scripts]
+conda-cpm = 'conda_pip_minimal.cli:app'
+
+[tool.hatch.version]
+path = "src/conda_pip_minimal/__about__.py"
+
+[tool.hatch.envs.default]
+path = ".venv"
+
+[tool.hatch.envs.dev]
+extra-dependencies = ["ipython", "snoop", "trio-typing"]
+
+[tool.hatch.build]
+packages = ["src/conda_pip_minimal"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
