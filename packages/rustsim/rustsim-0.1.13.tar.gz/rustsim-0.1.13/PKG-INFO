@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: rustsim
+Version: 0.1.13
+Summary: rustsim is now semsimian
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown
+
+# rustsim is now semsimian
+
+This package has been renamed. Use `pip install semsimian` instead.
+
+New package: https://pypi.org/project/semsimian/
+
+

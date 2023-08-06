@@ -1,0 +1,7 @@
+README.md
+setup.py
+rustsim.egg-info/PKG-INFO
+rustsim.egg-info/SOURCES.txt
+rustsim.egg-info/dependency_links.txt
+rustsim.egg-info/requires.txt
+rustsim.egg-info/top_level.txt
