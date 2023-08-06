@@ -1,0 +1,7 @@
+vcf_batcher-0.2.0.dist-info/METADATA,sha256=0NgRsl8Lg6pgMOC4ZslvJnEpUtf3adMfldy0wpxXoFc,863
+vcf_batcher-0.2.0.dist-info/WHEEL,sha256=L98fCWQzY8AHUKCt5LhJCDWVrTp_lzcRP08bVdZXElw,110
+vcf_batcher/__init__.py,sha256=eZtm5w2oUyn4ArMfKBqbvXu-zqJraazanWBGUhmtnWk,127
+vcf_batcher/__init__.pyi,sha256=6S8D-vyZ6IO9NwOxnimYBksIX6KgIAgkFUOl5E5SLF8,633
+vcf_batcher/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vcf_batcher/vcf_batcher.cpython-310-x86_64-linux-gnu.so,sha256=mLkXgDhXFbzzuVWM9f6e5W2td4a7MkuRT9MAB-1I5Cs,735656
+vcf_batcher-0.2.0.dist-info/RECORD,,
