@@ -1,0 +1,10 @@
+TRIdentification/__init__.py,sha256=uJLLerCTwh6ztyi7AQqgSxaC6_VjEqM6mixipvsus6g,849
+TRIdentification/exception.py,sha256=d5YOxaOx7OGgCV-BUFk0ghdNUXiR9WS79dUjwR4ixJ0,141
+TRIdentification/service/__init__.py,sha256=978ut58-RV7-yATSdACUa1lyaLJNRFvL47BkKnN4F_A,52
+TRIdentification/service/helper.py,sha256=wKLFHuJQUB88rV3_-6OZKJIZKiieXSIlbqDrIYdEft4,873
+TRIdentification/service/identity_service.py,sha256=_6hztO4aEdv0OI23kTNBnunFy-ECZ6_hfsvb6Cvv5oo,3313
+TRIdentificationValidator-0.0.3.dist-info/LICENSE,sha256=kMDUYTNnummGMZiwFP-gcNFZ2zLkL7HnTQG4WZHlBCc,1071
+TRIdentificationValidator-0.0.3.dist-info/METADATA,sha256=CH7d4fOvuvf37EWKLuqDf_Tam6roM4r3C05w9mqHJW0,1463
+TRIdentificationValidator-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+TRIdentificationValidator-0.0.3.dist-info/top_level.txt,sha256=28giAdnZKQ9L7YzVJ_hdgcHucbknRSw-uXOTeoFpE_Q,17
+TRIdentificationValidator-0.0.3.dist-info/RECORD,,
