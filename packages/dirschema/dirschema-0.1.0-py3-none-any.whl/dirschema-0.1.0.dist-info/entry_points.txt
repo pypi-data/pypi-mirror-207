@@ -1,0 +1,6 @@
+[console_scripts]
+dirschema=dirschema.cli:app
+
+[dirschema_validator]
+pydantic=dirschema.json.handler_pydantic:PydanticHandler
+
