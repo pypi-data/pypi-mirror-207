@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: torch-gaggle
+Version: 0.0.1
+Summary: Testing gaggle pip packaging
+Author: Lucas Fenaux
+License: MIT
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: numpy
+Requires-Dist: transformers
+Requires-Dist: matplotlib
+Requires-Dist: gym
+
