@@ -1,0 +1,16 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/__init__.py
+src/__main__.py
+src/alphabetize.py
+src/alphabetize.egg-info/PKG-INFO
+src/alphabetize.egg-info/SOURCES.txt
+src/alphabetize.egg-info/dependency_links.txt
+src/alphabetize.egg-info/entry_points.txt
+src/alphabetize.egg-info/requires.txt
+src/alphabetize.egg-info/top_level.txt
