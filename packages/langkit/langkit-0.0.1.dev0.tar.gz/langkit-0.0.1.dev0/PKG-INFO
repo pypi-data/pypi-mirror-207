@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: langkit
+Version: 0.0.1.dev0
+Summary: A collection of text metric udfs for whylogs profiling and monitoring in WhyLabs
+License: Apache-2.0
+Author: WhyLabs.ai
+Author-email: support@whylabs.ai
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: nltk (>=3.8.1,<4.0.0)
+Requires-Dist: sentence-transformers (>=2.2.2,<3.0.0)
+Requires-Dist: textstat (>=0.7.3,<0.8.0)
+Requires-Dist: whylogs (>=1.1.38,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Langkit
+A text metrics toolkit for monitoring language models. 
