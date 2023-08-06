@@ -1,0 +1,5 @@
+custom
+intro
+news
+setup
+webcam
