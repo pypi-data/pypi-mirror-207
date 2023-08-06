@@ -1,0 +1,10 @@
+aws_cdk/aws_elasticache/__init__.py,sha256=SeBCJEypHzpDJgggbM61qnrWhN0OrE_uOOAW1QTbwrc,487644
+aws_cdk/aws_elasticache/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_elasticache/_jsii/__init__.py,sha256=mz1uD2_Qw-17Kh8PZRTcavSPY7RRgvtyAWP47usJZow,428
+aws_cdk/aws_elasticache/_jsii/aws-elasticache@1.201.0.jsii.tgz,sha256=7Mg95gi-KFjurBtungoPg7EA-w8k1vWQNUJsYZ9E8ds,179652
+aws_cdk.aws_elasticache-1.201.0.dist-info/LICENSE,sha256=YA6CL2YE08NgoURWXRTrec3mNy-KAR-_UNdiMqgNVMI,11391
+aws_cdk.aws_elasticache-1.201.0.dist-info/METADATA,sha256=b1QNhTftHGMssVP-Ew-A3PIvqERaUaBirv7Efdec4yk,3210
+aws_cdk.aws_elasticache-1.201.0.dist-info/NOTICE,sha256=XtGET2JQh3C41orQUenLTefWItOqLmu2N-mGwW7t3Fo,113
+aws_cdk.aws_elasticache-1.201.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+aws_cdk.aws_elasticache-1.201.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_elasticache-1.201.0.dist-info/RECORD,,
