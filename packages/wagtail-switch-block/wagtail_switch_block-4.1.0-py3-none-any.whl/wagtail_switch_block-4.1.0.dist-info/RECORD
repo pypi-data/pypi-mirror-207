@@ -1,0 +1,15 @@
+wagtail_switch_block/__init__.py,sha256=6JFwRtjkZKx6ArxV8CCUm1g9NRPtlLgiT_VGVP2opLg,205
+wagtail_switch_block/apps.py,sha256=0wjr_g97acA4izUySVEHSSc7vLDi2gVrh9stNsXI14Q,897
+wagtail_switch_block/block_registry.py,sha256=6weotvdvnW36RkJO6RV3TC1ffifdG98KOW7t4M1znWs,3084
+wagtail_switch_block/blocks.py,sha256=DeC23bPEb8JxMXDgnkj2Q2fjFEPgX6Faxtoh4OuQIO0,10338
+wagtail_switch_block/function_specifier.py,sha256=n2fDKWm2yilHkZzi0626H8x0ALbD-hZzlIwCxAgqfwo,1148
+wagtail_switch_block/static/wagtail_switch_block/css/wagtail_switch_block.css,sha256=sju4xEJXxsvGGoqnI57U8ojtIeLzGAX8MewjT5jNw2o,83
+wagtail_switch_block/static/wagtail_switch_block/js/wagtail_switch_block.js,sha256=CEQXgf457olYat9tzssbkVTkfQKkt2N-MhVw0h2Hbs4,3426
+wagtail_switch_block/templates/wagtail_switch_block/switch_block.html,sha256=RkNUD5g7wchO4V5WMdbNFJ07ybrewOxkidzkNzNY5s8,59
+wagtail_switch_block-4.1.0.dist-info/AUTHORS.txt,sha256=964o0V0C4P8MLuinu4syjuy_nyHnpNnxD_YsFeFJ1XM,19
+wagtail_switch_block-4.1.0.dist-info/LICENSE.txt,sha256=NweSuHwd8SQNUs3BTbbG8_n89lPrXG0pc38voODAHcw,1525
+wagtail_switch_block-4.1.0.dist-info/METADATA,sha256=bSmXLqcSJUZt3Cafmfn6QDyq6L8rYoqZrfscH1ALdz0,1387
+wagtail_switch_block-4.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+wagtail_switch_block-4.1.0.dist-info/top_level.txt,sha256=N6Oagcbo3SS1JeCEeeqh-Mcyv6AnEr-dYLU0XLgTQo8,21
+wagtail_switch_block-4.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+wagtail_switch_block-4.1.0.dist-info/RECORD,,

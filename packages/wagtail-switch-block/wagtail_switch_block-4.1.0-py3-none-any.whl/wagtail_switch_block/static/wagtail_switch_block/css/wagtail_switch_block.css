@@ -1,0 +1,4 @@
+
+.switch-block > div[data-contentpath]:nth-child(2) > label {
+    display: none;
+}
