@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "codeoffer"
+version = "1.0.2"
+authors = [
+  { name="CodeOffer", email="contact@codeoffer.net" },
+]
+description = "Python API Wrapper for the public CodeOffer API"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/codeoffer/v1-python-library"
+"Bug Tracker" = "https://github.com/codeoffer/v1-python-library/issues"
+
+[tool.poetry.dependencies]
+requests = "^2.30.0"
