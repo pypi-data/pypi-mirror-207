@@ -1,0 +1,2 @@
+[console_scripts]
+psgtest = psgspecialelements:main_test
