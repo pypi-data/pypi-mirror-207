@@ -1,0 +1,11 @@
+journal_prompts/__init__.py,sha256=eOirH5Y5bByRYlH6umCf_coEvIvx9tPJYxpF5RMfSN0,486
+journal_prompts/dto/__init__.py,sha256=4FAb9MbdS_rGZTZpUP_Jbqlx5T5DPqO7mgM0JmUT-YM,254
+journal_prompts/dto/journal_prompts_500_kb.py,sha256=ONZJdfabc3ohaWLMDaKNjCEqfXnhuF5d1wGjFbT7kBg,43344
+journal_prompts/dto/journal_prompts_random_kb.py,sha256=-LznD-QEHKNZpgwYMGBYBMi_seuikBBqp660o2IZBRE,9859
+journal_prompts/dto/random_questions_kb.py,sha256=55wp6jW7gAz5UxoiwmceXQubf3uU2hH8EQqugW5gjo4,223969
+journal_prompts/dto/sarcastic_questions_kb.py,sha256=PgzAFRwM5WvDHNqoIsxA953zftfqPUznADwkgD5QRoc,12199
+journal_prompts/svc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+journal_prompts/svc/find_random_question.py,sha256=TQjJDauHNjGFAngCKGQyjTOJSzuShJqTfNLw7b82Udo,1239
+journal_prompts-0.1.7.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+journal_prompts-0.1.7.dist-info/METADATA,sha256=IUTQnZq9T-mB6k3Hv_xEduJ12wv5_Hw4w6Ii1ybzjKk,1466
+journal_prompts-0.1.7.dist-info/RECORD,,
