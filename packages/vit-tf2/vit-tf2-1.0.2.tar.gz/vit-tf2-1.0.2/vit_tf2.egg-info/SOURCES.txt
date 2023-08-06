@@ -1,0 +1,6 @@
+README.md
+setup.py
+vit_tf2.egg-info/PKG-INFO
+vit_tf2.egg-info/SOURCES.txt
+vit_tf2.egg-info/dependency_links.txt
+vit_tf2.egg-info/top_level.txt
