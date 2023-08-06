@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tasep"
+version = "0.0.1"
+authors = [
+  { name="Rohn Chatterjee", email="rohn.ch@gmail.com" },
+]
+description = "A Package to simulate TASEP in Python (Writen in C)."
+#readme = "README.md"
+requires-python = ">=3.7"
+

@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: tasep
+Version: 0.0.1
+Summary: A Package to simulate TASEP in Python (Writen in C).
+Author-email: Rohn Chatterjee <rohn.ch@gmail.com>
+Requires-Python: >=3.7
