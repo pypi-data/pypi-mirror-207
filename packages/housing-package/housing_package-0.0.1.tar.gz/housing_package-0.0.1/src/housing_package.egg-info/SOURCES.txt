@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.py
+src/housing_package/__init__.py
+src/housing_package/ingest.py
+src/housing_package/score.py
+src/housing_package/train.py
+src/housing_package.egg-info/PKG-INFO
+src/housing_package.egg-info/SOURCES.txt
+src/housing_package.egg-info/dependency_links.txt
+src/housing_package.egg-info/top_level.txt
+test/test_data_ingestion.py
+test/test_train.py
