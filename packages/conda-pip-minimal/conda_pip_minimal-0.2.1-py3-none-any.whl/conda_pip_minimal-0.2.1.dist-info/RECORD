@@ -1,0 +1,16 @@
+conda_pip_minimal/__about__.py,sha256=HfjVOrpTnmZ-xVFCYSVmX50EXaBQeJteUHG-PD6iQs8,22
+conda_pip_minimal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+conda_pip_minimal/__main__.py,sha256=LqPbwLfEw_Raxl-N7XGFuK5jfTRySQ7Fj2zBW0gD-nU,62
+conda_pip_minimal/cli.py,sha256=WOMRyea0cAAsyngEyeNMp4FtVsQ8kLNPpv1PaGTQ_a8,2960
+conda_pip_minimal/cmd.py,sha256=D5AkJ5iKO1sCf4eg_QSqrGaRyJRutQnID2Xz0J6c_NA,1291
+conda_pip_minimal/conda_env.py,sha256=q6Uvo3WWz4z4sccIK_canUutj1mdCTN-QranY0Z8JKQ,1682
+conda_pip_minimal/deps.py,sha256=bq_syHNr4sK79K97Gkq7NESQDedv29NIVvyDAPDJxc0,1746
+conda_pip_minimal/export.py,sha256=eYeHpPQLGt6Wx5PkRFJDkbhpP9TSwZFe1f4f07JEAp0,2713
+conda_pip_minimal/logging.py,sha256=_HFmzetqO7dDGW_CMqOuG9A7U7QdFKZvn9lY4GLi7ug,973
+conda_pip_minimal/min.py,sha256=3RlfMM2b1It7ulIg0OB_Dqqr1QoDH4ZyrMQyvrStD5U,4454
+conda_pip_minimal/result_capture.py,sha256=J_mlZCbrWsLINnfRw3u86NAHDHzirQJQq8ad7HgweqQ,1791
+conda_pip_minimal/version.py,sha256=t6S6L8_G7ct2xSlKzdNlQRiVcx2ghin85OLh6l3bMUg,684
+conda_pip_minimal-0.2.1.dist-info/METADATA,sha256=nuguRQew6FAiHuYmncvJxlXVgEgE3UT13qq07G9FnEo,6100
+conda_pip_minimal-0.2.1.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+conda_pip_minimal-0.2.1.dist-info/entry_points.txt,sha256=AuWS3OpjAyrBoO-2WtHG29rFU_6NfYOmUnXEPD4-0Ts,56
+conda_pip_minimal-0.2.1.dist-info/RECORD,,
