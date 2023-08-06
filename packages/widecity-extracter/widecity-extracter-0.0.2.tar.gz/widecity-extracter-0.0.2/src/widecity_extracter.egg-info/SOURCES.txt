@@ -1,0 +1,10 @@
+LICENSE
+README.txt
+pyproject.toml
+setup.cfg
+src/widecity_extracter/__init__.py
+src/widecity_extracter/text_extracter.py
+src/widecity_extracter.egg-info/PKG-INFO
+src/widecity_extracter.egg-info/SOURCES.txt
+src/widecity_extracter.egg-info/dependency_links.txt
+src/widecity_extracter.egg-info/top_level.txt
