@@ -1,0 +1,3 @@
+[console_scripts]
+deep-clone = deep_clone.main:main
+
