@@ -1,0 +1,6 @@
+{% load static %}
+{% if block.meta.container_element %}<{{ block.meta.container_element}}{% if block.meta.classname %} class="{{ block.meta.classname }}"{% endif %}>{% endif %}
+{% for tag in self %}
+<span {% if block.meta.tag_classname %}class="{{ block.meta.tag_classname }}"{% endif %}>{{ tag.name }}</span>
+{% endfor %}
+{% if block.meta.container_element %}</{{ block.meta.container_element}}>{% endif %}

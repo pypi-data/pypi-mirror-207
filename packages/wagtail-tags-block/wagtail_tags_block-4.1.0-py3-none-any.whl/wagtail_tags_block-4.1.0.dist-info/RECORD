@@ -1,0 +1,11 @@
+wagtail_tags_block/__init__.py,sha256=vLrlDyk1kZrlmmAmGLQrbwtoPM94HrD7uL-_nK6y6Y0,95
+wagtail_tags_block/apps.py,sha256=VuKvYsHxlQvaNG1jD1lgCNjAy_WlSoM2pZhr0_ptgL4,1002
+wagtail_tags_block/blocks.py,sha256=ZglOFj093EeZQ7bffDlsmKC016THfEx6p1BFxQ0_ypw,2897
+wagtail_tags_block/templates/wagtail_tags_block/tags_block.html,sha256=CxZs2Tz736qshsl00dAP1V7gSQSbP9C5XsHJg66JzUI,408
+wagtail_tags_block-4.1.0.dist-info/AUTHORS.txt,sha256=964o0V0C4P8MLuinu4syjuy_nyHnpNnxD_YsFeFJ1XM,19
+wagtail_tags_block-4.1.0.dist-info/LICENSE.txt,sha256=NweSuHwd8SQNUs3BTbbG8_n89lPrXG0pc38voODAHcw,1525
+wagtail_tags_block-4.1.0.dist-info/METADATA,sha256=nGTWuUUmTWacUlaI_uPQIZbq2cJYYC_Y1NTZ3LNAqq0,1307
+wagtail_tags_block-4.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+wagtail_tags_block-4.1.0.dist-info/top_level.txt,sha256=a7cUtdZ4kpv1w8BSW3tXS7IC6jIlirERh-ameu9t5Og,19
+wagtail_tags_block-4.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+wagtail_tags_block-4.1.0.dist-info/RECORD,,
