@@ -1,0 +1,2 @@
+[console_scripts]
+dib = dib.cli:cli_entrypoint

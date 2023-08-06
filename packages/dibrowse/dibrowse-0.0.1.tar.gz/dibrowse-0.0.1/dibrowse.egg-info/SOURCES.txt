@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dib/__init__.py
+dib/cli.py
+dib/constants.py
+dib/core.py
+dibrowse.egg-info/PKG-INFO
+dibrowse.egg-info/SOURCES.txt
+dibrowse.egg-info/dependency_links.txt
+dibrowse.egg-info/entry_points.txt
+dibrowse.egg-info/requires.txt
+dibrowse.egg-info/top_level.txt
+tests/test_core.py
