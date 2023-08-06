@@ -1,0 +1,70 @@
+site_name: CircuitBrew
+repo_url: https://github.com/virantha/CircuitBrew
+theme:
+  name: "material"
+  icon: 
+    logo: material/resistor-nodes
+  features:
+    - navigation.path
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.indexes
+
+  palette:
+    primary: teal
+plugins:
+  - search
+  - autorefs
+  - glightbox
+  - mkdocstrings:
+      watch:
+        - circuitbrew
+      handlers:
+        python:
+          selection:
+            filters:
+              - ".*"
+
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - admonition
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+nav:  
+  - Home: index.md
+  - Usage guide:
+      - usage/index.md
+      - 'Generating netlists': usage/generating.md
+      - 'Writing circuits': usage/writing.md
+      - Examples:
+          - Inverter: usage/examples/inverter.md
+          - Inverter with Model: usage/examples/inverter_sim.md
+          - Two-input NOR: usage/examples/nor2.md
+          - QDI Handshake circuit: usage/examples/wchb.md
+      - 'Reference': usage/reference.md
+      - 'Techfiles': usage/techfiles.md
+  - API: 
+      - module: api/api_module.md
+      - ports: api/api_ports.md
+      - compound_ports: api/api_compound_ports.md
+      - fets: api/api_fets.md
+      - elements: api/api_elements.md
+      - gates: api/api_gates.md
+      - qdi: api/api_qdi.md
