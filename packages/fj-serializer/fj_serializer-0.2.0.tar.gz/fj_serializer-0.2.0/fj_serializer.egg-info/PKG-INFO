@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: fj-serializer
+Version: 0.2.0
+Summary: python custom objects serializer. created by Fridrix Jo
+Author: FridrixJo
+Author-email: pglutov@gmail.com
+License: MIT
+Requires-Python: >=3.10
