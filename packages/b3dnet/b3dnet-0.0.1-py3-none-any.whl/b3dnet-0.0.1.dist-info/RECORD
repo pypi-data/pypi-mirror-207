@@ -1,0 +1,8 @@
+b3dnet/__init__.py,sha256=hSWEzONUyyJ0rXP1kI4UG0LAtuKQc1iIN-snd8FQKpk,396
+b3dnet/connection.py,sha256=5ILEQXBe0p3QNOReC_EUqDqloqPBfsUMxkOn0csGu4g,13060
+b3dnet/request.py,sha256=ypI1bCttIDWeEVqdJb1QRE3oFnVRfJnX-atWTlWJycc,13192
+b3dnet-0.0.1.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+b3dnet-0.0.1.dist-info/METADATA,sha256=QG46QvqUl1fSLinZnth_Ap4E3w_l8Sl7nyRwo8pZ-8s,6738
+b3dnet-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+b3dnet-0.0.1.dist-info/top_level.txt,sha256=x06Lq1csmFDMojT8HaPmu45xmYXwcHoXZhe8XtzAB7k,7
+b3dnet-0.0.1.dist-info/RECORD,,
