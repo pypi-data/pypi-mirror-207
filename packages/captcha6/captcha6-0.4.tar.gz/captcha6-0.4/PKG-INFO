@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: captcha6
+Version: 0.4
+Summary: Omar_Style _ 〄🇵🇸
+Home-page: https://github.com/Omarail1/omarpoop.git
+Author: omar Style
+Author-email: omarllStyle@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+    
+<h1 style="color:red; text-align: center;">2captcha.io</h1>
+
+## This library is for captcha solving
+
+### Use this library like this
+
+```python 
+from captcha6 import CAPTCHAv 
+
+api = ""
+websiteKey = ""
+websiteURL = ""
+
+CAPTCHAv.CAPTCHAv2(api,websiteKey,websiteURL)
+
+CAPTCHAv.CAPTCHAv3(api,websiteKey,websiteURL)
+
+```
+
+---
+### Here is an example that explains more
+
+```python 
+from captcha6  import CAPTCHAv 
+
+
+api = ""
+websiteKey = ""
+websiteURL = ""
+
+A2 = CAPTCHAv.CAPTCHAv2(api,websiteKey,websiteURL)
+print(A2)
+
+B3 = CAPTCHAv.CAPTCHAv3(api,websiteKey,websiteURL)
+print(B3)
+```
+
+
+----
+## From here register on the site
+[Link](https://2captcha.io/auth-sign-in.php)
+
+### The developer of this library
+#### 2captcha.io
+### https://2captcha.io/auth-sign-in.php
+
+

@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+captcha6/__init__.py
+captcha6.egg-info/PKG-INFO
+captcha6.egg-info/SOURCES.txt
+captcha6.egg-info/dependency_links.txt
+captcha6.egg-info/requires.txt
+captcha6.egg-info/top_level.txt
