@@ -1,0 +1,15 @@
+django_ogcapif/__init__.py,sha256=1-8XiV8B_vEnuCBlbR6Qd3vqsDkP2GIf_g5XyBL-oJw,156
+django_ogcapif/__version__.py,sha256=i-htwMkLH5GTiz4x6dUJLL5fJLKIitlQCLIaKMKBsYc,160
+django_ogcapif/decorators.py,sha256=pAEAwYiagLz0qEV5GpUB_taiJFgkTKJUcJku0wampMo,4999
+django_ogcapif/filters.py,sha256=7CFp-rKYfR9z97cFGe4L2ZDYSr_6rDLaee7dwfMkpe0,1309
+django_ogcapif/mixins.py,sha256=EHceMtCZzOe-qRIJMPfKvcY85sO5ViiAHExWFubFlZY,2965
+django_ogcapif/pagination.py,sha256=UBXMryjB8w1wUZJDxi0hNmHoyktNPqX5ku34yMKG6BU,2269
+django_ogcapif/parsers.py,sha256=_DpvfaXIOD9OJS9JQ34EWQfsM_yPiHuuzM8z-sKyif0,309
+django_ogcapif/routers.py,sha256=RyRXV_7eMSQoBVQUrJ7IITpH1sY0IhEtecBB7_6wnTQ,3600
+django_ogcapif/urls.py,sha256=A5N_VjbHxvRsi0avDNJmGhXG2MALCqMpvzwRnwXoAm8,63
+django_ogcapif/views.py,sha256=Z2tye12vCyKkAss58o7IwlClUF45lTzyr8FrYPXxLOo,5262
+django_ogcapif-0.1.6.dist-info/LICENSE,sha256=kSBEIV6PjDU8ZF5D-2r4wYtf2x4X7snHmwWWH7Wwl7I,1067
+django_ogcapif-0.1.6.dist-info/METADATA,sha256=OhV1qBx6LevBlIzd3RiSNjT0VcjpIui2yacbx4iFSZ8,3626
+django_ogcapif-0.1.6.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+django_ogcapif-0.1.6.dist-info/top_level.txt,sha256=2XJn0eexQTJEzZqDeYPmfQFAnHgvKvSUEiZINQ73SJs,15
+django_ogcapif-0.1.6.dist-info/RECORD,,
