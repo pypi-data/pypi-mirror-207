@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "firepup650"
+version = "1.0.15"
+authors = ["Firepup650"]
+description = "Package containing various shorthand things I use, and a few imports I almost always use"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+]
+
+[project]
+url = "https://github.com/F1repup650/firepup650-PYPI"
+project-urls = [
+    "Bug Tracker = https://github.com/F1repup650/firepup650-PYPI/issues",
+    "replit = https://replit.com/@Firepup650/firepup650-PYPI-Package",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fkeycapture = "^1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
