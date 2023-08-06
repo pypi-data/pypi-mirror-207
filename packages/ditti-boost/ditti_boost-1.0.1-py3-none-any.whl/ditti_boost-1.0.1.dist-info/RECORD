@@ -1,0 +1,11 @@
+ditti_boost/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ditti_boost/authentication.py,sha256=w-lo4L24lZcmFKksjTv2Z9jpAVb847uLtioso61p8MQ,435
+ditti_boost/cli.py,sha256=A02LaWcLdZaQXuXfUg-VOSa_BCix8EukUxZ4oqyus5U,988
+ditti_boost/config.py,sha256=NUowC68MzqkuwYCs-PHwDCkimp7dMxc4ehWivm5kEhs,1247
+ditti_boost/menu.py,sha256=TPVo5N4ziVIpNwxuoV19cHl1Fwg8yVS6mu_qvcI61JI,669
+ditti_boost/reporting.py,sha256=_LZdjoRusqqPYq1A2ds4lJgZG5152iLtP-I3i-KPmU8,289
+ditti_boost/scripts.py,sha256=b1XP16GOkyKMQXE871n1uNMwDEkLhBR92uCxzrzJ3Io,8058
+ditti_boost-1.0.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+ditti_boost-1.0.1.dist-info/entry_points.txt,sha256=gTb8Da9rBGmFHOei2z2OV-LTcJqCWtbq7RujXywe4TY,52
+ditti_boost-1.0.1.dist-info/METADATA,sha256=qoAvtJUec0UTL-wvg5lripxqltB4NN7w_dUOm6ZQOYk,1644
+ditti_boost-1.0.1.dist-info/RECORD,,

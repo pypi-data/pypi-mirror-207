@@ -1,0 +1,3 @@
+[console_scripts]
+ditti-boost=ditti_boost.cli:main
+
