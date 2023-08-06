@@ -1,0 +1,8 @@
+setup.py
+PeopleDetection/__init__.py
+PeopleDetection/demo.py
+PeopleDetection/detector.py
+peodect.egg-info/PKG-INFO
+peodect.egg-info/SOURCES.txt
+peodect.egg-info/dependency_links.txt
+peodect.egg-info/top_level.txt

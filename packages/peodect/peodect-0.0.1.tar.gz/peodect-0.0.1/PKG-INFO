@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: peodect
+Version: 0.0.1
+Summary: birds atttributes and functions
+Author: HongPy
+Author-email: mahong0604@163.com
+License: apache 3.0
+Requires: numpy
+Requires: onnxruntime_gpu
+Requires: opencv_python
+Requires: pillow
