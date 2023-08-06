@@ -1,0 +1,2 @@
+[console_scripts]
+get-report-template = src.get_report_template:main
