@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyscisci
+Version: 0.8.11
+Summary: Science of Science
+Home-page: https://github.com/ajgates42/pyscisci
+Author: Alex Gates <ajgates42@gmail.com>
+License: MIT
+Description: Lets study science!
+Keywords: science of science,citation network,bibliometric
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Provides-Extra: nlp
+Provides-Extra: hdf
