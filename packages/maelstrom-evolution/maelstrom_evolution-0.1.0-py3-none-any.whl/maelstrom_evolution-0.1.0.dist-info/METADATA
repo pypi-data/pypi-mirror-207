@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: maelstrom-evolution
+Version: 0.1.0
+Summary: Strong-typed genetic programming framework with support for island models, competitive coevolution, and rapid prototyping
+Home-page: https://github.com/DeaconSeals/maelstrom-framework
+Author: Deacon Seals
+Maintainer: Ethan Wilkes
+Maintainer-email: rewilkes0041@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: tqdm (>=4.65.0,<5.0.0)
+Project-URL: Repository, https://github.com/DeaconSeals/maelstrom-framework
+Description-Content-Type: text/markdown
+
+# maelstrom-framework
+Strong-typed genetic programming framework with support for island models, competitive coevolution, and rapid prototyping
+
