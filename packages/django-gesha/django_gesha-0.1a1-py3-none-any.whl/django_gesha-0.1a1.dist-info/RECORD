@@ -1,0 +1,14 @@
+gesha/__init__.py,sha256=cjBV3O5I4BaDoLZxTDq0QP1RRsJ6Kb0ST3-uPtAnoYY,67
+gesha/conf.py,sha256=1yOjZyXcrvAioAB2tWQ9_Lc1T-i3M-4_TYL0sZWHTzk,331
+gesha/mixins.py,sha256=lRpEusS4ScbqRKUhQXLDTZb4BsbPM0paWvPuZJ7KDLs,686
+gesha/types.py,sha256=4fRbUZ_Ym9TUPt_01SqnN7B2hNxhh0wirlLYjQqFgJo,844
+gesha/urls.py,sha256=kzSb396Q58Tr6PrCZaHRtQ2Tf9IyUVHUMoqXcGTEvt4,2262
+gesha/static/gesha/dist/js/django-gesha.bundle.min.js,sha256=I7RjyDLKPQp6NVFXP0TmQ1yuEGVx7L5BHSJxw47Pkv0,3867
+gesha/static/gesha/dist/js/django-gesha.bundle.min.js.map,sha256=mWBhAG2RCwvQ0dnykS3Wkmv1vfCysbolu8D6afweSDQ,5528
+gesha/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gesha/templatetags/gesha.py,sha256=rsDLFNK1eBZySrjREFNeoOeZIgfK3dkYqIINW1qA50Y,648
+django_gesha-0.1a1.dist-info/LICENSE,sha256=x3iF6WpgKpiH0FBUbbwVbMq5IrF1vn1oL8Eohv8hiVc,1062
+django_gesha-0.1a1.dist-info/METADATA,sha256=Yl0prUK6PkD5RMBPWw0AsU57dYMO-MMkIM8vrKuFCYo,3107
+django_gesha-0.1a1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+django_gesha-0.1a1.dist-info/top_level.txt,sha256=PQdd_kY3Zzj8r-E9iH7VnTbxriY-2YjMv5Kn1nLaTYk,6
+django_gesha-0.1a1.dist-info/RECORD,,
