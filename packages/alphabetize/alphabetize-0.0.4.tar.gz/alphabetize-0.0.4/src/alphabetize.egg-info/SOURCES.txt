@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/alphabetize.egg-info/PKG-INFO
+src/alphabetize.egg-info/SOURCES.txt
+src/alphabetize.egg-info/dependency_links.txt
+src/alphabetize.egg-info/entry_points.txt
+src/alphabetize.egg-info/requires.txt
+src/alphabetize.egg-info/top_level.txt
