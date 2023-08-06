@@ -1,0 +1,3 @@
+
+def easy_check1(small_matrix):
+    ...
