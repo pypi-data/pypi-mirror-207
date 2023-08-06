@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: aws-flask-lambda-swagger-ui
+Version: 0.1.3
+Summary: Adding swagger ui on your AWS Lambda Function using a Flask blueprint
+Home-page: UNKNOWN
+Author: Seven Clouds Technologies
+Author-email: admin@seventechnologies.cloud
+License: UNKNOWN
+Description: # aws_flask_lambda_swagger_ui
+        
+        New version includes the templates folder
+        
+        ## Installation
+        
+        Install the package using pip:
+        
+        ```sh
+        pip install aws-flask-lambda-swagger-ui
+        ```
+        
+        ## Usage
+        
+        ```python
+        from flask import Flask
+        from aws_flask_lambda_swagger_ui import get_swaggerui_blueprint
+        
+        app = Flask(__name__)
+        
+        SWAGGER_URL = '/aws/test/docs' 
+        API_URL = 'https://petstore.swagger.io/v2/swagger.json' 
+        
+        swaggerui_blueprint = get_swaggerui_blueprint(
+            SWAGGER_URL,  
+            API_URL,
+            config={  
+                'app_name': "AWS Lambda application"
+            }
+        )
+        
+        app.register_blueprint(swaggerui_blueprint, url_prefix=SWAGGER_URL)
+        
+        if __name__ == '__main__':
+            app.run(debug=True)
+        
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
