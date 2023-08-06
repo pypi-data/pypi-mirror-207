@@ -1,0 +1,10 @@
+include src/streetwise/static/streetwise/js/*
+include src/streetwise/static/streetwise/css/*
+include src/streetwise/static/streetwise/css/images/*
+include src/streetwise/static/streetwise/images/*
+
+include src/streetwise/templates/streetwise/*
+include src/streetwise/templates/streetwise/tags/*
+include src/streetwise/templates/streetwise/blocks/*
+
+recursive-exclude * .DS_Store *.pyc
