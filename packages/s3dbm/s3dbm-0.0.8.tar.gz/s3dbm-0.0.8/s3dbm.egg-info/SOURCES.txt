@@ -1,0 +1,14 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+s3dbm/__init__.py
+s3dbm/main.py
+s3dbm/utils.py
+s3dbm.egg-info/PKG-INFO
+s3dbm.egg-info/SOURCES.txt
+s3dbm.egg-info/dependency_links.txt
+s3dbm.egg-info/requires.txt
+s3dbm.egg-info/top_level.txt
+s3dbm/tests/__init__.py
