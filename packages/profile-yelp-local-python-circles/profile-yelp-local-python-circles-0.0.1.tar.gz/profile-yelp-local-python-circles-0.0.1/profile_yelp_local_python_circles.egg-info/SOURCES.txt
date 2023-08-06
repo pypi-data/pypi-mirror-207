@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+profile_yelp_local_python_circles.egg-info/PKG-INFO
+profile_yelp_local_python_circles.egg-info/SOURCES.txt
+profile_yelp_local_python_circles.egg-info/dependency_links.txt
+profile_yelp_local_python_circles.egg-info/top_level.txt
