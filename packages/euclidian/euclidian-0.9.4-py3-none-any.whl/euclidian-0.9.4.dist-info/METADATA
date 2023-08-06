@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: euclidian
+Version: 0.9.4
+Summary: Basic geometric objects
+Home-page: https://github.com/sixty-north/euclidian
+Author: Sixty North
+Author-email: systems+euclidian@sixty-north.com
+License: MIT License
+Keywords: geometry vector point shape transformations
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/x-rst
+License-File: LICENCE.txt
+Requires-Dist: typename
+Provides-Extra: dev
+Requires-Dist: bumpversion ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: hypothesis ; extra == 'test'
+
+*Euclidian* is a lightweight 2D and 3D geometry library with no
+pretensions to be fast, or especially robust around difficult edge
+cases. The objectives are to be easy to use, be quick to learn, and
+to be installable without onerous dependencies.
+
+
+
