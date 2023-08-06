@@ -1,0 +1,32 @@
+{% extends "_base.html" %}
+
+{% block main %}
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 offset-md-1 mt-4">
+          {% if toots %}
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">User</th>
+                  <th scope="col">Content</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for toot in toots %}
+                  <tr>
+                    <th scope="row">{{ forloop.counter }}</th>
+                    <td>{{ toot.account.display_name }}</td>
+                    <td>{{ toot.content | safe}}</td>
+                  </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}

@@ -1,0 +1,64 @@
+{% extends "_base.html" %}
+
+{% block main %}
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 offset-md-1 mt-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">List of registered ActivityPub servers.</h5>
+              <p class="card-text">
+                Click to add a new ActivityPub server!
+              </p>
+              <a href='{% url "locnus:get-create-server" %}'>
+                <button type="button" class="btn btn-primary">Add Server</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 offset-md-1 mt-4">
+          {% if servers %}
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Base API Url</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Public</th>
+                  <th scope="col">Private</th>
+                  <th scope="col">Delete</th>
+                </tr>
+              </thead>
+              <tbody hx-ext="debug" hx-target="closest tr" hx-swap="outerHTML swap:1s">
+                {% for server in servers %}
+                  <tr >
+                    <th scope="row">{{ forloop.counter }}</th>
+                    <td><a href="{{ server.api_base_url }}">{{ server.api_base_url }}</a></td>
+                    <td>{{ server.name }}</td>
+                    <td><a href='{% url "locnus:public-timeline" server_pk=server.pk %}'>
+                      <button type="button" class="btn btn-light">Timeline</button>
+                    </a></td>
+                    <td><a href='{% url "locnus:account-list" server_pk=server.pk %}'>
+                      <button type="button" class="btn btn-light">Accounts</button>
+                    </a></td>
+                    <td>
+                      <button hx-delete='{% url "locnus:delete-server" server_pk=server.pk %}'
+                              type="button" class="btn btn-danger">Delete</button>
+                    </td>
+                  </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
