@@ -1,0 +1,10 @@
+openvr
+numpy
+grpcio
+grpcio-tools
+py-cli-interaction
+pyyaml
+open3d
+tqdm
+transforms3d
+atomic
