@@ -1,0 +1,3 @@
+include src/wagtail_preference_blocks/static/wagtail_preference_blocks/js/*
+
+recursive-exclude * .DS_Store *.pyc

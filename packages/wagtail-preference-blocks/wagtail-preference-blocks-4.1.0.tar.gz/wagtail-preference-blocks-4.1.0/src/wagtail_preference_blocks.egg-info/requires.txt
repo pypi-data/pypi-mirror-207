@@ -1,0 +1,6 @@
+Django<4.2,>=4.1
+wagtail<4.2,>=4.1
+django-auxiliaries<4.2,>=4.1
+wagtail-block-model-field<4.2,>=4.1
+wagtail-dynamic-choice<4.2,>=4.1
+wagtail-dynamic-stream-block<4.2,>=4.1
