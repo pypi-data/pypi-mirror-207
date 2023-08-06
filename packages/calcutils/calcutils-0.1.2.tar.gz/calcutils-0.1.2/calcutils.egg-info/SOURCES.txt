@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+calcutils/calcu.p
+calcutils/utils.py
+calcutils.egg-info/PKG-INFO
+calcutils.egg-info/SOURCES.txt
+calcutils.egg-info/dependency_links.txt
+calcutils.egg-info/top_level.txt
