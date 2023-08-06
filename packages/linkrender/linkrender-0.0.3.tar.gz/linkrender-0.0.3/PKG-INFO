@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: linkrender
+Version: 0.0.3
+Summary: its a python test package
+Home-page: https://github.com/Abdul-Jaweed/linkrender
+Author: Abdul-Jaweed
+Author-email: jdgaming7320@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/Abdul-Jaweed/linkrender/issues
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Provides-Extra: testing
+License-File: LICENSE
+
+# LINK RENDER
+
