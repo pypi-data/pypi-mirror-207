@@ -1,0 +1,14 @@
+testservices/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testservices/collection.py,sha256=X-E3DGtvs1BobqeMAyEux3TW5BWDB67vv-Jj8NjPGSE,114
+testservices/provider.py,sha256=DkkzuJVtQ_rhL6j7Er3Fbh4_eWch5o4L9x-Lj8i9MpU,86
+testservices/service.py,sha256=8lLz-1AVKGMAekYZOvb_ETHsXDgFRqqY4lnNDAVG8Sc,1002
+testservices/supplier.py,sha256=cJnwZssqBjvt5YiCUjWBhZGeNacqPAVdlONp39Vd_8w,25
+testservices/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testservices/services/containers.py,sha256=jCzrJbj6d8A6Lz2snRGW7vf-OgrXYh_OIozY58-DLUo,2738
+testservices/services/databases.py,sha256=hSp5MCsRt8ziovxsb_8tHbi4qsZ865l4_plVDdgtgog,4661
+testservices/services/config/clickhouse/docker_related_config.xml,sha256=-uZDLeqfazQoN1wldzNr3q2duOCMspPIzWAGXA7bo0o,404
+testservices-0.1.0.dist-info/LICENSE.rst,sha256=y0MRuuHltQC7cXzOncZpGm1xdnXsvOdlD5u5fXtM05c,1072
+testservices-0.1.0.dist-info/METADATA,sha256=Z3Wx4JK7zc8skyyGHdeMs7bDNM5kok0iFXKz15Jk2Zw,1658
+testservices-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+testservices-0.1.0.dist-info/top_level.txt,sha256=Zqpj9apkSfw79eShNkF9pMcSvmyahfRHFH4ZEBtpK-c,13
+testservices-0.1.0.dist-info/RECORD,,
