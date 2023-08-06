@@ -1,0 +1,2 @@
+[mkdocs.plugins]
+mkdocs_ultralytics2 = plugin:MetaPlugin
