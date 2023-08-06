@@ -1,0 +1,5 @@
+mysql_type_plugin-0.1.16.dist-info/METADATA,sha256=Xsj45tChkvZ6DI3U9wEy13erUsVpV3u7WkOkpaL7WrI,368
+mysql_type_plugin-0.1.16.dist-info/WHEEL,sha256=XHue7QYcWbWqMO7mcdU054aB5NVNh9Bydzn3VNckP-M,129
+mysql_type_plugin/__init__.py,sha256=ytzX5Q8CLFAUSoLzLuE8nmHhrfH5mAAhcVe_JZoIgi4,11741
+mysql_type_plugin/mysql_type_plugin.cpython-37m-x86_64-linux-gnu.so,sha256=w8RIpk2zKPh7YB5NbyQX_tRnGHgi1-5ysnnF1fzDKzI,1404000
+mysql_type_plugin-0.1.16.dist-info/RECORD,,
