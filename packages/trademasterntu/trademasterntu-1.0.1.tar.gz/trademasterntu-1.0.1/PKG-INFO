@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: trademasterntu
+Version: 1.0.1
+Summary: TradeMaster - A platform for algorithmic trading
+Home-page: https://github.com/TradeMaster-NTU/TradeMaster
+Author: NTU_trademaster
+Author-email: TradeMaster.NTU@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+# TradeMaster: An RL Platform for Trading
+
+***
+TradeMaster is a first-of-its kind, best-in-class __open-source platform__ for __quantitative trading (QT)__ empowered by __reinforcement learning (RL)__, which covers the __full pipeline__ for the design, implementation, evaluation and deployment of RL-based algorithms.
+
+## Contact Us
+If you have any further questions of this project, please contact [TradeMaster.NTU@gmail.com](TradeMaster.NTU@gmail.com)
