@@ -1,0 +1,2 @@
+bmw-lobster-core>=0.9.2
+trlc>=1.1.3
