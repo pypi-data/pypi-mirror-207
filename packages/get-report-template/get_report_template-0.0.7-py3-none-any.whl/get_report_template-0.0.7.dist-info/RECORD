@@ -1,0 +1,9 @@
+get_report_template/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+get_report_template/get_report_template.py,sha256=jxxzeAdsbJt3JLNa6C4_iV5eOJejBOZ903AiPJhDK-c,624
+get_report_template/mobile_case_template.docx,sha256=98PgSiO7sytJWkzXuDlY7yR0h-CXzG8PaSAR100Xr5I,42055
+get_report_template/pc_case_template.docx,sha256=98PgSiO7sytJWkzXuDlY7yR0h-CXzG8PaSAR100Xr5I,42055
+get_report_template-0.0.7.dist-info/METADATA,sha256=VWbZVkLUIqXdMvFah3kEgEFRsxubIgNnccdnFHgmM6M,469
+get_report_template-0.0.7.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+get_report_template-0.0.7.dist-info/entry_points.txt,sha256=tfpk9tKKHAo3fAXwNGMTMBRpsPDTROrknHB3PVh_TUA,85
+get_report_template-0.0.7.dist-info/top_level.txt,sha256=CCDNDJtM5V-LRuSBT56p6QmQ_SrFrdS5lCxTdMJf9U4,20
+get_report_template-0.0.7.dist-info/RECORD,,
