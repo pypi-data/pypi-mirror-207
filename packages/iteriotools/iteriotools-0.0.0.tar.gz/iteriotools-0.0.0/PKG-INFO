@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: iteriotools
+Version: 0.0.0
+Summary: Python3.10+ utilities to translate iterators of bytes into file-like objects
+Author-email: Quentin Bouget <ypsah@devyard.org>
+License: MIT
+Project-URL: repository, https://gitlab.com/ypsah/iteriotools
+Keywords: io,iterators,generators,itertools,utility
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.10
+License-File: LICENSE
