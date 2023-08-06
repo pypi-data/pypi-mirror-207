@@ -1,0 +1,7 @@
+validatecsrf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+validatecsrf/src/__init__.py,sha256=wWvOo5oJPWq2cMrhLJz_tQ7-GsXbfog-0OeBHHqtrGs,31
+validatecsrf/src/validator.py,sha256=tguMG-y1lL6ygst_U6ztKHLw5Ygi4obWPeodu08G1v8,3230
+csrfvalidators-0.1.6.dist-info/METADATA,sha256=5CMa0fq4ybIsizdWHV7i_Z1FMHW6t8yeHViRK-qAxIw,159
+csrfvalidators-0.1.6.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+csrfvalidators-0.1.6.dist-info/top_level.txt,sha256=4ljQV2l-9ugRzb10yPias0-_uPAtCDniKLgnA-1Fj1k,13
+csrfvalidators-0.1.6.dist-info/RECORD,,
