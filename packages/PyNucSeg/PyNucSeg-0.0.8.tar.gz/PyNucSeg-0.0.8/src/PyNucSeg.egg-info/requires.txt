@@ -1,0 +1,10 @@
+numpy
+stardist
+napari
+scikit-image
+tensorflow
+pyqt5
+
+[dev]
+pytest>=3.7
+twine
