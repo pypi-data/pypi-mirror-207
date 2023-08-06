@@ -1,0 +1,7 @@
+include src/vector_graphics/static/vector_graphics/*
+include src/vector_graphics/static/vector_graphics/js/*
+include src/vector_graphics/static/vector_graphics/css/*
+include src/vector_graphics/static/vector_graphics/svg/*
+include src/vector_graphics/templates/vector_graphics/*
+
+recursive-exclude * .DS_Store *.pyc

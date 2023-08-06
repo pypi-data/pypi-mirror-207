@@ -1,0 +1,8 @@
+Django<4.2,>=4.1
+wagtail<4.2,>=4.1
+csskit<1.1,>=1.0
+markup-adaptation<1.1,>=1.0
+django-auxiliaries<4.2,>=4.1
+model-porter<4.2,>=4.1
+media-catalogue<4.2,>=4.1.2
+aldine<4.2,>=4.1.1
