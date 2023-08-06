@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/credential/__init__.py
+src/credential/credential.py
+src/pysearchconsole.egg-info/PKG-INFO
+src/pysearchconsole.egg-info/SOURCES.txt
+src/pysearchconsole.egg-info/dependency_links.txt
+src/pysearchconsole.egg-info/requires.txt
+src/pysearchconsole.egg-info/top_level.txt
+src/searchconsole/__init__.py
+src/searchconsole/searchconsole.py
