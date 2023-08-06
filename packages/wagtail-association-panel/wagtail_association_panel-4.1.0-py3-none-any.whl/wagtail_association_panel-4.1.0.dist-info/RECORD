@@ -1,0 +1,12 @@
+wagtail_association_panel/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+wagtail_association_panel/apps.py,sha256=SQ4GTiW5w3G4Q1SUUSnq-IVoPN8RJAnoxyDIl50dOuw,657
+wagtail_association_panel/association_panel.py,sha256=iVhHYMqA9Yk9xhiXd0atMI1Zzdm7-NS4nEgWuT6iP1g,3562
+wagtail_association_panel/templates/wagtail_association_panel/association_panel.html,sha256=BwP7CtlmHB4S4Oi3VWQrlbDqgQT3Xn-6A7ciMx-D-6s,221
+wagtail_association_panel/templates/wagtail_association_panel/association_panel_child.html,sha256=aTHmOxyB-wH1YCv25B3VFviZ8rBtV0KWi_3tCLuSlRE,689
+wagtail_association_panel-4.1.0.dist-info/AUTHORS.txt,sha256=964o0V0C4P8MLuinu4syjuy_nyHnpNnxD_YsFeFJ1XM,19
+wagtail_association_panel-4.1.0.dist-info/LICENSE.txt,sha256=NweSuHwd8SQNUs3BTbbG8_n89lPrXG0pc38voODAHcw,1525
+wagtail_association_panel-4.1.0.dist-info/METADATA,sha256=r9IfE0SmCy-YALqiyQMzMMwNZ_0SMIrfDV3lP5eBLGQ,1397
+wagtail_association_panel-4.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+wagtail_association_panel-4.1.0.dist-info/top_level.txt,sha256=rFBlvYgXkztbqY-9li0N45t6jNdsiRicVVlBgqwJEbg,26
+wagtail_association_panel-4.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+wagtail_association_panel-4.1.0.dist-info/RECORD,,
