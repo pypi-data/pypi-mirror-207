@@ -1,0 +1,128 @@
+# *Simple Backtest Module (Personal Usage)*
+### *Chang Sun | 孙畅*
+### [Email](ynsfsc@126.com)
+
+[![Author](https://img.shields.io/badge/ChangSun.svg "Author")](https://github.com/ynsfsc8205 "Author")
+[![Package](https://img.shields.io/pypi/v/sc-backtest.svg)](https://pypi.org/project/sc-backtest/)
+[![License](https://img.shields.io/github/license/ynsfsc8205/sc_backtest.svg)](https://github.com/ynsfsc8205/sc_backtest/blob/main/LICENSE)
+[![README](https://img.shields.io/badge/简介-中文-brightgreen.svg)](https://github.com/ynsfsc8205/sc_backtest/blob/main/README.md)
+
+## Install and Update
+``` 
+pip install --upgrade sc-backtest
+```
+or (if slow)
+```
+pip install --upgrade -i https://pypi.tuna.tsinghua.edu.cn/simple sc-backtest
+```
+
+## Simple Test
+* Check for factor validity
+   * Statistical:
+      * CDF
+      * Markout
+      * Hist
+      * ...
+   * Time-Series:
+      * Sign-Trade
+      * Value-Trade
+      * ...	
+
+``` python
+# x: factors
+# y: asset's future ret
+
+import pandas as pd
+import numpy as np
+from sc_backtest import simpletest, dataset
+
+data = dataset.get_data('adj_close_price', frequency=5)
+x = data.pct_change(240).iloc[:, 0]
+y = data.pct_change().shift(-1).iloc[:, 0]
+st = simpletest()
+st.plot_cdf(x, y)
+st.plot_composite(x, y)
+```
+
+## Backtest (bt)
+* Backtest
+   * get_report
+   * get_pnl_plot
+   * round_test
+   * ...
+
+``` python
+# x: factors
+# y: asset's future ret
+
+import pandas as pd
+import numpy as np
+from sc_backtest import simpletest, bt, dataset
+
+data = dataset.get_data('adj_close_price', frequency=5)
+x = data.pct_change(240).iloc[:, 0]
+y = data.pct_change().shift(-1).iloc[:, 0]
+st = simpletest()
+data = st.simple_pnl(x, y, data_return=True)
+report = bt.get_report(data['delta_med'], y)
+bt.get_pnl_plot(data['delta_med'], y)
+```
+
+## Technical Analysis (ta)
+Reference: [ta](https://technical-analysis-library-in-python.readthedocs.io/en/latest/index.html)
+``` python
+import pandas as pd
+import numpy as np
+from sc_backtest import ta, dataset
+
+data = dataset.get_data('adj_close_price', frequency=5)
+macd_diff = ta.trend.macd(data.iloc[:, 0]).macd_diff()
+```
+
+## Technical Analysis2 (ta2)
+Variou moving average function and stat model
+* sma, ema, wma, ...
+* rsi, atr, ...
+* z_score, div_std, de_mean, ...
+* 
+``` python
+import pandas as pd
+import numpy as np
+from sc_backtest import ta2, dataset
+
+data = dataset.get_data('adj_close_price', frequency=5)
+wma = ta2.wma(data.iloc[:, 0], window=5)
+```
+
+## DataFrame Function (df_func)
+``` python
+# example
+
+def df_sim_yoy(window):
+    def _sim_yoy(x):
+        temp = pd.DataFrame(x)
+        return (temp - temp.shift(window)) / ((temp.abs() + temp.shift(window).abs()) / 2)
+
+    _sim_yoy.__name__ = f'df_sim_yoy_{int(window)}'
+    return _sim_yoy
+```
+
+
+## Example
+Input your factor and underlying asset's future return with index type as DatetimeIndex and get 
+the composite factor analysis stat and simple-pnl time-series plots.
+``` python
+# x: factors
+# y: asset's future ret
+
+import pandas as pd
+import numpy as np
+from sc_backtest import simpletest, bt, dataset, ta2
+
+data = dataset.get_data('adj_close_price', frequency=5)
+x = data.pct_change().apply(lambda x: ta2.ema(x, window=240))
+y = data.pct_change().shift(-1)
+st = simpletest()
+st.plot_composite_cs(x, y, ic=True, horizon=5)
+bt.get_pnl_plot(x, y, alpha=True)
+```
