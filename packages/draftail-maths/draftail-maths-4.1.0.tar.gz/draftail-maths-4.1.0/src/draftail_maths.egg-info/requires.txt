@@ -1,0 +1,5 @@
+Django<4.2,>=4.1
+wagtail<4.2,>=4.1
+django_auxiliaries<4.2,>=4.1
+draftail-helpers<4.2,>=4.1
+tour-guide<4.2,>=4.1

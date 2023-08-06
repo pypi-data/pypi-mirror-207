@@ -1,0 +1,7 @@
+include src/draftail_maths/static/draftail_maths/js/*
+include src/draftail_maths/static/draftail_maths/css/*
+
+include src/draftail_maths/templates/draftail_maths/*
+include src/draftail_maths/templates/draftail_maths/tags/*
+
+recursive-exclude * .DS_Store *.pyc
