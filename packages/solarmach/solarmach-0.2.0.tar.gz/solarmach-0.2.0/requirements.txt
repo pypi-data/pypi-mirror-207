@@ -1,0 +1,12 @@
+astropy
+astroquery
+drms
+Jinja2
+lxml
+matplotlib
+numpy
+pandas
+pfsspy
+scipy
+sunpy
+zeep
