@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: aiida-hyperqueue
+Version: 0.1.1
+Summary: AiiDA plugin for the HyperQueue metascheduler
+Author: Marnik Bercx
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Classifier: Framework :: AiiDA
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Requires-Dist: aiida-core~=2.0
+Requires-Dist: sphinx ; extra == "docs"
+Requires-Dist: myst-parser ; extra == "docs"
+Requires-Dist: sphinx-design ; extra == "docs"
+Requires-Dist: sphinx-book-theme ; extra == "docs"
+Requires-Dist: sphinxcontrib-details-directive~=0.1.0 ; extra == "docs"
+Requires-Dist: pre-commit~=2.2 ; extra == "pre-commit"
+Requires-Dist: pylint>=2.5.0,<2.9 ; extra == "pre-commit"
+Requires-Dist: pgtest~=1.3.1 ; extra == "tests"
+Requires-Dist: wheel~=0.31 ; extra == "tests"
+Requires-Dist: coverage ; extra == "tests"
+Requires-Dist: pytest~=6.0 ; extra == "tests"
+Requires-Dist: pytest-cov ; extra == "tests"
+Project-URL: Source, https://github.com/aiidateam/aiida-hyperqueue
+Provides-Extra: docs
+Provides-Extra: pre-commit
+Provides-Extra: tests
+
+[![Build Status](https://github.com/aiidateam/aiida-hyperqueue/workflows/ci/badge.svg?branch=main)](https://github.com/aiidateam/aiida-hyperqueue/actions)
+[![Docs status](https://readthedocs.org/projects/aiida-hyperqueue/badge)](http://aiida-hyperqueue.readthedocs.io/)
+[![PyPI version](https://badge.fury.io/py/aiida-hyperqueue.svg)](https://badge.fury.io/py/aiida-hyperqueue)
+
+# AiiDA HyperQueue plugin
+
+AiiDA plugin for the [HyperQueue](https://github.com/It4innovations/hyperqueue) metascheduler.
+
+| ❗️ This package is still in the early stages of development and we will most likely break the API regularly in new 0.X versions. Be sure to pin the version when installing this package in scripts.|
+|---|
+
+## Features
+
+Allows task farming on Slurm machines through the submission of AiiDA calculations to the [HyperQueue](https://github.com/It4innovations/hyperqueue) metascheduler.
+See the [Documentation](http://aiida-hyperqueue.readthedocs.io/) for more information on how to install and use the plugin.
+
