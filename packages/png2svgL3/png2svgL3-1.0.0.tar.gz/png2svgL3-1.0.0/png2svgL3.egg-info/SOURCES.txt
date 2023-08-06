@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+png2svgL3/__init__.py
+png2svgL3.egg-info/PKG-INFO
+png2svgL3.egg-info/SOURCES.txt
+png2svgL3.egg-info/dependency_links.txt
+png2svgL3.egg-info/requires.txt
+png2svgL3.egg-info/top_level.txt
