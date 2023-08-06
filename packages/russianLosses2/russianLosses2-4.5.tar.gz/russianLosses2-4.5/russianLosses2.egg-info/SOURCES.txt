@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.cfg
+setup.py
+RussianLosses/.___init__.py
+RussianLosses/__init__.py
+russianLosses2.egg-info/PKG-INFO
+russianLosses2.egg-info/SOURCES.txt
+russianLosses2.egg-info/dependency_links.txt
+russianLosses2.egg-info/top_level.txt
