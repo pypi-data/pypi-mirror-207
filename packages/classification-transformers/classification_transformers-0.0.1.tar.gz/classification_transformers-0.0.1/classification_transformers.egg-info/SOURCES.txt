@@ -1,0 +1,8 @@
+README.md
+setup.py
+classification_transformers/customtransformers.py
+classification_transformers.egg-info/PKG-INFO
+classification_transformers.egg-info/SOURCES.txt
+classification_transformers.egg-info/dependency_links.txt
+classification_transformers.egg-info/requires.txt
+classification_transformers.egg-info/top_level.txt

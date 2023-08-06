@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: classification_transformers
+Version: 0.0.1
+Summary: Use the package for easy configuration of the huggingface models
+Home-page: https://github.com/harshad317/custom_transformers
+Author: Harshad Patil
+Author-email: hhpatil001@gmail.com
+Keywords: pypi,mikes_toolbox,tutorial
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+# custom transformer
+It is a packagee which only works for classification tasks.
+
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
