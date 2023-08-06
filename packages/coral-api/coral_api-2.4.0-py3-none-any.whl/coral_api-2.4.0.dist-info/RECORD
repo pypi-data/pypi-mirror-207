@@ -1,0 +1,11 @@
+inaccel/coral/__init__.py,sha256=p1kfGVnXBwGUSXSgMvcwTyniV9b-Fh5-uSAwEZDvtQA,85
+inaccel/coral/_library.py,sha256=oO58fuh3ybzAJsqf8ntBg_9k9LRk1FqzQtVndTg2J5I,215
+inaccel/coral/_rpc.py,sha256=4NdcPaUP40VvFxJuxtNOGKh5IW9ucPEAysYIjn8W4rY,5722
+inaccel/coral/_shm.py,sha256=BCr9hA-Z45mEkl-noyGhGNBsXEHT1no13X8flj6IS9A,457
+inaccel/coral/native/libcoral-api.so,sha256=UylpkHnoGldGb5UUt_kNfyrbgBzQ5HhLIEp7PPLoi-c,14592264
+coral_api-2.4.0.dist-info/LICENSE,sha256=DVQuDIgE45qn836wDaWnYhSdxoLXgpRRKH4RuTjpRZQ,10174
+coral_api-2.4.0.dist-info/METADATA,sha256=0boC4YTz_RRmiky0H--KA8KwSt9shsAM4_CAngtG89U,854
+coral_api-2.4.0.dist-info/NOTICE,sha256=Uig_x_fIzt2TCTrbg1Jeq4Z239g4oVqXIcAJxSNTYks,125
+coral_api-2.4.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+coral_api-2.4.0.dist-info/top_level.txt,sha256=mEtI1J9uUWktjAq_9Bj1x0_unZ4ubkU525epbXPFmnA,8
+coral_api-2.4.0.dist-info/RECORD,,
