@@ -1,0 +1,7 @@
+include src/wagtail_dynamic_choice/static/wagtail_dynamic_choice/js/*
+include src/wagtail_dynamic_choice/static/wagtail_dynamic_choice/css/*
+
+include src/wagtail_dynamic_choice/templates/wagtail_dynamic_choice/*
+include src/wagtail_dynamic_choice/templates/wagtail_dynamic_choice/widgets/*
+
+recursive-exclude * .DS_Store *.pyc
