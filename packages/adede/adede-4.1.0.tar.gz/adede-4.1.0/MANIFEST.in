@@ -1,0 +1,8 @@
+include src/adede/static/adede/*
+include src/adede/static/adede/js/*
+include src/adede/static/adede/css/*
+
+include src/adede/templates/adede/*
+include src/adede/templates/adede/tags/*
+
+recursive-exclude * .DS_Store *.pyc
