@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+dichoseek/__init__.py
+dichoseek/dichoseek.py
+dichoseek.egg-info/PKG-INFO
+dichoseek.egg-info/SOURCES.txt
+dichoseek.egg-info/dependency_links.txt
+dichoseek.egg-info/top_level.txt
