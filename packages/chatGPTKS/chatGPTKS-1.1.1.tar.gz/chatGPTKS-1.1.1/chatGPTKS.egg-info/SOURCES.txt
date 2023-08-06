@@ -1,0 +1,7 @@
+setup.py
+chatGPTKS/__init__.py
+chatGPTKS/chatGPTKS.py
+chatGPTKS.egg-info/PKG-INFO
+chatGPTKS.egg-info/SOURCES.txt
+chatGPTKS.egg-info/dependency_links.txt
+chatGPTKS.egg-info/top_level.txt
