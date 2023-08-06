@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: lovelyfi
+Version: 0.0.1
+Summary: This is automatic wifi handler tool for particularly LPU wifi.
+Home-page: https://github.com/PaperNova/lovelyfi
+Author: PaperNova
+Author-email: 0x0is1@protonmail.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: requests
+Requires-Dist: flit ; extra == "dev"
+Provides-Extra: dev
+
+# LovelyFi - Command line tool for Lovely Professional University Wi-Fi
+
+[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/0x0is1)
+![Version](https://img.shields.io/badge/Version-0.0.1-red)
+
+This tool is made for in-campus use for premises of LPU and neigboring. Not for external use.
+
+## Step to install
+```sh
+$ python -m pip install lovelyfi
+```
+
+## Run
+```sh
+# To Connect
+$ lovelyfi connect
+
+# To Disconnect
+$ lovelyfi disconnect
+
+# To configure username or password
+$ lovelyfi config
+```
+
+## Requirements
+* Python (>3.7)
+
+## Platforms supported
+* Windows
+* Linux
+* Mac
