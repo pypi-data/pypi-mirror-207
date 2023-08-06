@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: approximate-cluster-identities
+Version: 0.1
+Summary: A package to calculate and visualise approximate cluster identities for a large number of short nucleotide sequences using minimisers.
+Home-page: UNKNOWN
+Author: Daniel Anderson
+Author-email: danp.anderson@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: biopython
+Requires-Dist: joblib
+Requires-Dist: matplotlib
+Requires-Dist: networkx
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: tqdm
+
+UNKNOWN
+
+
