@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+filterimage/__init__.py
+filterimage/filterimage.py
+filterimage.egg-info/PKG-INFO
+filterimage.egg-info/SOURCES.txt
+filterimage.egg-info/dependency_links.txt
+filterimage.egg-info/top_level.txt
