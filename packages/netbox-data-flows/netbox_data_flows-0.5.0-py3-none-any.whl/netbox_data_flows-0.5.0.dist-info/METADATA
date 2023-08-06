@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: netbox-data-flows
+Version: 0.5.0
+Summary: NetBox plugin to document applications and data flows
+Author: Thomas Fargeix
+License: Apache 2.0
+License-File: LICENSE.txt
+
