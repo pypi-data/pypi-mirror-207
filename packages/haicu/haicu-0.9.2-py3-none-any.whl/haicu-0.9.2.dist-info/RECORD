@@ -1,0 +1,11 @@
+haicu/__haicu_ctl.py,sha256=cLNG05xOiIlSvSOGBoXxdpcPUbDG1vNuJqquOSGhaXg,27557
+haicu/__init__.py,sha256=jpfhrBmgmD-IW0j2b4cUrZoolKsKKtsmjnvAJCB0il8,43
+haicu/__main__.py,sha256=kl_yCGKk_lvC9WyU1CNZKXCURQDGW6YfriYg_b9Z9e0,80
+haicu/format.py,sha256=G-vTpIik3tfRfU5Zw3rbsSjw3gNzOx_FqcLdtjRKynU,22343
+haicu/ftdi.py,sha256=fa_hVDnYb1Zlto0T-9b6GUzNi24FoLusaH6PTM8kOzY,15631
+haicu-0.9.2.dist-info/LICENSE,sha256=UxFRHj5WAGUbemGOIhM09tTcnlIXiimQNWtKfb48Auc,1074
+haicu-0.9.2.dist-info/METADATA,sha256=MjSggJBimvCwkvcdXbqoUDUjPSKQJ7INjypXpPpfRTM,4228
+haicu-0.9.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+haicu-0.9.2.dist-info/entry_points.txt,sha256=UQKh6pBWBz56z6UpZtdWK-Xzf-nNXFVqOzEv6ywDnuk,53
+haicu-0.9.2.dist-info/top_level.txt,sha256=MwlA-feLYqzkHMDPDxcNkrLPFhFYsB-0rip383poUwU,6
+haicu-0.9.2.dist-info/RECORD,,
