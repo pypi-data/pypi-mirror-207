@@ -1,0 +1,6 @@
+pyproject.toml
+setup.py
+sillyexponents.egg-info/PKG-INFO
+sillyexponents.egg-info/SOURCES.txt
+sillyexponents.egg-info/dependency_links.txt
+sillyexponents.egg-info/top_level.txt
