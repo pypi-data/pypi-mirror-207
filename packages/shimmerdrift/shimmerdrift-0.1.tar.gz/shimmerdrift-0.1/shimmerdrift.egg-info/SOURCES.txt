@@ -1,0 +1,5 @@
+setup.py
+shimmerdrift.egg-info/PKG-INFO
+shimmerdrift.egg-info/SOURCES.txt
+shimmerdrift.egg-info/dependency_links.txt
+shimmerdrift.egg-info/top_level.txt
