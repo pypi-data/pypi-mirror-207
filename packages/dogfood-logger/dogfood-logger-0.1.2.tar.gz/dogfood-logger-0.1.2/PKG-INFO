@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: dogfood-logger
+Version: 0.1.2
+Summary: Logger for Grafana
+Home-page: https://github.com/dogfoodhq/dogfood-logger
+Author: Matt Wong
+Author-email: nycmattw@gmail.com
+License: MIT
+License-File: LICENSE.txt
+
+python-package-example
+
+This is a minimal python package, for use alongside the lesson: https://github.com/BillMills/pythonPackageLesson
+
+Contributing:
+
+Please do! Guidelines:
+
+ - This lesson is for beginners. Yes there are plenty of super fancy things we don't cover here; someday, we'll make a different, super fancy lesson to teach those things.
+ - Max 100 lines per PR please.
+ - Open an issue or empty PR first to talk about controversial changes.

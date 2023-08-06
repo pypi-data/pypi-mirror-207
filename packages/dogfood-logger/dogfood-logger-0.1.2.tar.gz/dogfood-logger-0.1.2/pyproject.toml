@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dogfood-logger-package"
+version = "0.1.1"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "dogfood-logger"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+setuptools = "^67.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
