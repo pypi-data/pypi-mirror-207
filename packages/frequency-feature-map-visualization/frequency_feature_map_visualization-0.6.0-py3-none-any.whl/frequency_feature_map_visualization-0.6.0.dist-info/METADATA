@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: frequency-feature-map-visualization
+Version: 0.6.0
+Summary: This code is designed to visualize and save the feature maps of 3D and 2D models. The feature maps can be viewed in the image domain and frequency domain, and saved as .npy files.
+Home-page: UNKNOWN
+Author: Guanghui FU
+Author-email: aslanfu123@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: matplotlib
+
+UNKNOWN
+
