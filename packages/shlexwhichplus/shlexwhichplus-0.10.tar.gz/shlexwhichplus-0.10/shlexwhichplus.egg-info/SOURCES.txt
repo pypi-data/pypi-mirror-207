@@ -1,0 +1,13 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+shlexwhichplus/README.md
+shlexwhichplus/__init__.py
+shlexwhichplus/requirements.txt
+shlexwhichplus/thirdparty.json
+shlexwhichplus.egg-info/PKG-INFO
+shlexwhichplus.egg-info/SOURCES.txt
+shlexwhichplus.egg-info/dependency_links.txt
+shlexwhichplus.egg-info/top_level.txt

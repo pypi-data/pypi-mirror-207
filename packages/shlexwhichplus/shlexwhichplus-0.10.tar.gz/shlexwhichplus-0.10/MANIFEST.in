@@ -1,0 +1,3 @@
+include shlexwhichplus/requirements.txt
+include shlexwhichplus/thirdparty.json
+include shlexwhichplus/README.md
