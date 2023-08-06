@@ -1,0 +1,8 @@
+click>=6.7
+girder_client
+tabulate
+
+[test]
+pytest
+pytest-vcr
+pytest-girder
