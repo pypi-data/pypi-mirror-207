@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+configration/__init__.py
+configration/_version.py
+configration.egg-info/PKG-INFO
+configration.egg-info/SOURCES.txt
+configration.egg-info/dependency_links.txt
+configration.egg-info/top_level.txt
+configration/src/__init__.py
+configration/src/json_config.py
