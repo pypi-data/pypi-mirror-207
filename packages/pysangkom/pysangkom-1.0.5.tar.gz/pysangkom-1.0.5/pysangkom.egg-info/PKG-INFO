@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pysangkom
+Version: 1.0.5
+Summary: This library is pysangkom, Please becareful
+Author: Meta_Keen
+Author-email: vxfqkn8wtx@privaterelay.appleid.com
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Just call a function .pysangkom()
+
+## Warning⚠️
+EN: This library is useless and uses a lot of CPU and RAM. Use it when you want to crash your own computer.
+
+TH: Library นี้ไม่มีประโยชน์ใดๆ และใช้ CPU และ RAM ค่อนข้างมาก ควรใช้เมื่อต้องการพังคอมตัวเองทิ้งจะดีที่สุดs
+
+## How to use
+<pre>
+from pysangkom.forkyou import pysangkom
+
+call = pysangkom.pysangkom()
+</pre>
+![Views](https://visitor-badge.glitch.me/badge?page_id=kang49.pysangkom)
