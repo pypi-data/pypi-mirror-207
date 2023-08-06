@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+KaggleToDatabricks/XD.py
+KaggleToDatabricks/__innit__.py
+KaggleToDatabricks.egg-info/PKG-INFO
+KaggleToDatabricks.egg-info/SOURCES.txt
+KaggleToDatabricks.egg-info/dependency_links.txt
+KaggleToDatabricks.egg-info/requires.txt
+KaggleToDatabricks.egg-info/top_level.txt
