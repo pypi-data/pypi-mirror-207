@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: rizzless_guitar_guide
+Version: 1.0.1a0
+Summary: Reduced nesting, topics can now be searched upon launch
+Project-URL: Homepage, https://github.com/captainrizzless/musical-practice-stuff
+Project-URL: Bug Tracker, https://github.com/captainrizzless/musical-practice-stuff/issues
+Author-email: Michael Lacy <michaellacy21419@gmail.com>
+License-File: LICENSE.txt
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# Rizzless Guitar Guide
+
+Same functionality as 1.0.0-alpha, but with reduced nesting for easier reading and better for
+maintaining. Specific topics can now be searched right off the bat without needing to go through
+each sub menu everytime.
