@@ -1,0 +1,18 @@
+{% load static wagtailcore_tags django_auxiliaries_tags media_catalogue_tags %}
+
+<video{% if container_style %} style="{{ container_style }}"{% endif %}
+ crossorigin="{{ media_item.cross_origin }}"
+ {% if media_item.show_controls %} controls{% endif %}
+ {% if media_item.autoplay %} autoplay=""{% endif %}
+ {% if media_item.loop %} loop=""{% endif %}
+ {% if media_item.muted %} muted=""{% endif %}
+ playsinline=""
+ preload="{{ media_item.preload }}"
+>
+{{ media_item.attachments_by_role }}
+{% for attachment in media_item.attachments_by_role_identifier.video %}
+  {% media_item_url universal_media_item.id attachment.file.url|basename as file_url %}
+  <source src="{{ file_url }}" type="video/{{ attachment.file.url|split_ext|cut:'.' }}"/>
+{% endfor %}
+</video>
+

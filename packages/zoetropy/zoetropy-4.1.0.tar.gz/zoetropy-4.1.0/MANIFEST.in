@@ -1,0 +1,6 @@
+include src/zoetropy/static/zoetropy/js/*
+
+include src/zoetropy/templates/zoetropy/*
+include src/zoetropy/templates/zoetropy/tags/*
+
+recursive-exclude * .DS_Store *.pyc
