@@ -1,0 +1,30 @@
+graft pynrm
+graft pynrm/tests
+
+include LICENSE
+include README.md
+include CONTRIBUTING.md
+
+include .bumpversion.cfg
+include pyproject.toml
+include Makefile
+include *.yaml
+
+prune .vscode
+prune .github
+exclude .gitignore
+exclude .gitattributes
+
+recursive-include docs *.bat
+recursive-include docs *.rst
+recursive-include docs *.py
+recursive-include docs Makefile
+
+# Patterns to exclude from any directory
+global-exclude *~
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude *.png
+global-exclude .git
+global-exclude .ipynb_checkpoints
+global-exclude .DS_Store
