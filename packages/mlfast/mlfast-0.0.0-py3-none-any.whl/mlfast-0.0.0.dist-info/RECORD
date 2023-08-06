@@ -1,0 +1,10 @@
+mlfast/Classification.py,sha256=jqeMnIJH66ADyd3-3Y4pMW_20-R4mYWeQH-Y0CEe87k,2968
+mlfast/Regression.py,sha256=Jwd0qHOolPIEG25YkiPCB34ghFthmRA4zKuNcPKVqfQ,3072
+mlfast/__init__.py,sha256=IKbekWJpp3VmqnhvL65N-_pW6dEGfoqGR2YGlPlqm0A,89
+mlfast/custom_exception.py,sha256=kXQJuUPtkNyIDGmSHjm3uXdeKcMZcjOwdaknKLWh8ag,168
+mlfast/logger.py,sha256=yNkZyTJcougaoDilrPJEkrMx8QM7h85SXzfCj8Uer4U,436
+mlfast-0.0.0.dist-info/LICENSE,sha256=3fTQHb-zI2TX4j0B9gYxM0Ri0E2K8ZvXyfp2HzjBwts,1069
+mlfast-0.0.0.dist-info/METADATA,sha256=pLk4BtLKQTIpbHiUvtapQ_CRxwPTbdkIOg5E-iTdH-I,895
+mlfast-0.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+mlfast-0.0.0.dist-info/top_level.txt,sha256=Jri-qi3w89ir_akmenI1QWNdtgImr34ZS3enntvoe7s,7
+mlfast-0.0.0.dist-info/RECORD,,
