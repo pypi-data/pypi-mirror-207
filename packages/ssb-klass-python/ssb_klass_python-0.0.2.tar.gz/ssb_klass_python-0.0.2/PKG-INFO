@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: ssb-klass-python
+Version: 0.0.2
+Summary: A Python package built on top of KLASS's API for retrieving classifications, codes, correspondances etc.
+License: MIT
+Author: Carl Corneil
+Author-email: cfc@ssb.no
+Requires-Python: >=3.10,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: dapla-toolbelt (>=1.3.2,<2.0.0)
+Requires-Dist: ipywidgets (>=8.0.6,<9.0.0)
+Requires-Dist: pandas (>=2.0.1,<3.0.0)
+Requires-Dist: python-dateutil (>=2.8.2,<3.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Description-Content-Type: text/markdown
+
+# ssb-klass-python
+
+A Python package built on top of KLASS's API for retrieving classifications, codes, correspondances etc.
+
+
+## Example usage
+
+```python
+from klass import KlassClassification as KC # Import the class for KlassClassifications
+nus = KC(36)  # Use ID for classification
+codes = nus.get_codes() # codes from current date
+print(codes)
+codes.data  # Pandas dataframe available
+
+```
+
+```python
+from klass import get_classification # Import the utility-function
+nus = get_classification(36)
+
+```
+
+
+## Technical notes
+Documentation for the [endpoints we are using can be found on Statistics Norways pages.](https://data.ssb.no/api/klass/v1/api-guide.html)
+
+Technical architecture of the API we are interacting with is detailed in [Statistics Norway's internal wiki](https://wiki.ssb.no/display/KP/Teknisk+arkitektur#Tekniskarkitektur-GSIM).
+
+
+---
+
