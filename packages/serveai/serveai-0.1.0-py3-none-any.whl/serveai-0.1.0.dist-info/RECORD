@@ -1,0 +1,10 @@
+serveai/app.py,sha256=xhNQONTc6n2mVD0_E3GVyfEYcViNnGEx8LprrTVeAic,535
+serveai/cli.py,sha256=fP3DpHye3dKm-gd3HikFkWuI_q42gt4_G6P3Bw7KPgY,2167
+serveai/config.py,sha256=tH3pkJ9JEQ_hfS-dvfI7F0sYK7plhr-Za48TJkX82fY,477
+serveai/database.py,sha256=eLcx2JJyegWGRe5-jKWuXgyOAt8T8UpMpPTB4ZwFQBw,3111
+serveai/functions.py,sha256=i6zquc__33hQl7Y-7BqpvchYoPYfpLDKjAuq36JsSeg,195
+serveai/middlewares.py,sha256=GNOAWtVcvQI4TX_MCcj7Ri68oWFdDVMzQb-w4vwzO8o,3754
+serveai/routes.py,sha256=lgJbopdS23KDaxVXrWJ5gumXKkjS_7ZyLvwnCyyfubU,3545
+serveai-0.1.0.dist-info/METADATA,sha256=V3q8cjJVRwJ7CLuiAk0FsgoV7joHBiYmBHixSQCkQ1k,560
+serveai-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+serveai-0.1.0.dist-info/RECORD,,
