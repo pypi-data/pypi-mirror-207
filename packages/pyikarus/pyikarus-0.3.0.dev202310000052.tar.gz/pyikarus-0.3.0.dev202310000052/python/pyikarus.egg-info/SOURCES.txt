@@ -1,0 +1,16 @@
+LICENSE.md
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+python/pyikarus/__init__.py
+python/pyikarus/dirichletValues.py
+python/pyikarus/materials.py
+python/pyikarus.egg-info/PKG-INFO
+python/pyikarus.egg-info/SOURCES.txt
+python/pyikarus.egg-info/dependency_links.txt
+python/pyikarus.egg-info/requires.txt
+python/pyikarus.egg-info/top_level.txt
+python/pyikarus/assembler/__init__.py
+python/pyikarus/finite_elements/__init__.py
+python/pyikarus/utils/__init__.py
