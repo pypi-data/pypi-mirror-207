@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/BunkerSync.py
+src/Deletion_Filter.py
+src/Sync_Filter.py
+src/Sync_Pool.py
+src/Synchronizer.py
+src/utils.py
+src/BunkerSync.egg-info/PKG-INFO
+src/BunkerSync.egg-info/SOURCES.txt
+src/BunkerSync.egg-info/dependency_links.txt
+src/BunkerSync.egg-info/entry_points.txt
+src/BunkerSync.egg-info/top_level.txt
