@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: garaprod
+Version: 0.1683614389.0
+Summary: GaraSTEM Production Library
+Home-page: https://github.com/curlyz/garaprod
+Download-URL: https://pypi.org/project/garaprod/
+Author: Curly Nguyen
+Author-email: curly.saigonese@gmail.com
+License: MIT
+Keywords: GaraSTEM,GRobot
+Requires-Dist: termcolor
+Requires-Dist: requests
+Requires-Dist: umsgpack
+Requires-Dist: colorama
+Requires-Dist: esptool
+
