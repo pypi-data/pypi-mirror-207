@@ -1,0 +1,8 @@
+database_test.py
+setup.py
+vector_marketdata.egg-info/PKG-INFO
+vector_marketdata.egg-info/SOURCES.txt
+vector_marketdata.egg-info/dependency_links.txt
+vector_marketdata.egg-info/entry_points.txt
+vector_marketdata.egg-info/requires.txt
+vector_marketdata.egg-info/top_level.txt
