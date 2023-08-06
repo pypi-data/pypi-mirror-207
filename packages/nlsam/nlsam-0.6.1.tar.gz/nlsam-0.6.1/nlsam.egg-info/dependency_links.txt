@@ -1,0 +1,1 @@
+https://github.com/samuelstjean/spams-python/releases/download/0.1/spams-2.6.zip#egg=spams-2.6
