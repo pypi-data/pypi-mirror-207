@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pyjourney
+Version: 0.1.0
+Summary: Python module for interacting with the MidJourney API
+Home-page: https://github.com/agentd00nut/pyjourney
+License: MIT
+Keywords: journey,midjourney,api,python
+Author: agentd00nut
+Author-email: agentd00nut@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: requests (>=2.30.0,<3.0.0)
+Project-URL: Repository, https://github.com/agentd00nut/pyjourney
+Description-Content-Type: text/markdown
+
+# PyJourney
+
+A python module for calling the Midjourney API.
+
+## Installation
+
+```bash
+pip install pyjourney
+```
+
+## Usage
+
+```python
+from pyjourney import MidjourneyAPI
+
+
+api = MidjourneyAPI()        #Loads your cookie and userId from the .env file  (required for now.)
+request = api.recent_jobs()  # Defaults to fetching the most recent 35 jobs you've done.
+print(request.status_code)
+```
+
