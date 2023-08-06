@@ -1,0 +1,11 @@
+a <- 1
+b <- 1
+c <- 2
+FOR count <- 0 TO 4
+    OUTPUT a
+    a <- b + c
+    OUTPUT b
+    b <- c + a
+    OUTPUT c
+    c <- a + b
+ENDWHILE
