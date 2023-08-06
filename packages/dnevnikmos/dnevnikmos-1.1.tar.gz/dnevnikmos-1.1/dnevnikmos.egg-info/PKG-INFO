@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: dnevnikmos
+Version: 1.1
+Summary: Library for automated work with dnevnik.mos.ru
+Home-page: https://github.com/CyberBars1k/dnevnikmos/
+Author: Boiko Arseniy
+Author-email: ars254642@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
