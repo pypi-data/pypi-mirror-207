@@ -1,0 +1,7 @@
+hpo3-0.2.4.dist-info/METADATA,sha256=MzVcXdIwFtBq6C8MjlWUIEqeAAPO9MCIMmC-iPQYAUw,14904
+hpo3-0.2.4.dist-info/WHEEL,sha256=wlsRJyzPfnZR68KOQR9Dpa5v5x0Dvv3nHRUfdWDbdzg,129
+pyhpo/__init__.py,sha256=Ih-kXb9nqlzdv-EAstzl6zw0ZbGPjtzUs16WxUr-sdk,103
+pyhpo/__init__.pyi,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyhpo/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyhpo/pyhpo.cpython-312-s390x-linux-gnu.so,sha256=_0umjYLIcteaX82aA2VvTMwWHLJLq37tG_3nHi8I7b0,12114840
+hpo3-0.2.4.dist-info/RECORD,,
