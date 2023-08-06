@@ -1,0 +1,12 @@
+duckdbt/api.py,sha256=Y7SpDe4xxkqGzvPuQMvVzSulGZ90c0-C_foI2iLti_0,1248
+duckdbt/extensions.py,sha256=VgwhzhzCvXUWPo0Y4EXFoN5Xg-hpxdUaDYDU8dNPF2Y,1736
+duckdbt/ipython.py,sha256=zUHpfed6f2QPVZJB7U2iCKL8T1tgIcrg23yMpi7xPf0,696
+duckdbt/load_db_profile.py,sha256=HwVqzErpsIK5uDzYuQoiq_z7jpqXOi4Nzb7rSSvkPFw,1388
+duckdbt/server.py,sha256=X3yDT3B1ZS5AaR5C2eycpP-AsUCUaX8Q0_FzhxhAr4w,1884
+duckdbt/static/dashboard.css,sha256=fVsKoNZmu3InGja0AUdUr-ed08-x7bbZbY1RU1AmWJw,1246
+duckdbt/static/favicon.ico,sha256=LKRuMy6Y1484Q0rTcjdg2vaTMgtlEIXhSsVhym9auUA,1406
+duckdbt/templates/index.html,sha256=E7_R5Y5DtM6C4AyZKjTKO0RCaHZSI7-6JGaKYsIRJDI,5332
+duckdbt-0.3.0.dist-info/METADATA,sha256=vuAV2NBq6mJLQ2O8Z7rjKvKgrzOaClJYzsuAwrvppAA,480
+duckdbt-0.3.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+duckdbt-0.3.0.dist-info/top_level.txt,sha256=02QzdrGItOEVShMxrLf7t4CRxO38C8yfFXUufiDM0Aw,8
+duckdbt-0.3.0.dist-info/RECORD,,
