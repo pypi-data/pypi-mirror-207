@@ -1,0 +1,2 @@
+[console_scripts]
+tcflow = scripts.tcflow:tc_main
