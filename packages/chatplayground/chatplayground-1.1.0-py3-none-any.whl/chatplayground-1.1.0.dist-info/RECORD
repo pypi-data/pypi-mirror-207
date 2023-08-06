@@ -1,0 +1,13 @@
+chatplayground/.gitignore,sha256=BAlUNUK4mRnHP43cI_8Fm__cDWogN3xeANLJ-qq7apM,17
+chatplayground/__init__.py,sha256=b6-WiVk0Li5MaV2rBnHYl104TsouINojSWKqHDas0js,22
+chatplayground/app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chatplayground/app/app.py,sha256=0Va4KuDgMX28td-t63aa_YUkPvLRnkgF1Uv9V9gZ7EY,108083
+chatplayground/assets/favicon.ico,sha256=rYQSlE5VycwUmzceMxFAhqkF71VsKWAYshFSXG7kWO8,15406
+chatplayground/assets/react-json-view-lite.css,sha256=lYAJ0j-sT5Vl6CtMImp9mR-mhKF6cHmZIRrp3FkxGlY,1281
+chatplayground/message_threads/faust_in_oxford_1683330128.209918.json,sha256=J1njVms6Us7Df4iayag4qQ8D6ny5n3kAlW_A5T13Ud0,178190
+chatplayground/pcconfig.py,sha256=JSZXX4Cj4AdfX1mPkSLoTyjtLCFPGNR2Eq9YddnN1v4,846
+chatplayground-1.1.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+chatplayground-1.1.0.dist-info/METADATA,sha256=tMbWNz0Z8A6KeaMzC-x9FpSfuiMVEct8ipk6RnKlm_A,6838
+chatplayground-1.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+chatplayground-1.1.0.dist-info/entry_points.txt,sha256=0X25RMknQzPybED7v7WpPPYlTb5FAslckEC1tSPXTYo,63
+chatplayground-1.1.0.dist-info/RECORD,,
