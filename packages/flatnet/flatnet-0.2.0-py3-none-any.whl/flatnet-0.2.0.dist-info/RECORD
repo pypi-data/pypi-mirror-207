@@ -1,0 +1,8 @@
+flatnet/__init__.py,sha256=gLfuPytHN-PKHtD7Mq3GeRvCylwYVRo3ebVFTjk2xkc,24
+flatnet/train.py,sha256=NkI7zpcVetNgjn_AnlxZ9lEwO5IHGJ-caHUQLSHNdIY,16415
+flatnet/modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flatnet/modules/flatnet_nn.py,sha256=9v6FN_1OPC-L4Pi_DYMvslzuPed4tI9gSCVAH7rauH0,3564
+flatnet-0.2.0.dist-info/METADATA,sha256=5o3HI2DVDCBDI1nzbkW6R-a3sqsXKcyEEJLJO7ivTk4,5995
+flatnet-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+flatnet-0.2.0.dist-info/top_level.txt,sha256=q8LQotvwc0J62LrJhzdmQ9VjHqnbxxzh8Wrfoshev7E,8
+flatnet-0.2.0.dist-info/RECORD,,
