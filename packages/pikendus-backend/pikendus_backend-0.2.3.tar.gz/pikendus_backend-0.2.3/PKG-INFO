@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pikendus-backend
+Version: 0.2.3
+Summary: A PEP517 compliant build backend, able to compile C and fortran source files
+Author-Email: Yann de Thé <yann@johncloud.fr>
+Project-URL: Bug tracker, https://gitlab.com/ydethe/pikendus-backend/issues
+Project-URL: Homepage, https://gitlab.com/ydethe/pikendus-backend
+Project-URL: Source, https://gitlab.com/ydethe/pikendus-backend
+Project-URL: Documentation, https://ydethe.gitlab.io/-/pikendus-backend/-/jobs/4267041254/artifacts/htmldoc/index.html
+Requires-Python: >3.8
+Requires-Dist: rich>=13.3
+Requires-Dist: setuptools-scm>=7.1
+Requires-Dist: pdm-backend>=2.0.6
+Requires-Dist: wheel>=0.40.0
+Requires-Dist: numpy>=1.24.3
+Requires-Dist: toml>=0.10.2
+Requires-Dist: networkx>=3.1
+Requires-Dist: PyYAML>=6.0
