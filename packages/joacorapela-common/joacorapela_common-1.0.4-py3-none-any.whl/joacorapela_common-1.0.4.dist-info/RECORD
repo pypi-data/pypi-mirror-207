@@ -1,0 +1,9 @@
+joacorapela_common/__init__.py,sha256=daEdpEyAJIa8b2VkCqSKcw8PaExcB6Qro80XNes_sHA,2
+joacorapela_common/utils/__init__.py,sha256=daEdpEyAJIa8b2VkCqSKcw8PaExcB6Qro80XNes_sHA,2
+joacorapela_common/utils/geometry.py,sha256=gKCJXtNEahyNOLDlLuKISndGfJte2fD4DV7ZBwQXKxk,1755
+joacorapela_common/utils/numerical_methods.py,sha256=V2ADYBUMWoYps50lSWChSD5k8f_quqqU6HBHrN4ZUCY,104
+joacorapela_common/utils/probability.py,sha256=J1LTaYjhySPnajyj3_aG-JmkA9rrMCKJsWlbTfxewuc,1430
+joacorapela_common-1.0.4.dist-info/METADATA,sha256=aBn588gmrM2tVTg3ZTr6iQN55cwJVf9h__34JC_Yr8Q,566
+joacorapela_common-1.0.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+joacorapela_common-1.0.4.dist-info/top_level.txt,sha256=QOi7cQ-Ufd_z-LvyImCrvCK-VsEsHvr4VnwUHK1ui-I,19
+joacorapela_common-1.0.4.dist-info/RECORD,,
