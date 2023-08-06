@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+version.py
+omero_user_token/__init__.py
+omero_user_token/version.py
+omero_user_token.egg-info/PKG-INFO
+omero_user_token.egg-info/SOURCES.txt
+omero_user_token.egg-info/dependency_links.txt
+omero_user_token.egg-info/entry_points.txt
+omero_user_token.egg-info/requires.txt
+omero_user_token.egg-info/top_level.txt
+omero_user_token.egg-info/zip-safe
+omero_user_token/cli/__init__.py
+omero_user_token/cli/omero_user_token.py
