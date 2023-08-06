@@ -1,0 +1,10 @@
+Sandra/__init__.py,sha256=K2fZtIuhswyGkIZb4MZgfp-zBwyRL5xtpotAats19eg,133
+Sandra/helpers.py,sha256=W3Di30oWEESvu7jlwA0aL1yveXJc4p2qiwL3XQrtkZg,1340
+Sandra/performance.py,sha256=SzWGaAywhH9yk0P64hrg2ioJtz4l_GaahpyIrcvvbGw,2971
+Sandra/sandra.py,sha256=sbjEgKCbPTJgwaZVcdupftqJXl5TWqqJU8ca33RRTgI,8543
+Sandra/troy.py,sha256=hm3YpKpcHk1THht3rmC6dnEVoaXWeqbngqRq24COxII,2949
+Sandra-0.0.18.dist-info/LICENSE,sha256=uNQo4dmUSppBLkog_2QbQ-MB4zcm_M30gXOxyBxQTeI,1080
+Sandra-0.0.18.dist-info/METADATA,sha256=JbxdxG73OYXArjxthVQi5Kanyh9OjdRTiTA1iort0X4,4720
+Sandra-0.0.18.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Sandra-0.0.18.dist-info/top_level.txt,sha256=pjeIDGxZaP4IG5oyYbi2cNhC7pO6PClEFZKv5T_nsRU,7
+Sandra-0.0.18.dist-info/RECORD,,
