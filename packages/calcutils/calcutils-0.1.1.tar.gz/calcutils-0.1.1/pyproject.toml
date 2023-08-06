@@ -1,0 +1,18 @@
+[project]
+name = "calcutils"
+version = "0.1.1"
+authors = [
+  { name="Lahani_Allen", email="lahani_Allen@utc.com" },
+]
+description = "A small calcu package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/calcu_utils/calcu_utils"
+"Bug Tracker" = "https://github.com/calcu_utils/calcu_utils/issues"
