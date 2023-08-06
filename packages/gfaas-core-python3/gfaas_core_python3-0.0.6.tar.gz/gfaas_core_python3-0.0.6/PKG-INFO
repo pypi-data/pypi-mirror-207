@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: gfaas_core_python3
+Version: 0.0.6
+Summary: gFaaS package for Python3
+Author-email: Paul Wieland <paul.wieland@tum.de>
+Project-URL: Homepage, https://github.com/Function-Delivery-Network/FaaS-Shim
+Project-URL: Function Templates , https://github.com/paul-wie/gfaas-templates
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Build the package
+
+The build files are located in <code>./dist</code>.
+
+```
+python3 -m build
+```
+
+# Upload the package to [PyPi](https://test.pypi.org/account/login/?next=%2Fmanage%2Faccount%2F)
+
+```
+python3 -m pip install --upgrade twine
+```
+```
+python3 -m twine upload --repository pypi dist/*
+```
+Use ```__token__``` as username and token with ```pypi-``` prefix.
+
+# Install the package
+
+```
+pip install gfaas_core_python3
+```

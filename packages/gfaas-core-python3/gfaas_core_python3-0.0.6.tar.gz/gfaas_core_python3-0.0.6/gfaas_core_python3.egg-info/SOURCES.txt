@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+gfaas_core_python3/xfunction.py
+gfaas_core_python3/xrunner.py
+gfaas_core_python3.egg-info/PKG-INFO
+gfaas_core_python3.egg-info/SOURCES.txt
+gfaas_core_python3.egg-info/dependency_links.txt
+gfaas_core_python3.egg-info/top_level.txt
+gfaas_core_python3/adapter/__init__.py
+gfaas_core_python3/adapter/gfaas_entry.py
