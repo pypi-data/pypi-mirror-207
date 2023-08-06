@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: imacs_wcs
+Version: 0.0.5
+Summary: Library for determining and writing wcs information for IMACS images.
+Home-page: https://github.com/TrystanScottLambert
+Author: Trystan Scott Lambert
+Author-email: trystanscottlambert@gmail.com
+License: MIT
+Download-URL: https://github.com/TrystanScottLambert/imacs_wcs/archive/refs/tags/v0.0.5.tar.gz
+Description: UNKNOWN
+Keywords: astronomy,wcs,imacs
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
