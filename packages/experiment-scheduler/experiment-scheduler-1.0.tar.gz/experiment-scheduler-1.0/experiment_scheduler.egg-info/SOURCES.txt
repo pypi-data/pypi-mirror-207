@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+experiment_scheduler.egg-info/PKG-INFO
+experiment_scheduler.egg-info/SOURCES.txt
+experiment_scheduler.egg-info/dependency_links.txt
+experiment_scheduler.egg-info/entry_points.txt
+experiment_scheduler.egg-info/requires.txt
+experiment_scheduler.egg-info/top_level.txt

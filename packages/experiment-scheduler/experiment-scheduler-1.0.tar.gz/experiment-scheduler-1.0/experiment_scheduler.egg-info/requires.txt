@@ -1,0 +1,11 @@
+pre-commit
+grpcio
+pytest
+pytest-mock
+pynvml
+protobuf
+psutil
+pyfiglet
+grpcio-tools==1.53.0
+sqlalchemy==2.0.7
+sqlalchemy-utils==0.40.0
