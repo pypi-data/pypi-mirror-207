@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+chipi/__init__.py
+chipi.egg-info/PKG-INFO
+chipi.egg-info/SOURCES.txt
+chipi.egg-info/dependency_links.txt
+chipi.egg-info/top_level.txt
+test/test.py
