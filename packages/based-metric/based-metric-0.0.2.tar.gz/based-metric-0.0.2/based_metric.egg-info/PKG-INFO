@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: based-metric
+Version: 0.0.2
+Summary: BASED metric for deblurring assesement
+Home-page: 
+Author: Nick Alutis
+Author-email: 
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9

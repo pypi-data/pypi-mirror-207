@@ -1,0 +1,13 @@
+numpy
+lpips
+torchsummary
+opencv-contrib-python
+opencv-python
+pandas
+scikit-image
+scikit-learn
+matplotlib
+seaborn
+scipy
+pathos
+tqdm
