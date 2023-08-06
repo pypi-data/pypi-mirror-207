@@ -1,0 +1,12 @@
+ix_aims/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ix_aims/cli.py,sha256=_LaTkQLI5zU3BS7JmdyuSSYYB2bsgnPtC4IoyzpHhYk,606
+ix_aims/imgs/__init__.py,sha256=zWHD_NDTkm4zN4dsCdXia2z_lXh88rvDuhH5AlBztDk,240
+ix_aims/imgs/ellipsBtn.png,sha256=5h6xxE14oH-E-txqqrQ8MlfkYI2PVic-gWAGmSh5vJ0,335
+ix_aims/imgs/plusTab.png,sha256=1jJhhMITyjADrgFLhf3mRxfKv8ciyecOBlm5gUpuPNM,322
+ix_aims/imgs/processesBtn.png,sha256=0PRa72VGqgruhf9qpTVvIrCH9B_l0VxO6Lo0h8CfZgQ,3615
+ix_aims/imgs/yesBtn.png,sha256=f40zMdg2AJkedW0biQXEs-bNATfaW6WdVKijattHaSo,2201
+ix_aims/lib.py,sha256=flSBMOimRj0tUF45FAWCnE-ElzDXI2O1yMmNpSLCaMU,3635
+ix_aims-0.1.4.dist-info/entry_points.txt,sha256=X_LwGHqgYFbdjPicBQ0j0uJxRh8ehQp3dPaYxXxh594,43
+ix_aims-0.1.4.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+ix_aims-0.1.4.dist-info/METADATA,sha256=PfaIijhUYDrVPx4Tfu4UB9jn0YpUUvKeOPFQMLluMKE,757
+ix_aims-0.1.4.dist-info/RECORD,,
