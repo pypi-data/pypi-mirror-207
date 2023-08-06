@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pycanha-core
+Version: 0.0.2
+Summary: Python bindings for pycanha-coree
+Project-URL: Homepage, https://github.com/pycanha-project/pycanha-core-python
+Project-URL: Bug Tracker, https://github.com/pycanha-project/pycanha-core-python/issues
+Author-email: Javier Piqueras Carreño <javier.piqueras@upm.es>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# pycanha-core-python
+Python bindings for pycanha-core
