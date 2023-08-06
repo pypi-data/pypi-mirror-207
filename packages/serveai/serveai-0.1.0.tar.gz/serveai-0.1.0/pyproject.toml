@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "serveai"
+version = "0.1.0"
+description = "A backend server for AI APIs with user management"
+authors = ["BaksiLi <myself@baksili.codes>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flask = "^2.3.2"
+requests = "^2.30.0"
+flask-sqlalchemy = "^3.0.3"
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.12.0"
+yapf = "^0.33.0"
+openai = "^0.27.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
