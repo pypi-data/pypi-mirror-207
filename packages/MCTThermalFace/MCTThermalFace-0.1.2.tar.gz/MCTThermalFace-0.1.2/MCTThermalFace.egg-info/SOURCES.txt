@@ -1,0 +1,6 @@
+setup.py
+MCTThermalFace.egg-info/PKG-INFO
+MCTThermalFace.egg-info/SOURCES.txt
+MCTThermalFace.egg-info/dependency_links.txt
+MCTThermalFace.egg-info/requires.txt
+MCTThermalFace.egg-info/top_level.txt
