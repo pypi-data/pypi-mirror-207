@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+setup.cfg
+pylint_tensorflow/__init__.py
+pylint_tensorflow.egg-info/PKG-INFO
+pylint_tensorflow.egg-info/SOURCES.txt
+pylint_tensorflow.egg-info/dependency_links.txt
+pylint_tensorflow.egg-info/requires.txt
+pylint_tensorflow.egg-info/top_level.txt

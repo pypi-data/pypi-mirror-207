@@ -1,0 +1,4 @@
+astroid
+
+[testutils]
+gitpython>3
