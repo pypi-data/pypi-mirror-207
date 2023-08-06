@@ -1,0 +1,14 @@
+[tool.pytest.ini_options]
+addopts       = [
+    "--import-mode=importlib",
+]
+pythonpath    = [
+    "src",
+]
+markers = [
+    "functional"
+]
+
+[build-system]
+requires      = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
