@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Pyxela
+Version: 0.0.0
+Summary: A project that interacts with the Pyxe.la API
+Project-URL: Homepage, https://github.com/Pynosaur/pyxela
+Project-URL: Bug Tracker, https://github.com/Pynosaur/pyxela/issues
+Author-email: "Shim'n D. Ioannis" <sdegli@proton.me>, Mauboro <mauboro@protonmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Pyxela
+Pixe.la client Python package 
