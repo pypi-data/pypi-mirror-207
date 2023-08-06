@@ -1,0 +1,16 @@
+inference_client/__init__.py,sha256=eM4Hx1SHe3tjIF4hj1qcVNUB6ar8ToT8Yeg5B2AEbTQ,101
+inference_client/__version__.py,sha256=aRCGLyY1O6kDvyMrFaGkS5g6fdgGIDhuYGdpJgBTA3s,373
+inference_client/base.py,sha256=ML0D-KY67fwVKjFRg42JjJs4wz_pQtVWujiaaaVhtKM,499
+inference_client/client.py,sha256=PULh-ReqkBV_40vl1V6w0OvTQmWdCet8uN2ra6a0D3c,991
+inference_client/config.py,sha256=hHpMDLcgtNlrF0M0Y1L6xZ7Yqb1xFNsW54EHSjGXne4,719
+inference_client/helper.py,sha256=fGWnjhHdv6pVf9LZcuy73PGSvxUWkIrEvOpZ8knUy38,3191
+inference_client/logging.py,sha256=yY__bghOkoUBUgbGk7FYMtyRoG8CJAKu8fOI7p5NgCs,250
+inference_client/tasks/caption.py,sha256=4JW1MS8gNFpUyCOxiloDSgUk40gyMwQPe6syNpHP5fk,3522
+inference_client/tasks/encode.py,sha256=woUYksI_xh3lPUwQR35GFEA16gT8IzYRZopMcOkDUFE,5819
+inference_client/tasks/helper.py,sha256=Bx6V1A05xjLZJSSgN-JVQwlB5zhlIZ98Z5cn-DTGgI8,2378
+inference_client/tasks/rank.py,sha256=XCIjbKiCfKrA0Y9hGR8nWPqZDr47c2_whMkuqLU5Y5E,6127
+inference_client/tasks/vqa.py,sha256=aembZ2cm3OPvr-2But5Byz0p8QRW769TF-xSj6a6N1I,3904
+inference_client-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+inference_client-0.0.3.dist-info/METADATA,sha256=2d4WA56dwBJ-uQlwg1Z2BA9ueDMWXEdvBeFTfr1pULE,19556
+inference_client-0.0.3.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+inference_client-0.0.3.dist-info/RECORD,,
