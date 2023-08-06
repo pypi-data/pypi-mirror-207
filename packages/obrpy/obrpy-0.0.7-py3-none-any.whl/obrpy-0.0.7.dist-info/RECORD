@@ -1,0 +1,14 @@
+obrpy/PathSelector.py,sha256=uoU7cn1ZT_XIiXFKtd1iKJblh67xcjsJ6FTqplk6dBY,1341
+obrpy/__init__.py,sha256=HnrevGh-BCSPReJLY4U5m8b7nCosiur50DBwVj7OcvQ,5304
+obrpy/funciones.py,sha256=dJTgxQt5MjBGxr3gtgEBGfHz31IY4zr6balCMdAfy2M,56
+obrpy/load.py,sha256=dTETUKvClPPzZfkt757WnFcG4gYsCNOIwZSZ2uWYEnc,2022
+obrpy/obr.py,sha256=rCXcMt2I0_E2gfESlcm4kxRjbAgtSQ5r-r1oumlQpEQ,8391
+obrpy/obrsdk.py,sha256=h0kLX7b24mGBCFgnqRiBeddP2bZEA0SjCwq4Va3JLPw,2123
+obrpy/save.py,sha256=mLeJ8BHdwSAm_j6rgQ3dvWIzzVM9HVsm7lrDHVkdYDE,2663
+obrpy/settings.py,sha256=pvakuncV7ukf2G-BnTGaJLbrLI8BMq1JdtchAF2ITqg,3729
+obrpy/take_a_look.py,sha256=zIoAsQYNF4m_9Ft2z9q96su2ZyRYzifOF-SrP-l3tMk,3425
+obrpy/update.py,sha256=lFllQ0VMvCgUX8Gbb2KIIDVn2SgCxbOZASmmDHRkZl0,1930
+obrpy-0.0.7.dist-info/METADATA,sha256=SzP1_nH3PLwfWTixKxWXGYwgZ0WgXmC1h_GRFNTD958,307
+obrpy-0.0.7.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+obrpy-0.0.7.dist-info/top_level.txt,sha256=v5DZkKrzBcikDVHwQ-5LClJrcKUknDKcH5kBQbjEvdk,6
+obrpy-0.0.7.dist-info/RECORD,,
