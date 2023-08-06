@@ -1,0 +1,8 @@
+flask
+flask-sqlalchemy
+flask-restx
+loguru
+python-dotenv
+flask_alembic
+validate_docbr
+flask-jwt-extended

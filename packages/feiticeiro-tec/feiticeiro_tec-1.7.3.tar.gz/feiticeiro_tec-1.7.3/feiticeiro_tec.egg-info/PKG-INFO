@@ -1,0 +1,137 @@
+Metadata-Version: 2.1
+Name: feiticeiro-tec
+Version: 1.7.3
+Summary: Extenção flask para aumento de agilidade no processo de criação de projeto.
+Home-page: https://github.com/feiticeiro-tec/feiticeiro-tec
+Author: Silvio Henrique Cruz Da Silva
+Author-email: silviohenriquecruzdasilva@gmail.com
+License: BSD3
+Keywords: Pacote
+Description-Content-Type: text/markdown
+
+# Ola meu nome é Silvio Henrique
+
+Boas-vindas ao meu mundo, no meu repositório principal,
+esse o repositório do meu módulo de gerador passivo Flask,
+o objetivo é automatizar alguns processos, e gerir melhor os meus projetos
+como, por exemplo, um padrão de arquitetura, que seja fácil de implementar
+novos recursos sem muitos esforços.
+
+# Sobre
+![vercel-readme](https://github-readme-stats.vercel.app/api?username=feiticeiro-tec&theme=dracula)
+
+Python é a minha queridinha e js está de suport.   
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Js](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![SqLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+
+Quando se trata de flask, eu sou a pessoa certa.  
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+
+Nada melhor que grandes ferramentas para facilitar a vida, não é mesmo ?  
+![RabbitMQ](https://img.shields.io/badge/rabbitmq-%23FF6600.svg?&style=for-the-badge&logo=rabbitmq&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+
+Contato  
+[![](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5584999005830?text=Ola%2C+te+vi+no+github.)
+
+# Portal Sistema
+> http://localhost:5000/portal/permissions/
+![Portal Sistema](https://user-images.githubusercontent.com/53744463/236730297-da8d499b-8edb-4e38-9760-5582283d675d.png)
+
+# Como usar a lib desse respositorio ?
+Crie o seu projeto python como deseja, venv, virtualenv or devcontainer
+em seguida siga as instruções
+> Instalação do repositorio
+```bash
+pip install feiticeiro-tec
+```
+
+> Criação da estrutura do servidor
+```bash
+python -m feiticeiro_tec create_server
+```
+```
+server
+├── __init__.py
+├── api
+│   ├── __init__.py
+│   └── v1
+│       ├── __init__.py
+|       ├── permissions
+|       |   ├── __init__.py
+|       |   ├── forms.py
+|       |   └── serializers.py
+|       |
+│       └── usuarios
+│           ├── __init__.py
+|           ├── forms.py
+|           └── serializers.py
+|
+└── database
+    ├── __init__.py
+    └── models
+        ├── __init__.py
+        ├── usuario.py
+        ├── permission.py
+        └── base.py
+```
+> Crie o banco
+```bash
+flask create_db
+```
+
+> Criando permissoes de rotas
+```bash
+flask create_permissions
+```
+> Esse comando deve ser executado toda vez que ouver uma alteracao nas rotas
+
+
+
+
+
+
+> Criando um novo endpoint/namespace
+```bash
+python -m feiticeiro_tec create_namespace
+Qual a Versão? v1
+Qual o Nome Do NameSpace? empresas
+Deseja Criar o Model? (S/n) [enter]
+Qual o Nome Do Model? empresa
+```
+```
+server
+├── __init__.py
+├── api
+│   ├── __init__.py
+│   └── v1
+│       ├── __init__.py
+|       ├── permissions
+│       |   ├── __init__.py
+|       |   ├── forms.py
+|       |   └── serializers.py
+|       |
+│       ├── usuarios
+│       |   ├── __init__.py
+|       |   ├── forms.py
+|       |   └── serializers.py
+|       |
+|       └── empresas
+|           └── __init__.py
+|
+└── database
+    ├── __init__.py
+    └── models
+        ├── __init__.py
+        ├── usuario.py
+        ├── permission.py
+        ├── base.py
+        └── empresa.py
+```
