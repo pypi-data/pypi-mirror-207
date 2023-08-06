@@ -1,0 +1,12 @@
+nwebclient/__init__.py,sha256=K9Tpf5UJeCaBq6pczpncHNqzyMSTPPYA9PxwmwP93sM,6457
+nwebclient/__main__.py,sha256=e1vKU9FQ9dFOSeB0GhnP8jxg183bihrT87Lq1TLDhrI,2584
+nwebclient/crypt.py,sha256=aJU-VHFi12FVU7Xop7rxPHRUDoqk4h7hDbyKe1PNhC0,3316
+nwebclient/sd.py,sha256=G7KC4iWSfPwsT15qh0KD1oMIwXrTgTE4Xxn50rmKGME,13279
+nwebclient/sdb.py,sha256=Zh4U0efeOo3sKsXcRy3paj_xY_tcn3JpmeCbCPuof34,6100
+nwebclient/ticker.py,sha256=1OmBUo5DArPvDRMHFe2FUPdxaJwsv4m59dM3YO6NYCM,4114
+nwebclient-1.0.92.dist-info/LICENSE,sha256=iHACckj_MvncI0OeRMm4p6Ys2dR1bOdS4zfSLXM56ZQ,1060
+nwebclient-1.0.92.dist-info/METADATA,sha256=b2oKJ3GQBXFkp6puEO1sp2VjkPvrlj9ARznCKBETCD4,1159
+nwebclient-1.0.92.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+nwebclient-1.0.92.dist-info/entry_points.txt,sha256=8mYAsAPGyO6EOum2IVuzHco_2529woK2G_W69CL3Tsg,120
+nwebclient-1.0.92.dist-info/top_level.txt,sha256=b1THmIuzXmSSCrttonQpkHH41RvQJSwxLKeJfbG44xQ,11
+nwebclient-1.0.92.dist-info/RECORD,,
