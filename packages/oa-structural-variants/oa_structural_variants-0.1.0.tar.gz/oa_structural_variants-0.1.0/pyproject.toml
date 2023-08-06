@@ -1,0 +1,90 @@
+[tool.black]
+line-length = 120
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+
+[tool.ruff]
+line-length = 120
+
+# Enable following rules (see this section : https://github.com/charliermarsh/ruff#supported-rules)
+select = ["E", "F", "I", "N", "C", "T"]
+ignore = []
+
+# Exclude a variety of commonly ignored directories.
+exclude = [
+    "examples.py",
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".hg",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+]
+
+fix = true # Always autofix
+
+# Allow unused variables when underscore-prefixed.
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+# Assume Python 3.11.
+target-version = "py311"
+
+[tool.ruff.mccabe]
+# Unlike Flake8, default to a complexity level of 10.
+max-complexity = 10
+
+[tool.ruff.per-file-ignores]
+"__init__.py" = ["F401"]
+
+
+
+[tool.poetry]
+name = "oa_structural_variants"
+version = "0.1.0"
+description = ""
+authors = ["Benoitdw <bw@oncodna.com>"]
+readme = "README.md"
+packages = [{include = "oa_structural_variants"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+dnautils = "^0.1.0"
+polars = "^0.16.18"
+gtfparse = "^2.0.1"
+pandas = "^2.0.0"
+dacite = "^1.8.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest-cov = "^4.0.0"
+ruff = "^0.0.260"
+pre-commit = "^3.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
