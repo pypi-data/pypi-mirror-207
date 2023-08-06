@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: mkdocs-exporter
+Version: 0.0.1
+Summary: Lorem ipsum dolor sit amet...
+Home-page: https://github.com/adrienbrignon/mkdocs-exporter
+Keywords: mkdocs,pdf,exporter
+Author: Adrien Brignon
+Author-email: adrien@brignon.dev
+Requires-Python: >=3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Documentation
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Requires-Dist: beautifulsoup4 (>=4.12.2)
+Requires-Dist: libsass (>=0.22.0)
+Requires-Dist: lxml (>=4.9)
+Requires-Dist: mkdocs (>=1.4)
+Requires-Dist: playwright (>=1.33)
+Requires-Dist: weasyprint (>=50.0)
+Project-URL: Bug Tracker, https://github.com/adrienbrignon/mkdocs-exporter/issues
+Project-URL: Repository, https://github.com/adrienbrignon/mkdocs-exporter
+Description-Content-Type: text/markdown
+
+# MkDocs Exporter
+
+A highly-configurable plugin for [*MkDocs*](https://github.com/mkdocs/mkdocs) that exports your pages to PDF files.
+
