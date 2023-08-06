@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: solidityscan
+Version: 0.1.0
+Summary: Get your smart contracts audited by a smarter tool
+Home-page: https://solidityscan.com
+Description-Content-Type: text/markdown
+Requires-Dist: anyio (==3.6.2)
+Requires-Dist: beautifulsoup4 (==4.12.2)
+Requires-Dist: certifi (==2023.5.7)
+Requires-Dist: chardet (==5.1.0)
+Requires-Dist: charset-normalizer (==2.1.1)
+Requires-Dist: click (==8.1.3)
+Requires-Dist: deep-translator (==1.10.1)
+Requires-Dist: h11 (==0.14.0)
+Requires-Dist: h2 (==4.1.0)
+Requires-Dist: hpack (==4.0.0)
+Requires-Dist: hstspreload (==2023.1.1)
+Requires-Dist: httpcore (==0.17.0)
+Requires-Dist: httpx (==0.24.0)
+Requires-Dist: hyperframe (==6.0.1)
+Requires-Dist: idna (==3.4)
+Requires-Dist: loguru (==0.7.0)
+Requires-Dist: requests (==2.30.0)
+Requires-Dist: rfc3986 (==2.0.0)
+Requires-Dist: ruamel.yaml (==0.17.26)
+Requires-Dist: ruamel.yaml.clib (==0.2.7)
+Requires-Dist: sniffio (==1.3.0)
+Requires-Dist: soupsieve (==2.4.1)
+Requires-Dist: urllib3 (==1.25.4)
+
+## solscan
+
+## Installation
+`pip install solscan`
+> todo: add platform dependent binary sources
+
+## Commands
+
+### `config`
+  1. `add-update-config`
+      a. --token (token for authentication)
+      b. --error-language (language for the error messages)
+  2. `show-config-path`
+      > show path of config file
+  
+### `scan`
+  1. `--scan-type=<scan_type>`
+      > supported scan_types = "project" or "block"
+      
+      - `project` scan_type required parameters
+        - -project-url
+        - -project-branch
+        - -project-name
+				- -skip-file-paths
+				- -rescan
+      - `block` scan_type required parameters
+        - -contract-address
+        - -contract-platform
+        - -contract-chain
+
+## Error Codes
+1. 000x - Errors raised by the server
+2. 100x - Errors raised by the SDK
