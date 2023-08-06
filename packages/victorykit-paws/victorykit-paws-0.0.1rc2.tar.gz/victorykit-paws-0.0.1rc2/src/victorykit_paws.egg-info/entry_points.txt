@@ -1,0 +1,2 @@
+[console_scripts]
+paws = paws.__main__:main
