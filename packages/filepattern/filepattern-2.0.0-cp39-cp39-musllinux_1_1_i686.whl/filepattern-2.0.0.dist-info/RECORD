@@ -1,0 +1,12 @@
+filepattern-2.0.0.dist-info/METADATA,sha256=MrKU8NxN2gEEjp5ExBbmCuFDNxKTFQ6w1upxtR6x88o,16808
+filepattern-2.0.0.dist-info/top_level.txt,sha256=fCy9CXm8Dd8ovEp9aVEgsTpnjgD0GOnqUs-fuFnStYM,32
+filepattern-2.0.0.dist-info/RECORD,,
+filepattern-2.0.0.dist-info/WHEEL,sha256=RUlL-_fOiLH-t2rrPZDFYtpfK6Vhs4a6bfN4K0dX3_A,109
+filepattern-2.0.0.dist-info/LICENSE,sha256=aaXu23RLKNjIAuRO3Ne467nfI1cDfvUAfZDBA646f6A,1065
+filepattern.libs/libgcc_s-8b50eaaa.so.1,sha256=WXj_FYQE1MDIyb-nN8siUALdxit6NHma0p9UxemQV8o,101649
+filepattern.libs/libstdc++-8baf04f9.so.6.0.28,sha256=yrzOxg1heyJ9Y-43YCLLn04Cpl_A68FN0D2Q1iBTMcY,2428961
+filepattern/filepattern.py,sha256=TWr0oNfdV3YLHneUNnn6zmZZFrHp5TEVU92lA3bbBSE,16593
+filepattern/functions.py,sha256=FYg4mb-oemxy66LOkqnh3_IdHRXeDLel3Sj32nirRWw,2883
+filepattern/__init__.py,sha256=_7V8RhTUqS4QQza4cOYknyxauUcomlZlv-khgJmmSc4,243
+filepattern/backend.cpython-39-i386-linux-gnu.so,sha256=zt2XTw9SqXjg3paBbbwqaifMgubuiqR6USABKEvDkzk,687189
+filepattern/_version.py,sha256=GCUODotyjrYIbmzzCkr0EVLgOZTVP3snYPvvC9-CRns,497
