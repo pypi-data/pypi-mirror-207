@@ -1,0 +1,13 @@
+vChatGPT/__init__.py,sha256=gQtI1nqSbJjydSmprrLE_Uu33iC9dU7ez0kK_HrbPLE,317
+vChatGPT/__main__.py,sha256=eXJzivatxViHbazwIBbwBDEhMTLxTKJsFmkdjOIWGjE,1181
+vChatGPT/data/buzzer.wav,sha256=bOuJryCYq9_L0MrOTYDhikDT6JtvjxQLjdyuEpDjT6k,186756
+vChatGPT/scripts/__init__.py,sha256=4PTHQat1hSvdZexu6IHFt_VSvFbLsM-odnY_ty3eGT8,119
+vChatGPT/scripts/audio.py,sha256=0rQm0mRW1UcI3sq6IqYFqFn2BPebKB458VRIRcFBi4g,4371
+vChatGPT/scripts/main.py,sha256=eXJzivatxViHbazwIBbwBDEhMTLxTKJsFmkdjOIWGjE,1181
+vChatGPT/scripts/ml.py,sha256=ThF5jzHU2Ny-FhdSV8MqWvq_o9IdsR09aqHBrEqEZtY,3565
+vChatGPT/scripts/utils.py,sha256=LTFx9XRk1MtMqY8gblY_-Ye__cjRIMAJ_0qIPoFurTY,448
+vChatGPT-1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+vChatGPT-1.1.dist-info/METADATA,sha256=amh52OP1eQYyOA5IO8iAOSvaOUxwS4hkObzgtwbhFto,1033
+vChatGPT-1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+vChatGPT-1.1.dist-info/top_level.txt,sha256=EpDDZnvi2kEB4CEWpQBYBxwXerwYuZDkJd68KCYXmzs,9
+vChatGPT-1.1.dist-info/RECORD,,
