@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: stein-tools
+Version: 0.0.1
+Summary: A package with a bundle of functions for serveral projects
+Project-URL: Homepage, https://github.com/stein5/stein-tools
+Project-URL: Bug Tracker, https://github.com/stein5/stein-tools/issues
+Author-email: Jae Bong Seok <stien5@outlook.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# stein-tools
+A package with a bundle of functions for serveral projects
