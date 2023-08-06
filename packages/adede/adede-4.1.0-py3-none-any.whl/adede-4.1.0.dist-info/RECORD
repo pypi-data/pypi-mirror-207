@@ -1,0 +1,12 @@
+adede/__init__.py,sha256=hTmKmDq-m-d0rJEH1s2SLpuL_3NJiapUWnZiXMFHIVs,45
+adede/apps.py,sha256=Z2UibYTy60TShbsLAfF9xs-cL4vesAcCXJQayp17mLw,817
+adede/static/adede/css/adede.css,sha256=kEB4gYpINfzS21Sqeq8AGw6APZVyFvqqH5v7B7B3y4I,1543
+adede/static/adede/js/adede.js,sha256=FelEJ3RBL1RohDoO5BzSYA3KOWcqEBRHhwpgK402KVQ,156017
+adede/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+adede/templatetags/adede_tags.py,sha256=EijGKXFDqIoOHYfmDDZzcMZpywnMp_wTbkvTbmWpIjI,702
+adede-4.1.0.dist-info/AUTHORS.txt,sha256=964o0V0C4P8MLuinu4syjuy_nyHnpNnxD_YsFeFJ1XM,19
+adede-4.1.0.dist-info/LICENSE.txt,sha256=NweSuHwd8SQNUs3BTbbG8_n89lPrXG0pc38voODAHcw,1525
+adede-4.1.0.dist-info/METADATA,sha256=OedUnL4fYPSkVuWI1udJ6kz1Pr5cCRzjG7fiDwa5Mf8,1348
+adede-4.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+adede-4.1.0.dist-info/top_level.txt,sha256=Xpa0LVYjfUZ2SeknArDI7ozlUVA0FZ3PV5X2QI_4ObI,6
+adede-4.1.0.dist-info/RECORD,,
