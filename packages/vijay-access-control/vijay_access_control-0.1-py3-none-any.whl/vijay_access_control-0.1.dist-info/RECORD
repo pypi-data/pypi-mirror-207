@@ -1,0 +1,6 @@
+access_control/__init__.py,sha256=1cNZykZj8tkhH2mK_Xn-dPuFdcgEGs9OB2Eizt1o4_4,106
+access_control/s3_access_control_plugin.py,sha256=IGXQJEldNXfwXpo3L6ymXcG81ExZzqvYNV3WqOmE-f4,1210
+vijay_access_control-0.1.dist-info/METADATA,sha256=tEey4F-0XgYj80CzCIsLArvYV3IHhf8UlYLDUY6bXzQ,98
+vijay_access_control-0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+vijay_access_control-0.1.dist-info/top_level.txt,sha256=Ydmx4mMJO0arjcPAL3zqz9yMQjF69QogVQtoQJEeOok,15
+vijay_access_control-0.1.dist-info/RECORD,,
