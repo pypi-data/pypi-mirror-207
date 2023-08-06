@@ -1,0 +1,3 @@
+yolov7-package
+requests
+tqdm
