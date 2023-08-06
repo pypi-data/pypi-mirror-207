@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+dynamiqs/foo.py
+dynamiqs.egg-info/PKG-INFO
+dynamiqs.egg-info/SOURCES.txt
+dynamiqs.egg-info/dependency_links.txt
+dynamiqs.egg-info/top_level.txt
