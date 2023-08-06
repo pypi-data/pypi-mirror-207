@@ -1,0 +1,6 @@
+pyproject.toml
+src/packagepaths/__init__.py
+src/packagepaths.egg-info/PKG-INFO
+src/packagepaths.egg-info/SOURCES.txt
+src/packagepaths.egg-info/dependency_links.txt
+src/packagepaths.egg-info/top_level.txt
