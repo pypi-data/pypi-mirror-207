@@ -1,0 +1,7 @@
+databend-0.1.2.dist-info/METADATA,sha256=Bzcetokgl6wuNjHIqSH5hnScrr3Tq7xUX3cYwzQMMoY,550
+databend-0.1.2.dist-info/WHEEL,sha256=P9Nj6LKCGFOzCnwU_56vM42vdNzYRh7-N3Pc8wtM97U,108
+databend.libs/liblzma-75337709.so.5,sha256=vJlw984_d4kRQqlvk6j8zj2fzDC4xv6_JLkxMdcrJTg,213561
+databend.libs/libbz2-c1f89286.so.1.0,sha256=oIRA2GmjKn-cpxbuayhKmXqeeo7P9jhZBbw9b_NOPLU,79273
+databend/__init__.py,sha256=pAwtemDbMCIpRCsAulrSAzE8fkB8NTkl3-p9-LPwPow,115
+databend/databend.abi3.so,sha256=21F8BeKumxKs9Kd4wBoiYPf9A6UeiXNlkrYg55fJ7P0,92203049
+databend-0.1.2.dist-info/RECORD,,

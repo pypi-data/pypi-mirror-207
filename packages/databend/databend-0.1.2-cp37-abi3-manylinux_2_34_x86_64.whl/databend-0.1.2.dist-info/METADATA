@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: databend
+Version: 0.1.2
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Author: Databend Authors <opensource@datafuselabs.com>
+Author-email: Databend Authors <opensource@datafuselabs.com>
+License: Apache-2.0
+Requires-Python: >=3.7
+Project-URL: Documentation, https://databend.rs
+Project-URL: Homepage, https://databend.rs
+Project-URL: Repository, https://github.com/datafuselabs/databend
