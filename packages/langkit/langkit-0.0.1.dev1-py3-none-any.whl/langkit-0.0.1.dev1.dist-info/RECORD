@@ -1,0 +1,14 @@
+langkit/__init__.py,sha256=eGt1_hUVhRKlmMloqCn8O_e-JYl20cUUZZDupA_oHQM,244
+langkit/examples/LLM_to_WhyLabs.ipynb,sha256=PWXCB9zA4f3AeA9zyNNVSNPTIRrN86YWHXWSm2hdkS4,267008
+langkit/examples/Logging_Text.ipynb,sha256=5p0wMM71VvJWDBfNBpef-uzzDjbyIe1rsVHp5um-u-g,1680
+langkit/exclusions.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+langkit/input_output.py,sha256=A7JKAjIwAwBCIF7Ynf-pin8xADUwq1ZxlSVwSXl0LKU,1097
+langkit/pattern_groups.json,sha256=Tv7R8Cv6OxpwIoZA03ZVUD09511SgpGTpMjGnZu9U9Y,1051
+langkit/regexes.py,sha256=o02kAE8UGXhfiogd8Dk_QF4uhQzNL9_5GhCzmSpmNIw,2403
+langkit/sentiment.py,sha256=mhFVB30Nhxg75cJtrRQUkqHnuifvbha_GLDltxr1mOI,488
+langkit/tests/test_patterns.py,sha256=ZUcX24TkdPvKbB_qLTPKAM55cp8faDGL9behO9R64B8,2072
+langkit/textstat.py,sha256=UXKItmtUoc7XWXXvR_VGJWr6KGj-AT7qNRbtssy-vsw,2404
+langkit-0.0.1.dev1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+langkit-0.0.1.dev1.dist-info/METADATA,sha256=Pu1HxFUanErLT8Ogma6tbrVsoN7u9Rf9EzEtu0eLttE,2880
+langkit-0.0.1.dev1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+langkit-0.0.1.dev1.dist-info/RECORD,,
