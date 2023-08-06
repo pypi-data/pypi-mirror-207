@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/Macos_Cleaner_free.egg-info/PKG-INFO
+src/Macos_Cleaner_free.egg-info/SOURCES.txt
+src/Macos_Cleaner_free.egg-info/dependency_links.txt
+src/Macos_Cleaner_free.egg-info/requires.txt
+src/Macos_Cleaner_free.egg-info/top_level.txt
