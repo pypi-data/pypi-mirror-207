@@ -1,0 +1,16 @@
+fullcalendar_component/__init__.py,sha256=ekOgnBT2f1QUkgFO72AYdDr2mh6t4XhzB4OlHvpOZiY,2936
+fullcalendar_component/frontend/build/asset-manifest.json,sha256=qTdPud_UzefzHJvA3kX6ASiayrh-RBvRMgThilo9iao,691
+fullcalendar_component/frontend/build/bootstrap.min.css,sha256=hTwg6axJ8dAPmGVJmYTrsQS3JhKWA0skJ-td54UbEOk,197459
+fullcalendar_component/frontend/build/index.html,sha256=AILV9RvMTQrShpG9DJqrdDXAKNFmxwcA9y7q8BLnh0Q,2101
+fullcalendar_component/frontend/build/static/js/2.5fd6143f.chunk.js,sha256=8qQ_cYFm9VRGV8VMRrRyCwldCd68NNssp_WVA4jW50Q,820177
+fullcalendar_component/frontend/build/static/js/2.5fd6143f.chunk.js.LICENSE.txt,sha256=U-rixf_U-lz9wSjug54jcjRLFVvLB5v3kpESrA6R-5w,2059
+fullcalendar_component/frontend/build/static/js/2.5fd6143f.chunk.js.map,sha256=Urv3FXjjZR4GzZFNMp787nmosQuR7WjdP7zdo-bDFyM,3093686
+fullcalendar_component/frontend/build/static/js/main.3ec89947.chunk.js,sha256=x61pHAjpKO3_0Htu4zHLU8_cL5NvlOntBOHIlACG-Ds,1098
+fullcalendar_component/frontend/build/static/js/main.3ec89947.chunk.js.map,sha256=qRszqBc9jkjHZDdwKwE7WC8_gLzWfuAvjKV014nEPEg,3453
+fullcalendar_component/frontend/build/static/js/runtime-main.ccbf7c91.js,sha256=H96kmNLmPlI36nFi6pFlKdGxjyHKQgNhLY6K-frRJvQ,1598
+fullcalendar_component/frontend/build/static/js/runtime-main.ccbf7c91.js.map,sha256=1egKItwLwo6jGjQUgH_RyOhWtyrwd-fMsETARt_pPUg,8383
+Streamlit_Fullcalendar_Component-0.0.1.dist-info/LICENSE,sha256=9VDWIUfeWnnobvVpN2KtC5cHaNpAmxhdjyF4LivEPNw,1063
+Streamlit_Fullcalendar_Component-0.0.1.dist-info/METADATA,sha256=sPO3R7R8XgaA5nZvdrB0JrR0iiiMf_9NK7ehLnLW8PU,347
+Streamlit_Fullcalendar_Component-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+Streamlit_Fullcalendar_Component-0.0.1.dist-info/top_level.txt,sha256=ZMVCSZaq3CHVdTk0BVR4-WB1nv6hVEJ_LhoHqZFRVvA,23
+Streamlit_Fullcalendar_Component-0.0.1.dist-info/RECORD,,
