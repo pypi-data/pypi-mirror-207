@@ -1,0 +1,9 @@
+numpy
+napari
+matplotlib
+magicgui
+pandas
+scikit-learn
+pandera
+xxhash
+hypothesis
