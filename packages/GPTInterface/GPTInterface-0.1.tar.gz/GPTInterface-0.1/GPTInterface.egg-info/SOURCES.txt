@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+GPTInterface.egg-info/PKG-INFO
+GPTInterface.egg-info/SOURCES.txt
+GPTInterface.egg-info/dependency_links.txt
+GPTInterface.egg-info/requires.txt
+GPTInterface.egg-info/top_level.txt
+gptinterface/SimpleQuery.py
+gptinterface/__init__.py
+tests/__init__.py

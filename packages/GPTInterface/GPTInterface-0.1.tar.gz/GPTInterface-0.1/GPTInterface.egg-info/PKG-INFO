@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: GPTInterface
+Version: 0.1
+Summary: A simple interface to OpenAI's GPT-3 API.
+Home-page: https://github.com/MouseAndKeyboard/GPTInterface
+Author: Michael Nefiodovas
+Author-email: michael@nef.net.au
+License: LICENSE.txt
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
