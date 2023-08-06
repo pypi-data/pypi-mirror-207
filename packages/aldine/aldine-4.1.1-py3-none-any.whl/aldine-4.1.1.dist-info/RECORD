@@ -1,0 +1,17 @@
+aldine/__dynamic_blocks_placeholder.py,sha256=ClyvfkTxPBuxjgwSr3BS0vd-rR4BsxDQC0al7KTBu7M,721
+aldine/__init__.py,sha256=wXqejQs6YjJZF4PR7KyVHuIXdLrHifBVhCzq23G4VPw,140
+aldine/apps.py,sha256=guMP5a9m4zkx5MdiTWPMe27HiG0ADRv3gx7KCKMbEL8,508
+aldine/auxiliaries.py,sha256=bAJWopQxMgw53HImLa2H0XlV_U5IsfiztUhT6WIruK4,3957
+aldine/blocks.py,sha256=E30rz7DyD-qHP-vYVdVgSopAEvN5Aupem5Peh-G1BHg,1486
+aldine/cells.py,sha256=JKJl7vNx-9Tj0B2wNYs028dhhsKIFZrSKH-CwgPE7l0,9621
+aldine/images.py,sha256=iRG35-RqwIEH-u3dmLXRDgIGWaKrXbQub_wDSTNXFUk,3633
+aldine/render.py,sha256=qbKhlIJ9I85m2R-MpFuVLH6lqLpdgdBZpFyu0j4QLnY,3799
+aldine/static/aldine/css/aldine.css,sha256=oi6anjYVn2M7WdFc6xhuX0NeHGqNjVxAWoettpMu-gM,373
+aldine/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aldine/templatetags/aldine_tags.py,sha256=oRHHEHEYp9-ICH3KfCmAkrY772LP7dUtLWa8eaKywGg,3220
+aldine-4.1.1.dist-info/AUTHORS.txt,sha256=964o0V0C4P8MLuinu4syjuy_nyHnpNnxD_YsFeFJ1XM,19
+aldine-4.1.1.dist-info/LICENSE.txt,sha256=NweSuHwd8SQNUs3BTbbG8_n89lPrXG0pc38voODAHcw,1525
+aldine-4.1.1.dist-info/METADATA,sha256=PFE3oIp1uMV9HGto5RzQNWTlBESEEzm8y1YnxICJm8o,1372
+aldine-4.1.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+aldine-4.1.1.dist-info/top_level.txt,sha256=D7WGnLzw_6S_ftlJrH8hLLwiBp1pyrN6OkMhClWwyU8,7
+aldine-4.1.1.dist-info/RECORD,,
