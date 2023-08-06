@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/typename/__init__.py
+src/typename.egg-info/PKG-INFO
+src/typename.egg-info/SOURCES.txt
+src/typename.egg-info/dependency_links.txt
+src/typename.egg-info/requires.txt
+src/typename.egg-info/top_level.txt
+src/typename.egg-info/zip-safe
+tests/test_typename.py

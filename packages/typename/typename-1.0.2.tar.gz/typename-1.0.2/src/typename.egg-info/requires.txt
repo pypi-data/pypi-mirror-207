@@ -1,0 +1,8 @@
+
+[dev]
+bumpversion
+build
+twine
+
+[test]
+pytest
