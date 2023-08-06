@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: sumake
+Version: 0.0.2
+Summary: A generic makefile for projects.
+Home-page: https://github.com/SuCicada/sumake
+Author: SuCicada
+Author-email: pengyifu@gmail.com
+
+# sumake
+
+make install
+
+pip install . 
