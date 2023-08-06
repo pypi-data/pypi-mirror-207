@@ -1,0 +1,15 @@
+dash_molstar/MolstarViewer.py,sha256=Ysw7SgalQWUonuIRgoBirGc-jImneQ7k_O40EinRLR4,1986
+dash_molstar/__init__.py,sha256=fkREoeXvNGZ22mCyWm4pEWX30_0PUAJl4Rg28F0BdEs,2373
+dash_molstar/_imports_.py,sha256=vRr8-BLKAxJmhBtHBxKu3F_d6glYwiUJRmMrW9KjhTg,75
+dash_molstar/dash_molstar.min.js,sha256=RLLnkWGl5ChXgFftIsn-hDRiIOcUgt6krag16Kt7MH4,82526
+dash_molstar/dash_molstar.min.js.map,sha256=wcKZc8IG9Loz_XpKhdf7_UqI8cm4RhtuZkEXWWH1iX8,96
+dash_molstar/metadata.json,sha256=y7kUH0zfgcvfGjETYTvEGuqskgV36c0g0AcuqI4U2t8,3523
+dash_molstar/package-info.json,sha256=t6kUOAHPpyTCFh6wnG3ZEXHhfoicpMQnuPCXoWjH3Fw,2077
+dash_molstar/rcsb-molstar.js,sha256=gJAGNOD-ZPdJohk9YCvKDXMGpK0mMQCGjK-qheRcDZM,5791504
+dash_molstar/utils/__init__.py,sha256=-447FWSQ9lcVQbz7hHTyLa49J6cC08c1UzJBBraZRhA,28
+dash_molstar/utils/molstar_helper.py,sha256=1xFSZAh6WD7Mh1zLxscwXn6tTKVVUjHiioWT7gQhEWM,6526
+dash_molstar-1.0.1.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+dash_molstar-1.0.1.dist-info/METADATA,sha256=0NAxhicwCHq3wD2iJ1UX_Qd0PDQ6F_G25V-utrfmUV4,224
+dash_molstar-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dash_molstar-1.0.1.dist-info/top_level.txt,sha256=XuzV5y31JcG8f5pNeYsW3r5lcfJ5I6r-o4gPAEJr4f4,13
+dash_molstar-1.0.1.dist-info/RECORD,,
