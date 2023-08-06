@@ -1,0 +1,11 @@
+dreamai
+dreamai_dl
+flair
+pdfplumber
+scikit_learn
+setuptools
+transformers
+txtai
+yellowbrick
+
+[dev]
