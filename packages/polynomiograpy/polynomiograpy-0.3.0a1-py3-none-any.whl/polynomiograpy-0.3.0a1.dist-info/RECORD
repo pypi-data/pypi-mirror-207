@@ -1,0 +1,14 @@
+polynomiograpy/__init__.py,sha256=ebACU0jmXm9_Iypw5DccNPVcsWBaCQVt2i9CDZSWShs,414
+polynomiograpy/cli/__init__.py,sha256=N7plsxXChW1YHGC1mJLr7c6zcLg42vOVqloukaQt2fg,4797
+polynomiograpy/common/finite_field.py,sha256=TsFx8_5xi88XKsYSQE0vUP-Mu_SDfAsdKOluP2YAH28,970
+polynomiograpy/common/polynomial.py,sha256=jN28jUDsr_MWMSNCOwOuhVrSoqzNf0ObHxm_mi9qCEY,1458
+polynomiograpy/iterations/__init__.py,sha256=3dhHAQern2sij6hwvA8zF31FqMhwYzIvWuEpYR30z5Q,2302
+polynomiograpy/iterations/helpers.py,sha256=RVuG-ZGlbflIfx-wWWFk--aUm1yUkjtuXocQ8xu9KZg,1266
+polynomiograpy/iterations/methods.py,sha256=OV5PHdqhMufkTQDb__sDA_KVJiDyfdIBaZ9sBrJUzQk,3146
+polynomiograpy/roots/__init__.py,sha256=eyqm8RGbFEbWr-bMoz6ooo_PJGilrfhSgg_G0RvLKUs,915
+polynomiograpy/roots/helpers.py,sha256=F92tbLOBj9HMujeOhgIJMb2wnnPWQDaIseuWUQNKUCc,931
+polynomiograpy-0.3.0a1.dist-info/LICENSE,sha256=EUoSfzRNf5YV5Bnhj0ULi_yLZjBJ8msuX6aTZuSSKI4,1070
+polynomiograpy-0.3.0a1.dist-info/METADATA,sha256=WGaCyAM7qFcVWZDSbVU2Xsj-awG_FmdWmNqS1jglbjI,838
+polynomiograpy-0.3.0a1.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+polynomiograpy-0.3.0a1.dist-info/entry_points.txt,sha256=K6IFiehOWSD6vgFwWKlIkwMUbwyvRnjruaa76bHsY_c,61
+polynomiograpy-0.3.0a1.dist-info/RECORD,,
