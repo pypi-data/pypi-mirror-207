@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+.adede-size_change_detector {
+    opacity: 0.0;
+    visibility: hidden;
+}
+
+.adede-size_change_detector,
+.adede-size_change_detector > div {
+    display: block;
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+    overflow: hidden;
+    content: "";
+    z-index: -100;
+}
+
+.adede-size_change_detector > div {
+    background-color: gold;
+    overflow: auto;
+}
+
+
+.adede-hud_visible {
+    opacity: 1.0;
+    visibility: visible;
+}
+
+.adede-hud_hidden {
+    opacity: 0.0;
+    visibility: hidden;
+    transition: all 1s ease-out;
+}
+
+.adede-stack
+{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.adede-stack_layer
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}

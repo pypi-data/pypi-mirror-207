@@ -1,0 +1,40 @@
+{% load static wagtailcore_tags media_catalogue_tags %}
+
+{% media_item_url universal_media_item.id 'object_streams.bin' as paraview_ajax_url %}
+
+<div class="stack render_view full_width"
+     {% if container_style %}
+     style="{{ container_style }}"
+     {% endif %}
+     data-initiator-create="threedee.ui_components.RenderFigure"
+     data-renderview-loader="threedee.paraview.ParaviewLoader"
+     {% if media_item.use_device_pixels %}data-use-device-pixels{% endif %}
+     data-paraview-metadata='{{ media_item.metadata_json }}'
+     data-paraview-ajax-url="{{ paraview_ajax_url }}"
+     data-paraview-stream-size="{{ media_item.stream_size }}"
+     {% if media_item.override_orientation %}data-paraview-override-orientation{% endif %}
+     data-paraview-rotation="{{ media_item.rotation }}"
+     data-paraview-elevation="{{ media_item.elevation }}"
+     data-paraview-vector-layout="{{ media_item.vector_layout }}"
+     {% if media_item.override_up_vector %}data-paraview-override-up-vector{% endif %}
+     data-paraview-up-vector="{{ media_item.up_vector }}"
+     {% if media_item.flip_normals %}data-paraview-flip-normals{% endif %}
+     data-paraview-zoom-factor="{{ media_item.zoom_factor }}"
+     data-tool-create="threedee.tools.OrbitTool">
+
+  <div class="stack_layer render_view_placeholder"></div>
+
+  <canvas class="stack_layer" data-canvas-role="content" data-canvas-type="webgl"></canvas>
+  <canvas class="stack_layer" data-canvas-role="tool-overlay-2d" data-canvas-type="2d"></canvas>
+
+  <div class="stack_layer hud">
+    <div style="position: relative; margin: 8pt;">
+      <div style="display: flex; flex-direction: row; justify-content: flex-end;">
+          <button class="hud_element hud-button icon-enter-fullscreen" type="button" data-initiator-create="adede.ui_components.FullscreenButtonControl" data-action="adede.actions.RequestFullscreenElementAction" data-action-identifier="requestFullscreenElement"></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="stack_layer render_view_progress"><div class="render_view_progress_fill"></div></div>
+</div>
+
