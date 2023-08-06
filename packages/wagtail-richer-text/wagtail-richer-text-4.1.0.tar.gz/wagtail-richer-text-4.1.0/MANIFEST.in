@@ -1,0 +1,10 @@
+include src/wagtail_richer_text/static/wagtail_richer_text/js/*
+include src/wagtail_richer_text/static/wagtail_richer_text/css/*
+
+include src/wagtail_richer_text/templates/wagtail_richer_text/*
+include src/wagtail_richer_text/templates/wagtail_richer_text/widgets/*
+
+
+recursive-exclude * .DS_Store *.pyc
+
+

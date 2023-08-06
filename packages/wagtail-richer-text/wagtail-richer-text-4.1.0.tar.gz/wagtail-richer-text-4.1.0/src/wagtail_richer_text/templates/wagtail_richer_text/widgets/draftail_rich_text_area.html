@@ -1,0 +1,50 @@
+{% include 'django/forms/widgets/hidden.html' %}
+
+<script>
+
+    (function() {
+        const id = "{{ widget.attrs.id|escapejs }}";
+        const options = {{ widget.options_json|safe }};
+
+        if( window.draftailHelpers ) {
+            options["controls"] = window.draftailHelpers.resolveDraftailControls ? window.draftailHelpers.resolveDraftailControls(options["controls"]) : options["controls"];
+            options["plugins"] = window.draftailHelpers.resolveDraftailPlugins ? window.draftailHelpers.resolveDraftailPlugins(options["plugins"]) : options["plugins"];
+        }
+
+        const atomicBlockStylePlugin = {
+
+            blockStyleFn: (contentBlock, { getEditorState }) => {
+
+                if( contentBlock.type == "atomic" ) {
+
+                    const entityKey = contentBlock.getEntityAt(0);
+
+                    const editorState = getEditorState();
+                    const contentState = editorState.getCurrentContent();
+                    const entity = contentState.getEntity(entityKey);
+                    const entityType = entity.getType();
+
+                    return entityType;
+                }
+
+                return null;
+            },
+
+        };
+
+        var plugins = options["plugins"];
+
+        if( !plugins ) {
+            plugins = [];
+        }
+
+        plugins.push(atomicBlockStylePlugin);
+        options["plugins"] = plugins;
+
+        window.draftail.initEditor('#'+id, options, document.currentScript);
+
+        //var editorInputElement = document.getElementById(id);
+        //var draftailEditor = editorInputElement.draftailEditor;
+    })();
+
+</script>
