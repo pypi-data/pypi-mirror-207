@@ -1,0 +1,17 @@
+LICENCE
+README.rst
+setup.py
+TEDEouS.egg-info/PKG-INFO
+TEDEouS.egg-info/SOURCES.txt
+TEDEouS.egg-info/dependency_links.txt
+TEDEouS.egg-info/top_level.txt
+tedeous/__init__.py
+tedeous/cache.py
+tedeous/config.py
+tedeous/derivative.py
+tedeous/device.py
+tedeous/finite_diffs.py
+tedeous/input_preprocessing.py
+tedeous/metrics.py
+tedeous/points_type.py
+tedeous/solver.py
