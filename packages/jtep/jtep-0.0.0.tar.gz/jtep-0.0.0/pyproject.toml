@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jtep"
+authors = [
+    {name = "Stefan Siegel", email = "ssiegel@sdas.net"},
+]
+description = "Command line Jinja template processor"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "GPL-3.0-or-later"}
+classifiers=[
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Text Processing :: General",
+    "Topic :: Utilities",
+]
+dependencies = [
+    "click",
+    # "click-option-group",
+    "jinja2",
+    "pyyaml",
+    "tabulate",
+    "toml",
+    "xmltodict",
+]
+dynamic = ["version"]
+
+[project.scripts]
+jtep = "jtep.cli:main"

@@ -1,0 +1,2 @@
+[console_scripts]
+jtep = jtep.cli:main
