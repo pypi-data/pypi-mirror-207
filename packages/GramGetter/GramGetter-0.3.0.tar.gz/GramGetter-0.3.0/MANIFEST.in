@@ -1,0 +1,11 @@
+include GramGetter/AUTHORS.md
+include GramGetter/CODE_OF_CONDUCT.md
+include GramGetter/deploy
+include GramGetter/docs
+include GramGetter/LICENSE
+include GramGetter/Pipfile
+include GramGetter/Pipfile.lock
+include GramGetter/README.rst
+include GramGetter/setup.py
+include GramGetter/test
+include GramGetter/test.ipynb
