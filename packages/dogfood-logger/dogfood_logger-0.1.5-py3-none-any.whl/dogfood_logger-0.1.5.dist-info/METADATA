@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: dogfood-logger
+Version: 0.1.5
+Summary: 
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pip-tools (>=6.13.0,<7.0.0)
+Requires-Dist: setuptools (>=67.7.2,<68.0.0)
+Requires-Dist: twine (>=4.0.2,<5.0.0)
+Description-Content-Type: text/markdown
+
+python-package-example
+
+This is a minimal python package, for use alongside the lesson: https://github.com/BillMills/pythonPackageLesson
+
+Contributing:
+
+Please do! Guidelines:
+
+ - This lesson is for beginners. Yes there are plenty of super fancy things we don't cover here; someday, we'll make a different, super fancy lesson to teach those things.
+ - Max 100 lines per PR please.
+ - Open an issue or empty PR first to talk about controversial changes.
+
