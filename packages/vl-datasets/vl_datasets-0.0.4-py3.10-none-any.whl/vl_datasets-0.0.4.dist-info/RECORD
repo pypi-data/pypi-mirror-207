@@ -1,0 +1,8 @@
+vl_datasets/__init__.py,sha256=3YNWRwbganjHPETk1RaRNcammXDvcTehqmpGlYzlFtc,99
+vl_datasets/food101.py,sha256=TZF_VUPC2-jTYd5pQ7NAiH-i4fIPB-fpqypiV79QQjE,3127
+vl_datasets/image_folder.py,sha256=qjhkPSbGeK5pcYL7t1md5b4RDUPUuo5MrCdtt0LrNYQ,2352
+vl_datasets-0.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+vl_datasets-0.0.4.dist-info/METADATA,sha256=ONQM_t7UKbH1Gu3H7XM_AA5jrMnrpBWZbjqlPG8PDyM,15277
+vl_datasets-0.0.4.dist-info/WHEEL,sha256=sDo1RHoRbOKW_keHfVgBTGDy3nSCmjUI9raiUkhzHcQ,109
+vl_datasets-0.0.4.dist-info/top_level.txt,sha256=XbUC34rGj0OLHbugO4YnVobn0t02Nc-NM3F4pwV-j8g,12
+vl_datasets-0.0.4.dist-info/RECORD,,
