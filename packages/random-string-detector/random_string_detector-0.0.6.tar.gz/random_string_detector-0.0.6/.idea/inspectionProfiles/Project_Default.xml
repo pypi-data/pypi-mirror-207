@@ -1,0 +1,16 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="datetime.date.today" />
+          <option value="hat.checks.lookup.token_checks.main" />
+          <option value="hat.main.models.ComponentLookup.*" />
+          <option value="hat.main.models.TokenLookup.*" />
+          <option value="hat.main.models.NttFile.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
