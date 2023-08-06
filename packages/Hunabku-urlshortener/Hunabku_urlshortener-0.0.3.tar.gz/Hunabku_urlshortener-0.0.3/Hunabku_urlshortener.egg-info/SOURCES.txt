@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+Hunabku_urlshortener.egg-info/PKG-INFO
+Hunabku_urlshortener.egg-info/SOURCES.txt
+Hunabku_urlshortener.egg-info/dependency_links.txt
+Hunabku_urlshortener.egg-info/requires.txt
+Hunabku_urlshortener.egg-info/top_level.txt
+hunabku_urlshortener/__init__.py
+hunabku_urlshortener/_version.py
+hunabku_urlshortener/endpoints/Shortener.py
