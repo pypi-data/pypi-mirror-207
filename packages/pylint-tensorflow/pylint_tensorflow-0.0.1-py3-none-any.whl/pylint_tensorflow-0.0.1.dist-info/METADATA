@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pylint-tensorflow
+Version: 0.0.1
+Summary: python code static checker tensorflow
+License: MIT
+Keywords: static code analysis,linter,python,lint
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Debuggers
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+Classifier: Typing :: Typed
+Requires-Python: >=3.8.0
+License-File: LICENSE
+Requires-Dist: astroid (<=3.1.0-dev0,>=3.0.0a2)
+Requires-Dist: typing-extensions (>=3.10.0) ; python_version < "3.10"
+Provides-Extra: testutils
+Requires-Dist: gitpython (>3) ; extra == 'testutils'
+
