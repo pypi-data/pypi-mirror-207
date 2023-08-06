@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+igra/__init__.py
+igra/download.py
+igra/interp.py
+igra/read.py
+igra/support.py
+igra/test_igra.py
+igra.egg-info/PKG-INFO
+igra.egg-info/SOURCES.txt
+igra.egg-info/dependency_links.txt
+igra.egg-info/requires.txt
+igra.egg-info/top_level.txt
