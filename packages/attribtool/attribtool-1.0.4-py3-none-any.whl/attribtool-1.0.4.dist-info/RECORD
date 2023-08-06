@@ -1,0 +1,11 @@
+attribtool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+attribtool/__init__.pyi,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+attribtool/ndattrib.py,sha256=7KAFM60hdN0qJt9tosSClyzo5zssE_lAwrfsBz35388,780
+attribtool/ndattrib.pyi,sha256=Oz3vdBk2gxDFo2LP1BbJmyhAVU5e9Vz-IydC5Qf9hnI,113
+attribtool/nnattrib.py,sha256=aKYY6LFA4YsbMsPpgvOe_e-6RHd-dQexOHFjHrl7fR4,1382
+attribtool/nnattrib.pyi,sha256=Z39Fat__x7PNmAn9Pr0Lfj8UGVL0ii59Sts1pjs_Fwk,202
+attribtool/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+attribtool-1.0.4.dist-info/LICENSE,sha256=b0Ns1o0-1Zb9rmapVQsVPplbD4xT4AqRRWAHORP5c1I,1081
+attribtool-1.0.4.dist-info/METADATA,sha256=i4caA2DXitBxCJnlt3LnyUKUiGgPxsyBPtA-Ki1yeQs,2622
+attribtool-1.0.4.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+attribtool-1.0.4.dist-info/RECORD,,
