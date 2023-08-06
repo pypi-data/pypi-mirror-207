@@ -1,0 +1,6 @@
+setup.py
+kotatsu/__init__.py
+kotatsu.egg-info/PKG-INFO
+kotatsu.egg-info/SOURCES.txt
+kotatsu.egg-info/dependency_links.txt
+kotatsu.egg-info/top_level.txt
