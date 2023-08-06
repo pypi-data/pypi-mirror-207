@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: acrosort-tex
+Version: 0.1.2
+Summary: 
+Home-page: https://github.com/baniasbaabe/acrosort-tex/tree/main
+License: MIT
+Keywords: latex,acronyms,sorting
+Author: baniasbaabe
+Author-email: banias@hotmail.de
+Requires-Python: >=3.8,<4.0
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: Markup :: LaTeX
+Requires-Dist: rich (>=13.3.5,<14.0.0)
+Project-URL: Repository, https://github.com/baniasbaabe/acrosort-tex/tree/main
+Description-Content-Type: text/markdown
+
+# acrosort-tex
+
+`acrosort-tex` is a Python Command Line App to sort your acronyms in your `.tex` by their shortform.
+
+## Installation
+
+You can install acrosort-tex using pip (note the underscore):
+
+```bash
+pip install acrosort_tex
+```
+
+## Usage
+
+To use `acrosort-tex`, you first need to create a `.tex` file with a list of acronyms (see in `examples` for an example file).
+
+It doesn't matter if there are other TeX commands before or after the `acronym` block.
+
+To sort the acronyms, run the following command:
+
+```bash
+acrosort <input_file.tex> <output_file.tex>
+```
+
+For example:
+
+```bash
+acrosort examples/List_Of_Abbreviations.tex sorted_acronyms.tex
+```
+
+This will create a new `.tex` file called `sorted_acronyms.tex` with the sorted acronyms, while everything else isn't touched.
+
+It will also find the longest key to set the width of the shortform column in the acronym block.
+
+## License
+
+`acrosort_tex` is licensed under the MIT License. See the LICENSE file for more information.
+
