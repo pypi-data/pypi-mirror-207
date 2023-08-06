@@ -1,0 +1,15 @@
+patas/__init__.py,sha256=Ipx9LBPhbKf4Y-LvDZsnmsZB58msoOD4DWXGI_u6RfU,19
+patas/consts.py,sha256=iZq1dRvcgXJxdLlk_HbUTrePzuKfm8tQuvwNuOFRLi8,220
+patas/grid_exec.py,sha256=IXPCvoVGC5tKXSxmzn7JpEQnF7WDCuxv3rCc7MATOSA,26087
+patas/log.py,sha256=P1HXmTveJGWGw3tbR8k4ydz7KM8cIPG-7ggOOOtduNg,330
+patas/main.py,sha256=C8a4KlqGqofw39k6LQ3Okbh7UmrWUSgQsjG2H6OhxhE,13265
+patas/parse.py,sha256=kNoihZkQV05k64rVSBGrVwPxPpbfqgpcOBtXC2HfYHk,7485
+patas/schemas.py,sha256=fgCIJxUM_g77Np1X3bVDelK5b_wzDkuPiHu8GZNBAZE,6051
+patas/utils.py,sha256=Z2RGxZxVYexA5bjr8pmeNYHp353CzTbxm4lxxphNE_0,8669
+tests/__init__.py,sha256=ehA1GP8b-32U32xdyfLicPzaZy6wOHCRBHMOawTFB1s,18
+tests/test_schemas.py,sha256=f3Wy6w2v4GccFxQlnIoFIP-S3-e1utUb5DUYLGImbYQ,1420
+patas-2.0.0.dist-info/METADATA,sha256=TZKwb-Lk4JwoZIHW9FpjbZAbPZrmkJajsP5PXwZl5RY,10451
+patas-2.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+patas-2.0.0.dist-info/entry_points.txt,sha256=6loPrXaqa6JR9n_jWCAhgV1r1_KjJstXVnf2gJZEV7g,42
+patas-2.0.0.dist-info/top_level.txt,sha256=tIcx9A4gZ2XPxqBUuzZH5mcUBw9lEY_xNMQ1sOh4XXc,12
+patas-2.0.0.dist-info/RECORD,,
