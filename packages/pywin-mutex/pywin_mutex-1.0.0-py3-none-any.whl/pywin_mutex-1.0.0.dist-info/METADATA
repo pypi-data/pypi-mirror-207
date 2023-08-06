@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: pywin-mutex
+Version: 1.0.0
+Summary: A module for creating and using a shared mutex on Windows.
+Author-email: Zvlbrg <MyGithubPage@github.com>
+Project-URL: Homepage, https://github.com/Zvlbrg/pywin-mutex
+Project-URL: Bug Tracker, https://github.com/Zvlbrg/pywin-mutex/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pywin32
+
+# **Projectinformation**
+
+This module allows the use of a shared mutex on Windows.
+By installing this package the pywin32 module is also installed.
+
+The code has been tested with Python >=3.9.4
+
+# **Installing the Python Package**
+
+Install via PIP: 
+```
+python -m pip install pywin-mutex
+```
+
+# **Examples**
+
+After the installation is completed you can open **example.py**
+in the *examples* folder 2 or more times and execute them to 
+test if the Mutex works.
