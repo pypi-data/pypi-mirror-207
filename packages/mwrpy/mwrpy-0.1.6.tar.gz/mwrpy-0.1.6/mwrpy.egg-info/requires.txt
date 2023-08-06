@@ -1,0 +1,14 @@
+scipy
+netCDF4
+matplotlib
+metpy
+ephem
+pandas
+pyyaml
+timezonefinder
+
+[test]
+pylint
+mypy
+pytest
+pytest-flakefinder
