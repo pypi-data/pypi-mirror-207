@@ -1,0 +1,41 @@
+# PyBerries
+
+PyBerries is a Python package that can be used to import, manipulate and plot data from Bacmman measurement tables.
+
+It relies mainly on Pandas for data handling and Seaborn/Matplotlib for plotting.
+
+[[_TOC_]]
+
+----
+
+## Installation
+
+### Anaconda (recommended)
+
+  Anaconda will install both Python and Jupyter-lab (used to run Python notebooks) easily. Note however that it requires ~5 Gb free disk space.
+  For a lighter installation procedure, see the next section "Command line install".
+
+  - Download Anaconda from the [official website](https://www.anaconda.com/)
+  - Run the installer (leave all options as default)
+  - Start "Anaconda Navigator"
+  - In Anaconda, launch the "Jupyter Lab" module
+
+### Command line install (advanced users)
+
+  - Open a terminal (macOS/Linux) or Powershell (Windows)
+  - Install Python
+      - Enter the command `python --version`
+      - If an error or a version < 3.9 is shown, download and install Python from the [official website](https://www.python.org/downloads/)
+  - After installing, restart your terminal/powershell; both of the above commands should display a version number
+  - Install Jupyter Lab
+      - In a terminal/powershell, run the command `python -m pip install jupyterlab`
+      - After the installation completes, Jupyter Lab can be started using the command `jupyter-lab`
+
+
+## Getting started
+
+Try downloading and running the [tutorial notebook](./Tutorial/Tutorial.ipynb) to get acquainted with data import and plotting in PyBerries.
+
+For further details, see the [main functionalities](./doc/PyBerries_main_functionalities.md) documentation, as well as the [DatasetPool](./doc/DatasetPool.md) documentation.
+
+For info and examples on plots, see the [preset plots gallery](./doc/Plot_preset_gallery.md) and the [Seaborn documentation](https://seaborn.pydata.org/index.html)
