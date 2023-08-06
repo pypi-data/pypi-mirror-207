@@ -1,0 +1,3 @@
+[console_scripts]
+tbtool2 = main:Main.generate_aws_audit_report
+
