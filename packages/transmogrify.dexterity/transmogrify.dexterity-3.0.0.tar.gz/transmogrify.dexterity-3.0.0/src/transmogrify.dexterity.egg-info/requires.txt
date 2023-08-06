@@ -1,0 +1,10 @@
+Products.CMFPlone
+collective.transmogrifier
+plone.app.transmogrifier
+setuptools
+
+[test]
+ftw.builder
+plone.app.testing
+plone.formwidget.contenttree
+zope.testrunner
