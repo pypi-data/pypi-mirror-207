@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: spiro_zscore
+Version: 0.4.0
+Summary: A z-score calculator for spirometric measurements
+Author: Valérie Roy
+Author-email: valerie.roy@minesparis.psl.eu
+License: CC BY-SA 4.0
+Project-URL: source, https://github.com/valroy/spiro-zscore
+Keywords: z-score,zscore,spirometry,fev1,fvc,fef
+Requires-Python: >=3.9
