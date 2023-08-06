@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ib110hw-testing
+Version: 0.1.9
+Summary: Package used for testing homework assignments in the IB110 course at FI MUNI.
+Author: Martin Pilát
+Author-email: 8pilatmartin8@gmail.com
+Requires-Python: >=3.6.8,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: exrex
+Requires-Dist: hypothesis
+Requires-Dist: ib110hw
