@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+mathstatpy.egg-info/PKG-INFO
+mathstatpy.egg-info/SOURCES.txt
+mathstatpy.egg-info/dependency_links.txt
+mathstatpy.egg-info/requires.txt
+mathstatpy.egg-info/top_level.txt

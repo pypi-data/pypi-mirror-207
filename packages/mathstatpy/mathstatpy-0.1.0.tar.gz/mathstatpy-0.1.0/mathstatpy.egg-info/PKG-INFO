@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: mathstatpy
+Version: 0.1.0
+Summary: Librería de Python para análisis estadístico.
+Home-page: https://github.com/OscarPalominoC/py-stat/
+Author: Oscar Palomino
+Author-email: ing.oscarp1@gmail.com
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
