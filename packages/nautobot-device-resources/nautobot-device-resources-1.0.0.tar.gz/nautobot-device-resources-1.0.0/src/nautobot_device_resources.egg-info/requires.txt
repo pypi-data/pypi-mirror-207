@@ -1,0 +1,16 @@
+nautobot<=2.0.0,>=1.5.0
+
+[dev]
+black
+coverage[toml]
+factory-boy
+mypy
+pre-commit
+pre-commit-hooks
+pylint
+pylint-django
+pytest
+pytest-cov
+pytest-mock
+pytest-order
+types-PyYAML
