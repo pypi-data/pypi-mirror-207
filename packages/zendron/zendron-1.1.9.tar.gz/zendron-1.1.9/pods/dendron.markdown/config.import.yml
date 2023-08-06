@@ -1,0 +1,5 @@
+src: zotero_pod
+vaultName: Zendron
+concatenate: false
+fnameAsId: false
+importFrontmatter: true
