@@ -1,0 +1,12 @@
+README.md
+setup.py
+byozdemir_sendmessage/__init__.py
+byozdemir_sendmessage/discord.py
+byozdemir_sendmessage/mail.py
+byozdemir_sendmessage/netgsm.py
+byozdemir_sendmessage/telegram.py
+byozdemir_sendmessage.egg-info/PKG-INFO
+byozdemir_sendmessage.egg-info/SOURCES.txt
+byozdemir_sendmessage.egg-info/dependency_links.txt
+byozdemir_sendmessage.egg-info/requires.txt
+byozdemir_sendmessage.egg-info/top_level.txt

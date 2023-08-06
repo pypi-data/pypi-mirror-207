@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: byozdemir-sendmessage
+Version: 0.0.1
+Summary: It's helps you tou send message via populer apps
+Author: Byozdemir
+Author-email: emrenetwork@yandex.com
+License: MIT
+Keywords: telegram messager,discord messager
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: BSD License
+Description-Content-Type: text/markdown
+
+# byozdemir-sendmessage
+
+This is the library that you can send messages via telegram,discord and email. 
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install byozdemir-sendmessage.
+
+```bash
+pip install byozdemir-sendmessage
+```
+
+## Usage
+
+```python
+import byozdemir_sendmessage
+
+# Returns 'provider which is you selected'
+# You can select telegram,discord,mail
+messager = byozdemir_sendmessage.getProvider('discord',key="discord key here")
+
+#Send Message
+messager.sendMessage('receiver_id','This is an test message')
+
