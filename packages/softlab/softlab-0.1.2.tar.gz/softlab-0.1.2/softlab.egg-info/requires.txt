@@ -1,0 +1,13 @@
+matplotlib
+plotly
+numpy
+scipy
+pandas
+imageio
+ipywidgets
+pyvisa
+logging
+uuid
+h5py
+sqlite3
+asyncio
