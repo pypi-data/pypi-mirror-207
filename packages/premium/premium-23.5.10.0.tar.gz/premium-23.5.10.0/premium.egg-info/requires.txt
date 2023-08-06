@@ -1,0 +1,9 @@
+smart-open
+optuna
+jieba
+matplotlib
+sklearn
+codefast
+jiwer
+pandas
+numpy
