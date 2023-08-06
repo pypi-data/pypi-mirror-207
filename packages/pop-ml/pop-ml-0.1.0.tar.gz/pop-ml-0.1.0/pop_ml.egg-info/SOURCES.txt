@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+pop_ml.egg-info/PKG-INFO
+pop_ml.egg-info/SOURCES.txt
+pop_ml.egg-info/dependency_links.txt
+pop_ml.egg-info/entry_points.txt
+pop_ml.egg-info/requires.txt
+pop_ml.egg-info/top_level.txt
