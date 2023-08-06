@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "foru"
+version = "0.1.1"
+description = ""
+authors = ["Archean-w <1091876908@qq.com>"]
+readme = "README.md"
+exclude = [
+    "foru/resource/icons",
+    "foru/resource/qresource.xml"
+]
+
+[tool.poetry.scripts]
+foru = 'foru.__main__'
+
+
+[tool.poetry.dependencies]
+python = ">=3.8, <3.12"
+mpv = "^1.0.3"
+aiohttp = "^3.8.4"
+requests = "^2.28.2"
+prettytable = "^3.6.0"
+qasync = "^0.24.0"
+pyside6 = "^6.5.0"
+
+
+[[tool.poetry.source]]
+name = "tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
+secondary = false
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
