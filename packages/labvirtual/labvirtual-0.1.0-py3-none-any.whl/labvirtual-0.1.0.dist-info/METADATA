@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: labvirtual
+Version: 0.1.0
+Summary: Biblioteca de simulação gráfica 3D de ambientes para estudo de controle de sistema.
+Author: Oseiasdfarias
+Author-email: oseias.dfarias@gmail.com
+Requires-Python: >3.10,<=3.10.8
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: control (>=0.9.3.post2,<0.10.0)
+Requires-Dist: numpy (>=1.24.3,<2.0.0)
+Requires-Dist: scipy (>=1.10.1,<2.0.0)
+Requires-Dist: vpython (>=7.6.4,<8.0.0)
+Description-Content-Type: text/markdown
+
+# LabVirtual
+
+Compartilhamos aqui alguns conteúdos que estamos desenvolvendo buscando formatar um laboratório virtual para sistemas dinâmicos e controle na Faculdade de Engenharia Elétrica da UFPA-Tucuruí.
+
+## Ferramentas do nosso interesse:
+
+- [Python](https://www.python.org/) : Junto com os pacotes [Numpy](https://numpy.org/), [SciPy](https://scipy.org/) e [Matplotlib](https://matplotlib.org/) formam nossa base para programação.
+
+- [VScode](https://code.visualstudio.com/) : A nossa IDE de programação e interface entre o computador e o GitHub. 
+
+- [Manim](https://www.manim.community/) : Pacote de animação para matemática/ciência/engenharia - Integração com LaTeX.
+
+- [PyMunk](https://www.pymunk.org/en/latest/) :
+
+- [vPython](https://vpython.org/) : Simulação 3D;
+
+
+## Conteúdo em desenvolvimento:
+
+[Simulação de sistema dinâmico com python](Notas\IntegracaoNumerica\ManimEDO.html)
+
+## Sistemas de interesse:
+
+Sistemas possíveis:
+- 1 - [Maglev](/labvirtual/simulacao_maglev/README.md)
+- 4 - [Aeropêndulo](/labvirtual/simulacao_modelagem_aeropendulo/aeropendulo_doc.html)
+   
+
