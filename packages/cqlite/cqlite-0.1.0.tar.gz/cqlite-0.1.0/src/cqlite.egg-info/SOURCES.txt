@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/cqlite/__init__.py
+src/cqlite/cqlite.py
+src/cqlite.egg-info/PKG-INFO
+src/cqlite.egg-info/SOURCES.txt
+src/cqlite.egg-info/dependency_links.txt
+src/cqlite.egg-info/entry_points.txt
+src/cqlite.egg-info/requires.txt
+src/cqlite.egg-info/top_level.txt
