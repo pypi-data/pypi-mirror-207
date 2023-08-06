@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: emm
+Version: 0.0.1
+Summary: Entity Matching Model
+Author-email: ING Analytics WB <wbaa@ing.com>
+Project-URL: repository, https://github.com/ing-bank/EntityMatchingModel
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: docs_mkdocs
+Requires-Dist: mkdocs ; extra == 'docs_mkdocs'
+Requires-Dist: mkdocs-material ; extra == 'docs_mkdocs'
+Requires-Dist: mkdocstrings[python] ; extra == 'docs_mkdocs'
+Requires-Dist: mkdocs-print-site-plugin ; extra == 'docs_mkdocs'
+Requires-Dist: mkdocs-jupyter ; extra == 'docs_mkdocs'
+Provides-Extra: docs_sphinx
+Requires-Dist: sphinx ; extra == 'docs_sphinx'
+Requires-Dist: myst-parser ; extra == 'docs_sphinx'
+Requires-Dist: sphinx-material ; extra == 'docs_sphinx'
+Requires-Dist: myst-nb ; extra == 'docs_sphinx'
+Provides-Extra: lint
+Requires-Dist: pre-commit ; extra == 'lint'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-ordering ; extra == 'test'
+Requires-Dist: virtualenv ; extra == 'test'
+Provides-Extra: test-cov
+Requires-Dist: coverage ; extra == 'test-cov'
+Requires-Dist: pytest-cov ; extra == 'test-cov'
+
+# Entity Matching Model
+
