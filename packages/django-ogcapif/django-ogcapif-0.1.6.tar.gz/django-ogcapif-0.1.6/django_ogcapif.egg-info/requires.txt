@@ -1,0 +1,16 @@
+django>=4
+django-computedfields
+psycopg2
+transifex-client
+djangorestframework
+djangorestframework-gis
+pyyaml
+uritemplate
+pyproj
+
+[dev]
+pre-commit
+debugpy
+django-debug-toolbar
+flameprof
+gprof2dot
