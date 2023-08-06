@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: GuiMPLpretest
+Version: 0.0.9
+Summary: Application pour modifier l'esthétique d'un graphique matplotlib
+Author: Groupe Figure MPCI
+Keywords: matplotlib,graphique,interface graphique,python,figures
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+Projet Figure S2 MPCI ayant pour but le développement d'une interface graphique permettant d'intéragir ergonomiquement avec des figures matplotlib
