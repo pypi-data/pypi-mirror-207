@@ -1,0 +1,2 @@
+[console_scripts]
+bias_on_demand_generate_dataset = biasondemand.generate_dataset:main
