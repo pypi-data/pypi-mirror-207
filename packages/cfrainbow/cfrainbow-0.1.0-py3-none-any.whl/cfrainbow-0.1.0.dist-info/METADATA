@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: cfrainbow
+Version: 0.1.0
+Summary: Counterfactual Regret Minimization Open-Source Implementations
+Home-page: https://github.com/maichmueller/cfrainbow
+License: MIT
+Keywords: counterfactual regret minimization,regret minimization,extensive form games,cfr,cfr+,discounted cfr,linear,monte-carlo,openspiel
+Author: Michael Aichmueller
+Author-email: m.aichmueller@gmail.com
+Requires-Python: >=3.8
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Dist: numba (>=0.5)
+Requires-Dist: numpy (>=1.19) ; python_full_version <= "3.9.0"
+Requires-Dist: numpy (>=1.22) ; python_version >= "3.10"
+Requires-Dist: open_spiel (>=1.0)
+Requires-Dist: tqdm
