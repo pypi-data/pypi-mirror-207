@@ -1,0 +1,5 @@
+setup.py
+spotify_to_apple_py.egg-info/PKG-INFO
+spotify_to_apple_py.egg-info/SOURCES.txt
+spotify_to_apple_py.egg-info/dependency_links.txt
+spotify_to_apple_py.egg-info/top_level.txt
