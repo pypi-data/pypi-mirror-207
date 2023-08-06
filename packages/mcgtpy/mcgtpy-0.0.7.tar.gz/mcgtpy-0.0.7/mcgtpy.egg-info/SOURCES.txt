@@ -1,0 +1,11 @@
+README.md
+setup.py
+mcgtpy/__init__.py
+mcgtpy/database.py
+mcgtpy/helper_functions.py
+mcgtpy/my_stats.py
+mcgtpy.egg-info/PKG-INFO
+mcgtpy.egg-info/SOURCES.txt
+mcgtpy.egg-info/dependency_links.txt
+mcgtpy.egg-info/requires.txt
+mcgtpy.egg-info/top_level.txt
