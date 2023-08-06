@@ -1,0 +1,11 @@
+rawpipe/__init__.py,sha256=8qScdC5kuNY9P5qPHLj6J0mu0uNaaHflDVnGsVaMQck,1589
+rawpipe/rawpipe.py,sha256=8fP_Ur1uVyfbSUM9se03fVSqCVJmSP9A32FrMvo-FFg,29846
+rawpipe/version.py,sha256=XpM3lncCzPBIwMSvDN7i10pke_c6KdJtVLZYbCiaTRw,23
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/regression.py,sha256=DYi7o24NtNcg0EI0qA3tRI5kN9nKnrxzT91u5m34DPA,6881
+rawpipe-0.17.0.dist-info/LICENSE,sha256=bnRO5PlrqZn0km-PVB2Wxsup0AMBLacMxKmE3ch94AM,1063
+rawpipe-0.17.0.dist-info/METADATA,sha256=7C9zzDD3FwVKZEQTJHlB40OJB-9QnOyy8AWoPjPN45M,358
+rawpipe-0.17.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rawpipe-0.17.0.dist-info/top_level.txt,sha256=tUekisN99JJ4rTgBAv9IqioeDarlc2swmMeR7ZmvXX0,13
+rawpipe-0.17.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+rawpipe-0.17.0.dist-info/RECORD,,
