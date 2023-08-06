@@ -1,0 +1,6 @@
+include src/morsels/static/morsels/js/*
+
+include src/morsels/templates/morsels/*
+include src/morsels/templates/morsels/blocks/*
+
+recursive-exclude * .DS_Store *.pyc
