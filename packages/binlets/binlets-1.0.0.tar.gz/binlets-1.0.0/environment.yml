@@ -1,0 +1,8 @@
+name: binlets
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - pytest
+  - hypothesis
+  - pre-commit
