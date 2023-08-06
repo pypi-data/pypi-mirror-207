@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: codeoffer
+Version: 0.1.0
+Summary: Python library that simplifies access to the Public CodeOffer API
+Home-page: https://github.com/codeoffer/v1-python-library
+Author: CodeOffer
+Author-email: contact@codeoffer.net
+License: UNKNOWN
+Project-URL: Documentation, https://github.com/codeoffer/v1-python-library
+Project-URL: Source, https://github.com/codeoffer/v1-python-library
+Description: UNKNOWN
+Platform: UNKNOWN
