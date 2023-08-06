@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: flask-securelogin
+Version: 0.1.0
+Summary: A Flask-based installable library that provides secure login capabilities with SMS and auth tokens.
+Home-page: https://github.com/brilliance-qian/flask-securelogin
+Author: Brilliance Qian
+License: UNKNOWN
+Description: flask_securelogin
+        -----------------
+        To use the library, just type
+        >>> import flask_securelogin
+        >>>
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
