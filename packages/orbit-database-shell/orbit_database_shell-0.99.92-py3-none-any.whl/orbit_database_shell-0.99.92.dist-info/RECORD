@@ -1,0 +1,11 @@
+orbit_database_shell/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orbit_database_shell/__main__.py,sha256=LrBJo0QzUaH-Nvc9bCQ4ghvdrs0ZSEJZnbL5S2PYrAY,1851
+orbit_database_shell/odb_actions.py,sha256=DYA2I03PnmIMSRDYwAgUGItKqllVne9kPAyFbMZISmk,24679
+orbit_database_shell/odb_completers.py,sha256=Cm8TQ3FQlhTbIDUSthgCa69pqMo4Rf-PvyRBww2jYu0,4169
+orbit_database_shell/odb_decorators.py,sha256=P-mXl4aoL-25NtxOP_KZqw-HQfKYov-2aUNisIpATNo,1186
+orbit_database_shell/odb_grammar.py,sha256=mjg1z_JjJYG-y1hDe2inM4rCrwiiinv8sgeCTG_eUDY,7071
+orbit_database_shell/odb_help.py,sha256=cxf8hRoDW9T_RiEtJJf6kpK2KEJTljFNBMGcT5m-Lb8,46376
+orbit_database_shell-0.99.92.dist-info/LICENSE.md,sha256=Ao_AP-Tf25HTyS9AWRTEBo4760NEhc7ISZO_DJfkzhE,1099
+orbit_database_shell-0.99.92.dist-info/METADATA,sha256=6CDeWHLXL3Dtq31VW4HTRHiYo02T2JWLtv4oysnJ2aI,787
+orbit_database_shell-0.99.92.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+orbit_database_shell-0.99.92.dist-info/RECORD,,
