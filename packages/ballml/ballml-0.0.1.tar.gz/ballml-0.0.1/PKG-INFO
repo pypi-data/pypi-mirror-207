@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ballml
+Version: 0.0.1
+Summary: A machine learning package with some ballsy models.
+Author-email: Galen Seilis <galen.seilis@googlemail.com>
+Project-URL: Homepage, https://github.com/galenseilis/ballml
+Project-URL: Bug Tracker, https://github.com/galenseilis/ballml/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ballml
+A machine learning package with some ballsy models.
