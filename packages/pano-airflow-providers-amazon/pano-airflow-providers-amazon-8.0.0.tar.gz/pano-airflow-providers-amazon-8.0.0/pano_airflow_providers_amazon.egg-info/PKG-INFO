@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: pano-airflow-providers-amazon
+Version: 8.0.0
+Summary: Provider for Apache Airflow. Implements apache-airflow-providers-amazon package
+Home-page: https://airflow.apache.org/
+Download-URL: https://archive.apache.org/dist/airflow/providers
+Author: Apache Software Foundation
+Author-email: dev@airflow.apache.org
+License: Apache License 2.0
+Project-URL: Documentation, https://airflow.apache.org/docs/apache-airflow-providers-amazon/8.0.0/
+Project-URL: Bug Tracker, https://github.com/apache/airflow/issues
+Project-URL: Source Code, https://github.com/apache/airflow
+Project-URL: Slack Chat, https://s.apache.org/airflow-slack
+Project-URL: Twitter, https://twitter.com/ApacheAirflow
+Project-URL: YouTube, https://www.youtube.com/channel/UCSXwxpWZQ7XZ1WL3wqevChA/
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Framework :: Apache Airflow
+Classifier: Framework :: Apache Airflow :: Provider
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: System :: Monitoring
+Requires-Python: ~=3.7
+Description-Content-Type: text/x-rst
+Provides-Extra: apache.hive
+Provides-Extra: cncf.kubernetes
+Provides-Extra: common.sql
+Provides-Extra: exasol
+Provides-Extra: ftp
+Provides-Extra: google
+Provides-Extra: imap
+Provides-Extra: mongo
+Provides-Extra: salesforce
+Provides-Extra: ssh
+Provides-Extra: pandas
+Provides-Extra: aiobotocore
+License-File: LICENSE
+License-File: NOTICE
