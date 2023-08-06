@@ -1,0 +1,8 @@
+multi_docker_build/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+multi_docker_build/build_docker_images.py,sha256=mZjIbk0Eg-ugR5CB_C_Q6Oz3b32hRrd1HEwIBtAzB_I,12409
+multi_docker_build-0.7.2.dist-info/LICENSE.txt,sha256=kwSy3l1BE6oekFWAT11EHPjYohIoRcOxQsyF-QkkDK8,1059
+multi_docker_build-0.7.2.dist-info/METADATA,sha256=Q-05TUvKf2MaNntsnexIR_l5EOeWFkv1A3grZKdYMoc,4335
+multi_docker_build-0.7.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+multi_docker_build-0.7.2.dist-info/entry_points.txt,sha256=LFRRoL_lO4N7zCyO3uAInqgSwceE20P-erYcVd1WEJU,84
+multi_docker_build-0.7.2.dist-info/top_level.txt,sha256=ehQ-Qr6hMS0hnaDCLnHOvkcKdqKoe0BOpIWyJb9GePY,19
+multi_docker_build-0.7.2.dist-info/RECORD,,
