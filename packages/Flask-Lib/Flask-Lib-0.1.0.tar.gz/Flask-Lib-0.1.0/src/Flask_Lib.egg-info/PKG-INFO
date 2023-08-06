@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: Flask-Lib
+Version: 0.1.0
+Summary: Premade Flask tools to speed up development.
+Home-page: https://github.com/rrickgauer/Flask-Lib
+Author: Ryan Rickgauer
+Author-email: rrickgauer1@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.9.12
+License-File: LICENSE
+
+# Flask-Lib
+Premade Flask tools to speed up development.
+
+
+## Modules
+
+* responses
+* fowarding
+* json
+* dates
+* jinja
+* errors
+* mappers
+
