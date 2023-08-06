@@ -1,0 +1,2 @@
+[console_scripts]
+journalmk = journalmk.__main__:main
