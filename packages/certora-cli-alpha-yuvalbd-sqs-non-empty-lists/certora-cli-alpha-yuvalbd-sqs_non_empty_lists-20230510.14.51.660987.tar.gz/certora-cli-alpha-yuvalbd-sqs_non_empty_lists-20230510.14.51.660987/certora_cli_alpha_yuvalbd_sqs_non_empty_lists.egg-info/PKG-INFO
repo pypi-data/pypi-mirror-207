@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: certora-cli-alpha-yuvalbd-sqs-non-empty-lists
+Version: 20230510.14.51.660987
+Summary: Runner for the Certora Prover
+Home-page: https://pypi.org/project/certora-cli-alpha-yuvalbd-sqs_non_empty_lists
+Author: Certora
+Author-email: support@certora.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8.16
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Commit 41b1956. Build and Run scripts for executing the Certora Prover on Solidity smart contracts.
+
