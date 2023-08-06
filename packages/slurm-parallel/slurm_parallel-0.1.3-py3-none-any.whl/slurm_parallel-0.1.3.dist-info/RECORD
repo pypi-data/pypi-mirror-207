@@ -1,0 +1,13 @@
+slurm_parallel/__init__.py,sha256=OmKA-igsA1TYtvbMUYVwK79R6okdujzxNrwH428pZgU,110
+slurm_parallel/cleanup.sh,sha256=EqfDv4-qtCnrz6dU-nY0zFj20Ktg3OfhCk0Ez0gKMOA,37
+slurm_parallel/config.toml,sha256=xn0DRmNp57lrhTqzsPxP2E-bTalgi5cvkzkxsKUKNC4,61
+slurm_parallel/run.py,sha256=bA_539PHVlglC5C4x7F7rumWV20MlHsWchIU9-2GOHQ,918
+slurm_parallel/run.sh,sha256=14i5O-JRnr0OYQ9zJD5aIY-SyQOpsDwJV4wsGOicE9E,28
+slurm_parallel/slurm.py,sha256=4bYtIcHIuJFaWUJgpQuqhk-JxYFcAQY3iurU9-2CnpQ,11218
+slurm_parallel/summarize.sh,sha256=SqF4m6jelUvtjmPbFmtIuBco48mUhtXctc2bej_WAO4,1050
+slurm_parallel/utils.py,sha256=q1YNqZjr-Bm8JeX4T6XhKhCzPN9tmk0c9aFGueq8aL4,2099
+slurm_parallel-0.1.3.dist-info/LICENSE,sha256=6sbDVZa4NG4Ehen4rgM-KLhfd20u430SxhNLPDlDeoY,1065
+slurm_parallel-0.1.3.dist-info/METADATA,sha256=5d4u_o-Z36M4Hbjbv0vSdGNbr87vL2aZZzzf6Me4UUM,1876
+slurm_parallel-0.1.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+slurm_parallel-0.1.3.dist-info/top_level.txt,sha256=cTQsCJii8LD0Y8ebrtMx36Vw12E1AcQRVcnEMQ2AwCE,15
+slurm_parallel-0.1.3.dist-info/RECORD,,
