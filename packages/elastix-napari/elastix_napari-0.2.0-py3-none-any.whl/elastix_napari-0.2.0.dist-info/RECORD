@@ -1,0 +1,16 @@
+elastix_napari/__init__.py,sha256=eJe10TdSv_itRaFZQOqdWsl_esIDbWw9YQNuN-xuM6U,148
+elastix_napari/elastix_registration.py,sha256=d8NEC14OLAwFyga0FWTPJMzuw64Gg2-kTRPNn7PbwlI,8967
+elastix_napari/napari.yaml,sha256=QAdVIATTKCvzvyxV9NLdWacyX5b3h03KsIoc58fIzCY,572
+elastix_napari/transformix_widget.py,sha256=P3TxEHclhyYM8m2A0e_yL7m9adkNhpJ3ja21O_6snX4,2509
+elastix_napari/utils.py,sha256=MUGZ-zhdQXGPkLybRcx8kF_EhkSL4VJNBBO6e5R4Xdw,513
+elastix_napari/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+elastix_napari/tests/conftest.py,sha256=UJMvBvxOZ82_gu1IFtPxjyUcp6ub9C55pyTAbM8HfQg,171
+elastix_napari/tests/test_dock_widget.py,sha256=txGS3viGA2WSY6L2WfNzy92vGAPnM4GXgNY6bpdgPYk,618
+elastix_napari/tests/test_registration.py,sha256=Szyozt1vm5lOrUuIFW1I9JqVcdBqMRgPUug4_OAQtlA,5794
+elastix_napari/tests/test_transformix.py,sha256=ASEhB-yIo03gIZGOlaN7li1jOnp_h2yUuCBMpoDmsU4,2043
+elastix_napari-0.2.0.dist-info/LICENSE,sha256=CUvt2ilcBwKAfRAnoA4RNPTLcdUj3En21LPK9YkFMGg,11358
+elastix_napari-0.2.0.dist-info/METADATA,sha256=Uod90Zq_bx3w8TvmEn85c1wkBe8wxWObAtqVWxSZ4Q0,4051
+elastix_napari-0.2.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+elastix_napari-0.2.0.dist-info/entry_points.txt,sha256=wo_Erqpbuq4VUgoOh9Hxx9ngF9d-T_pSSl-edLMGsWA,62
+elastix_napari-0.2.0.dist-info/top_level.txt,sha256=ianPpk64CKghsNPpj1C7zKB50-XGdRS-CD9HHqZDxw8,15
+elastix_napari-0.2.0.dist-info/RECORD,,
