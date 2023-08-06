@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+ezneural/__init__.py
+ezneural.egg-info/PKG-INFO
+ezneural.egg-info/SOURCES.txt
+ezneural.egg-info/dependency_links.txt
+ezneural.egg-info/not-zip-safe
+ezneural.egg-info/top_level.txt
