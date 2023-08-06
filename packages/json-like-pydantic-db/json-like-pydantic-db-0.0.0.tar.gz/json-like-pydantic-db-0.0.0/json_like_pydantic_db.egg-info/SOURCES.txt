@@ -1,0 +1,7 @@
+setup.py
+json_like_pydantic_db.egg-info/PKG-INFO
+json_like_pydantic_db.egg-info/SOURCES.txt
+json_like_pydantic_db.egg-info/dependency_links.txt
+json_like_pydantic_db.egg-info/top_level.txt
+serialization_db/__init__.py
+serialization_db/table.py
