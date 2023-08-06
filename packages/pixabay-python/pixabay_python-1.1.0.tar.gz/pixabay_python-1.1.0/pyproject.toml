@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=65.5.1", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pixabay_python"
+version = "1.1.0"
+description = "a Python library for interacting with Pixabay api"
+readme = "README.md"
+authors = [{ name = "Farzad Shayanfar", email = "farzad.shayanfar@hotmail.com" }]
+license = { file = "LICENSE" }
+keywords = ["pixabay", "image", "video", "free image", "free video", "free stock media"]
+dependencies = [
+    "requests >= 2.30.0",
+]
+requires-python = ">=3.10"
+
+[project.urls]
+Homepage = "https://github.com/farzadshayanfar/pixabay_python"
