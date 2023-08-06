@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+eFatura/Oturum.py
+eFatura/__init__.py
+eFatura.egg-info/PKG-INFO
+eFatura.egg-info/SOURCES.txt
+eFatura.egg-info/dependency_links.txt
+eFatura.egg-info/requires.txt
+eFatura.egg-info/top_level.txt
