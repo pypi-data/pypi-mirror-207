@@ -1,0 +1,9 @@
+slashml/__init__.py,sha256=SJcqSSrpivLxcMfK4WU_QrZsD_olDQS6ghBgDKQK4us,190
+slashml/speech_to_text.py,sha256=DCIo3wudN7k7Ixs6544EDLRxLZ7mL55y_JbIYyOVAOU,1361
+slashml/text_summarization.py,sha256=FXcO1SR7XKvakmTgvijzgy_BCDaRk6c-c5ZmEpatCxw,986
+slashml/text_to_speech.py,sha256=5yMDGCYKDUDv8-aC7YSfsFThN_P5kxBCjvHtCDC7ss0,963
+slashml-0.0.3.dist-info/LICENSE.txt,sha256=sThVhaWOflgOuDGw-QByHEfk6iLpxt2Mh1faYp5wIoE,1064
+slashml-0.0.3.dist-info/METADATA,sha256=M5Imtc3ORWWku1GeBLSioTb4DQXDQsXheICHNvOXQO8,347
+slashml-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+slashml-0.0.3.dist-info/top_level.txt,sha256=xG0Psebf_6XyFLulDUUZdCucO1lA40Tet_kpV2SGr14,8
+slashml-0.0.3.dist-info/RECORD,,
