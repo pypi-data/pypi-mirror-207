@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pear-xai"
+description = "PEAR: Post-hoc Explainer Agreement Regularization"
+readme = "README.md"
+authors = [ {name="Avi Schwarzschild", email="avi1@umd.edu"}, {name="Max Cembalest", email="max.cembalest@arthur.ai"},
+    {name="Karthik Rao", email="karthik@arthur.ai"} ]
+maintainers = [ {name="Avi Schwarzschild", email="avi1@umd.edu"}, {name="Max Cembalest", email="max.cembalest@arthur.ai"},
+    {name="Karthik Rao", email="karthik@arthur.ai"}]
+requires-python = ">=3.9"
+keywords = ["pytorch", "XAI", "machine learning"]
+classifiers = []
+license = {text = "BSD-3-Clause"}
+dependencies = ["jupyter==1.0.0",
+                "lime==0.2.0.1",
+                "matplotlib==3.5.2",
+                "numpy==1.23.2",
+                "torch==1.11.0",
+                "scikit-learn==1.2.2",
+                "seaborn==0.12.2",
+                "shap==0.41.0",
+                "sklearn==0.0",
+                "tabulate==0.8.10",
+                "torchvision==0.12.0",
+                "tqdm==4.64.0"]
+version = "0.0.10"
+
+[tools.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages]
+find = {}
+
+[tool.setuptools.package-data]
+mypkg = ["datasets/*/*.csv"]
+
+[project.urls]
+homepage = "https://arthur.ai"
+repository = "https://github.com/aks2203/pear-xai"
+documentation = "https://github.com/aks2203/pear-xai"
