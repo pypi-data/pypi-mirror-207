@@ -1,0 +1,1 @@
+This Python package is BUilding Footprint Extractor Test
