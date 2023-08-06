@@ -1,0 +1,9 @@
+lxml
+six
+networkx
+
+[full]
+cython
+numpy
+numexpr
+tables>=3.3.0
