@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: arclet-alconna-tools
+Version: 0.6.0rc1
+Summary: Builtin Tools for Alconna
+License: MIT
+Author-email: RF-Tar-Railt <rf_tar_railt@qq.com>
+Requires-Python: >=3.8
+Requires-Dist: arclet-alconna>=1.7.0rc6
+Requires-Dist: nepattern<0.6.0,>=0.5.0
+Description-Content-Type: text/markdown
+
+# Alconna Tools
+
+Provider various tools for Alconna
