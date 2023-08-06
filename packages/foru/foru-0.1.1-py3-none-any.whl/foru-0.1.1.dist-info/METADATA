@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: foru
+Version: 0.1.1
+Summary: 
+Author: Archean-w
+Author-email: 1091876908@qq.com
+Requires-Python: >=3.8,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiohttp (>=3.8.4,<4.0.0)
+Requires-Dist: mpv (>=1.0.3,<2.0.0)
+Requires-Dist: prettytable (>=3.6.0,<4.0.0)
+Requires-Dist: pyside6 (>=6.5.0,<7.0.0)
+Requires-Dist: qasync (>=0.24.0,<0.25.0)
+Requires-Dist: requests (>=2.28.2,<3.0.0)
+Description-Content-Type: text/markdown
+
+## Test for setup
