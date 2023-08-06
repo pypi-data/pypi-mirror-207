@@ -1,0 +1,7 @@
+autora-core
+scikit-learn
+torch
+scipy
+
+[dev]
+autora-core[dev]
