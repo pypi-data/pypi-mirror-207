@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.py
+cnaclib/__init__.py
+cnaclib/rac.py
+cnaclib.egg-info/PKG-INFO
+cnaclib.egg-info/SOURCES.txt
+cnaclib.egg-info/dependency_links.txt
+cnaclib.egg-info/top_level.txt
