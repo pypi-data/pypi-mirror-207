@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: spline-basis
+Version: 0.1
+Author-email: Biprateep Dey <biprateep@pitt.edu>
+License: MIT License
+        
+        Copyright (c) 2023 Biprateep Dey
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# spline_basis
+
+[![Template](https://img.shields.io/badge/Template-LINCC%20Frameworks%20Python%20Project%20Template-brightgreen)](https://lincc-ppt.readthedocs.io/en/latest/)
+
+
+A python library to generate spline basis functions. Check out examples in the [notebooks](docs/notebooks/).
+
+### Installation:
+From PyPi: `pip install spline-basis`
+
+Currently supported basis functions:
+1. $\mathrm{M}$-Splines: Non-negative spline functions which integrate to 1 over the support of the basis function.
+2. $\mathrm{I}$-Splines: Monotone spline functions defined as the integral of M-splines.
+
+
+
+**Notes:**
+1. The M/I splines are based on [`Ramsay (1988)`](https://www.jstor.org/stable/2245395)and the [`Praat manual`](http://www.fon.hum.uva.nl/praat/manual/spline.html). This specific implementation is a jit-compiled version of the implementation in the [`dms_variants`](https://jbloomlab.github.io/dms_variants/index.html) python package but with a different API ([`dms_variants` Source Code](https://jbloomlab.github.io/dms_variants/_modules/dms_variants/ispline.html#Isplines)).
+
+TODO:
+1. Enable `cahe=True` for `nb.jit`
+2. replace asserts with exceptions.
+
+
+maintainer: Biprateep Dey
+contact: `biprateep@pitt.edu`
