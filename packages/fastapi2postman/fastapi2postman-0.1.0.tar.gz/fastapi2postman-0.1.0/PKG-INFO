@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: fastapi2postman
+Version: 0.1.0
+Summary: FastAPI APIs to Postman collections
+Home-page: https://github.com/ashhadahsan/fastapi2postman
+Author: Ashhad Ahsan Rehman
+Author-email: ashhadahsan@gmail.com
+License: MIT
+Platform: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Framework :: FastAPI
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Internet :: WWW/HTTP :: Site Management
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Utilities
+License-File: LICENSE
+
+UNKNOWN
+

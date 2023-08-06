@@ -1,0 +1,10 @@
+LICENSE
+README.md
+fastapi2postman.py
+setup.py
+fastapi2postman.egg-info/PKG-INFO
+fastapi2postman.egg-info/SOURCES.txt
+fastapi2postman.egg-info/dependency_links.txt
+fastapi2postman.egg-info/entry_points.txt
+fastapi2postman.egg-info/requires.txt
+fastapi2postman.egg-info/top_level.txt
