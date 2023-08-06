@@ -1,0 +1,8 @@
+include src/figurative/static/figurative/*
+include src/figurative/static/figurative/css/*
+include src/figurative/static/figurative/js/*
+
+include src/figurative/templates/figurative/*
+include src/figurative/templates/figurative/blocks/*
+
+recursive-exclude * .DS_Store *.pyc

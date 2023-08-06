@@ -1,0 +1,11 @@
+Django<4.2,>=4.1
+wagtail<4.2,>=4.1
+django-auxiliaries<4.2,>=4.1
+csskit<1.1,>=1.0
+wagtail-content-admin<4.2,>=4.1
+wagtail-dynamic-choice<4.2,>=4.1
+wagtail-preference-blocks<4.2,>=4.1
+media-catalogue<4.2,>=4.1.2
+tour-guide<4.2,>=4.1
+aldine<4.2,>=4.1.1
+js-initiator<4.2,>=4.1

@@ -1,0 +1,30 @@
+{% extends slideshow.block.meta.figure_template %}
+{% load django_auxiliaries_tags aldine_tags tour_guide_tags %}
+
+{% block prologue %}
+<div class="{{ wrapper_css_classes }}"{% if wrapper_initiator %}data-initiator-create="{{ wrapper_initiator }}"{% endif %}
+        {% if slideshow.slide_pause %} data-slide-pause="{{ slideshow.slide_pause }}"{% endif %}
+        {% if slideshow.slide_auto_play_delay %} data-slide-auto-play-delay="{{ slideshow.slide_auto_play_delay }}"{% endif %}>
+{% endblock %}
+
+{% block caption_prologue %}
+{% endblock %}
+
+
+{% block epilogue %}
+{% if cells_and_items|length > 1 %}
+<nav class="slideshow-indicators">
+{% for cell, item in cells_and_items %}
+{% if figure.anchor_category %}
+{% concat figure.anchor_category '-' figure_id '-' cell.source_order|add:'1' as slide_id %}
+{% link_anchor figure.anchor_category cell.annotations.caption.anchor_identifier|default:slide_id %}
+<span class="slideshow-indicator{% if cell.render_index == 0 %} current-slide{% endif %}"></span>
+{% endlink_anchor %}
+{% else %}
+<span class="slideshow-indicator{% if cell.render_index == 0 %} current-slide{% endif %}"></span>
+{% endif %}
+{% endfor %}
+</nav>
+{% endif %}
+</div>
+{% endblock %}
