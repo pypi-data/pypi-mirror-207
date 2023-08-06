@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: screeny
+Version: 0.1.0
+Summary: A simple python library for working with screens and images.
+Author: Paul Pol
+Author-email: mail@paul-pol.de
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE-3RD-Party.txt
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: mss
+Requires-Dist: PySide6
+
+# Screeny
+A simple python library for working with screens and images.
+
+## Installation
+
+```sh
+pip install screeny
+```
+
+## Usage
+
+```python
+from screeny import Screeny
+
+sc = Screeny()
+img = sc.take_screenshot()
+```
+
+## API-Reference
+
+* screeny.take_screenshot
+* screeny.get_mouse_pos
+
+
+### screeny.take_screenshot(rect: QRect = None)
+
+Takes a screenshot of the complete monitor or a given area as "rect".
+
+### get_mouse_pos()
+        
+Returns the current position of the mouse as a tuple of xy-coordinates.
