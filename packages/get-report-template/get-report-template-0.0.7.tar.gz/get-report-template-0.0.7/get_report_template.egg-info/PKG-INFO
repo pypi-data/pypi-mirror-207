@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: get-report-template
+Version: 0.0.7
+Home-page: https://github.com/jaytrairat/python-get-report-template
+Author: JayTrairat
+Author-email: jaytrairat@gmail.com
+Description-Content-Type: text/markdown
+
+# MyPackage
+
+MyPackage is a Python package that provides a function to copy a file to the current location.
+
+## Installation
+
+You can install MyPackage using `pip`:
+pip install cellebrite_report
+
+## Usage
+
+
+```python
+```
