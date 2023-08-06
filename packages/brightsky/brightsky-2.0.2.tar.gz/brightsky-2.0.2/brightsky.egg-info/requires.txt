@@ -1,0 +1,16 @@
+astral
+click
+coloredlogs
+dwdparse[lean]
+falcon>=3
+gunicorn
+huey
+isal
+numpy
+orjson
+parsel
+psycopg2-binary
+python-dateutil
+redis
+requests
+sentry-sdk
