@@ -1,0 +1,8 @@
+setup.py
+solrvalidator/__init__.py
+solrvalidator.egg-info/PKG-INFO
+solrvalidator.egg-info/SOURCES.txt
+solrvalidator.egg-info/dependency_links.txt
+solrvalidator.egg-info/top_level.txt
+solrvalidator/src/__init__.py
+solrvalidator/src/validator.py
