@@ -1,0 +1,14 @@
+vcorelib>=1.6.2
+rcmpy
+gitPython
+
+[test]
+pylint
+flake8
+black
+ruff
+mypy
+isort
+yamllint
+setuptools-wrapper
+types-setuptools

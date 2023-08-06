@@ -1,0 +1,5 @@
+---
+sources:
+  github:
+    host: github.com
+    user: git
