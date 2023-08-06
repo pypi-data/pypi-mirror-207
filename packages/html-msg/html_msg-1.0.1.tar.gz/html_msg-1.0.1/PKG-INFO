@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: html_msg
+Version: 1.0.1
+Summary: This tool allows to create HTML message via simple methods,         even if you dont now HTML
+Author: Sirakan Bagdasarian
+Author-email: bsirak@bk.ru
+License: MIT
+Keywords: HTML,Message
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+test
+
