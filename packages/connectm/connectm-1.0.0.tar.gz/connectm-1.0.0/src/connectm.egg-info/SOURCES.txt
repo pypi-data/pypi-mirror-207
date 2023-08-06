@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+src/bot.py
+src/connectm.py
+src/gui.py
+src/mocks.py
+src/tui.py
+src/connectm.egg-info/PKG-INFO
+src/connectm.egg-info/SOURCES.txt
+src/connectm.egg-info/dependency_links.txt
+src/connectm.egg-info/entry_points.txt
+src/connectm.egg-info/requires.txt
+src/connectm.egg-info/top_level.txt
+tests/test_bot.py
+tests/test_connectm.py
