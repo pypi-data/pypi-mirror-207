@@ -1,0 +1,87 @@
+{
+    "version": "1.0.0",
+    "system_name": "BAT批处理集成平台",
+    "menuconfig_file": "menucfg*.json",
+    "default_hash": [
+        "f47fd5af0c8343d07404a0d2ce5ba62db5df509e",
+        "b6589fc6ab0dc82cf12099d1c2d40ab994e8410c",
+        "356a192b7913b04c54574d18c28d46e6395428ab"
+    ],
+    "config_password": [
+        "f47fd5af0c8343d07404a0d2ce5ba62db5df509e",
+        "356a192b7913b04c54574d18c28d46e6395428ab"
+    ],
+    "account_sub_menu_dic": {
+        "设置BAT账号": "BAT",
+        "设置ERP账号": "ERP",
+        "设置EAS账号": "EAS"
+    },
+    "account_type_dic": {
+        "ERP": {
+            "default_account": "f9b531805c280b9f61e0dfdd8e69c2fd",
+            "account_password": {}
+        },
+        "BAT": {
+            "default_account": "f9b531805c280b9f61e0dfdd8e69c2fd",
+            "account_password": {}
+        },
+        "EAS": {
+            "default_account": "f9b531805c280b9f61e0dfdd8e69c2fd",
+            "account_password": {}
+        }
+    },
+    "enable_config": 1,
+    "menus": [
+        {
+            "menu_name": "Excel批处理",
+            "menu_configfile": "./config/batframe/menucfg_DFTrans.json",
+            "for_use": "是",
+            "command_type": "3",
+            "img_file": "./config/img/Excel.png"
+        },
+        {
+            "menu_name": "inner demo",
+            "menu_configfile": "./config/batframe/menucfg_inner_demo.json",
+            "for_use": "是",
+            "command_type": "4",
+            "img_file": "./config/img/Excel.png"
+        },
+        {
+            "menu_name": "ramfile测试",
+            "menu_configfile": "./config/batframe/menucfg_test_ramfile.json",
+            "for_use": "是",
+            "command_type": "4",
+            "img_file": "./config/img/little_bear.png"
+        }
+    ],
+    "command_type_menu": {
+        "1": "本地文件处理",
+        "2": "远程RPA处理",
+        "3": "通用工具",
+        "4": "测试工具"
+    },
+    "function_call": {
+        "无": "",
+        "批量处理Excel文件": "DF_Trans_main",
+        "自定义内部函数示例1": "inner_demo",
+        "自定义内部函数示例2": "inner_demo1"
+    },
+    "subprocess_PIPE": 1,
+    "subprocess_console": 0,
+    "inner_function_exe": "",
+    "error_define": {
+        "100": "登录其他错误",
+        "101": "帐号为空",
+        "102": "密码为空",
+        "103": "密码错误",
+        "104": "用户不存在",
+        "105": "登录出错",
+        "106": "未发现数据",
+        "201": "命令所需文件不全",
+        "202": "读取文件失败",
+        "203": "文件格式不匹配",
+        "204": "写入文件错误",
+        "205": "未选择账号",
+        "206": "命令参数错误"
+    }
+}
