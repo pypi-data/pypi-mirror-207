@@ -1,0 +1,8 @@
+setup.py
+module/__init__.py
+module/hi.py
+my_module_goto95.egg-info/PKG-INFO
+my_module_goto95.egg-info/SOURCES.txt
+my_module_goto95.egg-info/dependency_links.txt
+my_module_goto95.egg-info/requires.txt
+my_module_goto95.egg-info/top_level.txt
