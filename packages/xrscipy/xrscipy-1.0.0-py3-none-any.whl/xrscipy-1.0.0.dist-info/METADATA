@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: xrscipy
+Version: 1.0.0
+Summary: Scipy integrated into xarray
+License: Apache
+Author: xarray Developers
+Author-email: xarray@googlegroups.com
+Requires-Python: >=3.9,<3.12
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: docstring-parser (>=0.15,<0.16)
+Requires-Dist: scipy (>=1.9)
+Requires-Dist: urllib3 (>2)
+Requires-Dist: xarray (>=2023)

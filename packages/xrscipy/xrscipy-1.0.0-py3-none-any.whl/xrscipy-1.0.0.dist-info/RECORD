@@ -1,0 +1,15 @@
+xrscipy/__init__.py,sha256=hcJ5GFlt1c6rkY8ngcDrpjSpl92gLQle9TH5s1yl1Uk,11
+xrscipy/docs.py,sha256=YZX3rGcSXBTV6SVIJxuBFcvGSSarYtO79zv2roYE40I,5396
+xrscipy/errors.py,sha256=UEODwrm1WuukEWzkr2DUS0xVJBgtdQ37rfCJNi2fMBw,814
+xrscipy/fft.py,sha256=fIXAk244mLlp358VQAplFxPI0FkT05A02gh1KGNlQkk,8257
+xrscipy/fftpack.py,sha256=VSk7xGdPKKh8LXH3MFC1ld2uvgX8nfjxpdVkKapr5tc,3549
+xrscipy/integrate.py,sha256=tJCNeCurlj4-ME47daLLqhy7OHPaNVxljUFiUcUU3W4,4170
+xrscipy/other/__init__.py,sha256=D-U0iaQZLarypIjBNHkyIF8RUy6ekAgFzz9duWMpCH8,64
+xrscipy/other/signal/__init__.py,sha256=1Ed3MBUdmXIkbJPNav4sWgXQa7wpj-_KBvdNqMw6PJc,99
+xrscipy/other/signal/filters.py,sha256=N8jvhDxKiwmUeW-f63mpYh9wJPUGm-r7LYe85NPFYBE,25115
+xrscipy/other/signal/spectral.py,sha256=tQfpTzhyyzsBWt2E4dSwZsl6-IY6ktzxjQycIWlqCsc,25850
+xrscipy/other/signal/utils.py,sha256=f9UwFkOx8qLy0SezdhrbsTPBobydulpITvd-IEDE4KI,2238
+xrscipy/utils.py,sha256=8uGMJ93biKe7uJ6L9XcCeZhhrfAyFIiSFhUiholS0lU,2206
+xrscipy-1.0.0.dist-info/METADATA,sha256=soQq-rNRBWTaMGfZsqSB939AD2RWPqggE_2FbBGWyHQ,981
+xrscipy-1.0.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+xrscipy-1.0.0.dist-info/RECORD,,
