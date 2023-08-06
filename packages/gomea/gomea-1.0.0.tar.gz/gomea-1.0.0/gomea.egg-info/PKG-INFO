@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: gomea
+Version: 1.0.0
+Summary: Library for the use of various variants of the Gene-pool Optimal Mixing Evolutionary Algorith (GOMEA).
+Home-page: https://github.com/abouter/gomea
+Author: Anton Bouter
+Author-email: Anton.Bouter@cwi.nl
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[![Build and run demo](https://github.com/abouter/gomea/actions/workflows/run_demo.yml/badge.svg?branch=main)](https://github.com/abouter/gomea/actions/workflows/run_demo.yml)
+
+# README
+
+Note: This readme is incomplete.
+
+## INSTALL
+To install, execute the following in the root GOMEA folder.
+```
+make install
+```
+
+## RUN
+See the demo directory for examples.
