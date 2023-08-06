@@ -1,0 +1,10 @@
+setup.py
+garaprod.egg-info/PKG-INFO
+garaprod.egg-info/SOURCES.txt
+garaprod.egg-info/dependency_links.txt
+garaprod.egg-info/requires.txt
+garaprod.egg-info/top_level.txt
+garastem/__init__ copy.py
+garastem/__init__.py
+garastem/modules.py
+garastem/version.py
