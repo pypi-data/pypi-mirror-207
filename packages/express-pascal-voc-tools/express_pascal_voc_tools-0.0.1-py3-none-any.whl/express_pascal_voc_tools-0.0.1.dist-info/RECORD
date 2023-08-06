@@ -1,0 +1,14 @@
+voc_reader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+voc_reader/reader.py,sha256=EE2WzKWuZ3d92_cDyl3CBUltqGmE8m2lZKSDBUZkhC0,1982
+voc_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+voc_tools/annotation.py,sha256=tFm73f1CvgzIUxsSsJpCDEsvrKoEI2v_Es9nmReQ0Oc,1538
+voc_tools/reader.py,sha256=E36jK0yoZbG7gBUnLe801iIV9aG6QSfwnccwIaHQCDY,1216
+voc_tools/visulizer.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+voc_tools/writer.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+voc_writer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+voc_writer/writer.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+express_pascal_voc_tools-0.0.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+express_pascal_voc_tools-0.0.1.dist-info/METADATA,sha256=czocVKXBdUpGDFBFcI9rQNmcyNzaAg9ogjf119zrWpg,705
+express_pascal_voc_tools-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+express_pascal_voc_tools-0.0.1.dist-info/top_level.txt,sha256=BEIRbXJaixPtWipkPnKwZ1duYzDYu7pw6gtXHzP6Pr8,10
+express_pascal_voc_tools-0.0.1.dist-info/RECORD,,
