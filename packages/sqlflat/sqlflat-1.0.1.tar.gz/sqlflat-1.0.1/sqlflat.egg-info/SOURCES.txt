@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+README.rst
+setup.py
+sqlflat.egg-info/PKG-INFO
+sqlflat.egg-info/SOURCES.txt
+sqlflat.egg-info/dependency_links.txt
+sqlflat.egg-info/entry_points.txt
+sqlflat.egg-info/requires.txt
+sqlflat.egg-info/top_level.txt
