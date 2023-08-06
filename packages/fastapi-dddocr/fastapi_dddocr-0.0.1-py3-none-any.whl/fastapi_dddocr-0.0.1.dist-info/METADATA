@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: fastapi-dddocr
+Version: 0.0.1
+Summary: 这一个api接口，主要是用于验证码识别
+Home-page: 
+Author: jixn
+Author-email: 1770550067@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+这一个api接口，主要是用于验证码识别
