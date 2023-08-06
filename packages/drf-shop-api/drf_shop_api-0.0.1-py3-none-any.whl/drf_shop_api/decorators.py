@@ -1,0 +1,12 @@
+from drf_shop_api.customers.models import CustomerBonusWallet, CustomerCart, CustomerWishList
+
+
+def create_shop_profile(func):
+    def wrapper(self, *args, **kwargs):
+        user = func(self, *args, **kwargs)
+        CustomerWishList.objects.create(user=user)
+        CustomerBonusWallet.objects.create(user=user)
+        CustomerCart.objects.create(user=user)
+        return user
+
+    return wrapper
