@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pamai/__init__.py
+pamai/version.py
+pamai.egg-info/PKG-INFO
+pamai.egg-info/SOURCES.txt
+pamai.egg-info/dependency_links.txt
+pamai.egg-info/requires.txt
+pamai.egg-info/top_level.txt
