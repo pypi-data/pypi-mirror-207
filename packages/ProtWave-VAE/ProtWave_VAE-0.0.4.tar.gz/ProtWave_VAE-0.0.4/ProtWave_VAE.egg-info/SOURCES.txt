@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+ProtWave_VAE/__init__.py
+ProtWave_VAE/model_components.py
+ProtWave_VAE/model_ensemble.py
+ProtWave_VAE/wavenet_decoder.py
+ProtWave_VAE.egg-info/PKG-INFO
+ProtWave_VAE.egg-info/SOURCES.txt
+ProtWave_VAE.egg-info/dependency_links.txt
+ProtWave_VAE.egg-info/requires.txt
+ProtWave_VAE.egg-info/top_level.txt
