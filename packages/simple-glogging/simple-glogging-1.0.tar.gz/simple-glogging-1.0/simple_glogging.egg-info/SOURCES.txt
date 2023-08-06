@@ -1,0 +1,8 @@
+README.md
+setup.py
+simple-glogging/simple_logs.py
+simple_glogging.egg-info/PKG-INFO
+simple_glogging.egg-info/SOURCES.txt
+simple_glogging.egg-info/dependency_links.txt
+simple_glogging.egg-info/requires.txt
+simple_glogging.egg-info/top_level.txt
