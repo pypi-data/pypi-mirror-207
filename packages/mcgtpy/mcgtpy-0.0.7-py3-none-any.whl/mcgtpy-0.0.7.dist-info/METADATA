@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: mcgtpy
+Version: 0.0.7
+Summary: My first Python Package!
+Author: Myles Thomas
+Author-email: mylescgthomas@gmail.com
+License: MIT
+Keywords: conversion
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: timedelta
+Requires-Dist: datetime
+Requires-Dist: pandas
+Requires-Dist: requests
+
+This package will have everything I use on a daily basis to make life easier when coding in Python.
