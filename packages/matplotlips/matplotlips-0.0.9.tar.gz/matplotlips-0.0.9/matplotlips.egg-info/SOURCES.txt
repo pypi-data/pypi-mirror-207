@@ -1,0 +1,7 @@
+setup.py
+matplotlips/__init__.py
+matplotlips/charts.py
+matplotlips.egg-info/PKG-INFO
+matplotlips.egg-info/SOURCES.txt
+matplotlips.egg-info/dependency_links.txt
+matplotlips.egg-info/top_level.txt
