@@ -1,0 +1,7 @@
+setup.py
+pdftrainer.egg-info/PKG-INFO
+pdftrainer.egg-info/SOURCES.txt
+pdftrainer.egg-info/dependency_links.txt
+pdftrainer.egg-info/top_level.txt
+tests/__init__.py
+tests/test_pdfparser.py
