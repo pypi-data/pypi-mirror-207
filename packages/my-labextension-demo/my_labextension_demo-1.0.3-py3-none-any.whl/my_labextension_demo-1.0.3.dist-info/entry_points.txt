@@ -1,0 +1,2 @@
+[pylsp]
+my_labextension_demo = my_labextension_demo.plugin
