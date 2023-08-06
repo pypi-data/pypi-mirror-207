@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: manim-course-utils
+Version: 0.1.0
+Summary: 
+Author: MathLike
+Author-email: benjamin.ubilla@uc.cl
+Requires-Python: >=3.10,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: manim (>=0.17.3,<0.18.0)
+Description-Content-Type: text/markdown
+
+# Utilidades del curso de Manim
+
+Utilidades del curso de [ManimCE](https://www.manim.community) disponible en el canal [https://youtube.com/@mathlike].
+
