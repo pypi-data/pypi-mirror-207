@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: mkdocs-ultralytics-plugin
+Version: 0.0.6
+Summary: An MkDocs plugin that generates meta description and image tags based on the first paragraph and the first image in a page
+Author: Ultralytics
+Author-email: hello@ultralytics.com
+License: AGPL-3.0
+License-File: LICENSE
