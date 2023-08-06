@@ -1,0 +1,117 @@
+<html>
+
+<head>
+    <base target="_blank">
+    <style type="text/css">
+        ::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+    <style id="cloudAttachStyle" type="text/css">
+        #divNeteaseBigAttach,
+        #divNeteaseBigAttach_bak {
+            display: none;
+        }
+    </style>
+</head>
+
+<body tabindex="0" role="listitem">
+    <div id="content" class="netease_mail_readhtml netease_mail_readhtml_webmail">
+        <div style="width: 720px;  	margin: 0 auto;">
+            <div class="banner-has"
+                style="width: 720px;  	height: 100px;  	background: red;  	background:url(https://static.mntmdev.com/img/1683596756.png) ;  	background-repeat: no-repeat;  	background-position: center;  	background-size:100%;  	margin-bottom: 4px;">
+                &nbsp;</div>
+            <div
+                style="	padding-bottom: 120px;  		padding-top: 50px;  		background: #f7fafa;  		padding-left: 50px;  		width: 670px;  		margin-bottom: 4px;">
+                <h2 style="font-size: 18px;  		color: #555556;  		margin-bottom: 30px;">尊敬的用户：</h2>
+                <p style="	font-size: 14px;  		color: #6c6f70;  		margin-bottom: 20px;  		line-height: 30px;">
+                    本库存监测系统已发现新上架的库存。内容如下：
+                <ul>
+                    {% for key,value in content.items() %}
+                    <li>
+                        {{ value.name }}
+                        <img src="https://static.lspsp.cn/goods/{{ key }}/cover.jpg">
+                        {{ value.info }}
+                    </li>
+                    {% endfor %}
+                </ul>
+                若您对其中的几款游戏感兴趣，可点击下方链接查看/领取。<br>
+                <a href="https://www.lspsp.me/bonus">点击此处查看当前库存状态</a>
+                </p>
+            </div>
+            <div
+                style="width:690px;background: #f7fafa;  		font-size: 12px;  		line-height: 72px;  		color: #a7b3b3;  		width: 720px;">
+                　　LSPMonitor-带你走向LSP白嫖之路</div>
+        </div>
+        <div style="clear:both;height:1px;"></div>
+    </div>
+    <style type="text/css">
+        * {
+            white-space: normal !important;
+            word-break: break-word !important;
+        }
+
+        body {
+            font-size: 14px;
+            font-family: arial, verdana, sans-serif;
+            line-height: 1.666;
+            padding: 0;
+            margin: 0;
+            overflow: auto;
+            white-space: normal;
+            word-wrap: break-word;
+            min-height: 100px
+        }
+
+        td,
+        input,
+        button,
+        select,
+        body {
+            font-family: Helvetica, 'Microsoft Yahei', verdana
+        }
+
+        pre {
+            white-space: pre-wrap !important;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+            width: 95%
+        }
+
+        th,
+        td {
+            font-family: arial, verdana, sans-serif;
+            line-height: 1.666
+        }
+
+        img {
+            border: 0
+        }
+
+        header,
+        footer,
+        section,
+        aside,
+        article,
+        nav,
+        hgroup,
+        figure,
+        figcaption {
+            display: block
+        }
+
+        blockquote {
+            margin-right: 0px
+        }
+    </style>
+    <style id="ntes_link_color" type="text/css">
+        a,
+        td a {
+            color: #064977
+        }
+    </style>
+</body>
+
+</html>
