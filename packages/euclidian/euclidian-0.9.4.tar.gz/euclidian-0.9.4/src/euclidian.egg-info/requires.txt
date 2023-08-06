@@ -1,0 +1,10 @@
+typename
+
+[dev]
+bumpversion
+build
+twine
+
+[test]
+pytest
+hypothesis
