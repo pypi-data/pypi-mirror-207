@@ -1,0 +1,13 @@
+Changes
+=======
+
+1.0.0 (2023-05-10)
+------------------
+
+- Added all the classes to api.py, so you can more easily import them.
+
+
+1.0b1 (2023-03-15)
+------------------
+
+- First beta
