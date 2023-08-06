@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+datacyclist.egg-info/PKG-INFO
+datacyclist.egg-info/SOURCES.txt
+datacyclist.egg-info/dependency_links.txt
+datacyclist.egg-info/requires.txt
+datacyclist.egg-info/top_level.txt
