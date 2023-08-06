@@ -1,0 +1,13 @@
+preql_nlp/__init__.py,sha256=Y3w0EDMqyeijoesSvZtGxZMYxKpmvPNFZP5-Bo_oMgI,160
+preql_nlp/constants.py,sha256=iDeQjV4XZ4b67CV6r8RaceOsEIkQ_vrBd83fv7KLLZ8,83
+preql_nlp/main.py,sha256=Lpo8-GCKHkjeHN15L7MrB3D4eQfAOeHmRWBttZ2F5zQ,7532
+preql_nlp/monkeypatch.py,sha256=ihIsK3hTVoFTTq8Z0kgd4583US1fM0V-gtDc4SUuRHA,672
+preql_nlp/prompts/__init__.py,sha256=0rDCDC6lvnHPl0aliyyacJGqfx8Us1Cq_KprF-8kPMI,228
+preql_nlp/prompts/final_selection.py,sha256=m2imiGAAYSop03TbkXiyhOIu-qPr1wiU9RgD_wsStZI,2357
+preql_nlp/prompts/prompt_executor.py,sha256=nczvf3oogFN0gySUz6jbnkLmA8KwTiyS5CY0oLurJGo,4317
+preql_nlp/prompts/query_semantic_extraction.py,sha256=zjXyRTMaxuObVacmpnPWGsVgCEJUIUpZUKe1kX89DM4,1284
+preql_nlp/prompts/semantic_to_tokens.py,sha256=BGvJF6wiQUQe0iaxgfxAzlPsac3bEoRCOwHnXYU7udU,1195
+pypreql_nlp-0.0.5.dist-info/METADATA,sha256=uuQq_hEuubKRkvkMpncfDvpCfsMVZO9-ZrXDaV1mt6k,2098
+pypreql_nlp-0.0.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pypreql_nlp-0.0.5.dist-info/top_level.txt,sha256=UZiub1uzeix3_aXE5e1WFK-NAyQuGSd4t3jM83LVnjI,10
+pypreql_nlp-0.0.5.dist-info/RECORD,,
