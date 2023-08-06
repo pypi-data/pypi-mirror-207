@@ -1,0 +1,10 @@
+redcat/__init__.py,sha256=Fs6J43dU0JhpMGhdCggT9jK_iBqc50LfvAQIApWkwdY,227
+redcat/base.py,sha256=TG1Y6_7wVHt_r5VF0aF3PvQAOTTr_MRSjW3kRlfSuHc,18686
+redcat/comparators.py,sha256=mBJQFbBeTXdJ-uW-9jlcAmkXmq1dpLH5lF5PYFgP0C8,2428
+redcat/tensor.py,sha256=xzqRYRVlV1i7V93tr5_b4ltdNwH2i5OjWwA5O9GCWvA,123157
+redcat/tensorseq.py,sha256=6oRtcK8Vwh4WAVS_FNwH3mWQ-QJXU9eiT1X765Dzr3I,47982
+redcat/utils.py,sha256=B469q99FYs9tXPUvY9xoG0lg3PPOVlLNMcFKZf3_hh4,12060
+redcat-0.0.1a165.dist-info/LICENSE,sha256=7wnC4cmbLW29-edCxt2DQq9uo1vLirgRpscnqfg-7ZQ,1501
+redcat-0.0.1a165.dist-info/METADATA,sha256=SkgNnOXAUM14DxahTHvOsuu8Hj480YICUKETm3kueZk,2130
+redcat-0.0.1a165.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+redcat-0.0.1a165.dist-info/RECORD,,
