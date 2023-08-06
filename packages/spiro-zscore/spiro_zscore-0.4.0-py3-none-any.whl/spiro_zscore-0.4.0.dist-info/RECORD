@@ -1,0 +1,8 @@
+spiro_zscore/__init__.py,sha256=hgxHps08KqRzhQ5LMpxXvU7cH21r3Q7bjNR0eQIDYXs,60
+spiro_zscore/version.py,sha256=97TTxI1KyKAOX0mR7LS6e2RNbE-FOjKRxlHxKsZaXRo,58
+spiro_zscore/zscore.py,sha256=Z_YItq16495M69JBgjKE58x8lCC2ic_igUqPRT9bjes,9342
+spiro_zscore/tables/spiro-zscore-lookup.csv,sha256=c79BDtIVSJq2Nn50L1votQejaDVSs24ZFDnqdRGWpik,632216
+spiro_zscore-0.4.0.dist-info/METADATA,sha256=TeQuTrXWJMOJahsjrecmi4Slyfn8HiT81KPYGbcyNNQ,357
+spiro_zscore-0.4.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+spiro_zscore-0.4.0.dist-info/top_level.txt,sha256=eXTeQkJ_xsi6PKUwV88YwWuP4-iJ3fDxm9zWHRzVu30,13
+spiro_zscore-0.4.0.dist-info/RECORD,,
