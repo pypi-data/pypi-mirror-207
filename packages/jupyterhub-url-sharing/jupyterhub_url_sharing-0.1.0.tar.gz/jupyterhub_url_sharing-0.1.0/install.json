@@ -1,0 +1,5 @@
+{
+  "packageManager": "python",
+  "packageName": "jupyterhub_url_sharing",
+  "uninstallInstructions": "Use your Python package manager (pip, conda, etc.) to uninstall the package jupyterhub_url_sharing"
+}
