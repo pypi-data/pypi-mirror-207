@@ -1,0 +1,7 @@
+setup.py
+odoo14_addon_account_move_line_vat.egg-info/PKG-INFO
+odoo14_addon_account_move_line_vat.egg-info/SOURCES.txt
+odoo14_addon_account_move_line_vat.egg-info/dependency_links.txt
+odoo14_addon_account_move_line_vat.egg-info/not-zip-safe
+odoo14_addon_account_move_line_vat.egg-info/requires.txt
+odoo14_addon_account_move_line_vat.egg-info/top_level.txt
