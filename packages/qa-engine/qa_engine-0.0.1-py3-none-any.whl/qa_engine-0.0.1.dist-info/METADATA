@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: qa_engine
+Version: 0.0.1
+Summary: OMbot QA Engine
+Project-URL: Homepage, https://git.linker.cc/research/misc/qa_engine.git
+Author-email: KeleiJiang <18852088031@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: langchain>=0.0.142
+Description-Content-Type: text/markdown
+
+# QA engine
+
+OMBot项目的QA引擎，提供项目问答功能
+## 使用方法
+### 1. 触发闲聊模式
+```python
+from qa_engine import QAEngine
+from ombot_utils.schemas import ChatRecords
+
+if __name__ == '__main__':
+    qa = QAEngine()
+
+    records = {
+        "bot_id": "2",
+        "session_id": "string",
+        "callback": "string",
+        "messages": [
+            {
+                "role": "user",
+                "message_type": "image",
+                "src_type": "url",
+                "content": "https://minio/hzlh/omintel/cess/c25f30559b974c728e5dbe1d4177aa5a.jpg",
+                "objects": []
+            },
+            {
+                "role": "user",
+                "message_type": "text",
+                "src_type": "text",
+                "content": "你好，请问你是谁？",
+                "objects": []
+            }
+        ]
+    }
+    records = ChatRecords(**records)
+    qa.run(bot_id="2", chat_records=records)
+```
+### 1. 触发专业模式
+```python
+from qa_engine import QAEngine
+from ombot_utils.schemas import ChatRecords
+
+if __name__ == '__main__':
+    qa = QAEngine()
+
+    records = {
+        "bot_id": "2",
+        "session_id": "string",
+        "callback": "string",
+        "messages": [
+            {
+                "role": "user",
+                "message_type": "image",
+                "src_type": "url",
+                "content": "https://minio/hzlh/omintel/cess/c25f30559b974c728e5dbe1d4177aa5a.jpg",
+                "objects": []
+            },
+            {
+                "role": "user",
+                "message_type": "text",
+                "src_type": "text",
+                "content": "视频中有人摔倒吗？",
+                "objects": []
+            }
+        ]
+    }
+    records = ChatRecords(**records)
+    qa.run(bot_id="2", chat_records=records)
+```
