@@ -1,0 +1,10 @@
+include src/wagtail_attachments/static/wagtail_attachments/*
+include src/wagtail_attachments/static/wagtail_attachments/js/*
+include src/wagtail_attachments/static/wagtail_attachments/css/*
+
+include src/wagtail_attachments/templates/wagtail_attachments/*
+include src/wagtail_attachments/templates/wagtail_attachments/tags/*
+
+exclude src/wagtail_attachments/static_migrations
+
+recursive-exclude * .DS_Store *.pyc
