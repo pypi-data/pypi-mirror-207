@@ -1,0 +1,9 @@
+setup.py
+deep_clone_gfg_test.egg-info/PKG-INFO
+deep_clone_gfg_test.egg-info/SOURCES.txt
+deep_clone_gfg_test.egg-info/dependency_links.txt
+deep_clone_gfg_test.egg-info/entry_points.txt
+deep_clone_gfg_test.egg-info/not-zip-safe
+deep_clone_gfg_test.egg-info/top_level.txt
+gfg/__init__.py
+gfg/gfg.py
