@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+hoopar/__main__.py
+hoopar.egg-info/PKG-INFO
+hoopar.egg-info/SOURCES.txt
+hoopar.egg-info/dependency_links.txt
+hoopar.egg-info/top_level.txt
