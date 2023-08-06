@@ -1,0 +1,11 @@
+# overrides for running tests
+
+services:
+
+  conformance_test:
+    build: ./docker/conformance-tests
+    volumes:
+      - ./_test_outputs:/build/run/output
+      - ./docker/conformance-tests/test-run-props.xml:/build/run/test-run-props.xml
+    profiles:
+      - testing
