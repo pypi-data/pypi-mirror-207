@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: segmentheepy-test
+Version: 0.0.2
+Summary: Segmenthee library
+Home-page: UNKNOWN
+Author: Michaletzky Tamas
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Requires-Dist: scikit-learn (==0.23.2)
+Requires-Dist: user-agents (==2.2.0)
+Requires-Dist: xgboost (==1.4.0)
+
+UNKNOWN
+
+
