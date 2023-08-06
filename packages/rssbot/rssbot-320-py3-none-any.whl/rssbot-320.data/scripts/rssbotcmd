@@ -1,0 +1,90 @@
+#!python
+# This file is placed in the Public Domain.
+# pylint: disable=C,I,R,E0611,E0402
+
+
+__author__ = "B.H.J. Thate <thatebhj@gmail.com>"
+__version__ = 1
+
+
+import os
+import sys
+import termios
+import traceback
+
+
+sys.path.insert(0, os.getcwd())
+
+
+from rssbot.clients import Client
+from rssbot.command import command, scan
+from rssbot.errored import Errors
+from rssbot.loggers import Logging
+from rssbot.message import parse
+from rssbot.modules import cmd, irc, rss
+from rssbot.objects import update
+from rssbot.persist import Persist
+from rssbot.runtime import Cfg
+
+
+scan(cmd)
+scan(irc)
+scan(rss)
+
+
+Persist.workdir = "/var/lib/rssbot/"
+
+
+def cprint(txt):
+    if "v" in Cfg.opts:
+        print(txt)
+        sys.stdout.flush()
+
+
+class CLI(Client):
+
+    def announce(self, txt):
+        pass
+
+    def raw(self, txt):
+        print(txt)
+        sys.stdout.flush()
+
+
+def main():
+    cfg = parse(' '.join(sys.argv[1:]))
+    update(Cfg, cfg)
+    Logging.raw = cprint
+    cli = CLI()
+    command(cli, Cfg.otxt)
+
+
+def waiter():
+    got = []
+    for ex in Errors.errors:
+        if not Cfg.silent:
+            traceback.print_exception(type(ex), ex, ex.__traceback__)
+        got.append(ex)
+    for exc in got:
+        Errors.errors.remove(exc)
+
+
+def wrap(func):
+    fds = sys.stdin.fileno()
+    gotterm = True
+    try:
+        old = termios.tcgetattr(fds)
+    except termios.error:
+        gotterm = False
+    try:
+        func()
+    except (EOFError, KeyboardInterrupt):
+        print('')
+    finally:
+        if gotterm:
+            termios.tcsetattr(fds, termios.TCSADRAIN, old)
+        waiter()
+
+
+if __name__ == "__main__":
+    wrap(main)
