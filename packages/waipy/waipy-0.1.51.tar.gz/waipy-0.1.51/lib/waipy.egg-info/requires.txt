@@ -1,0 +1,10 @@
+
+[all]
+netCDF4
+jupyter
+
+[jupyer]
+jupyter
+
+[load_netcdf]
+netCDF4
