@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: python-omnilogic-local
+Version: 0.0.1
+Summary: A library for local control of Hayward OmniHub/OmniLogic pool controllers using their local API
+Home-page: https://github.com/cryptk/python-omnilogic-local
+License: Apache-2.0
+Author: cryptk
+Author-email: cryptk@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Project-URL: Repository, https://github.com/cryptk/python-omnilogic-local
+Description-Content-Type: text/markdown
+
+Set OMNILOGIC_HOST env var to the IP address of your omnilogic controller
+
+Light States:
+These are based on observations while controlling the light
+0 - Off
+1 - Powering Off
+3 - Changing Show
+4 - Powering On, 15 seconds of white light
+5 - 
+6 - On
+7 - Off (Cooldown?)
