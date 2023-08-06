@@ -1,0 +1,16 @@
+scutls/.DS_Store,sha256=ChLIOjUtxrcDPvYtOa9bMBurLE-h2T6E4NdV0_K5Kys,6148
+scutls/__init__.py,sha256=mFY0GwwuN-a3M8w93_mskS6GZIvv9SNdjLfJaWNsm-I,22
+scutls/arguments.py,sha256=wRGD3C9tL9l8MPOCxDcaq-2CxgJupnrj6Iyp9YoVotg,5682
+scutls/assets/genome_ensembl_107_54_54_54.json,sha256=-33iV4damoDHRF05NDkYOSI0uB_I8PfCqNmwN39RX7w,214034
+scutls/assets/genome_ensembl_release_all.txt,sha256=BOi_zkvT6sgNbxkyUhi8_-WYnf8ehiz71dsg8ln2PLo,1014
+scutls/assets/genome_ensembl_release_use.txt,sha256=AP8EzxngQmOWCOUEOeGsoRfleRGr0KSg7yV5cCcj_bk,50
+scutls/assets/genome_ucsc.json,sha256=7S-3zlUDoPYygZclUqFJ78ovLu6-gsXFeFsOphPk8cg,41218
+scutls/barcode.py,sha256=2thi4RN7eSq-V31OqQd-fnfn248A8TvgPiNA6CTh1xU,3891
+scutls/cli.py,sha256=8s5qSLIfzgKkrwT_r9HO2NMy20XuA7thymUfQMjPL-c,1023
+scutls/download.py,sha256=ArKVLGkFIEKpQdxWRmstXb3lfVJltI84j083ddTROEs,7682
+scutls/fastq.py,sha256=Doc6KYNz4cUp2pILs6PuE54kRPvKhyCYQNmS-HRUujY,3603
+scutls/util.py,sha256=ICp6swIDTnNaJCieOoHAl_K5Ahz0X-ho2KAqeP17inU,7624
+scutls-0.1.8.dist-info/entry_points.txt,sha256=KL-w6s2KKE2MRwOMmXKhvEpjy0uuAetKA3otJxbMjrc,48
+scutls-0.1.8.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+scutls-0.1.8.dist-info/METADATA,sha256=5yP0xIHPk-5Xfek67a5YDVdW_S0FrhxtSwIKhYCSIcQ,765
+scutls-0.1.8.dist-info/RECORD,,
