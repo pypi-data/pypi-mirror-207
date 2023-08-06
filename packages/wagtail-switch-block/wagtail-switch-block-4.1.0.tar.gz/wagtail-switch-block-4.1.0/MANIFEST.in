@@ -1,0 +1,6 @@
+include src/wagtail_switch_block/static/wagtail_switch_block/css/*
+include src/wagtail_switch_block/static/wagtail_switch_block/js/*
+
+include src/wagtail_switch_block/templates/wagtail_switch_block/*
+
+recursive-exclude * .DS_Store *.pyc
