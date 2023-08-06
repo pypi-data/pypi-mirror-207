@@ -1,0 +1,8 @@
+setup.py
+cveutils/__init__.py
+cveutils.egg-info/PKG-INFO
+cveutils.egg-info/SOURCES.txt
+cveutils.egg-info/dependency_links.txt
+cveutils.egg-info/requires.txt
+cveutils.egg-info/top_level.txt
+test/test.py
