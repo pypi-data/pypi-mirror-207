@@ -1,0 +1,6 @@
+[console_scripts]
+check_submodule_commits = orf_utils.check_submodule_commits:main
+check_version = orf_utils.check_version:main
+configure_repo_settings = orf_utils.configure_repo_settings:main
+get_team_approval_status = orf_utils.get_team_approval_status:main
+tag_commit = orf_utils.tag_commit:main
