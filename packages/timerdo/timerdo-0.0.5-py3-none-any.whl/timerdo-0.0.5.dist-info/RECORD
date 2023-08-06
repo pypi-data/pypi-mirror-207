@@ -1,0 +1,11 @@
+timerdo/__init__.py,sha256=xEuvrW3glOCBZBHqb0HP1eaO5WnsnYfbB-HMj-UF-SE,100
+timerdo/config.py,sha256=Dd6gzYduexiZAU1mTs0bteqx0h7vJ7uoumUdXxOOj9A,955
+timerdo/core.py,sha256=keP8XF2G8S_5VZxxl0JgjTGqyIOrIEa2N8H7rAOpU-c,11736
+timerdo/database.py,sha256=353pfWGmwhaCPPe_4bkmOmcaiowf6YRM7IW3CLS7JhE,1075
+timerdo/exceptions.py,sha256=TnWKkRD6GL7mFcw-SOyERyiN6JazqD_T7jvGg6jK0uA,630
+timerdo/main.py,sha256=wWwU__KZ3rqMhHrCDD83JozQuHViKlGRgP_-MGleRFs,5414
+timerdo/models.py,sha256=3x_2cmaMVf-WTEQhiK5D4H-Q9MUMuZ6I4FgopSCRNgA,1681
+timerdo-0.0.5.dist-info/entry_points.txt,sha256=AF-pnFa8mIHDMAiBvxvSA3HlHYHsygv6L1wzsFvoTe4,44
+timerdo-0.0.5.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+timerdo-0.0.5.dist-info/METADATA,sha256=DsEupvfaXkuJgJf5zFQuvbvIIQKPLNj8P0cXmH34B5A,3066
+timerdo-0.0.5.dist-info/RECORD,,
