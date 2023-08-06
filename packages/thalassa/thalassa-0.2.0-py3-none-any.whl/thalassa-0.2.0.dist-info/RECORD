@@ -1,0 +1,11 @@
+thalassa/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+thalassa/api.py,sha256=sMBzTF-Mmq4ggY_zasBn2fBSiUr52LXD-aKfJye8PwU,11314
+thalassa/normalization.py,sha256=IY8U-3dnoJx3oEFVdVUr4RedIzKhBGVRopIaq75HTj0,5327
+thalassa/static/favicon.png,sha256=Nfyq3XivtsBwU-RVHj2oWs05dbmBDbnLwsp_djJkXZs,5039
+thalassa/static/logo.png,sha256=SVx3VUyEnXhq94GK2k7MKec1-AMFYq8WLA6M5QxdTp8,4987
+thalassa/ui.py,sha256=JKaz-gQ5V1JKcmrZO8FtmyEKCpBp5XGvt4neTprGpao,18092
+thalassa/utils.py,sha256=KU7X7Ij5uybrvFr1BBDa3beqPkKNUx1kXvTWCxYbBJg,9720
+thalassa-0.2.0.dist-info/LICENSE,sha256=55cv0fTGVmhpNoXZr95cd6Fh_N_i7_aVCsH-44oUN1A,14138
+thalassa-0.2.0.dist-info/METADATA,sha256=E1gQLL6HQzCwUIpc1EA2cVZITxRRdME6OG7yfCXUshY,3565
+thalassa-0.2.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+thalassa-0.2.0.dist-info/RECORD,,
