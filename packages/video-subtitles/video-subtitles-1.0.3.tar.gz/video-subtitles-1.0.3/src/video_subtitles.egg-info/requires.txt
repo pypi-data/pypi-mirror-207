@@ -1,0 +1,5 @@
+download
+srtranslator
+gTTS
+playaudio
+PyQt6==6.3.1
