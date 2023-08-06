@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+virgoSuite.egg-info/PKG-INFO
+virgoSuite.egg-info/SOURCES.txt
+virgoSuite.egg-info/dependency_links.txt
+virgoSuite.egg-info/top_level.txt
