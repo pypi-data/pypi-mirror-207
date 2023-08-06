@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+setup.py
+tests/test_word2num.py
+word2num/__init__.py
+word2num/number_word_parser.py
+word2num/word2num.py
+word2num.egg-info/PKG-INFO
+word2num.egg-info/SOURCES.txt
+word2num.egg-info/dependency_links.txt
+word2num.egg-info/requires.txt
+word2num.egg-info/top_level.txt
+word2num/languages/__init__.py
+word2num/languages/en/__init__.py
+word2num/languages/en/parser.py
+word2num/languages/en/vocabulary.py
+word2num/languages/en/word_matcher.py

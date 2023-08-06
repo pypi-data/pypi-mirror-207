@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: word2num
+Version: 0.1.0
+Summary: Converts numbers expressed in words to numerical values.
+Home-page: https://github.com/doppio/word2num
+Author: Bryson Thill
+Author-email: bryson@streamliners.dev
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Text Processing :: Linguistic
+License-File: LICENSE.txt
