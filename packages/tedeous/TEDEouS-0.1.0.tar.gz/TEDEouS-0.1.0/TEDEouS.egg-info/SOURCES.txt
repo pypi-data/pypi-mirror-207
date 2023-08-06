@@ -1,0 +1,7 @@
+LICENCE
+README.rst
+setup.py
+TEDEouS.egg-info/PKG-INFO
+TEDEouS.egg-info/SOURCES.txt
+TEDEouS.egg-info/dependency_links.txt
+TEDEouS.egg-info/top_level.txt
