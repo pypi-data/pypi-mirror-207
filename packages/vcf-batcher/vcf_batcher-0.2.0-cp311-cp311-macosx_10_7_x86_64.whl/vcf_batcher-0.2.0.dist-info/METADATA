@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: vcf_batcher
+Version: 0.2.0
+Summary: Command-line tool to cut VCF (variant call files) into smaller batches, intended to be used for multiprocessing or distributed computing.
+Keywords: vcf,batch,batching,variant_call_file
+Home-Page: https://github.com/GeroVanMi/vcf_batcher
+Author: Gérôme Meyer <gerome.meyer@icloud.com>
+Author-email: Gérôme Meyer <gerome.meyer@icloud.com>
+License: MIT
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source Code, https://github.com/GeroVanMi/vcf_batcher
+
+# VCF Batcher
+[![Rust](https://github.com/GeroVanMi/vcf_batcher/actions/workflows/build.yml/badge.svg)](https://github.com/GeroVanMi/vcf_batcher/actions/workflows/build.yml)
+
+Rust crate to cut VCF (variant call files) into smaller batches, intended to be used for multiprocessing or distributed computing. 
+
+
