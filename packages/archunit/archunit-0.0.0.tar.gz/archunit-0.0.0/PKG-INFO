@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: archunit
+Version: 0.0.0
+Author-Email: Nick Khitrov <khitrov34@gmail.com>
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# archunit
