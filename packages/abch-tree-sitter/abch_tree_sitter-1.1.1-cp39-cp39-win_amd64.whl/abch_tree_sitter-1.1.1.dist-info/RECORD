@@ -1,0 +1,7 @@
+tree_sitter/__init__.py,sha256=KYxj0ktZiEiD-LvrQjUlVFEk7kLKlVJ7JdoJ14mWQYc,3535
+tree_sitter/binding.cp39-win_amd64.pyd,sha256=5P5Y5ynx2Hgtnf39iSbgV9svrZ66ATMG5YBbxa6g3rw,165376
+abch_tree_sitter-1.1.1.dist-info/LICENSE,sha256=xAoRWz19QpyDm8UazjRkwvN8lVm61sYlGoYoHCfqVDE,1109
+abch_tree_sitter-1.1.1.dist-info/METADATA,sha256=xoHpAVqH_FUmqzUNYrtNW00KBZ8LGxGJ3rh_310-KFE,7885
+abch_tree_sitter-1.1.1.dist-info/WHEEL,sha256=eep6QWEFiQfg2wcclssb_WY-D33AnLYLnEKGA9Rn-VU,100
+abch_tree_sitter-1.1.1.dist-info/top_level.txt,sha256=oNKDFAeLi6i39EcTTW75DL0SE5sMBkgX0TRMpJe3Lrs,12
+abch_tree_sitter-1.1.1.dist-info/RECORD,,
