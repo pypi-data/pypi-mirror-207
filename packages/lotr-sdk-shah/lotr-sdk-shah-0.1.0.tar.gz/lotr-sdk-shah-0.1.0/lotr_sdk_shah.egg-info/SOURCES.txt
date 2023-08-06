@@ -1,0 +1,7 @@
+README.md
+setup.py
+lotr_sdk_shah.egg-info/PKG-INFO
+lotr_sdk_shah.egg-info/SOURCES.txt
+lotr_sdk_shah.egg-info/dependency_links.txt
+lotr_sdk_shah.egg-info/requires.txt
+lotr_sdk_shah.egg-info/top_level.txt
