@@ -1,0 +1,21 @@
+<div class="picker-field">
+<header><h6>{{ widget.label }}</h6>
+{% comment %}
+<select>
+    <option value="frequency">Frequency</option>
+    <option value="ascending">Ascending</option>
+</select>
+{% endcomment %}
+</header>
+<div class="picker-menu">
+
+{% for order, choice in sorted_choices %}
+<input name="{{ widget.identifier }}" id="{{ widget.identifier }}-{{ choice.identifier }}" class="picker-choice-checkbox" type="checkbox" {% if choice.selected %}checked {% endif %}value="{{ choice.value }}"{% if widget.form_id %} form="{{ widget.form_id }}"{% endif %}>
+<label for="{{ widget.identifier }}-{{ choice.identifier }}" class="picker-choice" style="--order-by-source: {{ order }}; --order-by-frequency: {{ choice.frequency }};">
+<a class="fallback-link" href="{{ choice.alternative_url }}">
+{{ choice.label }}
+</a>
+</label>
+{% endfor %}
+</div>
+</div>

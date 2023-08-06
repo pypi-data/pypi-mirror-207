@@ -1,0 +1,15 @@
+{% load wagtailcore_tags %}
+{% if wrapper_element %}<{{ wrapper_element }}{% if classname %} class="{{ classname }}"{% endif %}>{% endif %}
+{% if not result_slice.is_empty and not result_slice.is_only_slice %}
+<span class="query-result-label">
+{% if slice_choices|length == 1 %}{{ page_label }}
+{% elif slice_choices|length == 0 %}{{ no_pages_label }}
+{% else %}{{ page_label_plural }}{% endif %}
+</span>
+{% for number, label, url in slice_choices %}
+<a class="query-result-slice-label{% if result_slice.number == number %} is-active{% endif %}" href="{{ url }}">{{ label }}</a>
+{% endfor %}
+{% if previous_link_and_label %}<a class="query-result-previous-slice-label" href="{{ previous_link_and_label.0 }}">Previous</a>{% endif %}
+{% if next_link_and_label %}<a class="query-result-next-slice-label" href="{{ next_link_and_label.0 }}">Next</a>{% endif %}
+{% endif %}
+{% if wrapper_element %}</{{ wrapper_element }}>{% endif %}

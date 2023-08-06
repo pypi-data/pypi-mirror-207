@@ -1,0 +1,7 @@
+{% load querykit_tags %}
+<div{% if panel.html_identifier %} id="{{ panel.html_identifier }}"{% endif %}{% if panel.classname %} class="{{ panel.classname }}"{% endif %}>
+{% if panel.label %}<h2>{{ panel.label }}</h2>{% endif %}
+{% for nested_panel in panel.ordered_panels %}
+{% include_query_form_panel nested_panel %}
+{% endfor %}
+</div>

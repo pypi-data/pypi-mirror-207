@@ -1,0 +1,2 @@
+
+QUERYKIT_QUERY_FORM_CLASSNAME = "query-form"
