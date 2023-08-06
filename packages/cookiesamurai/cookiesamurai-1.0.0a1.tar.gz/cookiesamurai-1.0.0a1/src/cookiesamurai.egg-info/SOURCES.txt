@@ -1,0 +1,14 @@
+README.md
+cookiecutter.json
+pyproject.toml
+setup.py
+.github/workflows/python-publish.yml
+src/cookiesamurai/__init__.py
+src/cookiesamurai/__main__.py
+src/cookiesamurai/main.py
+src/cookiesamurai.egg-info/PKG-INFO
+src/cookiesamurai.egg-info/SOURCES.txt
+src/cookiesamurai.egg-info/dependency_links.txt
+src/cookiesamurai.egg-info/entry_points.txt
+src/cookiesamurai.egg-info/requires.txt
+src/cookiesamurai.egg-info/top_level.txt
