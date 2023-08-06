@@ -1,0 +1,16 @@
+flightplandb/__init__.py,sha256=bndz_DoYkhzPIt2vMQmZCr-S3V19dqeozXe1H-nwr44,706
+flightplandb/api.py,sha256=imxDywyo196wPk751i9OEWy6hgo7q6PomX4kferSBwQ,3559
+flightplandb/datatypes.py,sha256=e8wFsWvtXr8alfgX-p601rM4HNHg2ySIezbN4FiXb7Y,26569
+flightplandb/exceptions.py,sha256=VQ-mUV1cXrJkioOxLqWlzTeiWnObaeSEp4q2nzwfaOU,4077
+flightplandb/internal.py,sha256=k9WVgElEcfdWOw4-2XxetP3uPEXZh7Q95zFan3tkSbc,20538
+flightplandb/nav.py,sha256=qf7w6TqHsnbirN9Fj0s9ln7Z7oxxejjv0bbU7Ldmo4M,2610
+flightplandb/plan.py,sha256=T2H-mu2gyEBo1-TDA6VKmJCQeksV-yCHhsehMQOTfJs,11940
+flightplandb/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flightplandb/tags.py,sha256=oRqK1fr1GvI1kzzXk6mEAhpZqMYi-V099lvUhYgLZ2Q,607
+flightplandb/user.py,sha256=W7JxjaZzwaGOKVE-7h89NlKzZUcPAfIAaq1t3DUSPIk,3818
+flightplandb/weather.py,sha256=VPti3XWWVcLqdDNS1WhLLgjj-Nc_mtcAYknsqgL-F1A,757
+flightplandb-0.8.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+flightplandb-0.8.0.dist-info/METADATA,sha256=WH-W5_ANTlDC57Rqns8u1QmU9jyuDr2JJ60hKa6lq7I,3263
+flightplandb-0.8.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+flightplandb-0.8.0.dist-info/top_level.txt,sha256=amlE-oZlujvoZFAVCwdjn035tk_pGbF7zSpOz0wHJQY,13
+flightplandb-0.8.0.dist-info/RECORD,,
