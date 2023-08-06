@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: intake-dataframe-catalog
+Version: 0.0.6
+Summary: An intake driver for a searchable table of intake catalogs and associated metadata
+Author: ACCESS-NRI
+License: Apache-2.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
