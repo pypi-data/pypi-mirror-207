@@ -1,0 +1,9 @@
+tetgen/__init__.py,sha256=ZFqoVYUAnOauYVC7lyyM6XiMZzVuQV96b0EK3cA12BE,127
+tetgen/_tetgen.cp37-win_amd64.pyd,sha256=_bsEU5Zc8Sxh-NWxhXS5kV61W6J6ZczXC1ijeSJ9Fdg,658432
+tetgen/_version.py,sha256=TF0D_1L-HnWHwSMm2ZbLzdVAZ5EF7I6YuNdOe0KlCmI,292
+tetgen/pytetgen.py,sha256=UvtMOGZKhnK7aqrmW2YJZLs60yaeqZJ5fMrsqiVvjTE,28871
+tetgen-0.6.3.dist-info/LICENSE,sha256=u0j7KpsioD1fHKbt4hhXvPqKrSi4Hf3WfjJEDiOSaJM,35455
+tetgen-0.6.3.dist-info/METADATA,sha256=50LTH37gCXR8dHU2vYqsQSL3JVlw_LCD4u_mOnnPONw,5222
+tetgen-0.6.3.dist-info/WHEEL,sha256=bipuClDp75Tl92wOCbNQvfy8uWiHgUDTfxkDCRx_slY,101
+tetgen-0.6.3.dist-info/top_level.txt,sha256=bYPhTrU-UMyOwWYnbt8oGnHNZMCCbJ3pQlXnlLLPOWk,7
+tetgen-0.6.3.dist-info/RECORD,,
