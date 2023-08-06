@@ -1,0 +1,11 @@
+vision_xformer/__init__.py,sha256=_BrFeqBp0JV1dHfLRRKnfxu6WYtSzNTm9Yryz0AV5O8,231
+vision_xformer/fnet.py,sha256=JTsUzu0Own7BOMGOoTvgI3bTplJyLA3wPkrffxlJ7lI,3456
+vision_xformer/fnet2d.py,sha256=gtE17OFmnzzJ9bXwJbqCIXfCVQr03Q5niUqzDk6Ib5o,1843
+vision_xformer/vision_linformer.py,sha256=P-JgQet2zxj3m4rKXt7e1pKAzJraBeX3aIkGZ8xsUQk,6497
+vision_xformer/vision_nystromformer.py,sha256=gmmaejNS4_cLoIb5KlS_AkGqfUQvSNL2joePJ0qt9zM,7009
+vision_xformer/vision_performer.py,sha256=ldMdHXjaMP63VuTtnppIzu9j_rdLHTPOsGzFWmA5rrc,14796
+vision_xformer-0.1.9.dist-info/LICENSE,sha256=taqUmBu2J0ocgyzqIXJWXbqTVjyQjHIYFYXwZ3sE_Wc,1072
+vision_xformer-0.1.9.dist-info/METADATA,sha256=RMperwbwvdzOemL_w4xnSaq9zaMb0c8Ik9PilFQG8TM,6302
+vision_xformer-0.1.9.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+vision_xformer-0.1.9.dist-info/top_level.txt,sha256=FWM4PkalA09QIp6u7wf7B50hXVo7GFIg7vt7OujOk9k,15
+vision_xformer-0.1.9.dist-info/RECORD,,
