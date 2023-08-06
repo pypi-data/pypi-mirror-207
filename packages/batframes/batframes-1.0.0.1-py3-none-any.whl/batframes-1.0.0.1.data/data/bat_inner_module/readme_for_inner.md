@@ -1,0 +1,1 @@
+该目录下保存在../config/batframe/bat_tools_config.json中function_call配置的用户自定义功能函数，函数名和文件名同名，并且必须用inner_开头
