@@ -1,0 +1,9 @@
+duckdb_kernel/__init__.py,sha256=clN3TnyYyt5T_wUJLVBmutS2kYLLBET4JFB2QXnRm2Q,21
+duckdb_kernel/__main__.py,sha256=DC_VFP-XTGSVZCaX2A5YWwHirTovZ_ygO4rNBpzHv8M,132
+duckdb_kernel/kernel.py,sha256=17Ua_Ft7o6QjoJZacDuO18Yn5uEO_5Z81VAebKm4Yl4,2495
+duckdb_kernel/kernel_template.json,sha256=pYmybVwjB9mBlkBoAugJ13LwbUWT6eI5ja7lSI4lxDM,142
+duckdb_kernel-0.2.0.dist-info/LICENSE.txt,sha256=1WTH09AYn-o9C-khbW55XIGpNPN3L1GvdRj3RUUszEU,1065
+duckdb_kernel-0.2.0.dist-info/METADATA,sha256=UycqSUdSOwZUTUekgUcVIOcockddlPE4tEvWts6b8Fw,1549
+duckdb_kernel-0.2.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+duckdb_kernel-0.2.0.dist-info/top_level.txt,sha256=KvRRPMnmkQNuhyBsXoPmwyt26LRDp0O-0HN6u0Dm5jA,14
+duckdb_kernel-0.2.0.dist-info/RECORD,,
