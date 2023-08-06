@@ -1,0 +1,2 @@
+[console_scripts]
+conda-cpm = conda_pip_minimal.cli:app
