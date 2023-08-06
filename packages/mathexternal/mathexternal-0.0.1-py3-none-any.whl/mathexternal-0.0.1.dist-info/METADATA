@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: mathexternal
+Version: 0.0.1
+Summary: External functionality for int type
+
+MathExternal class add __len__ method for int base type
