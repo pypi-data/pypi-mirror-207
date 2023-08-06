@@ -1,0 +1,6 @@
+unit_syntax/__init__.py,sha256=QsKSpS1imPUAu0-GqL7IX73kN3eRyUmF2N9hZ6B2NgE,689
+unit_syntax/parser.py,sha256=W3C9GC-nPe5Lfc--A4vHkrnwxsgGwKMHlxgL5u_wS9A,149332
+unit_syntax/transform.py,sha256=Iqb3zIhPzaI7N2E9xvi4egbr0eepevoVCdtZD9UaP2E,4608
+unit_syntax-0.1.2.dist-info/METADATA,sha256=kr02iU1bwUTbZUJ0dkUfmxMnHFPYJDSUgEzr7ToYbzs,5910
+unit_syntax-0.1.2.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+unit_syntax-0.1.2.dist-info/RECORD,,
