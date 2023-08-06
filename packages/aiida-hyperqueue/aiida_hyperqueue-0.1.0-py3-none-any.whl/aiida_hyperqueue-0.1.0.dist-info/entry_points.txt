@@ -1,0 +1,6 @@
+[aiida.cmdline.data]
+hyperqueue=aiida_hyperqueue.cli:data_cli
+
+[aiida.schedulers]
+hyperqueue=aiida_hyperqueue.scheduler:HyperQueueScheduler
+
