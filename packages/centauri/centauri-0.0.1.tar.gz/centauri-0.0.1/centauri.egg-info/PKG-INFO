@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: centauri
+Version: 0.0.1
+Summary: centauri library for AI research
+Author: Lab
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+
+minedojo
+========
+
+AI platform

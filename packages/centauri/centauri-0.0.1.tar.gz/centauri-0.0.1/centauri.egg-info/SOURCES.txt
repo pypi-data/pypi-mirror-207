@@ -1,0 +1,7 @@
+README.rst
+setup.py
+centauri/__init__.py
+centauri.egg-info/PKG-INFO
+centauri.egg-info/SOURCES.txt
+centauri.egg-info/dependency_links.txt
+centauri.egg-info/top_level.txt
