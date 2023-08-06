@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: jackpolynomials
+Version: 0.1.0
+Summary: Jack polynomials.
+Home-page: https://github.com/stla/jackpy
+License: GPL-3.0-only
+Keywords: Jack polynomials,Schur polynomials,zonal polynomials,multivariate polynomials,symmetric polynomials
+Author: Stéphane Laurent
+Author-email: laurent_step@outlook.fr
+Requires-Python: >=3.7.1,<3.10
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: docs
+Requires-Dist: gmpy2 (>=2.0,<3.0)
+Requires-Dist: numpy (>=1.21.2,<2.0.0)
+Requires-Dist: sphinx (>=5.3.0,<6.0.0); extra == "docs"
+Requires-Dist: sphinx-rtd-theme (>=1.1.1,<2.0.0); extra == "docs"
+Requires-Dist: sphinxcontrib-napoleon (>=0.7,<0.8); extra == "docs"
+Requires-Dist: sphinxcontrib-restbuilder (>=0.3,<0.4); extra == "docs"
+Requires-Dist: sympy (>=1.9,<2.0)
+Project-URL: Documentation, https://jackpy.readthedocs.io/en/latest/
+Description-Content-Type: text/markdown
+
+# jackpolynomials
+
+<!-- badges: start -->
+[![Documentation status](https://readthedocs.org/projects/jackpy/badge/)](http://jackpy.readthedocs.io)
+<!-- badges: end -->
+
+Jack polynomials with Python.
+
+```python
+>>> from gmpy2 import mpq
+>>> from sympy.combinatorics.partitions import IntegerPartition
+>>> from jackpy.jack import JackPol
+>>>
+>>> poly = JackPol(3, IntegerPartition([2, 1]), alpha = mpq(3, 2))
+>>> print(poly)
+Poly(7/2*x_0**2*x_1 + 7/2*x_0**2*x_2 + 7/2*x_0*x_1**2 + 6*x_0*x_1*x_2
+ + 7/2*x_0*x_2**2 + 7/2*x_1**2*x_2 + 7/2*x_1*x_2**2, x_0, x_1, x_2, domain='QQ')
+```
+
