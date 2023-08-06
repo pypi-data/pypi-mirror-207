@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: py-serializer-100523
+Version: 0.1.2
+Summary: Demo library
+Home-page: https://py-serializer.readthedocs.io/
+Author: Alina Bybko
+Author-email: alina_bybko@email.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: regex
+
+# JSON/XML Serialization
+
+## Installation
+
+```
+
+pip install py-serializer-100523
+
+```
+
+## Get started!
+
+How to create JSON or XML serializer:
+
+```
+
+from py_serializer import Serializer
+
+
+
+json_serializer = Serializer.create_serializer("json")
+
+xml_serializer = Serializer.create_serializer("xml")
+
+```
+
