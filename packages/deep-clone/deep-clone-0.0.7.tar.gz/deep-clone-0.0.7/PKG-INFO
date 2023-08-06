@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: deep-clone
+Version: 0.0.7
+Summary: Deep clone specific folder from a GitHub repo
+Home-page: https://github.com/rajan-personal/deep-clone
+Author: Rajan Gupta
+Author-email: 96rajangupta@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Deep Clone GitHub Repo - Readme
+
+This repository contains a Python script for deep cloning a specific folder within a GitHub repository, rather than cloning the entire repository.
+
+## Features
+
+- Deep clone a specific folder within a GitHub repository
+- Must specify a specific branch
+- Lightweight cloning, only retrieves the required folder
+
+## Requirements
+
+- Python 3.6 or later
+- Git
+
+## Usage
+
+deep_clone url dir
+
+
+
