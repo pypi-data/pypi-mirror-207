@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: calcutils
+Version: 0.1.0
+Summary: A small calcu package
+Home-page: https://github.com/calcu_utils/calcu_utils
+Author: Lahani_Allen
+Author-email: Lahani_Allen <lahani_Allen@utc.com>
+Project-URL: Homepage, https://github.com/calcu_utils/calcu_utils
+Project-URL: Bug Tracker, https://github.com/calcu_utils/calcu_utils/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# info
