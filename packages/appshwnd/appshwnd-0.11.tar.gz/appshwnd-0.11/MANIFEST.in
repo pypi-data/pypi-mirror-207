@@ -1,0 +1,4 @@
+include appshwnd/requirements.txt
+include appshwnd/thirdparty.json
+include appshwnd/LICENSE
+include appshwnd/README.md
