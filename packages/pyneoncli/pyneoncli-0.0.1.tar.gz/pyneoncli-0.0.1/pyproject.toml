@@ -1,0 +1,25 @@
+
+[tool.poetry]
+name = "pyneoncli"
+version = "0.0.1"
+description = "A Python CLI for the Neon API"
+authors = ["Joe Drumgoole <Joe.Drumgoole@neon.tech>"]
+license = "Apache 2.0"
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.30.0"
+pygments = "^2.15.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest]
+addopts = "--cov=my_project --cov-report=html"
+
