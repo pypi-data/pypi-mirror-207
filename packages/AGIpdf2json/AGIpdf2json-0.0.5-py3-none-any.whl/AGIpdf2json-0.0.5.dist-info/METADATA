@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: AGIpdf2json
+Version: 0.0.5
+Summary: This package can help user parse PDF files into text file and JSON file. Additionally, it can help user parse question-answer pairs into a JSONL document in prompt-completion format, that is supported by OpenAI
+Author: Mayank Monu
+Author-email: mayankmono29@gmail.com
+Description-Content-Type: text/markdown
+Requires-Dist: pdfplumber
+Requires-Dist: click
+
+# Multi-purpose PDF parser
+
+This parser was designed keeping in mind requirement for parsing PDFs file to streamline fine tuning process of Large Language Models such as Open AI's GPT models.
+
+## Functionalities:
+
+- PDF file to Text File conversion
+- PDF file to JSON file conversion
+- PDF file to JSONL file conversion
+
+## How to use?
+
+1. PDF file to Text File conversion.
+
+    You can use command ```pdfparser pdftotext INPUT_PDF_FILE_PATH -o OUTPUT_TEXT_FILE_PATH``` to make a copy of contents in your PDF file in a TEXT file of your own choosing.
+
+2. PDF file to JSON File conversion.
+
+    You can use command ```pdfparser pdftojson INPUT_PDF_FILE_PATH -o OUTPUT_TEXT_FILE_PATH``` to make a copy of contents in your PDF file in a JSON file of your own choosing. The JSON file will be in format ```{'text':PDF_CONTENTS}```.
+
+1. PDF file to JSONL File conversion.
+
+    This utility will prove quite helpful if you want to process a question answer data file into JsONL file to process it as source data for various Large Language Model's operations.
+    You can use command ```pdfparser pdftojsonl INPUT_PDF_FILE_PATH -o OUTPUT_TEXT_FILE_PATH``` to extract question-answer pairs from your PDF file and save it in a separate JSONL file.
+
+    Input file format: Your question answer pairs in PDF should be in ```Question: What is a cat? Answer: Cat is an animal```. New line separator will not affect the parser at all.
+    Output format: A jsonl file in structure similar to ```[{'prompt':Question, 'completion':Answer}]``` format.
