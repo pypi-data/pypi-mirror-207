@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: toolforge-weld
+Version: 0.1
+Summary: Shared Python code for Toolforge infrastructure components
+Author: Taavi Väänänen
+Author-email: hi@taavi.wtf
+License: AGPL-3.0-or-later
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: python-dateutil
+Requires-Dist: PyYAML
+Requires-Dist: requests
+
