@@ -1,0 +1,51 @@
+[tool.poetry]
+name = "tdxpy"
+version = "0.2.0"
+description = ""
+authors = ["bopo <ibopo@126.com>"]
+readme = "README.md"
+packages = [{ include = "tdxpy" }]
+include = ["CHANGELOG.md"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.5.1"
+cryptography = "^38.0.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest-datadir = "^1.4.1"
+pytest-cov = "^4.0.0"
+pytest = "^7.2.0"
+
+
+[[tool.poetry.source]]
+name = "mirrors"
+url = "https://mirrors.ustc.edu.cn/pypi/web/simple"
+default = true
+secondary = false
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_option]
+testpaths = "tests"
+addopts = "-p no:warnings"
+
+log_cli = 1
+log_cli_level = "DEBUG"
+
+[tool.commitizen]
+version = "0.2.0"
+tag_format = "v$version"
+
+update_changelog_on_bump = true
+changelog_file = "CHANGELOG.md"
+annotated_tag = true
+
+version_files = [
+    "tdxpy/__init__.py:__version__",
+    "pyproject.toml:version",
+    "Makefile:VERSION := ",
+]
