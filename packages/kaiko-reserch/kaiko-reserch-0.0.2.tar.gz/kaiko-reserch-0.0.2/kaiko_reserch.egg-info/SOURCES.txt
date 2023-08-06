@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+kaiko_reserch.egg-info/PKG-INFO
+kaiko_reserch.egg-info/SOURCES.txt
+kaiko_reserch.egg-info/dependency_links.txt
+kaiko_reserch.egg-info/top_level.txt
