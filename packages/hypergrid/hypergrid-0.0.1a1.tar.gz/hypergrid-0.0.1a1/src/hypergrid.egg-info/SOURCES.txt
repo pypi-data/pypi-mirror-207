@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/hypergrid/__init__.py
+src/hypergrid/grid.py
+src/hypergrid/py.typed
+src/hypergrid.egg-info/PKG-INFO
+src/hypergrid.egg-info/SOURCES.txt
+src/hypergrid.egg-info/dependency_links.txt
+src/hypergrid.egg-info/not-zip-safe
+src/hypergrid.egg-info/top_level.txt
