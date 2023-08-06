@@ -1,0 +1,8 @@
+setup.py
+guimpltataod.egg-info/PKG-INFO
+guimpltataod.egg-info/SOURCES.txt
+guimpltataod.egg-info/dependency_links.txt
+guimpltataod.egg-info/requires.txt
+guimpltataod.egg-info/top_level.txt
+libname/__init__.py
+libname/hello_test_www.py
