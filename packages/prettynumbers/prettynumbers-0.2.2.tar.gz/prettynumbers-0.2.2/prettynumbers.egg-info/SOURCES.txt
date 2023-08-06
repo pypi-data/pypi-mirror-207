@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+pretty_numbers/__init__.py
+pretty_numbers/pretty_numbers.py
+pretty_numbers/test_pretty_numbers.py
+prettynumbers.egg-info/PKG-INFO
+prettynumbers.egg-info/SOURCES.txt
+prettynumbers.egg-info/dependency_links.txt
+prettynumbers.egg-info/top_level.txt
