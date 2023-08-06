@@ -1,0 +1,8 @@
+kandula/__init__.py,sha256=ccDbFJ17_5P96wtkuEx3tRXb0PAOr6yPdH2uojJXQ1o,163
+kandula/q_learning.py,sha256=Pa7qEIoDtbjywxUoR3z5J5oDnfmSMeI8CWDJdhWiZCQ,5231
+kandula/qtable.py,sha256=m80psWl22EtCcEePWne13X06e7yZaSfRmDLAnRgW7ug,3652
+kandula/steps.py,sha256=tcKgrQFuu6floY4hkkf1LQrB3FtzmArSo2o2fAqQKCo,600
+kandula-0.0.2.dist-info/LICENSE,sha256=mRTg7GQl5AVfkYs7_rk44NA0Zsyyqn9imuL6jv5ahhk,1074
+kandula-0.0.2.dist-info/METADATA,sha256=iMYlU1UmW7UZyxnHngfELo-AXRxTxirTdoqUbGHT-ag,984
+kandula-0.0.2.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+kandula-0.0.2.dist-info/RECORD,,
