@@ -1,0 +1,12 @@
+lotr_sdk/__init__.py,sha256=IS_hEXrEWLSpObeycz-t8gx-w_s9wL0-Liuag4kib2I,104
+lotr_sdk/base.py,sha256=0xuzPEspDrv4GtH7dNHSYvlX8yieuQLJRRRLwsQJvoQ,388
+lotr_sdk/movies.py,sha256=bx_VjdLrgP9peFywTsD_GqR80L6Yc51cw-OV8MVQ2zM,433
+lotr_sdk/quotes.py,sha256=FgsiAcxlJtA-KFXFMtOgD2fayDnQeq_WKbXs_0YLKrE,328
+tests/__init__.py,sha256=4dkkgc_V237FdPvT3e83NMYp7HeehOqmrZLBJZNjIMc,16
+tests/test_endpoints/__init__.py,sha256=NPJjR4io0ALitvLK6MK3nI4J4bYX9l1HoF43eLxW7t8,76
+tests/test_endpoints/test_movie.py,sha256=JuIzRCAJXhWVgzS0_9_cwI4oSgVBnmYEJPzQYpIJ1nc,1003
+tests/test_endpoints/test_quote.py,sha256=NkRtME2-jJn_mar8FMO7cy-MXinj7MP7m0Zg_KOzAUE,1697
+gmurtaza_lotr_sdk-0.0.1.dist-info/METADATA,sha256=kGtC1LocQjdiWVt4qzE9RdA_ChlZX8AnJXV3GRIu04c,1302
+gmurtaza_lotr_sdk-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+gmurtaza_lotr_sdk-0.0.1.dist-info/top_level.txt,sha256=HA5FnadDklXXCwOco3domhQJEMrST-nSmvDQlMDjtUc,15
+gmurtaza_lotr_sdk-0.0.1.dist-info/RECORD,,
