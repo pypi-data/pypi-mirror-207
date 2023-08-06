@@ -1,0 +1,15 @@
+figurative/__init__.py,sha256=2loScXMII0M3Wipv9cheQNwCsNivoMpHLXOhBemHMIQ,81
+figurative/apps.py,sha256=RrhEDvoaqe7Oof2nh7EMGYx_iyVuIBfpENPrZ5dJ4Fs,823
+figurative/blocks.py,sha256=8EVd4O6XcR8bpV5nYClXDV6NPqx5XE8vX1US8nvMedY,18353
+figurative/static/figurative/css/figurative.css,sha256=HInMId-P7X72mn0pX3lYPPWNTJULF8IO3kUNZZpfVY4,3804
+figurative/static/figurative/js/figurative.js,sha256=psjLbLttkZUUR7a4CZczFp4sBtR_vynml5kLncEGgNQ,9876
+figurative/templates/figurative/blocks/figure_block.html,sha256=o5Gd6TuUzlzCR0eRxrMczgkBfGGjYRgdwk6Nz7_NlGw,2599
+figurative/templates/figurative/blocks/slideshow_block.html,sha256=wSBjidhwz4-pNoVtLtD3SqGfDXxkqRr1F1uCRyDJ_tU,1197
+figurative/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+figurative/templatetags/figurative_tags.py,sha256=4EhgGsY1RQIE9mmocgCvvW5-SkpHe8c4R82zPcqsyFI,734
+figurative-4.1.0.dist-info/AUTHORS.txt,sha256=964o0V0C4P8MLuinu4syjuy_nyHnpNnxD_YsFeFJ1XM,19
+figurative-4.1.0.dist-info/LICENSE.txt,sha256=NweSuHwd8SQNUs3BTbbG8_n89lPrXG0pc38voODAHcw,1525
+figurative-4.1.0.dist-info/METADATA,sha256=kGdeBIvoqr8EUW4_d3fuzKopaGSC7IM479aI5hanZa0,1659
+figurative-4.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+figurative-4.1.0.dist-info/top_level.txt,sha256=iBDZ2wjtKJoGycvMz4j870eu-eCqqx1LuV01h-K2F18,11
+figurative-4.1.0.dist-info/RECORD,,
