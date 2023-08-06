@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sd-meh"
+version = "0.1.0"
+description = "stable diffusion merging execution helper"
+authors = ["s1dlx <s1dlx@proton.me>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "sd_meh"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
