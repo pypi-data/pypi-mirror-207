@@ -1,0 +1,12 @@
+README.md
+setup.py
+subtitlfy/__init__.py
+subtitlfy/__main__.py
+subtitlfy/cli.py
+subtitlfy/editor.py
+subtitlfy.egg-info/PKG-INFO
+subtitlfy.egg-info/SOURCES.txt
+subtitlfy.egg-info/dependency_links.txt
+subtitlfy.egg-info/entry_points.txt
+subtitlfy.egg-info/requires.txt
+subtitlfy.egg-info/top_level.txt
