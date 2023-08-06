@@ -1,0 +1,6 @@
+setup.py
+practica1_pandas_erika.egg-info/PKG-INFO
+practica1_pandas_erika.egg-info/SOURCES.txt
+practica1_pandas_erika.egg-info/dependency_links.txt
+practica1_pandas_erika.egg-info/requires.txt
+practica1_pandas_erika.egg-info/top_level.txt
