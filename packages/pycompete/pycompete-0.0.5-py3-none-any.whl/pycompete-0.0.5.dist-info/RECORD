@@ -1,0 +1,10 @@
+pycompete/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycompete/_version.py,sha256=nnYR4S84mIxKXXq6yv2-1x3dlDR_IsX50CLTYdbXNWw,160
+pycompete/evaluation/metrics.py,sha256=_mPH8MDPD3sn5pdByrTIckW34kdvPMHoqoPpfKP_rKI,776
+pycompete/features/transformers.py,sha256=sspJGY2J1XxD2pFkhhB0hsfvc7OG8mQ1EUkvtJrrXuk,2611
+pycompete/model_selection/cv_splitters.py,sha256=-Dm2cBzxkMbaT3ChJ56yisInknWD0ClqnjeKrDbwWFg,3446
+pycompete-0.0.5.dist-info/LICENSE.txt,sha256=ULSG6TyyWF2YNzx4sWdTMQ8qc7-SLMrn-3X4mW8FR1s,1073
+pycompete-0.0.5.dist-info/METADATA,sha256=pWEJlRcxgWMd8Ot6dxUm9owP1E7uiavJ4lV1mDNjBw4,1352
+pycompete-0.0.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pycompete-0.0.5.dist-info/top_level.txt,sha256=Y3B1AWklmj4PSYk4TjPMjGvrZDnDjyiDpiIbKKeQJNg,10
+pycompete-0.0.5.dist-info/RECORD,,
