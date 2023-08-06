@@ -1,0 +1,15 @@
+docs/build/
+__pycache__
+*.pyc
+*~
+*.swp
+.coverage
+pyrfu.egg-info/
+build/
+
+# Added/ignored for workflow.
+# PyCharm uses .idea/
+.idea/
+examples/00_overview/.ipynb_checkpoints/
+examples/01_mms/.ipynb_checkpoints/
+examples/02_dispersion/.ipynb_checkpoints/
