@@ -1,0 +1,153 @@
+Metadata-Version: 2.1
+Name: geoips
+Version: 1.10.0a12.post0
+Summary: Geolocated Information Processing System
+License: AUTHORIZATION TO USE AND DISTRIBUTE
+        I hereby agree to the following terms governing the use and redistribution of 
+        the Geolocated Information Processing System (GeoIPS(R)) software release 
+        originally written and developed by the Naval Research Laboratory Marine 
+        Meteorology Division.
+        
+        To the extent that a federal employee is an author of a portion of this 
+        software or a derivative work thereof, no copyright is claimed by the United 
+        States Government, as represented by the Secretary of the Navy ("GOVERNMENT") 
+        under Title 17, U.S. Code. All Other Rights Reserved.
+        
+        Redistribution and use in source and binary forms, with or without 
+        modification, are permitted provided that the following conditions are met 
+        (1) source code distributions retain the above copyright notice, this list 
+        of conditions, and the following disclaimer in its entirety, 
+        (2) distributions including binary code include this paragraph in its entirety 
+        in the documentation or other materials provided with the distribution, and 
+        (3) all published research using this software display the following 
+        acknowledgment: "This work uses the GeoIPS(R) software package written and 
+        developed by the Naval Research Laboratory Marine Meteorology Division."
+        
+        Neither the name of NRL or its contributors, nor any entity of the United 
+        States Government may be used to endorse or promote products derived from this 
+        software, nor does the inclusion of the NRL written and developed software 
+        directly or indirectly suggest NRL's or the United States Government's 
+        endorsement of this product.
+        
+        THIS SOFTWARE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED 
+        WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF 
+        MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+        
+        Notice of Third Party Software Licenses
+        This software contains open source software packages from third parties. 
+        These are available on an .as is. basis and subject to their individual license 
+        agreements. 
+        
+        
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyresample
+Requires-Dist: numpy
+Requires-Dist: xarray
+Requires-Dist: matplotlib (>=3.7.0)
+Requires-Dist: scipy
+Requires-Dist: netcdf4
+Requires-Dist: pyyaml
+Requires-Dist: pyshp (>=2.2.0)
+Requires-Dist: shapely (>=1.8.2)
+Requires-Dist: cartopy (>=0.21.0)
+Requires-Dist: pyaml-env
+Requires-Dist: h5py
+Requires-Dist: pyhdf
+Requires-Dist: rasterio
+Requires-Dist: psutil
+Requires-Dist: pyorbital
+Requires-Dist: ephem
+Requires-Dist: isodate
+Requires-Dist: satpy
+Requires-Dist: numexpr
+Requires-Dist: scikit-image
+Requires-Dist: jsonschema (>=4.18.0a5)
+Requires-Dist: referencing
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Requires-Dist: sphinx-design ; extra == 'doc'
+Requires-Dist: pydata-sphinx-theme ; extra == 'doc'
+Provides-Extra: lint
+Requires-Dist: bandit ; extra == 'lint'
+Requires-Dist: black ; extra == 'lint'
+Requires-Dist: pylint ; extra == 'lint'
+Requires-Dist: flake8 ; extra == 'lint'
+Requires-Dist: flake8-rst-docstrings ; extra == 'lint'
+Requires-Dist: flake8-docstrings ; extra == 'lint'
+Requires-Dist: flake8-rst ; extra == 'lint'
+Requires-Dist: prettier ; extra == 'lint'
+Requires-Dist: doc8 ; extra == 'lint'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+
+    # # # Distribution Statement A. Approved for public release. Distribution unlimited.
+    # # #
+    # # # Author:
+    # # # Naval Research Laboratory, Marine Meteorology Division
+    # # #
+    # # # This program is free software: you can redistribute it and/or modify it under
+    # # # the terms of the NRLMMD License included with this program. This program is
+    # # # distributed WITHOUT ANY WARRANTY; without even the implied warranty of
+    # # # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the included license
+    # # # for more details. If you did not receive the license, for more information see:
+    # # # https://github.com/U-S-NRL-Marine-Meteorology-Division/
+
+GeoIPS Base Package
+====================
+
+The GeoIPS Base Package provides a Python 3 based architecture supporting a wide variety of
+satellite and weather data processing. The modular nature of the GeoIPS base infrastructure also allows
+plug-and-play capability for user-specified custom functionality.
+
+Installation
+------------
+See the
+[installation guide](./docs/source/starter/installation.rst)
+within the source code documentation for installation instructions. GeoIPS has a fully supported
+exhaustive installation process, including a full conda environment, as well as a more basic
+pip based installation for "expert" users.
+
+Creating your own GeoIPS Plugin
+-------------------------------
+
+See the instructions to
+[setup a new plugin](./docs/source/devguide/dev_setup.rst)
+if you are interested in creating your own functionality using the GeoIPS
+infrastructure.
+
+Contributing
+-------------
+Are you interested in
+1. Notifying the geoips team of bugs?
+2. Submitting a fix to a known bug?
+3. Contributing new functionality to the main geoips code base?
+4. Creating your own geoips-compatible plugin?
+
+We welcome all feedback and contributions!
+
+Please review our
+[contributors guide](./docs/source/devguide/contributors.rst)
+for more information.
+
+Contact
+----------
+Please contact geoips@nrlmry.navy.mil with any questions comments or concerns, and
+for additional information about our regular user/developer meetings, Slack channel,
+and other forms of communication.
+
+Acknowledgments and Citations
+------------------------------
+Please display the following acknowledgment within all published research using this software:
+
+    "This work uses the GeoIPS(R) software package written and
+    developed by the Naval Research Laboratory Marine Meteorology Division.
+    https://github.com/NRLMMD-GEOIPS/"
+
+See [GeoIPS LICENSE](https://github.com/NRLMMD-GEOIPS/geoips/blob/main/LICENSE) for
+more information.
+
+* https://github.com/NRLMMD-GEOIPS/geoips/blob/main/LICENSE
