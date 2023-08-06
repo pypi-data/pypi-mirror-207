@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-csgo-case-simulator
+Version: 0.1.10
+Summary: a nonebot based csgo case simulator
+License: MIT
+Author: Roy
+Author-email: lyt2980999208@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Pillow (>=9.5.0,<10.0.0)
+Requires-Dist: httpx (>=0.24.0,<0.25.0)
+Requires-Dist: nonebot-adapter-onebot (>=2.2.3,<3.0.0)
+Requires-Dist: nonebot2 (>=2.0.0-rc.4,<3.0.0)
