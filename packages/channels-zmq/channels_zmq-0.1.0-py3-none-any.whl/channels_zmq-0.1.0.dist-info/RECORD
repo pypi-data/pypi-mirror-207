@@ -1,0 +1,8 @@
+channels_zmq/__init__.py,sha256=pH5i4Fj1tbXLqLtTVIdoojiplZssQn0nnud8-HXodRE,577
+channels_zmq/core.py,sha256=bv5Pf-70GeARNMg-4k7nMtyKFrxsfVIuZI_Taws4jHs,10245
+channels_zmq/management/commands/queue_service.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+channels_zmq-0.1.0.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+channels_zmq-0.1.0.dist-info/METADATA,sha256=bNMccDvnwsac5fHDk01V9fzp10QnrqT7eiCeTE2NjRA,4080
+channels_zmq-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+channels_zmq-0.1.0.dist-info/top_level.txt,sha256=LPgpnfWyOZ_elCBzIMYrDN2CxRmnK66ub-W1DpF53jI,13
+channels_zmq-0.1.0.dist-info/RECORD,,
