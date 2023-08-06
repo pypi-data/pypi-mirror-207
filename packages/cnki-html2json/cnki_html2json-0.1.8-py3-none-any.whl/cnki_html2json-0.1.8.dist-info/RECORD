@@ -1,0 +1,12 @@
+cnki_html2json/__init__.py,sha256=1CUarGSwycOh0GKIcMutmmKE9j9E4B6-Jji1lJFY5Aw,21
+cnki_html2json/cli.py,sha256=0Rft8bwsHaSXkA542Z3BfJVEyhSesj6HhegndNOJeHk,1440
+cnki_html2json/crawl.py,sha256=RB3jZc-JLM_hEiyV7OhR5UBUUSLB9cimlbSvH3cqx9Q,11262
+cnki_html2json/html2json.py,sha256=gMj0tDuO2iM5swI0BaNyKTifP1MDne88BrhOQXpr8HE,9460
+cnki_html2json/parse_metadata.py,sha256=Rtmp093asNbOdmb_MYDV-9BBmDLkQhOpONGKk59iB7s,2079
+cnki_html2json/recognize_slider_coordinate.py,sha256=09irWFmI878PA0y5oDIQlflAxptcesfrDhnY6UMHdPI,837
+cnki_html2json-0.1.8.dist-info/LICENSE,sha256=ckrCglW00Do6DGhIcOCaetBgAuN6tkhOQTRC3e3minM,1064
+cnki_html2json-0.1.8.dist-info/METADATA,sha256=igc9Mpk5mJTyx3-5YZZG1GZNi1_GYzIkxG_9VRolvPI,6071
+cnki_html2json-0.1.8.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+cnki_html2json-0.1.8.dist-info/entry_points.txt,sha256=a08TjEcoCYp6cBof7cGFrVFhCYy6dxHNuXK9fm9kf8c,57
+cnki_html2json-0.1.8.dist-info/top_level.txt,sha256=0EzraincrC39Z3OU0JKMATSWE89FKDPMYg-h8UJx9mM,15
+cnki_html2json-0.1.8.dist-info/RECORD,,
