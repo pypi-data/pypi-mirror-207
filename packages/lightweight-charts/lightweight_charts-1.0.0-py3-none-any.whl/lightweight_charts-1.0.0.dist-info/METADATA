@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: lightweight-charts
+Version: 1.0.0
+Summary: Python framework for TradingView's Lightweight Charts JavaScript library.
+Home-page: https://github.com/louisnw01/lightweight-charts-python
+Author: louisnw
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: pywebview
+
+UNKNOWN
+
