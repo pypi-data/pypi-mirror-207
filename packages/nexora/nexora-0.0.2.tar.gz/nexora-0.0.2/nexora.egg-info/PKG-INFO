@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: nexora
+Version: 0.0.2
+Summary: This is an ML project in order to automate ML processes
+Home-page: https://github.com/overenginar/nexora
+Author: Ali Cabukel
+Keywords: xgboost,lightgbm,sklearn,optuna,shap
+Requires-Python: <3.11,>=3.7
+Provides-Extra: test
+License-File: LICENSE
+
+### Next Explora
+
+```
+pip install nexora
+```
