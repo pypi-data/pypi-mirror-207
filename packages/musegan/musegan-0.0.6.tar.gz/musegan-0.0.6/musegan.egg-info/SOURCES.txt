@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+musegan/__init__.py
+musegan/_version.py
+musegan.egg-info/PKG-INFO
+musegan.egg-info/SOURCES.txt
+musegan.egg-info/dependency_links.txt
+musegan.egg-info/requires.txt
+musegan.egg-info/top_level.txt
