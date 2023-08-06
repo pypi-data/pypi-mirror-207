@@ -1,0 +1,75 @@
+*.swp
+*~
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+__pycache__
+
+# Installer logs
+pip-log.txt
+
+# Print Logs
+logs
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+tempfile*.txt
+testdb*/
+tmp.txt
+vsone.*.cPkl
+vsone.*.json
+wbia/dtool/DEPCACHE*/
+test_sql_*/
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+.DS_Store
+*.dump.txt
+*.sqlite3
+*.pkg
+
+#*.ipynb
+.ipynb_checkpoints
+Experiments-*.ipynb
+
+# utool output
+timeings.txt
+failed.txt
+failed_doctests.txt
+
+# Documentation
+_docs/_build/
+
+# Miscelaneous
+branch.sync.sh
+
+# setuptools_scm version discovery writes the version to <pkg>/_version.py
+**/_version.py
+map.png
+
+ca_*/
+devops/migrate.sh
+.buildx.cache/
