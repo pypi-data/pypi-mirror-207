@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "FakeNewsClassifier"
+version = "0.0.20"
+authors = [
+  { name="Matej Koreň", email="xkoren10@stud.fit.vutbr.cz" },
+]
+description = "Simple fake news classifier package created for bachelor's thesis 'Detection of Fake News Using Machine Learning'."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = ["pandas",
+"scikit-learn",
+"matplotlib",
+"seaborn",
+"nltk",
+"tensorflow",
+"keras",
+"scikeras",
+"dill",
+"newspaper3k",
+"lime"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/xkoren10/BP-2022-23"
