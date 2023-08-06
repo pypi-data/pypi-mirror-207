@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+pyproject.toml
+src/Aksharify.py
+src/__init__.py
+src/Aksharify.egg-info/PKG-INFO
+src/Aksharify.egg-info/SOURCES.txt
+src/Aksharify.egg-info/dependency_links.txt
+src/Aksharify.egg-info/requires.txt
+src/Aksharify.egg-info/top_level.txt
