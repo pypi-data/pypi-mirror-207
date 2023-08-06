@@ -1,0 +1,11 @@
+appium_flutter_utils/__init__.py,sha256=QxfVCgHuVo5MCYVteVgR7yoRxx-maOhjRJ-U2OAKHME,1283
+appium_flutter_utils/clicks.py,sha256=bfkXct7lnJ1eQp4cZqVEd0XI2gSz5w_EpBqhbXBtfzg,5239
+appium_flutter_utils/enter_text.py,sha256=6X28byEi1EWxJODdd54btk8aozMige34Ii8YSyITW60,1854
+appium_flutter_utils/finds_widget.py,sha256=tbNVqHk263ITeAW_KWNxAQsqjZC7LPaCVj_0ogDqwH8,906
+appium_flutter_utils/scroll.py,sha256=_akICFxGN8XvPDFil81emiaoEOqMKNr-5fSULvF8kS8,1949
+appium_flutter_utils/setup.py,sha256=TAHTjYJR_p3VeX6saHD2QbKqP1bIfKK7V0SWvQ82xJs,317
+appium_flutter_utils/wait.py,sha256=SNsCDNTfzG9adHdOA2spgcBV0cm1Syb5Z6QML3E6Woc,2112
+appium_flutter_utils-0.1.0.dist-info/METADATA,sha256=Zsssyd0ZJmYZEcsYqXeh3GIvmvy9dbGaJ-WtBa2QXUM,673
+appium_flutter_utils-0.1.0.dist-info/WHEEL,sha256=1sj40b2UKqprBEbJWPmoMwIvLMm3lc0tzYIjecdg2C8,87
+appium_flutter_utils-0.1.0.dist-info/licenses/LICENSE,sha256=0OdJe5iNQkEvzmrwalMse3qe1rGiX68PuIRlNU-IhsY,1096
+appium_flutter_utils-0.1.0.dist-info/RECORD,,
