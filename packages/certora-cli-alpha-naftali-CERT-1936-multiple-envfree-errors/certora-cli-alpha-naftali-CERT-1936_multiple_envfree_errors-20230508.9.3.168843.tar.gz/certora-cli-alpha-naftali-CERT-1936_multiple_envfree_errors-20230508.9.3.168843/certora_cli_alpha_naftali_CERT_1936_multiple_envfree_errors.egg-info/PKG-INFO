@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: certora-cli-alpha-naftali-CERT-1936-multiple-envfree-errors
+Version: 20230508.9.3.168843
+Summary: Runner for the Certora Prover
+Home-page: https://pypi.org/project/certora-cli-alpha-naftali-CERT-1936_multiple_envfree_errors
+Author: Certora
+Author-email: support@certora.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8.16
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Commit 4447d27. Build and Run scripts for executing the Certora Prover on Solidity smart contracts.
+
