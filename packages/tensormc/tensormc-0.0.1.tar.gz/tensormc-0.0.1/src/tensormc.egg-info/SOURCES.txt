@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/tensormc/__init__.py
+src/tensormc/models.py
+src/tensormc.egg-info/PKG-INFO
+src/tensormc.egg-info/SOURCES.txt
+src/tensormc.egg-info/dependency_links.txt
+src/tensormc.egg-info/top_level.txt
