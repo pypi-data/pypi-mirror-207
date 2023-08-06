@@ -1,0 +1,7 @@
+based/__init__.py,sha256=EbhzdvenvQXs5XWH_DH-dAmbuCTKkfH40bIqCOYMLFo,25
+based/metric.py,sha256=sW1DN4_mSF7k6q-5D6f244vIr8LQc5Z2tN7mRFqszdY,20159
+based/model/based_random_forest.joblib,sha256=uyb8GDnBMXxHzZWeW6RbN2aE3TRnNZsqrwYIxXvXf5E,6998977
+based_metric-0.0.2.dist-info/METADATA,sha256=za13hNaI3YaZVOrCSlTPQ-oTYCXsd14j021IF1MzUwQ,619
+based_metric-0.0.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+based_metric-0.0.2.dist-info/top_level.txt,sha256=xXA-9XFyu6Gc5J4Zfln7XbD8jd7Xk4PwFKJkqXGIGDk,6
+based_metric-0.0.2.dist-info/RECORD,,
