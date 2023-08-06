@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: jsonigigovno
+Version: 2.0
+Summary: library for python serialization as lab
+Home-page: https://github.com/SeMsei/pythn_igi/tree/lab3/Lab_3
+Author: Denis Fomichevskiy
+Author-email: fomichevsjiy@gmail.com
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+

@@ -1,0 +1,16 @@
+serializers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+serializers/factory_serializer.py,sha256=z-hQPKJe6y0qefpu-gV3FYNXQB0xdXFqjZ3QBrNqQGU,265
+serializers/dict_serializer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+serializers/dict_serializer/functions.py,sha256=4I5PBUI-yfGr_Hr8alOH92HnLq_EUf8BrNBkGkC3Fc4,11428
+serializers/json/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+serializers/json/json.py,sha256=_ymPDZNigLHIC9Q9vM4GxqIWPQQOkJLK8dYcFj_m0Nw,754
+serializers/json/parse_json.py,sha256=VtQFV6VSyTOSdiwZZ_1NxozNIHY9wdYKOnQQNMrveQU,2275
+serializers/xml/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+serializers/xml/const.py,sha256=y_dFab61K4qeMQDT7P-wSUEPtK54oEtVr3CY3Nhh8wk,826
+serializers/xml/funcs.py,sha256=y8ool7fhAGUWEBZdP5eKD7l4jJcR72ThUXtDXyjLFP4,645
+serializers/xml/xml.py,sha256=sAMJp51wy7nV-5PvcU8HH0JSqFfDyu6EWoLTx1AJlKw,687
+serializers/xml/xml_parser.py,sha256=vWiHm6z5cpmyTCCw1fh4uVg-P9oqesafEkz0_Ht0tCs,3322
+jsonigigovno-2.0.dist-info/METADATA,sha256=EsvRW6T4nmScLxaKxc0DTwwQWSXeBNMf9-GLiwEQsbw,373
+jsonigigovno-2.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+jsonigigovno-2.0.dist-info/top_level.txt,sha256=2c2W9UE6GIS-lX4RUl3mP-BkvdyluOJTGqVB0PXRIFg,73
+jsonigigovno-2.0.dist-info/RECORD,,
