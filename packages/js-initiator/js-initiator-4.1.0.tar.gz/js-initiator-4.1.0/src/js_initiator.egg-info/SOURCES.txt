@@ -1,0 +1,17 @@
+AUTHORS.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/js_initiator/__init__.py
+src/js_initiator/apps.py
+src/js_initiator.egg-info/PKG-INFO
+src/js_initiator.egg-info/SOURCES.txt
+src/js_initiator.egg-info/dependency_links.txt
+src/js_initiator.egg-info/not-zip-safe
+src/js_initiator.egg-info/requires.txt
+src/js_initiator.egg-info/top_level.txt
+src/js_initiator/static/js_initiator/js/js_initiator.js
+src/js_initiator/templatetags/__init__.py
+src/js_initiator/templatetags/js_initiator_tags.py
