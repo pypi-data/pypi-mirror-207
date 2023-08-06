@@ -1,0 +1,9 @@
+gcsaws/__init__.py,sha256=vtWjfcrAp8BRq1siZOVB4OYYBJiGi3QPgYDPwwkyEVI,191
+gcsaws/helpers.py,sha256=LSq4FyCN_0PDJXxlhF2GGE0iWmz_UsgBSO_4mRfrueE,684
+gcsaws/nodes.py,sha256=kn-Zx_tFjm6kPOprAijSMhy3BEKc-9rXsLc1Q1bMJrc,7792
+gcsaws/visitor_procedure.py,sha256=d2z7JS-WORJUz0v16B44XOA096YR-4m22qNLcmsfbfo,4195
+gcsaws-0.0.8.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+gcsaws-0.0.8.dist-info/METADATA,sha256=rfwACHsFicINoH0C0GmlPMek-wxCvtmI5q2Xu19EArI,447
+gcsaws-0.0.8.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+gcsaws-0.0.8.dist-info/top_level.txt,sha256=qUcNTIeeQo43nBCWmd0i_l8gsXT1wUV2rcYCVXl19K4,7
+gcsaws-0.0.8.dist-info/RECORD,,
