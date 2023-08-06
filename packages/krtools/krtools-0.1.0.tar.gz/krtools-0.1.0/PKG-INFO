@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: krtools
+Version: 0.1.0
+Summary: 
+Author: Kevin Riley
+Author-email: kp.riley@icloud.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: csvreader (>=0.0.4,<0.0.5)
+Requires-Dist: psycopg2 (>=2.9.6,<3.0.0)
+Requires-Dist: pydantic[all] (>=1.10.7,<2.0.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: sqlalchemy (>=2.0.9,<3.0.0)
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+# KR Tools
+
+A personal toolkit for data malnipulation. A WIP.
+
+## Installation
+
+Package is not yet available on PyPI, so use `git clone` on this repository.
+
+Then use `poetry install` to install all project dependencies.
+
+Finally, use `poetry run krtools --help` for usage instructions.
+
+## Usage
+
+See documentation in `docs/`. Use `$ sphinx-build docs/ docs/_build` to build
+API reference.
