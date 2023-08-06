@@ -1,0 +1,22 @@
+# SPDX-FileCopyrightText: 2023 Ross Patterson <me@rpatterson.net>
+#
+# SPDX-License-Identifier: MIT
+
+# Minimal `$ docker compose ...` configuration to demonstrate the requirements for
+# running project-structure in containers.
+version: "3.8"
+
+services:
+
+  ## Container for use by end users:
+  project-structure:
+    image: "registry.gitlab.com/rpatterson/project-structure"
+    container_name: "project-structure"
+    environment:
+      TZ: "${TZ:-Etc/UTC}"
+      # Make the run-time user configurable in `./.env` to match permissions inside and
+      # outside the container.  Default to the common/standard main/first user and group
+      # IDs
+      PUID: "${PUID:-1000}"
+      PGID: "${PGID:-${PUID:-1000}}"
+    restart: "unless-stopped"
