@@ -1,0 +1,10 @@
+kopia/__init__.py,sha256=YvuYzWnKtqBb-IqG8HAu-nhIYAsgj9Vmc_b9o7vO-js,22
+kopia/main.py,sha256=8vlAVuIJayNKaNZGMPiqc_CkUMG6bD69-xBg5Ure84c,238
+kopia/mysqlc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kopia/mysqlc/app.py,sha256=5M5GSuyUYUBljT6BwzwpAZ-Jgjs6EePyLHmDM8qQ9VE,1511
+kopia/sqlite/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kopia/sqlite/app.py,sha256=CMTkYrrpypJ54fnLiqISdkPlXY1AxiK5BVazy7XksvU,986
+kopia-0.1.2.dist-info/METADATA,sha256=NJ5ljgBdB4cYXwq4pG7uUQFZM1-YhelDk-we4TD3uic,1376
+kopia-0.1.2.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+kopia-0.1.2.dist-info/entry_points.txt,sha256=-JA_uPAxaTyhfZSBPA2DkEjqZ2ziwAWbpV0x251bnbw,40
+kopia-0.1.2.dist-info/RECORD,,
