@@ -1,0 +1,14 @@
+{% load django_auxiliaries_tags wagtailcore_tags querykit_tags wagtail_richer_text_tags %}
+{% extend_with_custom_blocks self.block.meta.extends_template form.ordered_panel_block_definitions '_section' %}
+{% block content_section %}
+{{ block.super }}
+{% query_result_range result_slice form=form %}
+{% for group, annotations in content %}
+{# <div{% if self.member_layout.value.block.meta.classname %} class="{{ self.member_layout.value.block.meta.classname }}"{% endif %}>#}
+{% if value.show_group_headings %}<h2>{{ group.name }}</h2>{% endif %}
+{% if value.show_group_descriptions %}{{ group.short_description|richertext }}{% endif %}
+{% include_block self.member_layout.value with content=group.members_as_content %}
+{# </div> #}
+{% endfor %}
+{% query_result_navigation result_slice form=form %}
+{% endblock %}
