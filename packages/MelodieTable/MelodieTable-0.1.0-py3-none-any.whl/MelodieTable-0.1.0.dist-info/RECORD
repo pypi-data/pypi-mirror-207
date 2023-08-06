@@ -1,0 +1,11 @@
+MelodieTable/__init__.py,sha256=RXqUnPTha-2NooYJOeKVxFN2nTyXUUG9oGXU39E3Po0,85
+MelodieTable/reader_writer.py,sha256=7k3eaSSxOA9lYb4TURb5vJmVfiv9ZY1zfPCksOVZhYk,5965
+MelodieTable/table_base.py,sha256=K3V2GlpPBM4ettd_Y4PzgVRlL_wWB-qOki1hC0WwJDU,1945
+MelodieTable/table_general.py,sha256=fn3ge3LVo8zOF9L1mJLLGvaMoITw7FjZCZAnDdN9Kvs,4748
+MelodieTable/table_pyam.py,sha256=IH2_aPV_23c2Z-9fcHW3j18VEFZpW9N44CU9VfPivbk,4164
+MelodieTable-0.1.0.dist-info/LICENSE,sha256=LLw4KE25pvuX_QoDYdgm_ZJnnv4HTAOvguS2wBYgY1g,1092
+MelodieTable-0.1.0.dist-info/METADATA,sha256=CmGxww-zImJwiWP5hhCc3HvPRdH5NVulavYGiE_6NEw,209
+MelodieTable-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+MelodieTable-0.1.0.dist-info/entry_points.txt,sha256=tdaBuTmDy-fsGzJev7m74TThJpdRG-pkRmVCyOH6Ypg,67
+MelodieTable-0.1.0.dist-info/top_level.txt,sha256=1JdB56ktYujE0R_av1w8Gsg9Un43jrZgugY9QXcRMu8,13
+MelodieTable-0.1.0.dist-info/RECORD,,
