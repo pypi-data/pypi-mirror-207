@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+src/storage/__init__.py
+src/storage/get_token.py
+src/toast_auth/__init__.py
+src/toast_auth/toast_token.py
+src/toast_auth.egg-info/PKG-INFO
+src/toast_auth.egg-info/SOURCES.txt
+src/toast_auth.egg-info/dependency_links.txt
+src/toast_auth.egg-info/requires.txt
+src/toast_auth.egg-info/top_level.txt

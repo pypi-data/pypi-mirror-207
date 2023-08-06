@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: toast_auth
+Version: 0.1.2
+Summary: Class object to help facilitate authentication with Toast API.
+Home-page: https://github.com/turnerluke/toast_auth
+Author: Turner Luke
+Author-email: turnermluke@gmail.com
+License: MIT
