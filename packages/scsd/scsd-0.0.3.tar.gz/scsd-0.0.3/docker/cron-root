@@ -1,0 +1,2 @@
+# Run routine
+*/30 * * * * su -m "$(id -un 1000)" -c 'scsd -f /config/scsd.conf' > /proc/2/fd/1 2> /proc/1/fd/2
