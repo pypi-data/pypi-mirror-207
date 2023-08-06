@@ -1,0 +1,26 @@
+from __future__ import absolute_import, unicode_literals
+
+
+
+# start delvewheel patch
+def _delvewheel_init_patch_1_3_6():
+    import os
+    import sys
+    libs_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir, 'filepattern.libs'))
+    is_pyinstaller = getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS')
+    if not is_pyinstaller or os.path.isdir(libs_dir):
+        os.add_dll_directory(libs_dir)
+
+
+_delvewheel_init_patch_1_3_6()
+del _delvewheel_init_patch_1_3_6
+# end delvewheel patch
+
+
+from .filepattern import FilePattern
+
+from .functions import infer_pattern, get_regex
+
+__all__ = ["FilePattern"]
+from . import _version
+__version__ = _version.get_versions()['version']

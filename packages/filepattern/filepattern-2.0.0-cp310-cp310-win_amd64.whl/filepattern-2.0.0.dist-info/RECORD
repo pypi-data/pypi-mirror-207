@@ -1,0 +1,13 @@
+filepattern/backend.cp310-win_amd64.pyd,sha256=CHa5btQjTmYPFVvjnWpui3YNL-oTio3OQ02z_VpbadM,518656
+filepattern/filepattern.py,sha256=Muj9s5JuuHB-B9dZ_SISwIXIRSMDaq-Had-LnNVRIG0,16992
+filepattern/functions.py,sha256=g01rBNUaU8M2jJSiX8g4-y-xbFkCk1ZEfYD9fB8VYYU,2953
+filepattern/_version.py,sha256=2C5u8MxTi18LRCZwrqZlCJ8veaCgFaodeFN2hal8sIE,518
+filepattern/__init__.py,sha256=kbRosuAJ2e_bdHNbRFv0FFjnipHYmT7d_1j6BnRog-g,728
+filepattern-2.0.0.dist-info/DELVEWHEEL,sha256=y7X_WRpLBPritligNtKcoV6_9B46wClADc6Stvjb6mE,359
+filepattern-2.0.0.dist-info/LICENSE,sha256=1RpR7o4E-vY5FxFm-x2N85HahR6Wmz-Anl5LO2aEXiM,1086
+filepattern-2.0.0.dist-info/METADATA,sha256=zSiyl2L5QL91Y1YGiVVx-YyogdEn7ZCt3hKUqSYqR8w,17257
+filepattern-2.0.0.dist-info/RECORD,,
+filepattern-2.0.0.dist-info/top_level.txt,sha256=fCy9CXm8Dd8ovEp9aVEgsTpnjgD0GOnqUs-fuFnStYM,32
+filepattern-2.0.0.dist-info/WHEEL,sha256=jrOhEbqKwvzRFSJcbYXlJCyVkgVdHg4_7__YHrdTUfw,102
+filepattern.libs/concrt140-77a2b305b3e3350de03f4b31f97040ae.dll,sha256=RW9Y4fjP6OovvhVrDVSOaFcueKgytJjTg4y56E3l1Qo,306688
+filepattern.libs/msvcp140-51753cc187ffcdc2af4cb094a65214b1.dll,sha256=jXMAqP-BmhiLStGePggfg5_Q5gULCcl8D78hp7bWeOQ,611328
