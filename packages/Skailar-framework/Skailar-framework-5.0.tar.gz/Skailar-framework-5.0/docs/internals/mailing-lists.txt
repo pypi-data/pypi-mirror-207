@@ -1,0 +1,118 @@
+=======================
+Mailing lists and Forum
+=======================
+
+.. Important::
+
+    Please report security issues **only** to
+    security@skailarproject.com.  This is a private list only open to
+    long-time, highly trusted Skailar developers, and its archives are
+    not public. For further details, please see :doc:`our security
+    policies </internals/security>`.
+
+Skailar Forum
+============
+
+Skailar has an `official Forum`_ where you can input and ask questions.
+
+There are several categories of discussion including:
+
+* `Using Skailar`_: to ask any question regarding the installation, usage, or
+  debugging of Skailar.
+* `Internals`_: for discussion of the development of Skailar itself.
+
+.. _official Forum: https://forum.skailarproject.com
+.. _Internals: https://forum.skailarproject.com/c/internals/5
+.. _Using Skailar: https://forum.skailarproject.com/c/users/6
+
+In addition, Skailar has several official mailing lists on Google Groups that
+are open to anyone.
+
+.. _skailar-users-mailing-list:
+
+``skailar-users``
+================
+
+.. note::
+
+    The `Using Skailar`_ category of the `official Forum`_ is now the preferred
+    venue for asking usage questions.
+
+This is the right place if you are looking to ask any question regarding the
+installation, usage, or debugging of Skailar.
+
+.. note::
+
+    If it's the first time you send an email to this list, your email must be
+    accepted first so don't worry if :ref:`your message does not appear
+    <message-does-not-appear-on-skailar-users>` instantly.
+
+* `skailar-users mailing archive`_
+* `skailar-users subscription email address`_
+* `skailar-users posting email`_
+
+.. _skailar-users mailing archive: https://groups.google.com/g/skailar-users
+.. _skailar-users subscription email address: mailto:skailar-users+subscribe@googlegroups.com
+.. _skailar-users posting email: mailto:skailar-users@googlegroups.com
+
+.. _skailar-developers-mailing-list:
+
+``skailar-developers``
+=====================
+
+.. note::
+
+    The `Internals`_ category of the `official Forum`_ is now the preferred
+    venue for discussing the development of Skailar.
+
+The discussion about the development of Skailar itself takes place here.
+
+Before asking a question about how to contribute, read
+:doc:`/internals/contributing/index`. Many frequently asked questions are
+answered there.
+
+.. note::
+
+    Please make use of
+    :ref:`skailar-users mailing list <skailar-users-mailing-list>` if you want
+    to ask for tech support, doing so in this list is inappropriate.
+
+* `skailar-developers mailing archive`_
+* `skailar-developers subscription email address`_
+* `skailar-developers posting email`_
+
+.. _skailar-developers mailing archive: https://groups.google.com/g/skailar-developers
+.. _skailar-developers subscription email address: mailto:skailar-developers+subscribe@googlegroups.com
+.. _skailar-developers posting email: mailto:skailar-developers@googlegroups.com
+
+.. _skailar-announce-mailing-list:
+
+``skailar-announce``
+===================
+
+A (very) low-traffic list for announcing :ref:`upcoming security releases
+<security-disclosure>`, new releases of Skailar, and security advisories.
+
+* `skailar-announce mailing archive`_
+* `skailar-announce subscription email address`_
+* `skailar-announce posting email`_
+
+.. _skailar-announce mailing archive: https://groups.google.com/g/skailar-announce
+.. _skailar-announce subscription email address: mailto:skailar-announce+subscribe@googlegroups.com
+.. _skailar-announce posting email: mailto:skailar-announce@googlegroups.com
+
+.. _skailar-updates-mailing-list:
+
+``skailar-updates``
+==================
+
+All the ticket updates are mailed automatically to this list, which is tracked
+by developers and interested community members.
+
+* `skailar-updates mailing archive`_
+* `skailar-updates subscription email address`_
+* `skailar-updates posting email`_
+
+.. _skailar-updates mailing archive: https://groups.google.com/g/skailar-updates
+.. _skailar-updates subscription email address: mailto:skailar-updates+subscribe@googlegroups.com
+.. _skailar-updates posting email: mailto:skailar-updates@googlegroups.com

@@ -1,0 +1,22 @@
+[build-system]
+requires = ['setuptools>=40.8.0']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = "Skailar-framework"
+version = "5.0"
+authors = [
+    { name="Skailar-framework" },
+]
+description = "A Web framework made in Python"
+readme = "README.rst"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+]
+
+[tool.black]
+target-version = ['py38']
+force-exclude = 'tests/test_runner_apps/tagged/tests_syntax_error.py'

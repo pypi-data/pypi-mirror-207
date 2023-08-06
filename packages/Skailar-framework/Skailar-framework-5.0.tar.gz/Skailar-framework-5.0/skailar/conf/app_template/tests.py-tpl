@@ -1,0 +1,3 @@
+from skailar.test import TestCase
+
+# Create your tests here.

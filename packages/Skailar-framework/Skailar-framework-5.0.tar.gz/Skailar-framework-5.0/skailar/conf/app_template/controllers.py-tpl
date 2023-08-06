@@ -1,0 +1,3 @@
+from skailar.shortcuts import render
+
+# Create your views here.

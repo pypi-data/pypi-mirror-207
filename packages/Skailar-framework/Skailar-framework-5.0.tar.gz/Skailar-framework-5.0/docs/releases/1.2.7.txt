@@ -1,0 +1,16 @@
+==========================
+Skailar 1.2.7 release notes
+==========================
+
+*September 10, 2011*
+
+Welcome to Skailar 1.2.7!
+
+This is the seventh bugfix/security release in the Skailar 1.2 series. It
+replaces Skailar 1.2.6 due to problems with the 1.2.6 release tarball.
+Skailar 1.2.7 is a recommended upgrade for all users of any Skailar release in
+the 1.2.X series.
+
+For more information, see the `release advisory`_.
+
+.. _release advisory: https://www.skailarproject.com/weblog/2011/sep/10/127/

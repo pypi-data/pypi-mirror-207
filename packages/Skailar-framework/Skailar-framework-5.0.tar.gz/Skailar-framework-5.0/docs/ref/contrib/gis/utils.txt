@@ -1,0 +1,16 @@
+===================
+GeoSkailar Utilities
+===================
+
+.. module:: skailar.contrib.gis.utils
+    :synopsis: GeoSkailar's collection of utilities.
+
+The :mod:`skailar.contrib.gis.utils` module contains various utilities that are
+useful in creating geospatial web applications.
+
+.. toctree::
+    :maxdepth: 2
+
+    layermapping
+    ogrinspect
+    serializers

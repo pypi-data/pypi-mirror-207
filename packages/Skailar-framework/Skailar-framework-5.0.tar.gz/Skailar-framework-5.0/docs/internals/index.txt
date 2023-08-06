@@ -1,0 +1,18 @@
+================
+Skailar internals
+================
+
+Documentation for people hacking on Skailar itself. This is the place to go if
+you'd like to help improve Skailar or learn about how Skailar is managed.
+
+.. toctree::
+   :maxdepth: 2
+
+   contributing/index
+   mailing-lists
+   organization
+   security
+   release-process
+   deprecation
+   git
+   howto-release-skailar

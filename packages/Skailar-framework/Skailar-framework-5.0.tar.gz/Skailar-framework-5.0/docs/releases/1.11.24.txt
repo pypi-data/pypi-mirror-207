@@ -1,0 +1,15 @@
+============================
+Skailar 1.11.24 release notes
+============================
+
+*September 2, 2019*
+
+Skailar 1.11.24 fixes a regression in 1.11.23.
+
+Bugfixes
+========
+
+* Fixed crash of ``KeyTransform()`` for
+  ``skailar.contrib.postgres.fields.JSONField`` and
+  :class:`~skailar.contrib.postgres.fields.HStoreField` when using on
+  expressions with params (:ticket:`30672`).
