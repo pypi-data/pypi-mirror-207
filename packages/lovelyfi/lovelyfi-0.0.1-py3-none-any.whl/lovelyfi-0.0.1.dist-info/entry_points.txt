@@ -1,0 +1,3 @@
+[console_scripts]
+lovelyfi=lovelyfi.lwrun:main
+
