@@ -1,0 +1,12 @@
+LICENSE.txt
+README.txt
+pyproject.toml
+setup.cfg
+src/DinoPackage.egg-info/PKG-INFO
+src/DinoPackage.egg-info/SOURCES.txt
+src/DinoPackage.egg-info/dependency_links.txt
+src/DinoPackage.egg-info/top_level.txt
+src/Iguanadon/__init__.py
+src/Iguanadon/run.py
+src/Trex/__init__.py
+src/Trex/eat.py
