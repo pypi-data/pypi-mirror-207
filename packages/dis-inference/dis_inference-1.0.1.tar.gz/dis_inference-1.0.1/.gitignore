@@ -1,0 +1,4 @@
+*.pth
+/assets/
+/output/
+/dist/
