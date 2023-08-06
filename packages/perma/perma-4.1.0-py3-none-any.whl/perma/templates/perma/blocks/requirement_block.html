@@ -1,0 +1,6 @@
+{% load wagtailcore_tags tour_guide_tags %}
+{% block content %}
+{% define_anchor 'generic' value.identifier level=0 as anchor_id %}
+<span id="{{ anchor_id }}" class="record-requirement-name">{{ value.name }} [<span class="record-requirement-identifier">{{ value.identifier }}</span>]:</span>
+<span class="record-requirement-description">{{ value.description }}</span>
+{% endblock %}

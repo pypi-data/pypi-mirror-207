@@ -1,0 +1,5 @@
+{% extends 'perma/blocks/requirement_block.html' %}
+{% block content %}
+{{ block.super }}
+<span class="record-requirement-location"><a href="{{ value.location.as_url }}">{{ value.location.as_url }}</a></span>
+{% endblock %}
