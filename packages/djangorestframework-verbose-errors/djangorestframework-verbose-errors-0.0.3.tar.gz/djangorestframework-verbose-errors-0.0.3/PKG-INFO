@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: djangorestframework-verbose-errors
+Version: 0.0.3
+Summary: A simple package for DRF errors formatting
+Home-page: https://github.com/koenigsley/djangorestframework-verbose-errors
+Author: Mikhail Yeremeyev
+Author-email: koenigsley@gmail.com
+License: MIT
+Description: # Verbose Errors
+        
+        A simple package for DRF errors formatting
+        
+        ## Setting up
+        
+        Install this package using pip
+        
+        ```bash
+        pip install djangorestframework-verbose-errors
+        ```
+        
+        Register the exception handler
+        
+        ```python
+        REST_FRAMEWORK = {
+            'EXCEPTION_HANDLER': 'rest_framework_verbose_errors.views.exception_handler'
+        }
+        ```
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
