@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="695350f5-02cc-4965-a63e-384a3f0b5b9a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codeoffer/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeoffer/MANIFEST.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeoffer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeoffer/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeoffer/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/codeoffer/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeoffer/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/codeoffer/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeoffer/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/codeoffer/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeoffer/oauth.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/codeoffer/oauth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeoffer/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeoffer/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/codeoffer/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeoffer/utilities.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/codeoffer/utilities.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PbWaViPG29tJWTDpDsHIULEqic" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\maxim\PycharmProjects\v1-python-library\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="695350f5-02cc-4965-a63e-384a3f0b5b9a" name="Changes" comment="" />
+      <created>1683726325760</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683726325760</updated>
+      <workItem from="1683726328511" duration="1286000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
