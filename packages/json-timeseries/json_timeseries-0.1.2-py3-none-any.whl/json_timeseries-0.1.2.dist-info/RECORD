@@ -1,0 +1,9 @@
+json_timeseries/__init__.py,sha256=WTOZOz5KNSdWc1tO24X6eYbyzAxfK8XeI-3bWH_BpK8,128
+json_timeseries/jts.py,sha256=OeBh1OHL3xMWVF2YUlIOd_ckiEKUBSKDFcIP75C5A6k,8509
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_json_timeseries.py,sha256=ozoE_4H8EFR7PFHDt22G3kcUAp_ZUKH6k2CQH0Qe8CY,11640
+json_timeseries-0.1.2.dist-info/LICENSE,sha256=mYgN4-YGS04ywF7LjoBPbyFrUBbS-dWfA7ZbXqqzf-U,1074
+json_timeseries-0.1.2.dist-info/METADATA,sha256=SdXtjqsfoLj1y_yW5VSewXxOqzTN5H6b0zbAQSzxa9w,4554
+json_timeseries-0.1.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+json_timeseries-0.1.2.dist-info/top_level.txt,sha256=VvAlZnQAoYoEkLFI6Us9pBykqRjZ0TuGCqCKbg__Ejs,22
+json_timeseries-0.1.2.dist-info/RECORD,,
