@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3e84e4a1-a3aa-4827-b408-a090737abe5c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/clicks.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/appium_flutter_utils/clicks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enter_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/appium_flutter_utils/enter_text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finds_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/appium_flutter_utils/finds_widget.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scroll.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/appium_flutter_utils/scroll.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/appium_flutter_utils/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_with_examples/specific_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing_with_examples/specific_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_with_examples/testing_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing_with_examples/testing_all.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_with_examples/testing_click.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing_with_examples/testing_click.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_with_examples/testing_double_click.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing_with_examples/testing_double_click.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_with_examples/testing_enter_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing_with_examples/testing_enter_text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_with_examples/testing_long_click.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing_with_examples/testing_long_click.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_with_examples/testing_scroll.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing_with_examples/testing_scroll.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_with_examples/testing_wait.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing_with_examples/testing_wait.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wait.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/appium_flutter_utils/wait.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PEcSlxCtiuWFSpLbrkFAplY6mj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/AppiumContribution/AppiumFlutterUtils/PythonUtils",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AppiumContribution\AppiumFlutterUtils\PythonUtils" />
+      <recent name="D:\AppiumContribution\AppiumFlutterUtils\PythonUtils\testing_with_examples" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\AppiumContribution\AppiumFlutterUtils\PythonUtils\src\appium_flutter_utils" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.testing_all">
+    <configuration name="testing_all" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonUtils" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing_with_examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testing_with_examples/testing_all.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testing_enter_text" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonUtils" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing_with_examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testing_with_examples/testing_enter_text.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testing_long_click" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonUtils" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing_with_examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testing_with_examples/testing_long_click.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testing_scroll" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonUtils" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing_with_examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testing_with_examples/testing_scroll.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testing_wait" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonUtils" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing_with_examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testing_with_examples/testing_wait.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.testing_all" />
+        <item itemvalue="Python.testing_scroll" />
+        <item itemvalue="Python.testing_enter_text" />
+        <item itemvalue="Python.testing_wait" />
+        <item itemvalue="Python.testing_long_click" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e84e4a1-a3aa-4827-b408-a090737abe5c" name="Changes" comment="" />
+      <created>1683025684750</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683025684750</updated>
+    </task>
+    <servers />
+  </component>
+</project>
