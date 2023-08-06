@@ -1,0 +1,14 @@
+psidata/__init__.py,sha256=r8-9FU__OBZWesP-ZrjwnfukVzdwR2UN-diGdBoMO9I,117
+psidata/api.py,sha256=A0KBiQ_s1Plk2xBRWqEPropZaTjQ2r3slJQYHtBa6I8,60
+psidata/bcolz_tools.py,sha256=NRyzaiZpy-48tawwPV1_p_-nOtwNX8i0g69xEUsbDm0,2595
+psidata/calibration.py,sha256=LBPkJMGfuZRhTSr_SCeqgjRDGxqR7-PTAQ9xyj30Gmo,3770
+psidata/legacy_bcolz_tools.py,sha256=WRr316dbmiYFcbF5xctBEmcSW8o6LdxvgculvXr2gDU,4908
+psidata/recording.py,sha256=0tW-A7su3o0k4DjVzN7GldEec1u4Z42C4BK34qfU-PA,7190
+psidata/signal.py,sha256=9ax8deoHiEXik_Y8xUlfUILMqqcNluTJ-xLKe3iumKc,8219
+psidata/version.py,sha256=CYbZfZY7x_F-U5-dF3-eSvcsIEt-PaNXs0FXBiLkXEQ,160
+psidata/zarr_tools.py,sha256=b0CYWlA52PJPsiglvVXfMrDQhKZC_Y_FNdghrJopzJc,874
+psidata-0.1.3.dist-info/LICENSE.txt,sha256=NDvyZfLgpxwUICSoCeG3BO2okaGg0j5Vlmu5MXVpPA8,1092
+psidata-0.1.3.dist-info/METADATA,sha256=zQFvqs1pLTzttpT-KGtnby1bGIBowmSnMcv055XjgEU,2308
+psidata-0.1.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+psidata-0.1.3.dist-info/top_level.txt,sha256=pLy9zQG-iIOIWlWar1BYboybeLsTkguosqWRe9Em8HQ,8
+psidata-0.1.3.dist-info/RECORD,,
