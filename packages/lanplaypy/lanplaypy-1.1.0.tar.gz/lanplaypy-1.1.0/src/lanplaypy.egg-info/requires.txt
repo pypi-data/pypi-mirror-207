@@ -1,0 +1,6 @@
+gql[aiohttp]
+requests
+
+[dev]
+setuptools-changelog
+build

@@ -1,0 +1,14 @@
+CHANGELOG
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/lanplay/__init__.py
+src/lanplay/functions.py
+src/lanplay/lanplay.py
+src/lanplaypy.egg-info/PKG-INFO
+src/lanplaypy.egg-info/SOURCES.txt
+src/lanplaypy.egg-info/dependency_links.txt
+src/lanplaypy.egg-info/not-zip-safe
+src/lanplaypy.egg-info/requires.txt
+src/lanplaypy.egg-info/top_level.txt

@@ -1,0 +1,1 @@
+from lanplay.lanplay import *
