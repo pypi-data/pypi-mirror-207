@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: openlm
+Version: 0.0.1
+Summary: Drop-in OpenAI-compatible that can call LLMs from other providers
+License: MIT
+Author: Matt Rickard
+Author-email: pip@matt-rickard.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# OpenLM Python Library
+
+Drop-in OpenAI-compatible that can call LLMs from other providers.
