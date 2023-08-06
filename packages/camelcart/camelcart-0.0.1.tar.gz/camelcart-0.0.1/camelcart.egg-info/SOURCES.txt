@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+camelcart/__init__.py
+camelcart/hello.py
+camelcart.egg-info/PKG-INFO
+camelcart.egg-info/SOURCES.txt
+camelcart.egg-info/dependency_links.txt
+camelcart.egg-info/requires.txt
+camelcart.egg-info/top_level.txt
