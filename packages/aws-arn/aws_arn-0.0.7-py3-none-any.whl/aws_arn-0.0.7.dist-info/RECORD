@@ -1,0 +1,10 @@
+aws_arn/__init__.py,sha256=-GGC5oPUq27FNoN-vtt_GfWLcj_n026aMlPf88IZbGQ,5611
+aws_arn/arn.py,sha256=PNc2YCupomYWHfdCevyYvhQi2nmB-xyC5xGyrlU0bIM,157803
+aws_arn/data.py,sha256=2jndColJOXDNokm_QSxEFFPJDcp2-SVmJRq5U6nWxVw,179109
+aws_arn/get_parser.py,sha256=4jy887VNoNnE7bEC5hMKNfbsDaT0k49o6AtR09Bli-c,4230
+aws_arn/main.py,sha256=3uGuoXkEG7bC2wxSIMZS4WUmmzw5zx6P8FqVpmPQ62A,1743
+aws_arn-0.0.7.dist-info/METADATA,sha256=01s-e8g4wYyr2xQm40rylgB11akH5SrnPs_MxZSqGUI,456
+aws_arn-0.0.7.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+aws_arn-0.0.7.dist-info/entry_points.txt,sha256=DzE-UuQ1XldTB8_dv-ehmrZLdvLTqxwxvoRBC-sFEb8,41
+aws_arn-0.0.7.dist-info/top_level.txt,sha256=CpeBjQrCLyYItnRB7SJBUJvj7YI18_ROQh8gyhyoEoc,8
+aws_arn-0.0.7.dist-info/RECORD,,
