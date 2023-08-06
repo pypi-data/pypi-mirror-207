@@ -1,0 +1,7 @@
+Django<4.2,>=4.1
+wagtail<4.2,>=4.1
+django-auxiliaries<4.2,>=4.1
+js-initiator<4.2,>=4.1
+wagtail-switch-block<4.2,>=4.1
+wagtail-block-model-field<4.2,>=4.1
+wagtail-attachments<4.2,>=4.1

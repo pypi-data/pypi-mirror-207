@@ -1,0 +1,7 @@
+include src/swatchbook/static/swatchbook/*
+include src/swatchbook/static/swatchbook/js/*
+include src/swatchbook/static/swatchbook/css/*
+include src/swatchbook/templates/swatchbook/*
+include src/swatchbook/templates/swatchbook/tags/*
+
+recursive-exclude * .DS_Store *.pyc
