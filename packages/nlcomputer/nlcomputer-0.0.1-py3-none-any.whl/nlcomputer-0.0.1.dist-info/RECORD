@@ -1,0 +1,6 @@
+nlcomputer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nlcomputer/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nlcomputer/core/message.py,sha256=RGkUzj02RM05n1XPcrggSg7CbU0DC7_mXmBDKYs6hdA,1263
+nlcomputer-0.0.1.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+nlcomputer-0.0.1.dist-info/METADATA,sha256=cnrYhbOTiXxgZEkICYzZLVdfTNscVWDo7zAibxyU0xk,405
+nlcomputer-0.0.1.dist-info/RECORD,,
