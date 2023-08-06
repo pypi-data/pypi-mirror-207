@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: batframes
+Version: 1.0.0.2
+Summary: 可以配置将多个可执行文件和内部命令串接成一个完整命令执行的框架工具。（命令支持 多个option选项）
+Home-page: https://gitee.com/Frank_583983716/batframes
+Author: Frank Gong
+Author-email: 583983716@qq.com
+License: MIT
