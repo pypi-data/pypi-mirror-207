@@ -1,0 +1,112 @@
+Metadata-Version: 2.1
+Name: semsim
+Version: 1.1.0
+Summary: A free tool for sentence similarity evaluation
+Home-page: https://gitlab.com/Mathematician2000/semsim
+Author: David Avagyan
+Author-email: david_avagyan@list.ru
+License: BSD 3-Clause License
+Project-URL: Homepage, https://gitlab.com/Mathematician2000/semsim
+Project-URL: Documentation, https://pysemsim.readthedocs.io/
+Keywords: NLP,dependency parsing,CoNLL-U,sentence similarity
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: attrs
+Requires-Dist: click
+Requires-Dist: networkx
+Requires-Dist: numpy
+Requires-Dist: pymorphy2
+Requires-Dist: scipy
+Requires-Dist: simple-elmo
+Requires-Dist: tensorflow
+Requires-Dist: tensorrt
+Requires-Dist: textract
+Requires-Dist: torch
+Requires-Dist: torch-geometric
+Requires-Dist: torch-scatter
+Requires-Dist: torch-sparse
+Requires-Dist: torchwordemb
+Requires-Dist: tqdm
+Requires-Dist: ufal.udpipe
+
+# semsim
+
+Compare texts easily with `semsim` Python package!
+
+## Features
+- Dozens of **parameters** to be tuned by you for better performance!
+- **Default values** of all the parameters validated on datasets for paraphrase detection task
+- 6 different **algorithms** for efficient syntax tree comparison
+- A small pack of **standard "built-in" models** which can be easily downloaded via `semsim` package itself
+- Flexible **class taxonomy** which you can extend by simply inheriting from one of the model base classes
+- Python library `semsim` with **command line interface** (powered by `click`)
+
+## Dependencies
+- attrs
+- click
+- networkx
+- numpy
+- pymorphy2
+- scipy
+- simple_elmo
+- tensorflow
+- tensorrt
+- textract
+- torch
+- torch-geometric
+- torch-scatter
+- torch-sparse
+- torchwordemb
+- tqdm
+- ufal.udpipe
+
+## Quick start
+To install `semsim` simply run:
+
+`pip install semsim`
+
+---
+> **NOTE**: If you encounter problems when installing `semsim` package,
+> consider first installing some prerequisites in advance:
+> `$ pip install torch tensorflow tensorrt`
+> Then proceed to install `semsim`.
+---
+
+Now you can use `semsim` CLI tool as follows:
+
+`$ semsim first_src.txt second_src.txt -o output.txt`
+
+You might want to download standard "built-in" (or we should say "add-on") models for better performance.
+This can be done by executing the following line:
+
+`$ semsim download cbow`
+
+for fetching pretrained CBOW embeddings or
+
+`$ semsim download -a`
+
+for downloading **all** the add-ons at once in parallel.
+
+More info can be found on the [documentation](https://pysemsim.readthedocs.io) page.
+
+## Codestyle linters and test frameworks
+This library has been fully checked and tested with the following tools:
+- flake8
+- mypy
+- pydocstyle
+- pytest
+
+## Interface
+CLI interface is described in the [examples](https://pysemsim.readthedocs.io/examples)
+section of [documentation](https://pysemsim.readthedocs.io).
+This is how you can use `semsim` CLI tool:
+
+`$ semsim compare first_src.txt second_src.txt -e cbow -k neural -o output.txt --max-out-pairs 200 -v`
+
+## Authors
+- [Mathematician2000](https://gitlab.com/Mathematician2000)
