@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: finnsult
+Version: 1.0
+Summary: A program to insult people
+Home-page: https://the-real-finnventor.github.io/insult/
+Author: Finn Everspaugh
+Author-email: finnventor@everspaugh.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pyyaml
+
+# Quickstart
+## Installation
+```
+pip3 install pyyaml
+git clone git@github.com:the-real-finnventor/insult.git
+echo alias insult-path="$PWD"/insult/insult >> ~/.zprofile
+echo alias insult="python3 insult-path" >> ~/.
+```
+
+If you are getting errors like:
+```
+Cloning into 'insult'...
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+```
+
+Then try:
+```
+git clone https://github.com/the-real-finnventor/insult.git
+echo alias insult-path="$PWD"/insult/insult >> ~/.zprofile
+echo alias insult="python3 insult-path" >> ~/.
+```
+
+## Run (at any time open a terminal and run)
+```
+insult
+```
+# DISCLAIMER: 
+If you use pypi to install this package, -u (or --update) will not work.
