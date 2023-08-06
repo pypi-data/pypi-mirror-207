@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: radonpy-pypi
+Version: 0.2.6
+Summary: RadonPy is a Python library to automate physical property calculations for polymer informatics.
+Home-page: https://github.com/RadonPy/RadonPy
+Author: Yoshihiro Hayashi
+Author-email: yhayashi@ism.ac.jp
+License: BSD-3-Clause
+Keywords: polymer informatics,molecular dynamics
+Platform: Linux
+Platform: Mac OS-X
+Platform: Unix
+Platform: Windows
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Provides-Extra: lammps
+License-File: LICENSE
