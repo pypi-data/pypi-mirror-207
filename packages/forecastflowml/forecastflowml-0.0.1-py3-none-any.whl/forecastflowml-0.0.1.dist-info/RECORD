@@ -1,0 +1,15 @@
+forecastflowml/__init__.py,sha256=ytiTKrQolc1DL7a1dEgnQuKXHVG1HU0FaUaqpzTcFH8,105
+forecastflowml/core.py,sha256=lb6aFENBPlsX54exCC-IOQf1sRXXqctsZPdyIkJMJh8,18267
+forecastflowml/direct_forecaster.py,sha256=vF_weqJevZI4zbcrvXAmrGDuWeWfbIluXLKtBaSHl_c,3623
+forecastflowml/model_selection.py,sha256=qURH-s0ZgBrkcc5Sd2l6tkdHwX2EM9vRUP0ujZAi8WE,6682
+forecastflowml/preprocessing.py,sha256=feWc5-ne_MnhWnHDaHQJacAzIwrW-dcpAsDKwtwHdmI,8417
+forecastflowml/utils.py,sha256=rSmjYu0P4xi_5XljFM4yoLtA0g8-fXqTzB6u3oSuBog,908
+forecastflowml/data/loader.py,sha256=AWgqkpjfYkE1pRctSztoIVRb-lalhBhF6of5aiWcbws,181
+forecastflowml/data/walmart_m5/._SUCCESS.crc,sha256=HUT1EOwu11lbrb7IBYMxbe_BTo3YkTDXGXJBSa36oH0,8
+forecastflowml/data/walmart_m5/.part-00000-88cb10ac-7a9d-4a6c-bde8-14dd97e0b317-c000.snappy.parquet.crc,sha256=8VL936WfKbDEwtEodlmycW3-puOse5mBryFpeXzFjfs,20260
+forecastflowml/data/walmart_m5/_SUCCESS,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+forecastflowml/data/walmart_m5/part-00000-88cb10ac-7a9d-4a6c-bde8-14dd97e0b317-c000.snappy.parquet,sha256=EExfHYinKBznStwzovP2RWSbN5Xh_c-CkRdgUFEocb4,2591848
+forecastflowml-0.0.1.dist-info/METADATA,sha256=YeZcQdmRyQ-bavP80X4VtiXVa34wxa6cr6D4pVIPxo4,4285
+forecastflowml-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+forecastflowml-0.0.1.dist-info/top_level.txt,sha256=uhxw9FCL6teUxDTurUdopqMUxjajB4DruGg1C2BuzF8,15
+forecastflowml-0.0.1.dist-info/RECORD,,
