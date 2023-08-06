@@ -1,0 +1,13 @@
+click
+google-cloud-translate
+toml
+
+[dev]
+pytest
+mypy
+ruff
+black
+isort
+sphinx
+furo
+pip-tools
