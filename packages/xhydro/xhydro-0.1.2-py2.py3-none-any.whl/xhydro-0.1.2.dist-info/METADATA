@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: xhydro
+Version: 0.1.2
+Summary: Hydrology analysis build with xarray
+Home-page: https://github.com/TC-FF/xhydro
+Author: Thomas-Charles Fortier Filion
+Author-email: tcff_hydro@outlook.com
+License: Apache Software License 2.0
+Keywords: xhydro
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: bottleneck (>=1.3.1)
+Requires-Dist: cartopy
+Requires-Dist: cftime
+Requires-Dist: cf-xarray (>=0.6.1)
+Requires-Dist: cftime (>=1.4.1)
+Requires-Dist: dask[array] (>=2.6)
+Requires-Dist: geopandas
+Requires-Dist: h5netcdf
+Requires-Dist: intake-xarray (>=0.6.1)
+Requires-Dist: jsonpickle
+Requires-Dist: numba
+Requires-Dist: numpy (>=1.16)
+Requires-Dist: pandas (>=0.23)
+Requires-Dist: pint (>=0.10)
+Requires-Dist: pyarrow
+Requires-Dist: pyyaml
+Requires-Dist: s3fs (>=2022.7.0)
+Requires-Dist: scipy (>=1.2)
+Requires-Dist: xarray (>=0.17)
+Requires-Dist: xclim (>=0.37)
+Requires-Dist: zarr (>=2.11.1)
+
+======
+xHydro
+======
+
+
+.. image:: https://img.shields.io/pypi/v/xhydro.svg
+        :target: https://pypi.python.org/pypi/xhydro
+
+.. image:: https://img.shields.io/travis/TC-FF/xhydro.svg
+        :target: https://travis-ci.com/TC-FF/xhydro
+
+.. image:: https://github.com/hydrologie/xhydro/actions/workflows/gh-pages.yml/badge.svg
+        :target: https://hydrologie.github.io/xhydro/
+        :alt: Documentation Status
+
+
+.. image:: https://pyup.io/repos/github/TC-FF/xhydro/shield.svg
+     :target: https://pyup.io/repos/github/TC-FF/xhydro/
+     :alt: Updates
+
+
+
+Hydrology analysis build with xarray
+
+
+* Free software: Apache Software License 2.0
+* Documentation: https://hydrologie.github.io/xhydro/
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.2 (2023-05-10)
+------------------
+
+* First release on PyPI.
