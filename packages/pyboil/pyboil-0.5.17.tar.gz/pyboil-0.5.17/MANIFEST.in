@@ -1,0 +1,1 @@
+recursive-include pyboil/template/base *.sh *.toml *.py
