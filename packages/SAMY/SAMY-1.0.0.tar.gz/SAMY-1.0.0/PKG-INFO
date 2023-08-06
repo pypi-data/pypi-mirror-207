@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: SAMY
+Version: 1.0.0
+Summary: Combines YOLOv8 and SAM
+Home-page: https://github.com/Jawher-Ben-Abdallah/YOLO-SAM
+Author: Jawher Ben Abdallah - Rim Sleimi
+Author-email: jawher.b.abdallah@gmail.com
+License: Apache License 2.0
+Keywords: YOLOv8,SAM,Object_Detection,Segmentation
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# YOLO-SAM
+A repository for Instance Segmentation using YOLO and SAM (Segment Anything Model).
+
+## Installation
+Install YOLOv8 and SAM dependencies:
+```
+pip install -r requirements.txt
+```
+Install YOLOv8:
+```
+pip install ultralytics
+```
+
+Install Segment Anything:
+```
+pip install git+https://github.com/facebookresearch/segment-anything.git
+```
+
+## Getting Started
+To get started, click the links to download the YOLO and Segment Anything models:
+- **YOLO Model: [Yolov8s.](https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8s.pt)**
+- **Segment Anything Model: [ViT-H SAM model.](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth)**
+
+
