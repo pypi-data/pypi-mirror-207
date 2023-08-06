@@ -1,0 +1,14 @@
+django_fragments/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_fragments/apps.py,sha256=V946tsELyJQ7BOTyC5JQ9yFlNirfzZVc6aNwvlTknjM,163
+django_fragments/templates/svg/heroicons_x_mark_mini.html,sha256=mAl-t368JP1jScPTz087ThVLKMqKbF_WoBYHnChHhD8,292
+django_fragments/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_fragments/templatetags/fragments.py,sha256=WPHQMQ6HsOB8_XJxklxVkPO3k-FCF6vKQ5usy5rIv9M,5280
+django_fragments/templatetags/helpers.py,sha256=9xCREu6sLPFN13R3bDRKIhUhHR0z_tJG9_qqQI5nUm4,1759
+django_fragments/templatetags/og.py,sha256=pWZiPejWRiAA-25saNy5iiP68sDzrhaDZzYdwcqZoIg,1649
+django_fragments/templatetags/utils/__init__.py,sha256=gJ0bfePuPNQXD1ZseEwNP00MUadMPo1hzGQlOOeDtgQ,70
+django_fragments/templatetags/utils/filter_attrs.py,sha256=xYMSUCNs5faw_51C1-VBWg4JJtL7fPF4H8a2K9DXkxg,2157
+django_fragments/templatetags/utils/wrap_svg.py,sha256=854SofQUkWY_YQkyw5Xq0c9ivhA3R0DzcbEL3udmjFQ,4146
+django_fragments/tests.py,sha256=1bCpArq5xYOOFaLGcUwVWWk5wNuFcVlN-kNJtldWQvk,2578
+django_fragments-0.1.0.dist-info/METADATA,sha256=3aM8CAEgcO8NaVApF-R5ppMPITen5q2g_Exl6jrP7i8,1425
+django_fragments-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+django_fragments-0.1.0.dist-info/RECORD,,
