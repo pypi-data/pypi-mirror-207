@@ -1,0 +1,10 @@
+cachey
+dask
+fastapi
+numcodecs
+numpy
+pluggy
+toolz
+uvicorn
+xarray
+zarr
