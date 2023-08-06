@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: tracers-spans-python
+Version: 0.0.4
+Summary: Projeto para facilitar a criação e envios de tracers e spans.
+Home-page: UNKNOWN
+Author: Otávio Mascarenhas
+Author-email: otaviomascarenhaspessoal@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: Tracers Spans tracers spans tracer span OpenTelemetry Zipkin
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Internationalization
+Classifier: Topic :: Scientific/Engineering :: Physics
