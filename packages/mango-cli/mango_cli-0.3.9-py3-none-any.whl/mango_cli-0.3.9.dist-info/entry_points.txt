@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        mango=app.application:cli
+    
