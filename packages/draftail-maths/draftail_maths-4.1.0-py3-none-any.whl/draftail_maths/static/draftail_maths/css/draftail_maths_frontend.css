@@ -1,0 +1,15 @@
+.equation {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.equation > span {
+    flex: 0 0 auto;
+    position: absolute;
+    font-weight: 600;
+}
+
+.equation > * {
+    flex: 1 0 auto;
+}

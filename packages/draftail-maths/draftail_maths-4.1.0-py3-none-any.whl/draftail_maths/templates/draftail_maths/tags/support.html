@@ -1,0 +1,87 @@
+{% load static %}
+{% if container_element == 'head' %}
+<link rel="stylesheet" type="text/css" href="{% static 'draftail_maths/css/draftail_maths_frontend.css' %}">
+{% if is_mathjax_version_3 %}
+{% if is_admin_page %}
+<link rel="stylesheet" type="text/css" href="{% static 'draftail_maths/css/draftail_maths.css' %}">
+<script type="text/javascript">
+window.MathJax = {
+  tex: {
+    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+    processEscapes: true
+  },
+  options: {
+    ignoreHtmlClass: 'tex2jax_ignore',
+    processHtmlClass: 'tex2jax_process'
+  }
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@{{mathjax_version}}/es5/tex-mml-chtml.js" id="MathJax-script"></script>
+{% else %}
+<script type="text/javascript">
+window.MathJax = {
+  tex: {
+    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+    processEscapes: true
+  },
+  options: {
+    enableMenu: false
+  }
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@{{mathjax_version}}/es5/mml-chtml.js" id="MathJax-script"></script>
+{% endif %}
+{% endif %}
+
+{% if is_mathjax_version_2 %}
+{% if is_admin_page %}
+<link rel="stylesheet" type="text/css" href="{% static 'draftail_maths/css/draftail_maths.css' %}">
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    extensions: ["toMathML.js"], // ["tex2jax.js", "mml2jax.js", "asciimath2jax.js", "toMathML.js"],
+    jax: ["input/TeX", "input/MathML", 'output/CommonHTML'],
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+      processEscapes: true,
+      preview: 'none',
+    },
+    messageStyle: 'none',
+    showProcessingMessages: false,
+    showMathMenu: false,
+    showMathMenuMSIE: false,
+    preview: 'none',
+    delayStartupTypeset: true,
+  });
+MathJax.Hub.processSectionDelay = 0;
+</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/{{mathjax_version}}/MathJax.js"></script>
+{% else %}
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    extensions: ["toMathML.js"],
+    jax: ["input/MathML", 'output/CommonHTML'],
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+      processEscapes: true,
+      preview: 'none',
+    },
+    messageStyle: 'none',
+    showProcessingMessages: false,
+    showMathMenu: false,
+    showMathMenuMSIE: false,
+    preview: 'none',
+    delayStartupTypeset: true,
+  });
+
+MathJax.Hub.processSectionDelay = 0;
+</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/{{mathjax_version}}/MathJax.js"></script>
+{% endif %}
+{% endif %}
+
+
+{% endif %}
