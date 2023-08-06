@@ -1,0 +1,32 @@
+[geoips.algorithms]
+Temp11p0 = geoips_clavrx.plugins.modules.algorithms.cloud.Temp11p0
+Temp3p75 = geoips_clavrx.plugins.modules.algorithms.cloud.Temp3p75
+cldFraction = geoips_clavrx.plugins.modules.algorithms.cloud.cldFraction
+cldHeight = geoips_clavrx.plugins.modules.algorithms.cloud.cldHeight
+cldHeightBase = geoips_clavrx.plugins.modules.algorithms.cloud.cldHeightBase
+cldHeightTop = geoips_clavrx.plugins.modules.algorithms.cloud.cldHeightTop
+cldMask = geoips_clavrx.plugins.modules.algorithms.cloud.cldMask
+cldOpd = geoips_clavrx.plugins.modules.algorithms.cloud.cldOpd
+cldPhase = geoips_clavrx.plugins.modules.algorithms.cloud.cldPhase
+cldReff = geoips_clavrx.plugins.modules.algorithms.cloud.cldReff
+cldTemp = geoips_clavrx.plugins.modules.algorithms.cloud.cldTemp
+cldType = geoips_clavrx.plugins.modules.algorithms.cloud.cldType
+
+[geoips.colormaps]
+cmap_IR = geoips_clavrx.plugins.modules.colormaps.cmap_IR
+cmap_cldFraction = geoips_clavrx.plugins.modules.colormaps.cmap_cldFraction
+cmap_cldHeight = geoips_clavrx.plugins.modules.colormaps.cmap_cldHeight
+cmap_cldHeightBase = geoips_clavrx.plugins.modules.colormaps.cmap_cldHeightBase
+cmap_cldHeightTop = geoips_clavrx.plugins.modules.colormaps.cmap_cldHeightTop
+cmap_cldMask = geoips_clavrx.plugins.modules.colormaps.cmap_cldMask
+cmap_cldOpd = geoips_clavrx.plugins.modules.colormaps.cmap_cldOpd
+cmap_cldPhase = geoips_clavrx.plugins.modules.colormaps.cmap_cldPhase
+cmap_cldReff = geoips_clavrx.plugins.modules.colormaps.cmap_cldReff
+cmap_cldTemp = geoips_clavrx.plugins.modules.colormaps.cmap_cldTemp
+cmap_cldType = geoips_clavrx.plugins.modules.colormaps.cmap_cldType
+
+[geoips.plugin_packages]
+geoips_clavrx = geoips_clavrx
+
+[geoips.readers]
+clavrx_hdf4 = geoips_clavrx.plugins.modules.readers.clavrx_hdf4
