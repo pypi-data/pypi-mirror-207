@@ -1,0 +1,11 @@
+codeoffer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codeoffer/api.py,sha256=w47fQhX9kkSNeHKVGB_dR2gXXlcqv58UVVX_TW31ch8,1219
+codeoffer/app.py,sha256=8_393YM-bsZktVvoG1z-3g8o3dUupyxIzYwHKPdz7J0,2107
+codeoffer/exceptions.py,sha256=GL1pW9cbvZURmkABPb173r5bmaugnHygFOXQN4GHyp8,606
+codeoffer/oauth.py,sha256=ucQGTUNUurHra6efm0DFnI4uTSahXH6Z1WNBRyjMVME,2784
+codeoffer/user.py,sha256=UeA1PXrvwcEm5pePy6WhI8OiMeBZrsSRLLeEYicH5OE,771
+codeoffer/utilities.py,sha256=HPLLVdRM1-r-jovZTCm-QNOtkTQxLt4Wc_Ctt1bFJs8,1009
+codeoffer-0.8.0.dist-info/METADATA,sha256=UFJQ1HNgrU0vexjfDa88a7eGZ5L-g3l4b30rPNpIHBs,2914
+codeoffer-0.8.0.dist-info/WHEEL,sha256=kAoYHEzhbpP91vg_l47LD3ekp-d1wLb0_Af70S1KycY,87
+codeoffer-0.8.0.dist-info/licenses/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+codeoffer-0.8.0.dist-info/RECORD,,
