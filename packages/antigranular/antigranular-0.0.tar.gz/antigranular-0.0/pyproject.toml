@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "antigranular"
+version = "0.0"
+description = "Placeholder [Antigranular](https://antigranular.com) client package to access competitions and datasets with private python execution."
+authors = ["Oblivious Software <support@oblivious.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
