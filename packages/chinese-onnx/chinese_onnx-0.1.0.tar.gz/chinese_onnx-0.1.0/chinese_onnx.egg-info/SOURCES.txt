@@ -1,0 +1,7 @@
+README.md
+setup.py
+chinese_onnx.egg-info/PKG-INFO
+chinese_onnx.egg-info/SOURCES.txt
+chinese_onnx.egg-info/dependency_links.txt
+chinese_onnx.egg-info/requires.txt
+chinese_onnx.egg-info/top_level.txt
