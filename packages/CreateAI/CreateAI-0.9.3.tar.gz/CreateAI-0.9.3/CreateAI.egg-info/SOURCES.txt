@@ -1,0 +1,10 @@
+LICENCE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+C:/MyUse/code/python/EasyPack/CreateAI/__init__.py
+CreateAI.egg-info/PKG-INFO
+CreateAI.egg-info/SOURCES.txt
+CreateAI.egg-info/dependency_links.txt
+CreateAI.egg-info/top_level.txt
