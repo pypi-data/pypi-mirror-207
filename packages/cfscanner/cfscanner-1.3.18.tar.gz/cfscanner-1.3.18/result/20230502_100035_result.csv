@@ -1,0 +1,4 @@
+ip,avg_download_speed,avg_upload_speed,avg_download_latency,avg_upload_latency,avg_download_jitter,avg_upload_jitter,download_speed_1,download_speed_2,upload_speed_1,upload_speed_2,download_latency_1,download_latency_2,upload_latency_1,upload_latency_2
+104.16.204.125,13.677187692292634,-1,283,-1,72,-1,13.170393179060522,14.183982205524744,-1,-1,319,247,-1,-1
+104.24.163.212,12.29587670504833,-1,241.5,-1,115,-1,11.963571045646843,12.628182364449819,-1,-1,299,184,-1,-1
+104.18.177.118,9.075280620330663,-1,537.5,-1,35,-1,7.008846004735803,11.141715235925522,-1,-1,520,555,-1,-1

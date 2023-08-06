@@ -1,0 +1,9 @@
+ERROR:cfscanner.main:'function' object is not iterable
+Traceback (most recent call last):
+  File "/home/smz/Documents/GitHub/CFScanner/python/cfscanner/main.py", line 248, in main
+    res = next(iterator)
+  File "/usr/lib/python3.10/multiprocessing/pool.py", line 423, in <genexpr>
+    return (item for chunk in result for item in chunk)
+  File "/usr/lib/python3.10/multiprocessing/pool.py", line 873, in next
+    raise value
+TypeError: 'function' object is not iterable
