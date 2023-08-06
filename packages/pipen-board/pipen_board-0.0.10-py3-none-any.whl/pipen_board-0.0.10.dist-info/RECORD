@@ -1,0 +1,16 @@
+pipen_board/__init__.py,sha256=9_EO-LTd2vW5yBBHUH_ozY0Ox9LaOQ8mUt8jMWt5Ytk,349
+pipen_board/apis.py,sha256=xUKFWHUV0BPVYUSouJLqwaxZgz7CDicQTdRMpIqnv50,7629
+pipen_board/cli.py,sha256=84TlYyea5iUr8X-VvypqhFRywiqhrkmpfDHWu3sjdUw,4134
+pipen_board/data_manager.py,sha256=Msf3QHRa487-2bIDy8ILmHOVxZ4KJj3NZxMud6Kz5Vw,24221
+pipen_board/defaults.py,sha256=gAIoixMKnp3SpOCmz0J22iiy8UO-KWEPuEryoRDJhuU,5895
+pipen_board/frontend/build/assets/favicon.png,sha256=ezAIK9Qe-o6W124jtGnGb-gRuuYJGHL-yR8uYnU7Sy0,23628
+pipen_board/frontend/build/assets/index.css,sha256=OgmhgQ_BjoCdxdmVv2GdCjpHKJ-kJXQWySEd9_qgUqc,621843
+pipen_board/frontend/build/assets/index.js,sha256=Jkqjr9foIEB9JorA-reIZTyH-GI3SowV5Y7F_xsd2eE,734101
+pipen_board/frontend/build/assets/schema.json,sha256=m-eXClZZob6OuS4Mw7HQfNNtCJrv4EfGBVYKF9CQS-Q,4128
+pipen_board/frontend/build/index.html,sha256=wd8pP1YdaDPNsJ7Fn6B6Gfb36rACgWlBCPcBq4rBczc,406
+pipen_board/plugin.py,sha256=GYctquozdo4q067V9Bx7H1sCN4d0C5srT8zETqeMxiI,7556
+pipen_board/quart_app.py,sha256=5a69VXzoa9qXxcAWuEZeckZXdzZq-8IF9RKnQyeVdTw,3153
+pipen_board-0.0.10.dist-info/METADATA,sha256=1gneWkhQNdw66T14B06yI-JDJU6NUgOAY66HiFxnRV4,2557
+pipen_board-0.0.10.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+pipen_board-0.0.10.dist-info/entry_points.txt,sha256=9CCAS87lcg9Nwhb8LUADIJ9R7h_4FtY7CF2B4l4x6E8,101
+pipen_board-0.0.10.dist-info/RECORD,,
