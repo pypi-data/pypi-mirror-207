@@ -1,0 +1,3 @@
+[console_scripts]
+mobie = mobie:main
+
