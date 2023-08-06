@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: matcha-ml
+Version: 0.2.0
+Summary: Matcha: A open source tool for provisioning MLOps environments to the cloud.
+Home-page: http://fuzzylabs.github.io/matcha
+License: Apache-2.0
+Keywords: production,mlops,devops,machine learning
+Author: FuzzyLabs
+Author-email: info@fuzzylabs.ai
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: azure-identity (>=1.12.0,<2.0.0)
+Requires-Dist: azure-mgmt-authorization (>=3.0.0,<4.0.0)
+Requires-Dist: azure-mgmt-confluent (>=1.0.0,<2.0.0)
+Requires-Dist: azure-mgmt-resource (>=23.0.0,<24.0.0)
+Requires-Dist: azure-mgmt-subscription (>=3.1.1,<4.0.0)
+Requires-Dist: python-terraform (>=0.10.1,<0.11.0)
+Requires-Dist: pyyaml (>=5.4.1,<6.0.0)
+Requires-Dist: typer[all] (>=0.7.0,<0.8.0)
+Project-URL: Bug Tracker, https://github.com/fuzzylabs/matcha/issues
+Project-URL: Documentation, http://fuzzylabs.github.io/matcha
+Project-URL: Repository, https://github.com/fuzzylabs/matcha
+Description-Content-Type: text/markdown
+
+# `matcha` &#127861;
+
+Welcome to `matcha`, the open source tool for provisioning MLOps environments to the cloud.
+
+Data Scientists and practitioners build ML pipelines and productionize them with the following capabilities:
+
+* A way to run model training pipelines
+* A way to track experiments
+* A way to deploy and serve models
+
+The current version of `matcha` provisions the above with a single command, using sensible defaults for the infrastructure.
+
+More components could be added here, for example, managing and versioning datasets, managing models (registration and governance), and monitoring models. Adding all of these is on our roadmap.
+
+`matcha` uses open source to solve this problem.
+
+By default, `matcha` will `provision` an MLOps environment to Azure with sensible defaults - enough for you to get going with cloud-based training and deployment. From there, you can use `matcha` to `get` information about your provisioned environment.
+
+Please see the following for more information, including install instructions, documentation, and how you can contribute to `matcha`:
+
+* [Getting Started](https://fuzzylabs.github.io/matcha/getting-started/)
+* [Documentation](https://fuzzylabs.github.io/matcha/)
+* [Contributing](CONTRIBUTING.md)
+
+## Licence
+
+This library is released under the Apache License. See [LICENSE](LICENSE).
+
