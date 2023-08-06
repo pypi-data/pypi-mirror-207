@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: napalm-slx-os
+Version: 0.1.1
+Summary: SLX-OS Driver for NAPALM
+Author-email: Jens Vogler <vogler@init7.net>
+Project-URL: Homepage, https://github.com/Init7/napalm-slx-os
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: napalm (>=2.0.0)
+Provides-Extra: tests
+Requires-Dist: coveralls ; extra == 'tests'
+Requires-Dist: ddt ; extra == 'tests'
+Requires-Dist: flake8-import-order ; extra == 'tests'
+Requires-Dist: pytest (==7.2.2) ; extra == 'tests'
+Requires-Dist: pytest-cov (==4.0.0) ; extra == 'tests'
+Requires-Dist: pytest-json (==0.4.0) ; extra == 'tests'
+Requires-Dist: pytest-pythonpath ; extra == 'tests'
+Requires-Dist: pylama (==8.4.1) ; extra == 'tests'
+Requires-Dist: mock ; extra == 'tests'
+Requires-Dist: tox ; extra == 'tests'
+
+# napalm-slx_os
+
+SLX-OS driver for [NAPALM](https://github.com/napalm-automation/napalm)
+
+WIP - Open Source release coming soon
