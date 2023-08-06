@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: igi-lab3
+Version: 1.0
+Summary: library for python serialization
+Home-page: https://github.com/Tivlas/IGI-Labs-2023/tree/lab3/lab3
+Author: Timofey Vlasenko
+Author-email: tima051003@gmail.com
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+
