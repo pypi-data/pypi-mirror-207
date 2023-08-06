@@ -1,0 +1,72 @@
+# Data Visualization
+
+**Data Visualization** is a Python package that provides a Streamlit component for easy and interactive data visualization. This component allows you to create beautiful and insightful visualizations with just a few lines of code.
+
+## Features
+
+- **Chart Variety**: Utilize a wide range of chart types, including bar charts, pie charts, scatter charts, and heatmaps, to effectively convey data insights.
+- **Export Options**: Export charts as SVG, PNG, or PDF files, allowing for seamless integration into various platforms and documents.
+- **Chart Configuration**: Customize charts by adjusting parameters such as color schemes, labels, axes, and legends to specific requirements.
+
+## Installation
+
+You can install the **Data Visualization** package from PyPI using pip:
+
+```shell
+pip install bp-data-visualization
+```
+
+## Usage
+
+To use the Data Visualization component in your Streamlit application, follow these steps:
+
+1. Import the necessary modules:
+
+```shell
+import data_visualization as dv
+```
+
+1. Add the **Data Visualization** component to your application:
+
+```shell
+dv.data_visualizer(
+    title=title,
+    data=data,
+    key="data_visualizer",
+)
+```
+
+1. Run your Streamlit application:
+
+```shell
+streamlit run your_app.py
+```
+
+### Example
+
+```shell
+import data_visualization as dv
+
+data = [
+    {"id": 1, "lastName": "Snow", "firstName": "Jon", "age": 35},
+    {"id": 2, "lastName": "Lannister", "firstName": "Cersei", "age": 42},
+    {"id": 3, "lastName": "Lannister", "firstName": "Jaime", "age": 45},
+    {"id": 4, "lastName": "Stark", "firstName": "Arya", "age": 16},
+    {"id": 5, "lastName": "Targaryen", "firstName": "Daenerys", "age": 90},
+    {"id": 6, "lastName": "Melisandre", "firstName": "Tom", "age": 150},
+    {"id": 7, "lastName": "Clifford", "firstName": "Ferrara", "age": 44},
+    {"id": 8, "lastName": "Frances", "firstName": "Rossini", "age": 36},
+    {"id": 9, "lastName": "Roxie", "firstName": "Harvey", "age": 65},
+]
+
+dv.data_visualizer(
+     title="Data Visualization",
+     data=data,
+     key="data_visualizer",
+)
+
+```
+
+## Screenshot
+
+![Screenshot](https://i.ibb.co/PWpGN3K/Visuals.png "Screen Shot")
