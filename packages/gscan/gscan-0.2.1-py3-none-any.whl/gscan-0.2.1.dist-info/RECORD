@@ -1,0 +1,16 @@
+gscan/__init__.py,sha256=bw9CQKwXqUwzK8O-wHW6FLptfZ1nU2nzYkelM5_E2cU,48
+gscan/__version__.py,sha256=bRNxVlIRJdtuxNisY6bs8r2lZc4MGYvMPYw1oRHCPOk,62
+gscan/main.py,sha256=mDgxQNbtlLjvbxF5hQmkX0YoEy6Bddjcjj4YIQHvKcE,432
+gscan-0.2.1.data/data/bin/gscan-darwin-amd64,sha256=Zq-TnzQsVN50cAyowCXvEL1Lbq-ayK--KbmnAzQ5LFE,10555624
+gscan-0.2.1.data/data/bin/gscan-darwin-arm64,sha256=PwKlVITmx_AWiQrzhhjZn9YAuD0j5pQp2ez0-zV5Wxc,10556754
+gscan-0.2.1.data/data/bin/gscan-linux-386,sha256=6FNdy1c0jILllNOqeCPLCiVDtmDEApMYM18EcHUWbRs,9571844
+gscan-0.2.1.data/data/bin/gscan-linux-amd64,sha256=3S7dm30cMxlXbGj3sUgUAPUp4gNVYH84EUqWLL7l9nw,10700760
+gscan-0.2.1.data/data/bin/gscan-linux-arm64,sha256=g4DMml41kANvrGji8488XWnZVRrBEInYoPThyxh-l0U,10340184
+gscan-0.2.1.data/data/bin/gscan-windows-386.exe,sha256=dAgBeigiZd-DJ8Vdp-PPq8PVXPI0dRP-4LG8-tvrCEU,13375488
+gscan-0.2.1.data/data/bin/gscan-windows-amd64.exe,sha256=j7drqmChgfHdXZmaHV7-fimQczJrTQcR-vYPlt8jU9o,14376960
+gscan-0.2.1.dist-info/LICENSE,sha256=ZLiuJp4Xy-0W4V5PvnESeKWao6y2oJ1iKnIDLw4z_5I,1068
+gscan-0.2.1.dist-info/METADATA,sha256=o7HZMMDNypjtI3R34F0CN7ToQ4kd8mcYSEuOBY0KgPs,7117
+gscan-0.2.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+gscan-0.2.1.dist-info/entry_points.txt,sha256=dgd-Zfm9rV_M9wsno2he9FolgAjGUrx6PelZD-Rz3Ao,42
+gscan-0.2.1.dist-info/top_level.txt,sha256=CJehqGa81zi-4S0w3PNLxPn2z2uzyfWQFupw946Hsyo,6
+gscan-0.2.1.dist-info/RECORD,,
