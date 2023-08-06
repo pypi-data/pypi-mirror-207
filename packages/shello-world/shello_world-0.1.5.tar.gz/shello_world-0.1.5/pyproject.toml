@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "shello-world"
+version = "0.1.5"
+description = "A few simple Python functions allow you to run shell commands from your Python code"
+authors = ["numericmaestro <re5lyltx@duck.com>"]
+readme = "README.md"
+license = "0BSD"
+homepage = "https://github.com/numericmaestro/shello-world"
+repository = "https://github.com/numericmaestro/shello-world"
+keywords = ["shell"]
+classifiers = [
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Shells",
+    "Topic :: System :: System Shells",
+    "Topic :: System :: Systems Administration",
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: Microsoft :: Windows :: Windows 11",
+    "Operating System :: Microsoft :: Windows :: Windows 10",
+    "Operating System :: Microsoft :: Windows :: Windows 8.1",
+    "Operating System :: Microsoft :: Windows :: Windows 8"
+]
+include = [
+    "LICENSE"
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
