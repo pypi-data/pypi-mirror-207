@@ -1,0 +1,10 @@
+setup.py,sha256=7lFrldLEej_pfAZrdg2ZwhhYxdmVnu3mr5of2XycBQE,957
+pdf2doi/__init__.py,sha256=238_vXxQK9i3uA4UZTJCU3QfuiRED6f3zoj3FR6Zpik,1437
+pdf2doi/config.py,sha256=xpNXsYQpA0oczvoysHgDCqaz43TLNQJ1myvt1NbgMiw,5751
+pdf2doi/find_title_via_pymupdf.py,sha256=KwIjguAQgshmnHmd0rjSEftJ3-98geamOJl-ukeTmdg,5678
+pdf2doi/finders.py,sha256=grxWZBoKzPRl0KgN55U-lRGI2KvONSIDgJSXxDrKSOY,34520
+pdf2doi/main.py,sha256=0KErXWGSrdl_-HsptlW8yUwF8gJ5CTO96DrVsul_IlI,8263
+pdf2doi/patterns.py,sha256=KTnHsWMWKuNgzMsd0X_v9UtyIocrBnDOBZYZNE2LacY,5909
+pdf2doi4frappe_library-0.0.1.dist-info/METADATA,sha256=26HobDXvGgRQxEn64HlQGMRsurv0OvtRYvpRDamuaoE,953
+pdf2doi4frappe_library-0.0.1.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+pdf2doi4frappe_library-0.0.1.dist-info/RECORD,,
