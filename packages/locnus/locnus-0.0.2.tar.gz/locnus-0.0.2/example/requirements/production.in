@@ -1,0 +1,10 @@
+crispy-bootstrap5
+Django
+django-debug-toolbar
+django-environ
+django-extensions
+gunicorn
+httpx
+Mastodon.py
+psycopg[binary,pool]
+whitenoise
