@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: django-auxiliaries
+Version: 4.1.0
+Summary: Helpful code for managing Django app dependencies and other useful utilities when developing with Django.
+Home-page: https://github.com/high-dimensional/django-auxiliaries
+Author: High Dimensional Neurology Group, UCL
+Author-email: pypi@highdimensional.net
+License: BSD-3-Clause
+Platform: any
+Classifier: Framework :: Django
+Classifier: Framework :: Wagtail
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: ~=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+License-File: AUTHORS.txt
+
+django-auxiliaries
+==================
+
+A diverse collection of methods, classes and modules we find useful when developing for Django (and Wagtail). Please bear with us while we prepare more detailed documentation.
+
+Compatibility
+-------------
+
+`django-auxiliaries`' major.minor version number indicates the Django release it is compatible with. Currently this is Django 4.1.
+
+Installation
+------------
+
+1. Install using `pip`:
+  ```shell
+  pip install django-auxiliaries
+  ```
+2. If you use functional that requires an app (such as tags), add
+   `django_auxiliaries` to your `INSTALLED_APPS` setting:
+   ```python
+   INSTALLED_APPS = [
+     # ...
+     'django_auxiliaries'
+     # ...
+   ]
+   ```
+
+
