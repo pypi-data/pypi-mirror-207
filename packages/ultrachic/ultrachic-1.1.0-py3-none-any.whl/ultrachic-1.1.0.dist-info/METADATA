@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ultrachic
+Version: 1.1.0
+Summary: Benchmarking SCHC on the nRF5340
+Author: Thomas Watteyne
+Author-email: thomas.watteyne@inria.fr
+Project-URL: Source Code, https://github.com/veryverychic/ultrachic/
+Project-URL: Bug Tracker, https://github.com/veryverychic/ultrachic/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: happyserial
+
