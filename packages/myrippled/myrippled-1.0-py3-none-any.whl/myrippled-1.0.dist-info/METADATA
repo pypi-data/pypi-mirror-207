@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: myrippled
+Version: 1.0
+Summary: Rippled network setup and test packages
+Home-page: https://gitlab.ops.ripple.com/xrpledger/xrpl-nocode-automation
+Author: RSG
+Author-email: rsg@ripple.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+myrippled README here
