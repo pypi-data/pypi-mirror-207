@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+spec_pilot/__init__.py
+spec_pilot/generator.py
+spec_pilot/language_processor.py
+spec_pilot/main.py
+spec_pilot/prompt_builder.py
+spec_pilot/validator.py
+spec_pilot.egg-info/PKG-INFO
+spec_pilot.egg-info/SOURCES.txt
+spec_pilot.egg-info/dependency_links.txt
+spec_pilot.egg-info/entry_points.txt
+spec_pilot.egg-info/requires.txt
+spec_pilot.egg-info/top_level.txt
