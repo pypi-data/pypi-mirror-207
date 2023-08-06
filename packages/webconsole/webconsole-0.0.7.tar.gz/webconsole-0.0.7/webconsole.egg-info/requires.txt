@@ -1,0 +1,4 @@
+websockets==10.4
+docker==5.0.0
+setuptools==65.6.3
+paramiko==3.1.0
