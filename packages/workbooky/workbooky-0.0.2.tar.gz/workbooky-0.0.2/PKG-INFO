@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: workbooky
+Version: 0.0.2
+Summary: """A collection of modules that supports workbooks with openpyxl."""
+Home-page: https://psionman@bitbucket.org/psionman/bfgdealer.git
+Download-URL: https://pypi.org/project/bfgdealer/
+Author: jeff watkins
+Author-email: support@bidforgame.com
+License: MIT
+Keywords: cli,input
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# workbooky
+
+A module to facilitate opening amd using worlbooks with openpyxl.
+
+## Installation
+
+```bash
+pip install workbooky
+```
+
+
+# Version History
+
+Version 0.0.2 10 May 2023
+
+1. Added path to save()
+
+------
+
+Version 0.0.1 10 May 2023
+
+1. Added workbook save
+
+------
+
+Version 0.0.0 10 May 2023
+
+1. Initial version
+
+------
