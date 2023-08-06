@@ -1,0 +1,13 @@
+{% load static wagtailcore_tags %}
+<article {% if self.block.meta.classname %}class="{{ self.block.meta.classname }}"{% endif %}>
+<h3>[{{ value.record.key }}]</h3>
+<h1>{{ value.title }}</h1>
+{% include_block value.dates %}
+{% include_block value.authors %}
+{% include_block value.tags %}
+{% include_block value.description %}
+<h2 id="requirements">Requirements</h2>
+{% include_block value.requirements %}
+<h2 id="resources">Resources</h2>
+{% include_block value.resources %}
+</article>

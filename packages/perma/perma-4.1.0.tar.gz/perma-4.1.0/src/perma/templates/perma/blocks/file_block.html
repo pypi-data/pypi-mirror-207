@@ -1,0 +1,7 @@
+{% load wagtailcore_tags tour_guide_tags %}
+{% block content %}
+{% define_anchor 'generic' value.identifier level=0 as anchor_id %}
+<span id="{{ anchor_id }}" class="record-file-name">{{ value.name }} [<span class="record-file-identifier">{{ value.identifier }}</span>]:</span>
+<span class="record-file-description">{{ value.description }}</span>
+<span class="record-file-location"><a href="{{ value.location.as_url }}">{{ value.location.as_url }}</a> [<span class="record-file-size">{{ value.file_size|filesizeformat }}</span>]</span>
+{% endblock %}

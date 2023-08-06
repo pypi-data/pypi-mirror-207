@@ -1,0 +1,4 @@
+{% load wagtailcore_tags %}
+{% for stream_child in value %}
+{% include_block stream_child.value %}
+{% endfor %}

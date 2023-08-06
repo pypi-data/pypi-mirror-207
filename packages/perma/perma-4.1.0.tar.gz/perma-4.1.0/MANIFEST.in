@@ -1,0 +1,7 @@
+include src/perma/static/perma/js/*
+
+include src/perma/templates/perma/*
+include src/perma/templates/perma/tags/*
+include src/perma/templates/perma/blocks/*
+
+recursive-exclude * .DS_Store *.pyc
