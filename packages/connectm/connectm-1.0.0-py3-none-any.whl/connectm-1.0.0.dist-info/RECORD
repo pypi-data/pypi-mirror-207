@@ -1,0 +1,11 @@
+bot.py,sha256=rshQCkUdjP-HJiqPGZSO5YxmA8mil22VCimPh60JOH4,6609
+connectm.py,sha256=EO3Dp51Mt5cbpa1SjKMSsQw5VCFRTgSnD3UIrcuWk2M,13374
+gui.py,sha256=CxGise396HjVXQIVnIpeBBAA4Pbu_dJ86ygR9fNVvas,7083
+mocks.py,sha256=A-Je3ycydwoMsawLvkCYE0i8QHB28umzteiHeyHe-CU,4766
+tui.py,sha256=qDtp0nzcNDotsCQeMkcTfCsFp7MGO72HYolL7RB9Jwc,5977
+connectm-1.0.0.dist-info/LICENSE,sha256=sfJ5_IyDML31kjAOV-tMvJmJNrnFtLyO-99xQL2Sfm0,1507
+connectm-1.0.0.dist-info/METADATA,sha256=CPPmEviQV2paKwHBxezeRd7ATietLTkLUgKwjtykO6Y,5833
+connectm-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+connectm-1.0.0.dist-info/entry_points.txt,sha256=yJ8Buty3RuJE4VQGvYEuR9tRf9sVBDQzygMro0g6n5s,87
+connectm-1.0.0.dist-info/top_level.txt,sha256=DjFn3IQpK0AcdhLFGlY6YY_LE98mJ9B_9HT55RodcIQ,27
+connectm-1.0.0.dist-info/RECORD,,
