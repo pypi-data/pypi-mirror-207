@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "periodic-element-properties"
+version = "0.1.5"
+description = "This package contains information about periodic elements and their properties"
+authors = ["Prithivee7 <getprithivee@gmail.com>"]
+readme = "README.md"
+packages = [{include = "periodic_element_properties"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pandas = "^2.0.1"
+pytest = "^5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
