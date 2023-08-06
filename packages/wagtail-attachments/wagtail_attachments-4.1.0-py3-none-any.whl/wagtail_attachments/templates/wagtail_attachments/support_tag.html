@@ -1,0 +1,18 @@
+{% load static %}
+{% for stylesheet in stylesheet_urls %}
+<link rel="stylesheet" type="text/css" href="{{ stylesheet|urlencode }}">
+{% endfor %}
+{% for stylesheet in stylesheets %}
+<style type="text/css">
+{{ stylesheet }}
+</style>
+{% endfor %}
+{% for script in script_urls %}
+<script type="text/javascript" src="{{ script|urlencode }}"></script>
+{% endfor %}
+{% for script in scripts %}
+<script type="text/javascript">
+{{ script }}
+</script>
+{% endfor %}
+
