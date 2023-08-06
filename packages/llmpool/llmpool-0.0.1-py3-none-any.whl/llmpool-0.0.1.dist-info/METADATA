@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: llmpool
+Version: 0.0.1
+Summary: Large Language Models' pool management library
+Home-page: https://github.com/deep-diver/LLM-Pool
+Author: chansung park
+Author-email: deep.diver.csp@gmail.com
+Keywords: LLM,instance pool,management
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: transformers
+Requires-Dist: optimum
+Requires-Dist: peft
+Requires-Dist: text-generation
+Requires-Dist: accelerate
+Requires-Dist: bitsandbytes
+
+# LLM-Pool
+
+![](https://i.ibb.co/my2tf27/overview.png)
