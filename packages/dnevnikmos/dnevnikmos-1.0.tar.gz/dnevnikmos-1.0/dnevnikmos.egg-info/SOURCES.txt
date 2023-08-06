@@ -1,0 +1,14 @@
+README.md
+setup.py
+dnevniklib/__init__.py
+dnevniklib/errors.py
+dnevniklib/homeworks.py
+dnevniklib/lessons.py
+dnevniklib/marks.py
+dnevniklib/school.py
+dnevniklib/user.py
+dnevniklib/user_token_getter.py
+dnevnikmos.egg-info/PKG-INFO
+dnevnikmos.egg-info/SOURCES.txt
+dnevnikmos.egg-info/dependency_links.txt
+dnevnikmos.egg-info/top_level.txt
