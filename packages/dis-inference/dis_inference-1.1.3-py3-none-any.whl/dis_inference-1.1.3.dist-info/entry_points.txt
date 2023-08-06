@@ -1,0 +1,2 @@
+[console_scripts]
+dis-inference = dis_inference.cli:dis_inference
