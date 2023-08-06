@@ -1,0 +1,15 @@
+petriflow/__init__.py,sha256=7lcao5OX_8-KMjLXC6D4lFsgV37ZzSbGwGL3x-UcvKk,1157
+petriflow/xml_classes.py,sha256=WwcT8fAPNV0NE6SpMcoLg7xqwmtMmIGcSsMQ_AgEn7U,663781
+petriflow/xml_subclasses.py,sha256=kNU9jubDNjsQH9zzmvljfifO2ZDZlFEx4ouuN_N4_Js,29221
+resources/hypouver.xml,sha256=ceSOe7QFYp-Kt9PFGcBv1djLVOGsDZe1A30LXIdAxv0,20162
+resources/missing_type_hypouver.xml,sha256=dt9Svo2G45KBURKWoWqzBozhDxzxFfekDcQin8c89m4,20150
+resources/new_model.xml,sha256=ZhLRNq_sNp4nPTDQKo_WWWVJ34NHR3BdvhWSmyWNHqE,1956
+resources/petriflow.schema.wrong.xsd,sha256=ygNBiYhf60dXJ2kwGWwTqhSn1TqUWqUVJDXUFufj31c,34961
+resources/petriflow.schema.xsd,sha256=oLQlvajkG-nnKE1EVkLtT-kEdspBPdZTpH8cQrHoUX8,34740
+resources/wrong_initials_hypouver.xml,sha256=fVCWAkRKOiAZPU_eTzYUkNK30BngGsQKK5IXxWWWcBc,20154
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/xml_classes_tests.py,sha256=BOBNO2EA_ppjkzCYxVQAR31zJbkr40yO0e_VW3ZOiMI,206067
+petriflowLibrary-1.0.1.dist-info/METADATA,sha256=E8AoXUwIRpoB9tgbC7OvfxR-xqowmgrEpi84kBbK-sA,7418
+petriflowLibrary-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+petriflowLibrary-1.0.1.dist-info/top_level.txt,sha256=5KbLycWlrdPjSkFHuwVbcapwbWJtWvgvjN2RpuXjW9k,26
+petriflowLibrary-1.0.1.dist-info/RECORD,,
