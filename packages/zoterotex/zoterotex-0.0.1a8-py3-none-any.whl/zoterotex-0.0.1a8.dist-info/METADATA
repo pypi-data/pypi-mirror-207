@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: zoterotex
+Version: 0.0.1a8
+Summary: Syncing Zotero with 
+Author-email: Robert Gale <rcgale@gmail.com>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: pyzotero (~=1.5)
+Requires-Dist: bibtexparser (~=1.4)
+
