@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: most-queue
+Version: 1.1
+Summary: Software package for calculation and simulation of queuing systems
+Home-page: https://github.com/xabarov/mps
+Author: Xabarov Roman
+Author-email: xabarov1985@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Text Processing :: Linguistic
+License-File: LICENSE
+
+UNKNOWN
+
