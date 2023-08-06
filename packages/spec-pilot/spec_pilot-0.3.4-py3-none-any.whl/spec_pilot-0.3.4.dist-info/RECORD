@@ -1,0 +1,12 @@
+spec_pilot/__init__.py,sha256=9EVxmFiWsAoqWJ6br1bc3BxlA71JyOQP28fUHhX2k7E,43
+spec_pilot/generator.py,sha256=mBPIAKJL27EmR8bwuHooULo6tG0jC5kZNPxwSGpLvD0,2274
+spec_pilot/language_processor.py,sha256=1YTGXbY3hX8Qxy4nDwf6GRZBU2n2OIh8gYHQ71QXM5I,3146
+spec_pilot/main.py,sha256=RDa739J4lEmxxTds3Hug14eKUuVqtuLApd47hcDVprQ,2185
+spec_pilot/prompt_builder.py,sha256=gLnAqJSBTS5ZnWaW7auQSeNh2K6cFNxL5Gm3NvMiDhg,3135
+spec_pilot/validator.py,sha256=jFXqfk3ySSSQU1zoZdK0GOq_0heYA3w9yoB5jtw-AAk,1344
+spec_pilot-0.3.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+spec_pilot-0.3.4.dist-info/METADATA,sha256=r_j2HhxPMyctjA4jyV6EEg5bwS1lIXX9cYf7ZC6-eRw,4235
+spec_pilot-0.3.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+spec_pilot-0.3.4.dist-info/entry_points.txt,sha256=kJBnEwjJwDWlmvGUwb_SmyyyUYn7TA3U62UFVTqUec0,52
+spec_pilot-0.3.4.dist-info/top_level.txt,sha256=qZD6p_6hhw2PZke2x-HN8HIwD1me0wtJug-JIgdkoZY,11
+spec_pilot-0.3.4.dist-info/RECORD,,
