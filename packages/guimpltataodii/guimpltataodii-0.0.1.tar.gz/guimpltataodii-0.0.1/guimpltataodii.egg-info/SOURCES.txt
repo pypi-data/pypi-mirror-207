@@ -1,0 +1,6 @@
+setup.py
+guimpltataodii.egg-info/PKG-INFO
+guimpltataodii.egg-info/SOURCES.txt
+guimpltataodii.egg-info/dependency_links.txt
+guimpltataodii.egg-info/requires.txt
+guimpltataodii.egg-info/top_level.txt
