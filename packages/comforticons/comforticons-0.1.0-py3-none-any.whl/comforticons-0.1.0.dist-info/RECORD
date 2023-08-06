@@ -1,0 +1,13 @@
+comforticons/__init__.py,sha256=lEnZxzjnE0ty_L_YtC-1Kageovw7jHS-BfBp9kl91iY,245
+comforticons/__main__.py,sha256=Ves49wtX1_-YoidIu5-H35tLQWbfKFZUfgHv-O13PPU,157
+comforticons/generators/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+comforticons/generators/base.py,sha256=jLPk5lqaFqQdaRu6NRVUBpjrL8Hmrx6luPlyBy1Eyrw,1430
+comforticons/generators/image.py,sha256=x3ryTE63Kl-JiobsxDXsPVJojFkBrOfPKqtbb1CfvwM,10670
+comforticons/generators/text.py,sha256=fyVL7Q27pTPmE6Sp8gXWPDMoH99ZWoCwelDcXLNS6Tg,297
+comforticons/main.py,sha256=3wC7pqxqRk6Ci0WHmjnXeYywPkzyAZWaruR7tZI8Rzw,2641
+comforticons/preprocessors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+comforticons/preprocessors/base.py,sha256=aDPI5pqzI4sj2LT8H0vXOSiPwozmxCPeCtt8YYbeMEY,1058
+comforticons/preprocessors/hash.py,sha256=X8WHnv-tl2wSzQUnzxWH-DppVbjcoLk9Dq3a2wdX4p8,2259
+comforticons-0.1.0.dist-info/METADATA,sha256=3UiPHjDR5Y_C5iDc9W_QmhRx2_gtWFLB5D_f40O_WLA,4213
+comforticons-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+comforticons-0.1.0.dist-info/RECORD,,
