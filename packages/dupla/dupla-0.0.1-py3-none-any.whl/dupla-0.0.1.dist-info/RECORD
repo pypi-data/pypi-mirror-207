@@ -1,0 +1,13 @@
+dupla/__init__.py,sha256=iyE36ydIQtxdZx_t1hCLLkGXfZH0xXLPM-6lcabLp4E,197
+dupla/_version.txt,sha256=5mNQReHSR47EynEtjA4d_O-Lt7Wx6OO7Vg03_jmannI,6
+dupla/base.py,sha256=Y1NkdbwdOhCyo_qJWFhl-g7XMU6Z2zceOI-CHw2fZ1I,6713
+dupla/dupla.py,sha256=_d_q5jexOG7ic-ZdaPvBidD_vhhKPFaXl_1UVPe_0Uk,3427
+dupla/endpoint.py,sha256=K5kHFOeqIf6-K7AoM7ZPHqYjKNPxfn2-n838MWu7gJU,9077
+dupla/exceptions.py,sha256=KiC61pAc-RNjBy3f4I2MJaXDxeK_Dak3oMFlvVqQ4WU,389
+dupla/validation.py,sha256=6rO9NnkuH6NObJi1ht7xXr_pCDgGx_HwSIHKhYkNpKQ,772
+dupla/version.py,sha256=Qmvo2d2TVqEmJW6QIuAUhMI6F4-60yv0GVIboLLj4F0,274
+dupla-0.0.1.dist-info/LICENSE,sha256=9S66wxDmcbSSegCBL5lpmVS461WwVXayGBuMlFpFidk,11303
+dupla-0.0.1.dist-info/METADATA,sha256=5lrhr386QMNlaYrbpccXKiGnFY6BB3V5S7j6R9Vk9I8,4427
+dupla-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+dupla-0.0.1.dist-info/top_level.txt,sha256=qoKf2m4JLORu6dL40fDv0od7F1P_1daxSM9aJUY4wCA,6
+dupla-0.0.1.dist-info/RECORD,,
