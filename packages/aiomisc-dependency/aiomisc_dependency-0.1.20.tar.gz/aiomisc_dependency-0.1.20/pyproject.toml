@@ -1,0 +1,101 @@
+[tool.poetry]
+name = "aiomisc-dependency"
+version = "17.0.0"
+description = "aiomisc-dependency - dependency injection in aiomisc"
+authors = ["Yuri Shikanov <dizballanze@gmail.com>"]
+readme = "README.rst"
+license = "MIT"
+homepage = "https://github.com/aiokitchen/aiomisc-dependency"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Framework :: AsyncIO",
+    "Framework :: Pytest",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: MacOS",
+    "Operating System :: POSIX",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development",
+    "Typing :: Typed",
+]
+packages = [
+    { include = "aiomisc_dependency" },
+]
+
+[tool.poetry.urls]
+"Source" = "https://github.com/aiokitchen/aiomisc-dependency"
+"Tracker" = "https://github.com/aiokitchen/aiomisc-dependency/issues"
+"Documentation" = "https://github.com/aiokitchen/aiomisc-dependency/blob/master/README.rst"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+aiomisc = "^17.1"
+
+[tool.poetry.group.dev.dependencies]
+coverage = "^4.5.3"
+coveralls = "*"
+pylava = "*"
+pytest = "*"
+pytest-cov = "^2.5.1"
+tox = "^2.4"
+aiomisc-pytest = "^1.1.1"
+
+[tool.poetry.group.uvloop.dependencies]
+uvloop = "^0.17.0"
+
+[tool.poetry.extras]
+aiohttp = ["aiohttp"]
+asgi = ["aiohttp-asgi"]
+carbon = ["aiocarbon"]
+cron = ["croniter"]
+raven = ["aiohttp", "raven"]
+rich = ["rich"]
+uvloop = ["uvloop"]
+
+[tool.poetry.plugins.aiomisc]
+systemd_watchdog = "aiomisc.service.sdwatchdog"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.mypy]
+check_untyped_defs = true
+disallow_any_generics = false
+disallow_incomplete_defs = true
+disallow_subclassing_any = true
+disallow_untyped_calls = true
+disallow_untyped_decorators = true
+disallow_untyped_defs = true
+follow_imports = "silent"
+no_implicit_reexport = true
+strict_optional = true
+warn_redundant_casts = true
+warn_unused_configs = true
+warn_unused_ignores = true
+files = [
+    "aiomisc_dependency",
+    "tests",
+]
+
+[[tool.mypy.overrides]]
+module = ["tests.*"]
+check_untyped_defs = true
+disallow_incomplete_defs = false
+disallow_untyped_calls = false
+disallow_untyped_decorators = false
+disallow_untyped_defs = false
