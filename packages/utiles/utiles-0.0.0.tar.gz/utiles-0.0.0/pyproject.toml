@@ -1,0 +1,89 @@
+[tool.poetry]
+name = "utiles"
+version = "0.0.0"
+description = "utiles = utils + tiles + rust"
+license = "MIT"
+authors = ["jesse <jessekrubin@gmail.com>"]
+readme = 'README.md'
+packages = [
+  { include = "utiles", from = "." },
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Typing :: Typed",
+]
+keywords = [
+  "tiles",
+  "mercantile",
+  "rust",
+  "typed",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.3.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = [
+  "-ra",
+  "--strict-config",
+  "--strict-markers",
+  "--doctest-modules",
+  "--disable-warnings",
+  "--ignore-glob=*/_meta.py",
+]
+xfail_strict = true
+filterwarnings = [
+  "error",
+  'ignore:"@coroutine" decorator is deprecated since Python 3\.8, use "async def" instead:DeprecationWarning',
+  "ignore::RuntimeWarning",
+  "ignore::pytest.PytestUnraisableExceptionWarning",
+]
+markers = [
+  "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+  "timeout",
+]
+
+[tool.coverage.run]
+branch = true
+source = ['utiles']
+omit = [
+  '_meta.py',
+]
+
+[tool.coverage.report]
+precision = 2
+show_missing = true
+# Regexes for lines to exclude from consideration
+exclude_lines = [
+  '@overload',
+  # Re-enable the standard pragma (with extra strictness)
+  '# pragma: no cover\b',
+  # Code for static type checkers
+  'if TYPE_CHECKING:',
+  # Scripts
+  'if __name__ == .__main__.:',
+  'if 0:',
+  'if sys.version_info < (3, 7):',
+  'if sys.version_info >= (3, 8):',
+  'pragma: no cover',
+  'pragma: nocov',
+]
+
+[tool.ruff]
+extend = "../../pyproject.toml"
