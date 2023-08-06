@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: video-subtitles
+Version: 1.0.0
+Summary: Creates Video Subtitles
+Home-page: https://github.com/zackees/video-subtitles
+Maintainer: Zachary Vorhies
+License: BSD 3-Clause License
+Keywords: template-python-cmd
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: download
+Requires-Dist: srtranslator
+
+# video-subtitles
+
+Adds subtitles to a movie.
+
+[![Linting](https://github.com/zackees/video-subtitles/actions/workflows/lint.yml/badge.svg)](https://github.com/zackees/video-subtitles/actions/workflows/lint.yml)
+
+[![MacOS_Tests](https://github.com/zackees/video-subtitles/actions/workflows/push_macos.yml/badge.svg)](https://github.com/zackees/video-subtitles/actions/workflows/push_macos.yml)
+[![Ubuntu_Tests](https://github.com/zackees/video-subtitles/actions/workflows/push_ubuntu.yml/badge.svg)](https://github.com/zackees/video-subtitles/actions/workflows/push_ubuntu.yml)
+[![Win_Tests](https://github.com/zackees/video-subtitles/actions/workflows/push_win.yml/badge.svg)](https://github.com/zackees/video-subtitles/actions/workflows/push_win.yml)
+
+Run tox until it's correct.
+
+To develop software, run `. ./activate.sh`
+
+# Windows
+
+This environment requires you to use `git-bash`.
+
+# Linting
+
+Run `./lint.sh` to find linting errors using `ruff`, `pylint`, `flake8` and `mypy`.
