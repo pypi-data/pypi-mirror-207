@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+src/bpg400/__init__.py
+src/bpg400/bpg400.py
+src/bpg400/bpg400cli.py
+src/pybpg400_tspspi.egg-info/PKG-INFO
+src/pybpg400_tspspi.egg-info/SOURCES.txt
+src/pybpg400_tspspi.egg-info/dependency_links.txt
+src/pybpg400_tspspi.egg-info/entry_points.txt
+src/pybpg400_tspspi.egg-info/requires.txt
+src/pybpg400_tspspi.egg-info/top_level.txt
