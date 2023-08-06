@@ -1,0 +1,10 @@
+permmod/__init__.py,sha256=xTgiwg1oS5twuwQHYPuqqtrODIYyS4snyzcPIoMdnCQ,216
+permmod/import_data.py,sha256=wjh5ulplkCo-P4E2nlz9MdCFfqSlksxavaB7F-LsNYw,12009
+permmod/linear_system.py,sha256=BOYhouYCB9h5RpY3qzP8X2JedAn5Y57_QwpN4ANDr0Y,5769
+permmod/measurement.py,sha256=WpaO-Ff4enAsJoo0xZ9wWo1XW__wL2xHrza_5YQE4uw,7858
+permmod/optimize.py,sha256=sTTYuqvHIycqk_BAFcjM3h1_RDSl40HFpyoBtPldpD8,2737
+permmod/plots.py,sha256=lKks0pdFXrPiPgUrsU_muTFIlYy8z03iTQ55azq4mbo,11751
+permmod-0.3.dist-info/METADATA,sha256=XNKvOMPLRKvA6QwdGXN_1tKcBQkew8bQmkGAvP23MHQ,2043
+permmod-0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+permmod-0.3.dist-info/top_level.txt,sha256=eDf4LG9LULUBXTEodHNqzulT_OUPemusHmXE8qmSx5s,8
+permmod-0.3.dist-info/RECORD,,
