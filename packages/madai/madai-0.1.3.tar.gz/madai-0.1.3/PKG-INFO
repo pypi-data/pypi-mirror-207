@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: madai
+Version: 0.1.3
+Summary: 
+Author: sobamchan
+Author-email: oh.sore.sore.soutarou@gmail.com
+Requires-Python: >=3.9,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: nltk (>=3.8.1,<4.0.0)
+Requires-Dist: pyvi (>=0.1.1,<0.2.0)
+Requires-Dist: scipy (>=1.10.1,<2.0.0)
+Requires-Dist: sienna (>=0.2.2,<0.3.0)
+Requires-Dist: spacy (>=3.5.2,<4.0.0)
+Description-Content-Type: text/markdown
+
+# madai
+
+Compute difference between two corpus by using chi2.
+Implementation is based on [Measures for Corpus Similarity and Homogeneity](https://aclanthology.org/W98-1506).
+
+I am not fully sure if this implementation is perfectly follow this paper.
+Feel free to make issues to point out some problems if you find.
+
+## Installation
+
+```
+pip install madai
+```
+
+## Usage
+
+Two target corpus need to be text files, each line containing one document/sentence.
+
+```
+madai /path/to/corpus/a /path/to/corpus/b
+```
+
+To view parameters, run,
+```
+madai --help
+```
+
