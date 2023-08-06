@@ -1,0 +1,10 @@
+robot_description_builder-0.0.1.dist-info/METADATA,sha256=JDD7-wdVExP56iMEnpRQ55YZh5_ng0V-0zyIxueC1Gg,673
+robot_description_builder-0.0.1.dist-info/WHEEL,sha256=YLbnB441__j9y7e1wHt0o5mO3kjIEWgGspBBTMuSQk8,109
+robot_description_builder-0.0.1.dist-info/license_files/LICENSE,sha256=k_F_lBt-Q73CFjrUJ-AhkoPFH1svU6uEmh4Vtq9Hl7I,1073
+robot_description_builder/__init__.py,sha256=xnCl1298LwCn9aj-08gK-EfiC5MEn4hpm4ztZnyk6Uo,578
+robot_description_builder/link/visual.py,sha256=EWzorlV6rzM-pMPFdDbFdlsV0lDj_F-t-2AvsGPUOM4,46
+robot_description_builder/link/collision.py,sha256=hx366N4FFVhOrkedtypfE6zW2bI2X7NaVBPZD3C90zY,52
+robot_description_builder/link/__init__.py,sha256=BadVe0ASsTMOTE9aG-7TGGbgwIFo4bneEE8jvIAOruo,225
+robot_description_builder/link/geometry.py,sha256=sAYOGJq6hgmxb7-sTFn47cXqo_LkdKkNDJCr0Zcp41M,111
+robot_description_builder/_internal.cpython-310-x86_64-linux-gnu.so,sha256=i3pPDJsOxMSe8edlWdtFO92S-V_13CADr5VjqWZya14,880040
+robot_description_builder-0.0.1.dist-info/RECORD,,
