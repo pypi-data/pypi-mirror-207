@@ -1,0 +1,9 @@
+src/__init__.py,sha256=8QcmP2mBuo3G5nD5nUL0rYv33Gm1NJJWUUVLAg_dgnw,240
+src/model_components.py,sha256=O5IuIqe-kDric9r5kmjptAE_0N4vOxgvaOMRYD6-MGk,11792
+src/model_ensemble.py,sha256=XMULZlsBAoOibvW_QFQCxAtt4y1vs7YY5IeqN7GE2hE,33378
+src/wavenet_decoder.py,sha256=uAbqvUlEwQI-9GNSkqyQvyOCGbYrPEmXsvTT0qnOLWo,9691
+ProtWave_VAE-0.0.1.dist-info/LICENSE,sha256=LsCH_RXbYTcXu5dc_bJW5p87a2ndCgnhFbjgMiBCSCo,1070
+ProtWave_VAE-0.0.1.dist-info/METADATA,sha256=h1FjOaD2BhouPvmBwekEyU1e6MnFNR7xLNJ8sbyJ2Nc,600
+ProtWave_VAE-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ProtWave_VAE-0.0.1.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+ProtWave_VAE-0.0.1.dist-info/RECORD,,
