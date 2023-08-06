@@ -1,0 +1,11 @@
+markl/__init__.py,sha256=v5OzGf8TELpJUSD3pSXbfS_MDp9q05zZLuY6GNrEZEI,109
+markl/config.py,sha256=ZFA8xYvNJ_pojqXUpTOLhd7b0gVVHYev6CI8hvgMf_g,174
+markl/get_tsxs.py,sha256=sYW1xuVoWddNqvZqcZ8hu5lROr1QrZT0FtOUqNvM7cY,205
+markl/mark.py,sha256=1wV4d2wZ1nhZHWbBwydr47Tvf_5LMbiCLeeNqNrTMTg,912
+markl/rollback.py,sha256=nAijutUAUS9sFURgN6VgV67yzsghFJlaJl-HmODe-38,902
+markl-0.0.4.dist-info/LICENSE,sha256=igiPC_Gwn9enpFZhIosY4G-OIcDuFKb0PS_Ri74b8bI,11345
+markl-0.0.4.dist-info/METADATA,sha256=0ssnolW95PNhO9buKE9TeRkJ0plOQ0GZ9rBXvBAkr40,774
+markl-0.0.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+markl-0.0.4.dist-info/entry_points.txt,sha256=4LTgXUJcrRfxsNE5YWuepoOnF0KpiS58CbAnX7c8ULU,72
+markl-0.0.4.dist-info/top_level.txt,sha256=Nv6PnENR-CG-m-Aah9hH2ukAbxlR4v1e9R_A3yu7CCY,6
+markl-0.0.4.dist-info/RECORD,,
