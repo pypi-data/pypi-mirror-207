@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: seqsum
+Version: 0.0.1
+Summary: Test
+Author-email: Bede Constantinides <bedeabc@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: defopt
+Requires-Dist: xxhash
+Requires-Dist: pyfastx
+Project-URL: Home, https://github.com/bede/seqsum
